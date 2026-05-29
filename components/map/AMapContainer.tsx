@@ -29,40 +29,77 @@ export default function AMapContainer() {
   const { currentStage, setMapRef } = useSuShiStore();
 
   /**
-   * 初始化地图
+   * 初始化地图（只执行一次）
    */
-  const initMap = useCallback(async () => {
+  useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
 
-    const AMapLoader = (await import('@amap/amap-jsapi-loader')).default;
-    const AMap = await AMapLoader.load({
-      key: process.env.NEXT_PUBLIC_AMAP_KEY || '',
-      version: '2.0',
-      plugins: ['AMap.MarkerClusterer', 'AMap.GeoJSON'],
-    });
+    let destroyed = false;
 
-    // 安全代理：高德 JS API 通过 /api/_AMapService 转发
-    (window as any)._AMapSecurityConfig = {
-      serviceHost: '/api/_AMapService',
+    (async () => {
+      const AMapLoader = (await import('@amap/amap-jsapi-loader')).default;
+      const AMap = await AMapLoader.load({
+        key: process.env.NEXT_PUBLIC_AMAP_KEY || '',
+        version: '2.0',
+        plugins: ['AMap.MarkerClusterer', 'AMap.GeoJSON'],
+      });
+
+      if (destroyed) return;
+
+      // 安全代理：高德 JS API 通过 /api/_AMapService 转发
+      (window as any)._AMapSecurityConfig = {
+        serviceHost: '/api/_AMapService',
+      };
+
+      // 创建地图实例
+      const map = new AMap.Map(containerRef.current, {
+        zoom: 5,
+        center: [104.5, 32.0], // 中国中心
+        viewMode: '2D',
+        mapStyle: 'amap://styles/whitesmoke', // 水墨风格
+        zoomControl: true,
+        scaleControl: false,
+        toolBarControl: false,
+      });
+
+      // 保存地图引用
+      mapRef.current = map;
+      setMapRef(map);
+
+      // 挂载到 window（供 clusterRender 使用）
+      (window as any).suShiMapInstance = map;
+    })();
+
+    return () => {
+      destroyed = true;
+      if (clusterRef.current) {
+        clusterRef.current.setMap(null);
+        clusterRef.current = null;
+      }
+      if (mapRef.current) {
+        mapRef.current.destroy();
+        mapRef.current = null;
+      }
+      (window as any).suShiMapInstance = null;
     };
+  }, [setMapRef]);
 
-    // 创建地图实例
-    const map = new AMap.Map(containerRef.current, {
-      zoom: 5,
-      center: [104.5, 32.0], // 中国中心
-      viewMode: '2D',
-      mapStyle: 'amap://styles/whitesmoke', // 水墨风格
-      zoomControl: true,
-      scaleControl: false,
-      toolBarControl: false,
-    });
+  /**
+   * ★ 修复：当 places 数据加载完成后，创建/更新标记
+   */
+  useEffect(() => {
+    if (!mapRef.current || !places.length) return;
 
-    // 保存地图引用
-    mapRef.current = map;
-    setMapRef(map);
+    // 清除旧标记
+    if (clusterRef.current) {
+      clusterRef.current.setMap(null);
+      clusterRef.current = null;
+    }
+    markersRef.current.forEach((m) => m.setMap(null));
+    markersRef.current = [];
 
-    // 挂载到 window（供 clusterRender 使用）
-    (window as any).suShiMapInstance = map;
+    const AMap = (window as any).AMap;
+    const map = mapRef.current;
 
     // 创建聚合标记
     const markers = places.map((place) => {
@@ -90,25 +127,7 @@ export default function AMapContainer() {
     });
 
     clusterRef.current = cluster;
-  }, [places, onSelectPlace, setMapRef]);
-
-  // 初始化
-  useEffect(() => {
-    initMap();
-
-    return () => {
-      // ★ v4.0 修复：先移除聚合器，再销毁地图
-      if (clusterRef.current) {
-        clusterRef.current.setMap(null);
-        clusterRef.current = null;
-      }
-      if (mapRef.current) {
-        mapRef.current.destroy();
-        mapRef.current = null;
-      }
-      (window as any).suShiMapInstance = null;
-    };
-  }, [initMap]);
+  }, [places, onSelectPlace]);
 
   /**
    * Stage 过滤：根据时间轴过滤标记
