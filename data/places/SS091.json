@@ -1,0 +1,50 @@
+{
+  "id": "SS091",
+  "songName": "雷州",
+  "modernName": "广东雷州",
+  "lat": 20.0200,
+  "lng": 110.3300,
+  "type": "tour",
+  "stage": "third_exile",
+  "importance": 2,
+  "story": "雷州（今广东雷州）在宋代是广南西路重要州府。苏轼在贬谪儋州期间（1097-1100年），从惠州南下儋州，途经雷州。雷州有苏公亭、苏公井等纪念苏轼的古迹。苏轼在雷州期间，可能与当地文人交流，留下诗词。",
+  "poems": [],
+  "attractions": [
+    {
+      "name": "苏公亭 ⭐⭐",
+      "description": "位于雷州市区，是后人纪念苏轼途经雷州的亭台。苏轼当年南下儋州，途经雷州，曾在此歇脚。现存建筑为清代重建。",
+      "location": "雷州市雷城镇苏公亭",
+      "isHistorical": true,
+      "ticket": "免费",
+      "openingHours": "全天开放"
+    },
+    {
+      "name": "苏公井",
+      "description": "位于雷州市区，传为苏轼途经雷州时饮用过的井水。后人以此井纪念苏轼，井水清甜，至今仍可饮用。",
+      "location": "雷州市雷城镇苏公井",
+      "isHistorical": true,
+      "ticket": "免费",
+      "openingHours": "全天开放"
+    },
+    {
+      "name": "雷州古城墙遗址",
+      "description": "位于雷州市区，是宋代雷州城遗址。苏轼如果途经雷州，可能会在古城内歇脚。现存部分城墙基址和城门遗址。",
+      "location": "雷州市雷城镇",
+      "isHistorical": true,
+      "ticket": "免费",
+      "openingHours": "全天开放"
+    }
+  ],
+  "foods": [
+    {
+      "name": "雷州白切狗",
+      "description": "雷州传统名菜，选用本地土狗，清煮而成，肉质鲜嫩，蘸酱食用。苏轼如果品尝，可能会写诗赞美。",
+      "isFamous": false
+    },
+    {
+      "name": "雷州芒果",
+      "description": "雷州特产，品种优良，果肉鲜嫩多汁，甜而不腻。是雷州特色水果。",
+      "isFamous": true
+    }
+  ]
+}

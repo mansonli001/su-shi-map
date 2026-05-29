@@ -1,0 +1,39 @@
+{
+  "id": "SS035",
+  "periods": [
+    {
+      "period": "1089-1091",
+      "title": "杭州任上巡临安",
+      "description": "苏轼任杭州知州时，巡行至临安（今浙江临安），访天目山。"
+    }
+  ],
+  "extendedStory": "## 临安：天目山\n\n苏轼在杭州任上，巡行至临安（今浙江杭州临安区），访天目山。天目山是佛教名山，苏轼在此访僧论禅。",
+  "poems": [
+    {
+      "id": "poem-035-1",
+      "title": "临安道中（佚句）",
+      "fullText": "天目山前水如镜，照见行人须发青。",
+      "year": 1090,
+      "translation": "天目山前的水像镜子一样，照见行人的须发青黑。",
+      "analysis": "苏轼巡行临安时所作，写天目山水的清澈。",
+      "sourceUrl": "https://www.gushiwen.cn"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "天目山",
+      "description": "佛教名山，苏轼在杭州任上曾巡行至此。",
+      "ticketPrice": "¥80",
+      "openingHours": "8:00-17:00"
+    }
+  ],
+  "food": [
+    {
+      "name": "临安山核桃",
+      "description": "临安特产，山核桃香脆。",
+      "whereToEat": "临安区各特产店"
+    }
+  ],
+  "images": [],
+  "externalLinks": []
+}

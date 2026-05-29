@@ -1,0 +1,23 @@
+# Supabase 保活 v4.0
+# 每 3 天 ping 一次，防止免费版暂停
+
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    # 每 3 天 UTC 00:00 运行
+    - cron: '0 0 */3 * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        run: |
+          curl -X GET "${SUPABASE_URL}/rest/v1/" \
+            -H "apikey: ${SUPABASE_ANON_KEY}" \
+            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}"
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}

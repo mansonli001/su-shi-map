@@ -1,0 +1,122 @@
+/**
+ * 读苏轼·游神州 - 全局样式 v4.0
+ * 水墨风格 + 宣纸纹理 + 古籍 prose 排版
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink-primary: #8B6914;
+  --ink-light: #F5E6C8;
+  --ink-dark: #1A1405;
+  --ink-accent: #C41E24;
+  --font-serif: 'Noto Serif SC', 'SimSun', 'STSong', serif;
+  --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+html, body, #__next {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  background-color: var(--ink-light);
+  color: var(--ink-dark);
+}
+
+/* 宣纸纹理背景 */
+body {
+  background-image:
+    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+}
+
+/* 古籍 prose 排版 */
+.prose-poem {
+  font-family: var(--font-serif);
+  line-height: 2;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.prose-ancient {
+  font-family: var(--font-serif);
+  line-height: 1.8;
+}
+
+.prose-ancient h1,
+.prose-ancient h2,
+.prose-ancient h3 {
+  font-family: var(--font-serif);
+  color: var(--ink-primary);
+}
+
+/* 地图容器全屏 */
+.map-fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* 半屏卡片拖拽区域 */
+.drag-handle {
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(139, 105, 20, 0.3);
+  margin: 8px auto;
+}
+
+/* 自定义滚动条（水墨风格） */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 105, 20, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 105, 20, 0.5);
+}
+
+/* PWA 安全区域适配 */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* 高德地图自定义样式覆盖 */
+.amap-logo,
+.amap-copyright {
+  display: none !important;
+}
+
+/* Framer Motion 动画辅助 */
+.framer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 40;
+}
+
+/* 打印优化（分享长图） */
+@media print {
+  body {
+    background: white;
+  }
+  .no-print {
+    display: none;
+  }
+}

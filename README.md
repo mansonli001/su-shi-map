@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 读苏轼·游神州 v4.0
 
-## Getting Started
+苏轼一生120地点交互式数字地图（PWA）。
 
-First, run the development server:
+## 功能特性
+
+- 🗺️ **高德地图集成** - GCJ-02坐标，水墨自定义样式
+- 📍 **120个苏轼地点** - 分级标记（出生/任职/贬谪/游览/友人/长眠）
+- 📱 **半屏交互卡片** - Framer Motion手势拖拽，上滑展开/下滑关闭
+- ⏱️ **7阶段时间轴** - 眉山少年→北归长眠，底部滑动切换
+- 📄 **SSG详情页** - 每地点静态生成，Markdown事迹+诗词+景点+美食
+- 🔍 **模糊搜索** - fuse.js本地搜索地点/诗词
+- 🎬 **轨迹动画** - 按时间顺序连线播放苏轼一生行迹
+- ✅ **匿名打卡** - IndexedDB本地存储，UI预留微信登录入口（二期）
+- 🖼️ **分享长图** - @vercel/og动态生成OG图片
+- 📦 **PWA离线** - Service Worker三级缓存，首屏<2s
+
+## 技术栈
+
+- **框架**: Next.js 14 (App Router, TypeScript)
+- **样式**: Tailwind CSS + @tailwindcss/typography + shadcn/ui
+- **地图**: 高德 JSAPI 2.0 (@amap/amap-jsapi-loader)
+- **状态管理**: Zustand
+- **动画**: Framer Motion
+- **搜索**: fuse.js
+- **PWA**: @ducanh2912/next-pwa
+- **OG图片**: @vercel/og
+- **部署**: Vercel + Cloudflare
+
+## 快速开始
+
+### 1. 克隆项目
+
+```bash
+git clone https://github.com/mansonli001/su-shi-map.git
+cd su-shi-map
+```
+
+### 2. 安装依赖
+
+```bash
+npm install
+```
+
+### 3. 配置环境变量
+
+复制 `.env.example` 为 `.env.local` 并填写：
+
+```bash
+cp .env.example .env.local
+```
+
+必须配置：
+- `NEXT_PUBLIC_AMAP_KEY` - 高德地图 JS API Key
+- `AMAP_SECURITY_JS_CODE` - 高德 securityJsCode（保密）
+
+### 4. 准备数据
+
+将120个地点数据放入 `data/` 目录：
+
+- `data/places-core.json` - 地点核心数据（id/lat/lng/type/stage/importance）
+- `data/places-index.json` - 地点索引（搜索用）
+- `data/places/*.json` - 地点详情（120个）
+
+示例数据格式见 `data/README.md`。
+
+### 5. 运行开发服务器
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 http://localhost:3000 查看。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 数据来源
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **苏轼生平数据**: 基于《苏轼年谱》、《苏轼全集校注》
+- **诗词数据**: [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) (CC0)
+- **历史地理数据**: CHGIS（哈佛大学+复旦大学）
+- **地图服务**: 高德地图 JSAPI 2.0
 
-## Learn More
+## 脚本命令
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# 开发
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 构建
+npm run build
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 启动生产服务器
+npm run start
 
-## Deploy on Vercel
+# 校验数据
+npm run validate
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# 转换坐标（WGS84 → GCJ-02）
+npm run convert -- input.geojson output.geojson
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 提取苏轼诗词
+npm run poems
+```
+
+## 部署
+
+### Vercel 部署
+
+```bash
+vercel deploy
+```
+
+### Cloudflare DNS 配置
+
+1. 在 Cloudflare 添加域名
+2. 设置 CNAME 记录指向 `cname.vercel-dns.com`
+3. 开启 CDN 缓存
+
+## 项目结构
+
+详见 [目录结构](#) （待补充链接）
+
+## 开源协议
+
+MIT License
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+---
+
+**Loading in Progress...** 🌸

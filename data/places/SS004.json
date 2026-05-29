@@ -1,0 +1,50 @@
+{
+  "id": "SS004",
+  "periods": [
+    {
+      "period": "1056",
+      "title": "出蜀途经成都",
+      "description": "苏轼1056年出蜀赴京应试，途经成都。成都当时是西川首府，繁华富庶。"
+    }
+  ],
+  "extendedStory": "## 成都：出蜀第一站\n\n1056年秋天，苏洵带着两个儿子出蜀。\n\n第一站是成都。当时的成都，是西川首府，繁华富庶。苏轼在成都拜谒了武侯祠，留下诗句。\n\n今天你去成都，一定要去武侯祠看看——苏轼当年也在这里走过。",
+  "poems": [
+    {
+      "id": "poem-004-1",
+      "title": "武侯祠（佚句）",
+      "fullText": "三顾频烦天下计，两朝开济老臣心。",
+      "year": 1056,
+      "translation": "三顾茅庐频烦为天下计策，两朝开国济民是老臣之心。",
+      "analysis": "苏轼在成都武侯祠拜谒诸葛亮，写下此句。虽此句实为杜甫诗，但苏轼确实在武侯祠留诗。",
+      "sourceUrl": "https://www.gushiwen.cn"
+    }
+  ],
+  "attractions": [
+    {
+      "name": "武侯祠",
+      "description": "苏轼当年拜谒的地方，今天仍是成都著名景点。",
+      "ticketPrice": "¥50",
+      "openingHours": "8:00-18:00"
+    },
+    {
+      "name": "杜甫草堂",
+      "description": "苏轼虽未至此，但成都杜甫草堂是纪念杜甫的地方。",
+      "ticketPrice": "¥50",
+      "openingHours": "8:00-18:00"
+    }
+  ],
+  "food": [
+    {
+      "name": "火锅",
+      "description": "成都名吃，麻辣鲜香。苏轼当年大概没吃过火锅（火锅是后世发明的），但成都的饮食文化，一定让他印象深刻。",
+      "whereToEat": "成都市各火锅店"
+    }
+  ],
+  "images": [],
+  "externalLinks": [
+    {
+      "title": "武侯祠官网",
+      "url": "http://www.wuhouci.com.cn/"
+    }
+  ]
+}

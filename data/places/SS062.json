@@ -1,0 +1,37 @@
+{
+  "id": "SS062",
+  "songName": "陈州",
+  "modernName": "河南淮阳",
+  "lat": 34.8000,
+  "lng": 114.3000,
+  "type": "tour",
+  "stage": "early_career",
+  "importance": 3,
+  "story": "苏轼在陈州（今河南淮阳）并无明确任职或长期停留记录，但陈州是北宋交通要道，苏轼赴京应试、赴任途中可能途经此地。陈州在宋代是重要州府，苏辙曾在此任职，苏轼可能与弟弟在此小聚。",
+  "poems": [],
+  "attractions": [
+    {
+      "name": "太昊陵（伏羲陵）⭐⭐",
+      "description": "位于淮阳区，是纪念中华人文始祖伏羲氏的陵庙。虽然不直接纪念苏轼，但苏轼如果途经陈州，很可能会来此祭拜。太昊陵是中国十八大名陵之一，现存建筑为明代重建，规模宏大。",
+      "location": "周口市淮阳区太昊陵",
+      "isHistorical": true,
+      "ticket": "¥40",
+      "openingHours": "8:00-18:00"
+    },
+    {
+      "name": "淮阳龙湖",
+      "description": "位于淮阳城区，是河南省最大的内陆湖泊。湖中有画卦台（传为伏羲画八卦处）。苏轼如果游历此地，可能会被龙湖美景吸引。",
+      "location": "周口市淮阳区龙湖",
+      "isHistorical": false,
+      "ticket": "免费",
+      "openingHours": "全天开放"
+    }
+  ],
+  "foods": [
+    {
+      "name": "淮阳压缩馍",
+      "description": "淮阳传统面食，形似压缩饼干，口感筋道，是当地特色小吃。",
+      "isFamous": false
+    }
+  ]
+}

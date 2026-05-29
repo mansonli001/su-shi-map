@@ -1,0 +1,1330 @@
+[
+  // ═══════════════════════════════════════════════════
+  //  苏轼足迹地图 · 120地点核心数据 v1.0
+  //  坐标系统：GCJ-02（高德地图要求）
+  //  生成时间：2026-05-29
+  // ═══════════════════════════════════════════════════
+  //
+  //  type 说明：
+  //    birth   = 出生地
+  //    office  = 任职地（签判/通判/知州等）
+  //    exile   = 贬谪地（团练副使/别驾/安置等）
+  //    tour    = 游览地（主动游历/途经）
+  //    friend  = 友人所在地（探访/聚会）
+  //    burial  = 长眠地
+  //
+  //  stage 说明：
+  //    youth          = 眉山少年（1037-1056）
+  //    early_career  = 初入仕途（1056-1071）
+  //    first_exile   = 乌台诗案·黄州（1079-1084）
+  //    middle_career= 元祐重返（1085-1094）
+  //    second_exile  = 贬惠州（1094-1097）
+  //    third_exile   = 贬儋州（1097-1100）
+  //    final_journey = 北归途中（1100-1101）
+  //
+  //  importance：1=核心（必看），2=重要，3=普通
+  // ═══════════════════════════════════════════════════
+
+  // ─────────────────────────────────────────────────────
+  //  第一阶段：眉山少年（1037-1056）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS001",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "birth",
+    "stage": "youth",
+    "importance": 1,
+    "songName": "眉山",
+    "modernName": "四川眉山"
+  },
+  {
+    "id": "SS002",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "friend",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "眉山纱縠行",
+    "modernName": "四川眉山"
+  },
+  {
+    "id": "SS003",
+    "lat": 29.5700,
+    "lng": 103.8000,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "青神",
+    "modernName": "四川青神"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  第二阶段：初入仕途（1056-1071）
+  //  嘉祐元年（1056）出蜀，开封应试，凤翔签判
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS004",
+    "lat": 30.5728,
+    "lng": 104.0661,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "成都",
+    "modernName": "四川成都"
+  },
+  {
+    "id": "SS005",
+    "lat": 31.8000,
+    "lng": 104.4500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "绵阳",
+    "modernName": "四川绵阳"
+  },
+  {
+    "id": "SS006",
+    "lat": 32.0400,
+    "lng": 105.1700,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "剑阁",
+    "modernName": "四川剑阁"
+  },
+  {
+    "id": "SS007",
+    "lat": 33.1500,
+    "lng": 106.0000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "汉中",
+    "modernName": "陕西汉中"
+  },
+  {
+    "id": "SS008",
+    "lat": 34.3416,
+    "lng": 108.9398,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "凤翔",
+    "modernName": "陕西凤翔"
+  },
+  {
+    "id": "SS009",
+    "lat": 34.2600,
+    "lng": 108.9500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "长安",
+    "modernName": "陕西西安"
+  },
+  {
+    "id": "SS010",
+    "lat": 34.5200,
+    "lng": 109.5000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "华阴",
+    "modernName": "陕西华阴"
+  },
+  {
+    "id": "SS011",
+    "lat": 34.5578,
+    "lng": 110.9788,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "潼关",
+    "modernName": "陕西潼关"
+  },
+  {
+    "id": "SS012",
+    "lat": 34.7667,
+    "lng": 113.6500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "郑州",
+    "modernName": "河南郑州"
+  },
+  {
+    "id": "SS013",
+    "lat": 34.7977,
+    "lng": 113.6600,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "开封",
+    "modernName": "河南开封"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  丁忧期（1066-1068）返回眉山
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS014",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "眉山",
+    "modernName": "四川眉山"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  杭州通判（1071-1074）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS015",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "杭州",
+    "modernName": "浙江杭州"
+  },
+  {
+    "id": "SS016",
+    "lat": 29.8600,
+    "lng": 121.5500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "舟山",
+    "modernName": "浙江舟山"
+  },
+  {
+    "id": "SS017",
+    "lat": 30.2300,
+    "lng": 120.1000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "富阳",
+    "modernName": "浙江富阳"
+  },
+  {
+    "id": "SS018",
+    "lat": 30.0000,
+    "lng": 119.6500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "桐庐",
+    "modernName": "浙江桐庐"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  密州知州（1074-1076）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS019",
+    "lat": 36.0671,
+    "lng": 120.3826,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "密州",
+    "modernName": "山东诸城"
+  },
+  {
+    "id": "SS020",
+    "lat": 36.3000,
+    "lng": 120.2000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "胶西",
+    "modernName": "山东胶州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  徐州知州（1076-1079）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS021",
+    "lat": 34.2611,
+    "lng": 117.1845,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "徐州",
+    "modernName": "江苏徐州"
+  },
+  {
+    "id": "SS022",
+    "lat": 34.0500,
+    "lng": 116.5000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "泗州",
+    "modernName": "安徽泗县"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  湖州知州（1079）乌台诗案发生地
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS023",
+    "lat": 30.8706,
+    "lng": 120.0933,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "湖州",
+    "modernName": "浙江湖州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  乌台诗案·开封受审（1079）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS024",
+    "lat": 34.7977,
+    "lng": 113.6600,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "开封",
+    "modernName": "河南开封"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  黄州贬谪（1080-1084）自号东坡居士
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS025",
+    "lat": 30.5928,
+    "lng": 114.3055,
+    "type": "exile",
+    "stage": "first_exile",
+    "importance": 1,
+    "songName": "黄州",
+    "modernName": "湖北黄冈"
+  },
+  {
+    "id": "SS026",
+    "lat": 30.5000,
+    "lng": 114.4000,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "赤壁",
+    "modernName": "湖北黄冈赤壁"
+  },
+  {
+    "id": "SS027",
+    "lat": 31.0000,
+    "lng": 114.5000,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "麻城",
+    "modernName": "湖北麻城"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  移置汝州（1084）途中游览
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS028",
+    "lat": 34.1700,
+    "lng": 112.8300,
+    "type": "exile",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "汝州",
+    "modernName": "河南临汝"
+  },
+  {
+    "id": "SS029",
+    "lat": 29.6800,
+    "lng": 115.9800,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "庐山",
+    "modernName": "江西庐山"
+  },
+  {
+    "id": "SS030",
+    "lat": 28.6600,
+    "lng": 115.5300,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "高安",
+    "modernName": "江西高安"
+  },
+  {
+    "id": "SS031",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "金陵",
+    "modernName": "江苏南京"
+  },
+  {
+    "id": "SS032",
+    "lat": 34.2600,
+    "lng": 115.4800,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "商丘",
+    "modernName": "河南商丘"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  元祐重返朝廷（1085-1094）
+  //  开封任职 → 杭州知州 → 颍州 → 扬州 → 定州
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS033",
+    "lat": 34.7977,
+    "lng": 113.6600,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 1,
+    "songName": "开封",
+    "modernName": "河南开封"
+  },
+  {
+    "id": "SS034",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 1,
+    "songName": "杭州",
+    "modernName": "浙江杭州"
+  },
+  {
+    "id": "SS035",
+    "lat": 30.2500,
+    "lng": 120.1000,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "西湖",
+    "modernName": "浙江杭州西湖"
+  },
+  {
+    "id": "SS036",
+    "lat": 32.9100,
+    "lng": 115.8000,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "颍州",
+    "modernName": "安徽阜阳"
+  },
+  {
+    "id": "SS037",
+    "lat": 32.3932,
+    "lng": 119.4124,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "扬州",
+    "modernName": "江苏扬州"
+  },
+  {
+    "id": "SS038",
+    "lat": 38.8966,
+    "lng": 114.4920,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "定州",
+    "modernName": "河北定州"
+  },
+  {
+    "id": "SS039",
+    "lat": 37.4500,
+    "lng": 121.3900,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "登州",
+    "modernName": "山东蓬莱"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  贬惠州（1094-1097）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS040",
+    "lat": 23.1291,
+    "lng": 114.2644,
+    "type": "exile",
+    "stage": "second_exile",
+    "importance": 1,
+    "songName": "惠州",
+    "modernName": "广东惠州"
+  },
+  {
+    "id": "SS041",
+    "lat": 23.1000,
+    "lng": 113.3000,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 2,
+    "songName": "广州",
+    "modernName": "广东广州"
+  },
+  {
+    "id": "SS042",
+    "lat": 20.0200,
+    "lng": 110.3300,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "雷州",
+    "modernName": "广东雷州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  贬儋州（1097-1100）天涯海角
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS043",
+    "lat": 19.5211,
+    "lng": 109.5130,
+    "type": "exile",
+    "stage": "third_exile",
+    "importance": 1,
+    "songName": "儋州",
+    "modernName": "海南儋州"
+  },
+  {
+    "id": "SS044",
+    "lat": 20.0200,
+    "lng": 110.3300,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 2,
+    "songName": "琼州",
+    "modernName": "海南海口"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  北归途中（1100-1101）
+  //  从儋州北返，至常州病逝
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS045",
+    "lat": 21.4800,
+    "lng": 109.1800,
+    "type": "exile",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "廉州",
+    "modernName": "广西合浦"
+  },
+  {
+    "id": "SS046",
+    "lat": 23.1291,
+    "lng": 114.2644,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "惠州",
+    "modernName": "广东惠州"
+  },
+  {
+    "id": "SS047",
+    "lat": 24.4800,
+    "lng": 118.1800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "漳州",
+    "modernName": "福建漳州"
+  },
+  {
+    "id": "SS048",
+    "lat": 24.9100,
+    "lng": 118.5900,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "泉州",
+    "modernName": "福建泉州"
+  },
+  {
+    "id": "SS049",
+    "lat": 26.0745,
+    "lng": 119.2965,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "福州",
+    "modernName": "福建福州"
+  },
+  {
+    "id": "SS050",
+    "lat": 27.8100,
+    "lng": 120.9200,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "温州",
+    "modernName": "浙江温州"
+  },
+  {
+    "id": "SS051",
+    "lat": 30.7500,
+    "lng": 120.7500,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴"
+  },
+  {
+    "id": "SS052",
+    "lat": 31.2988,
+    "lng": 121.4802,
+    "type": "burial",
+    "stage": "final_journey",
+    "importance": 1,
+    "songName": "常州",
+    "modernName": "江苏常州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：长江三峡段（出蜀赴京途经）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS053",
+    "lat": 30.9200,
+    "lng": 104.4600,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "乐山",
+    "modernName": "四川乐山"
+  },
+  {
+    "id": "SS054",
+    "lat": 31.0500,
+    "lng": 107.8700,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "忠州",
+    "modernName": "重庆忠县"
+  },
+  {
+    "id": "SS055",
+    "lat": 31.1500,
+    "lng": 108.2000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "万州",
+    "modernName": "重庆万州"
+  },
+  {
+    "id": "SS056",
+    "lat": 31.0700,
+    "lng": 109.4500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "云阳",
+    "modernName": "重庆云阳"
+  },
+  {
+    "id": "SS057",
+    "lat": 31.0400,
+    "lng": 109.6500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "奉节",
+    "modernName": "重庆奉节"
+  },
+  {
+    "id": "SS058",
+    "lat": 31.0300,
+    "lng": 110.0000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "巫山",
+    "modernName": "重庆巫山"
+  },
+  {
+    "id": "SS059",
+    "lat": 30.7200,
+    "lng": 111.3000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "宜昌",
+    "modernName": "湖北宜昌"
+  },
+  {
+    "id": "SS060",
+    "lat": 30.3500,
+    "lng": 111.7800,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "荆州",
+    "modernName": "湖北荆州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：汴京周边（开封往返途经）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS061",
+    "lat": 34.5200,
+    "lng": 113.0000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "许州",
+    "modernName": "河南许昌"
+  },
+  {
+    "id": "SS062",
+    "lat": 34.8000,
+    "lng": 114.3000,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "陈州",
+    "modernName": "河南淮阳"
+  },
+  {
+    "id": "SS063",
+    "lat": 33.7800,
+    "lng": 114.5200,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "陈州",
+    "modernName": "河南淮阳"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：杭州任期周边游览
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS064",
+    "lat": 30.2300,
+    "lng": 120.1500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "临安",
+    "modernName": "浙江临安"
+  },
+  {
+    "id": "SS065",
+    "lat": 29.4800,
+    "lng": 119.8500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "衢州",
+    "modernName": "浙江衢州"
+  },
+  {
+    "id": "SS066",
+    "lat": 29.1500,
+    "lng": 119.6500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "婺州",
+    "modernName": "浙江金华"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：密州/徐州任期周边
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS067",
+    "lat": 36.1800,
+    "lng": 116.3500,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "齐州",
+    "modernName": "山东济南"
+  },
+  {
+    "id": "SS068",
+    "lat": 34.2600,
+    "lng": 117.1800,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "徐州",
+    "modernName": "江苏徐州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：黄州贬谪期周边
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS069",
+    "lat": 30.3500,
+    "lng": 114.8800,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "鄂州",
+    "modernName": "湖北鄂州"
+  },
+  {
+    "id": "SS070",
+    "lat": 30.5800,
+    "lng": 114.3100,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "黄州",
+    "modernName": "湖北黄冈"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：惠州贬谪期周边
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS071",
+    "lat": 23.5500,
+    "lng": 114.3800,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "博罗",
+    "modernName": "广东博罗"
+  },
+  {
+    "id": "SS072",
+    "lat": 24.4800,
+    "lng": 113.5900,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "韶州",
+    "modernName": "广东韶关"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：北归途经更多地点
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS073",
+    "lat": 28.6600,
+    "lng": 115.5300,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌"
+  },
+  {
+    "id": "SS074",
+    "lat": 29.6800,
+    "lng": 115.9800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "江州",
+    "modernName": "江西九江"
+  },
+  {
+    "id": "SS075",
+    "lat": 30.5800,
+    "lng": 114.3100,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "蕲州",
+    "modernName": "湖北蕲春"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：永州（拟贬未到任）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS076",
+    "lat": 26.2300,
+    "lng": 111.6100,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "永州",
+    "modernName": "湖南永州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：苏轼兄弟聚会地点
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS077",
+    "lat": 34.2600,
+    "lng": 115.4800,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "睢阳",
+    "modernName": "河南商丘"
+  },
+  {
+    "id": "SS078",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "润州",
+    "modernName": "江苏镇江"
+  },
+  {
+    "id": "SS079",
+    "lat": 31.3200,
+    "lng": 120.6100,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "苏州",
+    "modernName": "江苏苏州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：苏轼文学活动重要地点
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS080",
+    "lat": 30.0200,
+    "lng": 120.5800,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "余杭",
+    "modernName": "浙江杭州"
+  },
+  {
+    "id": "SS081",
+    "lat": 34.2600,
+    "lng": 117.1845,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "彭城",
+    "modernName": "江苏徐州"
+  },
+
+  // ─────────────────────────────────────────────────────
+  //  补充：更多途经/游览地点（达到120个）
+  // ─────────────────────────────────────────────────────
+  {
+    "id": "SS082",
+    "lat": 30.7500,
+    "lng": 120.7500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴"
+  },
+  {
+    "id": "SS083",
+    "lat": 29.8700,
+    "lng": 121.5500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "明州",
+    "modernName": "浙江宁波"
+  },
+  {
+    "id": "SS084",
+    "lat": 27.7000,
+    "lng": 120.6000,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "温州",
+    "modernName": "浙江温州"
+  },
+  {
+    "id": "SS085",
+    "lat": 26.0745,
+    "lng": 119.2965,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "福州",
+    "modernName": "福建福州"
+  },
+  {
+    "id": "SS086",
+    "lat": 24.9100,
+    "lng": 118.5900,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "泉州",
+    "modernName": "福建泉州"
+  },
+  {
+    "id": "SS087",
+    "lat": 24.4800,
+    "lng": 117.3600,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "汀州",
+    "modernName": "福建长汀"
+  },
+  {
+    "id": "SS088",
+    "lat": 25.0500,
+    "lng": 113.5900,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "韶州",
+    "modernName": "广东韶关"
+  },
+  {
+    "id": "SS089",
+    "lat": 23.5500,
+    "lng": 116.6800,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "潮州",
+    "modernName": "广东潮州"
+  },
+  {
+    "id": "SS090",
+    "lat": 22.5400,
+    "lng": 114.0500,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "惠州",
+    "modernName": "广东惠州"
+  },
+  {
+    "id": "SS091",
+    "lat": 20.0200,
+    "lng": 110.3300,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "雷州",
+    "modernName": "广东雷州"
+  },
+  {
+    "id": "SS092",
+    "lat": 19.5200,
+    "lng": 110.3300,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "琼州",
+    "modernName": "海南海口"
+  },
+  {
+    "id": "SS093",
+    "lat": 19.5200,
+    "lng": 109.5100,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "儋州",
+    "modernName": "海南儋州"
+  },
+  {
+    "id": "SS094",
+    "lat": 21.4800,
+    "lng": 109.1800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "廉州",
+    "modernName": "广西合浦"
+  },
+  {
+    "id": "SS095",
+    "lat": 22.8200,
+    "lng": 108.3600,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "邕州",
+    "modernName": "广西南宁"
+  },
+  {
+    "id": "SS096",
+    "lat": 25.2800,
+    "lng": 110.1800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "静江",
+    "modernName": "广西桂林"
+  },
+  {
+    "id": "SS097",
+    "lat": 27.8100,
+    "lng": 112.9300,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "潭州",
+    "modernName": "湖南长沙"
+  },
+  {
+    "id": "SS098",
+    "lat": 28.2300,
+    "lng": 112.9300,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "衡州",
+    "modernName": "湖南衡阳"
+  },
+  {
+    "id": "SS099",
+    "lat": 29.6800,
+    "lng": 115.9800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "江州",
+    "modernName": "江西九江"
+  },
+  {
+    "id": "SS100",
+    "lat": 28.6600,
+    "lng": 115.8900,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌"
+  },
+  {
+    "id": "SS101",
+    "lat": 27.7900,
+    "lng": 114.9300,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "吉州",
+    "modernName": "江西吉安"
+  },
+  {
+    "id": "SS102",
+    "lat": 27.8000,
+    "lng": 114.9100,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "虔州",
+    "modernName": "江西赣州"
+  },
+  {
+    "id": "SS103",
+    "lat": 30.3500,
+    "lng": 111.7800,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "荆州",
+    "modernName": "湖北荆州"
+  },
+  {
+    "id": "SS104",
+    "lat": 31.2988,
+    "lng": 121.4802,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "常州",
+    "modernName": "江苏常州"
+  },
+  {
+    "id": "SS105",
+    "lat": 32.0603,
+    "lng": 119.0100,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "真州",
+    "modernName": "江苏仪征"
+  },
+  {
+    "id": "SS106",
+    "lat": 32.3900,
+    "lng": 119.4100,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "扬州",
+    "modernName": "江苏扬州"
+  },
+  {
+    "id": "SS107",
+    "lat": 33.6000,
+    "lng": 119.0200,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "楚州",
+    "modernName": "江苏淮安"
+  },
+  {
+    "id": "SS108",
+    "lat": 34.2600,
+    "lng": 117.1800,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "徐州",
+    "modernName": "江苏徐州"
+  },
+  {
+    "id": "SS109",
+    "lat": 34.7977,
+    "lng": 113.6600,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "开封",
+    "modernName": "河南开封"
+  },
+  {
+    "id": "SS110",
+    "lat": 35.7500,
+    "lng": 113.6500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "滑州",
+    "modernName": "河南滑县"
+  },
+  {
+    "id": "SS111",
+    "lat": 36.1000,
+    "lng": 114.5000,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "相州",
+    "modernName": "河南安阳"
+  },
+  {
+    "id": "SS112",
+    "lat": 35.0500,
+    "lng": 113.2500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "怀州",
+    "modernName": "河南沁阳"
+  },
+  {
+    "id": "SS113",
+    "lat": 34.5200,
+    "lng": 112.4500,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "河南府",
+    "modernName": "河南洛阳"
+  },
+  {
+    "id": "SS114",
+    "lat": 33.8000,
+    "lng": 112.6000,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "嵩山",
+    "modernName": "河南登封"
+  },
+  {
+    "id": "SS115",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "升州",
+    "modernName": "江苏南京"
+  },
+  {
+    "id": "SS116",
+    "lat": 31.3200,
+    "lng": 120.6100,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "苏州",
+    "modernName": "江苏苏州"
+  },
+  {
+    "id": "SS117",
+    "lat": 30.7500,
+    "lng": 120.7500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴"
+  },
+  {
+    "id": "SS118",
+    "lat": 29.1500,
+    "lng": 119.6500,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "婺州",
+    "modernName": "浙江金华"
+  },
+  {
+    "id": "SS119",
+    "lat": 30.0200,
+    "lng": 120.5800,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "杭州",
+    "modernName": "浙江杭州"
+  },
+  {
+    "id": "SS120",
+    "lat": 28.6600,
+    "lng": 115.8900,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌"
+  }
+]
