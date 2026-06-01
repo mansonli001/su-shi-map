@@ -116,14 +116,14 @@ function ExploreInner() {
 
       {/* 右侧主区域 */}
       <div className="flex-1 relative">
-        {/* === 顶部「行吟山河」深色导航 === */}
-        <div className="fixed top-0 left-[200px] right-0 z-40 topnav-luxe safe-top h-[52px]">
-          <div className="flex items-center justify-between px-5 h-full">
-            <div className="flex items-center gap-4">
-              <div className="font-wenkai font-semibold text-[16px] text-gold tracking-[0.25em]">
+        {/* === 顶部「行吟山河」深色导航（手机全宽 / 桌面 left-200） === */}
+        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[52px]">
+          <div className="flex items-center justify-between px-3 md:px-5 h-full gap-2">
+            <div className="flex items-center gap-2 md:gap-4 pl-10 md:pl-0 min-w-0">
+              <div className="font-wenkai font-semibold text-[14px] md:text-[16px] text-gold tracking-[0.18em] md:tracking-[0.25em] whitespace-nowrap">
                 行吟山河
               </div>
-              <div className="w-px h-[18px] bg-gold/20" />
+              <div className="hidden md:block w-px h-[18px] bg-gold/20" />
               <div className="hidden md:flex items-center gap-3">
                 <span className="text-[10px] text-gold/60 tracking-[0.18em]">
                   SU SHI · 1037–1101
@@ -133,31 +133,34 @@ function ExploreInner() {
                 </span>
               </div>
             </div>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-0.5 md:gap-1 flex-shrink-0">
               <button
                 onClick={() => (window.location.href = '/')}
-                className="px-3 py-1.5 rounded text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
                 aria-label="返回首页"
               >
-                ← 首页
+                <span className="md:hidden">←</span>
+                <span className="hidden md:inline">← 首页</span>
               </button>
               <button
                 onClick={() => (window.location.href = '/routes')}
-                className="px-3 py-1.5 rounded text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
                 aria-label="路线列表"
               >
-                📖 路线
+                <span className="md:hidden">📖</span>
+                <span className="hidden md:inline">📖 路线</span>
               </button>
               <button
                 onClick={openSearch}
-                className="px-3 py-1.5 rounded text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
                 aria-label="搜索"
               >
-                🔍 搜索
+                <span className="md:hidden">🔍</span>
+                <span className="hidden md:inline">🔍 搜索</span>
               </button>
               <button
                 onClick={() => (window.location.href = '/about')}
-                className="px-3 py-1.5 rounded text-[12px] text-gold/60 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="hidden md:inline-flex px-3 py-1.5 rounded text-[12px] text-gold/60 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
                 aria-label="关于"
               >
                 关于

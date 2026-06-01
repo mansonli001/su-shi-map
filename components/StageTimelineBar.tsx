@@ -46,35 +46,35 @@ export default function StageTimelineBar() {
 
   return (
     <div
-      className="fixed bottom-0 left-[200px] right-0 z-30 select-none"
+      className="fixed bottom-0 left-0 md:left-[200px] right-0 z-30 select-none safe-bottom"
       style={{
         background: 'var(--ink)',
         borderTop: '1px solid rgba(250,199,117,0.14)',
       }}
     >
-      <div className="px-5 py-3">
+      <div className="px-2 md:px-5 py-2 md:py-3">
         {/* 阶段名称行 */}
-        <div className="flex justify-between items-end mb-2">
+        <div className="flex justify-between items-end mb-1.5 md:mb-2 gap-0.5">
           {stages.map((s, i) => {
             const isActive = activeStageIdx === i;
             return (
               <button
                 key={s.id}
                 onClick={() => handleStageClick(s)}
-                className="flex flex-col items-center text-center min-w-0 px-1 group cursor-pointer"
+                className="flex flex-col items-center text-center min-w-0 flex-1 px-0.5 md:px-1 group cursor-pointer"
                 title={`${s.name} · ${s.theme}`}
               >
                 <span
-                  className={`text-[11px] font-wenkai transition-colors ${
+                  className={`text-[9px] md:text-[11px] font-wenkai transition-colors leading-tight whitespace-nowrap ${
                     isActive ? 'text-gold font-semibold' : 'text-gold/40 group-hover:text-gold/70'
                   }`}
-                  style={{ letterSpacing: '0.08em' }}
+                  style={{ letterSpacing: '0.04em' }}
                 >
                   {isActive && '◀ '}
                   {s.name}
                 </span>
                 <span
-                  className={`text-[9px] mt-0.5 transition-colors ${
+                  className={`hidden md:block text-[9px] mt-0.5 transition-colors ${
                     isActive ? 'text-gold-d/90' : 'text-ink-lt/50 group-hover:text-gold-m/60'
                   }`}
                   style={{ letterSpacing: '0.06em' }}
@@ -87,12 +87,11 @@ export default function StageTimelineBar() {
         </div>
 
         {/* 进度条 */}
-        <div className="relative h-[2px] bg-[#2C2C2A] rounded-full mb-1.5">
+        <div className="relative h-[2px] bg-[#2C2C2A] rounded-full mb-1 md:mb-1.5">
           <div
             className="absolute top-0 left-0 h-[2px] bg-gold-m rounded-full transition-all duration-700"
             style={{ width: `${fillPct}%` }}
           />
-          {/* 动态游标 */}
           {activeStageIdx != null && (
             <div
               className="absolute -top-[5px] w-3 h-3 bg-gold rounded-full border-2 border-[var(--ink)] transition-all duration-700"
@@ -102,7 +101,7 @@ export default function StageTimelineBar() {
         </div>
 
         {/* 年份行 */}
-        <div className="flex justify-between text-[10px] text-ink-lt/60">
+        <div className="flex justify-between text-[8px] md:text-[10px] text-ink-lt/60 font-mono px-0.5">
           <span>1037</span>
           <span className={activeStageIdx === 0 ? 'text-gold' : ''}>1056</span>
           <span className={activeStageIdx === 1 ? 'text-gold' : ''}>1079</span>

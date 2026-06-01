@@ -88,12 +88,12 @@ const STAGE_NAME: Record<string, string> = {
   third_exile: '儋耳三年',
   final_journey: '北归长眠',
   // v4 stage_id 兜底
-  S01: '眉山·少年',
-  S02: '汴京·宦游',
-  S03: '黄州·东坡',
-  S04: '元祐·还朝',
-  S05: '惠儋·南贬',
-  S06: '北归·终老',
+  S1: '眉山·少年',
+  S2: '汴京·宦游',
+  S3: '黄州·东坡',
+  S4: '元祐·还朝',
+  S5: '惠儋·南贬',
+  S6: '北归·终老',
 };
 
 interface PlaceCardProps {

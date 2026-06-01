@@ -37,15 +37,15 @@ type StageIdx = {
 // stage → 类型徽章（参考设计稿 ③）
 function stageBadge(stageId?: string): { label: string; cls: string } {
   switch (stageId) {
-    case 'S01':
-    case 'S03':
+    case 'S1':
+    case 'S3':
       return { label: '蜕变', cls: 'rb-badge-exile' };
-    case 'S05':
+    case 'S5':
       return { label: '贬谪', cls: 'rb-badge-exile' };
-    case 'S02':
-    case 'S04':
+    case 'S2':
+    case 'S4':
       return { label: '仕途', cls: 'rb-badge-office' };
-    case 'S06':
+    case 'S6':
       return { label: '终老', cls: 'rb-badge-tour' };
     default:
       return { label: '游历', cls: 'rb-badge-tour' };
