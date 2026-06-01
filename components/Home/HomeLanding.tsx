@@ -55,11 +55,12 @@ export default function HomeLanding() {
         </svg>
 
         <p className="ho-body">
-          一千年前，苏轼从眉山出发，走过了这片土地上的两百三十四个地方。
-          <br />
-          他栖身的黄州，风骨依旧；他疏浚的西湖，清丽如初。
-          <br />
-          他挥毫作赋的赤壁石，风华未改。
+          <span className="ho-body-line">一千年前，苏轼从眉山出发，</span>
+          <span className="ho-body-line">走过了这片土地上的两百三十四个地方。</span>
+          <span className="ho-body-gap" />
+          <span className="ho-body-line">他栖身的黄州，风骨依旧；</span>
+          <span className="ho-body-line">他疏浚的西湖，清丽如初；</span>
+          <span className="ho-body-line">他挥毫作赋的赤壁石，风华未改。</span>
         </p>
 
         <div className="ho-em">在地图上，跟他走一遍。</div>

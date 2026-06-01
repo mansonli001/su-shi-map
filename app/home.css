@@ -49,6 +49,30 @@
   margin: 0 auto 1.5rem;
   max-width: 720px;
   letter-spacing: 0.05em;
+  /* 让内部 .ho-body-line 各自独立成行 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.1rem;
+}
+.ho-body-line {
+  display: block;
+  white-space: nowrap;        /* 关键：禁止句中自动换行 */
+  letter-spacing: 0.06em;
+}
+/* 段落间气口（前两行 / 后三行之间） */
+.ho-body-gap {
+  display: block;
+  height: 0.7rem;
+}
+/* 窄屏 fallback：如果一行真的超出屏幕，允许换行（避免溢出） */
+@media (max-width: 380px) {
+  .ho-body-line {
+    white-space: normal;
+    letter-spacing: 0.04em;
+    font-size: 12.5px;
+  }
 }
 .ho-em {
   font-size: 13px;
