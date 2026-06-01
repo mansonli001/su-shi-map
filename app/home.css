@@ -513,8 +513,7 @@
   .ho-ab-t    { font-size: 14px; margin-bottom: 0.4rem; }
   .ho-ab-p    { font-size: 12px; line-height: 1.7; }
 
-  /* 问题 4：Hero 两按钮 + Final CTA 三按钮，移动端换行等宽对齐 */
-  .ho-btns,
+  /* 问题 4：Final CTA 三按钮换行等宽对齐（Hero 两按钮保持并排） */
   .ho-cta-btns {
     flex-direction: column;
     align-items: stretch;
@@ -523,13 +522,23 @@
     margin-right: auto;
     gap: 0.7rem;
   }
-  .ho-btns .ho-btn-p,
-  .ho-btns .ho-btn-s,
   .ho-cta-btns .ho-btn-p,
   .ho-cta-btns .ho-btn-s {
     width: 100%;
     text-align: center;
     padding: 14px 24px;
+  }
+
+  /* Hero 两按钮（开始探索 + 了解一生）保持并排，但收紧字距/padding 适配窄屏 */
+  .ho-btns {
+    gap: 0.7rem;
+    justify-content: center;
+  }
+  .ho-btns .ho-btn-p,
+  .ho-btns .ho-btn-s {
+    padding: 12px 20px;
+    font-size: 13px;
+    letter-spacing: 0.12em;
   }
 
   /* Quote / Final CTA 紧凑 */

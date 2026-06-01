@@ -228,25 +228,6 @@ body {
   line-height: 1;
 }
 
-/* 落款风格上下金线（仅大版有） */
-.logo-brand-lg::before,
-.logo-brand-lg::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  width: 50%;
-  height: 1px;
-  background: linear-gradient(90deg,
-    transparent 0%,
-    rgba(250, 199, 117, 0.55) 30%,
-    rgba(250, 199, 117, 0.85) 50%,
-    rgba(250, 199, 117, 0.55) 70%,
-    transparent 100%);
-  transform: translateX(-50%);
-}
-.logo-brand-lg::before { top: -22px; }
-.logo-brand-lg::after  { bottom: -22px; }
-
 /* 中字版（Section 标题用） */
 .logo-brand-md {
   font-size: clamp(28px, 5vw, 38px);
