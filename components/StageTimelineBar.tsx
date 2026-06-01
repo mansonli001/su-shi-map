@@ -1,14 +1,15 @@
 /**
- * StageTimelineBar v1.0「行吟山河」
- * 底部六阶段时间轴（设计稿 ②地图页 底部进度条对齐）
+ * StageTimelineBar v2.0「行吟山河」
+ * 底部六阶段时间轴 · 横向可滑动版（参考用户设计稿）
  *
- * 视觉：墨黑底 + 金色填充进度 + 鼠标悬停高亮
- * 交互：点阶段 → 切到该阶段第一条路线
+ * 视觉：墨黑底 + 金色当前态 + 横向滚动（不强塞屏）
+ * 移动端：当前阶段放大居中 + 左右可滑动
+ * 桌面端：保持均分铺满
  */
 
 'use client';
 
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { useSuShiStore } from '@/lib/store';
 import { loadV4Stages, loadV4RoutesIdx, type V4StageIdx, type V4RouteIdx } from '@/lib/v4-adapter';
 
@@ -17,6 +18,8 @@ export default function StageTimelineBar() {
   const [routes, setRoutes] = useState<V4RouteIdx[]>([]);
   const currentRoute = useSuShiStore((s) => s.currentRoute);
   const setCurrentRoute = useSuShiStore((s) => s.setCurrentRoute);
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const activeRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     Promise.all([loadV4Stages(), loadV4RoutesIdx()]).then(([s, r]) => {
@@ -31,6 +34,16 @@ export default function StageTimelineBar() {
     if (!r || !r.stage_id) return null;
     return stages.findIndex((s) => s.id === r.stage_id);
   }, [currentRoute, routes, stages]);
+
+  // 当前阶段切换时，自动横向滚动到居中位置（仅移动端有效，桌面端是 grid）
+  useEffect(() => {
+    if (activeStageIdx == null || !activeRef.current || !scrollRef.current) return;
+    const el = activeRef.current;
+    const container = scrollRef.current;
+    // 平滑滚动到当前 button 居中
+    const offset = el.offsetLeft - container.clientWidth / 2 + el.clientWidth / 2;
+    container.scrollTo({ left: offset, behavior: 'smooth' });
+  }, [activeStageIdx]);
 
   if (!stages.length) return null;
 
@@ -52,34 +65,53 @@ export default function StageTimelineBar() {
         borderTop: '1px solid rgba(250,199,117,0.14)',
       }}
     >
-      <div className="px-2 md:px-5 py-2 md:py-3">
-        {/* 阶段名称行 */}
-        <div className="flex justify-between items-end mb-1.5 md:mb-2 gap-0.5">
+      <div className="px-0 md:px-5 py-2 md:py-3">
+        {/* 阶段名称行 · 移动端横向滑动 / 桌面端均分 */}
+        <div
+          ref={scrollRef}
+          className="
+            flex items-end mb-1.5 md:mb-2 gap-1
+            overflow-x-auto md:overflow-visible scroll-smooth
+            scrollbar-none px-3 md:px-0 md:justify-between
+          "
+          style={{ scrollSnapType: 'x mandatory', WebkitOverflowScrolling: 'touch' }}
+        >
           {stages.map((s, i) => {
             const isActive = activeStageIdx === i;
             return (
               <button
                 key={s.id}
+                ref={isActive ? activeRef : null}
                 onClick={() => handleStageClick(s)}
-                className="flex flex-col items-center text-center min-w-0 flex-1 px-0.5 md:px-1 group cursor-pointer"
+                className={`
+                  flex flex-col items-center text-center flex-shrink-0
+                  md:min-w-0 md:flex-1 md:px-1
+                  px-3 py-1.5 rounded-md
+                  group cursor-pointer
+                  transition-all duration-300
+                  ${isActive ? 'bg-gold/12 scale-105' : 'hover:bg-gold/5'}
+                `}
+                style={{ scrollSnapAlign: 'center' }}
                 title={`${s.name} · ${s.theme}`}
               >
                 <span
-                  className={`text-[9px] md:text-[11px] font-wenkai transition-colors leading-tight whitespace-nowrap ${
-                    isActive ? 'text-gold font-semibold' : 'text-gold/40 group-hover:text-gold/70'
-                  }`}
+                  className={`
+                    font-wenkai transition-colors leading-tight whitespace-nowrap
+                    ${isActive
+                      ? 'text-gold font-semibold text-[14px] md:text-[12px]'
+                      : 'text-gold/45 group-hover:text-gold/75 text-[12px] md:text-[11px]'}
+                  `}
                   style={{ letterSpacing: '0.04em' }}
                 >
-                  {isActive && '◀ '}
                   {s.name}
                 </span>
                 <span
-                  className={`hidden md:block text-[9px] mt-0.5 transition-colors ${
-                    isActive ? 'text-gold-d/90' : 'text-ink-lt/50 group-hover:text-gold-m/60'
-                  }`}
-                  style={{ letterSpacing: '0.06em' }}
+                  className={`
+                    text-[10px] md:text-[9px] mt-0.5 transition-colors font-mono
+                    ${isActive ? 'text-gold-d/95' : 'text-ink-lt/55 group-hover:text-gold-m/65'}
+                  `}
                 >
-                  {s.alias}
+                  {s.start_year}
                 </span>
               </button>
             );
@@ -87,7 +119,7 @@ export default function StageTimelineBar() {
         </div>
 
         {/* 进度条 */}
-        <div className="relative h-[2px] bg-[#2C2C2A] rounded-full mb-1 md:mb-1.5">
+        <div className="relative h-[2px] mx-3 md:mx-0 bg-[#2C2C2A] rounded-full mb-1 md:mb-1.5">
           <div
             className="absolute top-0 left-0 h-[2px] bg-gold-m rounded-full transition-all duration-700"
             style={{ width: `${fillPct}%` }}
@@ -100,8 +132,8 @@ export default function StageTimelineBar() {
           )}
         </div>
 
-        {/* 年份行 */}
-        <div className="flex justify-between text-[8px] md:text-[10px] text-ink-lt/60 font-mono px-0.5">
+        {/* 年份行 · 桌面端展示 */}
+        <div className="hidden md:flex justify-between text-[10px] text-ink-lt/60 font-mono px-0.5">
           <span>1037</span>
           <span className={activeStageIdx === 0 ? 'text-gold' : ''}>1056</span>
           <span className={activeStageIdx === 1 ? 'text-gold' : ''}>1079</span>

@@ -158,6 +158,10 @@ body {
 }
 ::-webkit-scrollbar-thumb:hover { background: rgba(186, 117, 23, 0.55); }
 
+/* 隐藏滚动条工具类（用于底部时间轴横向滚动） */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+
 /* PWA 安全区 */
 @supports (padding: env(safe-area-inset-bottom)) {
   .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }

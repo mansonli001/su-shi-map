@@ -478,20 +478,48 @@
 
 /* 移动端：4 数字改 2x2，timeline 字号缩，COMING SOON 强制 2 列，CTA 按钮换行等宽 */
 @media (max-width: 640px) {
-  .ho-tl-stats { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  /* Section 整体收紧（紧凑化，减少手机滚动距离） */
+  .ho-sec { padding: 44px 18px 36px; }
+  .ho-sec-title { font-size: 22px; }
+  .ho-sec-sub   { font-size: 12px; margin-bottom: 1rem; }
+  .ho-sec-lbl   { font-size: 9px; margin-bottom: 0.4rem; }
+  .ho-gold-bar  { margin-bottom: 1.2rem; }
+
+  .ho-tl-stats { grid-template-columns: repeat(2, 1fr); gap: 1.2rem; margin-top: 1.4rem; }
   .ho-tl-sname { font-size: 12px; }
   .ho-tl-ssub  { font-size: 10px; }
 
-  /* 问题 3：COMING SOON 4 卡片移动端 2x2，避免一卡占一行浪费空间 */
-  .ho-ft-grid {
+  /* 代表性足迹（v6.1）：移动端强制 2x2 网格，卡片更紧凑 */
+  .ho-pg-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.7rem;
     max-width: 100%;
+    margin-top: 1rem;
   }
-  .ho-ft-card { padding: 1rem 0.6rem; }
-  .ho-ft-name { font-size: 19px; letter-spacing: 0.1em; }
-  .ho-ft-yrs  { font-size: 10px; margin-bottom: 0.6rem; }
-  .ho-tag-live, .ho-tag-soon { font-size: 9px; padding: 2px 8px; }
+  .ho-pgcard-body { padding: 0.85rem 0.7rem 0.7rem; }
+  .ho-pname  { font-size: 17px; margin-bottom: 0.15rem; letter-spacing: 0.06em; }
+  .ho-pyear  { font-size: 9.5px; margin-bottom: 0.5rem; }
+  .ho-pdesc  { font-size: 11.5px; line-height: 1.55; margin-bottom: 0.6rem; }
+  .ho-pl     { font-size: 11.5px; padding-left: 0.5rem; margin-bottom: 0.55rem; line-height: 1.5; }
+  .ho-plink  { font-size: 11px; }
+
+  /* 问题 3：COMING SOON 4 卡片移动端 2x2 + 紧凑 */
+  .ho-ft-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  .ho-ft-card { padding: 0.85rem 0.55rem; }
+  .ho-ft-name { font-size: 17px; letter-spacing: 0.08em; margin-bottom: 0.2rem; }
+  .ho-ft-yrs  { font-size: 9.5px; margin-bottom: 0.45rem; }
+  .ho-tag-live, .ho-tag-soon { font-size: 9px; padding: 2px 7px; }
+
+  /* ABOUT 移动端紧凑 */
+  .ho-ab-grid { gap: 1.2rem; margin-top: 1rem; }
+  .ho-ab-poet { font-size: 10px; margin-bottom: 0.3rem; }
+  .ho-ab-t    { font-size: 14px; margin-bottom: 0.4rem; }
+  .ho-ab-p    { font-size: 12px; line-height: 1.7; }
 
   /* 问题 4：Hero 两按钮 + Final CTA 三按钮，移动端换行等宽对齐 */
   .ho-btns,
@@ -511,6 +539,10 @@
     text-align: center;
     padding: 14px 24px;
   }
+
+  /* Quote / Final CTA 紧凑 */
+  .ho-qt   { padding: 44px 18px; }
+  .ho-cta  { padding: 50px 18px 64px; }
 }
 
 /* ========== Final CTA ========== */
