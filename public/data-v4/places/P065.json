@@ -1,0 +1,156 @@
+{
+  "id": "P065",
+  "ancient_name": "湖州",
+  "modern_name": "浙江湖州",
+  "type": "official",
+  "lat": 30.894178,
+  "lng": 120.086881,
+  "related_routes": [
+    "R07",
+    "R09"
+  ],
+  "summary": "苏轼知湖州三月，因乌台诗案被捕",
+  "background": "湖州是苏轼元丰二年任知州地，仅三月即因乌台诗案被捕",
+  "tags": [
+    "湖州",
+    "知州",
+    "main",
+    "hub",
+    "official",
+    "stay"
+  ],
+  "periods": [
+    {
+      "period": "1079",
+      "title": "湖州知州·乌台诗案发",
+      "description": "熙宁十年（1077年）苏轼调任湖州知州。\n\n到任仅三个月（1079年七月），朝廷派钦差大臣皇甫遵，带人闯入湖州官署，逮捕苏轼。\n\n这就是著名的'乌台诗案'。苏轼被押解回开封，关进御史台监狱。在狱中，他以为自己要被处死，跟儿子苏迈约定：'如果判死刑，就送一条鱼进来。'\n\n后来因太后出面干预，加上许多人求情（包括王安石也说'安有圣世而杀才士乎？'），苏轼被释放，贬为黄州团练副使。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "hz2-001",
+      "date": "元丰二年（1079年）三月",
+      "title": "任湖州知州",
+      "description": "苏轼任湖州知州",
+      "significance": "湖州仕途"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "湖州谢上表",
+      "type": "biao",
+      "note": "乌台诗案导火索",
+      "source_route": "R09"
+    }
+  ],
+  "route_events": {
+    "route08": [
+      {
+        "id": "hz2-002",
+        "date": "元丰二年（1079年）三月",
+        "title": "到湖州任知州",
+        "description": "苏轼从徐州南下知湖州",
+        "significance": "任湖州知州"
+      },
+      {
+        "id": "hz2-006",
+        "date": "元丰二年（1079年）七月",
+        "title": "乌台诗案被捕",
+        "description": "苏轼因诗获罪，被押解至汴京",
+        "significance": "乌台诗案"
+      }
+    ],
+    "route16": [
+      {
+        "id": "hz2-005",
+        "date": "元祐六年（1091年）",
+        "title": "移知颍州途经湖州",
+        "description": "苏轼离杭移知颍州，途经湖州",
+        "significance": "途经湖州"
+      }
+    ],
+    "R07": {
+      "duration": "1074年北上途经中转",
+      "duration_years": [
+        1074
+      ],
+      "essence": "太湖南岸运河中转枢纽",
+      "su_shi_story": "沿运河北上首站休整，近览太湖滨湖风光，\n渐离杭城烟火，步入江南水乡腹地。\n",
+      "historical_context": "太湖南岸水陆重镇，杭州北上苏州必经运河驿道节点。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R09": {
+      "duration": "1078-1079年上任履职、被捕始发地",
+      "duration_years": [
+        1078,
+        1079
+      ],
+      "essence": "赴任终点、乌台案发拘捕原点",
+      "su_shi_story": "安抵湖州履职理政、闲游山水，本欲安守江南；\n一朝文祸突至，于此被朝廷使臣拘捕，人生骤陷牢狱之灾。\n",
+      "historical_context": "太湖南岸名郡，山水清佳，苏轼湖州知州任所，乌台诗案事发拘捕原点。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "hz2-s001",
+      "name": "湖州苏湾",
+      "type": "遗址",
+      "location": "浙江省湖州市",
+      "description": "苏轼在湖州时常至苏湾",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "湖州站",
+    "bus": "湖州汽车站",
+    "car": "申嘉湖高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS023",
+    "pinyin_id": "huzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 30.8706,
+    "v3_lng": 120.0933
+  },
+  "extended_story": "沿运河北上首站休整，近览太湖滨湖风光，\n渐离杭城烟火，步入江南水乡腹地。",
+  "essence": "太湖南岸运河中转枢纽",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.222Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "浙江省湖州市",
+  "coords_updated_at": "2026-06-01T10:17:04.315Z",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1079,
+    "span_years": 5,
+    "duration_label": "1074-1079 · 5年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "湖州谢上表",
+    "source": "湖州谢上表",
+    "from": "global_works.title"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "id": "P199",
+  "ancient_name": "扬州平山堂",
+  "modern_name": "江苏扬州平山堂",
+  "type": "around",
+  "lat": 32.394404,
+  "lng": 119.412834,
+  "related_routes": [
+    "R16"
+  ],
+  "summary": "苏轼南下途经扬州，凭吊欧阳修所建平山堂",
+  "background": "扬州是北宋重要商业城市，苏轼南下杭州途经此地，曾凭吊欧阳修所建平山堂",
+  "tags": [
+    "扬州",
+    "广陵",
+    "平山堂",
+    "historical",
+    "literary",
+    "nostalgia"
+  ],
+  "periods": [
+    {
+      "period": "1092-1093",
+      "title": "知扬州·废除苛捐杂税",
+      "description": "元祐七年（1092年），苏轼以龙图阁学士知扬州。\n\n在扬州任上，他做了一件实事：废除'万花会'（一种苛捐杂税——百姓要交花给官府，用来办宴会）。苏轼到任后，上奏朝廷：'扬州每年办万花会，百姓苦之。'请求废除。\n\n朝廷准奏。扬州百姓'歌舞于道'——在道路上唱歌跳舞，感谢苏轼。\n\n这是苏轼地方官任上，'为民请命'的又一个例子。他不是'为了升官而做官'，他是'为了让百姓少交点税而做官'。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "yy-001",
+      "date": "熙宁四年（1071年）",
+      "title": "过扬州",
+      "description": "苏轼南下途经扬州",
+      "significance": "途经扬州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route05": [
+      {
+        "id": "yy-002",
+        "date": "熙宁四年（1071年）",
+        "title": "扬州凭吊平山堂",
+        "description": "苏轼至扬州，凭吊欧阳修所建平山堂",
+        "significance": "途经扬州"
+      }
+    ],
+    "R16": {
+      "duration": "1093年登临怀古",
+      "duration_years": [
+        1093
+      ],
+      "essence": "江淮文脉核心地标、苏轼追怀前贤的怀古圣地",
+      "su_shi_story": "苏轼登临平山堂，追怀恩师欧阳修当年风流雅韵，\n望江南远山、俯江淮平野，感文脉传承、人事代谢，\n怀古而不悲怆，感怀而不消沉，\n以冲淡笔触写下平山堂千古怀思之作。\n",
+      "historical_context": "欧阳修守扬州所建文脉名堂，踞岗临江、远山平视，\n为江淮文脉地标，承载欧公风流、文坛师承渊源。\n",
+      "order_in_route": 12,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "yy-s001",
+      "name": "平山堂",
+      "type": "建筑",
+      "location": "江苏省扬州市邗江区",
+      "description": "欧阳修所建，苏轼常来此凭吊",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥45",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "yy-s002",
+      "name": "瘦西湖",
+      "type": "湖泊",
+      "location": "江苏省扬州市",
+      "description": "扬州著名的湖泊风景区",
+      "opening_hours": "06:00-18:00",
+      "ticket": "¥60",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "扬州站/扬州东站",
+    "bus": "扬州汽车站",
+    "car": "京沪高速/沪陕高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS037",
+    "pinyin_id": "yangzhou",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 32.3932,
+    "v3_lng": 119.4124
+  },
+  "extended_story": "苏轼登临平山堂，追怀恩师欧阳修当年风流雅韵，\n望江南远山、俯江淮平野，感文脉传承、人事代谢，\n怀古而不悲怆，感怀而不消沉，\n以冲淡笔触写下平山堂千古怀思之作。",
+  "essence": "江淮文脉核心地标、苏轼追怀前贤的怀古圣地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.251Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省扬州市",
+  "coords_updated_at": "2026-06-01T10:17:04.327Z",
+  "duration_summary": {
+    "first_year": 1091,
+    "last_year": 1093,
+    "span_years": 2,
+    "duration_label": "1091-1093 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

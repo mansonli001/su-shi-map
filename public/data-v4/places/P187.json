@@ -1,0 +1,64 @@
+{
+  "id": "P187",
+  "ancient_name": "襄阳",
+  "modern_name": "湖北襄阳",
+  "type": "main",
+  "lat": 32.0086,
+  "lng": 112.1265,
+  "related_routes": [
+    "R03"
+  ],
+  "summary": "",
+  "background": "荆襄古郡，三国文化核心地，\n古隆中为千古人文名胜。",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 北上途经游览",
+      "duration_years": [
+        1060
+      ],
+      "essence": "中原南大门人文怀古地标",
+      "su_shi_story": "途经襄阳驻足寻访古隆中，\n凭吊三国遗迹，生发历史兴亡之思，\n文史视野再度拓宽。\n",
+      "historical_context": "荆襄古郡，三国文化核心地，\n古隆中为千古人文名胜。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS138",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_exact",
+    "confidence": 0.8,
+    "v3_lat": 32.0114,
+    "v3_lng": 112.1141
+  },
+  "extended_story": "途经襄阳驻足寻访古隆中，\n凭吊三国遗迹，生发历史兴亡之思，\n文史视野再度拓宽。",
+  "essence": "中原南大门人文怀古地标",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.192Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

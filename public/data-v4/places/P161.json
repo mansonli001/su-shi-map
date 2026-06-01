@@ -1,0 +1,161 @@
+{
+  "id": "P161",
+  "ancient_name": "苏州",
+  "modern_name": "江苏苏州",
+  "type": "main",
+  "lat": 31.2989,
+  "lng": 120.5853,
+  "related_routes": [
+    "R06",
+    "R07",
+    "R09",
+    "R14",
+    "R15"
+  ],
+  "summary": "苏轼南下途经苏州，游虎丘",
+  "background": "苏州是北宋重要商业城市，风景秀丽，苏轼南下杭州途经此地",
+  "tags": [
+    "苏州",
+    "虎丘",
+    "园林",
+    "transit",
+    "visit",
+    "main",
+    "stay",
+    "prison-route",
+    "revisit"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "sz-001",
+      "date": "熙宁四年（1071年）",
+      "title": "过苏州",
+      "description": "苏轼南下途经苏州",
+      "significance": "途经苏州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route05": [
+      {
+        "id": "sz-002",
+        "date": "熙宁四年（1071年）",
+        "title": "苏州游虎丘",
+        "description": "苏轼至苏州，游虎丘",
+        "significance": "途经苏州"
+      }
+    ],
+    "R06": {
+      "duration": "1071年 驻足游赏",
+      "duration_years": [
+        1071
+      ],
+      "essence": "江南人文标杆",
+      "su_shi_story": "停舟姑苏，访寒山寺、览江南园亭，\n浸染吴地文气，温润入心。\n",
+      "historical_context": "江南人文第一城，园林古刹冠绝东南。\n",
+      "order_in_route": 11,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R07": {
+      "duration": "1074年北上驻足游览",
+      "duration_years": [
+        1074
+      ],
+      "essence": "江南文脉核心途经名城",
+      "su_shi_story": "驻足姑苏城内访友览胜，感受江南人文底蕴，\n泛舟运河之上，一路向北行旅抒怀。\n",
+      "historical_context": "江南文脉核心名城，运河交通要冲，宋代文人必游之地。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R09": {
+      "duration": "1079年押解北上途经",
+      "duration_years": [
+        1079
+      ],
+      "essence": "乌台押解北上首站",
+      "su_shi_story": "以囚徒身份被押途经苏州，无心览胜，\n身心惶恐、前路未卜。\n",
+      "historical_context": "江南运河核心名城，湖州北上第一站驿道节点。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R15": {
+      "duration": "1091年运河北上重游",
+      "duration_years": [
+        1091
+      ],
+      "essence": "运河怀旧重游关键点位",
+      "su_shi_story": "北上重临苏州古城，运河依旧、心境已殊，\n南下是奔赴山水，北上是离别归隐心愿，满心怅然。\n",
+      "historical_context": "江南运河文脉名城，往返必经要道，旧地重游怀古之地。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R14": {
+      "duration": "1089年运河途经盘桓",
+      "duration_years": [
+        1089
+      ],
+      "essence": "江南运河中段核心中转",
+      "su_shi_story": "舟泊苏州流连江南古城烟火，\n近杭州地界，湖山心境愈发贴近。\n",
+      "historical_context": "江南运河文脉名城，水乡格局典雅，南下杭州必经中转。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "sz-s001",
+      "name": "虎丘",
+      "type": "风景",
+      "location": "江苏省苏州市姑苏区",
+      "description": "苏州著名风景名胜，有云岩寺塔",
+      "opening_hours": "07:30-17:30",
+      "ticket": "¥60",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "苏州站/苏州北站",
+    "bus": "苏州汽车站",
+    "car": "京沪高速/沪常高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS079",
+    "pinyin_id": "suzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 31.32,
+    "v3_lng": 120.61
+  },
+  "extended_story": "停舟姑苏，访寒山寺、览江南园亭，\n浸染吴地文气，温润入心。",
+  "essence": "江南人文标杆",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.246Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1091,
+    "span_years": 20,
+    "duration_label": "1071-1091 · 20年",
+    "related_route_count": 5,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

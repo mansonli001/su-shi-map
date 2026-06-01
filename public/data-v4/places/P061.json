@@ -1,0 +1,45 @@
+{
+  "id": "P061",
+  "ancient_name": "洪泽湖",
+  "modern_name": "江苏洪泽湖",
+  "type": "main",
+  "related_routes": [
+    "R16"
+  ],
+  "background": "淮河下游巨浸，古驿渡口林立，为淮东水陆要冲。",
+  "extended_story": "途经洪泽湖古渡驻足，观湖烟苍茫、古渡清幽，\n凭栏怀古、心境淡远。",
+  "essence": "淮东行旅标志性湖渡节点",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "route_events": {
+    "R16": {
+      "duration": "1093年途经古渡览胜",
+      "duration_years": [
+        1093
+      ],
+      "essence": "淮东行旅标志性湖渡节点",
+      "su_shi_story": "途经洪泽湖古渡驻足，观湖烟苍茫、古渡清幽，\n凭栏怀古、心境淡远。\n",
+      "historical_context": "淮河下游巨浸，古驿渡口林立，为淮东水陆要冲。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.250Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1091,
+    "last_year": 1093,
+    "span_years": 2,
+    "duration_label": "1091-1093 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "P023",
+  "ancient_name": "澄迈",
+  "modern_name": "海南澄迈",
+  "type": "main",
+  "lat": 19.7385,
+  "lng": 110.0079,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼北归途经澄迈",
+  "background": "澄迈今海南澄迈，苏轼北归时途经此地渡海",
+  "tags": [
+    "澄迈",
+    "渡海",
+    "main",
+    "literary"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [
+    {
+      "id": "W066",
+      "title": "澄迈驿通潮阁二首",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "note": "「九死南荒吾不恨，兹游奇绝冠平生」——海南三年贬谪定终极之论",
+      "fullText": "其一：倦客愁闻归路遥，眼明飞阁俯长桥。贪看白鹭横秋浦，不觉青林没晚潮。\n其二：余生欲老海南村，帝遣巫阳招我魂。杳杳天低鹘没处，青山一发是中原。",
+      "excerpt": "杳杳天低鹘没处，青山一发是中原。",
+      "background": "元符三年（1100）六月，苏轼北归途经澄迈通潮阁。「青山一发是中原」被誉为对故土最深的凝望——中原远在天边，仅是一发之青，却是六十五岁老人魂之所归。"
+    }
+  ],
+  "route_events": {
+    "route19": [
+      {
+        "id": "cm-001",
+        "date": "元符三年（1100年）",
+        "title": "北归途经澄迈",
+        "description": "苏轼北归，途经澄迈渡海",
+        "significance": "渡海北上"
+      }
+    ],
+    "R18": {
+      "duration": "1097年岛内途经",
+      "duration_years": [],
+      "essence": "海南古道中转点",
+      "su_shi_story": "由澄迈西行，深入海岛腹地，\n奔赴最终贬居地儋州。\n",
+      "historical_context": "琼北通往儋州古道节点。\n",
+      "order_in_route": 18,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R19": {
+      "duration": "1100年北归途经、通潮阁绝笔",
+      "duration_years": [],
+      "essence": "海南贬谪终极绝笔诞生地",
+      "su_shi_story": "缓步北行登澄迈通潮阁，眺海眺归途，\n写下《澄迈驿通潮阁》二首：「九死南荒吾不恨，兹游奇绝冠平生」，\n以一句举重若轻的盖棺之论，为三年海南贬谪画上终极注脚。\n",
+      "historical_context": "儋州北出琼北古道必经中转，澄迈通潮阁为琼北临海古驿，\n苏轼北归途经登阁眺海，留下海南贬谪终极绝笔。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "澄迈汽车站",
+    "car": "海南环岛高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "chengmai",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 19.7512,
+    "v3_lng": 110.0212
+  },
+  "extended_story": "由澄迈西行，深入海岛腹地，\n奔赴最终贬居地儋州。",
+  "essence": "海南古道中转点",
+  "last_updated": "2026-06-01T10:22:05.262Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  }
+}

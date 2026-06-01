@@ -1,0 +1,128 @@
+{
+  "id": "P209",
+  "ancient_name": "颍州西湖",
+  "modern_name": "安徽阜阳颍州西湖",
+  "type": "sight",
+  "lat": 32.8951,
+  "lng": 115.786,
+  "related_routes": [
+    "R06",
+    "R16"
+  ],
+  "summary": "苏轼南下途经颍州，拜访退隐的欧阳修",
+  "background": "颍州今安徽阜阳，欧阳修晚年退隐于此，苏轼南下任杭州通判时绕道拜访",
+  "tags": [
+    "颍州",
+    "欧阳修",
+    "visit",
+    "master_meet",
+    "leisure",
+    "literary",
+    "quiet_lake"
+  ],
+  "periods": [
+    {
+      "period": "1091-1092",
+      "title": "颍州知州·疏浚西湖",
+      "description": "元祐六年（1091年），苏轼以龙图阁学士知颍州（今安徽阜阳）。在任上疏浚颍州西湖，筑堤建桥。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "yz-001",
+      "date": "熙宁四年（1071年）",
+      "title": "过颍州拜望欧阳修",
+      "description": "苏轼顺颍河南下，至颍州拜望退隐的欧阳修",
+      "significance": "途经颍州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route05": [
+      {
+        "id": "yz-002",
+        "date": "熙宁四年（1071年）",
+        "title": "颍州拜望欧阳修",
+        "description": "苏轼至颍州拜望退隐的欧阳修，相与相处月余",
+        "significance": "拜访恩师"
+      }
+    ],
+    "R06": {
+      "duration": "1071年 欧公宴游相会地",
+      "duration_years": [
+        1071
+      ],
+      "essence": "欧苏最后相会核心水景",
+      "su_shi_story": "与恩师欧阳修泛舟湖上、饮酒论诗、叮嘱治学立身之道，\n此地留存千古师生文脉佳话。\n",
+      "historical_context": "唐宋四大名湖，欧阳修晚年归隐栖居、宴游核心之地。\n",
+      "order_in_route": 13,
+      "layer": "water",
+      "priority": "P0"
+    },
+    "R16": {
+      "duration": "1091-1093年常年闲游泛舟",
+      "duration_years": [
+        1091,
+        1092,
+        1093
+      ],
+      "essence": "淮上第一清幽湖苑、苏轼中年闲居心灵栖居地",
+      "su_shi_story": "苏轼独爱颍州西湖清幽内敛之韵，\n不喜钱塘西湖的游人繁闹，偏爱此处静谧无人、湖风恬淡；\n常独泛小舟、环湖闲步，不问朝堂纷争，只与湖山为伴，\n写下大量清淡闲咏之作，寄托避世自守的人生志趣。\n",
+      "historical_context": "颍州天然湖苑，水域清幽、湖岸疏朗，\n不同于杭州西湖的繁华盛景，以幽静、清寂、淡雅见长，\n岸树环湖、亭台简约，是淮上第一清幽闲居湖山。\n",
+      "order_in_route": 11,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "yz-s001",
+      "name": "西湖",
+      "type": "湖泊",
+      "location": "安徽省阜阳市颍州区",
+      "description": "欧阳修退隐颍州，常游西湖",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "阜阳站",
+    "bus": "阜阳汽车站",
+    "car": "济广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS036",
+    "pinyin_id": "yingzhou",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 32.91,
+    "v3_lng": 115.8
+  },
+  "extended_story": "与恩师欧阳修泛舟湖上、饮酒论诗、叮嘱治学立身之道，\n此地留存千古师生文脉佳话。",
+  "essence": "欧苏最后相会核心水景",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.250Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1093,
+    "span_years": 22,
+    "duration_label": "1071-1093 · 22年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

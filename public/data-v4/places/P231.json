@@ -1,0 +1,24 @@
+{
+  "id": "P231",
+  "ancient_name": "资善堂",
+  "modern_name": "河南开封资善堂旧址",
+  "type": "around",
+  "lat": 34.798083,
+  "lng": 114.314278,
+  "related_routes": [
+    "R13"
+  ],
+  "tags": [],
+  "background": "由登州经齐鲁古道还朝，元祐元年入阁任翰林学士知制诰。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

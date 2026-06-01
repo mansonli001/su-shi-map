@@ -1,0 +1,40 @@
+{
+  "id": "P224",
+  "ancient_name": "长江下游全线",
+  "modern_name": "长江下游",
+  "type": "sight",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "长江下游江面开阔、沿岸名都相连，\n是苏轼一生多次往返的熟悉航道。",
+  "extended_story": "顺长江东下，重览沿江旧游，\n江山依旧、岁月已晚，\n满心皆是人生释然与归乡之安。",
+  "essence": "人生回望收官核心大江",
+  "tags": [
+    "transit",
+    "nostalgia"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100–1101年东下江南",
+      "duration_years": [],
+      "essence": "人生回望收官核心大江",
+      "su_shi_story": "顺长江东下，重览沿江旧游，\n江山依旧、岁月已晚，\n满心皆是人生释然与归乡之安。\n",
+      "historical_context": "长江下游江面开阔、沿岸名都相连，\n是苏轼一生多次往返的熟悉航道。\n",
+      "order_in_route": 22,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.267Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

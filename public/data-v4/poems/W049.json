@@ -1,0 +1,22 @@
+{
+  "id": "W049",
+  "title": "赴颍州过金陵呈王胜之",
+  "category": "纪行诗",
+  "type": "诗",
+  "year_estimate": 1091,
+  "route_id": "R15",
+  "related_route_ids": [
+    "R15"
+  ],
+  "note": "1091 北上途经金陵呈王胜之，专家一采纳",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%B5%B4%E9%A2%8D%E5%B7%9E%E8%BF%87%E9%87%91%E9%99%B5%E5%91%88%E7%8E%8B%E8%83%9C%E4%B9%8B",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%B5%B4%E9%A2%8D%E5%B7%9E%E8%BF%87%E9%87%91%E9%99%B5%E5%91%88%E7%8E%8B%E8%83%9C%E4%B9%8B&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%B5%B4%E9%A2%8D%E5%B7%9E%E8%BF%87%E9%87%91%E9%99%B5%E5%91%88%E7%8E%8B%E8%83%9C%E4%B9%8B&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

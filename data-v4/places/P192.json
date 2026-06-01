@@ -1,0 +1,40 @@
+{
+  "id": "P192",
+  "ancient_name": "兴廉村净行院",
+  "modern_name": "广东雷州兴廉村净行院",
+  "type": "main",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "北部湾海岸清幽古院，适宜暮年休憩静养。",
+  "extended_story": "驻足净行院避世闲居，\n远离尘嚣，安享归途清静。",
+  "essence": "暮年归途静养圣地",
+  "tags": [
+    "main",
+    "rest"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100年暮年静养",
+      "duration_years": [],
+      "essence": "暮年归途静养圣地",
+      "su_shi_story": "驻足净行院避世闲居，\n远离尘嚣，安享归途清静。\n",
+      "historical_context": "北部湾海岸清幽古院，适宜暮年休憩静养。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.265Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

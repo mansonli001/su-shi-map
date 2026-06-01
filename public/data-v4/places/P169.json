@@ -1,0 +1,49 @@
+{
+  "id": "P169",
+  "ancient_name": "唐州",
+  "modern_name": "河南唐河",
+  "type": "main",
+  "related_routes": [
+    "R03"
+  ],
+  "background": "豫南古州，地处中原官道支线要道。",
+  "extended_story": "穿行唐州乡野驿道，\n感受中原乡土民风地貌。",
+  "essence": "中原腹地常规驿道节点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 官道行经",
+      "duration_years": [
+        1060
+      ],
+      "essence": "中原腹地常规驿道节点",
+      "su_shi_story": "穿行唐州乡野驿道，\n感受中原乡土民风地貌。\n",
+      "historical_context": "豫南古州，地处中原官道支线要道。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.192Z",
+  "schema_version": "v4.1",
+  "lng": 112.80829,
+  "lat": 32.682464,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省南阳市唐河县",
+  "coords_updated_at": "2026-06-01T10:17:04.324Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

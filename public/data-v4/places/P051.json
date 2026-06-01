@@ -1,0 +1,152 @@
+{
+  "id": "P051",
+  "ancient_name": "瓜州渡",
+  "modern_name": "江苏扬州瓜洲渡",
+  "type": "main",
+  "lat": 32.2497,
+  "lng": 119.4361,
+  "related_routes": [
+    "R04",
+    "R06"
+  ],
+  "summary": "苏轼多次途经镇江，游金山寺",
+  "background": "镇江古称润州，是苏轼从杭州北上或南下的重要中转地",
+  "tags": [
+    "镇江",
+    "润州",
+    "金山寺",
+    "main",
+    "visit",
+    "transit",
+    "boundary"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "zj-001",
+      "date": "熙宁四年（1071年）",
+      "title": "南下途经镇江",
+      "description": "苏轼南下赴杭州倅，途经润州游金山寺",
+      "significance": "途经镇江"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "zj-w001",
+      "title": "游金山寺",
+      "content": "金山何时去，此地去金山。",
+      "excerpt": "金山何时去，此地去金山。",
+      "type": "诗",
+      "date": "熙宁四年（1071年）",
+      "location": "镇江金山寺",
+      "background": "游金山寺",
+      "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
+      "coreVerse": "我家江水初发源，宦游直送江入海。",
+      "poem_id": "W008"
+    }
+  ],
+  "route_events": {
+    "route07": [
+      {
+        "id": "zj-002",
+        "date": "熙宁四年（1071年）",
+        "title": "南下途经润州",
+        "description": "苏轼南下赴杭州，途经润州",
+        "significance": "途经润州"
+      }
+    ],
+    "R04": {
+      "duration": "1066年运河入长江渡口",
+      "duration_years": [
+        1066
+      ],
+      "essence": "运河入长江分界古渡",
+      "su_shi_story": "自此转入长江主航道，\n开启三峡逆流归蜀长路。\n",
+      "historical_context": "运河与长江交汇第一古渡，南北水路咽喉。\n",
+      "order_in_route": 12,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R06": {
+      "duration": "1071年 横渡长江",
+      "duration_years": [
+        1071
+      ],
+      "essence": "中原入江南分界渡口",
+      "su_shi_story": "自此渡江，一步踏入江南，\n风物、气候、人文全然一新，人生轨迹转入江南山水篇章。\n",
+      "historical_context": "唐宋南北第一古渡，运河入长江咽喉。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "zj-s001",
+      "name": "金山寺",
+      "type": "寺庙",
+      "location": "江苏省镇江市",
+      "description": "金山寺是镇江名刹",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥50",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "zj-s002",
+      "name": "焦山",
+      "type": "山",
+      "location": "江苏省镇江市",
+      "description": "苏轼常游焦山",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥65",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "镇江站 / 镇江南站",
+    "bus": "镇江汽车站",
+    "car": "沪宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS106",
+    "pinyin_id": "zhenjiang",
+    "match_strategy": "ss:modern_substr+pinyin:coord_near",
+    "confidence": 0.65,
+    "v3_lat": 32.39,
+    "v3_lng": 119.41
+  },
+  "extended_story": "自此转入长江主航道，\n开启三峡逆流归蜀长路。",
+  "essence": "运河入长江分界古渡",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.208Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1074,
+    "span_years": 9,
+    "duration_label": "1065-1074 · 9年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "金山何时去，此地去金山。",
+    "source": "游金山寺",
+    "from": "global_works.excerpt"
+  }
+}

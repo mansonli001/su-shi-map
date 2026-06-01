@@ -1,0 +1,75 @@
+{
+  "id": "P152",
+  "ancient_name": "陕州硖石",
+  "modern_name": "河南三门峡硖石",
+  "type": "main",
+  "lat": 34.732,
+  "lng": 111.2854,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "",
+  "background": "崤函古道核心地段，东西交通咽喉。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年崤函古道行经",
+      "duration_years": [
+        1056
+      ],
+      "essence": "崤函古道关键驿点",
+      "su_shi_story": "穿行沟壑古驿，感受中原古道苍茫古韵。\n",
+      "historical_context": "崤函古道核心地段，东西交通咽喉。\n",
+      "order_in_route": 16,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R04": {
+      "duration": "1065年崤古道路过",
+      "duration_years": [
+        1065
+      ],
+      "essence": "豫西古道常规节点",
+      "su_shi_story": "穿行古道沟壑，一路向东奔赴京师。\n",
+      "historical_context": "崤函古道核心路段，东西交通咽喉。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS135",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 34.7778,
+    "v3_lng": 111.1982
+  },
+  "extended_story": "穿行沟壑古驿，感受中原古道苍茫古韵。",
+  "essence": "崤函古道关键驿点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.198Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "P105",
+  "ancient_name": "岭南西江水路",
+  "modern_name": "广东西江水路",
+  "type": "sight",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "西江百里画廊，碧水蜿蜒、两岸峰林叠翠，\n山水相依、一步一景，岭南最美内河航道。",
+  "extended_story": "泛舟西江逆流北行，\n重看当年贬途山水，如今只作闲游观览，\n苦难已成过往，只剩山河清宁。",
+  "essence": "归途怀旧标志性山水画廊",
+  "tags": [
+    "transit",
+    "landscape"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100年舟行怀古",
+      "duration_years": [],
+      "essence": "归途怀旧标志性山水画廊",
+      "su_shi_story": "泛舟西江逆流北行，\n重看当年贬途山水，如今只作闲游观览，\n苦难已成过往，只剩山河清宁。\n",
+      "historical_context": "西江百里画廊，碧水蜿蜒、两岸峰林叠翠，\n山水相依、一步一景，岭南最美内河航道。\n",
+      "order_in_route": 20,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.267Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

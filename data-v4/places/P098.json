@@ -1,0 +1,104 @@
+{
+  "id": "P098",
+  "ancient_name": "雷州伏波庙",
+  "modern_name": "广东雷州伏波庙",
+  "type": "around",
+  "lat": 20.9143,
+  "lng": 110.0905,
+  "related_routes": [
+    "R19"
+  ],
+  "summary": "苏轼贬儋州途经雷州半岛",
+  "background": "雷州今广东雷州市，苏轼贬儋州时途经此地",
+  "tags": [
+    "雷州",
+    "半岛",
+    "visit",
+    "historical"
+  ],
+  "periods": [
+    {
+      "period": "贬惠州再贬儋州·途经雷州",
+      "startYear": 1097,
+      "endYear": 1097,
+      "narrative": "苏轼从惠州再贬儋州，途经雷州（今雷州半岛）。在雷州，他遇到一位老朋友，两人抱头痛哭。苏轼写下『雷州何处是，海外此中去』的诗句。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "leiz-001",
+        "date": "绍圣四年（1097年）",
+        "title": "贬儋州途经雷州",
+        "description": "苏轼贬儋州，途经雷州",
+        "significance": "途经雷州"
+      },
+      {
+        "id": "leiz-002",
+        "date": "元符三年（1100年）",
+        "title": "北归途经雷州",
+        "description": "苏轼北归，途经雷州",
+        "significance": "途经雷州"
+      }
+    ],
+    "R19": {
+      "duration": "1100年登临凭吊",
+      "duration_years": [],
+      "essence": "归途怀古核心人文古祠",
+      "su_shi_story": "暮年拜谒伏波庙，追怀先贤功业，\n对照自身宦海沉浮、万里贬谪，\n心生古今同慨、荣辱皆空之叹。\n",
+      "historical_context": "纪念汉代伏波将军的千年古庙，\n南疆开疆、先贤留迹，岭南重要人文古迹。\n",
+      "order_in_route": 23,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "leiz-s001",
+      "name": "雷州古城",
+      "type": "城",
+      "location": "广东省雷州市",
+      "description": "雷州古城",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "雷州汽车站",
+    "car": "沈海高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS042",
+    "pinyin_id": "leizhou",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 20.02,
+    "v3_lng": 110.33
+  },
+  "extended_story": "暮年拜谒伏波庙，追怀先贤功业，\n对照自身宦海沉浮、万里贬谪，\n心生古今同慨、荣辱皆空之叹。",
+  "essence": "归途怀古核心人文古祠",
+  "last_updated": "2026-06-01T10:22:05.267Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

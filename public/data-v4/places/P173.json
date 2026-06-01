@@ -1,0 +1,51 @@
+{
+  "id": "P173",
+  "ancient_name": "潍水古战场",
+  "modern_name": "山东诸城潍水古战场",
+  "type": "around",
+  "related_routes": [
+    "R07"
+  ],
+  "background": "潍水两岸楚汉古战场，历史底蕴厚重的怀古胜地。",
+  "extended_story": "凭吊古战场遗迹，感兴亡变迁、叹世事沉浮，\n催生大量怀古咏史情思。",
+  "essence": "密州境内核心历史怀古点位",
+  "tags": [
+    "visit",
+    "historical"
+  ],
+  "route_events": {
+    "R07": {
+      "duration": "1075-1076年凭吊怀古",
+      "duration_years": [
+        1075,
+        1076
+      ],
+      "essence": "密州境内核心历史怀古点位",
+      "su_shi_story": "凭吊古战场遗迹，感兴亡变迁、叹世事沉浮，\n催生大量怀古咏史情思。\n",
+      "historical_context": "潍水两岸楚汉古战场，历史底蕴厚重的怀古胜地。\n",
+      "order_in_route": 17,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.216Z",
+  "schema_version": "v4.1",
+  "lng": 119.412992,
+  "lat": 36.009273,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省潍坊市诸城市",
+  "coords_updated_at": "2026-06-01T10:17:04.324Z",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1076,
+    "span_years": 2,
+    "duration_label": "1074-1076 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

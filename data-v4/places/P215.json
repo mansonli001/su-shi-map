@@ -1,0 +1,46 @@
+{
+  "id": "P215",
+  "ancient_name": "运河全线风光",
+  "modern_name": "京杭大运河",
+  "type": "sight",
+  "related_routes": [
+    "R09"
+  ],
+  "background": "贯通南北水上官道，宋代官员南北调任核心航道。",
+  "extended_story": "赴任时泛舟赏运河两岸风物，闲适悠然；\n押解北上时同一条运河，心境却悲戚惶恐、物是人非。",
+  "essence": "本路线全程依托核心水系",
+  "tags": [
+    "transit",
+    "visit"
+  ],
+  "route_events": {
+    "R09": {
+      "duration": "1078-1079往返全程行舟",
+      "duration_years": [
+        1078,
+        1079
+      ],
+      "essence": "本路线全程依托核心水系",
+      "su_shi_story": "赴任时泛舟赏运河两岸风物，闲适悠然；\n押解北上时同一条运河，心境却悲戚惶恐、物是人非。\n",
+      "historical_context": "贯通南北水上官道，宋代官员南北调任核心航道。\n",
+      "order_in_route": 16,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.223Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1078,
+    "last_year": 1079,
+    "span_years": 1,
+    "duration_label": "1078-1079 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

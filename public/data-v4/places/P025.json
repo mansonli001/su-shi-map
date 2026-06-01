@@ -1,0 +1,113 @@
+{
+  "id": "P025",
+  "ancient_name": "滁州",
+  "modern_name": "安徽滁州",
+  "type": "main",
+  "lat": 32.255904,
+  "lng": 118.333439,
+  "related_routes": [
+    "R06"
+  ],
+  "summary": "苏轼移知扬州途经滁州，游琅琊山",
+  "background": "滁州是欧阳修《醉翁亭记》所在地，苏轼元祐七年移知扬州时途经此地",
+  "tags": [
+    "滁州",
+    "醉翁亭",
+    "欧阳修",
+    "transit",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route17": [
+      {
+        "id": "cz-001",
+        "date": "元祐七年（1092年）",
+        "title": "移知扬州途经滁州",
+        "description": "苏轼移知扬州，途经滁州游琅琊山",
+        "significance": "途经滁州"
+      }
+    ],
+    "R06": {
+      "duration": "1071年 顺路登临琅琊山",
+      "duration_years": [
+        1071
+      ],
+      "essence": "追怀欧公、文坛怀古名山",
+      "su_shi_story": "专程寻访琅琊山，追慕欧阳修醉翁文脉，\n感念师翁遗风，心境与旷达之志相契。\n",
+      "historical_context": "皖东名山聚集地，琅琊山因醉翁亭名扬天下。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "cz-s001",
+      "name": "琅琊山",
+      "type": "山",
+      "location": "安徽省滁州市",
+      "description": "欧阳修《醉翁亭记》所在地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "3-4小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "cz-s002",
+      "name": "醉翁亭",
+      "type": "亭",
+      "location": "安徽省滁州市琅琊山",
+      "description": "欧阳修《醉翁亭记》",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "滁州站",
+    "bus": "滁州汽车站",
+    "car": "宁洛高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "chuzhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.3018,
+    "v3_lng": 118.3126
+  },
+  "extended_story": "专程寻访琅琊山，追慕欧阳修醉翁文脉，\n感念师翁遗风，心境与旷达之志相契。",
+  "essence": "追怀欧公、文坛怀古名山",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.208Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "安徽省滁州市",
+  "coords_updated_at": "2026-06-01T10:17:04.311Z",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1074,
+    "span_years": 3,
+    "duration_label": "1071-1074 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

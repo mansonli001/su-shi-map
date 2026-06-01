@@ -1,0 +1,24 @@
+{
+  "id": "P088",
+  "ancient_name": "胶东半岛古道",
+  "modern_name": "山东胶东半岛古道",
+  "type": "sight",
+  "lat": 36.8,
+  "lng": 120.5,
+  "related_routes": [
+    "R12"
+  ],
+  "tags": [],
+  "background": "神宗崩、哲宗立，起复登州知州，自宜兴北上，到任仅五日复召还朝。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

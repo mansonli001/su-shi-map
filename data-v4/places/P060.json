@@ -1,0 +1,45 @@
+{
+  "id": "P060",
+  "ancient_name": "河北平原古驿",
+  "modern_name": "河北平原驿道",
+  "type": "sight",
+  "related_routes": [
+    "R17"
+  ],
+  "background": "河北平原千年官驿连绵相接，古道平直、阡陌无垠，\n古驿荒亭、老柳长堤散落原野，北地风貌苍莽寂寥，\n与江南烟雨驿道、江淮水乡古道截然不同。",
+  "extended_story": "漫步河北古驿长道，极目平野无边、古驿孤峙，\n荒亭残路映岁月沧桑，北地独有的空旷苍凉扑面而来，\n触景生身世漂泊、时局飘摇之叹，化作北地纪行诗文底色。",
+  "essence": "塑造苏轼晚年北地苍凉诗风的核心古道景观",
+  "tags": [
+    "visit",
+    "ancient_road"
+  ],
+  "route_events": {
+    "R17": {
+      "duration": "1094年全程行经览胜",
+      "duration_years": [
+        1094
+      ],
+      "essence": "塑造苏轼晚年北地苍凉诗风的核心古道景观",
+      "su_shi_story": "漫步河北古驿长道，极目平野无边、古驿孤峙，\n荒亭残路映岁月沧桑，北地独有的空旷苍凉扑面而来，\n触景生身世漂泊、时局飘摇之叹，化作北地纪行诗文底色。\n",
+      "historical_context": "河北平原千年官驿连绵相接，古道平直、阡陌无垠，\n古驿荒亭、老柳长堤散落原野，北地风貌苍莽寂寥，\n与江南烟雨驿道、江淮水乡古道截然不同。\n",
+      "order_in_route": 13,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.254Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1093,
+    "last_year": 1094,
+    "span_years": 1,
+    "duration_label": "1093-1094 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

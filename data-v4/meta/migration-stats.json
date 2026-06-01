@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "generated_at": "2026-06-01T04:12:29.575Z"
+  },
+  "v4_total": 234,
+  "matched": 148,
+  "unmatched": 86,
+  "detail_files_written": 148,
+  "confidence_dist": {
+    "high": 115,
+    "mid": 33,
+    "low": 25,
+    "none": 61
+  },
+  "strategy_dist": {
+    "ss:modern_substr+pinyin:coord_near": 12,
+    "none": 61,
+    "ss:modern_substr": 15,
+    "pinyin:ancient_exact": 16,
+    "pinyin:ancient_substr": 16,
+    "ss:ancient_exact": 21,
+    "ss:ancient_exact+pinyin:ancient_exact": 29,
+    "ss:ancient_substr+pinyin:ancient_substr": 24,
+    "ss:ancient_exact+pinyin:coord_near": 2,
+    "pinyin:coord_near": 9,
+    "ss:modern_exact": 5,
+    "ss:ancient_substr": 9,
+    "ss:coord_near": 4,
+    "ss:ancient_exact+pinyin:ancient_substr": 1,
+    "ss:ancient_substr+pinyin:coord_near": 3,
+    "ss:coord_near+pinyin:coord_near": 5,
+    "ss:ancient_exact+pinyin:modern_substr": 1,
+    "ss:modern_substr+pinyin:modern_substr": 1
+  },
+  "coverage": {
+    "with_periods": 89,
+    "with_detail": 103,
+    "with_both": 92,
+    "with_only_ss": 45,
+    "with_only_pinyin": 11
+  }
+}

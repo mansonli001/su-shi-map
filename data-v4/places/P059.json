@@ -1,0 +1,49 @@
+{
+  "id": "P059",
+  "ancient_name": "濠州",
+  "modern_name": "安徽凤阳",
+  "type": "main",
+  "related_routes": [
+    "R09"
+  ],
+  "background": "淮河南岸古州，运河沿岸传统驿道重镇。",
+  "extended_story": "舟行运河途经濠州，览淮上风物，\n一路平稳南行向扬州靠拢。",
+  "essence": "淮河南岸运河途经古邑",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R09": {
+      "duration": "1078年运河途经",
+      "duration_years": [
+        1078
+      ],
+      "essence": "淮河南岸运河途经古邑",
+      "su_shi_story": "舟行运河途经濠州，览淮上风物，\n一路平稳南行向扬州靠拢。\n",
+      "historical_context": "淮河南岸古州，运河沿岸传统驿道重镇。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.221Z",
+  "schema_version": "v4.1",
+  "lng": 117.531791,
+  "lat": 32.875714,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "安徽省滁州市凤阳县",
+  "coords_updated_at": "2026-06-01T10:17:04.315Z",
+  "duration_summary": {
+    "first_year": 1078,
+    "last_year": 1079,
+    "span_years": 1,
+    "duration_label": "1078-1079 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

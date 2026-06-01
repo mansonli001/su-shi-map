@@ -1,0 +1,26 @@
+{
+  "id": "W027",
+  "title": "念奴娇·赤壁怀古",
+  "category": "词作",
+  "type": "词",
+  "year_estimate": 1082,
+  "route_id": "R10",
+  "related_route_ids": [
+    "R10"
+  ],
+  "note": "豪放词压卷之作，大江东去道尽千古兴亡与人生感慨",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%BF%B5%E5%A5%B4%E5%A8%87%C2%B7%E8%B5%A4%E5%A3%81%E6%80%80%E5%8F%A4",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%BF%B5%E5%A5%B4%E5%A8%87%C2%B7%E8%B5%A4%E5%A3%81%E6%80%80%E5%8F%A4&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%BF%B5%E5%A5%B4%E5%A8%87%C2%B7%E8%B5%A4%E5%A3%81%E6%80%80%E5%8F%A4&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。\n遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。",
+  "coreVerse": "大江东去，浪淘尽，千古风流人物。",
+  "background": "元丰五年（1082）七月，苏轼贬居黄州第三年，与客游赤壁矶。彼时被贬已两年，面对大江与古迹，写下此词。被誉为宋词豪放派的代表作，「大江东去」四字奠定一代词风。",
+  "excerpt": "大江东去，浪淘尽，千古风流人物。"
+}

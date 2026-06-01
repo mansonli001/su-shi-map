@@ -1,0 +1,49 @@
+{
+  "id": "P232",
+  "ancient_name": "淄州",
+  "modern_name": "山东淄博",
+  "type": "main",
+  "related_routes": [
+    "R13"
+  ],
+  "background": "鲁中古邑，地处齐鲁古道中段，山水平野相间。",
+  "extended_story": "沿古道继续西行，穿行鲁中乡野，\n观阡陌古驿，体味齐鲁乡土民风。",
+  "essence": "齐鲁古道中段常规驿点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R13": {
+      "duration": "1085年古道西行途经",
+      "duration_years": [
+        1085
+      ],
+      "essence": "齐鲁古道中段常规驿点",
+      "su_shi_story": "沿古道继续西行，穿行鲁中乡野，\n观阡陌古驿，体味齐鲁乡土民风。\n",
+      "historical_context": "鲁中古邑，地处齐鲁古道中段，山水平野相间。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.238Z",
+  "schema_version": "v4.1",
+  "lng": 118.054994,
+  "lat": 36.813787,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省淄博市",
+  "coords_updated_at": "2026-06-01T10:17:04.329Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

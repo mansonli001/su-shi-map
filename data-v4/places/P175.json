@@ -1,0 +1,71 @@
+{
+  "id": "P175",
+  "ancient_name": "巫山",
+  "modern_name": "重庆巫山",
+  "type": "main",
+  "lat": 31.083,
+  "lng": 109.8821,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "",
+  "background": "巫山神女峰为三峡标志性名胜，\n神话与山水相融，历代题咏无数。",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "periods": [
+    {
+      "period": "元祐六年·知颍州",
+      "startYear": 1091,
+      "endYear": 1091,
+      "narrative": "元祐六年（1091年）八月，苏轼以龙图阁学士知颍州。颍州有西湖（不同于杭州西湖），苏轼疏浚西湖，修筑『苏堤』（颍州西湖的苏堤，不同于杭州苏堤）。他在颍州仅半年，但百姓感念其德。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年三峡泛舟览胜",
+      "duration_years": [
+        1059
+      ],
+      "essence": "三峡人文山水标杆",
+      "su_shi_story": "舟过巫山，遥望神女峰云雾缭绕，\n感神话悠远、江山灵秀，\n诗文增添空灵婉约之韵。\n",
+      "historical_context": "巫山神女峰为三峡标志性名胜，\n神话与山水相融，历代题咏无数。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS058",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 31.03,
+    "v3_lng": 110
+  },
+  "extended_story": "舟过巫山，遥望神女峰云雾缭绕，\n感神话悠远、江山灵秀，\n诗文增添空灵婉约之韵。",
+  "essence": "三峡人文山水标杆",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.189Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

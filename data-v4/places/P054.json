@@ -1,0 +1,113 @@
+{
+  "id": "P054",
+  "ancient_name": "广州",
+  "modern_name": "广东广州",
+  "type": "main",
+  "lat": 23.1291,
+  "lng": 113.2644,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼贬惠州、儋州时途经广州",
+  "background": "广州是岭南重镇，苏轼南贬时多次途经此地",
+  "tags": [
+    "广州",
+    "岭南",
+    "main",
+    "hub"
+  ],
+  "periods": [
+    {
+      "period": "从儋州北归·途经廉州",
+      "startYear": 1100,
+      "endYear": 1100,
+      "narrative": "苏轼从儋州获赦北归，途经廉州（今广西合浦）。在这里，他遇到了一位老朋友，两人抱头痛哭。苏轼写下『廉州何处是，海外此归来』的诗句，表达对重返大陆的激动。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route18": [
+      {
+        "id": "gz2-001",
+        "date": "绍圣元年（1094年）",
+        "title": "贬惠州途经广州",
+        "description": "苏轼贬惠州，途经广州",
+        "significance": "途经广州"
+      }
+    ],
+    "route19": [
+      {
+        "id": "gz2-002",
+        "date": "绍圣四年（1097年）",
+        "title": "贬儋州途经广州",
+        "description": "苏轼贬儋州，途经广州",
+        "significance": "途经广州"
+      },
+      {
+        "id": "gz2-003",
+        "date": "元符三年（1100年）",
+        "title": "北归途经广州",
+        "description": "苏轼北归，途经广州",
+        "significance": "途经广州"
+      }
+    ],
+    "R18": {
+      "duration": "1094年岭南中枢中转",
+      "duration_years": [],
+      "essence": "岭南核心中转都会",
+      "su_shi_story": "驻足广州休整，寻访岭南风物，\n顺路登临罗浮仙山。\n",
+      "historical_context": "岭南军政文化中心，南下枢纽。\n",
+      "order_in_route": 10,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "gz2-s001",
+      "name": "镇海楼",
+      "type": "楼",
+      "location": "广东省广州市越秀山",
+      "description": "广州古城标志建筑",
+      "opening_hours": "09:00-17:00",
+      "ticket": "¥10",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "广州站 / 广州南站",
+    "bus": "广州市汽车站",
+    "car": "京港澳高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS041",
+    "pinyin_id": "guangzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 23.1,
+    "v3_lng": 113.3
+  },
+  "extended_story": "驻足广州休整，寻访岭南风物，\n顺路登临罗浮仙山。",
+  "essence": "岭南核心中转都会",
+  "last_updated": "2026-06-01T10:22:05.257Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

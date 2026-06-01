@@ -1,0 +1,44 @@
+{
+  "id": "P086",
+  "ancient_name": "江南运河全线",
+  "modern_name": "江南运河",
+  "type": "sight",
+  "related_routes": [
+    "R15"
+  ],
+  "background": "江南水乡命脉，串联苏南浙北名城。",
+  "extended_story": "运河行舟，垂柳依依、水乡连绵，沉浸式融入江南气韵。",
+  "essence": "江南核心水系",
+  "tags": [
+    "transit"
+  ],
+  "route_events": {
+    "R06": {
+      "duration": "1071年 全程行舟",
+      "duration_years": [
+        1071
+      ],
+      "essence": "江南核心水系",
+      "su_shi_story": "运河行舟，垂柳依依、水乡连绵，沉浸式融入江南气韵。\n",
+      "historical_context": "江南水乡命脉，串联苏南浙北名城。\n",
+      "order_in_route": 15,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.210Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1091,
+    "last_year": 1091,
+    "span_years": 0,
+    "duration_label": "1091",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

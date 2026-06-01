@@ -58,8 +58,10 @@ const withPWA = require('@ducanh2912/next-pwa').default({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withPWA({
+  // v4.1: 打开 typescript 检查，确保构建时不放行类型错误
+  // eslint 错误量待评估后再打开（避免本轮卡死）
   eslint: { ignoreDuringBuilds: true },
-  typescript: { ignoreBuildErrors: true },
+  typescript: { ignoreBuildErrors: false },
   reactStrictMode: true,
   swcMinify: true,
   images: {

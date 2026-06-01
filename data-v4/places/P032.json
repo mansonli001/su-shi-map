@@ -1,0 +1,95 @@
+{
+  "id": "P032",
+  "ancient_name": "大庾岭梅关",
+  "modern_name": "江西大余梅关",
+  "type": "sight",
+  "lat": 25.367996,
+  "lng": 114.352982,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼越过大庾岭南行入粤",
+  "background": "大庾岭即梅岭，是苏轼贬惠州南下的必经之路，越过此岭即进入广东",
+  "tags": [
+    "大庾岭",
+    "梅岭",
+    "南下",
+    "visit",
+    "landmark",
+    "ancient_pass"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route18": [
+      {
+        "id": "dyl-001",
+        "date": "绍圣元年（1094年）",
+        "title": "越大庾岭南行",
+        "description": "苏轼贬惠州，越大庾岭进入广东",
+        "significance": "越岭南下"
+      }
+    ],
+    "R18": {
+      "duration": "",
+      "duration_years": [],
+      "essence": "南北分界第一雄关、南迁怀古核心地标",
+      "su_shi_story": "徒步翻越梅关，雄关峙立南北，\n岭北中原风物、岭南烟景截然不同，\n凭关怀古、感地域分野、仕途沉浮，\n写下南岭千古纪行诗作。\n",
+      "historical_context": "中原岭南分界千年雄关，梅岭遍植梅花，关隘巍峨、古道沧桑，\n是南北气候、人文、风物天然分界线，自古南迁文人必登临怀古之地。\n",
+      "order_in_route": 25,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "dyl-s001",
+      "name": "梅岭",
+      "type": "岭",
+      "location": "江西省大余县",
+      "description": "大庾岭即梅岭",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "梅岭汽车站",
+    "car": "赣韶高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS123",
+    "pinyin_id": "dayuling",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 25.383,
+    "v3_lng": 114.317
+  },
+  "extended_story": "徒步翻越梅关，雄关峙立南北，\n岭北中原风物、岭南烟景截然不同，\n凭关怀古、感地域分野、仕途沉浮，\n写下南岭千古纪行诗作。",
+  "essence": "南北分界第一雄关、南迁怀古核心地标",
+  "last_updated": "2026-06-01T10:22:05.259Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江西省赣州市大余县梅关",
+  "coords_updated_at": "2026-06-01T10:17:04.313Z",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

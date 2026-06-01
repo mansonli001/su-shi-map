@@ -1,0 +1,74 @@
+{
+  "id": "P153",
+  "ancient_name": "韶州",
+  "modern_name": "广东韶关",
+  "type": "main",
+  "lat": 24.8108,
+  "lng": 113.5972,
+  "related_routes": [
+    "R19"
+  ],
+  "summary": "苏轼贬惠州途经韶州",
+  "background": "韶州今广东韶关，苏轼贬惠州时途经此地",
+  "tags": [
+    "韶州",
+    "韶关",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route18": [
+      {
+        "id": "sz-001",
+        "date": "绍圣元年（1094年）",
+        "title": "贬惠州途经韶州",
+        "description": "苏轼贬惠州，途经韶州",
+        "significance": "途经韶州"
+      }
+    ],
+    "R19": {
+      "duration": "1100年赣江古道起点",
+      "duration_years": [],
+      "essence": "赣江古道起始驿点",
+      "su_shi_story": "重回南岭北麓，\n回望当年过大庾岭贬途往事。\n",
+      "historical_context": "翻越南岭北上第一站。\n",
+      "order_in_route": 12,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {
+    "train": "韶关站",
+    "bus": "韶关汽车站",
+    "car": "京港澳高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS088",
+    "pinyin_id": "shaozhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 25.05,
+    "v3_lng": 113.59
+  },
+  "extended_story": "重回南岭北麓，\n回望当年过大庾岭贬途往事。",
+  "essence": "赣江古道起始驿点",
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

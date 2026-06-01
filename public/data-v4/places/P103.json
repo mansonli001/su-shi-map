@@ -1,0 +1,52 @@
+{
+  "id": "P103",
+  "ancient_name": "灵隐寺",
+  "modern_name": "浙江杭州灵隐寺",
+  "type": "around",
+  "lat": 30.244,
+  "lng": 120.0982,
+  "related_routes": [
+    "R06"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [
+    {
+      "period": "1071-1074",
+      "title": "杭州通判·初识西湖",
+      "description": "熙宁四年（1071年），苏轼因与王安石变法派不合，自请外放任杭州通判。\n\n这是他第一次到杭州。杭州的山水让他惊艳——'未成小隐聊中隐，可得长闲胜暂闲。'他在杭州三年，疏浚六井、赈济灾民，同时留下了大量诗词。\n\n这一时期的苏轼，还是个'中年官员'——有抱负、有才干、但还没经历过真正的打击。他不知道，二十年后他会再回杭州，那时他已经成了'苏东坡'，也知道什么叫'一蓑烟雨任平生'。"
+    },
+    {
+      "period": "1089-1091",
+      "title": "再守杭州·修筑苏堤",
+      "description": "元祐四年（1089年），苏轼以龙图阁学士身份，再任杭州知州。\n\n这一次，他做的实事更多：疏浚西湖，用挖出的淤泥筑成'苏堤'（南北长堤，上有六桥）；设立'安乐坊'（中国最早的公立医院之一）；再次赈济灾民。\n\n在杭州百姓心里，苏轼不是一个'文学家'，他是一个'好官'——修了堤、治了病、救了灾。百姓叫他'苏贤良'，这个称呼，比'大文豪'让他更高兴。\n\n元祐六年（1091年）三月，苏轼被召回朝。杭州百姓沿湖相送，他写《别杭州》：'百姓依依不舍，我亦恋西湖。'"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS015",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 30.2741,
+    "v3_lng": 120.1551
+  },
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1074,
+    "span_years": 3,
+    "duration_label": "1071-1074 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

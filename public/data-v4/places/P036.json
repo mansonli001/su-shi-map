@@ -1,0 +1,185 @@
+{
+  "id": "P036",
+  "ancient_name": "登州",
+  "modern_name": "蓬莱",
+  "type": "official",
+  "lat": 37.795697,
+  "lng": 120.829141,
+  "related_routes": [
+    "R12",
+    "R13"
+  ],
+  "summary": "苏轼知登州仅五日即被召回",
+  "background": "登州今山东蓬莱，苏轼元丰八年任知州，仅五日即被召回汴京",
+  "tags": [
+    "登州",
+    "蓬莱",
+    "知州",
+    "main",
+    "official",
+    "stay",
+    "start",
+    "official_end"
+  ],
+  "periods": [
+    {
+      "period": "1094",
+      "title": "登州知州·五日而召还",
+      "description": "元祐八年（1093年），苏轼以礼部尚书出知定州。绍圣元年（1094年），再贬英州，未至，贬宁远军节度使、惠州安置。途经登州（今山东蓬莱）时，短暂逗留。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "dz-001",
+      "date": "元丰八年（1085年）",
+      "title": "任登州知州",
+      "description": "苏轼任登州知州",
+      "significance": "登州仕途"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "dz-w001",
+      "title": "登州文庙",
+      "content": "参观登州文庙",
+      "excerpt": "登州文庙",
+      "type": "文",
+      "date": "元丰八年（1085年）",
+      "location": "登州",
+      "background": "登州文庙"
+    },
+    {
+      "title": "海市诗并序",
+      "type": "shi",
+      "note": "登州观海市千古名篇",
+      "source_route": "R12"
+    },
+    {
+      "title": "蓬莱阁记所见",
+      "type": "wen",
+      "note": "登临蓬莱阁观海纪行",
+      "source_route": "R12",
+      "fullText": "蓬莱海上峰，玉立色不改。\n孤根捍滔天，云骨有破碎。\n阳侯杀廉角，阴火发光彩。\n累累弹丸间，琐细成珠琲。\n阎浮一沤耳，真妄果安在。\n我持此石归，袖中有东海。\n垂慈老人眼，俯仰了大块。\n置之盆盎中，日与山海对。\n明年菖蒲根，连络不可解。\n倘有蟠桃生，旦暮犹可待。",
+      "coreVerse": "蓬莱海上峰，玉立色不改。",
+      "excerpt": "蓬莱海上峰，玉立色不改。",
+      "poem_id": "W036"
+    },
+    {
+      "id": "W039",
+      "title": "迩英阁经筵讲义",
+      "type": "文",
+      "year": 1086,
+      "route_id": "R13",
+      "note": "侍讲帝王、阐释儒道治世理念的典制文章"
+    },
+    {
+      "id": "W040",
+      "title": "翰林院制诰序跋",
+      "type": "文",
+      "year": 1086,
+      "route_id": "R13",
+      "note": "入职翰林院主持文史、草拟朝制的典雅官文"
+    },
+    {
+      "id": "W037",
+      "title": "望海",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R12",
+      "note": "登州东海揽胜代表作"
+    }
+  ],
+  "route_events": {
+    "route13": [
+      {
+        "id": "dz-002",
+        "date": "元丰八年（1085年）",
+        "title": "任登州知州仅五日",
+        "description": "苏轼到登州任知州，仅五日即被召回",
+        "significance": "任登州知州"
+      }
+    ],
+    "R12": {
+      "duration": "1085年五日太守履职驻留",
+      "duration_years": [
+        1085
+      ],
+      "essence": "本路线终点、五日太守宦迹核心地、滨海文学创作圣地",
+      "su_shi_story": "抵达蓬莱就任登州知州，仅五日勤政亲民、巡察海防，\n空余大把时光登临仙阁、观沧海海市，留下千古诗文。\n",
+      "historical_context": "北宋京东东路海疆重镇，海防门户、东海仙境，蓬莱仙阁坐落于此。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R13": {
+      "duration": "1085年奉诏离任启程",
+      "duration_years": [
+        1085
+      ],
+      "essence": "还朝路线起点、海疆宦迹终点",
+      "su_shi_story": "辞别蓬莱阁沧海仙景，放下滨海闲游之乐，\n遵诏整装西向，奔赴京师重返朝堂。\n",
+      "historical_context": "北宋海疆重镇，苏轼五日太守任所，奉诏离任，为西进还朝起点。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "dz-s001",
+      "name": "蓬莱阁",
+      "type": "阁",
+      "location": "山东省蓬莱市",
+      "description": "苏轼在登州常游蓬莱阁",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥140",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "蓬莱站",
+    "bus": "蓬莱汽车站",
+    "car": "荣乌高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS039",
+    "pinyin_id": "dengzhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 37.45,
+    "v3_lng": 121.39
+  },
+  "extended_story": "抵达蓬莱就任登州知州，仅五日勤政亲民、巡察海防，\n空余大把时光登临仙阁、观沧海海市，留下千古诗文。",
+  "essence": "本路线终点、五日太守宦迹核心地、滨海文学创作圣地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.238Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省烟台市蓬莱区",
+  "coords_updated_at": "2026-06-01T10:17:04.313Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "登州文庙",
+    "source": "登州文庙",
+    "from": "global_works.excerpt"
+  }
+}

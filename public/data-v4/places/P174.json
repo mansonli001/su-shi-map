@@ -1,0 +1,44 @@
+{
+  "id": "P174",
+  "ancient_name": "尉氏",
+  "modern_name": "河南尉氏",
+  "type": "main",
+  "related_routes": [
+    "R03"
+  ],
+  "background": "汴京南郊门户，入京前最后官道驿站。",
+  "extended_story": "抵达尉氏，即将进入京畿地界，\n心境静待铨选授官。",
+  "essence": "汴京南部门户节点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 入京前最后驿点",
+      "duration_years": [
+        1060
+      ],
+      "essence": "汴京南部门户节点",
+      "su_shi_story": "抵达尉氏，即将进入京畿地界，\n心境静待铨选授官。\n",
+      "historical_context": "汴京南郊门户，入京前最后官道驿站。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.193Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

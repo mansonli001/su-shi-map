@@ -1,0 +1,59 @@
+{
+  "id": "P112",
+  "ancient_name": "罗浮山",
+  "modern_name": "广东博罗罗浮山",
+  "type": "sight",
+  "related_routes": [
+    "R18"
+  ],
+  "background": "岭南第一名山、道教仙山，岭南文脉胜境。",
+  "extended_story": "登临罗浮山，吸纳仙山灵气，\n以山林清寂消解贬谪落寞。",
+  "essence": "岭南仙山标志性点位",
+  "tags": [
+    "main",
+    "visit",
+    "landscape",
+    "immortal"
+  ],
+  "route_events": {
+    "R18": {
+      "duration": "1094年仙山游览",
+      "duration_years": [],
+      "essence": "岭南仙山标志性点位",
+      "su_shi_story": "登临罗浮山，吸纳仙山灵气，\n以山林清寂消解贬谪落寞。\n",
+      "historical_context": "岭南第一名山、道教仙山，岭南文脉胜境。\n",
+      "order_in_route": 11,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.260Z",
+  "schema_version": "v4.1",
+  "lng": 114.034674,
+  "lat": 23.269017,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "广东省惠州市博罗县罗浮山",
+  "coords_updated_at": "2026-06-01T10:17:04.318Z",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  },
+  "global_works": [
+    {
+      "id": "W059",
+      "title": "惠州一绝·梅花二首",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "note": "1095-1096 惠州，罗浮山下咏梅",
+      "fullText": "春来幽谷水潺潺，的皪梅花草棘间。\n一夜东风吹石裂，半随飞雪度关山。",
+      "excerpt": "春来幽谷水潺潺，的皪梅花草棘间。"
+    }
+  ]
+}

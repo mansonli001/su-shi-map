@@ -1,0 +1,24 @@
+{
+  "id": "P218",
+  "ancient_name": "漳河渡口",
+  "modern_name": "河北漳河渡口",
+  "type": "sight",
+  "lat": 36.3744,
+  "lng": 114.3776,
+  "related_routes": [
+    "R17"
+  ],
+  "tags": [],
+  "background": "高太后崩，新党再起，苏轼外放定州抵御契丹。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

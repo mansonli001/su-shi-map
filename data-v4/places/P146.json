@@ -1,0 +1,198 @@
+{
+  "id": "P146",
+  "ancient_name": "润州",
+  "modern_name": "镇江",
+  "type": "main",
+  "lat": 32.1885,
+  "lng": 119.4253,
+  "related_routes": [
+    "R06",
+    "R09",
+    "R11",
+    "R14",
+    "R19"
+  ],
+  "summary": "苏轼南下途经润州，游金山寺、北固山",
+  "background": "润州今江苏镇江，是长江南岸重要渡口，苏轼南下杭州途经此地",
+  "tags": [
+    "润州",
+    "镇江",
+    "金山寺",
+    "transit",
+    "visit",
+    "main",
+    "literary"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "rz-001",
+      "date": "熙宁四年（1071年）",
+      "title": "过润州",
+      "description": "苏轼南下途经润州",
+      "significance": "途经润州"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "游金山寺",
+      "type": "poem",
+      "note": "",
+      "source_route": "R06",
+      "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
+      "coreVerse": "我家江水初发源，宦游直送江入海。",
+      "excerpt": "我家江水初发源，宦游直送江入海。",
+      "poem_id": "W008"
+    }
+  ],
+  "route_events": {
+    "route05": [
+      {
+        "id": "rz-002",
+        "date": "熙宁四年（1071年）",
+        "title": "润州游金山寺",
+        "description": "苏轼至润州，游金山寺",
+        "significance": "途经润州"
+      }
+    ],
+    "route06": [
+      {
+        "id": "rz-003",
+        "date": "熙宁七年（1074年）",
+        "title": "润州北行过境",
+        "description": "苏轼北行赴密州，途经润州",
+        "significance": "途经润州"
+      }
+    ],
+    "R06": {
+      "duration": "1071年 江南运河起点",
+      "duration_years": [
+        1071
+      ],
+      "essence": "江南门户江景名邑",
+      "su_shi_story": "登陆润州，游览金山寺，观大江名山，\n写下《游金山寺》名篇\"江山如此不归山，江神见怪惊我顽\"，诗情勃发。\n",
+      "historical_context": "长江南岸重镇，金山寺临江而立，江禅名胜。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R09": {
+      "duration": "1078年渡江入江南途经",
+      "duration_years": [
+        1078
+      ],
+      "essence": "江南江北分界江南门户",
+      "su_shi_story": "横渡长江抵达润州，正式踏入江南地界，\n山水风貌转为温婉清丽。\n",
+      "historical_context": "长江南岸京口重地，运河入江南门户。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R11": {
+      "duration": "1084年长江渡江中转",
+      "duration_years": [
+        1084
+      ],
+      "essence": "江淮通往太湖江南的渡江枢纽",
+      "su_shi_story": "自润州横渡长江，正式踏入江南太湖腹地，\n心境愈发眷恋江南温润山水与闲适民风。\n",
+      "historical_context": "长江南岸京口要地，南北渡江必经门户，连通江北与江南太湖流域。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R14": {
+      "duration": "1089年江南运河入口",
+      "duration_years": [
+        1089
+      ],
+      "essence": "江南运河起始门户",
+      "su_shi_story": "横渡长江抵达润州，正式踏入江南地界，\n自此沿运河一路向南，奔赴杭州。\n",
+      "historical_context": "长江南岸京口要地，江南运河起始门户，渡江南下第一站。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R19": {
+      "duration": "1101年金山自题画像、渡江入江南",
+      "duration_years": [],
+      "essence": "一生绝笔诞生地、北人江南最后渡江门户",
+      "su_shi_story": "抵润州登金山寺，自题画像并作绝笔《自题金山画像》：\n「心似已灰之木，身如不系之舟。问汝平生功业，黄州惠州儋州」，\n以一首二十八字将一生功业熔于三段贬谪之名，举重若轻、自我盖棺；\n随即自润州横渡长江，踏入心念一生的江南腹地。\n",
+      "historical_context": "长江渡江门户，金山寺所在文脉圣地，是苏轼一生绝笔诗诞生地。\n",
+      "order_in_route": 17,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "rz-s001",
+      "name": "金山寺",
+      "type": "寺庙",
+      "location": "江苏省镇江市润州区",
+      "description": "苏轼《金山梦中作》所在地",
+      "opening_hours": "07:30-17:30",
+      "ticket": "¥50",
+      "suggested_duration": "2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "rz-s002",
+      "name": "北固山",
+      "type": "山",
+      "location": "江苏省镇江市京口区",
+      "description": "刘备、孙权试剑地，甘露寺所在",
+      "opening_hours": "07:30-17:30",
+      "ticket": "¥40",
+      "suggested_duration": "2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "镇江站/镇江南站",
+    "bus": "镇江汽车站",
+    "car": "京沪高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS078",
+    "pinyin_id": "runzhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.0603,
+    "v3_lng": 118.7969
+  },
+  "extended_story": "登陆润州，游览金山寺，观大江名山，\n写下《游金山寺》名篇\"江山如此不归山，江神见怪惊我顽\"，诗情勃发。",
+  "essence": "江南门户江景名邑",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.267Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1101,
+    "span_years": 30,
+    "duration_label": "1071-1101 · 30年",
+    "related_route_count": 5,
+    "stage_ids": [
+      "S2",
+      "S3",
+      "S4",
+      "S6"
+    ]
+  },
+  "famous_line": {
+    "quote": "我家江水初发源，宦游直送江入海。",
+    "source": "游金山寺",
+    "from": "global_works.excerpt"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "id": "P052",
+  "ancient_name": "瓜州古渡",
+  "modern_name": "江苏扬州瓜洲镇",
+  "type": "sight",
+  "lat": 32.254619,
+  "lng": 119.384787,
+  "related_routes": [
+    "R04"
+  ],
+  "summary": "苏轼多次途经镇江，游金山寺",
+  "background": "镇江古称润州，是苏轼从杭州北上或南下的重要中转地",
+  "tags": [
+    "镇江",
+    "润州",
+    "金山寺"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "zj-001",
+      "date": "熙宁四年（1071年）",
+      "title": "南下途经镇江",
+      "description": "苏轼南下赴杭州倅，途经润州游金山寺",
+      "significance": "途经镇江"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "zj-w001",
+      "title": "游金山寺",
+      "content": "金山何时去，此地去金山。",
+      "excerpt": "金山何时去，此地去金山。",
+      "type": "诗",
+      "date": "熙宁四年（1071年）",
+      "location": "镇江金山寺",
+      "background": "游金山寺",
+      "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
+      "coreVerse": "我家江水初发源，宦游直送江入海。",
+      "poem_id": "W008"
+    }
+  ],
+  "route_events": {
+    "route07": [
+      {
+        "id": "zj-002",
+        "date": "熙宁四年（1071年）",
+        "title": "南下途经润州",
+        "description": "苏轼南下赴杭州，途经润州",
+        "significance": "途经润州"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "zj-s001",
+      "name": "金山寺",
+      "type": "寺庙",
+      "location": "江苏省镇江市",
+      "description": "金山寺是镇江名刹",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥50",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "zj-s002",
+      "name": "焦山",
+      "type": "山",
+      "location": "江苏省镇江市",
+      "description": "苏轼常游焦山",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥65",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "镇江站 / 镇江南站",
+    "bus": "镇江汽车站",
+    "car": "沪宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS106",
+    "pinyin_id": "zhenjiang",
+    "match_strategy": "ss:modern_substr+pinyin:coord_near",
+    "confidence": 0.65,
+    "v3_lat": 32.39,
+    "v3_lng": 119.41
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省扬州市邗江区瓜洲镇",
+  "coords_updated_at": "2026-06-01T10:17:04.314Z",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1068,
+    "span_years": 3,
+    "duration_label": "1065-1068 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "金山何时去，此地去金山。",
+    "source": "游金山寺",
+    "from": "global_works.excerpt"
+  }
+}

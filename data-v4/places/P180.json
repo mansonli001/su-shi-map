@@ -1,0 +1,69 @@
+{
+  "id": "P180",
+  "ancient_name": "武昌樊山",
+  "modern_name": "湖北鄂州（北宋武昌）",
+  "type": "around",
+  "lat": 30.55,
+  "lng": 114.88,
+  "related_routes": [
+    "R10"
+  ],
+  "summary": "",
+  "background": "长江南岸临江名山，山势临江峙立、林壑幽深、峰峦叠翠，\n俯瞰大江千里、烟波浩渺，远眺江北黄州城廓，江天山色尽收眼底，\n兼具江山雄势与山林雅致，为江汉南岸第一名山胜迹。\n（注：宋代「武昌县」治所在今鄂州市，非今武汉武昌；name_modern 已正名为「鄂州樊山」）",
+  "tags": [
+    "visit",
+    "historical",
+    "river_mountain"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R10": {
+      "duration": "1080-1084年渡江登临",
+      "duration_years": [
+        1080,
+        1081,
+        1082,
+        1083,
+        1084
+      ],
+      "essence": "长江南岸俯瞰江天、助苏轼超脱尘俗、开阔胸襟的核心登临名山",
+      "su_shi_story": "自长江渡口泛舟南渡，登临樊山之巅，凭高远望大江奔流、南北平野，\n江雾漫山、风入林壑，顿觉心胸开阔、世事渺小；\n置身江南深山，暂离谪居罪臣身份，以普通文人、山林隐士之心寄情山水，\n观江山胜景、感世事浮沉，进一步超脱仕途得失、放下人生执念。\n",
+      "historical_context": "长江南岸临江名山，山势临江峙立、林壑幽深、峰峦叠翠，\n俯瞰大江千里、烟波浩渺，远眺江北黄州城廓，江天山色尽收眼底，\n兼具江山雄势与山林雅致，为江汉南岸第一名山胜迹。\n（注：宋代「武昌县」治所在今鄂州市，非今武汉武昌；name_modern 已正名为「鄂州樊山」）\n",
+      "order_in_route": 15,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS069",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 30.35,
+    "v3_lng": 114.88
+  },
+  "extended_story": "自长江渡口泛舟南渡，登临樊山之巅，凭高远望大江奔流、南北平野，\n江雾漫山、风入林壑，顿觉心胸开阔、世事渺小；\n置身江南深山，暂离谪居罪臣身份，以普通文人、山林隐士之心寄情山水，\n观江山胜景、感世事浮沉，进一步超脱仕途得失、放下人生执念。",
+  "essence": "长江南岸俯瞰江天、助苏轼超脱尘俗、开阔胸襟的核心登临名山",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.229Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1080,
+    "last_year": 1084,
+    "span_years": 4,
+    "duration_label": "1080-1084 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

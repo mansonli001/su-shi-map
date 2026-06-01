@@ -1,0 +1,61 @@
+{
+  "id": "P076",
+  "ancient_name": "吉州",
+  "modern_name": "江西吉安",
+  "type": "main",
+  "lat": 27.091243,
+  "lng": 114.96681,
+  "related_routes": [
+    "R19"
+  ],
+  "summary": "",
+  "background": "赣江中下游文脉古邑。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R19": {
+      "duration": "1100年赣江北行",
+      "duration_years": [],
+      "essence": "赣江北上途经点",
+      "su_shi_story": "顺赣江北下，渐近长江，\n离江南故土越来越近。\n",
+      "historical_context": "赣江中下游文脉古邑。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS101",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.7,
+    "v3_lat": 27.79,
+    "v3_lng": 114.93
+  },
+  "extended_story": "顺赣江北下，渐近长江，\n离江南故土越来越近。",
+  "essence": "赣江北上途经点",
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江西省吉安市",
+  "coords_updated_at": "2026-06-01T10:17:04.316Z",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

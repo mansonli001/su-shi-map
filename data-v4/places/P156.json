@@ -1,0 +1,111 @@
+{
+  "id": "P156",
+  "ancient_name": "寿州",
+  "modern_name": "安徽寿县",
+  "type": "main",
+  "lat": 32.545027,
+  "lng": 116.798203,
+  "related_routes": [
+    "R06",
+    "R14"
+  ],
+  "summary": "苏轼南下途经寿州",
+  "background": "寿州今安徽寿县，苏轼南下杭州途经此地",
+  "tags": [
+    "寿州",
+    "八公山",
+    "transit",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "sz-001",
+      "date": "熙宁四年（1071年）",
+      "title": "过寿州",
+      "description": "苏轼南下途经寿州",
+      "significance": "途经寿州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R06": {
+      "duration": "1071年 官道途经",
+      "duration_years": [
+        1071
+      ],
+      "essence": "南北风物过渡节点",
+      "su_shi_story": "穿行寿州古驿，告别颍州师生惜别心绪，\n渐入皖东山水地界。\n",
+      "historical_context": "淮南古郡，古城厚重，南北风物过渡要冲。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R14": {
+      "duration": "1089年南下途经",
+      "duration_years": [
+        1089
+      ],
+      "essence": "江淮南下渡江前置驿点",
+      "su_shi_story": "沿水乡驿道继续南行，观淮上古驿烟火，\n一路向长江渡口缓缓行进。\n",
+      "historical_context": "淮右古州，江淮驿道南北要冲，山水古朴、文脉绵长。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "sz-s001",
+      "name": "八公山",
+      "type": "山",
+      "location": "安徽省淮南市寿县",
+      "description": "著名的道教圣地，豆腐发源地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "寿县站",
+    "bus": "寿县汽车站",
+    "car": "济广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS144",
+    "pinyin_id": "shouzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.6256,
+    "v3_lng": 116.9968
+  },
+  "extended_story": "穿行寿州古驿，告别颍州师生惜别心绪，\n渐入皖东山水地界。",
+  "essence": "南北风物过渡节点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.242Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "安徽省淮南市寿县",
+  "coords_updated_at": "2026-06-01T10:17:04.323Z",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1091,
+    "span_years": 20,
+    "duration_label": "1071-1091 · 20年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

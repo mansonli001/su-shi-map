@@ -1,0 +1,44 @@
+{
+  "id": "P204",
+  "ancient_name": "宜宾锁江楼",
+  "modern_name": "四川宜宾锁江楼",
+  "type": "sight",
+  "lat": 28.752354,
+  "lng": 104.642826,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS127",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 28.752,
+    "v3_lng": 104.643
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "四川省宜宾市",
+  "coords_updated_at": "2026-06-01T10:17:04.327Z",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

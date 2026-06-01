@@ -1,0 +1,75 @@
+{
+  "id": "P078",
+  "ancient_name": "嘉州",
+  "modern_name": "乐山",
+  "type": "main",
+  "related_routes": [
+    "R02",
+    "R04"
+  ],
+  "background": "岷江中游重镇，乐山大佛所在地，\n宋代水路商旅、文人必经停靠之地。",
+  "extended_story": "舟至嘉州，远眺乐山大佛与三江汇流盛景，\n观山水人文相融之境，写下初发嘉州名篇，\n开启长江行旅诗文创作。",
+  "essence": "岷江首座江景人文名城",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "route_events": {
+    "R02": {
+      "duration": "1059年乘船途经驻足",
+      "duration_years": [
+        1059
+      ],
+      "essence": "岷江首座江景人文名城",
+      "su_shi_story": "舟至嘉州，远眺乐山大佛与三江汇流盛景，\n观山水人文相融之境，写下初发嘉州名篇，\n开启长江行旅诗文创作。\n",
+      "historical_context": "岷江中游重镇，乐山大佛所在地，\n宋代水路商旅、文人必经停靠之地。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1066年岷江途经",
+      "duration_years": [
+        1066
+      ],
+      "essence": "岷江返乡重要地标",
+      "su_shi_story": "重过嘉州江景，\n离故乡只剩咫尺路程。\n",
+      "historical_context": "岷江中游名城，水路必经之地。\n",
+      "order_in_route": 17,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "global_works": [
+    {
+      "title": "初发嘉州",
+      "type": "poem",
+      "note": "水路出蜀代表诗作",
+      "source_route": "R02",
+      "fullText": "朝发鼓阗阗，西风猎画旃。\n故乡飘已远，往意浩无边。\n锦水细不见，蛮江清可怜。\n奔腾过佛脚，旷荡造平川。\n野市有禅客，钓台寻暮烟。\n相期定先到，久立水潺潺。",
+      "coreVerse": "朝发鼓阗阗，西风猎画旃。",
+      "excerpt": "朝发鼓阗阗，西风猎画旃。",
+      "poem_id": "W002"
+    }
+  ],
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.201Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1068,
+    "span_years": 9,
+    "duration_label": "1059-1068 · 9年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "朝发鼓阗阗，西风猎画旃。",
+    "source": "初发嘉州",
+    "from": "global_works.excerpt"
+  }
+}

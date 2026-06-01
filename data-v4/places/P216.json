@@ -1,0 +1,107 @@
+{
+  "id": "P216",
+  "ancient_name": "郓州",
+  "modern_name": "山东东平",
+  "type": "main",
+  "lat": 35.6051,
+  "lng": 116.5891,
+  "related_routes": [
+    "R13"
+  ],
+  "summary": "苏轼北上途经郓州，改知徐州",
+  "background": "郓州今山东郓城，苏轼自密州北上前住徐州途经此地",
+  "tags": [
+    "郓州",
+    "东平",
+    "main",
+    "transit"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "yc-001",
+      "date": "熙宁十年（1077年）二月",
+      "title": "过郓州改知徐州",
+      "description": "苏轼行至郓州，改知徐州",
+      "significance": "途经郓州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R08": {
+      "duration": "1077年正月底 西行途经",
+      "duration_years": [
+        1077
+      ],
+      "essence": "齐州西行途经节点",
+      "su_shi_story": "自齐州西行经郓州，渐近黄河北岸澶濮地界，\n途中得朝廷改命徐州的消息，但具体诏书需至陈桥驿方接。\n",
+      "historical_context": "鲁西南古郡，齐州西行入豫北必经古道节点。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R13": {
+      "duration": "1085年西行过渡途经",
+      "duration_years": [
+        1085
+      ],
+      "essence": "鲁地入中原过渡驿点",
+      "su_shi_story": "自济南西行入郓州，地貌渐趋平缓，\n远离山岳，渐近中原京师格局。\n",
+      "historical_context": "鲁西南古州，由鲁中山地向中原平原过渡要道。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "yc-s001",
+      "name": "郓州古城",
+      "type": "古城",
+      "location": "山东省郓城县",
+      "description": "苏轼北上途经郓州",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "郓城站",
+    "bus": "郓城汽车站",
+    "car": "济广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS149",
+    "pinyin_id": "yuncheng",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 35.9136,
+    "v3_lng": 116.3139
+  },
+  "extended_story": "自齐州西行经郓州，渐近黄河北岸澶濮地界，\n途中得朝廷改命徐州的消息，但具体诏书需至陈桥驿方接。",
+  "essence": "齐州西行途经节点",
+  "source": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "last_updated": "2026-06-01T10:22:05.239Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

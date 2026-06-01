@@ -1,0 +1,163 @@
+{
+  "id": "P217",
+  "ancient_name": "载酒堂",
+  "modern_name": "海南儋州载酒堂",
+  "type": "around",
+  "lat": 19.5232,
+  "lng": 109.5754,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼贬谪海南儋州三年，在此讲学授徒",
+  "background": "儋州是苏轼最后一个贬谪地，在此三年讲学授徒，对海南文化影响深远",
+  "tags": [
+    "儋州",
+    "海南",
+    "贬谪",
+    "讲学"
+  ],
+  "periods": [
+    {
+      "period": "1097-1098",
+      "title": "渡海抵琼·昌化军安置",
+      "description": "绍圣四年（1097年）四月，苏轼被贬为'琼州别驾、昌化军安置'。这是比惠州更远的贬谪——当时的海南岛，在宋人眼里是'天涯海角'，去那里基本上等于'流放至死'。\n\n苏轼七月渡海，抵琼州（今海口）。然后一路向南，抵达昌化军（今儋州）。\n\n初到儋州，苏轼的处境可以用'四个没有'来形容：没有像样的房子住、没有像样的食物吃、没有像样的医生看病、没有像样的书读。他在《到昌化军谢表》里写：'并鬼门而东鹜，浮瘴海以南迁。生还无期，死葬鲸波。'——翻译一下：经过鬼门关往东走，漂过瘴气海往南迁。活着回来没指望，死了就葬在鲸鱼出没的海里。\n\n这是苏轼一生中最绝望的时刻。他已经62岁了。"
+    },
+    {
+      "period": "1098-1100",
+      "title": "桄榔庵·讲学明道",
+      "description": "在儋州，苏轼住在'桄榔庵'（用桄榔树叶搭的棚屋）。当地百姓可怜他，帮他盖了几间茅屋，他给房子起名'桄榔庵'。\n\n儋州'非人所居，药饵皆无有'。苏轼不得不吃孩子们喜欢的零食（因为没别的吃的），研究怎么在热带生存。他在《食荔枝》里写：'日啖荔枝三百颗，不辞长作岭南人'——这是在惠州写的，到了儋州，连荔枝都没得吃了。\n\n但苏轼在儋州做了一件影响深远的事：开学堂，教当地人读书。儋州在此之前，'学者稀少'，苏轼来了之后，'书声琅琅，弦歌四起'。后来，儋州出了第一个进士（姜唐佐），就是苏轼的学生。\n\n元符三年（1100年）正月，宋徽宗即位，大赦天下。五月，苏轼接到诏命，移廉州安置。离开儋州时，当地百姓送他到海边。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "dz2-001",
+      "date": "绍圣四年（1097年）",
+      "title": "贬谪儋州",
+      "description": "苏轼再贬儋州",
+      "significance": "再贬岭南"
+    },
+    {
+      "id": "dz2-002",
+      "date": "元符三年（1100年）",
+      "title": "赦还北归",
+      "description": "苏轼遇赦北归",
+      "significance": "北归"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "dz2-w001",
+      "title": "海南日记",
+      "content": "九死南荒吾不恨，兹游奇绝冠平生。",
+      "excerpt": "九死南荒吾不恨，兹游奇绝冠平生。",
+      "type": "诗",
+      "date": "元符三年（1100年）",
+      "location": "儋州",
+      "background": "苏轼离海南诗"
+    },
+    {
+      "id": "dz2-w002",
+      "title": "答谢民师书",
+      "content": "《答谢民师书》",
+      "excerpt": "轼顿首。",
+      "type": "文",
+      "date": "元符三年（1100年）",
+      "location": "儋州",
+      "background": "在儋州所作"
+    }
+  ],
+  "route_events": {
+    "route19": [
+      {
+        "id": "dz2-003",
+        "date": "绍圣四年（1097年）",
+        "title": "到儋州",
+        "description": "苏轼抵达儋州",
+        "significance": "抵儋州"
+      },
+      {
+        "id": "dz2-004",
+        "date": "绍圣四年至元符三年（1097-1100年）",
+        "title": "讲学授徒",
+        "description": "苏轼在儋州讲学授徒",
+        "significance": "儋州讲学"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "dz2-s001",
+      "name": "东坡书院",
+      "type": "书院",
+      "location": "海南省儋州市中和镇",
+      "description": "苏轼在儋州讲学授徒处",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥25",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "dz2-s002",
+      "name": "桄榔庵",
+      "type": "庵",
+      "location": "海南省儋州市",
+      "description": "苏轼在儋州的居所",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "dz2-s003",
+      "name": "载酒堂",
+      "type": "堂",
+      "location": "海南省儋州市",
+      "description": "苏轼以文会友处",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "儋州汽车站",
+    "car": "海南环岛高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS043",
+    "pinyin_id": "danzhou",
+    "match_strategy": "ss:modern_substr+pinyin:coord_near",
+    "confidence": 0.65,
+    "v3_lat": 19.5211,
+    "v3_lng": 109.513
+  },
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  },
+  "famous_line": {
+    "quote": "九死南荒吾不恨，兹游奇绝冠平生。",
+    "source": "海南日记",
+    "from": "global_works.excerpt"
+  }
+}

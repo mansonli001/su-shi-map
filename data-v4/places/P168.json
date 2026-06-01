@@ -1,0 +1,46 @@
+{
+  "id": "P168",
+  "ancient_name": "泰山余脉",
+  "modern_name": "山东泰安泰山余脉",
+  "type": "sight",
+  "related_routes": [
+    "R13"
+  ],
+  "background": "泰山主峰向北延展的层峦余脉，峰峦连绵、山势沉厚，\n兼具五岳雄势与鲁中山野温润，是齐鲁大地文脉靠山。",
+  "extended_story": "一路绕行泰山余脉外围，观层峦叠嶂、山势雄浑稳重，\n感泰山作为儒家圣山的厚重底蕴，涵养儒臣立身气度，\n为入朝经世、持正立心埋下精神根基。",
+  "essence": "涵养儒家正气、塑造朝堂胸襟的山岳文脉带",
+  "tags": [
+    "visit",
+    "historical",
+    "landscape"
+  ],
+  "route_events": {
+    "R13": {
+      "duration": "1085年沿途穿行览胜",
+      "duration_years": [
+        1085
+      ],
+      "essence": "涵养儒家正气、塑造朝堂胸襟的山岳文脉带",
+      "su_shi_story": "一路绕行泰山余脉外围，观层峦叠嶂、山势雄浑稳重，\n感泰山作为儒家圣山的厚重底蕴，涵养儒臣立身气度，\n为入朝经世、持正立心埋下精神根基。\n",
+      "historical_context": "泰山主峰向北延展的层峦余脉，峰峦连绵、山势沉厚，\n兼具五岳雄势与鲁中山野温润，是齐鲁大地文脉靠山。\n",
+      "order_in_route": 12,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.240Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

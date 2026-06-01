@@ -1,0 +1,40 @@
+{
+  "id": "P004",
+  "ancient_name": "北部湾海岸",
+  "modern_name": "广西北部湾海岸",
+  "type": "sight",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "南海北部湾海岸，海疆辽阔、岸线绵长，\n海天一色、滩涂苍茫，迥异内河水路的浩瀚海景。",
+  "extended_story": "缓步沿海岸而行，观南海苍茫无际，\n海风涤荡三年海岛孤寂，\n暮年心境随海疆辽阔愈发淡然开阔。",
+  "essence": "归途独有的滨海苍茫水景",
+  "tags": [
+    "visit",
+    "landscape"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100年沿途行旅",
+      "duration_years": [],
+      "essence": "归途独有的滨海苍茫水景",
+      "su_shi_story": "缓步沿海岸而行，观南海苍茫无际，\n海风涤荡三年海岛孤寂，\n暮年心境随海疆辽阔愈发淡然开阔。\n",
+      "historical_context": "南海北部湾海岸，海疆辽阔、岸线绵长，\n海天一色、滩涂苍茫，迥异内河水路的浩瀚海景。\n",
+      "order_in_route": 19,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.267Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

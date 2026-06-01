@@ -1,0 +1,55 @@
+{
+  "id": "P134",
+  "ancient_name": "岐亭",
+  "modern_name": "湖北麻城岐亭镇",
+  "type": "around",
+  "related_routes": [
+    "R10"
+  ],
+  "background": "黄州西北山野古镇，深藏大别山东南余脉幽谷之间，远离州城尘嚣，\n山林清幽、民风淳朴、隐士云集，是宋代江汉文人隐居避世的优选之地。",
+  "extended_story": "挚友陈季常隐居岐亭山林，苏轼数度翻山越岭前往探访，\n二人对酒当歌、论诗谈禅、闲话世事，远离朝堂党争、脱离世俗功名；\n在山野友情与山林清趣中消解谪居孤寂，安放落魄失意之心，\n布衣之交、山林之乐，成为黄州灰暗岁月里难得的精神慰藉。",
+  "essence": "苏轼谪居时期交友避世、安放孤怀的山林隐逸重镇",
+  "tags": [
+    "visit",
+    "friend",
+    "seclusion"
+  ],
+  "route_events": {
+    "R10": {
+      "duration": "1080-1084年访友常往",
+      "duration_years": [
+        1080,
+        1081,
+        1082,
+        1083,
+        1084
+      ],
+      "essence": "苏轼谪居时期交友避世、安放孤怀的山林隐逸重镇",
+      "su_shi_story": "挚友陈季常隐居岐亭山林，苏轼数度翻山越岭前往探访，\n二人对酒当歌、论诗谈禅、闲话世事，远离朝堂党争、脱离世俗功名；\n在山野友情与山林清趣中消解谪居孤寂，安放落魄失意之心，\n布衣之交、山林之乐，成为黄州灰暗岁月里难得的精神慰藉。\n",
+      "historical_context": "黄州西北山野古镇，深藏大别山东南余脉幽谷之间，远离州城尘嚣，\n山林清幽、民风淳朴、隐士云集，是宋代江汉文人隐居避世的优选之地。\n",
+      "order_in_route": 13,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.228Z",
+  "schema_version": "v4.1",
+  "lng": 114.754592,
+  "lat": 31.022195,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "湖北省黄冈市麻城市岐亭镇",
+  "coords_updated_at": "2026-06-01T10:17:04.321Z",
+  "duration_summary": {
+    "first_year": 1080,
+    "last_year": 1084,
+    "span_years": 4,
+    "duration_label": "1080-1084 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

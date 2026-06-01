@@ -1,0 +1,21 @@
+{
+  "id": "W044",
+  "title": "钱塘勤上人诗集叙",
+  "category": "禅意序跋",
+  "type": "诗",
+  "route_id": "R14",
+  "related_route_ids": [
+    "R14"
+  ],
+  "note": "灵隐禅林友人诗集序言，体现湖山禅意创作维度",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E9%92%B1%E5%A1%98%E5%8B%A4%E4%B8%8A%E4%BA%BA%E8%AF%97%E9%9B%86%E5%8F%99",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E9%92%B1%E5%A1%98%E5%8B%A4%E4%B8%8A%E4%BA%BA%E8%AF%97%E9%9B%86%E5%8F%99&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E9%92%B1%E5%A1%98%E5%8B%A4%E4%B8%8A%E4%BA%BA%E8%AF%97%E9%9B%86%E5%8F%99&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

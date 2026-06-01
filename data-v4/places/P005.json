@@ -1,0 +1,40 @@
+{
+  "id": "P005",
+  "ancient_name": "北江",
+  "modern_name": "广东北江",
+  "type": "main",
+  "related_routes": [
+    "R18"
+  ],
+  "background": "粤北南下核心水系，直通广州航道。",
+  "extended_story": "沿北江南下，岭南山水温润奇秀，\n渐安贬途心境。",
+  "essence": "岭南南下主干水系",
+  "tags": [
+    "main",
+    "water_transit"
+  ],
+  "route_events": {
+    "R18": {
+      "duration": "1094年岭南舟行",
+      "duration_years": [],
+      "essence": "岭南南下主干水系",
+      "su_shi_story": "沿北江南下，岭南山水温润奇秀，\n渐安贬途心境。\n",
+      "historical_context": "粤北南下核心水系，直通广州航道。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.257Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

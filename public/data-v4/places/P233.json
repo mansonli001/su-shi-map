@@ -1,0 +1,44 @@
+{
+  "id": "P233",
+  "ancient_name": "秭归",
+  "modern_name": "湖北秭归",
+  "type": "main",
+  "related_routes": [
+    "R02"
+  ],
+  "background": "三峡东出口古县，屈子故里，\n人文底蕴深厚，江行情怀浓郁。",
+  "extended_story": "行至秭归，出三峡进入平缓江面，\n感念先贤风骨，江行思绪沉静悠远。",
+  "essence": "三峡终点人文古邑",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R02": {
+      "duration": "1059年出三峡途经",
+      "duration_years": [
+        1059
+      ],
+      "essence": "三峡终点人文古邑",
+      "su_shi_story": "行至秭归，出三峡进入平缓江面，\n感念先贤风骨，江行思绪沉静悠远。\n",
+      "historical_context": "三峡东出口古县，屈子故里，\n人文底蕴深厚，江行情怀浓郁。\n",
+      "order_in_route": 10,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.189Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

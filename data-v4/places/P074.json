@@ -1,0 +1,133 @@
+{
+  "id": "P074",
+  "ancient_name": "惠州\n惠州再贬：惠州",
+  "modern_name": "广东惠州",
+  "type": "stay",
+  "lat": 23.1115,
+  "lng": 114.4153,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼贬惠州两年多，作《食荔枝》等诗",
+  "background": "惠州今广东惠州，苏轼于绍圣元年贬惠州安置两年多",
+  "tags": [
+    "惠州",
+    "岭南"
+  ],
+  "periods": [
+    {
+      "period": "1094-1095",
+      "title": "初到惠州·荔枝三百颗",
+      "description": "绍圣元年（1094年）十月，苏轼抵惠州。\n\n惠州在今广东，宋代是'蛮荒之地'。但苏轼到惠州后，发现这里并不像传说中那么可怕——气候温暖、物产丰富、百姓也淳朴。\n\n他写《食荔枝》：'罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。'——翻译一下：罗浮山底下四季如春，枇杷杨梅轮番成熟。每天吃三百颗荔枝，我愿意永远做岭南人。\n\n'日啖荔枝三百颗'——这是苏轼式的乐观：被贬到'蛮荒之地'，别人哭天抢地，他研究荔枝好不好吃。"
+    },
+    {
+      "period": "1095-1097",
+      "title": "惠州三年·推广秧马",
+      "description": "在惠州三年，苏轼做了几件实事：\n\n**第一件：推广秧马。**\n\n秧马是一种水稻插秧工具，能减轻农民弯腰劳作的辛苦。苏轼看到当地农民用原始的'手插'，就写信给好友，从江南运来秧马，教当地人使用。\n\n**第二件：修建东新桥、西新桥。**\n\n惠州有东江和西江，行人要靠渡船，很不方便。苏轼动员弟弟苏辙的妻子（史夫人）捐出'数千缗'（一大笔钱），修建了东新桥和西新桥。\n\n**第三件：研究美食。**\n\n苏轼在惠州发明了'烤羊脊骨'的吃法——羊脊骨（羊蝎子）便宜，苏轼买来烤着吃，觉得'味含英华，如食蟹螯'。今天你去广东，'烤羊脊骨'还是一道名菜。\n\n绍圣四年（1097年），苏轼再贬儋州。离开惠州时，他写：'鹅城万室，错居二水之间。'——惠州万户人家，错落在东江和西江之间，我已经住惯了，要走还真有点舍不得。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "hzh-001",
+      "date": "绍圣元年（1094年）十月二日",
+      "title": "到惠州贬所",
+      "description": "苏轼到惠州贬所",
+      "significance": "到惠州"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "hz-w001",
+      "title": "食荔枝",
+      "content": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
+      "excerpt": "日啖荔枝三百颗，不辞长作岭南人。",
+      "type": "诗",
+      "date": "绍圣二年（1095年）",
+      "location": "惠州",
+      "background": "苏轼在惠州食荔枝作此诗",
+      "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
+      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。",
+      "poem_id": "W056"
+    }
+  ],
+  "route_events": {
+    "route18": [
+      {
+        "id": "hzh-002",
+        "date": "绍圣元年（1094年）十月二日",
+        "title": "到惠州贬所",
+        "description": "苏轼到惠州贬所",
+        "significance": "到惠州"
+      },
+      {
+        "id": "hzh-003",
+        "date": "绍圣四年（1097年）四月",
+        "title": "再贬儋州",
+        "description": "苏轼再贬儋州",
+        "significance": "再贬儋州"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "hzh-s001",
+      "name": "白鹤峰",
+      "type": "山峰",
+      "location": "广东省惠州市惠城区",
+      "description": "苏轼在惠州时居于此",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "hzh-s002",
+      "name": "西湖",
+      "type": "湖泊",
+      "location": "广东省惠州市惠城区",
+      "description": "苏轼常游惠州西湖",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "惠州站",
+    "bus": "惠州汽车站",
+    "car": "济广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS040",
+    "pinyin_id": "huizhou",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 23.1291,
+    "v3_lng": 114.2644
+  },
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  },
+  "famous_line": {
+    "quote": "日啖荔枝三百颗，不辞长作岭南人。",
+    "source": "食荔枝",
+    "from": "global_works.excerpt"
+  }
+}

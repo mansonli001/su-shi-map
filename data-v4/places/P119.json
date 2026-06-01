@@ -1,0 +1,272 @@
+{
+  "id": "P119",
+  "ancient_name": "密州",
+  "modern_name": "诸城",
+  "type": "official",
+  "lat": 36.009273,
+  "lng": 119.412992,
+  "related_routes": [
+    "R07",
+    "R08",
+    "R12"
+  ],
+  "summary": "苏轼任密州知州两年，期间创作《水调歌头》《江城子》等名篇",
+  "background": "密州今山东诸城，苏轼于熙宁七年任知州，在此两年期间创作大量诗文",
+  "tags": [
+    "密州",
+    "诸城",
+    "知州",
+    "超然台",
+    "main",
+    "official",
+    "stay",
+    "revisit"
+  ],
+  "periods": [
+    {
+      "period": "1074-1076",
+      "title": "知密州·超然台",
+      "description": "熙宁七年（1074年）十一月，苏轼由杭州通判调任密州知州。\n\n密州在北宋属京东东路，今山东诸城。此地比杭州苦得多——'岁旱，盗贼满野'。苏轼到任后，救灾、除盗、整吏治，政绩显著。\n\n在密州，苏轼建了一座'超然台'（在州署后园，筑台以示'超然物外'之意）。他写《超然台记》：'以见余之无所往而不乐者，盖游于物之外也。'\n\n密州期间，苏轼写下两首千古绝唱：《水调歌头·明月几时有》（丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由）和《江城子·密州出猎》。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "mz-001",
+      "date": "熙宁七年（1074年）十一月三日",
+      "title": "任密州知州",
+      "description": "苏轼到密州任知州",
+      "significance": "密州仕途"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "mz-w001",
+      "title": "水调歌头·明月几时有",
+      "content": "明月几时有，把酒问青天。不知天上宫阙，今夕是何年？",
+      "excerpt": "明月几时有，把酒问青天。",
+      "type": "词",
+      "date": "熙宁九年（1076年）中秋",
+      "location": "密州超然台",
+      "background": "苏轼在密州中秋欢饮达旦，大醉作此篇，兼怀子由",
+      "fullText": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。\n\n明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。\n转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+      "coreVerse": "但愿人长久，千里共婵娟。",
+      "poem_id": "W015"
+    },
+    {
+      "id": "mz-w002",
+      "title": "江城子·密州出猎",
+      "content": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。",
+      "excerpt": "老夫聊发少年狂，左牵黄，右擎苍。",
+      "type": "词",
+      "date": "熙宁七年（1074年）",
+      "location": "密州",
+      "background": "苏轼在密州出猎所作",
+      "fullText": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。\n酒酣胸胆尚开张。鬓微霜，又何妨。持节云中，何日遣冯唐。会挽雕弓如满月，西北望，射天狼。",
+      "coreVerse": "会挽雕弓如满月，西北望，射天狼。",
+      "poem_id": "W014"
+    },
+    {
+      "title": "超然台记",
+      "type": "wen",
+      "note": "密州标志性散文代表作",
+      "source_route": "R07",
+      "fullText": "我公厌富贵，常苦勋业寻。\n相期赤松子，永望白云岑。\n清风出谈笑，万窍为号吟。\n吟成超然诗，洗我蓬之心。\n嗟我本何人，麋鹿强冠襟。\n身微空志大，交浅屡言深。\n嘱公如得谢，呼我幸寄音。\n但恐酒钱尽，烦公挥橐金。",
+      "coreVerse": "我公厌富贵，常苦勋业寻。",
+      "excerpt": "我公厌富贵，常苦勋业寻。",
+      "poem_id": "W013"
+    },
+    {
+      "id": "W018",
+      "title": "澶濮道中见子由",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R08",
+      "note": "1077.2 澶濮间与苏辙七年重逢作（《东坡七集·东坡诗集》卷十四）"
+    },
+    {
+      "id": "W016",
+      "title": "济南龙洞山记",
+      "type": "文",
+      "year": 1077,
+      "route_id": "R08",
+      "note": "1077.1 齐州滞留月余期间，与李公择同游龙洞作（《东坡七集·文集》卷十二）"
+    },
+    {
+      "id": "W017",
+      "title": "至济南李公择以诗相迎次其韵二首",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R08",
+      "note": "1077.1 齐州，李公择以诗相迎，苏轼次其韵作（《苏轼诗集》卷十五）",
+      "fullText": "敝裘羸马古河滨，野阔天低糁玉尘。\n自笑餐毡典属国，来看换酒谪仙人。\n宦游到处身如寄，农事何时手自亲。\n剩作新诗与君和，莫因风雨废鸣晨。",
+      "excerpt": "敝裘羸马古河滨，野阔天低糁玉尘。"
+    }
+  ],
+  "route_events": {
+    "route06": [
+      {
+        "id": "mz-002",
+        "date": "熙宁七年（1074年）十一月三日",
+        "title": "到密州任知州",
+        "description": "苏轼抵达密州任知州",
+        "significance": "任密州知州"
+      },
+      {
+        "id": "mz-003",
+        "date": "熙宁七年（1074年）",
+        "title": "密州出猎",
+        "description": "苏轼在密州出猎，作《江城子·密州出猎》",
+        "significance": "密州出猎"
+      },
+      {
+        "id": "mz-004",
+        "date": "熙宁九年（1076年）中秋",
+        "title": "超然台欢饮",
+        "description": "苏轼在密州超然台欢饮达旦，作《水调歌头》",
+        "significance": "中秋词"
+      },
+      {
+        "id": "mz-005",
+        "date": "熙宁九年（1076年）十二月",
+        "title": "罢密州赴徐州",
+        "description": "苏轼罢密州，赴徐州任知州",
+        "significance": "离密赴徐"
+      }
+    ],
+    "route13": [
+      {
+        "id": "mz-013",
+        "date": "元丰八年（1085年）",
+        "title": "过密州赴登州",
+        "description": "苏轼北上知登州，途经密州",
+        "significance": "途经密州"
+      }
+    ],
+    "R07": {
+      "duration": "1074-1076年履职常驻",
+      "duration_years": [
+        1074,
+        1075,
+        1076
+      ],
+      "essence": "本路线终点，两年宦游履职核心地",
+      "su_shi_story": "终抵密州就任知州，直面荒郡民生疾苦，\n救灾理政、会猎登临、撰文抒怀，完成心境与文风重大蜕变。\n",
+      "historical_context": "北宋京东东路州治，地处鲁东南，地瘠民贫、民俗质朴。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R08": {
+      "duration": "1076年12月任满离任启程",
+      "duration_years": [
+        1076
+      ],
+      "essence": "路线起点、密州宦游生涯终点",
+      "su_shi_story": "告别超然台、卢山、常山旧游之地，结束密州两年宦居生涯，\n整装西行，奉诏改知河中府启程。\n",
+      "historical_context": "苏轼两年履职之地，鲁东南州治，为本路线始发原点。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R12": {
+      "duration": "1085年胶东古道途经怀旧",
+      "duration_years": [
+        1085
+      ],
+      "essence": "胶东古道核心中转、旧迹怀旧点位",
+      "su_shi_story": "重走密州旧迹，回望当年超然台岁月，\n物是人非、仕途起落，心生无限感慨。\n",
+      "historical_context": "苏轼早年知州旧地，地处胶东古道要冲，南接苏北、北通登莱。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "mz-s001",
+      "name": "超然台",
+      "type": "建筑",
+      "location": "山东省诸城市",
+      "description": "苏轼在密州时命名超然台，作《超然台记》",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "mz-s002",
+      "name": "常山",
+      "type": "山",
+      "location": "山东省诸城市",
+      "description": "苏轼在密州时常祭常山",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "mz-s003",
+      "name": "黄茅岗",
+      "type": "岗",
+      "location": "山东省诸城市",
+      "description": "苏轼《江城子·密州出猎》提及",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "诸城站",
+    "bus": "诸城汽车站",
+    "car": "青兰高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS019",
+    "pinyin_id": "mizhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 36.0671,
+    "v3_lng": 120.3826
+  },
+  "extended_story": "终抵密州就任知州，直面荒郡民生疾苦，\n救灾理政、会猎登临、撰文抒怀，完成心境与文风重大蜕变。",
+  "essence": "本路线终点，两年宦游履职核心地",
+  "source": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "last_updated": "2026-06-01T10:22:05.236Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省潍坊市诸城市",
+  "coords_updated_at": "2026-06-01T10:17:04.320Z",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1085,
+    "span_years": 11,
+    "duration_label": "1074-1085 · 11年",
+    "related_route_count": 3,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "明月几时有，把酒问青天。",
+    "source": "水调歌头·明月几时有",
+    "from": "global_works.excerpt"
+  }
+}

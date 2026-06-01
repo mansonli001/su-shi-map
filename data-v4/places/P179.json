@@ -1,0 +1,47 @@
+{
+  "id": "P179",
+  "ancient_name": "五丈原",
+  "modern_name": "陕西宝鸡五丈原",
+  "type": "around",
+  "related_routes": [
+    "R03"
+  ],
+  "background": "三国诸葛北伐故地，怀古圣地。",
+  "extended_story": "凭吊五丈原遗迹，\n感先贤壮志未酬，\n生发史论感慨。",
+  "essence": "三国历史凭吊点位",
+  "tags": [
+    "visit",
+    "study"
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1062年 怀古凭吊",
+      "duration_years": [
+        1062
+      ],
+      "essence": "三国历史凭吊点位",
+      "su_shi_story": "凭吊五丈原遗迹，\n感先贤壮志未酬，\n生发史论感慨。\n",
+      "historical_context": "三国诸葛北伐故地，怀古圣地。\n",
+      "order_in_route": 21,
+      "layer": "surrounding",
+      "priority": "P2"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.195Z",
+  "schema_version": "v4.1",
+  "lng": 107.618984,
+  "lat": 34.276745,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "陕西省宝鸡市岐山县五丈原镇",
+  "coords_updated_at": "2026-06-01T10:17:04.325Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

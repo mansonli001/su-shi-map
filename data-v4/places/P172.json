@@ -1,0 +1,24 @@
+{
+  "id": "P172",
+  "ancient_name": "潼关渡口",
+  "modern_name": "陕西潼关渡口",
+  "type": "sight",
+  "lat": 34.606776,
+  "lng": 110.29004,
+  "related_routes": [
+    "R01"
+  ],
+  "tags": [],
+  "background": "父子三人首次出蜀进京，应礼部考试一鸣惊人；母程氏卒于眉山，原路返蜀守孝。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

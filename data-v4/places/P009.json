@@ -1,0 +1,177 @@
+{
+  "id": "P009",
+  "ancient_name": "汴京翰林院",
+  "modern_name": "河南开封翰林院旧址",
+  "type": "around",
+  "lat": 34.798083,
+  "lng": 114.314278,
+  "related_routes": [
+    "R13"
+  ],
+  "summary": "北宋都城，三苏在此科举及第，名动京师",
+  "background": "汴京是北宋都城，今河南开封，三苏在此科举及第，名动京师",
+  "tags": [
+    "都城",
+    "科举",
+    "兴国寺",
+    "court",
+    "literary",
+    "official"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "bj-001",
+      "date": "嘉祐元年（1056年）五六月间",
+      "title": "初到汴京",
+      "description": "三苏到汴京，寓居兴国寺浴室院，京师遇大雨，蔡河中夜决",
+      "significance": "初到京师"
+    },
+    {
+      "id": "bj-002",
+      "date": "嘉祐二年（1057年）三月",
+      "title": "科举及第",
+      "description": "欧阳修知贡举，苏轼、苏辙兄弟同登进士第，名动京师",
+      "significance": "仕途起点"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "bj-w001",
+      "title": "兴国寺浴室院六祖画赞",
+      "content": "嘉祐元年十一月，轼自蜀来，始与子由过此观六祖之像。",
+      "excerpt": "六祖之像，在浴室院。",
+      "type": "文",
+      "date": "嘉祐元年（1056年）十一月",
+      "location": "汴京兴国寺浴室院",
+      "background": "在兴国寺浴室院观六祖画像作"
+    }
+  ],
+  "route_events": {
+    "route01": [
+      {
+        "id": "bj-003",
+        "date": "嘉祐二年（1057年）四月",
+        "title": "母丧归蜀",
+        "description": "程夫人在眉山去世，三苏奔丧归蜀",
+        "significance": "回乡守孝"
+      }
+    ],
+    "route04": [
+      {
+        "id": "bj-004",
+        "date": "熙宁二年（1069年）二月初",
+        "title": "第四次抵达汴京",
+        "description": "苏轼第四次入京，抵达汴京",
+        "significance": "重返京师"
+      },
+      {
+        "id": "bj-005",
+        "date": "熙宁二年（1069年）",
+        "title": "居南园",
+        "description": "苏轼在南园居住，在宜秋门内",
+        "significance": "汴京居所"
+      },
+      {
+        "id": "bj-006",
+        "date": "熙宁二年（1069年）",
+        "title": "任判官告院兼尚书祠部",
+        "description": "除判官告院兼判尚书祠部，王安石方用事",
+        "significance": "正式任职"
+      }
+    ],
+    "route06": [
+      {
+        "id": "bj-007",
+        "date": "熙宁四年（1071年）七月上旬",
+        "title": "离京赴杭州倅",
+        "description": "苏轼离京赴陈州，南下任杭州通判",
+        "significance": "离京南下"
+      }
+    ],
+    "R13": {
+      "duration": "1086年入职常驻供职",
+      "duration_years": [
+        1086
+      ],
+      "essence": "元祐文坛中枢、苏轼文臣身份核心地标",
+      "su_shi_story": "入职翰林院执掌文史、草拟制诰、品评文苑，\n身居天下文人之首，主持文风导向、梳理文史典籍，\n确立北宋文坛宗主地位。\n",
+      "historical_context": "北宋文臣最高文史机构，掌国史编撰、朝制草拟、文人甄选，\n天下文宗荟萃之地，元祐文坛核心中枢。\n",
+      "order_in_route": 14,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "bj-s001",
+      "name": "开封相国寺",
+      "type": "寺庙",
+      "location": "河南省开封市鼓楼区自由路西段",
+      "description": "中国十大名寺之一，北宋皇家寺院",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥45",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAA",
+      "distance": ""
+    },
+    {
+      "id": "bj-s002",
+      "name": "开封府",
+      "type": "遗址",
+      "location": "河南省开封市",
+      "description": "北宋开封府衙，包拯曾在此任知府",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥65",
+      "suggested_duration": "2小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "开封站 / 开封北站",
+    "bus": "开封汽车中心站",
+    "car": "连霍高速 / 大广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS164",
+    "pinyin_id": "bianjing",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 34.7977,
+    "v3_lng": 114.3667
+  },
+  "extended_story": "入职翰林院执掌文史、草拟制诰、品评文苑，\n身居天下文人之首，主持文风导向、梳理文史典籍，\n确立北宋文坛宗主地位。",
+  "essence": "元祐文坛中枢、苏轼文臣身份核心地标",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.240Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省开封市",
+  "coords_updated_at": "2026-06-01T10:17:04.308Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "六祖之像，在浴室院。",
+    "source": "兴国寺浴室院六祖画赞",
+    "from": "global_works.excerpt"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "id": "P229",
+  "ancient_name": "中岩寺",
+  "modern_name": "四川青神中岩寺",
+  "type": "study",
+  "lat": 29.831302,
+  "lng": 103.846596,
+  "related_routes": [
+    "R00"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [
+    {
+      "period": "1050-1056",
+      "title": "青神读书",
+      "description": "苏轼少年时在中岩寺读书，这里是他早年求学之地。中岩寺有'苏轼读书台'遗址。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS003",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 29.57,
+    "v3_lng": 103.8
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "四川省眉山市青神县",
+  "coords_updated_at": "2026-06-01T10:17:04.329Z",
+  "duration_summary": {
+    "first_year": 1037,
+    "last_year": 1056,
+    "span_years": 19,
+    "duration_label": "1037-1056 · 19年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S1"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "W020",
+  "title": "宿州次韵刘泾",
+  "category": "纪行诗",
+  "type": "诗",
+  "year_estimate": 1077,
+  "route_id": "R08",
+  "related_route_ids": [
+    "R08"
+  ],
+  "note": "1077 沿汴河东下徐州途经宿州作（《苏轼诗集》卷十五）",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%AE%BF%E5%B7%9E%E6%AC%A1%E9%9F%B5%E5%88%98%E6%B3%BE",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%AE%BF%E5%B7%9E%E6%AC%A1%E9%9F%B5%E5%88%98%E6%B3%BE&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%AE%BF%E5%B7%9E%E6%AC%A1%E9%9F%B5%E5%88%98%E6%B3%BE&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "我欲归休瑟渐希，舞雩何日著春衣。\n多情白发三千丈，无用苍皮四十围。\n晚觉文章真小技，早知富贵有危机。\n为君垂涕君知否，千古华亭鹤自飞。",
+  "coreVerse": "我欲归休瑟渐希，舞雩何日著春衣。",
+  "excerpt": "我欲归休瑟渐希，舞雩何日著春衣。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 1,
+  "matched_title": "宿州次韵劉涇"
+}

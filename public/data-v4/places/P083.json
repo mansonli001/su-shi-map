@@ -1,0 +1,94 @@
+{
+  "id": "P083",
+  "ancient_name": "江陵",
+  "modern_name": "湖北荆州江陵",
+  "type": "main",
+  "lat": 30.3517,
+  "lng": 112.1859,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "苏轼父丧回乡途经江陵",
+  "background": "江陵即今荆州，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "tags": [
+    "江陵",
+    "荆州",
+    "main",
+    "stay"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "jl-001",
+      "date": "治平三年（1066年）",
+      "title": "父丧返乡过江陵",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩回乡，途经江陵",
+      "significance": "route03回程"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年水路终点驻留",
+      "duration_years": [
+        1059
+      ],
+      "essence": "川江水路行程终点",
+      "su_shi_story": "舟抵江陵，结束全程川江水路行旅，\n登岸休整，告别舟行漂泊，\n心境由江行悠然转为前路期许。\n",
+      "historical_context": "江汉平原沿江重镇，古城恢弘，\n长江中游水陆中转核心。\n",
+      "order_in_route": 11,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jl-s001",
+      "name": "荆州古城",
+      "type": "古城",
+      "location": "湖北省荆州市荆州区",
+      "description": "古代兵家必争之地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "荆州站",
+    "bus": "荆州汽车站",
+    "car": "沪渝高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS121",
+    "pinyin_id": "jiangling",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_substr",
+    "confidence": 0.95,
+    "v3_lat": 30.3495,
+    "v3_lng": 112.187
+  },
+  "extended_story": "舟抵江陵，结束全程川江水路行旅，\n登岸休整，告别舟行漂泊，\n心境由江行悠然转为前路期许。",
+  "essence": "川江水路行程终点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.190Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

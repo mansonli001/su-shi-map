@@ -1,0 +1,47 @@
+{
+  "id": "P163",
+  "ancient_name": "太白山",
+  "modern_name": "陕西太白山",
+  "type": "around",
+  "related_routes": [
+    "R03"
+  ],
+  "background": "秦岭主峰，关中第一名山。",
+  "extended_story": "凤翔任内远游太白山，\n观秦岭巍峨，拓宽山河格局。",
+  "essence": "秦岭名山游学点位",
+  "tags": [
+    "visit"
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1062-1063年 闲暇远游",
+      "duration_years": [
+        1062,
+        1063
+      ],
+      "essence": "秦岭名山游学点位",
+      "su_shi_story": "凤翔任内远游太白山，\n观秦岭巍峨，拓宽山河格局。\n",
+      "historical_context": "秦岭主峰，关中第一名山。\n",
+      "order_in_route": 20,
+      "layer": "surrounding",
+      "priority": "P2"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.195Z",
+  "schema_version": "v4.1",
+  "lng": 107.7701,
+  "lat": 33.953718,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "陕西省宝鸡市太白县太白山",
+  "coords_updated_at": "2026-06-01T10:17:04.324Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

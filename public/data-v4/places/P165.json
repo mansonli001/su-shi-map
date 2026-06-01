@@ -1,0 +1,44 @@
+{
+  "id": "P165",
+  "ancient_name": "太湖沿岸",
+  "modern_name": "太湖",
+  "type": "sight",
+  "related_routes": [
+    "R07"
+  ],
+  "background": "江南第一大湖，连通杭、湖、苏、锡、常运河水系。",
+  "extended_story": "一路沿太湖西岸、北岸行舟，饱览湖山烟雨，\n是北上途中最核心的水景游览带。",
+  "essence": "江南行旅标志性滨湖水景",
+  "tags": [
+    "visit"
+  ],
+  "route_events": {
+    "R07": {
+      "duration": "1074年北上全程泛舟观览",
+      "duration_years": [
+        1074
+      ],
+      "essence": "江南行旅标志性滨湖水景",
+      "su_shi_story": "一路沿太湖西岸、北岸行舟，饱览湖山烟雨，\n是北上途中最核心的水景游览带。\n",
+      "historical_context": "江南第一大湖，连通杭、湖、苏、锡、常运河水系。\n",
+      "order_in_route": 10,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.215Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1076,
+    "span_years": 2,
+    "duration_label": "1074-1076 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

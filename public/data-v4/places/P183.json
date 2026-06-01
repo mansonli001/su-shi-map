@@ -1,0 +1,24 @@
+{
+  "id": "P183",
+  "ancient_name": "西江山水",
+  "modern_name": "广东西江山水",
+  "type": "sight",
+  "lat": 23.5,
+  "lng": 111.5,
+  "related_routes": [
+    "R18"
+  ],
+  "tags": [],
+  "background": "新党执政清算元祐党人，苏轼一贬再贬至岭南、海南。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

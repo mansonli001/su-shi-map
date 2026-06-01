@@ -1,0 +1,22 @@
+{
+  "id": "W024",
+  "title": "狱中寄子由二首",
+  "category": "诗作",
+  "type": "诗",
+  "year_estimate": 1079,
+  "route_id": "R09",
+  "related_route_ids": [
+    "R09"
+  ],
+  "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E7%8B%B1%E4%B8%AD%E5%AF%84%E5%AD%90%E7%94%B1%E4%BA%8C%E9%A6%96",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E7%8B%B1%E4%B8%AD%E5%AF%84%E5%AD%90%E7%94%B1%E4%BA%8C%E9%A6%96&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E7%8B%B1%E4%B8%AD%E5%AF%84%E5%AD%90%E7%94%B1%E4%BA%8C%E9%A6%96&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

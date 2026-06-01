@@ -1,122 +1,206 @@
 /**
- * 读苏轼·游神州 - 全局样式 v4.0
- * 水墨风格 + 宣纸纹理 + 古籍 prose 排版
+ * 读苏轼·游神州 - 全局样式 v5.0「行吟山河」
+ * 设计稿对齐：霞鹜文楷 + 墨黑+金 + 米白
  */
+
+/* ========== 字体方案：霞鹜文楷（CDN）+ 系统兜底 ========== */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
+
+/* ========== Home Landing 专属样式（独立文件） ========== */
+@import './home.css';
+
+/* ========== Routes 浏览/详情 专属样式 ========== */
+@import './routes.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --ink-primary: #8B6914;
-  --ink-light: #F5E6C8;
-  --ink-dark: #1A1405;
-  --ink-accent: #C41E24;
-  --font-serif: 'Noto Serif SC', 'SimSun', 'STSong', serif;
-  --font-sans: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  /* === 行吟山河 主色板 === */
+  --ink:        #1A1008;     /* 主墨黑 */
+  --ink-mid:    #3D2B1F;
+  --ink-lt:     #5F5E5A;
+  --paper:      #FAF6F0;     /* 主米白（亮区背景） */
+  --paper2:     #F0E9DF;     /* 次米白（卡片悬浮） */
+  --gold:       #FAC775;     /* 主金（高亮文字/按钮） */
+  --gold-m:     #BA7517;     /* 中金（链接/重点） */
+  --gold-d:     #EF9F27;     /* 深金（高强调） */
+
+  /* === 4 类阶段色（设计稿对齐） === */
+  --birth:      #085041;
+  --birth-l:    #5DCAA5;
+  --office:    #0C447C;
+  --office-l:   #85B7EB;
+  --exile:      #712B13;
+  --exile-l:    #F0997B;
+  --tour:       #633806;
+  --tour-l:     #C9975A;
+
+  /* === 通用语义色 === */
+  --bg:         #F1EFE8;
+  --card:       #FFFFFF;
+  --sec:        #FAF6F0;
+  --bdr:        #E5E7EB;
+  --bdr-l:      #F3F4F6;
+  --tx:         #1A1008;
+  --tx2:        #5F5E5A;
+  --tx3:        #9CA3AF;
+
+  /* === 字体栈 === */
+  --font-serif: 'LXGW WenKai', 'Songti SC', 'STSong', 'SimSun', 'PingFang SC', 'Microsoft YaHei', serif;
+  --font-sans:  'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+
+  /* === 兼容历史变量名 === */
+  --ink-primary: var(--gold-m);
+  --ink-light:   var(--paper);
+  --ink-dark:    var(--ink);
+  --ink-accent:  var(--exile);
 }
 
 html, body, #__next {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: var(--font-sans);
-  background-color: var(--ink-light);
-  color: var(--ink-dark);
+  font-family: var(--font-serif);
+  background-color: var(--bg);
+  color: var(--tx);
+  line-height: 1.5;
 }
 
-/* 宣纸纹理背景 */
+/* 宣纸纹理（保留极淡） */
 body {
   background-image:
-    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
 }
 
-/* 古籍 prose 排版 */
+/* === 文学排版（古籍 prose） === */
 .prose-poem {
   font-family: var(--font-serif);
   line-height: 2;
   text-align: center;
   white-space: pre-wrap;
 }
-
 .prose-ancient {
   font-family: var(--font-serif);
-  line-height: 1.8;
+  line-height: 1.85;
 }
-
 .prose-ancient h1,
 .prose-ancient h2,
 .prose-ancient h3 {
   font-family: var(--font-serif);
-  color: var(--ink-primary);
+  color: var(--gold-m);
+  letter-spacing: 0.04em;
 }
 
-/* 地图容器全屏 */
+/* === 名句引语（设计稿 .pl） === */
+.quote-left {
+  border-left: 2px solid var(--gold-d);
+  padding: 4px 12px;
+  font-size: 13px;
+  color: var(--tx);
+  line-height: 1.95;
+  background: var(--sec);
+}
+.quote-gold {
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--gold-m);
+  background: #FAEEDA;
+  border-radius: 0 8px 8px 0;
+  color: var(--ink);
+  line-height: 2;
+}
+
+/* 阶段色芯片 */
+.chip-birth   { background: var(--birth);  color: var(--birth-l); }
+.chip-office  { background: var(--office); color: var(--office-l); }
+.chip-exile   { background: var(--exile);  color: var(--exile-l); }
+.chip-tour    { background: var(--tour);   color: var(--tour-l); }
+
+/* 顶栏（设计稿 topnav） */
+.topnav-luxe {
+  background: var(--ink);
+  border-bottom: 1px solid rgba(250,199,117,0.12);
+  color: var(--gold);
+}
+
+/* 地图全屏 */
 .map-fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
 }
 
-/* 半屏卡片拖拽区域 */
+/* 拖拽条 */
 .drag-handle {
   width: 36px;
   height: 4px;
   border-radius: 2px;
-  background-color: rgba(139, 105, 20, 0.3);
+  background-color: rgba(186, 117, 23, 0.35);
   margin: 8px auto;
 }
 
-/* 自定义滚动条（水墨风格） */
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
+/* 滚动条（金灰风格） */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb {
-  background: rgba(139, 105, 20, 0.3);
+  background: rgba(186, 117, 23, 0.28);
   border-radius: 3px;
 }
+::-webkit-scrollbar-thumb:hover { background: rgba(186, 117, 23, 0.55); }
 
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(139, 105, 20, 0.5);
-}
-
-/* PWA 安全区域适配 */
+/* PWA 安全区 */
 @supports (padding: env(safe-area-inset-bottom)) {
-  .safe-bottom {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
-  .safe-top {
-    padding-top: env(safe-area-inset-top);
-  }
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+  .safe-top    { padding-top:    env(safe-area-inset-top); }
 }
 
-/* 高德地图自定义样式覆盖 */
+/* 高德 logo 隐藏 */
 .amap-logo,
-.amap-copyright {
-  display: none !important;
-}
+.amap-copyright { display: none !important; }
 
-/* Framer Motion 动画辅助 */
+/* Framer Motion 遮罩 */
 .framer-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(26, 16, 8, 0.45);
   z-index: 40;
 }
 
-/* 打印优化（分享长图） */
+/* 打印优化 */
 @media print {
-  body {
-    background: white;
-  }
-  .no-print {
-    display: none;
-  }
+  body { background: white; }
+  .no-print { display: none; }
+}
+
+/* 文学动效：路径绘制 */
+@keyframes drawPath {
+  to { width: 100%; }
+}
+.tl-fill-anim {
+  animation: drawPath 2.5s ease-out forwards;
+  width: 0;
+}
+
+/* ========== Marker 交互（设计稿 §2.3） ========== */
+/* hover：图标放大至 1.10×，drop-shadow 增强 */
+.su-marker:hover {
+  transform: scale(1.10);
+  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
+  z-index: 50;
+}
+/* 选中：白色柔光晕 */
+.su-marker.is-selected {
+  transform: scale(1.18);
+  filter:
+    drop-shadow(0 0 8px rgba(255, 255, 255, 0.85))
+    drop-shadow(0 0 16px rgba(250, 199, 117, 0.55))
+    drop-shadow(0 3px 4px rgba(0,0,0,0.35));
+  z-index: 80;
+}
+/* 单路线模式·非当前路线点位：整体透明度降至 40% */
+.su-marker.is-faded {
+  opacity: 0.40;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15)) saturate(0.55);
+}
+.su-marker.is-faded:hover {
+  opacity: 0.80;
 }

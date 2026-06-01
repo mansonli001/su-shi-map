@@ -1,0 +1,22 @@
+{
+  "id": "W045",
+  "title": "苏堤纪事诗作",
+  "category": "纪功山水诗",
+  "type": "诗",
+  "year_estimate": 1090,
+  "route_id": "R14",
+  "related_route_ids": [
+    "R14"
+  ],
+  "note": "记述筑堤始末、湖山新生，工程与诗意合一",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%8B%8F%E5%A0%A4%E7%BA%AA%E4%BA%8B%E8%AF%97%E4%BD%9C",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%8B%8F%E5%A0%A4%E7%BA%AA%E4%BA%8B%E8%AF%97%E4%BD%9C&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%8B%8F%E5%A0%A4%E7%BA%AA%E4%BA%8B%E8%AF%97%E4%BD%9C&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

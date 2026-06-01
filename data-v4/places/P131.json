@@ -1,0 +1,46 @@
+{
+  "id": "P131",
+  "ancient_name": "蓬莱阁",
+  "modern_name": "山东蓬莱阁",
+  "type": "around",
+  "related_routes": [
+    "R12"
+  ],
+  "background": "丹崖山巅千年仙阁，临海凌空、依山而建，为东海仙境标志性建筑，\n自古传说八仙过海、神山缥缈，人文与仙话底蕴交融。",
+  "extended_story": "苏轼常登临蓬莱阁凭栏望海，近观丹崖峭壁，远眺沧海无垠，\n感仙阁凌空、海天归一，恰逢海市显现，\n以实景写沧海，以幻境悟人生，写下蓬莱系列传世诗文。",
+  "essence": "东海仙境地标、苏轼滨海仙逸文学诞生地",
+  "tags": [
+    "visit",
+    "literary",
+    "landmark"
+  ],
+  "route_events": {
+    "R12": {
+      "duration": "1085年登州常驻登临",
+      "duration_years": [
+        1085
+      ],
+      "essence": "东海仙境地标、苏轼滨海仙逸文学诞生地",
+      "su_shi_story": "苏轼常登临蓬莱阁凭栏望海，近观丹崖峭壁，远眺沧海无垠，\n感仙阁凌空、海天归一，恰逢海市显现，\n以实景写沧海，以幻境悟人生，写下蓬莱系列传世诗文。\n",
+      "historical_context": "丹崖山巅千年仙阁，临海凌空、依山而建，为东海仙境标志性建筑，\n自古传说八仙过海、神山缥缈，人文与仙话底蕴交融。\n",
+      "order_in_route": 9,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.236Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1085,
+    "span_years": 0,
+    "duration_label": "1085",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

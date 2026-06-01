@@ -1,0 +1,63 @@
+{
+  "id": "P028",
+  "ancient_name": "磁州",
+  "modern_name": "河北磁县",
+  "type": "main",
+  "lat": 36.3744,
+  "lng": 114.3776,
+  "related_routes": [
+    "R17"
+  ],
+  "summary": "",
+  "background": "冀南古驿重镇，河北平原南北通行要道。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R17": {
+      "duration": "1094年河北古驿途经",
+      "duration_years": [
+        1094
+      ],
+      "essence": "河北平原古驿常规途经点",
+      "su_shi_story": "穿行河北千年古驿，平野无垠、古路苍茫，\n行旅心境愈发沉郁苍凉。\n",
+      "historical_context": "冀南古驿重镇，河北平原南北通行要道。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS159",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 36.3513,
+    "v3_lng": 114.3772
+  },
+  "extended_story": "穿行河北千年古驿，平野无垠、古路苍茫，\n行旅心境愈发沉郁苍凉。",
+  "essence": "河北平原古驿常规途经点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.253Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1093,
+    "last_year": 1094,
+    "span_years": 1,
+    "duration_label": "1093-1094 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

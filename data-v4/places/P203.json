@@ -1,0 +1,74 @@
+{
+  "id": "P203",
+  "ancient_name": "沂州",
+  "modern_name": "山东临沂",
+  "type": "main",
+  "lat": 35.1042,
+  "lng": 118.3564,
+  "related_routes": [
+    "R08"
+  ],
+  "summary": "苏轼移知徐州途经沂州",
+  "background": "沂州今山东临沂，苏轼从密州移知徐州时途经此地",
+  "tags": [
+    "沂州",
+    "临沂"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route07": [
+      {
+        "id": "yz-001",
+        "date": "熙宁十年（1077年）",
+        "title": "移知徐州途经沂州",
+        "description": "苏轼从密州移知徐州，途经沂州",
+        "significance": "途经沂州"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "yz-s001",
+      "name": "沂州古城",
+      "type": "遗址",
+      "location": "山东省临沂市",
+      "description": "苏轼途经沂州",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "临沂站",
+    "bus": "临沂汽车站",
+    "car": "京沪高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "yizhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 35.1041,
+    "v3_lng": 118.3565
+  },
+  "duration_summary": {
+    "first_year": 1077,
+    "last_year": 1078,
+    "span_years": 1,
+    "duration_label": "1077-1078 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

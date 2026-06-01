@@ -1,0 +1,172 @@
+{
+  "id": "P219",
+  "ancient_name": "长安",
+  "modern_name": "西安",
+  "type": "main",
+  "lat": 34.3416,
+  "lng": 108.9398,
+  "related_routes": [
+    "R01",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "summary": "北宋西北重镇，三苏出蜀途经长安",
+  "background": "长安是汉唐古都，北宋时称京兆府，是西北重镇",
+  "tags": [
+    "长安",
+    "古都",
+    "main",
+    "stay",
+    "visit"
+  ],
+  "periods": [
+    {
+      "period": "1056",
+      "title": "赴京途经长安",
+      "description": "苏轼1056年赴京应试，途经长安（今西安）。游大慈恩寺，访武侯遗迹。"
+    },
+    {
+      "period": "1068",
+      "title": "丁忧期满过长安",
+      "description": "1068年丁忧期满，与苏辙一同离乡赴京，再经长安。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "ca-001",
+      "date": "嘉祐元年（1056年）",
+      "title": "第一次到长安",
+      "description": "三苏出蜀途经长安，这是北宋西北重镇",
+      "significance": "途经长安"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "ca-002",
+        "date": "嘉祐元年（1056年）",
+        "title": "第一次到长安",
+        "description": "三苏出蜀途经长安",
+        "significance": "途经长安"
+      }
+    ],
+    "route02": [
+      {
+        "id": "ca-003",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第二次到长安",
+        "description": "苏轼第二次出蜀，途经长安",
+        "significance": "途经长安"
+      }
+    ],
+    "route04": [
+      {
+        "id": "ca-004",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第四次出蜀过长安",
+        "description": "苏轼第四次出蜀，途经长安，与友人会面",
+        "significance": "途经长安"
+      }
+    ],
+    "R01": {
+      "duration": "1056年北上休整观览",
+      "duration_years": [
+        1056
+      ],
+      "essence": "中原文脉浸润核心古都",
+      "su_shi_story": "驻足长安观古都宫垣、曲江遗韵，\n沉浸式感受中原千年文脉，眼界格局大增。\n",
+      "historical_context": "汉唐帝都，北宋关中文化核心，文人必游古都。\n",
+      "order_in_route": 13,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R03": {
+      "duration": "1061年 西行休整",
+      "duration_years": [
+        1061
+      ],
+      "essence": "关中文脉核心古都",
+      "su_shi_story": "西行途中驻足长安，\n怀古观今，涵养仕人气度。\n",
+      "historical_context": "汉唐古都，关中文化核心。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1065年北上途经休整",
+      "duration_years": [
+        1065
+      ],
+      "essence": "凤翔返京第一中转古都",
+      "su_shi_story": "再度驻足长安古都，回望四年关中岁月，\n心境从容，静待朝堂新命。\n",
+      "historical_context": "关中古都，凤翔入中原必经官道枢纽。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R05": {
+      "duration": "1069年中途休整",
+      "duration_years": [
+        1069
+      ],
+      "essence": "关中古都、时政思辨浸润点",
+      "su_shi_story": "驻足长安古都，\n观历朝兴替，暗思当下变法时局利弊。\n",
+      "historical_context": "汉唐古都，关中文脉中心，西往东来官驿必经。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "ca-s001",
+      "name": "西安碑林",
+      "type": "博物馆",
+      "location": "陕西省西安市",
+      "description": "全国最大石质书库，有苏轼书法碑刻",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥65",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "西安站 / 西安北站",
+    "bus": "西安城南客运站",
+    "car": "京昆高速 / 连霍高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS009",
+    "pinyin_id": "changan",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.26,
+    "v3_lng": 108.95
+  },
+  "extended_story": "驻足长安观古都宫垣、曲江遗韵，\n沉浸式感受中原千年文脉，眼界格局大增。",
+  "essence": "中原文脉浸润核心古都",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.204Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1069,
+    "span_years": 13,
+    "duration_label": "1056-1069 · 13年",
+    "related_route_count": 4,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

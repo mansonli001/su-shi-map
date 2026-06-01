@@ -1,0 +1,24 @@
+{
+  "id": "P063",
+  "ancient_name": "洪泽湖沿岸",
+  "modern_name": "江苏洪泽湖沿岸",
+  "type": "sight",
+  "lat": 33.25,
+  "lng": 118.63,
+  "related_routes": [
+    "R15"
+  ],
+  "tags": [],
+  "background": "杭州任满还朝任翰林学士承旨。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

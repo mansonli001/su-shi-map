@@ -1,0 +1,50 @@
+{
+  "id": "P033",
+  "ancient_name": "丹崖山",
+  "modern_name": "山东蓬莱丹崖山",
+  "type": "around",
+  "related_routes": [
+    "R12"
+  ],
+  "background": "蓬莱临海绝壁名山，山石赭红、崖壁临江，山势挺拔直插沧海，\n山林清幽、海岸险峻，是蓬莱阁天然依托的山海屏障。",
+  "extended_story": "漫步丹崖山山道，倚绝壁观大潮，\n看山岩临海、浪涛拍岸，山海相拥、雄奇兼备，\n尽览北方海疆苍阔壮美的独有风貌。",
+  "essence": "蓬莱山海相依核心观景名山",
+  "tags": [
+    "visit",
+    "landscape"
+  ],
+  "route_events": {
+    "R12": {
+      "duration": "1085年闲游登临",
+      "duration_years": [
+        1085
+      ],
+      "essence": "蓬莱山海相依核心观景名山",
+      "su_shi_story": "漫步丹崖山山道，倚绝壁观大潮，\n看山岩临海、浪涛拍岸，山海相拥、雄奇兼备，\n尽览北方海疆苍阔壮美的独有风貌。\n",
+      "historical_context": "蓬莱临海绝壁名山，山石赭红、崖壁临江，山势挺拔直插沧海，\n山林清幽、海岸险峻，是蓬莱阁天然依托的山海屏障。\n",
+      "order_in_route": 10,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.236Z",
+  "schema_version": "v4.1",
+  "lng": 120.829141,
+  "lat": 37.795697,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省烟台市蓬莱区",
+  "coords_updated_at": "2026-06-01T10:17:04.313Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1085,
+    "span_years": 0,
+    "duration_label": "1085",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

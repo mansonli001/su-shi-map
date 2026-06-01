@@ -1,0 +1,45 @@
+{
+  "id": "P069",
+  "ancient_name": "淮河",
+  "modern_name": "淮河南岸驿道",
+  "type": "main",
+  "related_routes": [
+    "R16"
+  ],
+  "background": "江淮主干水系，颍州东下入扬必经黄金水道。",
+  "extended_story": "自颍州沿淮河泛舟东行，\n看长川平缓、岸野清旷，行旅悠然自得。",
+  "essence": "颍扬迁任核心水运通道",
+  "tags": [
+    "main",
+    "water_transit"
+  ],
+  "route_events": {
+    "R16": {
+      "duration": "1093年颍州迁扬州水路行经",
+      "duration_years": [
+        1093
+      ],
+      "essence": "颍扬迁任核心水运通道",
+      "su_shi_story": "自颍州沿淮河泛舟东行，\n看长川平缓、岸野清旷，行旅悠然自得。\n",
+      "historical_context": "江淮主干水系，颍州东下入扬必经黄金水道。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.250Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1091,
+    "last_year": 1093,
+    "span_years": 2,
+    "duration_label": "1091-1093 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P193",
+  "ancient_name": "兴元",
+  "modern_name": "汉中",
+  "type": "main",
+  "related_routes": [
+    "R05"
+  ],
+  "background": "汉中盆地核心，秦岭古栈道聚集地，南北文化交融重地。",
+  "extended_story": "行经汉中古栈道，\n览秦巴山川、怀古三国旧事，\n思绪渐向朝政民生靠拢。",
+  "essence": "秦岭栈道人文核心点位",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "route_events": {
+    "R05": {
+      "duration": "1069年途经汉中栈道",
+      "duration_years": [
+        1069
+      ],
+      "essence": "秦岭栈道人文核心点位",
+      "su_shi_story": "行经汉中古栈道，\n览秦巴山川、怀古三国旧事，\n思绪渐向朝政民生靠拢。\n",
+      "historical_context": "汉中盆地核心，秦岭古栈道聚集地，南北文化交融重地。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.204Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1069,
+    "last_year": 1069,
+    "span_years": 0,
+    "duration_label": "1069",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "P144",
+  "ancient_name": "戎州",
+  "modern_name": "宜宾",
+  "type": "main",
+  "lat": 28.752354,
+  "lng": 104.642826,
+  "related_routes": [
+    "R02",
+    "R04"
+  ],
+  "summary": "",
+  "background": "岷江入长江交汇门户，锁江楼为地标名胜，\n川南水路交通核心枢纽。",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年途经停靠",
+      "duration_years": [
+        1059
+      ],
+      "essence": "岷江入长江分界地标",
+      "su_shi_story": "舟抵戎州，观锁江楼临江雄姿，\n看岷江汇入长江壮阔景象，\n山河格局再添大江气象。\n",
+      "historical_context": "岷江入长江交汇门户，锁江楼为地标名胜，\n川南水路交通核心枢纽。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1066年岷江入口途经",
+      "duration_years": [
+        1066
+      ],
+      "essence": "长江转岷江分界点",
+      "su_shi_story": "转入岷江水道，\n正式踏入蜀地境内。\n",
+      "historical_context": "长江入岷江交汇重镇。\n",
+      "order_in_route": 16,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS127",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 28.752,
+    "v3_lng": 104.643
+  },
+  "extended_story": "舟抵戎州，观锁江楼临江雄姿，\n看岷江汇入长江壮阔景象，\n山河格局再添大江气象。",
+  "essence": "岷江入长江分界地标",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.201Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "四川省宜宾市",
+  "coords_updated_at": "2026-06-01T10:17:04.322Z",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1068,
+    "span_years": 9,
+    "duration_label": "1059-1068 · 9年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

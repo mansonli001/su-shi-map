@@ -1,0 +1,58 @@
+{
+  "id": "P177",
+  "ancient_name": "无锡",
+  "modern_name": "江苏无锡",
+  "type": "main",
+  "related_routes": [
+    "R07",
+    "R09"
+  ],
+  "background": "太湖北岸运河驿道节点，山水清幽江南古邑。",
+  "extended_story": "沿太湖西岸行舟途经，观湖光山色，\n短暂休整后继续沿运河北上。",
+  "essence": "太湖北岸水陆途经点位",
+  "tags": [
+    "main",
+    "prison-route"
+  ],
+  "route_events": {
+    "R07": {
+      "duration": "1074年北上途经",
+      "duration_years": [
+        1074
+      ],
+      "essence": "太湖北岸水陆途经点位",
+      "su_shi_story": "沿太湖西岸行舟途经，观湖光山色，\n短暂休整后继续沿运河北上。\n",
+      "historical_context": "太湖北岸运河驿道节点，山水清幽江南古邑。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R09": {
+      "duration": "1079年押解北上途经",
+      "duration_years": [
+        1079
+      ],
+      "essence": "运河押解常规途经点位",
+      "su_shi_story": "押解队伍循运河过无锡，\n昔日行旅闲游之地，今为羁身北上之路。\n",
+      "historical_context": "太湖北岸运河古邑，北上必经之路。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.222Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1079,
+    "span_years": 5,
+    "duration_label": "1074-1079 · 5年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

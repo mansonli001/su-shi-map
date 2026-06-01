@@ -1,0 +1,156 @@
+{
+  "id": "P181",
+  "ancient_name": "西湖全域",
+  "modern_name": "浙江杭州西湖",
+  "type": "around",
+  "lat": 30.259242,
+  "lng": 120.130396,
+  "related_routes": [
+    "R06"
+  ],
+  "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
+  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "tags": [
+    "杭州",
+    "西湖",
+    "通判",
+    "苏堤"
+  ],
+  "periods": [
+    {
+      "period": "1089-1091",
+      "title": "杭州任上巡临安",
+      "description": "苏轼任杭州知州时，巡行至临安（今浙江临安），访天目山。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "hz-001",
+      "date": "熙宁四年（1071年）十一月二十八日",
+      "title": "任杭州通判",
+      "description": "苏轼到杭州任通判，寓居凤凰山",
+      "significance": "杭州仕途"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "hz-w001",
+      "title": "饮湖上初晴后雨",
+      "content": "水光潋滟晴方好，山色空蒙雨亦奇。欲把西湖比西子，淡妆浓抹总相宜。",
+      "excerpt": "水光潋滟晴方好，山色空蒙雨亦奇。",
+      "type": "诗",
+      "date": "熙宁四年（1071年）",
+      "location": "杭州西湖",
+      "background": "描写西湖美景的千古绝唱",
+      "fullText": "朝曦迎客艳重冈，晚雨留人入醉乡。\n此意自佳君不会，一杯当属水仙王。",
+      "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。",
+      "poem_id": "W010"
+    }
+  ],
+  "route_events": {
+    "route05": [
+      {
+        "id": "hz-002",
+        "date": "熙宁四年（1071年）十一月二十八日",
+        "title": "抵达杭州任通判",
+        "description": "苏轼到杭州任通判",
+        "significance": "任杭州倅"
+      },
+      {
+        "id": "hz-003",
+        "date": "熙宁五年（1072年）",
+        "title": "疏浚西湖",
+        "description": "苏轼疏浚西湖，堆筑苏堤",
+        "significance": "治理西湖"
+      }
+    ],
+    "route07": [
+      {
+        "id": "hz-004",
+        "date": "熙宁七年（1074年）九月下旬",
+        "title": "离杭州赴密州",
+        "description": "苏轼离开杭州，赴密州任知州",
+        "significance": "离杭赴密"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "hz-s001",
+      "name": "西湖苏堤",
+      "type": "堤坝",
+      "location": "浙江省杭州市西湖区",
+      "description": "苏轼任杭州通判时疏浚西湖，堆筑苏堤",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "hz-s002",
+      "name": "六一泉",
+      "type": "泉水",
+      "location": "浙江省杭州市西湖区孤山",
+      "description": "苏轼命名纪念欧阳修",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "hz-s003",
+      "name": "灵隐寺",
+      "type": "寺庙",
+      "location": "浙江省杭州市西湖区灵隐路",
+      "description": "杭州最著名的寺庙之一，苏轼常游此地",
+      "opening_hours": "07:00-18:00",
+      "ticket": "¥45",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "杭州站/杭州东站",
+    "bus": "杭州汽车站",
+    "car": "沪杭高速/杭宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS035",
+    "pinyin_id": "hangzhou",
+    "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+    "confidence": 0.85,
+    "v3_lat": 30.25,
+    "v3_lng": 120.1
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "浙江省杭州市西湖区",
+  "coords_updated_at": "2026-06-01T10:17:04.325Z",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1074,
+    "span_years": 3,
+    "duration_label": "1071-1074 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "source": "饮湖上初晴后雨",
+    "from": "global_works.excerpt"
+  }
+}

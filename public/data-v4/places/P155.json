@@ -1,0 +1,64 @@
+{
+  "id": "P155",
+  "ancient_name": "石钟山",
+  "modern_name": "江西湖口石钟山",
+  "type": "sight",
+  "related_routes": [
+    "R11"
+  ],
+  "background": "长江与鄱阳湖交汇绝壁名山，以风水相激、山石鸣响闻名，自古众说纷纭。",
+  "extended_story": "不盲从前人附会之说，夜乘小舟亲临绝壁之下，\n实地勘察水声石响成因，以亲身游历求证事理。",
+  "essence": "山水纪行考据文学发源地",
+  "tags": [
+    "main",
+    "visit",
+    "research"
+  ],
+  "route_events": {
+    "R11": {
+      "duration": "1084年实地探察考据",
+      "duration_years": [
+        1084
+      ],
+      "essence": "山水纪行考据文学发源地",
+      "su_shi_story": "不盲从前人附会之说，夜乘小舟亲临绝壁之下，\n实地勘察水声石响成因，以亲身游历求证事理。\n",
+      "historical_context": "长江与鄱阳湖交汇绝壁名山，以风水相激、山石鸣响闻名，自古众说纷纭。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "global_works": [
+    {
+      "title": "石钟山记",
+      "type": "wen",
+      "note": "实地考据纪行散文代表作",
+      "source_route": "R11"
+    }
+  ],
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.232Z",
+  "schema_version": "v4.1",
+  "lng": 116.223424,
+  "lat": 29.743224,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江西省九江市湖口县石钟山",
+  "coords_updated_at": "2026-06-01T10:17:04.322Z",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  },
+  "famous_line": {
+    "quote": "石钟山记",
+    "source": "石钟山记",
+    "from": "global_works.title"
+  }
+}

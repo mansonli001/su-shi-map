@@ -1,0 +1,94 @@
+{
+  "id": "P104",
+  "ancient_name": "灵隐天竺",
+  "modern_name": "浙江杭州灵隐天竺",
+  "type": "around",
+  "lat": 30.274832,
+  "lng": 120.129683,
+  "related_routes": [
+    "R14"
+  ],
+  "summary": "",
+  "background": "西湖南山灵隐、天竺连片古刹山林群落，\n峰峦叠翠、林壑幽深、古刹藏山、禅韵悠远，\n是江南佛禅文化核心地，也是西湖周边最清幽的山林秘境。",
+  "tags": [
+    "visit",
+    "religion",
+    "literary",
+    "mountain_buddha"
+  ],
+  "periods": [
+    {
+      "period": "1071-1074",
+      "title": "杭州通判·初识西湖",
+      "description": "熙宁四年（1071年），苏轼因与王安石变法派不合，自请外放任杭州通判。\n\n这是他第一次到杭州。杭州的山水让他惊艳——'未成小隐聊中隐，可得长闲胜暂闲。'他在杭州三年，疏浚六井、赈济灾民，同时留下了大量诗词。\n\n这一时期的苏轼，还是个'中年官员'——有抱负、有才干、但还没经历过真正的打击。他不知道，二十年后他会再回杭州，那时他已经成了'苏东坡'，也知道什么叫'一蓑烟雨任平生'。"
+    },
+    {
+      "period": "1089-1091",
+      "title": "再守杭州·修筑苏堤",
+      "description": "元祐四年（1089年），苏轼以龙图阁学士身份，再任杭州知州。\n\n这一次，他做的实事更多：疏浚西湖，用挖出的淤泥筑成'苏堤'（南北长堤，上有六桥）；设立'安乐坊'（中国最早的公立医院之一）；再次赈济灾民。\n\n在杭州百姓心里，苏轼不是一个'文学家'，他是一个'好官'——修了堤、治了病、救了灾。百姓叫他'苏贤良'，这个称呼，比'大文豪'让他更高兴。\n\n元祐六年（1091年）三月，苏轼被召回朝。杭州百姓沿湖相送，他写《别杭州》：'百姓依依不舍，我亦恋西湖。'"
+    }
+  ],
+  "global_events": [],
+  "global_works": [
+    {
+      "title": "钱塘勤上人诗集叙",
+      "type": "xuwen",
+      "note": "灵隐禅林友人诗集序言",
+      "source_route": "R14"
+    }
+  ],
+  "route_events": {
+    "R14": {
+      "duration": "1089-1091年闲游访禅、山林静修",
+      "duration_years": [
+        1089,
+        1090,
+        1091
+      ],
+      "essence": "西湖禅意文化源头、苏轼避尘静心、山水禅诗创作重地",
+      "su_shi_story": "苏轼理政之余常入灵隐天竺，穿行松径竹溪、访古刹僧友，\n借山林之静、禅理之淡，释怀朝堂党争的疲惫，\n在湖山与佛意之间安顿身心、涵养旷达，\n写下《钱塘勤上人诗集叙》等山水禅意题咏，清空冲淡、物我两忘。\n",
+      "historical_context": "西湖南山灵隐、天竺连片古刹山林群落，\n峰峦叠翠、林壑幽深、古刹藏山、禅韵悠远，\n是江南佛禅文化核心地，也是西湖周边最清幽的山林秘境。\n",
+      "order_in_route": 15,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS015",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 30.2741,
+    "v3_lng": 120.1551
+  },
+  "extended_story": "苏轼理政之余常入灵隐天竺，穿行松径竹溪、访古刹僧友，\n借山林之静、禅理之淡，释怀朝堂党争的疲惫，\n在湖山与佛意之间安顿身心、涵养旷达，\n写下《钱塘勤上人诗集叙》等山水禅意题咏，清空冲淡、物我两忘。",
+  "essence": "西湖禅意文化源头、苏轼避尘静心、山水禅诗创作重地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.244Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "浙江省杭州市西湖区灵隐街道天竺(网商银行)",
+  "coords_updated_at": "2026-06-01T10:17:04.318Z",
+  "duration_summary": {
+    "first_year": 1089,
+    "last_year": 1091,
+    "span_years": 2,
+    "duration_label": "1089-1091 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "钱塘勤上人诗集叙",
+    "source": "钱塘勤上人诗集叙",
+    "from": "global_works.title"
+  }
+}

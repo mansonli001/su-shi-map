@@ -1,0 +1,142 @@
+{
+  "id": "P159",
+  "ancient_name": "泗州",
+  "modern_name": "江苏盱眙",
+  "type": "main",
+  "lat": 33.011905,
+  "lng": 118.544545,
+  "related_routes": [
+    "R08",
+    "R09",
+    "R15",
+    "R17"
+  ],
+  "summary": "苏轼父丧回乡途经泗州",
+  "background": "泗州位于洪泽湖畔，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "tags": [
+    "泗州",
+    "古城",
+    "main",
+    "prison-route"
+  ],
+  "periods": [
+    {
+      "period": "1076-1079",
+      "title": "徐州任上巡泗州",
+      "description": "泗州在今安徽泗县，是北宋时汴水与淮水交汇的重要码头。苏轼在徐州任上（1076-1079），曾巡行至泗州。\n\n他在《泗州僧伽塔》诗中写：'我昔还自城中归，大舟如山声 bolster。'——翻译一下：我从前从城中回来，大船像山一样，声音 bolster（撞击）。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "sz-001",
+      "date": "治平三年（1066年）",
+      "title": "父丧返乡过泗州",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩回乡，途经泗州",
+      "significance": "route03回程"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "W050",
+      "title": "泗州僧伽塔",
+      "type": "诗",
+      "year": 1091,
+      "route_id": "R15",
+      "note": "1091 北上途经泗州，专家一采纳",
+      "fullText": "我昔南行舟系汴，逆风三日沙吹面。\n舟人共劝祷灵塔，香火未收旗脚转。\n回头顷刻失长桥，却到龟山未朝饭。\n至人无心何厚薄，我自怀私欣所便。\n耕田欲雨刈欲晴，去得顺风来者怨。\n若使人人祷辄遂，造物应须日千变。\n今我身世两悠悠，去无所逐来无恋。\n得行固愿留不恶，每到有求神亦倦。\n退之旧云三百尺，澄观所营今已换。\n不嫌俗士污丹梯，一看云山绕淮甸。",
+      "excerpt": "我昔南行舟系汴，逆风三日沙吹面。"
+    }
+  ],
+  "route_events": {
+    "R09": {
+      "duration": "1079年押解入中原前中转",
+      "duration_years": [
+        1079
+      ],
+      "essence": "入汴京前最后水陆中转",
+      "su_shi_story": "抵达泗州做最后路途休整，\n即将踏入中原腹地，心境愈发沉郁惶恐。\n",
+      "historical_context": "泗水流域古州，南北通往汴京必经要道。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R15": {
+      "duration": "1091年北上趋近京师休整",
+      "duration_years": [
+        1091
+      ],
+      "essence": "入汴京前沿过渡驿点",
+      "su_shi_story": "泗州暂作行旅休整，前路渐近京师，\n心知朝堂党争再起，内心多有顾虑。\n",
+      "historical_context": "淮泗古道咽喉，苏北入中原前沿中转要地。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R17": {
+      "duration": "1093年趋近京师休整",
+      "duration_years": [
+        1093
+      ],
+      "essence": "淮泗入京师前沿中转",
+      "su_shi_story": "泗州驻足休整，前路渐近汴京，\n心中已生仕途难料之感。\n",
+      "historical_context": "淮泗通往中原前沿重镇，入京最后水陆中转。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "sz-s001",
+      "name": "泗州城遗址",
+      "type": "遗址",
+      "location": "江苏省淮安市盱眙县",
+      "description": "淹没于洪泽湖下的千年古城",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "盱眙站",
+    "bus": "盱眙汽车站",
+    "car": "宁连高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS022",
+    "pinyin_id": "sizhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.05,
+    "v3_lng": 116.5
+  },
+  "extended_story": "抵达泗州做最后路途休整，\n即将踏入中原腹地，心境愈发沉郁惶恐。",
+  "essence": "入汴京前最后水陆中转",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.252Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省淮安市盱眙县",
+  "coords_updated_at": "2026-06-01T10:17:04.323Z",
+  "duration_summary": {
+    "first_year": 1077,
+    "last_year": 1094,
+    "span_years": 17,
+    "duration_label": "1077-1094 · 17年",
+    "related_route_count": 4,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

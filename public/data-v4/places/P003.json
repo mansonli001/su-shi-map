@@ -1,0 +1,73 @@
+{
+  "id": "P003",
+  "ancient_name": "百步洪",
+  "modern_name": "江苏徐州百步洪",
+  "type": "around",
+  "lat": 34.249838,
+  "lng": 117.199681,
+  "related_routes": [
+    "R08"
+  ],
+  "summary": "",
+  "background": "徐州近郊黄河激流险滩，水势湍急、风景奇绝。",
+  "tags": [
+    "visit"
+  ],
+  "periods": [
+    {
+      "period": "1076-1079",
+      "title": "知徐州·抗洪筑楼",
+      "description": "熙宁十年（1076年）十二月，苏轼由密州调任徐州知州。\n\n到任第二年（1077年）秋天，黄河决口，洪水直扑徐州城下。水位离城头只有'一版'（约30厘米）。苏轼组织军民，'庐于城上'（住在城楼上，不回家），亲自指挥抗洪。\n\n四十多天后，洪水退去。苏轼在城东门上建了一座楼，取名'黄楼'（取'土实胜水'之意）。九月九日重阳节，苏轼大宴宾客，庆祝黄楼落成。\n\n徐州任上，苏轼还写了一篇著名的《徐州上皇帝书》，详细论述徐州的战略地位和国防意义。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R08": {
+      "duration": "1077-1078年闲暇游赏",
+      "duration_years": [
+        1077,
+        1078
+      ],
+      "essence": "徐州近郊水景游览名胜",
+      "su_shi_story": "公务之余泛舟百步洪，观激流奔涌，\n借山水激流抒发人生旷达之怀。\n",
+      "historical_context": "徐州近郊黄河激流险滩，水势湍急、风景奇绝。\n",
+      "order_in_route": 13,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS021",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 34.2611,
+    "v3_lng": 117.1845
+  },
+  "extended_story": "公务之余泛舟百步洪，观激流奔涌，\n借山水激流抒发人生旷达之怀。",
+  "essence": "徐州近郊水景游览名胜",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.219Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省徐州市云龙区百步洪",
+  "coords_updated_at": "2026-06-01T10:17:04.307Z",
+  "duration_summary": {
+    "first_year": 1077,
+    "last_year": 1078,
+    "span_years": 1,
+    "duration_label": "1077-1078 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "P071",
+  "ancient_name": "淮水",
+  "modern_name": "淮河（中游）",
+  "type": "main",
+  "related_routes": [
+    "R04"
+  ],
+  "background": "南北地理分界，宋代漕运重要水系。",
+  "extended_story": "转入淮水行进，\n南北风物渐变，哀思愈重。",
+  "essence": "江淮水路中转节点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R04": {
+      "duration": "1066年水路中转",
+      "duration_years": [
+        1066
+      ],
+      "essence": "江淮水路中转节点",
+      "su_shi_story": "转入淮水行进，\n南北风物渐变，哀思愈重。\n",
+      "historical_context": "南北地理分界，宋代漕运重要水系。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.199Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1068,
+    "span_years": 3,
+    "duration_label": "1065-1068 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,540 @@
+/* ========== Routes Browser & Detail v1.0 ========== */
+.rb-root, .rd-root {
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font-serif);
+  color: var(--ink);
+  padding-bottom: 100px;
+}
+
+/* 顶栏 */
+.rb-topnav {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--ink);
+  color: var(--gold);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+.rb-back, .rb-topnav-cta {
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font-family: var(--font-serif);
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 4px;
+  transition: opacity 0.2s;
+}
+.rb-back:hover, .rb-topnav-cta:hover { opacity: 0.7; }
+.rb-topnav-title {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  flex: 1;
+  text-align: center;
+  color: var(--gold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0 12px;
+}
+
+/* List 标题区 */
+.rb-header {
+  background: var(--card);
+  padding: 24px 20px 16px;
+  border-bottom: 0.5px solid var(--bdr-l);
+}
+.rb-header-en {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.35em;
+  margin-bottom: 0.4rem;
+}
+.rb-header-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.1em;
+}
+.rb-header-sub {
+  font-size: 12px;
+  color: var(--tx2);
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+.rb-chips {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.rb-chip {
+  background: var(--paper2);
+  border: 0.5px solid var(--bdr);
+  color: var(--tx2);
+  font-family: var(--font-serif);
+  font-size: 12px;
+  padding: 6px 14px;
+  border-radius: 16px;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  transition: all 0.2s;
+}
+.rb-chip-act {
+  background: var(--ink);
+  color: var(--gold);
+  border-color: var(--ink);
+}
+.rb-chip:hover { background: var(--paper); }
+.rb-chip-act:hover { background: var(--ink); opacity: 0.92; }
+
+/* List 卡片 */
+.rb-list {
+  padding: 16px 16px 32px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.rb-stage-group { margin-bottom: 28px; }
+.rb-stage-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  margin: 0 4px 12px;
+  padding-bottom: 6px;
+  border-bottom: 0.5px solid rgba(186,117,23,0.2);
+}
+.rb-stage-idx {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--gold-m);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+}
+.rb-stage-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.1em;
+}
+.rb-stage-yrs {
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  color: var(--tx3);
+}
+.rb-stage-cnt {
+  font-size: 11px;
+  color: var(--gold-m);
+  margin-left: auto;
+}
+
+.rb-card {
+  display: block;
+  background: var(--card);
+  border-radius: 10px;
+  border-left: 3px solid var(--gold-m);
+  border-top: 0.5px solid var(--bdr-l);
+  border-right: 0.5px solid var(--bdr-l);
+  border-bottom: 0.5px solid var(--bdr-l);
+  padding: 14px 14px 12px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s, box-shadow 0.18s;
+  box-shadow: 0 1px 3px rgba(26,16,8,0.04);
+}
+.rb-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(26,16,8,0.10);
+}
+.rb-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 0.3rem;
+}
+.rb-card-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.05em;
+  flex: 1;
+}
+.rb-badge {
+  font-size: 10px;
+  padding: 3px 9px;
+  border-radius: 9px;
+  border: 0.5px solid;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+.rb-badge-exile {
+  background: rgba(113,43,19,0.10);
+  color: var(--exile);
+  border-color: rgba(240,153,123,0.5);
+}
+.rb-badge-office {
+  background: rgba(12,68,124,0.10);
+  color: var(--office);
+  border-color: rgba(133,183,235,0.5);
+}
+.rb-badge-tour {
+  background: rgba(99,56,6,0.10);
+  color: var(--tour);
+  border-color: rgba(201,151,90,0.5);
+}
+.rb-card-meta {
+  font-size: 11px;
+  color: var(--tx3);
+  margin-bottom: 8px;
+  letter-spacing: 0.04em;
+  font-family: 'Courier New', monospace;
+}
+.rb-card-desc {
+  font-size: 12.5px;
+  color: var(--tx2);
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+.rb-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rb-card-link {
+  font-size: 11px;
+  color: var(--gold-m);
+  letter-spacing: 0.1em;
+}
+.rb-card-id {
+  font-size: 10px;
+  color: var(--tx3);
+  font-family: 'Courier New', monospace;
+}
+
+/* List 底部 CTA */
+.rb-footer {
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(180deg, transparent 0%, var(--bg) 30%);
+  padding: 16px;
+  text-align: center;
+  z-index: 20;
+}
+.rb-cta-btn {
+  display: inline-block;
+  background: var(--ink);
+  color: var(--gold);
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  transition: all 0.2s;
+}
+.rb-cta-btn:hover {
+  background: var(--gold-m);
+  color: var(--paper);
+}
+
+/* === 路线详情 RD === */
+.rd-loading, .rd-empty {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--tx2);
+}
+.rd-empty p { margin-bottom: 1.5rem; }
+
+.rd-hero {
+  padding: 48px 24px 36px;
+  color: #fff;
+  text-align: center;
+}
+.rd-hero-en {
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  opacity: 0.7;
+  margin-bottom: 0.6rem;
+}
+.rd-hero-title {
+  font-size: clamp(22px, 5vw, 30px);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.6rem;
+}
+.rd-hero-period {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  opacity: 0.85;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', monospace;
+}
+.rd-hero-short {
+  font-size: 13.5px;
+  line-height: 1.85;
+  letter-spacing: 0.04em;
+  max-width: 560px;
+  margin: 0 auto;
+  opacity: 0.92;
+}
+
+.rd-section {
+  padding: 32px 20px 24px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.rd-section--cream { background: var(--paper); }
+.rd-sec-lbl {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.3em;
+  margin-bottom: 0.5rem;
+}
+.rd-sec-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid rgba(186,117,23,0.25);
+}
+
+.rd-essence {
+  background: linear-gradient(180deg, rgba(250,199,117,0.08) 0%, rgba(186,117,23,0.04) 100%);
+  border-left: 3px solid var(--gold-m);
+  padding: 16px 18px;
+  border-radius: 4px;
+}
+.rd-essence p {
+  font-size: 13.5px;
+  line-height: 1.95;
+  color: var(--ink);
+  letter-spacing: 0.03em;
+  margin-bottom: 0.8rem;
+}
+.rd-essence p:last-child { margin-bottom: 0; }
+
+.rd-narrative p {
+  font-size: 14px;
+  line-height: 2.0;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  margin-bottom: 1rem;
+  text-indent: 2em;
+}
+.rd-narrative strong {
+  color: var(--gold-m);
+  font-weight: 600;
+}
+
+.rd-locations {
+  font-size: 13px;
+  line-height: 1.95;
+  color: var(--tx2);
+  letter-spacing: 0.03em;
+}
+.rd-locations strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* 关键事件 */
+.rd-events { padding-left: 4px; }
+.rd-event {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 1.4rem;
+}
+.rd-event-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 3px rgba(186,117,23,0.12);
+}
+.rd-event-body { flex: 1; }
+.rd-event-meta {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+.rd-event-year {
+  font-family: 'Courier New', monospace;
+  font-size: 11px;
+  color: var(--gold-m);
+  background: rgba(186,117,23,0.08);
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.rd-event-age {
+  font-size: 10px;
+  color: var(--tx3);
+  align-self: center;
+}
+.rd-event-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 4px;
+  letter-spacing: 0.04em;
+}
+.rd-event-content {
+  font-size: 12.5px;
+  line-height: 1.85;
+  color: var(--tx2);
+  white-space: pre-line;
+}
+
+/* 站点轨迹 */
+.rd-track {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.rd-track-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  border: 0.5px solid var(--bdr-l);
+  border-radius: 6px;
+  padding: 10px 12px;
+  position: relative;
+}
+.rd-track-num {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+  flex-shrink: 0;
+}
+.rd-track-info { flex: 1; }
+.rd-track-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.rd-track-modern {
+  font-size: 10.5px;
+  color: var(--tx3);
+  margin-top: 2px;
+}
+.rd-track-arrow {
+  position: absolute;
+  bottom: -10px;
+  left: 23px;
+  font-size: 11px;
+  color: var(--gold-m);
+  opacity: 0.5;
+}
+.rd-track-item:last-child .rd-track-arrow { display: none; }
+
+/* 文学创作 */
+.rd-literary {
+  font-size: 13px;
+  line-height: 1.9;
+  color: var(--tx2);
+  letter-spacing: 0.03em;
+  margin-bottom: 1rem;
+}
+.rd-style {
+  background: rgba(186,117,23,0.05);
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 1rem;
+}
+.rd-style-lbl {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.2em;
+  margin-bottom: 4px;
+}
+.rd-style-text {
+  font-size: 12.5px;
+  color: var(--ink);
+  line-height: 1.85;
+}
+.rd-works-lbl {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.2em;
+  margin-bottom: 8px;
+}
+.rd-works-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.rd-work {
+  background: var(--card);
+  border: 0.5px solid var(--bdr-l);
+  border-radius: 4px;
+  padding: 8px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.6rem;
+}
+.rd-work-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.rd-work-cat {
+  font-size: 9px;
+  background: var(--paper2);
+  color: var(--gold-m);
+  padding: 2px 7px;
+  border-radius: 8px;
+  letter-spacing: 0.08em;
+}
+.rd-work-year {
+  font-family: 'Courier New', monospace;
+  font-size: 10px;
+  color: var(--tx3);
+}
+.rd-work-note {
+  flex-basis: 100%;
+  font-size: 11.5px;
+  color: var(--tx2);
+  line-height: 1.7;
+  margin-top: 2px;
+}
+
+/* 详情底部 */
+.rd-footer {
+  text-align: center;
+  padding: 32px 20px;
+  background: var(--paper);
+  border-top: 0.5px solid var(--bdr-l);
+}
+.rd-back-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 12px;
+  color: var(--tx3);
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+.rd-back-link:hover { color: var(--gold-m); }

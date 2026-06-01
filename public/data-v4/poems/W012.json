@@ -1,0 +1,29 @@
+{
+  "id": "W012",
+  "title": "新城道中二首",
+  "category": "七言律诗",
+  "type": "诗",
+  "year_estimate": 1073,
+  "route_id": "R06",
+  "related_route_ids": [
+    "R06"
+  ],
+  "note": "杭州赴新城田园诗代表，\"野桃含笑竹篱短\"",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "东风知我欲山行，吹断檐间积雨声。\n岭上晴云披絮帽，树头初日挂铜钲。\n野桃含笑竹篱短，溪柳自摇沙水清。\n西崦人家应最乐，煮芹烧笋饷春耕。",
+  "coreVerse": "东风知我欲山行，吹断檐间积雨声。",
+  "excerpt": "东风知我欲山行，吹断檐间积雨声。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 2,
+  "matched_title": "新城道中二首  其一",
+  "full_text_needs_review": true
+}

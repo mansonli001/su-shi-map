@@ -1,0 +1,50 @@
+{
+  "id": "P221",
+  "ancient_name": "长岛渡口",
+  "modern_name": "山东长岛",
+  "type": "around",
+  "related_routes": [
+    "R12"
+  ],
+  "background": "蓬莱近海通往长岛群岛古渡口，海面开阔、岛屿隐现，\n海雾时常缭绕，极具东海仙岛缥缈意境。",
+  "extended_story": "驻足长岛渡口望海面烟波，看远岛若隐若现、海雾漫生，\n恍若世外仙洲，进一步浸染蓬莱仙域空灵之气，\n滋养海市诗文的奇幻想象。",
+  "essence": "蓬莱滨海最具仙逸意境的古渡口",
+  "tags": [
+    "visit",
+    "ferry"
+  ],
+  "route_events": {
+    "R12": {
+      "duration": "1085年观海驻足",
+      "duration_years": [
+        1085
+      ],
+      "essence": "蓬莱滨海最具仙逸意境的古渡口",
+      "su_shi_story": "驻足长岛渡口望海面烟波，看远岛若隐若现、海雾漫生，\n恍若世外仙洲，进一步浸染蓬莱仙域空灵之气，\n滋养海市诗文的奇幻想象。\n",
+      "historical_context": "蓬莱近海通往长岛群岛古渡口，海面开阔、岛屿隐现，\n海雾时常缭绕，极具东海仙岛缥缈意境。\n",
+      "order_in_route": 11,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.236Z",
+  "schema_version": "v4.1",
+  "lng": 120.727034,
+  "lat": 37.928274,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省烟台市蓬莱区长岛(轮渡站)",
+  "coords_updated_at": "2026-06-01T10:17:04.329Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1085,
+    "span_years": 0,
+    "duration_label": "1085",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

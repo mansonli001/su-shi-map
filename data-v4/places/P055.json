@@ -1,0 +1,129 @@
+{
+  "id": "P055",
+  "ancient_name": "海州",
+  "modern_name": "江苏连云港",
+  "type": "main",
+  "lat": 34.5973,
+  "lng": 119.2225,
+  "related_routes": [
+    "R07",
+    "R08",
+    "R12"
+  ],
+  "summary": "苏轼北行途经海州，游孔望山",
+  "background": "海州今江苏连云港，苏轼北行赴密州途经此地",
+  "tags": [
+    "海州",
+    "孔望山",
+    "main",
+    "visit",
+    "hub",
+    "old_track"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "ha-001",
+      "date": "熙宁七年（1074年）",
+      "title": "过海州",
+      "description": "苏轼北行途经海州",
+      "significance": "途经海州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route06": [
+      {
+        "id": "ha-002",
+        "date": "熙宁七年（1074年）",
+        "title": "过海州赴密州",
+        "description": "苏轼北行途经海州，赴密州任知州",
+        "significance": "途经海州"
+      }
+    ],
+    "route13": [
+      {
+        "id": "ha-003",
+        "date": "元丰八年（1085年）",
+        "title": "过海州赴登州",
+        "description": "苏轼北上知登州，途经海州",
+        "significance": "途经海州"
+      }
+    ],
+    "R07": {
+      "duration": "1074年滨海驻足怀古",
+      "duration_years": [
+        1074
+      ],
+      "essence": "苏鲁交界山海门户重镇",
+      "su_shi_story": "抵达海州临海观山，登临孔望山访石室摩崖，\n感受山海相依的壮阔景致，为入鲁做最后休整。\n",
+      "historical_context": "苏北滨海古郡，山海相连，为入鲁之前最后州府枢纽。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R12": {
+      "duration": "1085年沿海古道行经",
+      "duration_years": [
+        1085
+      ],
+      "essence": "苏北沿海驿道北端门户",
+      "su_shi_story": "重临旧游海州，沿滨海古道继续北行，\n海风渐浓、山海渐近，步入齐鲁地界。\n",
+      "historical_context": "苏鲁交界滨海古郡，苏北沿海驿道北端门户，自古海疆要道。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "hz-s001",
+      "name": "孔望山",
+      "type": "山",
+      "location": "江苏省连云港市海州区",
+      "description": "苏轼北行途经海州，曾游孔望山",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "连云港站",
+    "bus": "连云港汽车站",
+    "car": "沈海高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS146",
+    "pinyin_id": "haizhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.5967,
+    "v3_lng": 119.1782
+  },
+  "extended_story": "抵达海州临海观山，登临孔望山访石室摩崖，\n感受山海相依的壮阔景致，为入鲁做最后休整。",
+  "essence": "苏鲁交界山海门户重镇",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.235Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1085,
+    "span_years": 11,
+    "duration_label": "1074-1085 · 11年",
+    "related_route_count": 3,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

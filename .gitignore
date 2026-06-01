@@ -34,3 +34,32 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# data-v4-source: CHGIS raw heavy assets (shapefile / zip / 大文件)
+# 引用署名 CC-BY 4.0 见 README 致谢段
+data-v4-source/chgis/*.zip
+data-v4-source/chgis/*.shp
+data-v4-source/chgis/*.shx
+data-v4-source/chgis/*.dbf
+data-v4-source/chgis/*.prj
+data-v4-source/chgis/*.cpg
+data-v4-source/chgis/*.qpj
+data-v4-source/chgis/raw/
+data-v4-source/chgis/v6/
+
+# 允许小型加工产物入库（裁剪后的 song-prefectures.geojson 等）
+!data-v4-source/chgis/song-prefectures.geojson
+!data-v4-source/chgis/song-routes.geojson
+!data-v4-source/chgis/README.md
+
+# CodeBuddy 本地工作数据（plan/artifact），不推 GitHub
+.codebuddy/
+
+# v3 旧数据备份（一次性归档，体积大无需追踪）
+data/legacy-v3-backup-*/
+
+# 当日工作日志（开发过程文档，不影响发布）
+# 保留 PROJECT-ARCHITECTURE.md 这种结构性文档，剔除 daily worklog
+*-WORKLOG.md
+*-COMPLETE.md
+*-AUDIT.md

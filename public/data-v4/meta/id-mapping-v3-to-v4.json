@@ -1,0 +1,2376 @@
+{
+  "_meta": {
+    "generated_at": "2026-06-01T04:12:29.547Z",
+    "total_v4": 234,
+    "matched": 148,
+    "unmatched": 86,
+    "confidence_dist": {
+      "high": 115,
+      "mid": 33,
+      "low": 25,
+      "none": 61
+    },
+    "strategy_dist": {
+      "ss:modern_substr+pinyin:coord_near": 12,
+      "none": 61,
+      "ss:modern_substr": 15,
+      "pinyin:ancient_exact": 16,
+      "pinyin:ancient_substr": 16,
+      "ss:ancient_exact": 21,
+      "ss:ancient_exact+pinyin:ancient_exact": 29,
+      "ss:ancient_substr+pinyin:ancient_substr": 24,
+      "ss:ancient_exact+pinyin:coord_near": 2,
+      "pinyin:coord_near": 9,
+      "ss:modern_exact": 5,
+      "ss:ancient_substr": 9,
+      "ss:coord_near": 4,
+      "ss:ancient_exact+pinyin:ancient_substr": 1,
+      "ss:ancient_substr+pinyin:coord_near": 3,
+      "ss:coord_near+pinyin:coord_near": 5,
+      "ss:ancient_exact+pinyin:modern_substr": 1,
+      "ss:modern_substr+pinyin:modern_substr": 1
+    }
+  },
+  "mapping": {
+    "P001": {
+      "ancient": "白鹤峰",
+      "modern": "广东惠州白鹤峰",
+      "ss_id": "SS040",
+      "pinyin_id": "huizhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.1631,
+      "pinyin_distance": 0.0114
+    },
+    "P002": {
+      "ancient": "白州",
+      "modern": "博白",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P003": {
+      "ancient": "百步洪",
+      "modern": "江苏徐州百步洪",
+      "ss_id": "SS021",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0094,
+      "pinyin_distance": null
+    },
+    "P004": {
+      "ancient": "北部湾海岸",
+      "modern": "广西北部湾海岸",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P005": {
+      "ancient": "北江",
+      "modern": "广东北江",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P006": {
+      "ancient": "汴河",
+      "modern": "河南开封汴河（古道）",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P007": {
+      "ancient": "汴河漕运古道",
+      "modern": "河南开封汴河漕运",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P008": {
+      "ancient": "汴京",
+      "modern": "开封",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0571,
+      "pinyin_distance": 0.0639
+    },
+    "P009": {
+      "ancient": "汴京翰林院",
+      "modern": "河南开封翰林院旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.047,
+      "pinyin_distance": 0.0577
+    },
+    "P010": {
+      "ancient": "汴京太学",
+      "modern": "河南开封太学旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0254,
+      "pinyin_distance": 0.0293
+    },
+    "P011": {
+      "ancient": "汴京文德殿",
+      "modern": "河南开封文德殿旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0412,
+      "pinyin_distance": 0.0575
+    },
+    "P012": {
+      "ancient": "汴京御史台",
+      "modern": "河南开封御史台旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.047,
+      "pinyin_distance": 0.0577
+    },
+    "P013": {
+      "ancient": "汴京御史台监狱",
+      "modern": "河南开封御史台监狱",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.047,
+      "pinyin_distance": 0.0577
+    },
+    "P014": {
+      "ancient": "汴京政事堂",
+      "modern": "河南开封政事堂旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.047,
+      "pinyin_distance": 0.0577
+    },
+    "P015": {
+      "ancient": "曹州",
+      "modern": "山东菏泽",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P016": {
+      "ancient": "常山",
+      "modern": "山东诸城常山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P017": {
+      "ancient": "常州",
+      "modern": "江苏常州",
+      "ss_id": "SS052",
+      "pinyin_id": "changzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 1.6119,
+      "pinyin_distance": 0.0297
+    },
+    "P018": {
+      "ancient": "常州终老故居",
+      "modern": "江苏常州孙氏馆",
+      "ss_id": "SS052",
+      "pinyin_id": "changzhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 1.6119,
+      "pinyin_distance": 0.0297
+    },
+    "P019": {
+      "ancient": "陈仓",
+      "modern": "宝鸡",
+      "ss_id": "SS132",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1002,
+      "pinyin_distance": null
+    },
+    "P020": {
+      "ancient": "陈州",
+      "modern": "河南淮阳",
+      "ss_id": "SS063",
+      "pinyin_id": "chengzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.3695,
+      "pinyin_distance": 0.0273
+    },
+    "P021": {
+      "ancient": "成都",
+      "modern": "四川成都",
+      "ss_id": "SS004",
+      "pinyin_id": "chengdu",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0861,
+      "pinyin_distance": 0.0862
+    },
+    "P022": {
+      "ancient": "成都青羊宫",
+      "modern": "四川成都青羊宫",
+      "ss_id": "SS004",
+      "pinyin_id": "chengdu",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0956,
+      "pinyin_distance": 0.0958
+    },
+    "P023": {
+      "ancient": "澄迈",
+      "modern": "海南澄迈",
+      "ss_id": null,
+      "pinyin_id": "chengmai",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.0184
+    },
+    "P024": {
+      "ancient": "赤壁",
+      "modern": "赤鼻矶",
+      "ss_id": "SS026",
+      "pinyin_id": "huangzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:coord_near",
+      "confidence": 0.95,
+      "ss_distance": 0.4883,
+      "pinyin_distance": 0.018
+    },
+    "P025": {
+      "ancient": "滁州",
+      "modern": "安徽滁州",
+      "ss_id": null,
+      "pinyin_id": "chuzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.0051
+    },
+    "P026": {
+      "ancient": "滁州琅琊山",
+      "modern": "安徽滁州琅琊山",
+      "ss_id": null,
+      "pinyin_id": "chuzhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": null,
+      "pinyin_distance": 0.0315
+    },
+    "P027": {
+      "ancient": "楚州",
+      "modern": "江苏淮安",
+      "ss_id": "SS107",
+      "pinyin_id": "huaian",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0091,
+      "pinyin_distance": 0.0398
+    },
+    "P028": {
+      "ancient": "磁州",
+      "modern": "河北磁县",
+      "ss_id": "SS159",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0231,
+      "pinyin_distance": null
+    },
+    "P029": {
+      "ancient": "大别山边缘古道",
+      "modern": "大别山北缘古道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P030": {
+      "ancient": "大慈寺",
+      "modern": "四川成都大慈寺",
+      "ss_id": "SS004",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0904,
+      "pinyin_distance": null
+    },
+    "P031": {
+      "ancient": "大庾岭",
+      "modern": "梅岭",
+      "ss_id": "SS123",
+      "pinyin_id": "dayuling",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0338,
+      "pinyin_distance": 0.0478
+    },
+    "P032": {
+      "ancient": "大庾岭梅关",
+      "modern": "江西大余梅关",
+      "ss_id": "SS123",
+      "pinyin_id": "dayuling",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0338,
+      "pinyin_distance": 0.0478
+    },
+    "P033": {
+      "ancient": "丹崖山",
+      "modern": "山东蓬莱丹崖山",
+      "ss_id": null,
+      "pinyin_id": "dengzhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0182
+    },
+    "P034": {
+      "ancient": "儋州",
+      "modern": "海南儋州",
+      "ss_id": "SS043",
+      "pinyin_id": "danzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0681,
+      "pinyin_distance": 0.0064
+    },
+    "P035": {
+      "ancient": "儋州桄榔庵",
+      "modern": "海南儋州桄榔庵",
+      "ss_id": "SS043",
+      "pinyin_id": "danzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0681,
+      "pinyin_distance": 0.0128
+    },
+    "P036": {
+      "ancient": "登州",
+      "modern": "蓬莱",
+      "ss_id": "SS039",
+      "pinyin_id": "dengzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.7224,
+      "pinyin_distance": 0.0121
+    },
+    "P037": {
+      "ancient": "邓州",
+      "modern": "河南邓州",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P038": {
+      "ancient": "定州",
+      "modern": "河北定州",
+      "ss_id": "SS038",
+      "pinyin_id": "dingzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.6265,
+      "pinyin_distance": 0.3123
+    },
+    "P039": {
+      "ancient": "定州中山故都",
+      "modern": "河北定州中山故都",
+      "ss_id": "SS038",
+      "pinyin_id": "dingzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 0.6265,
+      "pinyin_distance": 0.3123
+    },
+    "P040": {
+      "ancient": "渡琼州海峡",
+      "modern": "琼州海峡",
+      "ss_id": "SS044",
+      "pinyin_id": "qiongzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1825,
+      "pinyin_distance": 0.1602
+    },
+    "P041": {
+      "ancient": "飞来峰",
+      "modern": "浙江杭州飞来峰",
+      "ss_id": "SS015",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0619,
+      "pinyin_distance": null
+    },
+    "P042": {
+      "ancient": "凤凰山",
+      "modern": "浙江杭州凤凰山",
+      "ss_id": "SS015",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0422,
+      "pinyin_distance": 0.0422
+    },
+    "P043": {
+      "ancient": "凤县",
+      "modern": "陕西凤县",
+      "ss_id": "SS131",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_exact",
+      "confidence": 0.8,
+      "ss_distance": 0.0259,
+      "pinyin_distance": null
+    },
+    "P044": {
+      "ancient": "凤翔",
+      "modern": "陕西宝鸡凤翔区",
+      "ss_id": "SS008",
+      "pinyin_id": "fengxiang",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 1.5543,
+      "pinyin_distance": 0.0084
+    },
+    "P045": {
+      "ancient": "凤翔东湖",
+      "modern": "陕西宝鸡凤翔区",
+      "ss_id": "SS132",
+      "pinyin_id": "fengxiang",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.2197,
+      "pinyin_distance": 0.0084
+    },
+    "P046": {
+      "ancient": "扶风",
+      "modern": "陕西扶风",
+      "ss_id": "SS133",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0306,
+      "pinyin_distance": null
+    },
+    "P047": {
+      "ancient": "赣江古道",
+      "modern": "江西赣江古道",
+      "ss_id": null,
+      "pinyin_id": "ganzhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0027
+    },
+    "P048": {
+      "ancient": "高邮",
+      "modern": "江苏高邮",
+      "ss_id": "SS145",
+      "pinyin_id": "gaoyou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0166,
+      "pinyin_distance": 0.0019
+    },
+    "P049": {
+      "ancient": "姑苏寒山寺",
+      "modern": "江苏苏州寒山寺",
+      "ss_id": "SS079",
+      "pinyin_id": "suzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0576,
+      "pinyin_distance": 0.0389
+    },
+    "P050": {
+      "ancient": "孤山",
+      "modern": "浙江杭州孤山",
+      "ss_id": "SS015",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0186,
+      "pinyin_distance": 0.0186
+    },
+    "P051": {
+      "ancient": "瓜州渡",
+      "modern": "江苏扬州瓜洲渡",
+      "ss_id": "SS106",
+      "pinyin_id": "zhenjiang",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.1427,
+      "pinyin_distance": 0.0493
+    },
+    "P052": {
+      "ancient": "瓜州古渡",
+      "modern": "江苏扬州瓜洲镇",
+      "ss_id": "SS106",
+      "pinyin_id": "zhenjiang",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.1427,
+      "pinyin_distance": 0.0493
+    },
+    "P053": {
+      "ancient": "光州",
+      "modern": "河南潢川",
+      "ss_id": null,
+      "pinyin_id": "guangzhou_henan",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.0052
+    },
+    "P054": {
+      "ancient": "广州",
+      "modern": "广东广州",
+      "ss_id": "SS041",
+      "pinyin_id": "guangzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.046,
+      "pinyin_distance": 0
+    },
+    "P055": {
+      "ancient": "海州",
+      "modern": "江苏连云港",
+      "ss_id": "SS146",
+      "pinyin_id": "haizhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0443,
+      "pinyin_distance": 0.001
+    },
+    "P056": {
+      "ancient": "海州花果山古址",
+      "modern": "江苏连云港花果山",
+      "ss_id": "SS146",
+      "pinyin_id": "haizhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0845,
+      "pinyin_distance": 0.0513
+    },
+    "P057": {
+      "ancient": "汉中栈道",
+      "modern": "陕西汉中古栈道",
+      "ss_id": "SS007",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 1.0262,
+      "pinyin_distance": null
+    },
+    "P058": {
+      "ancient": "杭州",
+      "modern": "浙江杭州",
+      "ss_id": "SS015",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0,
+      "pinyin_distance": 0
+    },
+    "P059": {
+      "ancient": "濠州",
+      "modern": "安徽凤阳",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P060": {
+      "ancient": "河北平原古驿",
+      "modern": "河北平原驿道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P061": {
+      "ancient": "洪泽湖",
+      "modern": "江苏洪泽湖",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P062": {
+      "ancient": "洪泽湖古渡口",
+      "modern": "江苏洪泽湖古渡口",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P063": {
+      "ancient": "洪泽湖沿岸",
+      "modern": "江苏洪泽湖沿岸",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P064": {
+      "ancient": "洪州",
+      "modern": "南昌",
+      "ss_id": "SS100",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0389,
+      "pinyin_distance": null
+    },
+    "P065": {
+      "ancient": "湖州",
+      "modern": "浙江湖州",
+      "ss_id": "SS023",
+      "pinyin_id": "huzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0004,
+      "pinyin_distance": 0.0029
+    },
+    "P066": {
+      "ancient": "湖州西塞山",
+      "modern": "湖北黄石西塞山（旧考为湖州西塞）",
+      "ss_id": "SS023",
+      "pinyin_id": "huzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 5.0561,
+      "pinyin_distance": 5.0554
+    },
+    "P067": {
+      "ancient": "华山远眺",
+      "modern": "陕西华阴华山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P068": {
+      "ancient": "华州",
+      "modern": "陕西华州",
+      "ss_id": "SS134",
+      "pinyin_id": "huazhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.2589,
+      "pinyin_distance": 0.2576
+    },
+    "P069": {
+      "ancient": "淮河",
+      "modern": "淮河南岸驿道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P070": {
+      "ancient": "淮河南岸古驿",
+      "modern": "淮河南岸驿道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P071": {
+      "ancient": "淮水",
+      "modern": "淮河（中游）",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P072": {
+      "ancient": "黄州",
+      "modern": "湖北黄冈",
+      "ss_id": "SS070",
+      "pinyin_id": "huangzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.5838,
+      "pinyin_distance": 0.0069
+    },
+    "P073": {
+      "ancient": "黄州东坡雪堂",
+      "modern": "湖北黄冈东坡雪堂",
+      "ss_id": "SS070",
+      "pinyin_id": "huangzhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.5894,
+      "pinyin_distance": 0.015
+    },
+    "P074": {
+      "ancient": "惠州\n惠州再贬：惠州",
+      "modern": "广东惠州",
+      "ss_id": "SS040",
+      "pinyin_id": "huizhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1519,
+      "pinyin_distance": 0.0005
+    },
+    "P075": {
+      "ancient": "惠州合江楼",
+      "modern": "广东惠州合江楼",
+      "ss_id": "SS040",
+      "pinyin_id": "huizhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1548,
+      "pinyin_distance": 0.0256
+    },
+    "P076": {
+      "ancient": "吉州",
+      "modern": "江西吉安",
+      "ss_id": "SS101",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.7,
+      "ss_distance": 0.6791,
+      "pinyin_distance": null
+    },
+    "P077": {
+      "ancient": "济南",
+      "modern": "山东济南",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P078": {
+      "ancient": "嘉州",
+      "modern": "乐山",
+      "ss_id": "SS003",
+      "pinyin_id": null,
+      "match_strategy": "ss:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0388,
+      "pinyin_distance": null
+    },
+    "P079": {
+      "ancient": "犍为",
+      "modern": "四川犍为",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P080": {
+      "ancient": "剑门关",
+      "modern": "四川剑阁剑门关",
+      "ss_id": "SS122",
+      "pinyin_id": "jianmen",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0408,
+      "pinyin_distance": 0.0691
+    },
+    "P081": {
+      "ancient": "剑门关古驿",
+      "modern": "四川剑阁剑门关古驿",
+      "ss_id": "SS122",
+      "pinyin_id": "jianmen",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0408,
+      "pinyin_distance": 0.0691
+    },
+    "P082": {
+      "ancient": "江淮水乡驿道",
+      "modern": "江淮水乡古驿",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P083": {
+      "ancient": "江陵",
+      "modern": "湖北荆州江陵",
+      "ss_id": "SS121",
+      "pinyin_id": "jiangling",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_substr",
+      "confidence": 0.95,
+      "ss_distance": 0.0025,
+      "pinyin_distance": 0.0594
+    },
+    "P084": {
+      "ancient": "江陵荆州古城",
+      "modern": "湖北荆州古城",
+      "ss_id": "SS121",
+      "pinyin_id": "jiangling",
+      "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+      "confidence": 0.85,
+      "ss_distance": 0.0539,
+      "pinyin_distance": 0.0098
+    },
+    "P085": {
+      "ancient": "江南运河",
+      "modern": "江南运河（苏州段）",
+      "ss_id": "SS079",
+      "pinyin_id": "suzhou",
+      "match_strategy": "ss:coord_near+pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0325,
+      "pinyin_distance": 0
+    },
+    "P086": {
+      "ancient": "江南运河全线",
+      "modern": "江南运河",
+      "ss_id": "SS023",
+      "pinyin_id": "huzhou",
+      "match_strategy": "ss:coord_near+pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0004,
+      "pinyin_distance": 0.0029
+    },
+    "P087": {
+      "ancient": "江州",
+      "modern": "九江",
+      "ss_id": "SS074",
+      "pinyin_id": "jiangzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0335,
+      "pinyin_distance": 0.0007
+    },
+    "P088": {
+      "ancient": "胶东半岛古道",
+      "modern": "山东胶东半岛古道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P089": {
+      "ancient": "金陵",
+      "modern": "南京",
+      "ss_id": "SS031",
+      "pinyin_id": "jinling",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0,
+      "pinyin_distance": 0
+    },
+    "P090": {
+      "ancient": "金陵秦淮",
+      "modern": "江苏南京秦淮河",
+      "ss_id": "SS031",
+      "pinyin_id": "jinling",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0419,
+      "pinyin_distance": 0.0419
+    },
+    "P091": {
+      "ancient": "金陵钟山",
+      "modern": "江苏南京钟山",
+      "ss_id": "SS031",
+      "pinyin_id": "jinling",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0507,
+      "pinyin_distance": 0.0507
+    },
+    "P092": {
+      "ancient": "荆州",
+      "modern": "湖北荆州",
+      "ss_id": "SS060",
+      "pinyin_id": "jiangling",
+      "match_strategy": "ss:ancient_exact+pinyin:coord_near",
+      "confidence": 0.95,
+      "ss_distance": 0.4593,
+      "pinyin_distance": 0.0098
+    },
+    "P093": {
+      "ancient": "夔门三峡",
+      "modern": "长江三峡（瞿塘峡）",
+      "ss_id": "SS124",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 1.3216,
+      "pinyin_distance": null
+    },
+    "P094": {
+      "ancient": "夔州",
+      "modern": "奉节",
+      "ss_id": "SS125",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0548,
+      "pinyin_distance": null
+    },
+    "P095": {
+      "ancient": "莱州",
+      "modern": "山东莱州",
+      "ss_id": "SS158",
+      "pinyin_id": "laizhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0064,
+      "pinyin_distance": 0.009
+    },
+    "P096": {
+      "ancient": "乐山大佛",
+      "modern": "四川乐山大佛",
+      "ss_id": "SS053",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 1.5361,
+      "pinyin_distance": null
+    },
+    "P097": {
+      "ancient": "雷州",
+      "modern": "广东雷州",
+      "ss_id": "SS042",
+      "pinyin_id": "leizhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.9258,
+      "pinyin_distance": 0.0032
+    },
+    "P098": {
+      "ancient": "雷州伏波庙",
+      "modern": "广东雷州伏波庙",
+      "ss_id": "SS042",
+      "pinyin_id": "leizhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.9258,
+      "pinyin_distance": 0.0032
+    },
+    "P099": {
+      "ancient": "利州",
+      "modern": "广元",
+      "ss_id": null,
+      "pinyin_id": "lizhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.143
+    },
+    "P100": {
+      "ancient": "廉州",
+      "modern": "合浦",
+      "ss_id": "SS045",
+      "pinyin_id": "lianzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1859,
+      "pinyin_distance": 0.0467
+    },
+    "P101": {
+      "ancient": "廉州白石镇",
+      "modern": "广西合浦白石镇",
+      "ss_id": "SS045",
+      "pinyin_id": "lianzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1859,
+      "pinyin_distance": 0.0467
+    },
+    "P102": {
+      "ancient": "临沂",
+      "modern": "山东临沂",
+      "ss_id": null,
+      "pinyin_id": "yizhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0001
+    },
+    "P103": {
+      "ancient": "灵隐寺",
+      "modern": "浙江杭州灵隐寺",
+      "ss_id": "SS015",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0644,
+      "pinyin_distance": null
+    },
+    "P104": {
+      "ancient": "灵隐天竺",
+      "modern": "浙江杭州灵隐天竺",
+      "ss_id": "SS015",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0644,
+      "pinyin_distance": null
+    },
+    "P105": {
+      "ancient": "岭南西江水路",
+      "modern": "广东西江水路",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P106": {
+      "ancient": "六井遗迹",
+      "modern": "浙江杭州六井",
+      "ss_id": "SS015",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.017,
+      "pinyin_distance": 0.017
+    },
+    "P107": {
+      "ancient": "卢山",
+      "modern": "山东诸城卢山",
+      "ss_id": null,
+      "pinyin_id": "mizhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0278
+    },
+    "P108": {
+      "ancient": "庐山",
+      "modern": "江西庐山",
+      "ss_id": "SS029",
+      "pinyin_id": "lushan",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1164,
+      "pinyin_distance": 0.0104
+    },
+    "P109": {
+      "ancient": "庐山全山",
+      "modern": "江西庐山",
+      "ss_id": "SS029",
+      "pinyin_id": "lushan",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1164,
+      "pinyin_distance": 0.0104
+    },
+    "P110": {
+      "ancient": "庐州",
+      "modern": "合肥",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P111": {
+      "ancient": "泸州",
+      "modern": "四川泸州",
+      "ss_id": "SS126",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0077,
+      "pinyin_distance": null
+    },
+    "P112": {
+      "ancient": "罗浮山",
+      "modern": "广东博罗罗浮山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P113": {
+      "ancient": "洛阳",
+      "modern": "河南洛阳",
+      "ss_id": "SS113",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_exact",
+      "confidence": 0.8,
+      "ss_distance": 0.0998,
+      "pinyin_distance": null
+    },
+    "P114": {
+      "ancient": "洛阳龙门",
+      "modern": "河南洛阳龙门石窟",
+      "ss_id": "SS113",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0416,
+      "pinyin_distance": null
+    },
+    "P115": {
+      "ancient": "蟆颐山蟆颐观",
+      "modern": "四川眉山蟆颐山",
+      "ss_id": "SS001",
+      "pinyin_id": "meishan",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.1057,
+      "pinyin_distance": 0.0389
+    },
+    "P116": {
+      "ancient": "眉山",
+      "modern": "四川眉山",
+      "ss_id": "SS001",
+      "pinyin_id": "meishan",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0889,
+      "pinyin_distance": 0.0144
+    },
+    "P117": {
+      "ancient": "眉山玻璃江",
+      "modern": "四川眉山玻璃江",
+      "ss_id": "SS001",
+      "pinyin_id": "meishan",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0889,
+      "pinyin_distance": 0.0144
+    },
+    "P118": {
+      "ancient": "眉山故居",
+      "modern": "四川眉山",
+      "ss_id": "SS001",
+      "pinyin_id": "meishan",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0889,
+      "pinyin_distance": 0.0144
+    },
+    "P119": {
+      "ancient": "密州",
+      "modern": "诸城",
+      "ss_id": "SS019",
+      "pinyin_id": "mizhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.9744,
+      "pinyin_distance": 0.0002
+    },
+    "P120": {
+      "ancient": "密州超然台",
+      "modern": "山东诸城超然台",
+      "ss_id": "SS019",
+      "pinyin_id": "mizhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.9814,
+      "pinyin_distance": 0.0071
+    },
+    "P121": {
+      "ancient": "绵州",
+      "modern": "四川绵阳",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P122": {
+      "ancient": "勉县",
+      "modern": "陕西勉县",
+      "ss_id": "SS130",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_exact",
+      "confidence": 0.8,
+      "ss_distance": 0.0086,
+      "pinyin_distance": null
+    },
+    "P123": {
+      "ancient": "渑池",
+      "modern": "河南渑池",
+      "ss_id": "SS140",
+      "pinyin_id": "mianchi",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1475,
+      "pinyin_distance": 0.0058
+    },
+    "P124": {
+      "ancient": "渑池僧舍",
+      "modern": "河南渑池僧舍",
+      "ss_id": "SS140",
+      "pinyin_id": "mianchi",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1475,
+      "pinyin_distance": 0.0058
+    },
+    "P125": {
+      "ancient": "南都",
+      "modern": "商丘",
+      "ss_id": "SS032",
+      "pinyin_id": "nandu",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.2299,
+      "pinyin_distance": 0.1594
+    },
+    "P126": {
+      "ancient": "南雄",
+      "modern": "广东南雄",
+      "ss_id": null,
+      "pinyin_id": "nanxiongzhou",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": null,
+      "pinyin_distance": 0.0142
+    },
+    "P127": {
+      "ancient": "南浔古驿",
+      "modern": "浙江湖州南浔古驿",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P128": {
+      "ancient": "宁强",
+      "modern": "陕西宁强",
+      "ss_id": "SS129",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_exact",
+      "confidence": 0.8,
+      "ss_distance": 0.0306,
+      "pinyin_distance": null
+    },
+    "P129": {
+      "ancient": "彭山",
+      "modern": "四川彭山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P130": {
+      "ancient": "彭山江口",
+      "modern": "四川彭山江口",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P131": {
+      "ancient": "蓬莱阁",
+      "modern": "山东蓬莱阁",
+      "ss_id": null,
+      "pinyin_id": "dengzhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0185
+    },
+    "P132": {
+      "ancient": "鄱阳湖",
+      "modern": "江西鄱阳湖",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P133": {
+      "ancient": "齐鲁古道",
+      "modern": "山东齐鲁古道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P134": {
+      "ancient": "岐亭",
+      "modern": "湖北麻城岐亭镇",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P135": {
+      "ancient": "蕲水",
+      "modern": "湖北浠水",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P136": {
+      "ancient": "虔州",
+      "modern": "赣州",
+      "ss_id": "SS102",
+      "pinyin_id": "ganzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:modern_substr",
+      "confidence": 0.7,
+      "ss_distance": 1.9703,
+      "pinyin_distance": 0.0027
+    },
+    "P137": {
+      "ancient": "秦岭古驿",
+      "modern": "陕西秦岭古驿",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P138": {
+      "ancient": "青神",
+      "modern": "四川青神",
+      "ss_id": "SS003",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.2666,
+      "pinyin_distance": null
+    },
+    "P139": {
+      "ancient": "青神平羌江",
+      "modern": "四川青神平羌江",
+      "ss_id": "SS003",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.2666,
+      "pinyin_distance": null
+    },
+    "P140": {
+      "ancient": "青州",
+      "modern": "山东青州",
+      "ss_id": "SS148",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0139,
+      "pinyin_distance": null
+    },
+    "P141": {
+      "ancient": "琼州",
+      "modern": "海口",
+      "ss_id": "SS044",
+      "pinyin_id": "qiongzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1331,
+      "pinyin_distance": 0.122
+    },
+    "P142": {
+      "ancient": "琼州海峡",
+      "modern": "琼州海峡",
+      "ss_id": "SS044",
+      "pinyin_id": "qiongzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.1825,
+      "pinyin_distance": 0.1602
+    },
+    "P143": {
+      "ancient": "仁和运河",
+      "modern": "浙江杭州仁和运河",
+      "ss_id": "SS015",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.1259,
+      "pinyin_distance": null
+    },
+    "P144": {
+      "ancient": "戎州",
+      "modern": "宜宾",
+      "ss_id": "SS127",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0249,
+      "pinyin_distance": null
+    },
+    "P145": {
+      "ancient": "汝州",
+      "modern": "河南汝州",
+      "ss_id": "SS028",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0168,
+      "pinyin_distance": null
+    },
+    "P146": {
+      "ancient": "润州",
+      "modern": "镇江",
+      "ss_id": "SS078",
+      "pinyin_id": "runzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.6413,
+      "pinyin_distance": 0.0297
+    },
+    "P147": {
+      "ancient": "三苏祠",
+      "modern": "四川眉山三苏祠",
+      "ss_id": "SS001",
+      "pinyin_id": "meishan",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0735,
+      "pinyin_distance": 0.0144
+    },
+    "P148": {
+      "ancient": "三潭印月",
+      "modern": "浙江杭州三潭印月",
+      "ss_id": "SS015",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0262,
+      "pinyin_distance": 0.0262
+    },
+    "P149": {
+      "ancient": "三峡全程",
+      "modern": "",
+      "ss_id": "SS124",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 2.3084,
+      "pinyin_distance": null
+    },
+    "P150": {
+      "ancient": "沙湖",
+      "modern": "湖北浠水沙湖",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P151": {
+      "ancient": "陕州",
+      "modern": "河南三门峡",
+      "ss_id": "SS135",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0072,
+      "pinyin_distance": null
+    },
+    "P152": {
+      "ancient": "陕州硖石",
+      "modern": "河南三门峡硖石",
+      "ss_id": "SS135",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0985,
+      "pinyin_distance": null
+    },
+    "P153": {
+      "ancient": "韶州",
+      "modern": "广东韶关",
+      "ss_id": "SS088",
+      "pinyin_id": "shaozhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.2393,
+      "pinyin_distance": 0.0113
+    },
+    "P154": {
+      "ancient": "石鼓山",
+      "modern": "陕西宝鸡石鼓山",
+      "ss_id": "SS132",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0832,
+      "pinyin_distance": null
+    },
+    "P155": {
+      "ancient": "石钟山",
+      "modern": "江西湖口石钟山",
+      "ss_id": null,
+      "pinyin_id": "hukou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.02
+    },
+    "P156": {
+      "ancient": "寿州",
+      "modern": "安徽寿县",
+      "ss_id": "SS144",
+      "pinyin_id": "shouzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.2234,
+      "pinyin_distance": 0.2142
+    },
+    "P157": {
+      "ancient": "泗水古道",
+      "modern": "山东泗水古道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P158": {
+      "ancient": "泗水亭",
+      "modern": "江苏徐州泗水亭",
+      "ss_id": "SS068",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0035,
+      "pinyin_distance": null
+    },
+    "P159": {
+      "ancient": "泗州",
+      "modern": "江苏盱眙",
+      "ss_id": "SS022",
+      "pinyin_id": "sizhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 2.3033,
+      "pinyin_distance": 0.0964
+    },
+    "P160": {
+      "ancient": "苏北沿海驿道",
+      "modern": "江苏苏北沿海",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P161": {
+      "ancient": "苏州",
+      "modern": "江苏苏州",
+      "ss_id": "SS079",
+      "pinyin_id": "suzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0325,
+      "pinyin_distance": 0
+    },
+    "P162": {
+      "ancient": "宿州",
+      "modern": "安徽宿州",
+      "ss_id": "SS142",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0067,
+      "pinyin_distance": null
+    },
+    "P163": {
+      "ancient": "太白山",
+      "modern": "陕西太白山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P164": {
+      "ancient": "太湖西岸古村落",
+      "modern": "太湖西岸",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P165": {
+      "ancient": "太湖沿岸",
+      "modern": "太湖",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P166": {
+      "ancient": "太行山东麓",
+      "modern": "河北太行山东麓",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P167": {
+      "ancient": "太学",
+      "modern": "河南开封太学旧址",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "ss:coord_near+pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0254,
+      "pinyin_distance": 0.0293
+    },
+    "P168": {
+      "ancient": "泰山余脉",
+      "modern": "山东泰安泰山余脉",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P169": {
+      "ancient": "唐州",
+      "modern": "河南唐河",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P170": {
+      "ancient": "藤州",
+      "modern": "广西藤县",
+      "ss_id": "SS165",
+      "pinyin_id": "tengzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1107,
+      "pinyin_distance": 0.1152
+    },
+    "P171": {
+      "ancient": "潼关",
+      "modern": "陕西潼关",
+      "ss_id": "SS011",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.7,
+      "ss_distance": 0.7399,
+      "pinyin_distance": null
+    },
+    "P172": {
+      "ancient": "潼关渡口",
+      "modern": "陕西潼关渡口",
+      "ss_id": "SS011",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.55,
+      "ss_distance": 0.7399,
+      "pinyin_distance": null
+    },
+    "P173": {
+      "ancient": "潍水古战场",
+      "modern": "山东诸城潍水古战场",
+      "ss_id": null,
+      "pinyin_id": "mizhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0002
+    },
+    "P174": {
+      "ancient": "尉氏",
+      "modern": "河南尉氏",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P175": {
+      "ancient": "巫山",
+      "modern": "重庆巫山",
+      "ss_id": "SS058",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1293,
+      "pinyin_distance": null
+    },
+    "P176": {
+      "ancient": "巫山神女峰",
+      "modern": "重庆巫山神女峰",
+      "ss_id": "SS058",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0985,
+      "pinyin_distance": null
+    },
+    "P177": {
+      "ancient": "无锡",
+      "modern": "江苏无锡",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P178": {
+      "ancient": "梧州",
+      "modern": "广西梧州",
+      "ss_id": null,
+      "pinyin_id": "wuzhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.0106
+    },
+    "P179": {
+      "ancient": "五丈原",
+      "modern": "陕西宝鸡五丈原",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P180": {
+      "ancient": "武昌樊山",
+      "modern": "湖北鄂州（北宋武昌）",
+      "ss_id": "SS069",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.2,
+      "pinyin_distance": null
+    },
+    "P181": {
+      "ancient": "西湖全域",
+      "modern": "浙江杭州西湖",
+      "ss_id": "SS035",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+      "confidence": 0.85,
+      "ss_distance": 0.0471,
+      "pinyin_distance": 0.0177
+    },
+    "P182": {
+      "ancient": "西湖苏堤",
+      "modern": "浙江杭州西湖",
+      "ss_id": "SS035",
+      "pinyin_id": "hangzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+      "confidence": 0.85,
+      "ss_distance": 0.0471,
+      "pinyin_distance": 0.0177
+    },
+    "P183": {
+      "ancient": "西江山水",
+      "modern": "广东西江山水",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P184": {
+      "ancient": "相国寺",
+      "modern": "河南开封大相国寺",
+      "ss_id": "SS164",
+      "pinyin_id": "bianjing",
+      "match_strategy": "ss:coord_near+pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0167,
+      "pinyin_distance": 0.0378
+    },
+    "P185": {
+      "ancient": "相州",
+      "modern": "安阳",
+      "ss_id": "SS111",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.1576,
+      "pinyin_distance": null
+    },
+    "P186": {
+      "ancient": "襄城",
+      "modern": "河南襄城",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P187": {
+      "ancient": "襄阳",
+      "modern": "湖北襄阳",
+      "ss_id": "SS138",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_exact",
+      "confidence": 0.8,
+      "ss_distance": 0.0127,
+      "pinyin_distance": null
+    },
+    "P188": {
+      "ancient": "襄阳古隆中",
+      "modern": "湖北襄阳古隆中",
+      "ss_id": "SS138",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.1127,
+      "pinyin_distance": null
+    },
+    "P189": {
+      "ancient": "崤山二陵",
+      "modern": "河南三门峡崤山二陵",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P190": {
+      "ancient": "崤山古道",
+      "modern": "河南三门峡崤山古道",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P191": {
+      "ancient": "邢州",
+      "modern": "河北邢台",
+      "ss_id": "SS161",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.013,
+      "pinyin_distance": null
+    },
+    "P192": {
+      "ancient": "兴廉村净行院",
+      "modern": "广东雷州兴廉村净行院",
+      "ss_id": null,
+      "pinyin_id": "leizhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0032
+    },
+    "P193": {
+      "ancient": "兴元",
+      "modern": "汉中",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P194": {
+      "ancient": "徐闻递角场",
+      "modern": "广东徐闻递角场（古址）",
+      "ss_id": null,
+      "pinyin_id": "xuwen",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": null,
+      "pinyin_distance": 0.0037
+    },
+    "P195": {
+      "ancient": "徐州",
+      "modern": "江苏徐州",
+      "ss_id": "SS021",
+      "pinyin_id": "xuzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0005,
+      "pinyin_distance": 0.1158
+    },
+    "P196": {
+      "ancient": "徐州黄楼",
+      "modern": "江苏徐州",
+      "ss_id": "SS021",
+      "pinyin_id": "xuzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0005,
+      "pinyin_distance": 0.1158
+    },
+    "P197": {
+      "ancient": "许州",
+      "modern": "河南许昌",
+      "ss_id": "SS061",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.7,
+      "ss_distance": 0.9805,
+      "pinyin_distance": null
+    },
+    "P198": {
+      "ancient": "扬州",
+      "modern": "江苏扬州",
+      "ss_id": "SS037",
+      "pinyin_id": "yangzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0024,
+      "pinyin_distance": 0.0078
+    },
+    "P199": {
+      "ancient": "扬州平山堂",
+      "modern": "江苏扬州平山堂",
+      "ss_id": "SS037",
+      "pinyin_id": "yangzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0211,
+      "pinyin_distance": 0.0215
+    },
+    "P200": {
+      "ancient": "扬州瘦西湖旧址",
+      "modern": "江苏扬州瘦西湖（旧址）",
+      "ss_id": "SS037",
+      "pinyin_id": "yangzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0174,
+      "pinyin_distance": 0.0179
+    },
+    "P201": {
+      "ancient": "叶县",
+      "modern": "河南叶县",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P202": {
+      "ancient": "沂蒙山",
+      "modern": "山东沂蒙山",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P203": {
+      "ancient": "沂州",
+      "modern": "山东临沂",
+      "ss_id": null,
+      "pinyin_id": "yizhou",
+      "match_strategy": "pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": null,
+      "pinyin_distance": 0.0001
+    },
+    "P204": {
+      "ancient": "宜宾锁江楼",
+      "modern": "四川宜宾锁江楼",
+      "ss_id": "SS127",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.0249,
+      "pinyin_distance": null
+    },
+    "P205": {
+      "ancient": "宜兴",
+      "modern": "江苏宜兴",
+      "ss_id": "SS157",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0017,
+      "pinyin_distance": null
+    },
+    "P206": {
+      "ancient": "宜兴田园",
+      "modern": "江苏宜兴",
+      "ss_id": "SS157",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0017,
+      "pinyin_distance": null
+    },
+    "P207": {
+      "ancient": "益州官署",
+      "modern": "拜谒张方平",
+      "ss_id": null,
+      "pinyin_id": "chengdu",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": null,
+      "pinyin_distance": 0.0862
+    },
+    "P208": {
+      "ancient": "颍州",
+      "modern": "安徽阜阳",
+      "ss_id": "SS036",
+      "pinyin_id": "yingzhou",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0249,
+      "pinyin_distance": 0.0054
+    },
+    "P209": {
+      "ancient": "颍州西湖",
+      "modern": "安徽阜阳颍州西湖",
+      "ss_id": "SS036",
+      "pinyin_id": "yingzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0204,
+      "pinyin_distance": 0.0344
+    },
+    "P210": {
+      "ancient": "颍州颍水",
+      "modern": "安徽阜阳颍水",
+      "ss_id": "SS036",
+      "pinyin_id": "yingzhou",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.0249,
+      "pinyin_distance": 0.0054
+    },
+    "P211": {
+      "ancient": "渝州",
+      "modern": "重庆",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P212": {
+      "ancient": "郁林",
+      "modern": "玉林",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P213": {
+      "ancient": "云龙山",
+      "modern": "江苏徐州云龙山",
+      "ss_id": "SS081",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.03,
+      "pinyin_distance": null
+    },
+    "P214": {
+      "ancient": "筠州",
+      "modern": "高安",
+      "ss_id": "SS030",
+      "pinyin_id": "gaoan",
+      "match_strategy": "ss:modern_substr+pinyin:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.2901,
+      "pinyin_distance": 0.0241
+    },
+    "P215": {
+      "ancient": "运河全线风光",
+      "modern": "京杭大运河",
+      "ss_id": "SS145",
+      "pinyin_id": "gaoyou",
+      "match_strategy": "ss:coord_near+pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0166,
+      "pinyin_distance": 0.0019
+    },
+    "P216": {
+      "ancient": "郓州",
+      "modern": "山东东平",
+      "ss_id": "SS149",
+      "pinyin_id": "yuncheng",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.4134,
+      "pinyin_distance": 0.658
+    },
+    "P217": {
+      "ancient": "载酒堂",
+      "modern": "海南儋州载酒堂",
+      "ss_id": "SS043",
+      "pinyin_id": "danzhou",
+      "match_strategy": "ss:modern_substr+pinyin:coord_near",
+      "confidence": 0.65,
+      "ss_distance": 0.0624,
+      "pinyin_distance": 0.0133
+    },
+    "P218": {
+      "ancient": "漳河渡口",
+      "modern": "河北漳河渡口",
+      "ss_id": "SS159",
+      "pinyin_id": null,
+      "match_strategy": "ss:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0231,
+      "pinyin_distance": null
+    },
+    "P219": {
+      "ancient": "长安",
+      "modern": "西安",
+      "ss_id": "SS009",
+      "pinyin_id": "changan",
+      "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0822,
+      "pinyin_distance": 0
+    },
+    "P220": {
+      "ancient": "长安曲江",
+      "modern": "陕西西安曲江",
+      "ss_id": "SS009",
+      "pinyin_id": "changan",
+      "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": 0.061,
+      "pinyin_distance": 0.1411
+    },
+    "P221": {
+      "ancient": "长岛渡口",
+      "modern": "山东长岛",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P222": {
+      "ancient": "长江",
+      "modern": "长江（中游）",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P223": {
+      "ancient": "长江南岸渡口",
+      "modern": "湖北黄冈长江渡口",
+      "ss_id": null,
+      "pinyin_id": "huangzhou",
+      "match_strategy": "pinyin:coord_near",
+      "confidence": 0.5,
+      "ss_distance": null,
+      "pinyin_distance": 0.0069
+    },
+    "P224": {
+      "ancient": "长江下游全线",
+      "modern": "长江下游",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P225": {
+      "ancient": "长江沿岸渡口",
+      "modern": "长江中游渡口",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P226": {
+      "ancient": "真定",
+      "modern": "正定",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P227": {
+      "ancient": "镇江金山寺",
+      "modern": "江苏镇江金山寺",
+      "ss_id": null,
+      "pinyin_id": "zhenjiang",
+      "match_strategy": "pinyin:ancient_substr",
+      "confidence": 0.85,
+      "ss_distance": null,
+      "pinyin_distance": 0.052
+    },
+    "P228": {
+      "ancient": "中和古镇",
+      "modern": "海南儋州中和古镇",
+      "ss_id": "SS043",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.1669,
+      "pinyin_distance": null
+    },
+    "P229": {
+      "ancient": "中岩寺",
+      "modern": "四川青神中岩寺",
+      "ss_id": "SS003",
+      "pinyin_id": null,
+      "match_strategy": "ss:modern_substr",
+      "confidence": 0.65,
+      "ss_distance": 0.2841,
+      "pinyin_distance": null
+    },
+    "P230": {
+      "ancient": "忠州",
+      "modern": "重庆忠县",
+      "ss_id": "SS054",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.7,
+      "ss_distance": 0.7773,
+      "pinyin_distance": null
+    },
+    "P231": {
+      "ancient": "资善堂",
+      "modern": "河南开封资善堂旧址",
+      "ss_id": "SS164",
+      "pinyin_id": null,
+      "match_strategy": "ss:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0412,
+      "pinyin_distance": null
+    },
+    "P232": {
+      "ancient": "淄州",
+      "modern": "山东淄博",
+      "ss_id": null,
+      "pinyin_id": null,
+      "match_strategy": "none",
+      "confidence": 0,
+      "ss_distance": null,
+      "pinyin_distance": null
+    },
+    "P233": {
+      "ancient": "秭归",
+      "modern": "湖北秭归",
+      "ss_id": "SS124",
+      "pinyin_id": null,
+      "match_strategy": "ss:coord_near",
+      "confidence": 0.5,
+      "ss_distance": 0.0207,
+      "pinyin_distance": null
+    },
+    "P234": {
+      "ancient": "梓潼",
+      "modern": "四川梓潼",
+      "ss_id": "SS128",
+      "pinyin_id": null,
+      "match_strategy": "ss:ancient_exact",
+      "confidence": 0.95,
+      "ss_distance": 0.0104,
+      "pinyin_distance": null
+    }
+  }
+}

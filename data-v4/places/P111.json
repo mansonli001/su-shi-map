@@ -1,0 +1,76 @@
+{
+  "id": "P111",
+  "ancient_name": "泸州",
+  "modern_name": "四川泸州",
+  "type": "main",
+  "lat": 28.8717,
+  "lng": 105.4422,
+  "related_routes": [
+    "R02",
+    "R04"
+  ],
+  "summary": "",
+  "background": "长江上游重要港埠，商旅云集，\n为川南东下必经水路节点。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年长江水路途经",
+      "duration_years": [
+        1059
+      ],
+      "essence": "长江上游沿江重镇",
+      "su_shi_story": "沿长江东下行经泸州，江面渐阔，\n初见长江浩荡之势，心胸愈发舒展。\n",
+      "historical_context": "长江上游重要港埠，商旅云集，\n为川南东下必经水路节点。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R04": {
+      "duration": "1066年长江西行经停",
+      "duration_years": [
+        1066
+      ],
+      "essence": "江路返乡途经节点",
+      "su_shi_story": "沿江逆流西行，步步趋近眉山故里。\n",
+      "historical_context": "长江上游沿江古埠。\n",
+      "order_in_route": 15,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS126",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 28.864,
+    "v3_lng": 105.443
+  },
+  "extended_story": "沿长江东下行经泸州，江面渐阔，\n初见长江浩荡之势，心胸愈发舒展。",
+  "essence": "长江上游沿江重镇",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.201Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1068,
+    "span_years": 9,
+    "duration_label": "1059-1068 · 9年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

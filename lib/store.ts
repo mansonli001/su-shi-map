@@ -6,13 +6,8 @@
 import { create } from 'zustand';
 import { Stage, PlaceCore } from '@/types';
 
-export type RouteId = 
-  | 'route01' | 'route02' | 'route03' | 'route04' | 'route05'
-  | 'route06' | 'route07' | 'route08' | 'route09' | 'route10'
-  | 'route11' | 'route12' | 'route13' | 'route14' | 'route15'
-  | 'route16' | 'route17' | 'route18' | 'route19'
-  | 'overview'
-  | null;
+// v4.1: RouteId 弱类型化，兼容 R00-R19 与历史 route01-route19
+export type RouteId = string | null;
 
 interface SuShiStore {
   // 地点数据（首屏加载后写入）

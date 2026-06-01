@@ -1,0 +1,45 @@
+{
+  "id": "P212",
+  "ancient_name": "郁林",
+  "modern_name": "玉林",
+  "type": "main",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "岭南水陆转换枢纽，西江水路入口。",
+  "extended_story": "自此转入西江水路，\n告别海岸，驶入岭南江川画廊。",
+  "essence": "海岸转水路关键枢纽",
+  "tags": [
+    "main",
+    "hub"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100年转入水路中转",
+      "duration_years": [],
+      "essence": "海岸转水路关键枢纽",
+      "su_shi_story": "自此转入西江水路，\n告别海岸，驶入岭南江川画廊。\n",
+      "historical_context": "岭南水陆转换枢纽，西江水路入口。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.265Z",
+  "schema_version": "v4.1",
+  "lng": 110.18097,
+  "lat": 22.654001,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "广西壮族自治区玉林市",
+  "coords_updated_at": "2026-06-01T10:17:04.328Z",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

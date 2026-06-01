@@ -30,9 +30,12 @@ export interface Route19TrackPoint {
 }
 
 /**
- * 19条路线 + 1条总览配置
+ * 路线配置容器（v4.1: 改为可变，运行时由 v4-adapter 注入）
+ *
+ * 注意：默认值仍保留旧 v3 写死配置作为 SSR/构建期兜底，
+ * 客户端首屏拉到 v4 数据后调用 installRouteConfigs() 进行替换。
  */
-export const ROUTE19_CONFIG: Record<string, Route19Config> = {
+export const ROUTE19_CONFIG_DEFAULT: Record<string, Route19Config> = {
   // ── 第1条：第一次出蜀赴京（1056）────────────────────
   route01: {
     id: 'route01',
@@ -262,9 +265,9 @@ export const ROUTE19_CONFIG: Record<string, Route19Config> = {
 };
 
 /**
- * 所有路线ID（按时间顺序排列）
+ * 所有路线ID（v4.1: 改为可变 let，运行时由 v4-adapter 注入）
  */
-export const ROUTE19_IDS = [
+const ROUTE19_IDS_DEFAULT = [
   'route01', 'route02', 'route03', 'route04', 'route05',
   'route06', 'route07', 'route08', 'route09', 'route10',
   'route11', 'route12', 'route13', 'route14', 'route15',
@@ -272,12 +275,25 @@ export const ROUTE19_IDS = [
   'overview',
 ] as const;
 
-export type Route19Id = (typeof ROUTE19_IDS)[number];
+export type Route19Id = string;
+
+// 可变全局容器（默认指向 v3 兜底）
+export let ROUTE19_CONFIG: Record<string, Route19Config> = ROUTE19_CONFIG_DEFAULT;
+export let ROUTE19_IDS: readonly string[] = ROUTE19_IDS_DEFAULT;
+export let ROUTE19_ONLY_IDS: readonly string[] = ROUTE19_IDS_DEFAULT.filter((id) => id !== 'overview');
 
 /**
- * 不含总览的19条路线ID
+ * 客户端 v4 加载完成后调用，把 ROUTE19_CONFIG/ROUTE19_IDS 替换为 v4 真实数据
  */
-export const ROUTE19_ONLY_IDS = ROUTE19_IDS.filter(id => id !== 'overview') as readonly string[];
+export function installRouteConfigs(
+  cfgs: Record<string, Route19Config>,
+  ids?: readonly string[],
+): void {
+  ROUTE19_CONFIG = cfgs;
+  const finalIds = ids ?? Object.keys(cfgs);
+  ROUTE19_IDS = [...finalIds, 'overview'] as readonly string[];
+  ROUTE19_ONLY_IDS = finalIds as readonly string[];
+}
 
 /**
  * 获取某条路线的配置

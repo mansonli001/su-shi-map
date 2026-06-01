@@ -1,0 +1,57 @@
+{
+  "id": "P129",
+  "ancient_name": "彭山",
+  "modern_name": "四川彭山",
+  "type": "main",
+  "related_routes": [
+    "R00",
+    "R01"
+  ],
+  "background": "眉山北上成都必经水路官道渡口，宋代川西重要驿道中转节点。",
+  "extended_story": "离眉山首站休整，正式踏入跨省远行驿道，\n开启漫长川陕官道行程。",
+  "essence": "出蜀首个水陆中转节点",
+  "tags": [
+    "main",
+    "hub"
+  ],
+  "route_events": {
+    "R01": {
+      "duration": "1056年北上途经中转",
+      "duration_years": [
+        1056
+      ],
+      "essence": "出蜀首个水陆中转节点",
+      "su_shi_story": "离眉山首站休整，正式踏入跨省远行驿道，\n开启漫长川陕官道行程。\n",
+      "historical_context": "眉山北上成都必经水路官道渡口，宋代川西重要驿道中转节点。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.179Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1037,
+    "last_year": 1057,
+    "span_years": 20,
+    "duration_label": "1037-1057 · 20年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S1",
+      "S2"
+    ]
+  },
+  "global_works": [
+    {
+      "id": "W001",
+      "title": "刑赏忠厚之至论",
+      "type": "策",
+      "year": "",
+      "route_id": "R01",
+      "note": "汴京应试成名作，获欧阳修高度赏识"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "P062",
+  "ancient_name": "洪泽湖古渡口",
+  "modern_name": "江苏洪泽湖古渡口",
+  "type": "sight",
+  "related_routes": [
+    "R16"
+  ],
+  "background": "洪泽湖沿岸千年古驿渡口，依湖而立、烟水苍茫，\n古驿临湖、渡埠错落，自带淮东古渡沧桑清寂气韵。",
+  "extended_story": "驻足古渡临风望湖，烟波漫远、古驿静立，\n远离宦途奔忙，独享湖渡清寂，\n生发世事悠悠、功名皆淡的旷达之思。",
+  "essence": "淮东古驿与湖景相融的标志性水景",
+  "tags": [
+    "visit",
+    "ancient_ferry"
+  ],
+  "route_events": {
+    "R16": {
+      "duration": "1093年驻足怀古",
+      "duration_years": [
+        1093
+      ],
+      "essence": "淮东古驿与湖景相融的标志性水景",
+      "su_shi_story": "驻足古渡临风望湖，烟波漫远、古驿静立，\n远离宦途奔忙，独享湖渡清寂，\n生发世事悠悠、功名皆淡的旷达之思。\n",
+      "historical_context": "洪泽湖沿岸千年古驿渡口，依湖而立、烟水苍茫，\n古驿临湖、渡埠错落，自带淮东古渡沧桑清寂气韵。\n",
+      "order_in_route": 9,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.250Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1091,
+    "last_year": 1093,
+    "span_years": 2,
+    "duration_label": "1091-1093 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

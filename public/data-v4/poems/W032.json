@@ -1,0 +1,22 @@
+{
+  "id": "W032",
+  "title": "石钟山记",
+  "category": "考据纪行散文",
+  "type": "文",
+  "year_estimate": 1084,
+  "route_id": "R11",
+  "related_route_ids": [
+    "R11"
+  ],
+  "note": "中国古代实地探险、实证求真游记的开山之作",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E7%9F%B3%E9%92%9F%E5%B1%B1%E8%AE%B0",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E7%9F%B3%E9%92%9F%E5%B1%B1%E8%AE%B0&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E7%9F%B3%E9%92%9F%E5%B1%B1%E8%AE%B0&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

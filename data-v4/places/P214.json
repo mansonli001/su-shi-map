@@ -1,0 +1,104 @@
+{
+  "id": "P214",
+  "ancient_name": "筠州",
+  "modern_name": "高安",
+  "type": "main",
+  "lat": 28.448054,
+  "lng": 115.366863,
+  "related_routes": [
+    "R11"
+  ],
+  "summary": "苏轼量移汝州途中访好友",
+  "background": "高安是苏轼访好友的地方，苏轼元丰七年量移汝州途中经过此地",
+  "tags": [
+    "高安",
+    "好友",
+    "main",
+    "friend"
+  ],
+  "periods": [
+    {
+      "period": "1084",
+      "title": "黄州量移途中·访子由于高安",
+      "description": "元丰七年（1084年）四月，苏轼离开黄州，赴汝州任上。\n\n途中特意绕道高安（今江西高安），探访被贬在此的弟弟苏辙。\n\n两兄弟在高安相会，饮酒赋诗，度过了一段难得的相聚时光。苏轼在高安写了《高安食荔子》等诗。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route12": [
+      {
+        "id": "ga-001",
+        "date": "元丰七年（1084年）",
+        "title": "访高安好友",
+        "description": "苏轼量移汝州途中拜访高安好友",
+        "significance": "途经高安"
+      }
+    ],
+    "R11": {
+      "duration": "1084年绕道访友盘桓",
+      "duration_years": [
+        1084
+      ],
+      "essence": "随性漫游、访友避尘的中转古邑",
+      "su_shi_story": "特意偏离主线绕道筠州，探访故旧亲友，\n不受官差行程约束，随性闲游、安放身心。\n",
+      "historical_context": "赣北腹地古州，远离沿江官路，民风质朴、山水清幽，适合闲居访友。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "ga-s001",
+      "name": "大观楼",
+      "type": "建筑",
+      "location": "江西省高安市",
+      "description": "高安古城楼",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "高安站",
+    "bus": "高安汽车站",
+    "car": "沪昆高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS030",
+    "pinyin_id": "gaoan",
+    "match_strategy": "ss:modern_substr+pinyin:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 28.66,
+    "v3_lng": 115.53
+  },
+  "extended_story": "特意偏离主线绕道筠州，探访故旧亲友，\n不受官差行程约束，随性闲游、安放身心。",
+  "essence": "随性漫游、访友避尘的中转古邑",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.232Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江西省宜春市高安市",
+  "coords_updated_at": "2026-06-01T10:17:04.329Z",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "W043",
+  "title": "与莫同年雨中饮湖上",
+  "category": "湖山赠友诗",
+  "type": "诗",
+  "year_estimate": 1090,
+  "route_id": "R14",
+  "related_route_ids": [
+    "R14"
+  ],
+  "note": "再守杭州时与友人雨中泛舟西湖之作",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E4%B8%8E%E8%8E%AB%E5%90%8C%E5%B9%B4%E9%9B%A8%E4%B8%AD%E9%A5%AE%E6%B9%96%E4%B8%8A",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E4%B8%8E%E8%8E%AB%E5%90%8C%E5%B9%B4%E9%9B%A8%E4%B8%AD%E9%A5%AE%E6%B9%96%E4%B8%8A&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E4%B8%8E%E8%8E%AB%E5%90%8C%E5%B9%B4%E9%9B%A8%E4%B8%AD%E9%A5%AE%E6%B9%96%E4%B8%8A&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "到处相逢是偶然，梦中相对各华颠。\n还来一醉西湖雨，不见跳珠十五年。",
+  "coreVerse": "到处相逢是偶然，梦中相对各华颠。",
+  "excerpt": "到处相逢是偶然，梦中相对各华颠。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 1,
+  "matched_title": "與莫同年雨中飲湖上"
+}

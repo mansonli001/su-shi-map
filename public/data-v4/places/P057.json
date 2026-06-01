@@ -1,0 +1,24 @@
+{
+  "id": "P057",
+  "ancient_name": "汉中栈道",
+  "modern_name": "陕西汉中古栈道",
+  "type": "sight",
+  "lat": 33.0667,
+  "lng": 107.0228,
+  "related_routes": [
+    "R05"
+  ],
+  "tags": [],
+  "background": "守父丧毕，再赴汴京任职，正值王安石变法，旋陷党争。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

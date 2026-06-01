@@ -1,0 +1,74 @@
+{
+  "id": "P126",
+  "ancient_name": "南雄",
+  "modern_name": "广东南雄",
+  "type": "main",
+  "lat": 25.117,
+  "lng": 114.3115,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼贬惠州途经南雄州",
+  "background": "南雄州今广东南雄，苏轼贬惠州时途经此地",
+  "tags": [
+    "南雄",
+    "梅关",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route18": [
+      {
+        "id": "nxz-001",
+        "date": "绍圣元年（1094年）",
+        "title": "贬惠州途经南雄州",
+        "description": "苏轼贬惠州，途经南雄州",
+        "significance": "途经南雄州"
+      }
+    ],
+    "R18": {
+      "duration": "1094年岭南首站",
+      "duration_years": [],
+      "essence": "岭南入境首站",
+      "su_shi_story": "下岭入南雄，风土大变，\n山水风物全然不同于中原江南。\n",
+      "historical_context": "梅关入岭南第一古邑，岭南古道起点。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "南雄汽车站",
+    "car": "赣韶高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "nanxiongzhou",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 25.1312,
+    "v3_lng": 114.3112
+  },
+  "extended_story": "下岭入南雄，风土大变，\n山水风物全然不同于中原江南。",
+  "essence": "岭南入境首站",
+  "last_updated": "2026-06-01T10:22:05.257Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

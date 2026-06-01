@@ -1,0 +1,29 @@
+{
+  "id": "W013",
+  "title": "超然台记",
+  "category": "散文",
+  "type": "文",
+  "year_estimate": 1075,
+  "route_id": "R07",
+  "related_route_ids": [
+    "R07"
+  ],
+  "note": "密州超然台登临名篇，寄寓超然物外人生心境",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "我公厌富贵，常苦勋业寻。\n相期赤松子，永望白云岑。\n清风出谈笑，万窍为号吟。\n吟成超然诗，洗我蓬之心。\n嗟我本何人，麋鹿强冠襟。\n身微空志大，交浅屡言深。\n嘱公如得谢，呼我幸寄音。\n但恐酒钱尽，烦公挥橐金。",
+  "coreVerse": "我公厌富贵，常苦勋业寻。",
+  "excerpt": "我公厌富贵，常苦勋业寻。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 4,
+  "matched_title": "和潞公超然臺次韵",
+  "full_text_needs_review": true
+}

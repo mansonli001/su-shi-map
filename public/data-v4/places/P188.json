@@ -1,0 +1,67 @@
+{
+  "id": "P188",
+  "ancient_name": "襄阳古隆中",
+  "modern_name": "湖北襄阳古隆中",
+  "type": "sight",
+  "lat": 32.011263,
+  "lng": 112.036777,
+  "related_routes": [
+    "R03"
+  ],
+  "summary": "",
+  "background": "三国诸葛隐居圣地，中原人文名迹。",
+  "tags": [
+    "study",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 途经访古",
+      "duration_years": [
+        1060
+      ],
+      "essence": "三国文化怀古胜地",
+      "su_shi_story": "专程寻访古隆中，\n感先贤隐逸济世之志，\n涵养自身士人情怀。\n",
+      "historical_context": "三国诸葛隐居圣地，中原人文名迹。\n",
+      "order_in_route": 18,
+      "layer": "surrounding",
+      "priority": "P2"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS138",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 32.0114,
+    "v3_lng": 112.1141
+  },
+  "extended_story": "专程寻访古隆中，\n感先贤隐逸济世之志，\n涵养自身士人情怀。",
+  "essence": "三国文化怀古胜地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.195Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "湖北省襄阳市襄城区古隆中(东1门)",
+  "coords_updated_at": "2026-06-01T10:17:04.326Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

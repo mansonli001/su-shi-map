@@ -1,0 +1,180 @@
+{
+  "id": "P182",
+  "ancient_name": "西湖苏堤",
+  "modern_name": "浙江杭州西湖",
+  "type": "around",
+  "lat": 30.259242,
+  "lng": 120.130396,
+  "related_routes": [
+    "R14"
+  ],
+  "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
+  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "tags": [
+    "杭州",
+    "西湖",
+    "通判",
+    "苏堤",
+    "official",
+    "literary",
+    "landmark",
+    "water_project"
+  ],
+  "periods": [
+    {
+      "period": "1089-1091",
+      "title": "杭州任上巡临安",
+      "description": "苏轼任杭州知州时，巡行至临安（今浙江临安），访天目山。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "hz-001",
+      "date": "熙宁四年（1071年）十一月二十八日",
+      "title": "任杭州通判",
+      "description": "苏轼到杭州任通判，寓居凤凰山",
+      "significance": "杭州仕途"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "hz-w001",
+      "title": "饮湖上初晴后雨",
+      "content": "水光潋滟晴方好，山色空蒙雨亦奇。欲把西湖比西子，淡妆浓抹总相宜。",
+      "excerpt": "水光潋滟晴方好，山色空蒙雨亦奇。",
+      "type": "诗",
+      "date": "熙宁四年（1071年）",
+      "location": "杭州西湖",
+      "background": "描写西湖美景的千古绝唱",
+      "fullText": "朝曦迎客艳重冈，晚雨留人入醉乡。\n此意自佳君不会，一杯当属水仙王。",
+      "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。",
+      "poem_id": "W010"
+    }
+  ],
+  "route_events": {
+    "route05": [
+      {
+        "id": "hz-002",
+        "date": "熙宁四年（1071年）十一月二十八日",
+        "title": "抵达杭州任通判",
+        "description": "苏轼到杭州任通判",
+        "significance": "任杭州倅"
+      },
+      {
+        "id": "hz-003",
+        "date": "熙宁五年（1072年）",
+        "title": "疏浚西湖",
+        "description": "苏轼疏浚西湖，堆筑苏堤",
+        "significance": "治理西湖"
+      }
+    ],
+    "route07": [
+      {
+        "id": "hz-004",
+        "date": "熙宁七年（1074年）九月下旬",
+        "title": "离杭州赴密州",
+        "description": "苏轼离开杭州，赴密州任知州",
+        "significance": "离杭赴密"
+      }
+    ],
+    "R14": {
+      "duration": "1090年筑成后常年登临、四时游赏",
+      "duration_years": [
+        1090,
+        1091
+      ],
+      "essence": "苏轼西湖治水第一丰碑、人工造景千古范本、后世西湖十景之首发源地",
+      "su_shi_story": "苏轼亲自规划堤线、督工修筑，初衷只为便民固湖、处置淤泥，\n无意之间成就千年名胜；\n筑成后四时漫步苏堤，春看柳丝含烟、桃花临水，夏赏荷风拂面，\n秋见平芜远黛、冬观寒堤疏影，\n在长堤缓步之间，放下朝堂烦扰、安守为民初心，\n写下多首苏堤纪事、湖堤咏怀诗作，把治水功业化作诗情画意。\n",
+      "historical_context": "苏轼治西湖核心水利工程，亦是千古人文地标。\n当年西湖葑泥堆积、无处堆放，苏轼因地制宜、就地取材，\n以清淤挖出的湖泥、葑土横贯西湖南北修筑长堤，\n全线连通南北山路、便民徒步、分隔内外湖、稳固湖岸、涵养水系；\n堤上建六桥、沿岸植桃柳，春至柳烟笼岸、桃花夹道，\n既解决水利淤塞难题，又凭空造就一处绝世湖山胜景，\n是**古代水利工程与园林审美完美结合的典范**。\n（注：南宋后期方系统化「西湖十景」之名，苏堤春晓为后世西湖十景之首的发源地）\n",
+      "order_in_route": 13,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "hz-s001",
+      "name": "西湖苏堤",
+      "type": "堤坝",
+      "location": "浙江省杭州市西湖区",
+      "description": "苏轼任杭州通判时疏浚西湖，堆筑苏堤",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "hz-s002",
+      "name": "六一泉",
+      "type": "泉水",
+      "location": "浙江省杭州市西湖区孤山",
+      "description": "苏轼命名纪念欧阳修",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "hz-s003",
+      "name": "灵隐寺",
+      "type": "寺庙",
+      "location": "浙江省杭州市西湖区灵隐路",
+      "description": "杭州最著名的寺庙之一，苏轼常游此地",
+      "opening_hours": "07:00-18:00",
+      "ticket": "¥45",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "杭州站/杭州东站",
+    "bus": "杭州汽车站",
+    "car": "沪杭高速/杭宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS035",
+    "pinyin_id": "hangzhou",
+    "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+    "confidence": 0.85,
+    "v3_lat": 30.25,
+    "v3_lng": 120.1
+  },
+  "extended_story": "苏轼亲自规划堤线、督工修筑，初衷只为便民固湖、处置淤泥，\n无意之间成就千年名胜；\n筑成后四时漫步苏堤，春看柳丝含烟、桃花临水，夏赏荷风拂面，\n秋见平芜远黛、冬观寒堤疏影，\n在长堤缓步之间，放下朝堂烦扰、安守为民初心，\n写下多首苏堤纪事、湖堤咏怀诗作，把治水功业化作诗情画意。",
+  "essence": "苏轼西湖治水第一丰碑、人工造景千古范本、后世西湖十景之首发源地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.244Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "浙江省杭州市西湖区",
+  "coords_updated_at": "2026-06-01T10:17:04.325Z",
+  "duration_summary": {
+    "first_year": 1089,
+    "last_year": 1091,
+    "span_years": 2,
+    "duration_label": "1089-1091 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
+    "source": "饮湖上初晴后雨",
+    "from": "global_works.excerpt"
+  }
+}

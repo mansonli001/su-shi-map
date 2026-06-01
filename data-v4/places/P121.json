@@ -1,0 +1,57 @@
+{
+  "id": "P121",
+  "ancient_name": "绵州",
+  "modern_name": "四川绵阳",
+  "type": "main",
+  "related_routes": [
+    "R01",
+    "R05"
+  ],
+  "background": "川北古驿重镇，由川西平原过渡至川北丘陵的官道节点。",
+  "extended_story": "一路向北渐入山地地貌，初次感受蜀道由平入险的地势变化。",
+  "essence": "川西向川北地理过渡节点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R01": {
+      "duration": "1056年北上途经",
+      "duration_years": [
+        1056
+      ],
+      "essence": "川西向川北地理过渡节点",
+      "su_shi_story": "一路向北渐入山地地貌，初次感受蜀道由平入险的地势变化。\n",
+      "historical_context": "川北古驿重镇，由川西平原过渡至川北丘陵的官道节点。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R05": {
+      "duration": "1069年官道途经",
+      "duration_years": [
+        1069
+      ],
+      "essence": "川北官道常规途经点",
+      "su_shi_story": "重行经绵州古驿，\n一路向北，渐入蜀道深山地带。\n",
+      "historical_context": "川北古驿重镇，川西平原入丘陵过渡节点。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.203Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1069,
+    "span_years": 13,
+    "duration_label": "1056-1069 · 13年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

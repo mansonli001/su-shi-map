@@ -1,0 +1,119 @@
+{
+  "id": "P170",
+  "ancient_name": "藤州",
+  "modern_name": "广西藤县",
+  "type": "main",
+  "lat": 23.3743,
+  "lng": 110.9203,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼贬儋州途经藤州，与苏辙相遇",
+  "background": "藤州今广西藤县，苏轼贬儋州时途经此地，与苏辙相遇",
+  "tags": [
+    "藤州",
+    "藤县",
+    "main",
+    "master_meet"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [
+    {
+      "title": "别子由三首",
+      "type": "poem",
+      "note": "",
+      "source_route": "R18"
+    }
+  ],
+  "route_events": {
+    "route19": [
+      {
+        "id": "tengz-001",
+        "date": "绍圣四年（1097年）",
+        "title": "贬儋州途经藤州",
+        "description": "苏轼贬儋州，途经藤州与苏辙相遇",
+        "significance": "兄弟相遇"
+      }
+    ],
+    "R18": {
+      "duration": "1097年5月11日 兄弟万里重逢",
+      "duration_years": [],
+      "essence": "苏辙兄弟万里贬途重逢地、千古手足相会节点",
+      "su_shi_story": "绍圣四年（1097）五月十一日，苏轼自惠州西行抵藤州，\n恰与同被远贬雷州的弟弟苏辙在此相遇，兄弟万里重逢、肝胆相照。\n苏辙作《藤州逢子瞻》《藤州别子瞻》记录此次贬途相会，\n苏轼于《别子由三首并序》自序中亦明记「相遇于藤州，同行至雷州，别于徐闻」。\n",
+      "historical_context": "西江古道途经古邑；绍圣四年五月十一日，\n苏轼苏辙兄弟贬途万里相会于此，乃一生最后一次手足重逢。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R19": {
+      "duration": "1100年西江水路重游",
+      "duration_years": [],
+      "essence": "西江怀旧途经点",
+      "su_shi_story": "反向重走贬谪旧路，\n山河依旧，心境早已释然。\n",
+      "historical_context": "西江水路老牌途经古邑。\n",
+      "order_in_route": 10,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "tengz-s001",
+      "name": "藤州古城",
+      "type": "城",
+      "location": "广西藤县",
+      "description": "藤州古城遗址",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "藤县汽车站",
+    "car": "包茂高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS165",
+    "pinyin_id": "tengzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 23.4832,
+    "v3_lng": 110.9403
+  },
+  "extended_story": "绍圣四年（1097）五月十一日，苏轼自惠州西行抵藤州，\n恰与同被远贬雷州的弟弟苏辙在此相遇，兄弟万里重逢、肝胆相照。\n苏辙作《藤州逢子瞻》《藤州别子瞻》记录此次贬途相会，\n苏轼于《别子由三首并序》自序中亦明记「相遇于藤州，同行至雷州，别于徐闻」。",
+  "essence": "苏辙兄弟万里贬途重逢地、千古手足相会节点",
+  "source": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱",
+    "栾城集"
+  ],
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  },
+  "famous_line": {
+    "quote": "别子由三首",
+    "source": "别子由三首",
+    "from": "global_works.title"
+  }
+}

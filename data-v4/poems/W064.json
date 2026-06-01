@@ -1,0 +1,29 @@
+{
+  "id": "W064",
+  "title": "赠王子直秀才",
+  "category": "赠诗",
+  "type": "诗",
+  "year_estimate": 1095,
+  "route_id": "R18",
+  "related_route_ids": [
+    "R18"
+  ],
+  "note": "1095 惠州（绍圣二年），赠虔州（江西赣州）处士王原（字子直，号鹤田处士），王子直专程访惠留七十日（《苏轼诗集》卷三十八）；元符三年苏轼北归途中复在虔州赣上重逢，证其为江西人。\"幅巾我欲作州民，君肯同耕谷口春\"，描绘惠州终老田园之愿。注：双专家最终一致采纳惠州说，驳回儋州说（儋州交往对象为王介石、黎子云等，无王子直踪迹）。",
+  "verification_status": "dual_expert_confirmed",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%B5%A0%E7%8E%8B%E5%AD%90%E7%9B%B4%E7%A7%80%E6%89%8D",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%B5%A0%E7%8E%8B%E5%AD%90%E7%9B%B4%E7%A7%80%E6%89%8D&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%B5%A0%E7%8E%8B%E5%AD%90%E7%9B%B4%E7%A7%80%E6%89%8D&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "万里云山一破裘，杖端闲挂百钱游。\n五车书已留儿读，二顷田应为鹤谋。\n水底笙歌蛙两部，山中奴婢橘千头。\n幅巾我欲相随去，海上何人识故侯。",
+  "coreVerse": "万里云山一破裘，杖端闲挂百钱游。",
+  "excerpt": "万里云山一破裘，杖端闲挂百钱游。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 1,
+  "matched_title": "贈王子直秀才"
+}

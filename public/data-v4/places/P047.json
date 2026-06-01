@@ -1,0 +1,24 @@
+{
+  "id": "P047",
+  "ancient_name": "赣江古道",
+  "modern_name": "江西赣江古道",
+  "type": "sight",
+  "lat": 25.8298,
+  "lng": 114.9335,
+  "related_routes": [
+    "R19"
+  ],
+  "tags": [],
+  "background": "徽宗赦还，自儋州北归常州孙氏馆，旋卒。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

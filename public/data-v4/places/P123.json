@@ -1,0 +1,121 @@
+{
+  "id": "P123",
+  "ancient_name": "渑池",
+  "modern_name": "河南渑池",
+  "type": "main",
+  "lat": 34.767,
+  "lng": 111.77,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "苏轼两次经过渑池，留下名篇《和子由渑池怀旧》",
+  "background": "'人生到处知何似，应似飞鸿踏雪泥' - 苏轼在渑池写下这篇千古名篇",
+  "tags": [
+    "怀旧",
+    "名篇",
+    "渑池",
+    "main",
+    "stay"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "mc-001",
+      "date": "嘉祐元年（1056年）",
+      "title": "第一次过渑池",
+      "description": "三苏出蜀途经渑池",
+      "significance": "途经渑池"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "mc-w001",
+      "title": "和子由渑池怀旧",
+      "content": "人生到处知何似，应似飞鸿踏雪泥。泥上偶然留指爪，鸿飞那复计东西。老僧已死成新塔，坏壁无由见旧题。往日崎岖还记否，路长人困蹇驴嘶。",
+      "excerpt": "人生到处知何似，应似飞鸿踏雪泥。",
+      "type": "诗",
+      "date": "嘉祐六年（1061年）十一月",
+      "location": "渑池",
+      "background": "与苏辙分别后过渑池作，表达对往事的感怀"
+    }
+  ],
+  "route_events": {
+    "route01": [
+      {
+        "id": "mc-002",
+        "date": "嘉祐六年（1061年）十一月",
+        "title": "赴凤翔任途中",
+        "description": "苏轼任大理评事签书凤翔府判官，送苏辙至郑州西门外别后，经渑池一路西行",
+        "significance": "名作《和子由渑池怀旧》创作地"
+      }
+    ],
+    "R01": {
+      "duration": "1056年北上宿僧舍，1057年返程再宿",
+      "duration_years": [
+        1056,
+        1057
+      ],
+      "essence": "人生心境转折极具宿命感点位",
+      "su_shi_story": "北上满怀期许留宿僧舍；\n返程旧地重临、心境悲戚，\n早年便体悟人生聚散无常。\n",
+      "historical_context": "古会盟之地，多古寺僧舍，宋代旅人常休憩。\n",
+      "order_in_route": 17,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "mc-s001",
+      "name": "秦赵会盟台",
+      "type": "遗址",
+      "location": "河南省渑池县",
+      "description": "战国时期秦赵会盟之地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "渑池站 / 渑池南站",
+    "bus": "渑池汽车站",
+    "car": "连霍高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS140",
+    "pinyin_id": "mianchi",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.7633,
+    "v3_lng": 111.6225
+  },
+  "extended_story": "北上满怀期许留宿僧舍；\n返程旧地重临、心境悲戚，\n早年便体悟人生聚散无常。",
+  "essence": "人生心境转折极具宿命感点位",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.184Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "人生到处知何似，应似飞鸿踏雪泥。",
+    "source": "和子由渑池怀旧",
+    "from": "global_works.excerpt"
+  }
+}

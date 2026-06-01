@@ -1,0 +1,118 @@
+{
+  "id": "P097",
+  "ancient_name": "雷州",
+  "modern_name": "广东雷州",
+  "type": "main",
+  "lat": 20.9143,
+  "lng": 110.0905,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼贬儋州途经雷州半岛",
+  "background": "雷州今广东雷州市，苏轼贬儋州时途经此地",
+  "tags": [
+    "雷州",
+    "半岛",
+    "main",
+    "hub",
+    "master_meet",
+    "historical"
+  ],
+  "periods": [
+    {
+      "period": "贬惠州再贬儋州·途经雷州",
+      "startYear": 1097,
+      "endYear": 1097,
+      "narrative": "苏轼从惠州再贬儋州，途经雷州（今雷州半岛）。在雷州，他遇到一位老朋友，两人抱头痛哭。苏轼写下『雷州何处是，海外此中去』的诗句。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "leiz-001",
+        "date": "绍圣四年（1097年）",
+        "title": "贬儋州途经雷州",
+        "description": "苏轼贬儋州，途经雷州",
+        "significance": "途经雷州"
+      },
+      {
+        "id": "leiz-002",
+        "date": "元符三年（1100年）",
+        "title": "北归途经雷州",
+        "description": "苏轼北归，途经雷州",
+        "significance": "途经雷州"
+      }
+    ],
+    "R18": {
+      "duration": "1097年6月5日 兄弟同行抵达",
+      "duration_years": [],
+      "essence": "大陆入海门户枢纽、兄弟同行驻留地",
+      "su_shi_story": "自藤州相会后，兄弟二人结伴同行二十余日，于六月五日抵雷州，\n苏辙时贬雷州司户参军，苏轼则在此短暂驻留待渡，\n是万里贬途难得的手足光阴。\n",
+      "historical_context": "大陆赴海南最后陆路口岸；\n绍圣四年六月五日，苏轼苏辙自藤州结伴抵雷州。\n",
+      "order_in_route": 15,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R19": {
+      "duration": "1100年登陆驻足",
+      "duration_years": [],
+      "essence": "跨海登陆核心驻足地",
+      "su_shi_story": "跨海登陆雷州，缓步休整，\n拜谒伏波古庙，怀先贤、感身世。\n",
+      "historical_context": "大陆入海门户，伏波庙所在人文古邑。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "leiz-s001",
+      "name": "雷州古城",
+      "type": "城",
+      "location": "广东省雷州市",
+      "description": "雷州古城",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "雷州汽车站",
+    "car": "沈海高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS042",
+    "pinyin_id": "leizhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 20.02,
+    "v3_lng": 110.33
+  },
+  "extended_story": "自藤州相会后，兄弟二人结伴同行二十余日，于六月五日抵雷州，\n苏辙时贬雷州司户参军，苏轼则在此短暂驻留待渡，\n是万里贬途难得的手足光阴。",
+  "essence": "大陆入海门户枢纽、兄弟同行驻留地",
+  "last_updated": "2026-06-01T10:22:05.265Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  }
+}

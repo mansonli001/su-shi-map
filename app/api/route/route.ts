@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { AMAP_KEY } from '@/lib/config';
+import { getAMapKey } from '@/lib/config';
 
 /**
  * 高德导航API - 获取真实行车路径
@@ -21,7 +21,7 @@ export async function GET(request: NextRequest) {
   
   try {
     // 调用高德驾车路径规划API
-    const url = `https://restapi.amap.com/v3/direction/driving?key=${AMAP_KEY}&origin=${origin}&destination=${destination}&extensions=all&output=json`;
+    const url = `https://restapi.amap.com/v3/direction/driving?key=${getAMapKey()}&origin=${origin}&destination=${destination}&extensions=all&output=json`;
     
     const response = await fetch(url);
     const data = await response.json();
@@ -97,7 +97,7 @@ export async function POST(request: NextRequest) {
       const origin = `${waypoints[i].lng},${waypoints[i].lat}`;
       const destination = `${waypoints[i + 1].lng},${waypoints[i + 1].lat}`;
       
-      const url = `https://restapi.amap.com/v3/direction/driving?key=${AMAP_KEY}&origin=${origin}&destination=${destination}&extensions=all&output=json`;
+      const url = `https://restapi.amap.com/v3/direction/driving?key=${getAMapKey()}&origin=${origin}&destination=${destination}&extensions=all&output=json`;
       
       const response = await fetch(url);
       const data = await response.json();

@@ -1,0 +1,51 @@
+{
+  "id": "P176",
+  "ancient_name": "巫山神女峰",
+  "modern_name": "重庆巫山神女峰",
+  "type": "sight",
+  "lat": 31.032123,
+  "lng": 110.014172,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [
+    {
+      "period": "元祐六年·知颍州",
+      "startYear": 1091,
+      "endYear": 1091,
+      "narrative": "元祐六年（1091年）八月，苏轼以龙图阁学士知颍州。颍州有西湖（不同于杭州西湖），苏轼疏浚西湖，修筑『苏堤』（颍州西湖的苏堤，不同于杭州苏堤）。他在颍州仅半年，但百姓感念其德。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS058",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 31.03,
+    "v3_lng": 110
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "重庆市巫山县巫山神女峰",
+  "coords_updated_at": "2026-06-01T10:17:04.325Z",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

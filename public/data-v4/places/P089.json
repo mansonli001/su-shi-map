@@ -1,0 +1,170 @@
+{
+  "id": "P089",
+  "ancient_name": "金陵",
+  "modern_name": "南京",
+  "type": "main",
+  "lat": 32.0603,
+  "lng": 118.7969,
+  "related_routes": [
+    "R11",
+    "R19"
+  ],
+  "summary": "苏轼拜访王安石于金陵",
+  "background": "金陵即今南京，苏轼元丰七年量移汝州途中拜访退隐的王安石",
+  "tags": [
+    "金陵",
+    "江宁",
+    "王安石",
+    "main",
+    "stay",
+    "historical"
+  ],
+  "periods": [
+    {
+      "period": "1084",
+      "title": "金陵访王安石·冰释前嫌",
+      "description": "元丰七年（1084年），苏轼自黄州量移汝州，途中特意绕道金陵（今南京），拜访已经罢相闲居的王安石。\n\n这是一次历史性的会面。当年王安石变法，苏轼因反对新法被排挤，几乎死在乌台诗案里。但现在，两个人都老了——王安石已罢相，苏轼也历经贬谪。\n\n两人在金陵相处甚欢，同游蒋山（钟山），谈论诗词佛理。苏轼在《与王安石书》里写：'某到此，首见丞相。'王安石回：'不知几百年，方有此人。'——不知几百年，才出这么一个人。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "jl-001",
+      "date": "元丰七年（1084年）",
+      "title": "拜访王安石",
+      "description": "苏轼在金陵拜访退隐的王安石",
+      "significance": "王苏会面"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "jl-w001",
+      "title": "泊船瓜洲",
+      "content": "京口瓜洲一水间，钟山只隔数重山。春风又绿江南岸，明月何时照我还。",
+      "excerpt": "春风又绿江南岸，明月何时照我还。",
+      "type": "诗",
+      "date": "元丰七年（1084年）",
+      "location": "金陵/江宁",
+      "background": "泊船瓜洲"
+    },
+    {
+      "id": "W034",
+      "title": "金陵怀古杂咏",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "note": "凭吊秦淮六朝遗迹，格调清淡悠远、不刻意悲叹兴亡"
+    }
+  ],
+  "route_events": {
+    "route12": [
+      {
+        "id": "jl-002",
+        "date": "元丰七年（1084年）",
+        "title": "拜访王安石",
+        "description": "苏轼量移汝州途中拜访王安石于金陵",
+        "significance": "王苏会面"
+      }
+    ],
+    "route19": [
+      {
+        "id": "jl-003",
+        "date": "建中靖国元年（1101年）",
+        "title": "北归途经金陵",
+        "description": "苏轼北归常州，途经金陵",
+        "significance": "途经金陵"
+      }
+    ],
+    "R11": {
+      "duration": "1084年沿江驻足六朝怀古",
+      "duration_years": [
+        1084
+      ],
+      "essence": "江淮六朝怀古核心地标",
+      "su_shi_story": "泊舟金陵游历秦淮古巷、六朝遗迹，\n凭吊王朝兴废、感怀人事沧桑，生发淡淡怀古幽思。\n",
+      "historical_context": "六朝古都、长江东南都会，秦淮文脉绵延，古迹遍布、兴亡底蕴厚重。\n（注：宋代正式行政名为「江宁府」，「金陵」为文学通用古名，订正版基准沿用古名）\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R19": {
+      "duration": "1100–1101年驻足怀古",
+      "duration_years": [],
+      "essence": "长江下游怀古核心地",
+      "su_shi_story": "重临金陵，登临钟山凭吊兴亡，\n看淡王朝更迭、仕途荣辱。\n",
+      "historical_context": "六朝古都，钟山所在文脉圣地。\n",
+      "order_in_route": 16,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jl-s001",
+      "name": "钟山",
+      "type": "山",
+      "location": "江苏省南京市",
+      "description": "钟山即紫金山",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "jl-s002",
+      "name": "清凉寺",
+      "type": "寺庙",
+      "location": "江苏省南京市",
+      "description": "苏轼曾游清凉寺",
+      "opening_hours": "08:00-17:00",
+      "ticket": "¥10",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "南京站 / 南京南站",
+    "bus": "南京汽车站",
+    "car": "沪宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS031",
+    "pinyin_id": "jinling",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.0603,
+    "v3_lng": 118.7969
+  },
+  "extended_story": "泊舟金陵游历秦淮古巷、六朝遗迹，\n凭吊王朝兴废、感怀人事沧桑，生发淡淡怀古幽思。",
+  "essence": "江淮六朝怀古核心地标",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1101,
+    "span_years": 17,
+    "duration_label": "1084-1101 · 17年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S3",
+      "S6"
+    ]
+  },
+  "famous_line": {
+    "quote": "春风又绿江南岸，明月何时照我还。",
+    "source": "泊船瓜洲",
+    "from": "global_works.excerpt"
+  }
+}

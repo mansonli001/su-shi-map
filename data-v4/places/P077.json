@@ -1,0 +1,46 @@
+{
+  "id": "P077",
+  "ancient_name": "济南",
+  "modern_name": "山东济南",
+  "type": "main",
+  "related_routes": [
+    "R13"
+  ],
+  "background": "齐鲁泉城腹地，泰山余脉北麓山水名都，南北古道要冲。",
+  "extended_story": "途经济南暂作停留，览泉城山水、观鲁中山川，\n休憩行旅，沉淀心绪，静待入京前路。",
+  "essence": "泰山余脉沿线核心驻足名城",
+  "tags": [
+    "main",
+    "stay",
+    "visit"
+  ],
+  "route_events": {
+    "R13": {
+      "duration": "1085年驻足休整览胜",
+      "duration_years": [
+        1085
+      ],
+      "essence": "泰山余脉沿线核心驻足名城",
+      "su_shi_story": "途经济南暂作停留，览泉城山水、观鲁中山川，\n休憩行旅，沉淀心绪，静待入京前路。\n",
+      "historical_context": "齐鲁泉城腹地，泰山余脉北麓山水名都，南北古道要冲。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.239Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

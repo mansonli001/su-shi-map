@@ -1,0 +1,121 @@
+{
+  "id": "P136",
+  "ancient_name": "虔州",
+  "modern_name": "赣州",
+  "type": "main",
+  "lat": 25.8298,
+  "lng": 114.9335,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼贬惠州及北归均途经赣州",
+  "background": "赣州古称虔州，苏轼贬惠州南行及北归时均途经此地",
+  "tags": [
+    "赣州",
+    "虔州",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [
+    {
+      "id": "W064",
+      "title": "赠王子直秀才",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "note": "1095 惠州（绍圣二年），赠虔州（江西赣州）处士王原（字子直，号鹤田处士），王子直专程访惠留七十日（《苏轼诗集》卷三十八）；元符三年苏轼北归途中复在虔州赣上重逢，证其为江西人。\"幅巾我欲作州民，君肯同耕谷口春\"，描绘惠州终老田园之愿。注：双专家最终一致采纳惠州说，驳回儋州说（儋州交往对象为王介石、黎子云等，无王子直踪迹）。",
+      "fullText": "万里云山一破裘，杖端闲挂百钱游。\n五车书已留儿读，二顷田应为鹤谋。\n水底笙歌蛙两部，山中奴婢橘千头。\n幅巾我欲相随去，海上何人识故侯。",
+      "excerpt": "万里云山一破裘，杖端闲挂百钱游。"
+    }
+  ],
+  "route_events": {
+    "route18": [
+      {
+        "id": "gz-001",
+        "date": "绍圣元年（1094年）",
+        "title": "贬惠州途经赣州",
+        "description": "苏轼贬惠州，途经赣州",
+        "significance": "途经赣州"
+      }
+    ],
+    "route19": [
+      {
+        "id": "gz-002",
+        "date": "元符三年（1100年）",
+        "title": "北归途经赣州",
+        "description": "苏轼北归，途经赣州",
+        "significance": "途经赣州"
+      }
+    ],
+    "R18": {
+      "duration": "1094年南岭前沿",
+      "duration_years": [],
+      "essence": "南岭梅关前置驿点",
+      "su_shi_story": "抵达虔州整装，即将翻越梅关，\n前路便是岭南荒疆。\n",
+      "historical_context": "赣南通往大庾岭前置古州，南岭古道门户。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R19": {
+      "duration": "1100年赣江中游途经",
+      "duration_years": [],
+      "essence": "赣江古道中转要地",
+      "su_shi_story": "沿赣江古道北行，\n山林古道勾起半生行旅回忆。\n",
+      "historical_context": "赣南古道核心重镇。\n",
+      "order_in_route": 13,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "gz-s001",
+      "name": "郁孤台",
+      "type": "台",
+      "location": "江西省赣州市",
+      "description": "苏轼游郁孤台",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "赣州站",
+    "bus": "赣州汽车站",
+    "car": "大广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS102",
+    "pinyin_id": "ganzhou",
+    "match_strategy": "ss:ancient_exact+pinyin:modern_substr",
+    "confidence": 0.7,
+    "v3_lat": 27.8,
+    "v3_lng": 114.91
+  },
+  "extended_story": "抵达虔州整装，即将翻越梅关，\n前路便是岭南荒疆。",
+  "essence": "南岭梅关前置驿点",
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  }
+}

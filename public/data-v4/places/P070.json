@@ -1,0 +1,24 @@
+{
+  "id": "P070",
+  "ancient_name": "淮河南岸古驿",
+  "modern_name": "淮河南岸驿道",
+  "type": "sight",
+  "lat": 32.5,
+  "lng": 116.5,
+  "related_routes": [
+    "R10"
+  ],
+  "tags": [],
+  "background": "由汴京沿淮河南岸古道抵黄州团练副使任，开荒东坡，自号东坡居士。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

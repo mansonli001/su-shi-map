@@ -1,0 +1,101 @@
+{
+  "id": "P178",
+  "ancient_name": "梧州",
+  "modern_name": "广西梧州",
+  "type": "main",
+  "lat": 23.4775,
+  "lng": 111.2727,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼贬儋州途经梧州",
+  "background": "梧州是岭南重镇，苏轼贬儋州时途经此地",
+  "tags": [
+    "梧州",
+    "桂江",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "wz-001",
+        "date": "绍圣四年（1097年）",
+        "title": "贬儋州途经梧州",
+        "description": "苏轼贬儋州，途经梧州",
+        "significance": "途经梧州"
+      }
+    ],
+    "R18": {
+      "duration": "1097年西江南下途经",
+      "duration_years": [],
+      "essence": "西江南下中转驿点",
+      "su_shi_story": "自惠州再贬，沿西江西行，\n步入更荒远粤西地界。\n",
+      "historical_context": "西江中游水陆重镇，两广通行要道。\n",
+      "order_in_route": 13,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R19": {
+      "duration": "1100年西江南下终点",
+      "duration_years": [],
+      "essence": "岭南水路收官枢纽",
+      "su_shi_story": "结束西江水路行旅，\n整装北入赣南赣江古道。\n",
+      "historical_context": "西江中游重镇，北上赣江门户。\n",
+      "order_in_route": 11,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "wz-s001",
+      "name": "白云山",
+      "type": "山",
+      "location": "广西梧州市",
+      "description": "梧州白云山",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "梧州站",
+    "bus": "梧州汽车站",
+    "car": "包茂高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "wuzhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 23.4712,
+    "v3_lng": 111.2812
+  },
+  "extended_story": "自惠州再贬，沿西江西行，\n步入更荒远粤西地界。",
+  "essence": "西江南下中转驿点",
+  "last_updated": "2026-06-01T10:22:05.266Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  }
+}

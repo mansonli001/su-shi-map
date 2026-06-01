@@ -1,0 +1,82 @@
+{
+  "id": "P040",
+  "ancient_name": "渡琼州海峡",
+  "modern_name": "琼州海峡",
+  "type": "main",
+  "lat": 20.2,
+  "lng": 110.3,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "苏轼渡海后在琼州停留",
+  "background": "琼州即今海口，苏轼渡海后在此停留，然后前往儋州",
+  "tags": [
+    "琼州",
+    "海口",
+    "海南"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "qiongz-001",
+        "date": "绍圣四年（1097年）",
+        "title": "渡海至琼州",
+        "description": "苏轼从徐闻渡海至琼州",
+        "significance": "渡海抵琼"
+      },
+      {
+        "id": "qiongz-002",
+        "date": "元符三年（1100年）",
+        "title": "北归途经琼州",
+        "description": "苏轼北归，途经琼州",
+        "significance": "途经琼州"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "qiongz-s001",
+      "name": "五公祠",
+      "type": "祠",
+      "location": "海南省海口市",
+      "description": "纪念苏轼五公",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥20",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "海口站",
+    "bus": "海口汽车站",
+    "car": "海南环岛高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS044",
+    "pinyin_id": "qiongzhou",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 20.02,
+    "v3_lng": 110.33
+  },
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

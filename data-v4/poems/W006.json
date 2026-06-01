@@ -1,0 +1,22 @@
+{
+  "id": "W006",
+  "title": "上神宗皇帝书（前期酝酿）",
+  "category": "奏疏",
+  "type": "策",
+  "year_estimate": 1069,
+  "route_id": "R05",
+  "related_route_ids": [
+    "R05"
+  ],
+  "note": "入朝后针对变法政见陈述己见的奠基之作",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

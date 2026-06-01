@@ -1,0 +1,70 @@
+{
+  "id": "P230",
+  "ancient_name": "忠州",
+  "modern_name": "重庆忠县",
+  "type": "main",
+  "lat": 30.2912,
+  "lng": 108.0386,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "",
+  "background": "长江三峡西入口沿江古郡，\n为入三峡前过渡驿埠。",
+  "tags": [
+    "main"
+  ],
+  "periods": [
+    {
+      "period": "从儋州北归·途经润州",
+      "startYear": 1100,
+      "endYear": 1100,
+      "narrative": "苏轼从海南北归，途经润州（今江苏镇江）。润州是长江南岸的重要港口，苏轼在这里停留数日，游览了金山寺等景点。他在金山寺看到自己的画像，感慨『这是我吗？我怎么老了这么多？』"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年三峡水路途经",
+      "duration_years": [
+        1059
+      ],
+      "essence": "三峡前奏沿江古邑",
+      "su_shi_story": "舟行忠州江面，山势渐拢，\n渐近三峡峡谷地貌，心生怀古之意。\n",
+      "historical_context": "长江三峡西入口沿江古郡，\n为入三峡前过渡驿埠。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS054",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.7,
+    "v3_lat": 31.05,
+    "v3_lng": 107.87
+  },
+  "extended_story": "舟行忠州江面，山势渐拢，\n渐近三峡峡谷地貌，心生怀古之意。",
+  "essence": "三峡前奏沿江古邑",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.189Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

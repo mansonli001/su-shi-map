@@ -1,0 +1,44 @@
+{
+  "id": "P114",
+  "ancient_name": "洛阳龙门",
+  "modern_name": "河南洛阳龙门石窟",
+  "type": "sight",
+  "lat": 34.567215,
+  "lng": 112.477141,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS113",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 34.52,
+    "v3_lng": 112.45
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省洛阳市洛龙区龙门村石窟街道",
+  "coords_updated_at": "2026-06-01T10:17:04.319Z",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

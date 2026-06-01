@@ -1,0 +1,29 @@
+{
+  "id": "W021",
+  "title": "黄楼赋",
+  "category": "辞赋",
+  "type": "赋",
+  "year_estimate": 1078,
+  "route_id": "R08",
+  "related_route_ids": [
+    "R08"
+  ],
+  "note": "1078 徐州抗洪后营建黄楼标志性名篇",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E9%BB%84%E6%A5%BC%E8%B5%8B",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E9%BB%84%E6%A5%BC%E8%B5%8B&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E9%BB%84%E6%A5%BC%E8%B5%8B&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "我在黄楼上，欲作黄楼诗。\n忽得故人书，中有黄楼词。\n黄楼高十丈，下建五丈旗。\n楚山以为城，泗水以为池。\n我诗无杰句，万景骄莫随。\n夫子独何妙，雨雹散雷椎。\n雄辞杂今古，中有屈宋姿。\n南山多磬石，清滑如流脂。\n朱蜡为摹刻，细妙分毫厘。\n佳处未易识，当有来者知。",
+  "coreVerse": "我在黄楼上，欲作黄楼诗。",
+  "excerpt": "我在黄楼上，欲作黄楼诗。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 4,
+  "matched_title": "太虛以黄樓賦見寄作詩爲謝",
+  "full_text_needs_review": true
+}

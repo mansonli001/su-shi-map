@@ -1,0 +1,26 @@
+{
+  "id": "P167",
+  "ancient_name": "太学",
+  "modern_name": "河南开封太学旧址",
+  "type": "around",
+  "lat": 34.798083,
+  "lng": 114.314278,
+  "related_routes": [
+    "R15"
+  ],
+  "tags": [
+    "坐标推断"
+  ],
+  "background": "杭州任满还朝任翰林学士承旨。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

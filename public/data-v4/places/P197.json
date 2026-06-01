@@ -1,0 +1,70 @@
+{
+  "id": "P197",
+  "ancient_name": "许州",
+  "modern_name": "河南许昌",
+  "type": "main",
+  "lat": 34.0357,
+  "lng": 113.8525,
+  "related_routes": [
+    "R03"
+  ],
+  "summary": "",
+  "background": "中原重镇，汉末故都，官道四通八达。",
+  "tags": [
+    "main"
+  ],
+  "periods": [
+    {
+      "period": "绍圣元年·贬惠州",
+      "startYear": 1094,
+      "endYear": 1097,
+      "narrative": "绍圣元年（1094年）四月，苏轼被贬为宁远军节度副使、惠州安置。惠州在今广东，当时是蛮荒之地。苏轼在惠州三年，生活困顿，但依然豁达。他写下『日啖荔枝三百颗，不辞长作岭南人』的名句，表达对岭南生活的适应和豁达。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 途经驻留",
+      "duration_years": [
+        1060
+      ],
+      "essence": "中原腹地人文重镇",
+      "su_shi_story": "驻足许州观中古风物，\n感汉魏历史底蕴。\n",
+      "historical_context": "中原重镇，汉末故都，官道四通八达。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS061",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.7,
+    "v3_lat": 34.52,
+    "v3_lng": 113
+  },
+  "extended_story": "驻足许州观中古风物，\n感汉魏历史底蕴。",
+  "essence": "中原腹地人文重镇",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.193Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

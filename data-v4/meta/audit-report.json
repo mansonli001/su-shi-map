@@ -1,0 +1,5616 @@
+{
+  "_meta": {
+    "generated_at": "2026-06-01T10:18:02.313Z",
+    "schema": "audit-v1"
+  },
+  "overall": {
+    "total_places": 234,
+    "has_detail_count": 207,
+    "no_detail_count": 27,
+    "field_fill_rate": {
+      "summary": "103/234 (44%)",
+      "background": "197/234 (84%)",
+      "tags": "197/234 (84%)",
+      "periods": "69/234 (29%)",
+      "global_works": "53/234 (23%)",
+      "memorial_sites": "100/234 (43%)",
+      "foods": "3/234 (1%)",
+      "transport": "103/234 (44%)",
+      "route_events": "196/234 (84%)"
+    },
+    "fill_score_dist": {
+      "0%（空壳）": 30,
+      "1-30%（严重缺）": 7,
+      "31-60%（半缺）": 98,
+      "61-89%（基本齐）": 98,
+      "90-100%（完整）": 1
+    }
+  },
+  "by_type": {
+    "sight": {
+      "total": 57,
+      "filled_avg": 30
+    },
+    "main": {
+      "total": 98,
+      "filled_avg": 49
+    },
+    "around": {
+      "total": 61,
+      "filled_avg": 54
+    },
+    "study": {
+      "total": 1,
+      "filled_avg": 11
+    },
+    "death": {
+      "total": 1,
+      "filled_avg": 78
+    },
+    "official": {
+      "total": 11,
+      "filled_avg": 88
+    },
+    "birth": {
+      "total": 2,
+      "filled_avg": 78
+    },
+    "stay": {
+      "total": 3,
+      "filled_avg": 89
+    }
+  },
+  "by_route": {
+    "R10": {
+      "total": 14,
+      "no_detail": 2,
+      "avg_score": 53
+    },
+    "R01": {
+      "total": 27,
+      "no_detail": 2,
+      "avg_score": 47
+    },
+    "R19": {
+      "total": 26,
+      "no_detail": 1,
+      "avg_score": 60
+    },
+    "R05": {
+      "total": 14,
+      "no_detail": 3,
+      "avg_score": 47
+    },
+    "R15": {
+      "total": 11,
+      "no_detail": 2,
+      "avg_score": 60
+    },
+    "R03": {
+      "total": 22,
+      "no_detail": 2,
+      "avg_score": 44
+    },
+    "R14": {
+      "total": 14,
+      "no_detail": 2,
+      "avg_score": 64
+    },
+    "R12": {
+      "total": 10,
+      "no_detail": 2,
+      "avg_score": 44
+    },
+    "R02": {
+      "total": 18,
+      "no_detail": 3,
+      "avg_score": 34
+    },
+    "R08": {
+      "total": 14,
+      "no_detail": 3,
+      "avg_score": 51
+    },
+    "R00": {
+      "total": 13,
+      "no_detail": 1,
+      "avg_score": 47
+    },
+    "R04": {
+      "total": 24,
+      "no_detail": 1,
+      "avg_score": 53
+    },
+    "R18": {
+      "total": 28,
+      "no_detail": 1,
+      "avg_score": 63
+    },
+    "R17": {
+      "total": 13,
+      "no_detail": 1,
+      "avg_score": 49
+    },
+    "R13": {
+      "total": 12,
+      "no_detail": 1,
+      "avg_score": 48
+    },
+    "R06": {
+      "total": 22,
+      "no_detail": 0,
+      "avg_score": 70
+    },
+    "R07": {
+      "total": 15,
+      "no_detail": 0,
+      "avg_score": 64
+    },
+    "R09": {
+      "total": 17,
+      "no_detail": 0,
+      "avg_score": 63
+    },
+    "R16": {
+      "total": 11,
+      "no_detail": 0,
+      "avg_score": 66
+    },
+    "R11": {
+      "total": 14,
+      "no_detail": 0,
+      "avg_score": 66
+    }
+  },
+  "worst_50": [
+    {
+      "id": "P029",
+      "ancient": "大别山边缘古道",
+      "modern": "大别山北缘古道",
+      "type": "sight",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P043",
+      "ancient": "凤县",
+      "modern": "陕西凤县",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P047",
+      "ancient": "赣江古道",
+      "modern": "江西赣江古道",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P057",
+      "ancient": "汉中栈道",
+      "modern": "陕西汉中古栈道",
+      "type": "sight",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P063",
+      "ancient": "洪泽湖沿岸",
+      "modern": "江苏洪泽湖沿岸",
+      "type": "sight",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P067",
+      "ancient": "华山远眺",
+      "modern": "陕西华阴华山",
+      "type": "sight",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P070",
+      "ancient": "淮河南岸古驿",
+      "modern": "淮河南岸驿道",
+      "type": "sight",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P082",
+      "ancient": "江淮水乡驿道",
+      "modern": "江淮水乡古驿",
+      "type": "sight",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P085",
+      "ancient": "江南运河",
+      "modern": "江南运河（苏州段）",
+      "type": "sight",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P088",
+      "ancient": "胶东半岛古道",
+      "modern": "山东胶东半岛古道",
+      "type": "sight",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P093",
+      "ancient": "夔门三峡",
+      "modern": "长江三峡（瞿塘峡）",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P096",
+      "ancient": "乐山大佛",
+      "modern": "四川乐山大佛",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P102",
+      "ancient": "临沂",
+      "modern": "山东临沂",
+      "type": "main",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P114",
+      "ancient": "洛阳龙门",
+      "modern": "河南洛阳龙门石窟",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P130",
+      "ancient": "彭山江口",
+      "modern": "四川彭山江口",
+      "type": "sight",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P137",
+      "ancient": "秦岭古驿",
+      "modern": "陕西秦岭古驿",
+      "type": "sight",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P149",
+      "ancient": "三峡全程",
+      "modern": "",
+      "type": "sight",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P157",
+      "ancient": "泗水古道",
+      "modern": "山东泗水古道",
+      "type": "sight",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P160",
+      "ancient": "苏北沿海驿道",
+      "modern": "江苏苏北沿海",
+      "type": "sight",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P167",
+      "ancient": "太学",
+      "modern": "河南开封太学旧址",
+      "type": "around",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P172",
+      "ancient": "潼关渡口",
+      "modern": "陕西潼关渡口",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P183",
+      "ancient": "西江山水",
+      "modern": "广东西江山水",
+      "type": "sight",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P184",
+      "ancient": "相国寺",
+      "modern": "河南开封大相国寺",
+      "type": "around",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P189",
+      "ancient": "崤山二陵",
+      "modern": "河南三门峡崤山二陵",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P190",
+      "ancient": "崤山古道",
+      "modern": "河南三门峡崤山古道",
+      "type": "sight",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P202",
+      "ancient": "沂蒙山",
+      "modern": "山东沂蒙山",
+      "type": "sight",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P204",
+      "ancient": "宜宾锁江楼",
+      "modern": "四川宜宾锁江楼",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P218",
+      "ancient": "漳河渡口",
+      "modern": "河北漳河渡口",
+      "type": "sight",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P225",
+      "ancient": "长江沿岸渡口",
+      "modern": "长江中游渡口",
+      "type": "around",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P231",
+      "ancient": "资善堂",
+      "modern": "河南开封资善堂旧址",
+      "type": "around",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P030",
+      "ancient": "大慈寺",
+      "modern": "四川成都大慈寺",
+      "type": "around",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P041",
+      "ancient": "飞来峰",
+      "modern": "浙江杭州飞来峰",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P103",
+      "ancient": "灵隐寺",
+      "modern": "浙江杭州灵隐寺",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P138",
+      "ancient": "青神",
+      "modern": "四川青神",
+      "type": "main",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P139",
+      "ancient": "青神平羌江",
+      "modern": "四川青神平羌江",
+      "type": "sight",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P176",
+      "ancient": "巫山神女峰",
+      "modern": "重庆巫山神女峰",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P229",
+      "ancient": "中岩寺",
+      "modern": "四川青神中岩寺",
+      "type": "study",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P002",
+      "ancient": "白州",
+      "modern": "博白",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P004",
+      "ancient": "北部湾海岸",
+      "modern": "广西北部湾海岸",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P005",
+      "ancient": "北江",
+      "modern": "广东北江",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P006",
+      "ancient": "汴河",
+      "modern": "河南开封汴河（古道）",
+      "type": "main",
+      "routes": [
+        "R04",
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P007",
+      "ancient": "汴河漕运古道",
+      "modern": "河南开封汴河漕运",
+      "type": "sight",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P015",
+      "ancient": "曹州",
+      "modern": "山东菏泽",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P016",
+      "ancient": "常山",
+      "modern": "山东诸城常山",
+      "type": "around",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P019",
+      "ancient": "陈仓",
+      "modern": "宝鸡",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P028",
+      "ancient": "磁州",
+      "modern": "河北磁县",
+      "type": "main",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P033",
+      "ancient": "丹崖山",
+      "modern": "山东蓬莱丹崖山",
+      "type": "around",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P037",
+      "ancient": "邓州",
+      "modern": "河南邓州",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P039",
+      "ancient": "定州中山故都",
+      "modern": "河北定州中山故都",
+      "type": "around",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P046",
+      "ancient": "扶风",
+      "modern": "陕西扶风",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    }
+  ],
+  "all": [
+    {
+      "id": "P029",
+      "ancient": "大别山边缘古道",
+      "modern": "大别山北缘古道",
+      "type": "sight",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P043",
+      "ancient": "凤县",
+      "modern": "陕西凤县",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P047",
+      "ancient": "赣江古道",
+      "modern": "江西赣江古道",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P057",
+      "ancient": "汉中栈道",
+      "modern": "陕西汉中古栈道",
+      "type": "sight",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P063",
+      "ancient": "洪泽湖沿岸",
+      "modern": "江苏洪泽湖沿岸",
+      "type": "sight",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P067",
+      "ancient": "华山远眺",
+      "modern": "陕西华阴华山",
+      "type": "sight",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P070",
+      "ancient": "淮河南岸古驿",
+      "modern": "淮河南岸驿道",
+      "type": "sight",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P082",
+      "ancient": "江淮水乡驿道",
+      "modern": "江淮水乡古驿",
+      "type": "sight",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P085",
+      "ancient": "江南运河",
+      "modern": "江南运河（苏州段）",
+      "type": "sight",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P088",
+      "ancient": "胶东半岛古道",
+      "modern": "山东胶东半岛古道",
+      "type": "sight",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P093",
+      "ancient": "夔门三峡",
+      "modern": "长江三峡（瞿塘峡）",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P096",
+      "ancient": "乐山大佛",
+      "modern": "四川乐山大佛",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P102",
+      "ancient": "临沂",
+      "modern": "山东临沂",
+      "type": "main",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P114",
+      "ancient": "洛阳龙门",
+      "modern": "河南洛阳龙门石窟",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P130",
+      "ancient": "彭山江口",
+      "modern": "四川彭山江口",
+      "type": "sight",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P137",
+      "ancient": "秦岭古驿",
+      "modern": "陕西秦岭古驿",
+      "type": "sight",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P149",
+      "ancient": "三峡全程",
+      "modern": "",
+      "type": "sight",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P157",
+      "ancient": "泗水古道",
+      "modern": "山东泗水古道",
+      "type": "sight",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P160",
+      "ancient": "苏北沿海驿道",
+      "modern": "江苏苏北沿海",
+      "type": "sight",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P167",
+      "ancient": "太学",
+      "modern": "河南开封太学旧址",
+      "type": "around",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P172",
+      "ancient": "潼关渡口",
+      "modern": "陕西潼关渡口",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P183",
+      "ancient": "西江山水",
+      "modern": "广东西江山水",
+      "type": "sight",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P184",
+      "ancient": "相国寺",
+      "modern": "河南开封大相国寺",
+      "type": "around",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P189",
+      "ancient": "崤山二陵",
+      "modern": "河南三门峡崤山二陵",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P190",
+      "ancient": "崤山古道",
+      "modern": "河南三门峡崤山古道",
+      "type": "sight",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P202",
+      "ancient": "沂蒙山",
+      "modern": "山东沂蒙山",
+      "type": "sight",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P204",
+      "ancient": "宜宾锁江楼",
+      "modern": "四川宜宾锁江楼",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P218",
+      "ancient": "漳河渡口",
+      "modern": "河北漳河渡口",
+      "type": "sight",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P225",
+      "ancient": "长江沿岸渡口",
+      "modern": "长江中游渡口",
+      "type": "around",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P231",
+      "ancient": "资善堂",
+      "modern": "河南开封资善堂旧址",
+      "type": "around",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": false,
+      "fill_score": 0,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ]
+    },
+    {
+      "id": "P030",
+      "ancient": "大慈寺",
+      "modern": "四川成都大慈寺",
+      "type": "around",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P041",
+      "ancient": "飞来峰",
+      "modern": "浙江杭州飞来峰",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P103",
+      "ancient": "灵隐寺",
+      "modern": "浙江杭州灵隐寺",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P138",
+      "ancient": "青神",
+      "modern": "四川青神",
+      "type": "main",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P139",
+      "ancient": "青神平羌江",
+      "modern": "四川青神平羌江",
+      "type": "sight",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P176",
+      "ancient": "巫山神女峰",
+      "modern": "重庆巫山神女峰",
+      "type": "sight",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P229",
+      "ancient": "中岩寺",
+      "modern": "四川青神中岩寺",
+      "type": "study",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 11,
+      "missing": [
+        "summary",
+        "background",
+        "tags",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport",
+        "route_events"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P002",
+      "ancient": "白州",
+      "modern": "博白",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P004",
+      "ancient": "北部湾海岸",
+      "modern": "广西北部湾海岸",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P005",
+      "ancient": "北江",
+      "modern": "广东北江",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P006",
+      "ancient": "汴河",
+      "modern": "河南开封汴河（古道）",
+      "type": "main",
+      "routes": [
+        "R04",
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P007",
+      "ancient": "汴河漕运古道",
+      "modern": "河南开封汴河漕运",
+      "type": "sight",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P015",
+      "ancient": "曹州",
+      "modern": "山东菏泽",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P016",
+      "ancient": "常山",
+      "modern": "山东诸城常山",
+      "type": "around",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P019",
+      "ancient": "陈仓",
+      "modern": "宝鸡",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P028",
+      "ancient": "磁州",
+      "modern": "河北磁县",
+      "type": "main",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P033",
+      "ancient": "丹崖山",
+      "modern": "山东蓬莱丹崖山",
+      "type": "around",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P037",
+      "ancient": "邓州",
+      "modern": "河南邓州",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P039",
+      "ancient": "定州中山故都",
+      "modern": "河北定州中山故都",
+      "type": "around",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P046",
+      "ancient": "扶风",
+      "modern": "陕西扶风",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P059",
+      "ancient": "濠州",
+      "modern": "安徽凤阳",
+      "type": "main",
+      "routes": [
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P060",
+      "ancient": "河北平原古驿",
+      "modern": "河北平原驿道",
+      "type": "sight",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P061",
+      "ancient": "洪泽湖",
+      "modern": "江苏洪泽湖",
+      "type": "main",
+      "routes": [
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P062",
+      "ancient": "洪泽湖古渡口",
+      "modern": "江苏洪泽湖古渡口",
+      "type": "sight",
+      "routes": [
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P064",
+      "ancient": "洪州",
+      "modern": "南昌",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P066",
+      "ancient": "湖州西塞山",
+      "modern": "湖北黄石西塞山（旧考为湖州西塞）",
+      "type": "around",
+      "routes": [
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P069",
+      "ancient": "淮河",
+      "modern": "淮河南岸驿道",
+      "type": "main",
+      "routes": [
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P071",
+      "ancient": "淮水",
+      "modern": "淮河（中游）",
+      "type": "main",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P076",
+      "ancient": "吉州",
+      "modern": "江西吉安",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.7
+    },
+    {
+      "id": "P077",
+      "ancient": "济南",
+      "modern": "山东济南",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P079",
+      "ancient": "犍为",
+      "modern": "四川犍为",
+      "type": "main",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P086",
+      "ancient": "江南运河全线",
+      "modern": "江南运河",
+      "type": "sight",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P094",
+      "ancient": "夔州",
+      "modern": "奉节",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P105",
+      "ancient": "岭南西江水路",
+      "modern": "广东西江水路",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P107",
+      "ancient": "卢山",
+      "modern": "山东诸城卢山",
+      "type": "around",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P110",
+      "ancient": "庐州",
+      "modern": "合肥",
+      "type": "main",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P111",
+      "ancient": "泸州",
+      "modern": "四川泸州",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P112",
+      "ancient": "罗浮山",
+      "modern": "广东博罗罗浮山",
+      "type": "sight",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P113",
+      "ancient": "洛阳",
+      "modern": "河南洛阳",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P121",
+      "ancient": "绵州",
+      "modern": "四川绵阳",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P122",
+      "ancient": "勉县",
+      "modern": "陕西勉县",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P127",
+      "ancient": "南浔古驿",
+      "modern": "浙江湖州南浔古驿",
+      "type": "sight",
+      "routes": [
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P128",
+      "ancient": "宁强",
+      "modern": "陕西宁强",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P129",
+      "ancient": "彭山",
+      "modern": "四川彭山",
+      "type": "main",
+      "routes": [
+        "R00",
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P131",
+      "ancient": "蓬莱阁",
+      "modern": "山东蓬莱阁",
+      "type": "around",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P132",
+      "ancient": "鄱阳湖",
+      "modern": "江西鄱阳湖",
+      "type": "sight",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P133",
+      "ancient": "齐鲁古道",
+      "modern": "山东齐鲁古道",
+      "type": "sight",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P134",
+      "ancient": "岐亭",
+      "modern": "湖北麻城岐亭镇",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P135",
+      "ancient": "蕲水",
+      "modern": "湖北浠水",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P140",
+      "ancient": "青州",
+      "modern": "山东青州",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P144",
+      "ancient": "戎州",
+      "modern": "宜宾",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P151",
+      "ancient": "陕州",
+      "modern": "河南三门峡",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P152",
+      "ancient": "陕州硖石",
+      "modern": "河南三门峡硖石",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P158",
+      "ancient": "泗水亭",
+      "modern": "江苏徐州泗水亭",
+      "type": "around",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P163",
+      "ancient": "太白山",
+      "modern": "陕西太白山",
+      "type": "around",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P164",
+      "ancient": "太湖西岸古村落",
+      "modern": "太湖西岸",
+      "type": "around",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P165",
+      "ancient": "太湖沿岸",
+      "modern": "太湖",
+      "type": "sight",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P166",
+      "ancient": "太行山东麓",
+      "modern": "河北太行山东麓",
+      "type": "around",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P168",
+      "ancient": "泰山余脉",
+      "modern": "山东泰安泰山余脉",
+      "type": "sight",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P169",
+      "ancient": "唐州",
+      "modern": "河南唐河",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P173",
+      "ancient": "潍水古战场",
+      "modern": "山东诸城潍水古战场",
+      "type": "around",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P174",
+      "ancient": "尉氏",
+      "modern": "河南尉氏",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P177",
+      "ancient": "无锡",
+      "modern": "江苏无锡",
+      "type": "main",
+      "routes": [
+        "R07",
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P179",
+      "ancient": "五丈原",
+      "modern": "陕西宝鸡五丈原",
+      "type": "around",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P180",
+      "ancient": "武昌樊山",
+      "modern": "湖北鄂州（北宋武昌）",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P185",
+      "ancient": "相州",
+      "modern": "安阳",
+      "type": "main",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P186",
+      "ancient": "襄城",
+      "modern": "河南襄城",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P187",
+      "ancient": "襄阳",
+      "modern": "湖北襄阳",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.8
+    },
+    {
+      "id": "P188",
+      "ancient": "襄阳古隆中",
+      "modern": "湖北襄阳古隆中",
+      "type": "sight",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P191",
+      "ancient": "邢州",
+      "modern": "河北邢台",
+      "type": "main",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P192",
+      "ancient": "兴廉村净行院",
+      "modern": "广东雷州兴廉村净行院",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P193",
+      "ancient": "兴元",
+      "modern": "汉中",
+      "type": "main",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P201",
+      "ancient": "叶县",
+      "modern": "河南叶县",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P205",
+      "ancient": "宜兴",
+      "modern": "江苏宜兴",
+      "type": "main",
+      "routes": [
+        "R11",
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P206",
+      "ancient": "宜兴田园",
+      "modern": "江苏宜兴",
+      "type": "around",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P211",
+      "ancient": "渝州",
+      "modern": "重庆",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P212",
+      "ancient": "郁林",
+      "modern": "玉林",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P215",
+      "ancient": "运河全线风光",
+      "modern": "京杭大运河",
+      "type": "sight",
+      "routes": [
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P221",
+      "ancient": "长岛渡口",
+      "modern": "山东长岛",
+      "type": "around",
+      "routes": [
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P222",
+      "ancient": "长江",
+      "modern": "长江（中游）",
+      "type": "main",
+      "routes": [
+        "R04",
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P223",
+      "ancient": "长江南岸渡口",
+      "modern": "湖北黄冈长江渡口",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P224",
+      "ancient": "长江下游全线",
+      "modern": "长江下游",
+      "type": "sight",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P226",
+      "ancient": "真定",
+      "modern": "正定",
+      "type": "main",
+      "routes": [
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P232",
+      "ancient": "淄州",
+      "modern": "山东淄博",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P233",
+      "ancient": "秭归",
+      "modern": "湖北秭归",
+      "type": "main",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P234",
+      "ancient": "梓潼",
+      "modern": "四川梓潼",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 33,
+      "missing": [
+        "summary",
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P003",
+      "ancient": "百步洪",
+      "modern": "江苏徐州百步洪",
+      "type": "around",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P078",
+      "ancient": "嘉州",
+      "modern": "乐山",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P143",
+      "ancient": "仁和运河",
+      "modern": "浙江杭州仁和运河",
+      "type": "around",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P145",
+      "ancient": "汝州",
+      "modern": "河南汝州",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P150",
+      "ancient": "沙湖",
+      "modern": "湖北浠水沙湖",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P154",
+      "ancient": "石鼓山",
+      "modern": "陕西宝鸡石鼓山",
+      "type": "around",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P155",
+      "ancient": "石钟山",
+      "modern": "江西湖口石钟山",
+      "type": "sight",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ]
+    },
+    {
+      "id": "P162",
+      "ancient": "宿州",
+      "modern": "安徽宿州",
+      "type": "main",
+      "routes": [
+        "R08",
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P171",
+      "ancient": "潼关",
+      "modern": "陕西潼关",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.7
+    },
+    {
+      "id": "P175",
+      "ancient": "巫山",
+      "modern": "重庆巫山",
+      "type": "main",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P197",
+      "ancient": "许州",
+      "modern": "河南许昌",
+      "type": "main",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.7
+    },
+    {
+      "id": "P213",
+      "ancient": "云龙山",
+      "modern": "江苏徐州云龙山",
+      "type": "around",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "periods",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P228",
+      "ancient": "中和古镇",
+      "modern": "海南儋州中和古镇",
+      "type": "around",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P230",
+      "ancient": "忠州",
+      "modern": "重庆忠县",
+      "type": "main",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 44,
+      "missing": [
+        "summary",
+        "global_works",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.7
+    },
+    {
+      "id": "P023",
+      "ancient": "澄迈",
+      "modern": "海南澄迈",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 56,
+      "missing": [
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P084",
+      "ancient": "江陵荆州古城",
+      "modern": "湖北荆州古城",
+      "type": "around",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 56,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods",
+        "route_events"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P104",
+      "ancient": "灵隐天竺",
+      "modern": "浙江杭州灵隐天竺",
+      "type": "around",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": true,
+      "fill_score": 56,
+      "missing": [
+        "summary",
+        "memorial_sites",
+        "foods",
+        "transport"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P126",
+      "ancient": "南雄",
+      "modern": "广东南雄",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 56,
+      "missing": [
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P153",
+      "ancient": "韶州",
+      "modern": "广东韶关",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 56,
+      "missing": [
+        "periods",
+        "global_works",
+        "memorial_sites",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P020",
+      "ancient": "陈州",
+      "modern": "河南淮阳",
+      "type": "main",
+      "routes": [
+        "R06",
+        "R10",
+        "R14",
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P025",
+      "ancient": "滁州",
+      "modern": "安徽滁州",
+      "type": "main",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P026",
+      "ancient": "滁州琅琊山",
+      "modern": "安徽滁州琅琊山",
+      "type": "sight",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P027",
+      "ancient": "楚州",
+      "modern": "江苏淮安",
+      "type": "main",
+      "routes": [
+        "R07",
+        "R08",
+        "R09",
+        "R12",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P031",
+      "ancient": "大庾岭",
+      "modern": "梅岭",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P032",
+      "ancient": "大庾岭梅关",
+      "modern": "江西大余梅关",
+      "type": "sight",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P040",
+      "ancient": "渡琼州海峡",
+      "modern": "琼州海峡",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P048",
+      "ancient": "高邮",
+      "modern": "江苏高邮",
+      "type": "main",
+      "routes": [
+        "R04",
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P049",
+      "ancient": "姑苏寒山寺",
+      "modern": "江苏苏州寒山寺",
+      "type": "sight",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P053",
+      "ancient": "光州",
+      "modern": "河南潢川",
+      "type": "main",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P055",
+      "ancient": "海州",
+      "modern": "江苏连云港",
+      "type": "main",
+      "routes": [
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P056",
+      "ancient": "海州花果山古址",
+      "modern": "江苏连云港花果山",
+      "type": "sight",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P068",
+      "ancient": "华州",
+      "modern": "陕西华州",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P080",
+      "ancient": "剑门关",
+      "modern": "四川剑阁剑门关",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P081",
+      "ancient": "剑门关古驿",
+      "modern": "四川剑阁剑门关古驿",
+      "type": "sight",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P083",
+      "ancient": "江陵",
+      "modern": "湖北荆州江陵",
+      "type": "main",
+      "routes": [
+        "R02"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P087",
+      "ancient": "江州",
+      "modern": "九江",
+      "type": "main",
+      "routes": [
+        "R11",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P095",
+      "ancient": "莱州",
+      "modern": "山东莱州",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P099",
+      "ancient": "利州",
+      "modern": "广元",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P136",
+      "ancient": "虔州",
+      "modern": "赣州",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.7
+    },
+    {
+      "id": "P141",
+      "ancient": "琼州",
+      "modern": "海口",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P142",
+      "ancient": "琼州海峡",
+      "modern": "琼州海峡",
+      "type": "sight",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P156",
+      "ancient": "寿州",
+      "modern": "安徽寿县",
+      "type": "main",
+      "routes": [
+        "R06",
+        "R14"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P161",
+      "ancient": "苏州",
+      "modern": "江苏苏州",
+      "type": "main",
+      "routes": [
+        "R06",
+        "R07",
+        "R09",
+        "R14",
+        "R15"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P178",
+      "ancient": "梧州",
+      "modern": "广西梧州",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P194",
+      "ancient": "徐闻递角场",
+      "modern": "广东徐闻递角场（古址）",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P203",
+      "ancient": "沂州",
+      "modern": "山东临沂",
+      "type": "main",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P207",
+      "ancient": "益州官署",
+      "modern": "拜谒张方平",
+      "type": "around",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P216",
+      "ancient": "郓州",
+      "modern": "山东东平",
+      "type": "main",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 67,
+      "missing": [
+        "periods",
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P008",
+      "ancient": "汴京",
+      "modern": "开封",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R09",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P009",
+      "ancient": "汴京翰林院",
+      "modern": "河南开封翰林院旧址",
+      "type": "around",
+      "routes": [
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P010",
+      "ancient": "汴京太学",
+      "modern": "河南开封太学旧址",
+      "type": "around",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P011",
+      "ancient": "汴京文德殿",
+      "modern": "河南开封文德殿旧址",
+      "type": "around",
+      "routes": [
+        "R15"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P012",
+      "ancient": "汴京御史台",
+      "modern": "河南开封御史台旧址",
+      "type": "around",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P013",
+      "ancient": "汴京御史台监狱",
+      "modern": "河南开封御史台监狱",
+      "type": "around",
+      "routes": [
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P014",
+      "ancient": "汴京政事堂",
+      "modern": "河南开封政事堂旧址",
+      "type": "around",
+      "routes": [
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P017",
+      "ancient": "常州",
+      "modern": "江苏常州",
+      "type": "death",
+      "routes": [
+        "R06",
+        "R07",
+        "R09",
+        "R11",
+        "R15",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P018",
+      "ancient": "常州终老故居",
+      "modern": "江苏常州孙氏馆",
+      "type": "around",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P021",
+      "ancient": "成都",
+      "modern": "四川成都",
+      "type": "main",
+      "routes": [
+        "R00",
+        "R01",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P022",
+      "ancient": "成都青羊宫",
+      "modern": "四川成都青羊宫",
+      "type": "around",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P045",
+      "ancient": "凤翔东湖",
+      "modern": "陕西宝鸡凤翔区",
+      "type": "official",
+      "routes": [
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P051",
+      "ancient": "瓜州渡",
+      "modern": "江苏扬州瓜洲渡",
+      "type": "main",
+      "routes": [
+        "R04",
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P052",
+      "ancient": "瓜州古渡",
+      "modern": "江苏扬州瓜洲镇",
+      "type": "sight",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P054",
+      "ancient": "广州",
+      "modern": "广东广州",
+      "type": "main",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P092",
+      "ancient": "荆州",
+      "modern": "湖北荆州",
+      "type": "main",
+      "routes": [
+        "R02",
+        "R03"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P097",
+      "ancient": "雷州",
+      "modern": "广东雷州",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P098",
+      "ancient": "雷州伏波庙",
+      "modern": "广东雷州伏波庙",
+      "type": "around",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P100",
+      "ancient": "廉州",
+      "modern": "合浦",
+      "type": "main",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P101",
+      "ancient": "廉州白石镇",
+      "modern": "广西合浦白石镇",
+      "type": "around",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P115",
+      "ancient": "蟆颐山蟆颐观",
+      "modern": "四川眉山蟆颐山",
+      "type": "main",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P116",
+      "ancient": "眉山",
+      "modern": "四川眉山",
+      "type": "birth",
+      "routes": [
+        "R01",
+        "R02",
+        "R04",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P117",
+      "ancient": "眉山玻璃江",
+      "modern": "四川眉山玻璃江",
+      "type": "sight",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P118",
+      "ancient": "眉山故居",
+      "modern": "四川眉山",
+      "type": "birth",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P123",
+      "ancient": "渑池",
+      "modern": "河南渑池",
+      "type": "main",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P124",
+      "ancient": "渑池僧舍",
+      "modern": "河南渑池僧舍",
+      "type": "around",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P125",
+      "ancient": "南都",
+      "modern": "商丘",
+      "type": "main",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P146",
+      "ancient": "润州",
+      "modern": "镇江",
+      "type": "main",
+      "routes": [
+        "R06",
+        "R09",
+        "R11",
+        "R14",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P147",
+      "ancient": "三苏祠",
+      "modern": "四川眉山三苏祠",
+      "type": "main",
+      "routes": [
+        "R00"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P159",
+      "ancient": "泗州",
+      "modern": "江苏盱眙",
+      "type": "main",
+      "routes": [
+        "R08",
+        "R09",
+        "R15",
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P170",
+      "ancient": "藤州",
+      "modern": "广西藤县",
+      "type": "main",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P199",
+      "ancient": "扬州平山堂",
+      "modern": "江苏扬州平山堂",
+      "type": "around",
+      "routes": [
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P200",
+      "ancient": "扬州瘦西湖旧址",
+      "modern": "江苏扬州瘦西湖（旧址）",
+      "type": "around",
+      "routes": [
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P209",
+      "ancient": "颍州西湖",
+      "modern": "安徽阜阳颍州西湖",
+      "type": "sight",
+      "routes": [
+        "R06",
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P210",
+      "ancient": "颍州颍水",
+      "modern": "安徽阜阳颍水",
+      "type": "sight",
+      "routes": [
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P214",
+      "ancient": "筠州",
+      "modern": "高安",
+      "type": "main",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P219",
+      "ancient": "长安",
+      "modern": "西安",
+      "type": "main",
+      "routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P220",
+      "ancient": "长安曲江",
+      "modern": "陕西西安曲江",
+      "type": "around",
+      "routes": [
+        "R01"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "global_works",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P227",
+      "ancient": "镇江金山寺",
+      "modern": "江苏镇江金山寺",
+      "type": "sight",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 78,
+      "missing": [
+        "periods",
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P001",
+      "ancient": "白鹤峰",
+      "modern": "广东惠州白鹤峰",
+      "type": "around",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P034",
+      "ancient": "儋州",
+      "modern": "海南儋州",
+      "type": "stay",
+      "routes": [
+        "R18",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P035",
+      "ancient": "儋州桄榔庵",
+      "modern": "海南儋州桄榔庵",
+      "type": "around",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P036",
+      "ancient": "登州",
+      "modern": "蓬莱",
+      "type": "official",
+      "routes": [
+        "R12",
+        "R13"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P038",
+      "ancient": "定州",
+      "modern": "河北定州",
+      "type": "official",
+      "routes": [
+        "R17",
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P042",
+      "ancient": "凤凰山",
+      "modern": "浙江杭州凤凰山",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P044",
+      "ancient": "凤翔",
+      "modern": "陕西宝鸡凤翔区",
+      "type": "official",
+      "routes": [
+        "R03",
+        "R04"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P050",
+      "ancient": "孤山",
+      "modern": "浙江杭州孤山",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P058",
+      "ancient": "杭州",
+      "modern": "浙江杭州",
+      "type": "official",
+      "routes": [
+        "R06",
+        "R07",
+        "R14",
+        "R15"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P065",
+      "ancient": "湖州",
+      "modern": "浙江湖州",
+      "type": "official",
+      "routes": [
+        "R07",
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P072",
+      "ancient": "黄州",
+      "modern": "湖北黄冈",
+      "type": "stay",
+      "routes": [
+        "R10",
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "periods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P073",
+      "ancient": "黄州东坡雪堂",
+      "modern": "湖北黄冈东坡雪堂",
+      "type": "around",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "periods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P074",
+      "ancient": "惠州\n惠州再贬：惠州",
+      "modern": "广东惠州",
+      "type": "stay",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P075",
+      "ancient": "惠州合江楼",
+      "modern": "广东惠州合江楼",
+      "type": "around",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P089",
+      "ancient": "金陵",
+      "modern": "南京",
+      "type": "main",
+      "routes": [
+        "R11",
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P090",
+      "ancient": "金陵秦淮",
+      "modern": "江苏南京秦淮河",
+      "type": "sight",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P091",
+      "ancient": "金陵钟山",
+      "modern": "江苏南京钟山",
+      "type": "around",
+      "routes": [
+        "R19"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P106",
+      "ancient": "六井遗迹",
+      "modern": "浙江杭州六井",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P108",
+      "ancient": "庐山",
+      "modern": "江西庐山",
+      "type": "sight",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P109",
+      "ancient": "庐山全山",
+      "modern": "江西庐山",
+      "type": "sight",
+      "routes": [
+        "R11"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P119",
+      "ancient": "密州",
+      "modern": "诸城",
+      "type": "official",
+      "routes": [
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P120",
+      "ancient": "密州超然台",
+      "modern": "山东诸城超然台",
+      "type": "around",
+      "routes": [
+        "R07"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P148",
+      "ancient": "三潭印月",
+      "modern": "浙江杭州三潭印月",
+      "type": "around",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P181",
+      "ancient": "西湖全域",
+      "modern": "浙江杭州西湖",
+      "type": "around",
+      "routes": [
+        "R06"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P182",
+      "ancient": "西湖苏堤",
+      "modern": "浙江杭州西湖",
+      "type": "around",
+      "routes": [
+        "R14"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P195",
+      "ancient": "徐州",
+      "modern": "江苏徐州",
+      "type": "official",
+      "routes": [
+        "R08",
+        "R09"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P196",
+      "ancient": "徐州黄楼",
+      "modern": "江苏徐州",
+      "type": "official",
+      "routes": [
+        "R08"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.85
+    },
+    {
+      "id": "P198",
+      "ancient": "扬州",
+      "modern": "江苏扬州",
+      "type": "official",
+      "routes": [
+        "R04",
+        "R06",
+        "R07",
+        "R09",
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P208",
+      "ancient": "颍州",
+      "modern": "安徽阜阳",
+      "type": "official",
+      "routes": [
+        "R06",
+        "R14",
+        "R16"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.95
+    },
+    {
+      "id": "P217",
+      "ancient": "载酒堂",
+      "modern": "海南儋州载酒堂",
+      "type": "around",
+      "routes": [
+        "R18"
+      ],
+      "has_detail": true,
+      "fill_score": 89,
+      "missing": [
+        "foods"
+      ],
+      "legacy_confidence": 0.65
+    },
+    {
+      "id": "P024",
+      "ancient": "赤壁",
+      "modern": "赤鼻矶",
+      "type": "sight",
+      "routes": [
+        "R10"
+      ],
+      "has_detail": true,
+      "fill_score": 100,
+      "missing": [],
+      "legacy_confidence": 0.95
+    }
+  ]
+}

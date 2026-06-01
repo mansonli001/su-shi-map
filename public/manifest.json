@@ -1,7 +1,7 @@
 {
   "name": "读苏轼·游神州",
   "short_name": "苏轼足迹",
-  "description": "苏轼一生120地点交互式数字地图",
+  "description": "苏轼一生234地点交互式数字地图",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

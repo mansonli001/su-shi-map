@@ -1,0 +1,22 @@
+{
+  "id": "W005",
+  "title": "挽父诗文、江淮行旅杂咏",
+  "category": "哀辞/行旅诗",
+  "type": "诗",
+  "year_estimate": 1066,
+  "route_id": "R04",
+  "related_route_ids": [
+    "R04"
+  ],
+  "note": "丧亲南行途中感怀所作，情真意切",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%8C%BD%E7%88%B6%E8%AF%97%E6%96%87",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%8C%BD%E7%88%B6%E8%AF%97%E6%96%87&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%8C%BD%E7%88%B6%E8%AF%97%E6%96%87&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

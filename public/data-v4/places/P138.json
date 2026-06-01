@@ -1,0 +1,47 @@
+{
+  "id": "P138",
+  "ancient_name": "青神",
+  "modern_name": "四川青神",
+  "type": "main",
+  "lat": 29.8323,
+  "lng": 103.8475,
+  "related_routes": [
+    "R00"
+  ],
+  "summary": "",
+  "background": "",
+  "tags": [],
+  "periods": [
+    {
+      "period": "1050-1056",
+      "title": "青神读书",
+      "description": "苏轼少年时在中岩寺读书，这里是他早年求学之地。中岩寺有'苏轼读书台'遗址。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS003",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 29.57,
+    "v3_lng": 103.8
+  },
+  "duration_summary": {
+    "first_year": 1037,
+    "last_year": 1056,
+    "span_years": 19,
+    "duration_label": "1037-1056 · 19年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S1"
+    ]
+  }
+}

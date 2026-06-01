@@ -1,0 +1,141 @@
+{
+  "id": "P118",
+  "ancient_name": "眉山故居",
+  "modern_name": "四川眉山",
+  "type": "birth",
+  "lat": 30.077113,
+  "lng": 103.848417,
+  "related_routes": [
+    "R00"
+  ],
+  "summary": "苏轼出生地，在此生活约32年直至进京科举",
+  "background": "眉山是苏轼的出生地和故乡，纱縠行是苏家老宅所在地",
+  "tags": [
+    "出生地",
+    "故乡",
+    "三苏祠"
+  ],
+  "periods": [
+    {
+      "period": "1037-1056",
+      "title": "眉山少年",
+      "description": "苏轼于北宋景祐三年（1037年）十二月十九日，在眉州眉山县（今四川眉山）出生。父亲苏洵此时年近四十，尚无功名；母亲程夫人出身名门，亲自执教。\n\n少年苏轼在纱縠行家中读书，聪慧过人，十岁即能写出惊人文章。程夫人教他读《汉书·范滂传》，苏轼问：'如果我做范滂，母亲允许吗？'程夫人答：'你能做范滂，我就不能做范滂的母亲吗？'这一幕，埋下了苏轼一生'直言敢谏'的性格种子。\n\n1056年，苏洵带着两个儿子（苏轼、苏辙）出蜀赴京应试，从此离开故乡，再未长期归来。"
+    },
+    {
+      "period": "1056-1057",
+      "title": "出蜀赶考",
+      "description": "嘉祐元年（1056年），苏洵带着两个儿子沿岷江下行，过长江，至江陵出陆，改向北行，经襄阳、唐州、许州，至汴京。\n\n父子三人沿途作诗作文，在水路江陵以西，集合诗文等，称《南行前集》。这是苏轼第一次离开四川，一路见识山川壮丽，胸襟大开。\n\n1057年，苏轼、苏辙兄弟同榜进士及第，欧阳修读苏轼卷，惊叹：'此人可谓善读书、善用书，他日文章必独步天下。'并预言：'老夫当避路，放他出一头地。'"
+    },
+    {
+      "period": "1066-1068",
+      "title": "丁忧归乡",
+      "description": "1065年，苏轼发妻王弗卒于汴京，年方27岁。1066年，父苏洵卒于汴京。苏轼、苏辙扶柩归乡，在眉山服丧丁忧。\n\n这三年，是苏轼最后一次在眉山长期居住。他在母亲和妻子坟前种下松树，写下'十年生死两茫茫，不思量，自难忘'的千古绝唱（虽此词作于密州任上，但情感根植于此）。\n\n1068年，丁忧期满，苏轼续娶王闰之，与苏辙一同离乡赴京，从此再未归来。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "ms-001",
+      "date": "景祐三年（1037年）十二月十九日",
+      "title": "苏轼出生",
+      "description": "苏轼生于眉山县纱縠行私第",
+      "significance": "北宋文学巨匠诞生"
+    },
+    {
+      "id": "ms-004",
+      "date": "治平三年（1066年）四月",
+      "title": "护送父丧归蜀",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
+      "significance": "回乡守孝"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "ms-002",
+        "date": "嘉祐元年（1056年）三月",
+        "title": "第一次出蜀赴京",
+        "description": "苏轼随父苏洵、弟苏辙从眉山出发，经成都赴汴京参加科举考试",
+        "significance": "人生转折点"
+      }
+    ],
+    "route02": [
+      {
+        "id": "ms-005",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第二次出蜀赴京",
+        "description": "为父苏洵守丧期满后，苏轼携家眷从眉山出发，第二次出蜀",
+        "significance": "重返仕途，永别故乡"
+      }
+    ],
+    "route05": [
+      {
+        "id": "ms-006",
+        "date": "熙宁元年（1068年）十一二月",
+        "title": "第四次出蜀赴京",
+        "description": "为父苏洵守丧期满后，苏轼携家眷从眉山出发，第四次出蜀",
+        "significance": "永别故乡，再未归乡"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "ms-s001",
+      "name": "三苏祠",
+      "type": "祠堂",
+      "location": "四川省眉山市东坡区纱縠行南街86号",
+      "description": "三苏父子故居及祠堂，全国重点文物保护单位",
+      "opening_hours": "全年 09:00-18:00",
+      "ticket": "¥40",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "https://www.sscbwg.com/",
+      "rating": "",
+      "distance": "市中心"
+    },
+    {
+      "id": "ms-s002",
+      "name": "纱縠行",
+      "type": "历史街区",
+      "location": "四川省眉山市东坡区",
+      "description": "宋代苏家老宅所在地，丝绸布匹交易市场",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "眉山站 / 眉山东站",
+    "bus": "眉山客运中心",
+    "car": "成乐高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS001",
+    "pinyin_id": "meishan",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 30.0818,
+    "v3_lng": 103.7667
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "四川省眉山市",
+  "coords_updated_at": "2026-06-01T10:17:04.320Z",
+  "duration_summary": {
+    "first_year": 1037,
+    "last_year": 1056,
+    "span_years": 19,
+    "duration_label": "1037-1056 · 19年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S1"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "W019",
+  "title": "陈桥驿",
+  "category": "纪事诗",
+  "type": "诗",
+  "year_estimate": 1077,
+  "route_id": "R08",
+  "related_route_ids": [
+    "R08"
+  ],
+  "note": "1077.2 陈桥驿接改命徐州诏，\"不得入国门\"，寓范镇东园作（《东坡七集·东坡诗集》卷十四）",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E9%99%88%E6%A1%A5%E9%A9%BF",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E9%99%88%E6%A1%A5%E9%A9%BF&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E9%99%88%E6%A1%A5%E9%A9%BF&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

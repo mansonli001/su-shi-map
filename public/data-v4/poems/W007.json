@@ -1,0 +1,28 @@
+{
+  "id": "W007",
+  "title": "陪欧阳公燕西湖",
+  "category": "七言古诗",
+  "type": "诗",
+  "year_estimate": 1071,
+  "route_id": "R06",
+  "related_route_ids": [
+    "R06"
+  ],
+  "note": "颍州陪欧阳修宴游传世名篇，记师生最后相会",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E9%99%AA%E6%AC%A7%E9%98%B3%E5%85%AC%E7%87%95%E8%A5%BF%E6%B9%96",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E9%99%AA%E6%AC%A7%E9%98%B3%E5%85%AC%E7%87%95%E8%A5%BF%E6%B9%96&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E9%99%AA%E6%AC%A7%E9%98%B3%E5%85%AC%E7%87%95%E8%A5%BF%E6%B9%96&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "谓公方壮须似雪，谓公已老光浮颊。\n朅来湖上饮美酒，醉后剧谈犹激烈。\n湖边草木新著霜，芙蓉晚菊争煌煌。\n插花起舞为公寿，公言百岁如风狂。\n赤松共游也不恶，谁能忍饥啖仙药。\n已将寿夭付天公，彼徒辛苦吾差乐。\n城上乌栖暮霭生，银缸画烛照湖明。\n不辞歌诗劝公饮，坐无桓伊能抚筝。",
+  "coreVerse": "谓公方壮须似雪，谓公已老光浮颊。",
+  "excerpt": "谓公方壮须似雪，谓公已老光浮颊。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 1,
+  "matched_title": "陪歐陽公燕西湖"
+}

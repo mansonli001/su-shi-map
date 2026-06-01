@@ -1,0 +1,22 @@
+{
+  "id": "W033",
+  "title": "庐山诸寺题咏诗",
+  "category": "山水纪行诗",
+  "type": "诗",
+  "year_estimate": 1084,
+  "route_id": "R11",
+  "related_route_ids": [
+    "R11"
+  ],
+  "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%BA%90%E5%B1%B1%E8%AF%B8%E5%AF%BA%E9%A2%98%E5%92%8F%E8%AF%97",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%BA%90%E5%B1%B1%E8%AF%B8%E5%AF%BA%E9%A2%98%E5%92%8F%E8%AF%97&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%BA%90%E5%B1%B1%E8%AF%B8%E5%AF%BA%E9%A2%98%E5%92%8F%E8%AF%97&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}

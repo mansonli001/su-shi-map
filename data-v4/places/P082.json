@@ -1,0 +1,24 @@
+{
+  "id": "P082",
+  "ancient_name": "江淮水乡驿道",
+  "modern_name": "江淮水乡古驿",
+  "type": "sight",
+  "lat": 32.5,
+  "lng": 118.5,
+  "related_routes": [
+    "R14"
+  ],
+  "tags": [],
+  "background": "请外再知杭州，疏浚西湖筑长堤，杭人立祠以祀。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "P205",
+  "ancient_name": "宜兴",
+  "modern_name": "江苏宜兴",
+  "type": "main",
+  "lat": 31.338429,
+  "lng": 119.821873,
+  "related_routes": [
+    "R11",
+    "R12"
+  ],
+  "summary": "",
+  "background": "太湖西岸山水田园胜地，溪山环抱、村落连片，兼具湖光与乡野之美。",
+  "tags": [
+    "main",
+    "pastoral",
+    "stay",
+    "start"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R11": {
+      "duration": "1084年太湖田园流连闲居",
+      "duration_years": [
+        1084
+      ],
+      "essence": "太湖田园栖居理想范本之地",
+      "su_shi_story": "深入宜兴乡间，沉醉太湖烟水、田园阡陌、古村巷陌，\n彻底向往这种远离官场、与世无争的江南田园生活。\n",
+      "historical_context": "太湖西岸山水田园胜地，溪山环抱、村落连片，兼具湖光与乡野之美。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R12": {
+      "duration": "1085年奉旨北上启程",
+      "duration_years": [
+        1085
+      ],
+      "essence": "海疆行旅始发原点、仕途转运起点",
+      "su_shi_story": "割舍江南田园归隐心愿，辞别宜兴山水，\n踏上重新起用、奔赴登州的北上宦途。\n",
+      "historical_context": "太湖西岸田园胜地，苏轼原本心念归隐之地，一朝奉旨重启仕途，自此北上海疆。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS157",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 31.3597,
+    "v3_lng": 119.8227
+  },
+  "extended_story": "深入宜兴乡间，沉醉太湖烟水、田园阡陌、古村巷陌，\n彻底向往这种远离官场、与世无争的江南田园生活。",
+  "essence": "太湖田园栖居理想范本之地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.235Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省无锡市宜兴市",
+  "coords_updated_at": "2026-06-01T10:17:04.327Z",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S3",
+      "S4"
+    ]
+  }
+}

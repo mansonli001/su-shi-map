@@ -1,0 +1,64 @@
+{
+  "id": "P122",
+  "ancient_name": "勉县",
+  "modern_name": "陕西勉县",
+  "type": "main",
+  "lat": 33.153,
+  "lng": 106.6789,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "",
+  "background": "汉中三国古地，武侯遗迹密布，自古怀古胜地。",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年途经怀古",
+      "duration_years": [
+        1056
+      ],
+      "essence": "汉中历史怀古点位",
+      "su_shi_story": "途经三国故地，触景生思历史兴衰，\n青年文史思辨日渐成熟。\n",
+      "historical_context": "汉中三国古地，武侯遗迹密布，自古怀古胜地。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS130",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_exact",
+    "confidence": 0.8,
+    "v3_lat": 33.1553,
+    "v3_lng": 106.6872
+  },
+  "extended_story": "途经三国故地，触景生思历史兴衰，\n青年文史思辨日渐成熟。",
+  "essence": "汉中历史怀古点位",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.182Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

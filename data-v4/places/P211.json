@@ -1,0 +1,58 @@
+{
+  "id": "P211",
+  "ancient_name": "渝州",
+  "modern_name": "重庆",
+  "type": "main",
+  "related_routes": [
+    "R02",
+    "R04"
+  ],
+  "background": "长江上游水陆大都会，三江交汇，\n川东出江第一门户。",
+  "extended_story": "船泊渝州，观山城临江地貌，\n感受川东山水与江城相融特色，\n为后续江行诗文积累意象。",
+  "essence": "川东长江水路核心枢纽",
+  "tags": [
+    "main",
+    "hub"
+  ],
+  "route_events": {
+    "R02": {
+      "duration": "1059年长江途经休整",
+      "duration_years": [
+        1059
+      ],
+      "essence": "川东长江水路核心枢纽",
+      "su_shi_story": "船泊渝州，观山城临江地貌，\n感受川东山水与江城相融特色，\n为后续江行诗文积累意象。\n",
+      "historical_context": "长江上游水陆大都会，三江交汇，\n川东出江第一门户。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1066年三峡出川中转",
+      "duration_years": [
+        1066
+      ],
+      "essence": "川东水路核心枢纽",
+      "su_shi_story": "出三峡抵达渝州，\n渐近故土，心绪万千。\n",
+      "historical_context": "川东水路大都会，长江上游枢纽。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.201Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1068,
+    "span_years": 9,
+    "duration_label": "1059-1068 · 9年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

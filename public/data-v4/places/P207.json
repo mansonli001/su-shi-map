@@ -1,0 +1,91 @@
+{
+  "id": "P207",
+  "ancient_name": "益州官署",
+  "modern_name": "拜谒张方平",
+  "type": "around",
+  "lat": 30.6589,
+  "lng": 104.0633,
+  "related_routes": [
+    "R00"
+  ],
+  "summary": "三苏出蜀途经成都，拜访亲友",
+  "background": "成都是四川首府，三苏从眉州出蜀必经过成都",
+  "tags": [
+    "游历地",
+    "途经"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "cd-001",
+      "date": "嘉祐元年（1056年）三月",
+      "title": "第一次到成都",
+      "description": "三苏出蜀途经成都，拜访成都知府王素（王龙图）",
+      "significance": "途经成都"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "cd-002",
+        "date": "嘉祐四年（1059年）十月",
+        "title": "第二次到成都",
+        "description": "苏轼兄弟南下嘉州，途经成都，与亲友欢聚",
+        "significance": "途经成都"
+      }
+    ],
+    "route02": [
+      {
+        "id": "cd-003",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第三次到成都",
+        "description": "苏轼第二次出蜀，途经成都，与亲友告别",
+        "significance": "途经成都"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "cd-s001",
+      "name": "三苏纪念馆",
+      "type": "博物馆",
+      "location": "四川省成都市青羊区",
+      "description": "展示三苏生平",
+      "opening_hours": "09:00-17:00",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "成都站 / 成都东站",
+    "bus": "成都新南门汽车站",
+    "car": "成渝高速 / 京昆高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "chengdu",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 30.5728,
+    "v3_lng": 104.0668
+  },
+  "duration_summary": {
+    "first_year": 1037,
+    "last_year": 1056,
+    "span_years": 19,
+    "duration_label": "1037-1056 · 19年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S1"
+    ]
+  }
+}

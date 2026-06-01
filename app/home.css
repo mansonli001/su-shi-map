@@ -1,0 +1,560 @@
+/* ========== Home Landing v1.0（设计稿 v3.html ① 首页） ========== */
+.ho-root {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+}
+
+/* Hero */
+.ho-hero {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1A1008 0%, #2A1810 100%);
+  color: var(--paper);
+  padding: 80px 24px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.ho-en {
+  font-size: 11px;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  opacity: 0.6;
+  margin-bottom: 0.8rem;
+}
+.ho-brand {
+  font-family: var(--font-serif);
+  font-size: clamp(56px, 10vw, 110px);
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  margin: 0 0 1rem;
+  line-height: 1;
+}
+.ho-tag {
+  font-size: 14px;
+  color: var(--gold-m);
+  letter-spacing: 0.18em;
+  margin-bottom: 2.5rem;
+}
+.ho-trace {
+  margin: 0 auto 2rem;
+  display: block;
+}
+.ho-body {
+  font-size: clamp(13px, 2vw, 16px);
+  color: var(--paper);
+  opacity: 0.92;
+  line-height: 2.0;
+  margin: 0 auto 1.5rem;
+  max-width: 720px;
+  letter-spacing: 0.05em;
+}
+.ho-em {
+  font-size: 13px;
+  color: var(--gold);
+  letter-spacing: 0.25em;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+.ho-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+.ho-btn-p {
+  background: var(--gold);
+  color: var(--ink);
+  border: none;
+  padding: 12px 28px;
+  font-size: 14px;
+  font-family: var(--font-serif);
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.ho-btn-p:hover {
+  background: var(--gold-d);
+  transform: translateY(-1px);
+}
+.ho-btn-s {
+  background: transparent;
+  color: var(--gold);
+  border: 1px solid var(--gold);
+  padding: 12px 28px;
+  font-size: 14px;
+  font-family: var(--font-serif);
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.ho-btn-s:hover {
+  background: rgba(250, 199, 117, 0.1);
+}
+.ho-scroll {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  color: var(--gold);
+  opacity: 0.5;
+  letter-spacing: 0.2em;
+  animation: hoBounce 2s ease-in-out infinite;
+}
+@keyframes hoBounce {
+  0%, 100% { transform: translateX(-50%) translateY(0); }
+  50%      { transform: translateX(-50%) translateY(8px); }
+}
+
+/* Sections */
+.ho-sec {
+  padding: 72px 24px 60px;
+  text-align: center;
+}
+.ho-sec--cream { background: var(--paper); }
+.ho-sec--ivory { background: var(--paper2); }
+.ho-sec-lbl {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.35em;
+  margin-bottom: 0.6rem;
+}
+.ho-sec-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.08em;
+  margin: 0 0 0.6rem;
+}
+.ho-sec-sub {
+  font-size: 13px;
+  color: var(--tx2);
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+.ho-gold-bar {
+  width: 40px;
+  height: 2px;
+  background: var(--gold-m);
+  margin: 0 auto 2rem;
+}
+
+/* 一生轨迹 timeline */
+.ho-tl {
+  max-width: 920px;
+  margin: 1.5rem auto 2.5rem;
+  position: relative;
+  padding: 0 8px;
+}
+.ho-tl-stages {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  margin-bottom: 1.5rem;
+}
+.ho-tl-s {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ho-tl-sname {
+  font-size: 14px;
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+.ho-tl-ssub {
+  font-size: 11px;
+  color: var(--tx2);
+  margin-top: 0.2rem;
+  letter-spacing: 0.05em;
+}
+.ho-tl-track {
+  height: 2px;
+  background: var(--bdr);
+  margin: 0 8px 0;
+  position: relative;
+}
+.ho-tl-fill {
+  position: absolute;
+  height: 100%;
+  background: var(--gold-m);
+  width: 100%;
+  animation: hoDraw 2.5s ease-out forwards;
+  transform-origin: left;
+}
+@keyframes hoDraw {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+.ho-tl-dots {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: -7px;
+  position: relative;
+}
+.ho-tl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold-m);
+  border: 2px solid var(--paper);
+  margin: 0 auto;
+  box-shadow: 0 0 0 1px var(--gold-m);
+}
+.ho-tl-years {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 0.5rem;
+}
+.ho-tl-yr {
+  font-size: 11px;
+  color: var(--tx2);
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-family: 'Courier New', monospace;
+}
+
+/* Stats 4 数字 */
+.ho-tl-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 720px;
+  margin: 2rem auto 0;
+  padding-top: 1rem;
+}
+.ho-stat-n {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--gold-m);
+  letter-spacing: 0.05em;
+  font-family: var(--font-serif);
+}
+.ho-stat-l {
+  font-size: 12px;
+  color: var(--tx2);
+  margin-top: 0.2rem;
+  letter-spacing: 0.05em;
+}
+
+/* Featured Places 卡片 */
+.ho-pg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  max-width: 920px;
+  margin: 1.5rem auto 0;
+  text-align: left;
+}
+.ho-pgcard {
+  background: var(--card);
+  border: 0.5px solid var(--bdr-l);
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(26, 16, 8, 0.04);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ho-pgcard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26, 16, 8, 0.10);
+}
+.ho-pgcard-acc {
+  height: 4px;
+  width: 100%;
+}
+.ho-pgcard-body {
+  padding: 1.4rem 1.2rem 1.2rem;
+}
+.ho-pname {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.2rem;
+}
+.ho-pyear {
+  font-size: 11px;
+  color: var(--tx3);
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+  font-family: 'Courier New', monospace;
+}
+.ho-pdesc {
+  font-size: 13px;
+  color: var(--tx2);
+  line-height: 1.7;
+  margin-bottom: 0.9rem;
+}
+.ho-pl {
+  font-size: 14px;
+  color: var(--gold-m);
+  font-style: italic;
+  border-left: 2px solid var(--gold);
+  padding-left: 0.7rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+.ho-plink {
+  background: none;
+  border: none;
+  color: var(--gold-m);
+  font-size: 12px;
+  cursor: pointer;
+  font-family: var(--font-serif);
+  letter-spacing: 0.1em;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+.ho-plink:hover { color: var(--gold-d); }
+
+/* Quote */
+.ho-qt {
+  text-align: center;
+  padding: 64px 24px;
+  background: var(--ink);
+  color: var(--paper);
+}
+.ho-qt-bar {
+  width: 60px;
+  height: 1px;
+  background: var(--gold);
+  margin: 0 auto;
+  opacity: 0.7;
+}
+.ho-qt-main {
+  font-size: clamp(28px, 5vw, 38px);
+  color: var(--gold);
+  letter-spacing: 0.18em;
+  margin: 1.5rem 0 0.6rem;
+  font-weight: 500;
+}
+.ho-qt-src {
+  font-size: 12px;
+  color: var(--gold-m);
+  opacity: 0.85;
+  letter-spacing: 0.1em;
+  margin-bottom: 1.2rem;
+}
+.ho-qt-note {
+  font-size: 13px;
+  color: var(--paper);
+  opacity: 0.75;
+  line-height: 2;
+  letter-spacing: 0.05em;
+}
+
+/* Coming Soon */
+.ho-ft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  max-width: 720px;
+  margin: 1.5rem auto 0;
+}
+.ho-ft-card {
+  background: var(--card);
+  border: 0.5px solid var(--bdr-l);
+  border-radius: 4px;
+  padding: 1.2rem 1rem;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.ho-ft-card:hover { transform: translateY(-2px); }
+.ho-ft-name {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.15em;
+  margin-bottom: 0.3rem;
+}
+.ho-ft-yrs {
+  font-size: 11px;
+  color: var(--tx3);
+  font-family: 'Courier New', monospace;
+  margin-bottom: 0.8rem;
+}
+.ho-tag-live {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--ink);
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+.ho-tag-soon {
+  display: inline-block;
+  background: var(--bdr-l);
+  color: var(--tx3);
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+
+/* About */
+.ho-ab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 920px;
+  margin: 1.5rem auto 0;
+  text-align: left;
+}
+.ho-ab-poet {
+  font-size: 11px;
+  color: var(--gold-m);
+  letter-spacing: 0.25em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.ho-ab-t {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+.ho-ab-p {
+  font-size: 13px;
+  color: var(--tx2);
+  line-height: 1.85;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.ho-footer {
+  background: var(--ink);
+  color: var(--paper);
+  padding: 48px 24px 32px;
+  text-align: center;
+}
+.ho-hf-brand {
+  font-size: 22px;
+  color: var(--gold);
+  letter-spacing: 0.25em;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+.ho-hf-en {
+  font-size: 10px;
+  color: var(--gold-m);
+  letter-spacing: 0.4em;
+  margin-bottom: 1rem;
+}
+.ho-hf-note {
+  font-size: 12px;
+  color: var(--paper);
+  opacity: 0.6;
+  letter-spacing: 0.15em;
+  margin-bottom: 1.5rem;
+}
+.ho-hf-copy {
+  font-size: 10px;
+  color: var(--gold-m);
+  opacity: 0.55;
+  letter-spacing: 0.1em;
+}
+
+/* 移动端：4 数字改 2x2，timeline 字号缩 */
+@media (max-width: 640px) {
+  .ho-tl-stats { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+  .ho-tl-sname { font-size: 12px; }
+  .ho-tl-ssub  { font-size: 10px; }
+}
+
+/* ========== Final CTA ========== */
+.ho-cta {
+  background: linear-gradient(180deg, #1A1008 0%, #2A1810 100%);
+  color: var(--paper);
+  padding: 72px 24px 80px;
+  text-align: center;
+}
+.ho-cta-bar {
+  width: 60px; height: 1px;
+  background: var(--gold);
+  opacity: 0.7;
+  margin: 0 auto 1.6rem;
+}
+.ho-cta-title {
+  font-family: var(--font-serif);
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.18em;
+  margin: 0 0 1rem;
+}
+.ho-cta-sub {
+  font-size: 12px;
+  color: var(--gold-m);
+  letter-spacing: 0.18em;
+  margin-bottom: 2.2rem;
+  opacity: 0.85;
+}
+.ho-cta-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ========== 路线浏览入口卡 ========== */
+.ho-routes-entry {
+  max-width: 720px;
+  margin: 2.4rem auto 0;
+  padding: 0 8px;
+}
+.ho-routes-card {
+  display: block;
+  background: linear-gradient(135deg, var(--ink) 0%, #2A1810 100%);
+  color: var(--gold);
+  padding: 18px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 0.5px solid rgba(250,199,117,0.25);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ho-routes-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26,16,8,0.16);
+}
+.ho-routes-en {
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  color: var(--gold-m);
+  margin-bottom: 0.4rem;
+}
+.ho-routes-title {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--gold);
+  margin-bottom: 0.4rem;
+}
+.ho-routes-sub {
+  font-size: 11px;
+  color: var(--gold-m);
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}

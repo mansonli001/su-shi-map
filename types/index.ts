@@ -3,8 +3,19 @@
  * v4.0 规范
  */
 
-/** 地点类型 */
+/** 地点类型 - v3 旧分类（保留兼容） */
 export type PlaceType = 'birth' | 'office' | 'exile' | 'tour' | 'friend' | 'burial';
+
+/** 地点类型 - v4 设计稿 8 类（marker SVG 选择用） */
+export type DesignPlaceType =
+  | 'main'      // 主线行进
+  | 'visit'     // 沿途游览（含 around / sight）
+  | 'stay'      // 普通驻留
+  | 'study'     // 游学地
+  | 'birth'     // 出生地
+  | 'official'  // 任职地
+  | 'death'     // 离世地
+  | 'tomb';     // 墓葬地
 
 /** 7阶段 */
 export const STAGES = [
@@ -34,6 +45,8 @@ export interface PlaceCore {
   routeId?: string;     // 所属19条路线之一（route01~route19）或总览（overview）
   routeOrder?: number;   // 在路线中的行进顺序（从1开始）
   tag?: string;          // 进京/出京/途经/被捕/谪居/终老
+  designType?: DesignPlaceType; // v4 设计稿 8 类，用于 marker SVG 选择
+  relatedRoutes?: string[]; // v4 该地点关联的所有路线 id（多对多）
 }
 
 /** 地点索引（搜索用，轻量） */

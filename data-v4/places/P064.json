@@ -1,0 +1,59 @@
+{
+  "id": "P064",
+  "ancient_name": "洪州",
+  "modern_name": "南昌",
+  "type": "main",
+  "lat": 28.682,
+  "lng": 115.8579,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "",
+  "background": "赣北水陆枢纽，长江入赣南迁关键节点。",
+  "tags": [
+    "main",
+    "hub"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R18": {
+      "duration": "1094年江南中转重镇",
+      "duration_years": [],
+      "essence": "江南入南岭中转枢纽",
+      "su_shi_story": "驻足洪州休整，渐近南岭，\n离中原文脉越来越远。\n",
+      "historical_context": "赣北水陆枢纽，长江入赣南迁关键节点。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS100",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 28.66,
+    "v3_lng": 115.89
+  },
+  "extended_story": "驻足洪州休整，渐近南岭，\n离中原文脉越来越远。",
+  "essence": "江南入南岭中转枢纽",
+  "last_updated": "2026-06-01T10:22:05.256Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

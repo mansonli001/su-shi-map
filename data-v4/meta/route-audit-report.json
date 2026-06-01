@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-06-01T04:31:23.645Z",
+  "routes": [
+    {
+      "id": "R00",
+      "name": "眉山故里·少年成长",
+      "period": "1037–1056",
+      "main_count": 7,
+      "found_count": 7,
+      "coord_ok_count": 7,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R01",
+      "name": "首次进京赶考·母丧返蜀",
+      "period": "1056–1057",
+      "main_count": 36,
+      "found_count": 36,
+      "coord_ok_count": 36,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R02",
+      "name": "三苏父子·岷江长江出蜀南行",
+      "period": "1059",
+      "main_count": 12,
+      "found_count": 12,
+      "coord_ok_count": 12,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R03",
+      "name": "二次进京·赴凤翔签判",
+      "period": "1060–1064",
+      "main_count": 15,
+      "found_count": 15,
+      "coord_ok_count": 15,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R04",
+      "name": "三次进京·父丧扶柩归蜀",
+      "period": "1065–1068",
+      "main_count": 20,
+      "found_count": 20,
+      "coord_ok_count": 20,
+      "complete_rate": 100,
+      "jump_count": 1,
+      "status": "⚠️ 有跳跃",
+      "issues": [
+        {
+          "kind": "jump",
+          "from": "P051(瓜州渡)",
+          "to": "P222(长江)",
+          "km": 641
+        }
+      ]
+    },
+    {
+      "id": "R05",
+      "name": "四次进京·重返朝堂卷入党争",
+      "period": "1069",
+      "main_count": 10,
+      "found_count": 10,
+      "coord_ok_count": 10,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R06",
+      "name": "外放杭州通判·南下江南",
+      "period": "1071–1074",
+      "main_count": 12,
+      "found_count": 12,
+      "coord_ok_count": 12,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R07",
+      "name": "自杭州调任密州知州",
+      "period": "1074–1076",
+      "main_count": 9,
+      "found_count": 9,
+      "coord_ok_count": 9,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R08",
+      "name": "自密州调任徐州知州",
+      "period": "1077–1078",
+      "main_count": 8,
+      "found_count": 8,
+      "coord_ok_count": 8,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R09",
+      "name": "自湖州上任·乌台诗案押解进京",
+      "period": "1078–1079",
+      "main_count": 16,
+      "found_count": 16,
+      "coord_ok_count": 16,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R10",
+      "name": "贬谪黄州·安置闲居",
+      "period": "1080–1084",
+      "main_count": 5,
+      "found_count": 5,
+      "coord_ok_count": 5,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R11",
+      "name": "黄州量移·漫游庐山筠州金陵常州",
+      "period": "1084",
+      "main_count": 9,
+      "found_count": 9,
+      "coord_ok_count": 9,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R12",
+      "name": "自宜兴赴任登州·五日太守",
+      "period": "1085",
+      "main_count": 5,
+      "found_count": 5,
+      "coord_ok_count": 5,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R13",
+      "name": "登州还朝·第六次进京·元祐入阁",
+      "period": "1085–1086",
+      "main_count": 8,
+      "found_count": 8,
+      "coord_ok_count": 8,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R14",
+      "name": "再知杭州·疏浚西湖筑苏堤",
+      "period": "1089–1091",
+      "main_count": 8,
+      "found_count": 8,
+      "coord_ok_count": 8,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R15",
+      "name": "杭州罢任·第七次短暂回京",
+      "period": "1091",
+      "main_count": 7,
+      "found_count": 7,
+      "coord_ok_count": 7,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R16",
+      "name": "出京知颍州·再迁扬州",
+      "period": "1091–1093",
+      "main_count": 7,
+      "found_count": 7,
+      "coord_ok_count": 7,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R17",
+      "name": "第八次进京·外放河北定州",
+      "period": "1093–1094",
+      "main_count": 9,
+      "found_count": 9,
+      "coord_ok_count": 9,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    },
+    {
+      "id": "R18",
+      "name": "南迁远贬·定州→惠州→儋州",
+      "period": "1094–1100",
+      "main_count": 21,
+      "found_count": 21,
+      "coord_ok_count": 21,
+      "complete_rate": 100,
+      "jump_count": 1,
+      "status": "⚠️ 有跳跃",
+      "issues": [
+        {
+          "kind": "jump",
+          "from": "P038(定州)",
+          "to": "P145(汝州)",
+          "km": 521
+        }
+      ]
+    },
+    {
+      "id": "R19",
+      "name": "遇赦北归·儋州终老常州",
+      "period": "1100–1101",
+      "main_count": 18,
+      "found_count": 18,
+      "coord_ok_count": 18,
+      "complete_rate": 100,
+      "jump_count": 0,
+      "status": "✅ OK",
+      "issues": []
+    }
+  ],
+  "summary": {
+    "total_routes": 20,
+    "perfect": 18,
+    "missing_or_no_coord": 0,
+    "has_jumps": 2
+  }
+}

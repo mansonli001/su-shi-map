@@ -1,0 +1,44 @@
+{
+  "id": "P110",
+  "ancient_name": "庐州",
+  "modern_name": "合肥",
+  "type": "main",
+  "related_routes": [
+    "R06"
+  ],
+  "background": "淮南腹地中心，江淮陆路交通枢纽。",
+  "extended_story": "途经庐州休整，深入皖东腹地，渐近长江北岸。",
+  "essence": "淮南中转重镇",
+  "tags": [
+    "transit"
+  ],
+  "route_events": {
+    "R06": {
+      "duration": "1071年 南行驻留",
+      "duration_years": [
+        1071
+      ],
+      "essence": "淮南中转重镇",
+      "su_shi_story": "途经庐州休整，深入皖东腹地，渐近长江北岸。\n",
+      "historical_context": "淮南腹地中心，江淮陆路交通枢纽。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.207Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1071,
+    "last_year": 1074,
+    "span_years": 3,
+    "duration_label": "1071-1074 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

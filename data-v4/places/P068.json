@@ -1,0 +1,122 @@
+{
+  "id": "P068",
+  "ancient_name": "华州",
+  "modern_name": "陕西华州",
+  "type": "main",
+  "lat": 34.497019,
+  "lng": 109.775765,
+  "related_routes": [
+    "R01",
+    "R03",
+    "R04"
+  ],
+  "summary": "苏轼第三次入京途经华州，登华山",
+  "background": "华州即今华阴，苏轼第三次入京途经此地，登游华山",
+  "tags": [
+    "华州",
+    "华山",
+    "main"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "haz-001",
+      "date": "治平元年（1064年）",
+      "title": "第三次入京过华州",
+      "description": "苏轼第三次入京，途经华州，登游华山",
+      "significance": "route03途经"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年东出关中途经",
+      "duration_years": [
+        1056
+      ],
+      "essence": "关中通往中原过渡节点",
+      "su_shi_story": "自此告别关中，向东踏入豫西古道。\n",
+      "historical_context": "长安东出中原必经官道要地。\n",
+      "order_in_route": 14,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R03": {
+      "duration": "1061年 关中官道途经",
+      "duration_years": [
+        1061
+      ],
+      "essence": "关中东部中转节点",
+      "su_shi_story": "沿关中平直官道西行，\n渐近帝都与凤翔方向。\n",
+      "historical_context": "关中东部官道重镇，西入长安要道。\n",
+      "order_in_route": 13,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R04": {
+      "duration": "1065年官道东行经停",
+      "duration_years": [
+        1065
+      ],
+      "essence": "关中向东过渡驿点",
+      "su_shi_story": "沿关中官道东行，稳步向京畿靠近。\n",
+      "historical_context": "关中东出中原必经官道要隘。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "haz-s001",
+      "name": "华山",
+      "type": "名山",
+      "location": "陕西省渭南市华阴市",
+      "description": "五岳之一，以险著称",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥160",
+      "suggested_duration": "1-2天",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "华山站 / 华山北站",
+    "bus": "华阴汽车站",
+    "car": "连霍高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS134",
+    "pinyin_id": "huazhou",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.4995,
+    "v3_lng": 109.516
+  },
+  "extended_story": "自此告别关中，向东踏入豫西古道。",
+  "essence": "关中通往中原过渡节点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.198Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "陕西省渭南市华州区",
+  "coords_updated_at": "2026-06-01T10:17:04.316Z",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1068,
+    "span_years": 12,
+    "duration_label": "1056-1068 · 12年",
+    "related_route_count": 3,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

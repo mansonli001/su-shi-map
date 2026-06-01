@@ -1,0 +1,39 @@
+{
+  "id": "P002",
+  "ancient_name": "白州",
+  "modern_name": "博白",
+  "type": "main",
+  "related_routes": [
+    "R19"
+  ],
+  "background": "岭南西向古道必经驿点。",
+  "extended_story": "缓步西行，穿行岭南乡野，\n随遇而安，不问前路。",
+  "essence": "岭南古道常规驿点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R19": {
+      "duration": "1100年西行途经",
+      "duration_years": [],
+      "essence": "岭南古道常规驿点",
+      "su_shi_story": "缓步西行，穿行岭南乡野，\n随遇而安，不问前路。\n",
+      "historical_context": "岭南西向古道必经驿点。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.265Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "P186",
+  "ancient_name": "襄城",
+  "modern_name": "河南襄城",
+  "type": "main",
+  "related_routes": [
+    "R03"
+  ],
+  "background": "中原官道要道，通往京畿的必经中转。",
+  "extended_story": "北上途中在此休整，\n距离京师愈发临近。",
+  "essence": "趋近京畿的中转驿点",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1060年 官道中转",
+      "duration_years": [
+        1060
+      ],
+      "essence": "趋近京畿的中转驿点",
+      "su_shi_story": "北上途中在此休整，\n距离京师愈发临近。\n",
+      "historical_context": "中原官道要道，通往京畿的必经中转。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.193Z",
+  "schema_version": "v4.1",
+  "lng": 113.506904,
+  "lat": 33.851609,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省许昌市襄城县",
+  "coords_updated_at": "2026-06-01T10:17:04.326Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

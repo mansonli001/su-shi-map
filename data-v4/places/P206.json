@@ -1,0 +1,68 @@
+{
+  "id": "P206",
+  "ancient_name": "宜兴田园",
+  "modern_name": "江苏宜兴",
+  "type": "around",
+  "lat": 31.338429,
+  "lng": 119.821873,
+  "related_routes": [
+    "R11"
+  ],
+  "summary": "",
+  "background": "宜兴太湖滨湖平野，田畴连片、桑竹绕村、溪渠纵横、风物温润，\n无山地险峻、无都市喧嚣，一派江南田园安逸平和的原生风貌，是文人归隐理想乡野范本。",
+  "tags": [
+    "pastoral",
+    "stay",
+    "seclusion_ideal"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R11": {
+      "duration": "1084年闲游流连",
+      "duration_years": [
+        1084
+      ],
+      "essence": "具象化苏轼江南归隐理想、奠定晚年卜居太湖心愿的田园圣地",
+      "su_shi_story": "漫步宜兴田间阡陌，看村舍依依、桑竹掩映、农人闲适劳作，\n沉醉于远离官场倾轧、远离仕途奔波的乡土烟火，\n内心笃定太湖田园便是晚年避世安身、终老余生的最佳归宿。\n",
+      "historical_context": "宜兴太湖滨湖平野，田畴连片、桑竹绕村、溪渠纵横、风物温润，\n无山地险峻、无都市喧嚣，一派江南田园安逸平和的原生风貌，是文人归隐理想乡野范本。\n",
+      "order_in_route": 17,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS157",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 31.3597,
+    "v3_lng": 119.8227
+  },
+  "extended_story": "漫步宜兴田间阡陌，看村舍依依、桑竹掩映、农人闲适劳作，\n沉醉于远离官场倾轧、远离仕途奔波的乡土烟火，\n内心笃定太湖田园便是晚年避世安身、终老余生的最佳归宿。",
+  "essence": "具象化苏轼江南归隐理想、奠定晚年卜居太湖心愿的田园圣地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.234Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省无锡市宜兴市",
+  "coords_updated_at": "2026-06-01T10:17:04.327Z",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

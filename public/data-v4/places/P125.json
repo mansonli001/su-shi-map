@@ -1,0 +1,106 @@
+{
+  "id": "P125",
+  "ancient_name": "南都",
+  "modern_name": "商丘",
+  "type": "main",
+  "lat": 34.4148,
+  "lng": 115.65,
+  "related_routes": [
+    "R10"
+  ],
+  "summary": "苏轼起知登州时在南都接诰命",
+  "background": "南都即今河南商丘，宋代为应天府，苏轼元丰八年在此接诰命起知登州",
+  "tags": [
+    "南都",
+    "商丘",
+    "应天府",
+    "main",
+    "hub"
+  ],
+  "periods": [
+    {
+      "period": "1068-1071",
+      "title": "丁忧期满返京·过商丘访张方平",
+      "description": "1068年，苏轼丁忧期满，与苏辙一同离乡赴京。\n\n途中经过商丘（北宋应天府），特意拜访老长官张方平。\n\n张方平是苏轼的伯乐，当年知益州时，就曾推荐苏轼。苏轼对张方平一直感恩。"
+    },
+    {
+      "period": "1085-1094",
+      "title": "元祐年间·再过商丘",
+      "description": "元祐年间，苏轼在朝廷任职，多次往返开封与杭州之间，途经商丘。\n\n商丘是北宋的'南京'（应天府），是苏轼往返必经之地。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "nd-001",
+      "date": "元丰八年（1085年）",
+      "title": "南都接诰知登州",
+      "description": "苏轼在南都接诰命，起知登州",
+      "significance": "起知登州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R10": {
+      "duration": "1080年淮西古道休整",
+      "duration_years": [
+        1080
+      ],
+      "essence": "中原通往大别山区过渡枢纽",
+      "su_shi_story": "驻足南都休整行旅，身处中原尾声，\n即将踏入淮河南岸山地古道地界。\n",
+      "historical_context": "北宋南京应天府，淮西沿线军政文化枢纽，南北驿道要冲。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "nd-s001",
+      "name": "应天府书院",
+      "type": "书院",
+      "location": "河南省商丘市",
+      "description": "宋代四大书院之一",
+      "opening_hours": "08:00-18:00",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "商丘站/商丘东站",
+    "bus": "商丘汽车站",
+    "car": "连霍高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS032",
+    "pinyin_id": "nandu",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.26,
+    "v3_lng": 115.48
+  },
+  "extended_story": "驻足南都休整行旅，身处中原尾声，\n即将踏入淮河南岸山地古道地界。",
+  "essence": "中原通往大别山区过渡枢纽",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.226Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1080,
+    "last_year": 1084,
+    "span_years": 4,
+    "duration_label": "1080-1084 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

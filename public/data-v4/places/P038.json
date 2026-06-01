@@ -1,0 +1,183 @@
+{
+  "id": "P038",
+  "ancient_name": "定州",
+  "modern_name": "河北定州",
+  "type": "official",
+  "lat": 38.516,
+  "lng": 114.9897,
+  "related_routes": [
+    "R17",
+    "R18"
+  ],
+  "summary": "苏轼知定州",
+  "background": "定州今河北定州，苏轼元祐八年知定州",
+  "tags": [
+    "定州",
+    "中山",
+    "main",
+    "official",
+    "border",
+    "start",
+    "demote_start"
+  ],
+  "periods": [
+    {
+      "period": "1093-1094",
+      "title": "定州知州·整顿军纪",
+      "description": "元祐八年（1093年），高太后去世，哲宗亲政，新党重新上台。\n\n苏轼被外放为定州（今河北定州）知州。这是他在朝廷与地方之间，最后一次任职。\n\n在定州，苏轼做了两件事：第一，整顿军纪——定州是边防重镇，但军纪废弛，苏轼到任后，严明军纪；第二，写《乞罢定州不作乐》——请求不要在边境重地大搞音乐庆典。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "dingzhou-001",
+      "date": "元祐八年（1093年）",
+      "title": "知定州",
+      "description": "苏轼知定州",
+      "significance": "知定州"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "定州中山怀古",
+      "type": "shi",
+      "note": "北地咏史代表作",
+      "source_route": "R17"
+    },
+    {
+      "id": "W055",
+      "title": "雪浪斋铭",
+      "type": "文",
+      "year": 1094,
+      "route_id": "R17",
+      "note": "1094 定州筑「雪浪斋」作铭，苏辙、秦观皆有和诗"
+    },
+    {
+      "id": "W054",
+      "title": "雪浪石",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R17",
+      "note": "1094 春定州衙署后圃得奇石，命名「雪浪石」并作长诗，\"黑质白脉，如孙知微画水\"",
+      "fullText": "太行西来万马屯，势与岱岳争雄尊。\n飞狐上党天下脊，半掩落日先黄昏。\n削成山东二百郡，气压代北三家村。\n千峰右卷矗牙帐，崩崖凿断开土门。\n朅来城下作飞石，一𪿫惊落天骄魂。\n承平百年烽燧冷，此物僵卧枯榆根。\n画师争摹雪浪势，天工不见雷斧痕。\n离堆四面绕江水，坐无蜀士谁与论。\n老翁儿戏作飞雨，把酒坐看珠跳盆。\n此身自幻孰非梦，故国山水聊心存。",
+      "excerpt": "太行西来万马屯，势与岱岳争雄尊。"
+    },
+    {
+      "id": "W057",
+      "title": "荔枝叹",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "note": "1095 惠州，借荔枝讽喻宫廷奢侈、同情百姓疾苦"
+    },
+    {
+      "id": "W056",
+      "title": "食荔枝",
+      "type": "诗",
+      "year": 1096,
+      "route_id": "R18",
+      "note": "1096 惠州，\"日啖荔枝三百颗，不辞长作岭南人\"",
+      "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
+      "excerpt": "日啖荔枝三百颗，不辞长作岭南人。",
+      "background": "绍圣三年（1096）四月，苏轼贬居惠州第三年，初食荔枝作此诗。岭南风物入诗，把贬谪苦境化作了对天地慷慨馈赠的礼赞，是苏轼晚年豁达心境的典型写照。"
+    },
+    {
+      "id": "W060",
+      "title": "到惠州谢表",
+      "type": "策",
+      "year": 1094,
+      "route_id": "R18",
+      "note": "1094 惠州，宋代官员到任谢表",
+      "fullText": "仿佛曾游岂梦中，欣然鸡犬识新丰。\n吏民惊怪坐何事，父老相携迎此翁。\n苏武岂知还漠北，管宁自欲老辽东。\n岭南万户皆春色，会有幽人客寓公。",
+      "excerpt": "仿佛曾游岂梦中，欣然鸡犬识新丰。"
+    }
+  ],
+  "route_events": {
+    "route18": [
+      {
+        "id": "dingzhou-002",
+        "date": "元祐八年（1093年）",
+        "title": "知定州",
+        "description": "苏轼任知定州",
+        "significance": "知定州"
+      }
+    ],
+    "R17": {
+      "duration": "1094年北疆履职常驻",
+      "duration_years": [
+        1094
+      ],
+      "essence": "本路线终点、北疆履职怀古核心地",
+      "su_shi_story": "终抵定州就任，身处北疆边关，\n理政安民、整饬边防，闲暇怀古登太行，\n北地苍茫与身世感慨相融。\n",
+      "historical_context": "北宋北疆重镇，中山古国故地，南依太行、北临平原，边防与人文兼备。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R18": {
+      "duration": "1094年远贬启程原点",
+      "duration_years": [],
+      "essence": "万里远贬始发原点、仕途命运终极转折",
+      "su_shi_story": "从北疆定州踏上贬途，心知前路万里蛮荒，\n坦然受命、淡然启程，开启人生最远行旅。\n",
+      "historical_context": "北宋北疆重镇，苏轼仕途最后外放起点，自此开启万里南迁远贬之路。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "dz-s001",
+      "name": "定州古塔",
+      "type": "塔",
+      "location": "河北省定州市",
+      "description": "苏轼在定州时所建或相关",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "定州站",
+    "bus": "定州汽车站",
+    "car": "京港澳高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS038",
+    "pinyin_id": "dingzhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 38.8966,
+    "v3_lng": 114.492
+  },
+  "extended_story": "终抵定州就任，身处北疆边关，\n理政安民、整饬边防，闲暇怀古登太行，\n北地苍茫与身世感慨相融。",
+  "essence": "本路线终点、北疆履职怀古核心地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.256Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1093,
+    "last_year": 1100,
+    "span_years": 7,
+    "duration_label": "1093-1100 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S4",
+      "S5"
+    ]
+  },
+  "famous_line": {
+    "quote": "定州中山怀古",
+    "source": "定州中山怀古",
+    "from": "global_works.title"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "P015",
+  "ancient_name": "曹州",
+  "modern_name": "山东菏泽",
+  "type": "main",
+  "related_routes": [
+    "R13"
+  ],
+  "background": "鲁西南门户，接壤中原腹地，西进汴京最后陆路中转。",
+  "extended_story": "抵达曹州做最后行旅休整，\n踏出齐鲁地界，即将步入京师京畿范围。",
+  "essence": "齐鲁入汴京最后前沿中转",
+  "tags": [
+    "main"
+  ],
+  "route_events": {
+    "R13": {
+      "duration": "1085年末入中原前沿",
+      "duration_years": [
+        1085
+      ],
+      "essence": "齐鲁入汴京最后前沿中转",
+      "su_shi_story": "抵达曹州做最后行旅休整，\n踏出齐鲁地界，即将步入京师京畿范围。\n",
+      "historical_context": "鲁西南门户，接壤中原腹地，西进汴京最后陆路中转。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.239Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

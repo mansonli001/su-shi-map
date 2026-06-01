@@ -1,0 +1,30 @@
+{
+  "id": "W053",
+  "title": "王进叔所藏画跋尾·赵昌四季芍药",
+  "category": "题画诗",
+  "type": "题画",
+  "year_estimate": 1091,
+  "route_id": "R16",
+  "related_route_ids": [
+    "R16"
+  ],
+  "note": "1091.9 颍州为王进叔所藏赵昌四季芍药花卷题诗（《东坡七集·诗集》卷二十五），自注「元祐六年九月，在颍州，王进叔出所藏赵昌画四季芍药，求题」；赵昌为北宋前期花鸟名家（约970-1016），早于苏轼半个世纪。注：苏轼对赵昌画评价极高（\"赵昌花传神\"），与 1092 扬州罢万花会反对官方扰民盛会立场不冲突——题画诗属艺术审美，罢花会属反对劳民伤财。双专家最终一致采纳。",
+  "verification_status": "dual_expert_confirmed",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E7%8E%8B%E8%BF%9B%E5%8F%94%E6%89%80%E8%97%8F%E7%94%BB%E8%B7%8B%E5%B0%BE%C2%B7%E8%B5%B5%E6%98%8C%E5%9B%9B%E5%AD%A3%E8%8A%8D%E8%8D%AF",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E7%8E%8B%E8%BF%9B%E5%8F%94%E6%89%80%E8%97%8F%E7%94%BB%E8%B7%8B%E5%B0%BE%C2%B7%E8%B5%B5%E6%98%8C%E5%9B%9B%E5%AD%A3%E8%8A%8D%E8%8D%AF&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E7%8E%8B%E8%BF%9B%E5%8F%94%E6%89%80%E8%97%8F%E7%94%BB%E8%B7%8B%E5%B0%BE%C2%B7%E8%B5%B5%E6%98%8C%E5%9B%9B%E5%AD%A3%E8%8A%8D%E8%8D%AF&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "江左风流王谢家，尽携书画到天涯。\n却因梅雨丹青暗，洗出徐熙落墨花。",
+  "coreVerse": "江左风流王谢家，尽携书画到天涯。",
+  "excerpt": "江左风流王谢家，尽携书画到天涯。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 4,
+  "matched_title": "跋王進叔所藏畫五首 徐熙杏花",
+  "full_text_needs_review": true
+}

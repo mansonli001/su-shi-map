@@ -1,0 +1,49 @@
+{
+  "id": "P127",
+  "ancient_name": "南浔古驿",
+  "modern_name": "浙江湖州南浔古驿",
+  "type": "sight",
+  "related_routes": [
+    "R09"
+  ],
+  "background": "太湖南岸古驿重镇，运河古道人文遗存之地。\n（注：南浔市镇形成于南宋，北宋是否已为知名古驿待末期史源核查）",
+  "extended_story": "湖州理政之余漫步南浔古驿，\n观水乡古驿风情，寄情江南安逸山水。",
+  "essence": "湖州近郊古驿人文游览地",
+  "tags": [
+    "visit"
+  ],
+  "route_events": {
+    "R09": {
+      "duration": "1079年湖州任内游览",
+      "duration_years": [
+        1079
+      ],
+      "essence": "湖州近郊古驿人文游览地",
+      "su_shi_story": "湖州理政之余漫步南浔古驿，\n观水乡古驿风情，寄情江南安逸山水。\n",
+      "historical_context": "太湖南岸古驿重镇，运河古道人文遗存之地。\n（注：南浔市镇形成于南宋，北宋是否已为知名古驿待末期史源核查）\n",
+      "order_in_route": 18,
+      "layer": "surrounding",
+      "priority": "P2"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.223Z",
+  "schema_version": "v4.1",
+  "lng": 120.418244,
+  "lat": 30.850835,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "浙江省湖州市南浔区",
+  "coords_updated_at": "2026-06-01T10:17:04.321Z",
+  "duration_summary": {
+    "first_year": 1078,
+    "last_year": 1079,
+    "span_years": 1,
+    "duration_label": "1078-1079 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

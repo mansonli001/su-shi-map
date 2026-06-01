@@ -8,25 +8,50 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // 水墨配色
+        // 「行吟山河」配色（设计稿对齐）
         ink: {
-          50:  '#F5E6C8',  // 宣纸色（背景）
-          100: '#E8D5A3',
+          DEFAULT: '#1A1008',
+          mid: '#3D2B1F',
+          lt:  '#5F5E5A',
+          // 兼容旧 ink-50/100/.../900（防止历史样式崩）
+          50:  '#FAF6F0',
+          100: '#F0E9DF',
           200: '#D4C28F',
           300: '#BFAD7A',
           400: '#AB9765',
-          500: '#8B6914',  // 赭金（主题色）
-          600: '#6B5010',
-          700: '#4A380C',
-          800: '#2A2008',
-          900: '#1A1405',
+          500: '#BA7517',  // 中金（旧赭金锚点）
+          600: '#3D2B1F',
+          700: '#2A2008',
+          800: '#1A1008',
+          900: '#0F0905',
         },
-        paper: '#F5E6C8',
-        inkBlack: '#1A1405',
+        gold: {
+          DEFAULT: '#FAC775',
+          m: '#BA7517',
+          d: '#EF9F27',
+          light: '#FAEEDA',
+        },
+        paper: {
+          DEFAULT: '#FAF6F0',
+          2: '#F0E9DF',
+          base: '#F1EFE8',
+        },
+        // 4 类阶段色
+        birth: { DEFAULT: '#085041', light: '#5DCAA5' },
+        office: { DEFAULT: '#0C447C', light: '#85B7EB' },
+        exile: { DEFAULT: '#712B13', light: '#F0997B' },
+        tour: { DEFAULT: '#633806', light: '#C9975A' },
+        // 兼容旧名
+        inkBlack: '#1A1008',
       },
       fontFamily: {
-        serif: ['Noto Serif SC', 'SimSun', 'STSong', 'serif'],
-        sans: ['Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'sans-serif'],
+        serif: ['LXGW WenKai', 'Songti SC', 'STSong', 'SimSun', 'serif'],
+        sans:  ['LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', 'system-ui', 'sans-serif'],
+        wenkai: ['LXGW WenKai', 'serif'],
+      },
+      letterSpacing: {
+        wider2: '0.16em',
+        widest2: '0.25em',
       },
       animation: {
         'fade-in': 'fadeIn 0.3s ease-out',

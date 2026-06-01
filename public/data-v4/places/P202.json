@@ -1,0 +1,24 @@
+{
+  "id": "P202",
+  "ancient_name": "沂蒙山",
+  "modern_name": "山东沂蒙山",
+  "type": "sight",
+  "lat": 35.55,
+  "lng": 118.19,
+  "related_routes": [
+    "R08"
+  ],
+  "tags": [],
+  "background": "密州任满改知徐州，黄河决口任内组织抗洪。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

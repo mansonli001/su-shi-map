@@ -1,0 +1,103 @@
+{
+  "id": "P113",
+  "ancient_name": "洛阳",
+  "modern_name": "河南洛阳",
+  "type": "main",
+  "lat": 34.6197,
+  "lng": 112.454,
+  "related_routes": [
+    "R01",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "summary": "",
+  "background": "北宋西京，龙门山水与中原文脉荟萃。",
+  "tags": [
+    "main",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年途经游览",
+      "duration_years": [
+        1056
+      ],
+      "essence": "中原人文艺术浸润重地",
+      "su_shi_story": "观洛城风物、龙门石刻，\n深度浸染中原艺术与文史底蕴。\n",
+      "historical_context": "北宋西京，龙门山水与中原文脉荟萃。\n",
+      "order_in_route": 18,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R03": {
+      "duration": "1061年 西行赴任途经",
+      "duration_years": [
+        1061
+      ],
+      "essence": "中原入关中门户古都",
+      "su_shi_story": "自汴京西行途经洛阳，\n再览西京古迹，踏上关中古道。\n",
+      "historical_context": "北宋西京，崤函古道起点。\n",
+      "order_in_route": 10,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1065年西京休整",
+      "duration_years": [
+        1065
+      ],
+      "essence": "入京前重要休整古都",
+      "su_shi_story": "逗留洛阳览古都风物，\n沉淀心绪等候朝命。\n",
+      "historical_context": "北宋西京，中原文脉重地。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R05": {
+      "duration": "1069年西京途经",
+      "duration_years": [
+        1069
+      ],
+      "essence": "入京前最后中原重镇",
+      "su_shi_story": "途经洛阳休整，\n渐近京师，已然预知朝堂风波将至。\n",
+      "historical_context": "北宋西京，中原人文荟萃之地。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS113",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_exact",
+    "confidence": 0.8,
+    "v3_lat": 34.52,
+    "v3_lng": 112.45
+  },
+  "extended_story": "观洛城风物、龙门石刻，\n深度浸染中原艺术与文史底蕴。",
+  "essence": "中原人文艺术浸润重地",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.204Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1069,
+    "span_years": 13,
+    "duration_label": "1056-1069 · 13年",
+    "related_route_count": 4,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": "P027",
+  "ancient_name": "楚州",
+  "modern_name": "江苏淮安",
+  "type": "main",
+  "lat": 33.551495,
+  "lng": 119.113166,
+  "related_routes": [
+    "R07",
+    "R08",
+    "R09",
+    "R12",
+    "R15",
+    "R16",
+    "R17"
+  ],
+  "summary": "苏轼多次途经淮安",
+  "background": "淮安古称楚州，苏轼从杭州北返或南下时多次途经此地",
+  "tags": [
+    "淮安",
+    "楚州",
+    "main",
+    "prison-route",
+    "hub",
+    "lake_tour"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "ha-001",
+      "date": "熙宁四年（1071年）",
+      "title": "离京南下途经淮安",
+      "description": "苏轼离京赴杭州倅，途经淮安",
+      "significance": "途经淮安"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route07": [
+      {
+        "id": "ha-002",
+        "date": "熙宁四年（1071年）",
+        "title": "南下途经淮安",
+        "description": "苏轼南下赴杭州，途经淮安",
+        "significance": "途经淮安"
+      }
+    ],
+    "route08": [
+      {
+        "id": "ha-003",
+        "date": "元丰二年（1079年）",
+        "title": "南下知湖州途经淮安",
+        "description": "苏轼从徐州南下知湖州，途经淮安",
+        "significance": "途经淮安"
+      }
+    ],
+    "route15": [
+      {
+        "id": "ha-006",
+        "date": "元祐六年（1091年）",
+        "title": "移知颍州途经淮安",
+        "description": "苏轼移知颍州，途经淮安",
+        "significance": "途经淮安"
+      }
+    ],
+    "route19": [
+      {
+        "id": "ha-007",
+        "date": "绍圣元年（1094年）",
+        "title": "贬惠州途经淮安",
+        "description": "苏轼贬惠州，途经淮安",
+        "significance": "途经淮安"
+      }
+    ],
+    "R07": {
+      "duration": "1074年淮东陆路途经",
+      "duration_years": [
+        1074
+      ],
+      "essence": "淮水流域陆路关键驿点",
+      "su_shi_story": "沿淮东官道东北行至楚州，\n地貌渐趋平野荒阔，远离江南温润之气。\n",
+      "historical_context": "淮水沿岸古驿重镇，苏北水陆交通咽喉。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R09": {
+      "duration": "1079年押解途经",
+      "duration_years": [
+        1079
+      ],
+      "essence": "淮东押解关键驿点",
+      "su_shi_story": "押解行至楚州，继续沿淮东官道西向北上，\n日渐逼近京师方向。\n",
+      "historical_context": "淮水沿岸驿道枢纽，苏北东西南北通行要道。\n",
+      "order_in_route": 13,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R12": {
+      "duration": "1085年苏北沿海驿道中转",
+      "duration_years": [
+        1085
+      ],
+      "essence": "江南入苏北沿海过渡枢纽",
+      "su_shi_story": "步入苏北滨海驿道起始段，地貌由江南水乡转为平野滩涂，\n初见北方海岸辽阔格局。\n",
+      "historical_context": "苏北水陆枢纽，沿海驿道必经节点，南接江南、北连海隅。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R15": {
+      "duration": "1091年途经洪泽湖沿岸",
+      "duration_years": [
+        1091
+      ],
+      "essence": "洪泽湖沿岸览胜核心驻足点",
+      "su_shi_story": "途经楚州驻足洪泽湖岸，观平野湖烟、淮甸苍茫，\n领略江北独有的辽阔湖川风貌。\n",
+      "historical_context": "苏北水陆重镇，紧邻洪泽湖沿岸，淮东行旅必经节点。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R16": {
+      "duration": "1093年陆路中转途经",
+      "duration_years": [
+        1093
+      ],
+      "essence": "淮东陆路中转要地",
+      "su_shi_story": "由洪泽湖登陆经楚州休整，\n循淮东官道向扬州平稳行进。\n",
+      "historical_context": "淮东水陆枢纽，洪泽湖东下入扬必经驿道节点。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R17": {
+      "duration": "1093年淮泗古道北上途经",
+      "duration_years": [
+        1093
+      ],
+      "essence": "淮泗古道北上关键驿点",
+      "su_shi_story": "沿淮泗古驿北行，渐离江南温润，\n心境渐趋沉静，隐隐感知朝堂风气异动。\n",
+      "historical_context": "淮东水陆枢纽，淮泗古道北上必经中转驿道。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "ha-s001",
+      "name": "镇淮楼",
+      "type": "建筑",
+      "location": "江苏省淮安市",
+      "description": "淮安古城楼",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "淮安站 / 淮安东站",
+    "bus": "淮安汽车站",
+    "car": "京沪高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS107",
+    "pinyin_id": "huaian",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 33.6,
+    "v3_lng": 119.02
+  },
+  "extended_story": "沿淮东官道东北行至楚州，\n地貌渐趋平野荒阔，远离江南温润之气。",
+  "essence": "淮水流域陆路关键驿点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.252Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省淮安市",
+  "coords_updated_at": "2026-06-01T10:17:04.313Z",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1094,
+    "span_years": 20,
+    "duration_label": "1074-1094 · 20年",
+    "related_route_count": 7,
+    "stage_ids": [
+      "S2",
+      "S4"
+    ]
+  }
+}

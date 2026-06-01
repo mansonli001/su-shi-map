@@ -1,0 +1,24 @@
+{
+  "id": "P085",
+  "ancient_name": "江南运河",
+  "modern_name": "江南运河（苏州段）",
+  "type": "sight",
+  "lat": 31.2989,
+  "lng": 120.5853,
+  "related_routes": [
+    "R14"
+  ],
+  "tags": [],
+  "background": "请外再知杭州，疏浚西湖筑长堤，杭人立祠以祀。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

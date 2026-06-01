@@ -1,0 +1,55 @@
+{
+  "schema_version": "v4.0",
+  "data_source": "网络公开资料整理",
+  "disclaimer": "本项目所用苏轼路线、地点、诗词等数据，整理自互联网公开资料，仅供个人学习与文化爱好者交流之用，不作为学术引用依据。坐标与路线为示意性还原，如有错漏欢迎指正。",
+  "version": "v4.0.0-phase1",
+  "last_updated": "2026-06-01",
+
+  "coordinate_system": "GCJ-02",
+  "default_view": {
+    "center": { "lng": 110.0, "lat": 32.5 },
+    "zoom": 5,
+    "min_zoom": 3,
+    "max_zoom": 18
+  },
+
+  "place_types": {
+    "main":     { "label": "主线行进", "color": "#4A6670", "priority": 5, "icon": "marker-main" },
+    "sight":    { "label": "沿途名胜", "color": "#7B9E89", "priority": 3, "icon": "marker-sight" },
+    "around":   { "label": "驻留打卡", "color": "#A0826D", "priority": 2, "icon": "marker-around" },
+    "birth":    { "label": "出生地",   "color": "#C41E24", "priority": 8, "icon": "marker-birth" },
+    "official": { "label": "为官地",   "color": "#8B6914", "priority": 6, "icon": "marker-official" },
+    "study":    { "label": "游学地",   "color": "#7B9E89", "priority": 4, "icon": "marker-study" },
+    "stay":     { "label": "驻留地",   "color": "#A0826D", "priority": 5, "icon": "marker-stay" },
+    "visit":    { "label": "游览地",   "color": "#4A6670", "priority": 3, "icon": "marker-visit" },
+    "death":    { "label": "终老地",   "color": "#1A1405", "priority": 7, "icon": "marker-death" },
+    "tomb":     { "label": "墓葬地",   "color": "#1A1405", "priority": 7, "icon": "marker-tomb" }
+  },
+
+  "coordinate_sources": {
+    "amap":            { "label": "高德地理编码", "precision": "★★★★★", "trustworthy": true },
+    "amap_corrected":  { "label": "高德反查 + 历史考证修正", "precision": "★★★★★", "trustworthy": true },
+    "chgis":           { "label": "CHGIS V6 治所坐标", "precision": "★★★★★", "trustworthy": true },
+    "core_curated":    { "label": "核心州府人工核校", "precision": "★★★★", "trustworthy": true },
+    "inferred":        { "label": "现代名推断 / LLM 辅助", "precision": "★★★", "trustworthy": false },
+    "approximate":     { "label": "近似坐标（古址不存）", "precision": "★★", "trustworthy": false },
+    "chgis_pending":   { "label": "待 Phase 2 用 CHGIS 校准", "precision": "★★", "trustworthy": false }
+  },
+
+  "render_priority": {
+    "by_type": "place_types[type].priority",
+    "by_zoom": {
+      "z<=4":  ["birth","death","tomb","official"],
+      "z<=6":  ["birth","death","tomb","official","main"],
+      "z<=8":  "all_main_layer",
+      "z>=9":  "all_layers_including_sight_around"
+    }
+  },
+
+  "route_color_palette": [
+    "#8B4513","#C41E24","#4A6670","#8B6914","#7B9E89",
+    "#A0826D","#5B7A8C","#9C5F30","#6B8E5A","#B8485E",
+    "#3F5C6E","#A88539","#7C9885","#925E4A","#4D7178",
+    "#9E6B3F","#7A8C5B","#B85F4A","#5E7A8C","#8C5A3F"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "P145",
+  "ancient_name": "汝州",
+  "modern_name": "河南汝州",
+  "type": "main",
+  "lat": 34.1611,
+  "lng": 112.8443,
+  "related_routes": [
+    "R18"
+  ],
+  "summary": "",
+  "background": "中原南下古道重镇，定州入汴河长江必经驿点。",
+  "tags": [
+    "main"
+  ],
+  "periods": [
+    {
+      "period": "1084",
+      "title": "黄州量移·未到任",
+      "description": "元丰七年（1084年）四月，苏轼从黄州贬所'量移'汝州团练副使。\n\n'量移'是宋代对贬谪官员的优待，即转移到离京城近一点的地方。但苏轼在赴汝州途中，游庐山、访苏辙于高安、访王安石于金陵，还没到汝州，朝廷就改诏召他回朝任礼部郎中。\n\n所以苏轼实际上并未到任汝州。这是一个'未到即被召回'的特殊地点。"
+    }
+  ],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R18": {
+      "duration": "1094年中原途经中转",
+      "duration_years": [],
+      "essence": "中原南迁过渡驿点",
+      "su_shi_story": "南行经汝州，渐离北地苍茫，\n一步步远离朝堂，走向万里蛮荒。\n",
+      "historical_context": "中原南下古道重镇，定州入汴河长江必经驿点。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS028",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.17,
+    "v3_lng": 112.83
+  },
+  "extended_story": "南行经汝州，渐离北地苍茫，\n一步步远离朝堂，走向万里蛮荒。",
+  "essence": "中原南迁过渡驿点",
+  "last_updated": "2026-06-01T10:22:05.256Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1100,
+    "span_years": 6,
+    "duration_label": "1094-1100 · 6年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S5"
+    ]
+  }
+}

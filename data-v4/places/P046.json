@@ -1,0 +1,66 @@
+{
+  "id": "P046",
+  "ancient_name": "扶风",
+  "modern_name": "陕西扶风",
+  "type": "main",
+  "lat": 34.375636,
+  "lng": 107.900157,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "",
+  "background": "关中腹地古县，长安西侧平直官道节点。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年关中官道途经",
+      "duration_years": [
+        1056
+      ],
+      "essence": "关中官道常规途经点",
+      "su_shi_story": "沿关中平直驿道向东稳步行进，趋近帝都。\n",
+      "historical_context": "关中腹地古县，长安西侧平直官道节点。\n",
+      "order_in_route": 12,
+      "layer": "main",
+      "priority": "P2"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS133",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.3665,
+    "v3_lng": 107.9047
+  },
+  "extended_story": "沿关中平直驿道向东稳步行进，趋近帝都。",
+  "essence": "关中官道常规途经点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.183Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "陕西省宝鸡市扶风县",
+  "coords_updated_at": "2026-06-01T10:17:04.314Z",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

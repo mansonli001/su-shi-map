@@ -1,0 +1,26 @@
+{
+  "id": "W015",
+  "title": "水调歌头·明月几时有",
+  "category": "词作",
+  "type": "词",
+  "year_estimate": 1076,
+  "route_id": "R07",
+  "related_route_ids": [
+    "R07"
+  ],
+  "note": "密州中秋怀人千古绝唱",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%C2%B7%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%C2%B7%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%B0%B4%E8%B0%83%E6%AD%8C%E5%A4%B4%C2%B7%E6%98%8E%E6%9C%88%E5%87%A0%E6%97%B6%E6%9C%89&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。\n\n明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。\n转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
+  "coreVerse": "但愿人长久，千里共婵娟。",
+  "background": "熙宁九年（1076）中秋，苏轼时任密州知州，与弟苏辙已七年未见，欢饮大醉后写下此词。是中国词史上最广为传诵的中秋词，将兄弟之情、人生哲思与宇宙意识熔为一炉。",
+  "excerpt": "但愿人长久，千里共婵娟。"
+}

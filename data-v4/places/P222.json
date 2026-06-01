@@ -1,0 +1,42 @@
+{
+  "id": "P222",
+  "ancient_name": "长江",
+  "modern_name": "长江（中游）",
+  "type": "main",
+  "related_routes": [
+    "R04",
+    "R18"
+  ],
+  "background": "南北交通大动脉，万里南迁主干航道。",
+  "extended_story": "顺长江千里东下，江天辽阔，\n身世浮沉尽付大江流水。",
+  "essence": "万里南迁主干大江航道",
+  "tags": [
+    "main",
+    "water_transit"
+  ],
+  "route_events": {
+    "R18": {
+      "duration": "1094年顺江东下",
+      "duration_years": [],
+      "essence": "万里南迁主干大江航道",
+      "su_shi_story": "顺长江千里东下，江天辽阔，\n身世浮沉尽付大江流水。\n",
+      "historical_context": "南北交通大动脉，万里南迁主干航道。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "last_updated": "2026-06-01T10:22:05.256Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1100,
+    "span_years": 35,
+    "duration_label": "1065-1100 · 35年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2",
+      "S5"
+    ]
+  }
+}

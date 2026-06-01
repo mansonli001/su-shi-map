@@ -1,0 +1,97 @@
+{
+  "id": "P162",
+  "ancient_name": "宿州",
+  "modern_name": "安徽宿州",
+  "type": "main",
+  "lat": 33.647726,
+  "lng": 116.96419,
+  "related_routes": [
+    "R08",
+    "R09"
+  ],
+  "summary": "",
+  "background": "汴河东下徐州必经古道节点，皖北苏北交界重镇。\n（注：宿州在 1077 年苏轼路线中是**陈桥驿东下徐州**的途经点，\n而非传统订正版认为的\"密州南下徐州\"路径，详见专家裁决）",
+  "tags": [
+    "main",
+    "transit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [
+    {
+      "title": "宿州次韵刘泾",
+      "type": "poem",
+      "note": "",
+      "source_route": "R08",
+      "fullText": "我欲归休瑟渐希，舞雩何日著春衣。\n多情白发三千丈，无用苍皮四十围。\n晚觉文章真小技，早知富贵有危机。\n为君垂涕君知否，千古华亭鹤自飞。",
+      "coreVerse": "我欲归休瑟渐希，舞雩何日著春衣。",
+      "excerpt": "我欲归休瑟渐希，舞雩何日著春衣。",
+      "poem_id": "W020"
+    }
+  ],
+  "route_events": {
+    "R08": {
+      "duration": "1077年3-4月 沿汴河东下徐州途经",
+      "duration_years": [
+        1077
+      ],
+      "essence": "陈桥东下徐州汴河途经驿点",
+      "su_shi_story": "自陈桥驿沿汴河东下赴徐州途中经宿州，\n作《宿州次韵刘泾》纪行，渐近徐州赴任。\n",
+      "historical_context": "汴河东下徐州必经古道节点，皖北苏北交界重镇。\n（注：宿州在 1077 年苏轼路线中是**陈桥驿东下徐州**的途经点，\n而非传统订正版认为的\"密州南下徐州\"路径，详见专家裁决）\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R09": {
+      "duration": "1078年运河南下途经",
+      "duration_years": [
+        1078
+      ],
+      "essence": "徐州南下首个运河驿点",
+      "su_shi_story": "沿运河南下首站休整，渐离徐州平原地貌，\n步入南北运河过渡地带。\n",
+      "historical_context": "徐南运河官道必经中转节点，皖北水陆要冲。\n",
+      "order_in_route": 2,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS142",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 33.6402,
+    "v3_lng": 116.9657
+  },
+  "extended_story": "自陈桥驿沿汴河东下赴徐州途中经宿州，\n作《宿州次韵刘泾》纪行，渐近徐州赴任。",
+  "essence": "陈桥东下徐州汴河途经驿点",
+  "source": [
+    "李常生苏轼行踪考",
+    "苏轼诗集"
+  ],
+  "last_updated": "2026-06-01T10:22:05.221Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "安徽省宿州市",
+  "coords_updated_at": "2026-06-01T10:17:04.323Z",
+  "duration_summary": {
+    "first_year": 1077,
+    "last_year": 1079,
+    "span_years": 2,
+    "duration_label": "1077-1079 · 2年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "我欲归休瑟渐希，舞雩何日著春衣。",
+    "source": "宿州次韵刘泾",
+    "from": "global_works.excerpt"
+  }
+}

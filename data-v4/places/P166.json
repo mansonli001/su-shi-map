@@ -1,0 +1,45 @@
+{
+  "id": "P166",
+  "ancient_name": "太行山东麓",
+  "modern_name": "河北太行山东麓",
+  "type": "around",
+  "related_routes": [
+    "R17"
+  ],
+  "background": "太行山东麓屏障定州，群峰连绵、山势雄峻，\n北倚边关、南瞰平原，山骨苍劲、气势沉雄，\n兼具边塞雄姿与北地山岳厚重气韵。",
+  "extended_story": "登临太行东麓，俯瞰河北千里平野，\n仰观群峰峙立、苍岩沉峻，\n山河雄阔反衬个人身世微茫、仕途难料，\n山水雄浑与内心忧思相融，开拓北地山水诗全新境界。",
+  "essence": "北地雄山代表、苏轼边塞式山水纪行灵感源头",
+  "tags": [
+    "visit",
+    "landscape"
+  ],
+  "route_events": {
+    "R17": {
+      "duration": "1094年登临游赏",
+      "duration_years": [
+        1094
+      ],
+      "essence": "北地雄山代表、苏轼边塞式山水纪行灵感源头",
+      "su_shi_story": "登临太行东麓，俯瞰河北千里平野，\n仰观群峰峙立、苍岩沉峻，\n山河雄阔反衬个人身世微茫、仕途难料，\n山水雄浑与内心忧思相融，开拓北地山水诗全新境界。\n",
+      "historical_context": "太行山东麓屏障定州，群峰连绵、山势雄峻，\n北倚边关、南瞰平原，山骨苍劲、气势沉雄，\n兼具边塞雄姿与北地山岳厚重气韵。\n",
+      "order_in_route": 15,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.254Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1093,
+    "last_year": 1094,
+    "span_years": 1,
+    "duration_label": "1093-1094 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

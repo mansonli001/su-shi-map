@@ -1,0 +1,44 @@
+{
+  "id": "P007",
+  "ancient_name": "汴河漕运古道",
+  "modern_name": "河南开封汴河漕运",
+  "type": "sight",
+  "related_routes": [
+    "R04"
+  ],
+  "background": "北宋国家核心漕运水道，官旅灵柩南行主干道。",
+  "extended_story": "沿汴河缓缓南行，\n看漕舟往来，心生世事沧桑之感。",
+  "essence": "宋代漕运代表性水景",
+  "tags": [
+    "visit"
+  ],
+  "route_events": {
+    "R04": {
+      "duration": "1066年扶柩全程行经",
+      "duration_years": [
+        1066
+      ],
+      "essence": "宋代漕运代表性水景",
+      "su_shi_story": "沿汴河缓缓南行，\n看漕舟往来，心生世事沧桑之感。\n",
+      "historical_context": "北宋国家核心漕运水道，官旅灵柩南行主干道。\n",
+      "order_in_route": 19,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.201Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1068,
+    "span_years": 3,
+    "duration_label": "1065-1068 · 3年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

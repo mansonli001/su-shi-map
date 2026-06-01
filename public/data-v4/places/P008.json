@@ -1,0 +1,356 @@
+{
+  "id": "P008",
+  "ancient_name": "汴京",
+  "modern_name": "开封",
+  "type": "main",
+  "lat": 34.798083,
+  "lng": 114.314278,
+  "related_routes": [
+    "R01",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R09",
+    "R10",
+    "R13",
+    "R14",
+    "R15",
+    "R16",
+    "R17"
+  ],
+  "summary": "北宋都城，三苏在此科举及第，名动京师",
+  "background": "汴京是北宋都城，今河南开封，三苏在此科举及第，名动京师",
+  "tags": [
+    "都城",
+    "科举",
+    "兴国寺",
+    "main",
+    "official",
+    "stay",
+    "study",
+    "start",
+    "leave",
+    "prison",
+    "court",
+    "short_stay",
+    "escape_court",
+    "court_change"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "bj-001",
+      "date": "嘉祐元年（1056年）五六月间",
+      "title": "初到汴京",
+      "description": "三苏到汴京，寓居兴国寺浴室院，京师遇大雨，蔡河中夜决",
+      "significance": "初到京师"
+    },
+    {
+      "id": "bj-002",
+      "date": "嘉祐二年（1057年）三月",
+      "title": "科举及第",
+      "description": "欧阳修知贡举，苏轼、苏辙兄弟同登进士第，名动京师",
+      "significance": "仕途起点"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "bj-w001",
+      "title": "兴国寺浴室院六祖画赞",
+      "content": "嘉祐元年十一月，轼自蜀来，始与子由过此观六祖之像。",
+      "excerpt": "六祖之像，在浴室院。",
+      "type": "文",
+      "date": "嘉祐元年（1056年）十一月",
+      "location": "汴京兴国寺浴室院",
+      "background": "在兴国寺浴室院观六祖画像作"
+    },
+    {
+      "title": "刑赏忠厚之至论",
+      "type": "wen",
+      "note": "汴京应试成名作",
+      "source_route": "R01"
+    },
+    {
+      "title": "上神宗皇帝书（前期酝酿）",
+      "type": "wen",
+      "note": "入朝议政奠基之作",
+      "source_route": "R05"
+    },
+    {
+      "title": "狱中寄子由二首",
+      "type": "poem",
+      "note": "御史台狱中绝笔诗",
+      "source_route": "R09"
+    },
+    {
+      "title": "翰林院制诰序跋",
+      "type": "gaowen",
+      "note": "元祐朝堂台阁雅文集成",
+      "source_route": "R13"
+    }
+  ],
+  "route_events": {
+    "route01": [
+      {
+        "id": "bj-003",
+        "date": "嘉祐二年（1057年）四月",
+        "title": "母丧归蜀",
+        "description": "程夫人在眉山去世，三苏奔丧归蜀",
+        "significance": "回乡守孝"
+      }
+    ],
+    "route04": [
+      {
+        "id": "bj-004",
+        "date": "熙宁二年（1069年）二月初",
+        "title": "第四次抵达汴京",
+        "description": "苏轼第四次入京，抵达汴京",
+        "significance": "重返京师"
+      },
+      {
+        "id": "bj-005",
+        "date": "熙宁二年（1069年）",
+        "title": "居南园",
+        "description": "苏轼在南园居住，在宜秋门内",
+        "significance": "汴京居所"
+      },
+      {
+        "id": "bj-006",
+        "date": "熙宁二年（1069年）",
+        "title": "任判官告院兼尚书祠部",
+        "description": "除判官告院兼判尚书祠部，王安石方用事",
+        "significance": "正式任职"
+      }
+    ],
+    "route06": [
+      {
+        "id": "bj-007",
+        "date": "熙宁四年（1071年）七月上旬",
+        "title": "离京赴杭州倅",
+        "description": "苏轼离京赴陈州，南下任杭州通判",
+        "significance": "离京南下"
+      }
+    ],
+    "R01": {
+      "duration": "1057年应试及第驻留",
+      "duration_years": [
+        1057
+      ],
+      "essence": "苏轼文坛仕途成名起点",
+      "su_shi_story": "入京赴考文章惊动欧阳修，兄弟同榜进士及第，\n一朝名动天下，正式踏入北宋朝堂文人圈层。\n",
+      "historical_context": "北宋京师，全国政治文化科举核心。\n",
+      "order_in_route": 19,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R03": {
+      "duration": "1060-1061年 铨选候官",
+      "duration_years": [
+        1060,
+        1061
+      ],
+      "essence": "人生首个正式授官中枢",
+      "su_shi_story": "二次进京滞留京师，\n通过吏部铨选授凤翔签判，\n正式踏入北宋官僚体系。\n",
+      "historical_context": "北宋京师，吏部铨选、授官中枢。\n",
+      "order_in_route": 9,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R04": {
+      "duration": "1065-1066年候官、父丧居停",
+      "duration_years": [
+        1065,
+        1066
+      ],
+      "essence": "仕途期待与家庭变故交汇地",
+      "su_shi_story": "三入京师本欲迁官晋升，\n不料突遭父丧，仕途戛然而止，\n强忍悲痛筹备扶柩归蜀。\n",
+      "historical_context": "北宋朝堂中枢，苏洵晚年居京治学。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R05": {
+      "duration": "1069年入朝任职",
+      "duration_years": [
+        1069
+      ],
+      "essence": "北宋朝堂党争起点、仕途命运分水岭",
+      "su_shi_story": "抵达汴京重返朝堂，\n随即直面王安石新法推行浪潮，\n秉持民本仁政立场不愿盲从，\n自此卷入半生新旧党争，开启宦海浮沉之路。\n",
+      "historical_context": "北宋政治中枢，熙宁变法朝堂核心所在地。\n",
+      "order_in_route": 10,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R06": {
+      "duration": "1071年 自请外放启程",
+      "duration_years": [
+        1071
+      ],
+      "essence": "党争避祸、外放起点",
+      "su_shi_story": "厌倦朝堂派系倾轧，不愿曲附新法，主动求任东南州郡，\n辞别京师尘嚣，踏上南下江南之路。\n",
+      "historical_context": "北宋朝堂中枢，新旧党争核心地，苏轼因政见不合自请外放起点。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R09": {
+      "duration": "1079年押解抵达入狱",
+      "duration_years": [
+        1079
+      ],
+      "essence": "本路线终点，乌台狱案核心羁押地",
+      "su_shi_story": "历经沿路押解辗转抵达汴京，\n随即被关押入御史台监狱，直面朝堂狱案审讯。\n",
+      "historical_context": "北宋京师，朝堂御史台所在地，乌台诗案审讯羁押核心地。\n",
+      "order_in_route": 15,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R10": {
+      "duration": "1080年诗案结案贬谪启程",
+      "duration_years": [
+        1080
+      ],
+      "essence": "贬谪路线起点，人生仕途跌落原点",
+      "su_shi_story": "走出御史台牢狱，脱去官身、身负谪罪，\n辞别京师朝堂，踏上远赴黄州的贬谪之路。\n",
+      "historical_context": "北宋京师，乌台诗案审结之地，苏轼贬谪南下始发原点。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R13": {
+      "duration": "1086年抵京入朝入阁",
+      "duration_years": [
+        1086
+      ],
+      "essence": "本路线终点、元祐仕途巅峰起点",
+      "su_shi_story": "第六次抵达汴京，恰逢元祐更化新政，\n受朝廷重用任翰林学士知制诰、兼侍读学士，\n跻身朝堂文臣核心。\n",
+      "historical_context": "北宋京师，元祐朝堂核心，翰林院与经筵讲读之所皆坐落于此。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R15": {
+      "duration": "1091年短暂回京朝参待命",
+      "duration_years": [
+        1091
+      ],
+      "essence": "短暂回京终点、仕途过渡待命核心地",
+      "su_shi_story": "第七次踏入汴京，无入阁重任、无久留之心，\n入朝仅例行朝参，心系江南西湖，静待外放时机。\n",
+      "historical_context": "北宋京师，元祐朝堂核心，本次第七次短暂回京过渡之地。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R16": {
+      "duration": "1091年厌党争主动出京启程",
+      "duration_years": [
+        1091
+      ],
+      "essence": "避党争出京始发原点",
+      "su_shi_story": "看透朝堂内耗无止无休，决意抽身远离政治漩涡，\n主动外放淮上，求闲宦自守、寄情湖山。\n",
+      "historical_context": "元祐朝堂纷争核心，苏轼不愿深陷派系倾轧，自此外放启程。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R17": {
+      "duration": "1093年末第八次进京逢政局剧变",
+      "duration_years": [
+        1093
+      ],
+      "essence": "元祐落幕、仕途由盛转衰分界点",
+      "su_shi_story": "第八次踏入汴京，恰逢朝局翻覆，\n元祐功业烟消云散，自身瞬间沦为被外放对象。\n",
+      "historical_context": "北宋京师，元祐朝堂崩塌之地，新党复起、旧臣遭排挤的时局拐点。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R14": {
+      "duration": "1089年自请外放启程",
+      "duration_years": [
+        1089
+      ],
+      "essence": "避党争外放起点、再知杭州行程始发地",
+      "su_shi_story": "厌倦朝堂派系倾轧，放下高位荣名，\n主动奔赴江南杭州，重归山水与民生之间。\n",
+      "historical_context": "元祐朝堂核心，党争纷争之地，苏轼自请外放，由此启程南下。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "bj-s001",
+      "name": "开封相国寺",
+      "type": "寺庙",
+      "location": "河南省开封市鼓楼区自由路西段",
+      "description": "中国十大名寺之一，北宋皇家寺院",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥45",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAA",
+      "distance": ""
+    },
+    {
+      "id": "bj-s002",
+      "name": "开封府",
+      "type": "遗址",
+      "location": "河南省开封市",
+      "description": "北宋开封府衙，包拯曾在此任知府",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥65",
+      "suggested_duration": "2小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "开封站 / 开封北站",
+    "bus": "开封汽车中心站",
+    "car": "连霍高速 / 大广高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS164",
+    "pinyin_id": "bianjing",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.7977,
+    "v3_lng": 114.3667
+  },
+  "extended_story": "入京赴考文章惊动欧阳修，兄弟同榜进士及第，\n一朝名动天下，正式踏入北宋朝堂文人圈层。",
+  "essence": "苏轼文坛仕途成名起点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.252Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省开封市",
+  "coords_updated_at": "2026-06-01T10:17:04.307Z",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1094,
+    "span_years": 38,
+    "duration_label": "1056-1094 · 38年",
+    "related_route_count": 12,
+    "stage_ids": [
+      "S2",
+      "S3",
+      "S4"
+    ]
+  },
+  "famous_line": {
+    "quote": "六祖之像，在浴室院。",
+    "source": "兴国寺浴室院六祖画赞",
+    "from": "global_works.excerpt"
+  }
+}

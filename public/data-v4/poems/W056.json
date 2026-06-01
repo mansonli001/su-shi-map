@@ -1,0 +1,26 @@
+{
+  "id": "W056",
+  "title": "食荔枝",
+  "category": "岭南名篇",
+  "type": "诗",
+  "year_estimate": 1096,
+  "route_id": "R18",
+  "related_route_ids": [
+    "R18"
+  ],
+  "note": "1096 惠州，\"日啖荔枝三百颗，不辞长作岭南人\"",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E9%A3%9F%E8%8D%94%E6%9E%9D",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E9%A3%9F%E8%8D%94%E6%9E%9D&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E9%A3%9F%E8%8D%94%E6%9E%9D&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
+  "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。",
+  "background": "绍圣三年（1096）四月，苏轼贬居惠州第三年，初食荔枝作此诗。岭南风物入诗，把贬谪苦境化作了对天地慷慨馈赠的礼赞，是苏轼晚年豁达心境的典型写照。",
+  "excerpt": "日啖荔枝三百颗，不辞长作岭南人。"
+}

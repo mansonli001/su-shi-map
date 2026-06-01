@@ -1,0 +1,125 @@
+{
+  "id": "P099",
+  "ancient_name": "利州",
+  "modern_name": "广元",
+  "type": "main",
+  "lat": 32.4356,
+  "lng": 105.8395,
+  "related_routes": [
+    "R01",
+    "R05"
+  ],
+  "summary": "蜀道重要节点，三苏出蜀必经之地",
+  "background": "利州（今昭化）是蜀道重要节点，自古交通要道",
+  "tags": [
+    "蜀道",
+    "利州",
+    "main",
+    "hub"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "lz2-001",
+      "date": "嘉祐元年（1056年）三月",
+      "title": "第一次过利州",
+      "description": "三苏出蜀途经利州（昭化），是蜀道重要节点",
+      "significance": "蜀道节点"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "lz2-002",
+        "date": "嘉祐元年（1056年）三月",
+        "title": "第一次过利州",
+        "description": "三苏出蜀途经利州（昭化）",
+        "significance": "蜀道节点"
+      }
+    ],
+    "route02": [
+      {
+        "id": "lz2-003",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第二次过利州",
+        "description": "苏轼第二次出蜀，途经利州",
+        "significance": "蜀道节点"
+      }
+    ],
+    "R01": {
+      "duration": "1056年出川分界节点",
+      "duration_years": [
+        1056
+      ],
+      "essence": "蜀地终界、北方开篇门户",
+      "su_shi_story": "自此彻底走出蜀地疆域，正式踏入秦岭以北中原地界。\n",
+      "historical_context": "川陕水陆交汇重镇，出蜀入陕分界门户。\n",
+      "order_in_route": 7,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R05": {
+      "duration": "1069年川陕分界中转",
+      "duration_years": [
+        1069
+      ],
+      "essence": "川陕分界关键枢纽",
+      "su_shi_story": "踏出蜀地疆域，\n正式踏入秦岭以北、临近朝堂的地理圈层。\n",
+      "historical_context": "川陕水陆交界门户，出蜀入秦第一重镇。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "lz2-s001",
+      "name": "昭化古城",
+      "type": "古城",
+      "location": "四川省广元市昭化区",
+      "description": "蜀道重要节点，有2000多年历史",
+      "opening_hours": "全天",
+      "ticket": "¥58",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "广元站",
+    "bus": "昭化客运中心",
+    "car": "京昆高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "lizhou",
+    "match_strategy": "pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.2947,
+    "v3_lng": 105.8148
+  },
+  "extended_story": "自此彻底走出蜀地疆域，正式踏入秦岭以北中原地界。",
+  "essence": "蜀地终界、北方开篇门户",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.204Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1069,
+    "span_years": 13,
+    "duration_label": "1056-1069 · 13年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "id": "P081",
+  "ancient_name": "剑门关古驿",
+  "modern_name": "四川剑阁剑门关古驿",
+  "type": "sight",
+  "lat": 32.2857,
+  "lng": 105.5247,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "蜀道第一关，三苏出蜀必经之地",
+  "background": "剑门关是蜀道第一关，自古兵家必争之地，三苏出蜀必过剑门",
+  "tags": [
+    "蜀道",
+    "剑门"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "jm-001",
+      "date": "嘉祐元年（1056年）三月",
+      "title": "第一次过剑门关",
+      "description": "三苏出蜀途经剑门关，这是蜀道第一关",
+      "significance": "蜀道第一关"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "jm-002",
+        "date": "嘉祐元年（1056年）三月",
+        "title": "第一次过剑门关",
+        "description": "三苏出蜀途经剑门关",
+        "significance": "蜀道第一关"
+      }
+    ],
+    "route02": [
+      {
+        "id": "jm-003",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第二次过剑门关",
+        "description": "苏轼第二次出蜀，途经剑门关",
+        "significance": "蜀道第一关"
+      }
+    ]
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jm-s001",
+      "name": "剑门关",
+      "type": "关隘",
+      "location": "四川省广元市剑阁县",
+      "description": "蜀道第一关，自古兵家必争之地",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥100",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "剑门关站",
+    "bus": "剑阁汽车站",
+    "car": "京昆高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS122",
+    "pinyin_id": "jianmen",
+    "match_strategy": "ss:ancient_substr+pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 32.295,
+    "v3_lng": 105.485
+  },
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

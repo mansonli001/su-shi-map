@@ -1,0 +1,126 @@
+{
+  "id": "P080",
+  "ancient_name": "剑门关",
+  "modern_name": "四川剑阁剑门关",
+  "type": "main",
+  "lat": 32.2857,
+  "lng": 105.5247,
+  "related_routes": [
+    "R01",
+    "R05"
+  ],
+  "summary": "蜀道第一关，三苏出蜀必经之地",
+  "background": "剑门关是蜀道第一关，自古兵家必争之地，三苏出蜀必过剑门",
+  "tags": [
+    "蜀道",
+    "剑门",
+    "main",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "jm-001",
+      "date": "嘉祐元年（1056年）三月",
+      "title": "第一次过剑门关",
+      "description": "三苏出蜀途经剑门关，这是蜀道第一关",
+      "significance": "蜀道第一关"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route01": [
+      {
+        "id": "jm-002",
+        "date": "嘉祐元年（1056年）三月",
+        "title": "第一次过剑门关",
+        "description": "三苏出蜀途经剑门关",
+        "significance": "蜀道第一关"
+      }
+    ],
+    "route02": [
+      {
+        "id": "jm-003",
+        "date": "熙宁元年（1068年）十二月",
+        "title": "第二次过剑门关",
+        "description": "苏轼第二次出蜀，途经剑门关",
+        "significance": "蜀道第一关"
+      }
+    ],
+    "R01": {
+      "duration": "1056年北上翻越，1057年返程再经",
+      "duration_years": [
+        1056,
+        1057
+      ],
+      "essence": "蜀道天险地标，格局跃升关键点位",
+      "su_shi_story": "青年苏轼亲见剑门绝壁连云、雄峙南北，\n胸襟与山河格局瞬间开阔，留下深刻人生印记。\n",
+      "historical_context": "川陕咽喉天下雄关，自古兵家与驿道必由天险。\n",
+      "order_in_route": 6,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R05": {
+      "duration": "1069年北上翻越雄关",
+      "duration_years": [
+        1069
+      ],
+      "essence": "蜀道分界、心境蜕变地标",
+      "su_shi_story": "数度经过剑门，此时心境已不再是少年观景，\n而是心怀朝堂时局、思虑天下生民。\n",
+      "historical_context": "川陕咽喉天险，历代士人出蜀必登临地标。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jm-s001",
+      "name": "剑门关",
+      "type": "关隘",
+      "location": "四川省广元市剑阁县",
+      "description": "蜀道第一关，自古兵家必争之地",
+      "opening_hours": "08:00-18:00",
+      "ticket": "¥100",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "剑门关站",
+    "bus": "剑阁汽车站",
+    "car": "京昆高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS122",
+    "pinyin_id": "jianmen",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 32.295,
+    "v3_lng": 105.485
+  },
+  "extended_story": "青年苏轼亲见剑门绝壁连云、雄峙南北，\n胸襟与山河格局瞬间开阔，留下深刻人生印记。",
+  "essence": "蜀道天险地标，格局跃升关键点位",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.204Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1069,
+    "span_years": 13,
+    "duration_label": "1056-1069 · 13年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

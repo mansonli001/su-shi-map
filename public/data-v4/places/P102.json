@@ -1,0 +1,24 @@
+{
+  "id": "P102",
+  "ancient_name": "临沂",
+  "modern_name": "山东临沂",
+  "type": "main",
+  "lat": 35.1042,
+  "lng": 118.3564,
+  "related_routes": [
+    "R08"
+  ],
+  "tags": [],
+  "background": "密州任满改知徐州，黄河决口任内组织抗洪。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

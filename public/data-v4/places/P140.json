@@ -1,0 +1,67 @@
+{
+  "id": "P140",
+  "ancient_name": "青州",
+  "modern_name": "山东青州",
+  "type": "main",
+  "lat": 36.685178,
+  "lng": 118.479637,
+  "related_routes": [
+    "R13"
+  ],
+  "summary": "",
+  "background": "齐鲁历史重镇，千年古道枢纽，儒家文脉浸染深厚。",
+  "tags": [
+    "main",
+    "hub"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R13": {
+      "duration": "1085年齐鲁文脉中转",
+      "duration_years": [
+        1085
+      ],
+      "essence": "齐鲁古道文脉核心中转枢纽",
+      "su_shi_story": "驻足青州怀古览胜，感受齐鲁圣贤文脉，\n行路之间涵养儒臣气度。\n",
+      "historical_context": "齐鲁历史重镇，千年古道枢纽，儒家文脉浸染深厚。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS148",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 36.6818,
+    "v3_lng": 118.4797
+  },
+  "extended_story": "驻足青州怀古览胜，感受齐鲁圣贤文脉，\n行路之间涵养儒臣气度。",
+  "essence": "齐鲁古道文脉核心中转枢纽",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.238Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省潍坊市青州市",
+  "coords_updated_at": "2026-06-01T10:17:04.321Z",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

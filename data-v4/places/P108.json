@@ -1,0 +1,162 @@
+{
+  "id": "P108",
+  "ancient_name": "庐山",
+  "modern_name": "江西庐山",
+  "type": "sight",
+  "lat": 29.5644,
+  "lng": 115.9933,
+  "related_routes": [
+    "R11"
+  ],
+  "summary": "苏轼游庐山，留下'不识庐山真面目'千古名句",
+  "background": "庐山是苏轼元丰七年游历地，在此留下多篇诗作",
+  "tags": [
+    "庐山",
+    "山",
+    "瀑布",
+    "main",
+    "visit",
+    "literary"
+  ],
+  "periods": [
+    {
+      "period": "1084",
+      "title": "黄州量移途中·游庐山",
+      "description": "元丰七年（1084年）四月，苏轼离开黄州，赴汝州任上。\n\n途中特意绕道，游历庐山。\n\n在庐山，他写下《题西林壁》：'横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。'——成为中国哲理诗的巅峰之作。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "ls-001",
+      "date": "元丰七年（1084年）五月",
+      "title": "游庐山",
+      "description": "苏轼游庐山，作诗多首",
+      "significance": "庐山之游"
+    }
+  ],
+  "global_works": [
+    {
+      "id": "ls-w001",
+      "title": "题西林壁",
+      "content": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
+      "excerpt": "不识庐山真面目，只缘身在此山中。",
+      "type": "诗",
+      "date": "元丰七年（1084年）五月",
+      "location": "庐山西林寺",
+      "background": "苏轼游庐山题诗于西林寺壁",
+      "fullText": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
+      "coreVerse": "不识庐山真面目，只缘身在此山中。",
+      "poem_id": "W031"
+    },
+    {
+      "id": "ls-w002",
+      "title": "初入庐山",
+      "content": "青山若无素，偃蹇不相亲。要识庐山面，他年是故人。",
+      "excerpt": "要识庐山面，他年是故人。",
+      "type": "诗",
+      "date": "元丰七年（1084年）五月",
+      "location": "庐山",
+      "background": "苏轼初入庐山时作"
+    },
+    {
+      "id": "W033",
+      "title": "庐山诸寺题咏诗",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇"
+    }
+  ],
+  "route_events": {
+    "route13": [
+      {
+        "id": "ls-002",
+        "date": "元丰七年（1084年）五月",
+        "title": "游庐山",
+        "description": "苏轼量移汝州途中游庐山",
+        "significance": "庐山之游"
+      }
+    ],
+    "R11": {
+      "duration": "1084年全山深度漫游",
+      "duration_years": [
+        1084
+      ],
+      "essence": "山水哲理诗诞生地、本次漫游核心名山",
+      "su_shi_story": "全程遍历庐山诸峰古寺，观远近山峦形态各异，\n悟当局迷、旁观清的人生哲理，写下题西林壁千古名作。\n",
+      "historical_context": "江南第一名山，千峰叠翠、云海幽深，佛道古刹林立，山水与文脉相融。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "ls-s001",
+      "name": "庐山",
+      "type": "山",
+      "location": "江西省九江市",
+      "description": "苏轼游庐山",
+      "opening_hours": "全天",
+      "ticket": "景区通票¥160",
+      "suggested_duration": "1-3天",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    },
+    {
+      "id": "ls-s002",
+      "name": "西林寺",
+      "type": "寺庙",
+      "location": "江西省九江市庐山",
+      "description": "苏轼题诗处",
+      "opening_hours": "08:00-17:00",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "九江站",
+    "bus": "庐山汽车站",
+    "car": "福银高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS029",
+    "pinyin_id": "lushan",
+    "match_strategy": "ss:ancient_exact+pinyin:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 29.68,
+    "v3_lng": 115.98
+  },
+  "extended_story": "全程遍历庐山诸峰古寺，观远近山峦形态各异，\n悟当局迷、旁观清的人生哲理，写下题西林壁千古名作。",
+  "essence": "山水哲理诗诞生地、本次漫游核心名山",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.232Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  },
+  "famous_line": {
+    "quote": "不识庐山真面目，只缘身在此山中。",
+    "source": "题西林壁",
+    "from": "global_works.excerpt"
+  }
+}

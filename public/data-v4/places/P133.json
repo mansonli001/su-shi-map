@@ -1,0 +1,56 @@
+{
+  "id": "P133",
+  "ancient_name": "齐鲁古道",
+  "modern_name": "山东齐鲁古道",
+  "type": "sight",
+  "related_routes": [
+    "R13"
+  ],
+  "background": "自莱青州迤至郓曹的齐鲁千年官道，串联古邦名城、圣贤遗迹、长亭古驿，\n是春秋以来文脉通行要道，沉淀千年礼乐古风。",
+  "extended_story": "全程踏行齐鲁古道，古驿长亭、乡野遗俗随处可见，\n抚古道沧桑、怀圣贤遗风，追思齐鲁礼乐文脉，\n行路即是读史，山川古驿皆为修身悟道之资。",
+  "essence": "承载齐鲁千年文脉、催生怀古纪行创作的古道群落",
+  "tags": [
+    "visit",
+    "ancient",
+    "cultural"
+  ],
+  "route_events": {
+    "R13": {
+      "duration": "1085年全程行经怀古",
+      "duration_years": [
+        1085
+      ],
+      "essence": "承载齐鲁千年文脉、催生怀古纪行创作的古道群落",
+      "su_shi_story": "全程踏行齐鲁古道，古驿长亭、乡野遗俗随处可见，\n抚古道沧桑、怀圣贤遗风，追思齐鲁礼乐文脉，\n行路即是读史，山川古驿皆为修身悟道之资。\n",
+      "historical_context": "自莱青州迤至郓曹的齐鲁千年官道，串联古邦名城、圣贤遗迹、长亭古驿，\n是春秋以来文脉通行要道，沉淀千年礼乐古风。\n",
+      "order_in_route": 13,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.240Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1085,
+    "last_year": 1086,
+    "span_years": 1,
+    "duration_label": "1085-1086 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  },
+  "global_works": [
+    {
+      "id": "W038",
+      "title": "齐鲁古道怀古系列",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R13",
+      "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作"
+    }
+  ]
+}

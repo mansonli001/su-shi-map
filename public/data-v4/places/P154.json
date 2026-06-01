@@ -1,0 +1,76 @@
+{
+  "id": "P154",
+  "ancient_name": "石鼓山",
+  "modern_name": "陕西宝鸡石鼓山",
+  "type": "around",
+  "lat": 34.350822,
+  "lng": 107.195044,
+  "related_routes": [
+    "R03"
+  ],
+  "summary": "",
+  "background": "先秦石鼓出土地，金石文化圣地。",
+  "tags": [
+    "study",
+    "visit"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [
+    {
+      "title": "石鼓文跋",
+      "type": "wen",
+      "note": "",
+      "source_route": "R03"
+    }
+  ],
+  "route_events": {
+    "R03": {
+      "duration": "1063年 金石考据",
+      "duration_years": [
+        1063
+      ],
+      "essence": "金石研学核心点位",
+      "su_shi_story": "亲临石鼓山考据金石文字，\n作石鼓文相关题跋，\n拓展金石学识维度。\n",
+      "historical_context": "先秦石鼓出土地，金石文化圣地。\n",
+      "order_in_route": 22,
+      "layer": "surrounding",
+      "priority": "P2"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS132",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 34.3712,
+    "v3_lng": 107.2377
+  },
+  "extended_story": "亲临石鼓山考据金石文字，\n作石鼓文相关题跋，\n拓展金石学识维度。",
+  "essence": "金石研学核心点位",
+  "last_updated": "2026-06-01T10:22:05.196Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "陕西省宝鸡市渭滨区石鼓山",
+  "coords_updated_at": "2026-06-01T10:17:04.322Z",
+  "duration_summary": {
+    "first_year": 1060,
+    "last_year": 1064,
+    "span_years": 4,
+    "duration_label": "1060-1064 · 4年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  },
+  "famous_line": {
+    "quote": "石鼓文跋",
+    "source": "石鼓文跋",
+    "from": "global_works.title"
+  }
+}

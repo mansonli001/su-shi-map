@@ -1,0 +1,75 @@
+{
+  "id": "P084",
+  "ancient_name": "江陵荆州古城",
+  "modern_name": "湖北荆州古城",
+  "type": "around",
+  "lat": 30.346194,
+  "lng": 112.214557,
+  "related_routes": [
+    "R02"
+  ],
+  "summary": "苏轼父丧回乡途经江陵",
+  "background": "江陵即今荆州，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "tags": [
+    "江陵",
+    "荆州"
+  ],
+  "periods": [],
+  "global_events": [
+    {
+      "id": "jl-001",
+      "date": "治平三年（1066年）",
+      "title": "父丧返乡过江陵",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩回乡，途经江陵",
+      "significance": "route03回程"
+    }
+  ],
+  "global_works": [],
+  "route_events": {},
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jl-s001",
+      "name": "荆州古城",
+      "type": "古城",
+      "location": "湖北省荆州市荆州区",
+      "description": "古代兵家必争之地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "荆州站",
+    "bus": "荆州汽车站",
+    "car": "沪渝高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS121",
+    "pinyin_id": "jiangling",
+    "match_strategy": "ss:ancient_substr+pinyin:coord_near",
+    "confidence": 0.85,
+    "v3_lat": 30.3495,
+    "v3_lng": 112.187
+  },
+  "coordinate_source": "amap_corrected",
+  "amap_address": "湖北省荆州市荆州区荆州古城(公交站)",
+  "coords_updated_at": "2026-06-01T10:17:04.316Z",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1060,
+    "span_years": 1,
+    "duration_label": "1059-1060 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

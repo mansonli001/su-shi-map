@@ -1,0 +1,24 @@
+{
+  "id": "P190",
+  "ancient_name": "崤山古道",
+  "modern_name": "河南三门峡崤山古道",
+  "type": "sight",
+  "lat": 34.5,
+  "lng": 111,
+  "related_routes": [
+    "R03"
+  ],
+  "tags": [],
+  "background": "由荆州陆行赴汴京，授官凤翔府签判，初入仕途。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

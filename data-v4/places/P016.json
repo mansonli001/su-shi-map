@@ -1,0 +1,52 @@
+{
+  "id": "P016",
+  "ancient_name": "常山",
+  "modern_name": "山东诸城常山",
+  "type": "around",
+  "related_routes": [
+    "R07"
+  ],
+  "background": "密州近郊祀典名山，宋代地方官祭祀祈雨之所。",
+  "extended_story": "逢时节赴常山祭祀祈福，公务之余登山望远，\n观密州全境平野山川。",
+  "essence": "密州祭祀与登临双重名山",
+  "tags": [
+    "visit",
+    "sacrifice"
+  ],
+  "route_events": {
+    "R07": {
+      "duration": "1074-1076年祭祀巡游常往",
+      "duration_years": [
+        1074,
+        1075,
+        1076
+      ],
+      "essence": "密州祭祀与登临双重名山",
+      "su_shi_story": "逢时节赴常山祭祀祈福，公务之余登山望远，\n观密州全境平野山川。\n",
+      "historical_context": "密州近郊祀典名山，宋代地方官祭祀祈雨之所。\n",
+      "order_in_route": 16,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.216Z",
+  "schema_version": "v4.1",
+  "lng": 119.405251,
+  "lat": 35.894203,
+  "coordinate_source": "amap_corrected",
+  "amap_address": "山东省潍坊市诸城市常山",
+  "coords_updated_at": "2026-06-01T10:17:04.310Z",
+  "duration_summary": {
+    "first_year": 1074,
+    "last_year": 1076,
+    "span_years": 2,
+    "duration_label": "1074-1076 · 2年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

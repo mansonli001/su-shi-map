@@ -1,0 +1,26 @@
+{
+  "id": "P149",
+  "ancient_name": "三峡全程",
+  "modern_name": "",
+  "type": "sight",
+  "lat": 32.009,
+  "lng": 112.987,
+  "related_routes": [
+    "R04"
+  ],
+  "tags": [
+    "坐标待考"
+  ],
+  "background": "凤翔任满还朝判官诰院；父苏洵卒于汴京，扶柩水路归葬眉山。",
+  "route_events": {},
+  "global_events": [],
+  "global_works": [],
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": [],
+  "sub_places": [],
+  "periods": [],
+  "_auto_generated": true,
+  "_source": "b9-fill-missing-detail"
+}

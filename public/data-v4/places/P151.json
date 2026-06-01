@@ -1,0 +1,65 @@
+{
+  "id": "P151",
+  "ancient_name": "陕州",
+  "modern_name": "河南三门峡",
+  "type": "main",
+  "lat": 34.7706,
+  "lng": 111.199,
+  "related_routes": [
+    "R01",
+    "R03",
+    "R04"
+  ],
+  "summary": "",
+  "background": "崤山古道核心地段，东西交通咽喉。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R03": {
+      "duration": "1061年 崤山古道行经",
+      "duration_years": [
+        1061
+      ],
+      "essence": "崤函古道标志性驿点",
+      "su_shi_story": "穿行崤山古道，\n感受古驿苍茫与山河险峻。\n",
+      "historical_context": "崤山古道核心地段，东西交通咽喉。\n",
+      "order_in_route": 11,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS135",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 34.7778,
+    "v3_lng": 111.1982
+  },
+  "extended_story": "穿行崤山古道，\n感受古驿苍茫与山河险峻。",
+  "essence": "崤函古道标志性驿点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.194Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1068,
+    "span_years": 12,
+    "duration_label": "1056-1068 · 12年",
+    "related_route_count": 3,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

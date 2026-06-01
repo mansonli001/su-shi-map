@@ -1,0 +1,29 @@
+{
+  "id": "W060",
+  "title": "到惠州谢表",
+  "category": "朝堂奏表",
+  "type": "策",
+  "year_estimate": 1094,
+  "route_id": "R18",
+  "related_route_ids": [
+    "R18"
+  ],
+  "note": "1094 惠州，宋代官员到任谢表",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%88%B0%E6%83%A0%E5%B7%9E%E8%B0%A2%E8%A1%A8",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%88%B0%E6%83%A0%E5%B7%9E%E8%B0%A2%E8%A1%A8&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%88%B0%E6%83%A0%E5%B7%9E%E8%B0%A2%E8%A1%A8&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": true,
+  "fullText": "仿佛曾游岂梦中，欣然鸡犬识新丰。\n吏民惊怪坐何事，父老相携迎此翁。\n苏武岂知还漠北，管宁自欲老辽东。\n岭南万户皆春色，会有幽人客寓公。",
+  "coreVerse": "仿佛曾游岂梦中，欣然鸡犬识新丰。",
+  "excerpt": "仿佛曾游岂梦中，欣然鸡犬识新丰。",
+  "full_text_source": "chinese-poetry",
+  "full_text_match_level": 4,
+  "matched_title": "十月二日初到惠州",
+  "full_text_needs_review": true
+}

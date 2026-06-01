@@ -1,0 +1,46 @@
+{
+  "id": "P132",
+  "ancient_name": "鄱阳湖",
+  "modern_name": "江西鄱阳湖",
+  "type": "sight",
+  "related_routes": [
+    "R11"
+  ],
+  "background": "江南第一大淡水湖，衔长江、连庐山，湖面辽阔、洲岛错落、秋水长天，\n兼具大江的雄浑与湖泽的空灵，是赣北独有的浩渺江湖水景，与黄州局部江岸小景格局完全不同。",
+  "extended_story": "舟行鄱阳湖万顷碧波之上，极目烟波无际、远山含黛，\n心胸随湖域辽阔彻底打开，一扫黄州四年谪居的局促孤冷；\n不再是临江自伤身世，而是泛舟湖山、从容赏览天地浩阔，心境由内敛转为外放疏朗。",
+  "essence": "涤荡贬谪沉郁、开阔胸襟格局的标志性江湖水景",
+  "tags": [
+    "visit",
+    "landscape",
+    "mood_relief"
+  ],
+  "route_events": {
+    "R11": {
+      "duration": "1084年泛舟穿行观览",
+      "duration_years": [
+        1084
+      ],
+      "essence": "涤荡贬谪沉郁、开阔胸襟格局的标志性江湖水景",
+      "su_shi_story": "舟行鄱阳湖万顷碧波之上，极目烟波无际、远山含黛，\n心胸随湖域辽阔彻底打开，一扫黄州四年谪居的局促孤冷；\n不再是临江自伤身世，而是泛舟湖山、从容赏览天地浩阔，心境由内敛转为外放疏朗。\n",
+      "historical_context": "江南第一大淡水湖，衔长江、连庐山，湖面辽阔、洲岛错落、秋水长天，\n兼具大江的雄浑与湖泽的空灵，是赣北独有的浩渺江湖水景，与黄州局部江岸小景格局完全不同。\n",
+      "order_in_route": 10,
+      "layer": "water",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.233Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

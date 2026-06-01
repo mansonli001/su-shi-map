@@ -1,0 +1,46 @@
+{
+  "id": "P164",
+  "ancient_name": "太湖西岸古村落",
+  "modern_name": "太湖西岸",
+  "type": "around",
+  "related_routes": [
+    "R11"
+  ],
+  "background": "太湖西岸古村落依湖而建、街巷古朴、水系环绕、民风淳厚，\n保留宋代江南水乡聚落原生格局，邻里和睦、烟火恬淡，远离世俗纷扰。",
+  "extended_story": "穿行古村青石板巷、临水民居，感受江南乡土原生人情与慢生活节奏，\n见乡民与世无争、安守本业，更觉朝堂名利皆为负累，\n深深眷恋古村落的清幽安宁，固化终老江南的人生选择。",
+  "essence": "承载江南乡土人文、安放苏轼隐逸初心的原生古村群落",
+  "tags": [
+    "visit",
+    "ancient_village",
+    "folk_custom"
+  ],
+  "route_events": {
+    "R11": {
+      "duration": "1084年探访古村闲游",
+      "duration_years": [
+        1084
+      ],
+      "essence": "承载江南乡土人文、安放苏轼隐逸初心的原生古村群落",
+      "su_shi_story": "穿行古村青石板巷、临水民居，感受江南乡土原生人情与慢生活节奏，\n见乡民与世无争、安守本业，更觉朝堂名利皆为负累，\n深深眷恋古村落的清幽安宁，固化终老江南的人生选择。\n",
+      "historical_context": "太湖西岸古村落依湖而建、街巷古朴、水系环绕、民风淳厚，\n保留宋代江南水乡聚落原生格局，邻里和睦、烟火恬淡，远离世俗纷扰。\n",
+      "order_in_route": 18,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.234Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1084,
+    "last_year": 1085,
+    "span_years": 1,
+    "duration_label": "1084-1085 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S3"
+    ]
+  }
+}

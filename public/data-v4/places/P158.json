@@ -1,0 +1,65 @@
+{
+  "id": "P158",
+  "ancient_name": "泗水亭",
+  "modern_name": "江苏徐州泗水亭",
+  "type": "around",
+  "lat": 34.2632,
+  "lng": 117.1786,
+  "related_routes": [
+    "R08"
+  ],
+  "summary": "",
+  "background": "徐州境内泗水文脉古亭，历史遗迹厚重，自古怀古胜地。",
+  "tags": [
+    "visit",
+    "historical"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R08": {
+      "duration": "1077-1078年凭吊怀古",
+      "duration_years": [
+        1077,
+        1078
+      ],
+      "essence": "徐州境内文史怀古古址",
+      "su_shi_story": "驻足泗水亭凭吊历史遗迹，感楚汉风云、泗水文脉，\n生发怀古咏史之思。\n",
+      "historical_context": "徐州境内泗水文脉古亭，历史遗迹厚重，自古怀古胜地。\n",
+      "order_in_route": 15,
+      "layer": "surrounding",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS068",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_substr",
+    "confidence": 0.65,
+    "v3_lat": 34.26,
+    "v3_lng": 117.18
+  },
+  "extended_story": "驻足泗水亭凭吊历史遗迹，感楚汉风云、泗水文脉，\n生发怀古咏史之思。",
+  "essence": "徐州境内文史怀古古址",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.219Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1077,
+    "last_year": 1078,
+    "span_years": 1,
+    "duration_label": "1077-1078 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

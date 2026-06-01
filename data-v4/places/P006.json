@@ -1,0 +1,57 @@
+{
+  "id": "P006",
+  "ancient_name": "汴河",
+  "modern_name": "河南开封汴河（古道）",
+  "type": "main",
+  "related_routes": [
+    "R04",
+    "R18"
+  ],
+  "background": "北宋核心漕运古道，京师南下江淮主干水道。",
+  "extended_story": "护灵柩沿汴河南下，\n漕运舟行缓慢，满心悲戚。",
+  "essence": "京师南行漕运起点",
+  "tags": [
+    "main",
+    "water_transit"
+  ],
+  "route_events": {
+    "R04": {
+      "duration": "1066年扶柩首段漕运水路",
+      "duration_years": [
+        1066
+      ],
+      "essence": "京师南行漕运起点",
+      "su_shi_story": "护灵柩沿汴河南下，\n漕运舟行缓慢，满心悲戚。\n",
+      "historical_context": "北宋核心漕运古道，京师南下江淮主干水道。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    },
+    "R18": {
+      "duration": "1094年南下舟行航道",
+      "duration_years": [],
+      "essence": "中原入江核心水运通道",
+      "su_shi_story": "沿汴河南下舟行，目送中原渐远，\n心事沉静、看淡仕途起落。\n",
+      "historical_context": "中原连通长江核心水运古道，南迁必经水路。\n",
+      "order_in_route": 3,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.256Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1065,
+    "last_year": 1100,
+    "span_years": 35,
+    "duration_label": "1065-1100 · 35年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2",
+      "S5"
+    ]
+  }
+}

@@ -1,0 +1,7592 @@
+{
+  "_meta": {
+    "schema_version": "v4.0",
+    "data_source": "网络公开资料整理",
+    "disclaimer": "本项目所用苏轼路线、地点、诗词等数据，整理自互联网公开资料，仅供个人学习与文化爱好者交流之用，不作为学术引用依据。坐标与路线为示意性还原，如有错漏欢迎指正。",
+    "version": "v4.0.0-phase1",
+    "generated_at": "2026-06-01T04:06:58.868Z",
+    "total_places": 234,
+    "coordinate_source_dist": {
+      "core_curated": 211,
+      "inferred": 22,
+      "approximate": 1,
+      "amap_corrected": 86
+    },
+    "type_dist": {
+      "around": 61,
+      "main": 98,
+      "sight": 57,
+      "death": 1,
+      "stay": 3,
+      "official": 11,
+      "birth": 2,
+      "study": 1
+    },
+    "detail_count": 148,
+    "detail_updated_at": "2026-06-01T04:12:29.574Z",
+    "coords_amap_merged_at": "2026-06-01T10:17:04.329Z",
+    "coords_amap_corrected_count": 86
+  },
+  "places": [
+    {
+      "id": "P001",
+      "ancient_name": "白鹤峰",
+      "modern_name": "广东惠州白鹤峰",
+      "type": "around",
+      "layer": "around",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广东省惠州市",
+      "coords_updated_at": "2026-06-01T10:17:04.306Z"
+    },
+    {
+      "id": "P002",
+      "ancient_name": "白州",
+      "modern_name": "博白",
+      "type": "main",
+      "layer": "main",
+      "lat": 22.2754,
+      "lng": 109.9758,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P003",
+      "ancient_name": "百步洪",
+      "modern_name": "江苏徐州百步洪",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.249838,
+      "lng": 117.199681,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省徐州市云龙区百步洪",
+      "coords_updated_at": "2026-06-01T10:17:04.307Z"
+    },
+    {
+      "id": "P004",
+      "ancient_name": "北部湾海岸",
+      "modern_name": "广西北部湾海岸",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 21.5,
+      "lng": 109.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P005",
+      "ancient_name": "北江",
+      "modern_name": "广东北江",
+      "type": "main",
+      "layer": "main",
+      "lat": 23.7,
+      "lng": 113.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 8
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P006",
+      "ancient_name": "汴河",
+      "modern_name": "河南开封汴河（古道）",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.7466,
+      "lng": 114.3413,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04",
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P007",
+      "ancient_name": "汴河漕运古道",
+      "modern_name": "河南开封汴河漕运",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.7466,
+      "lng": 114.3413,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P008",
+      "ancient_name": "汴京",
+      "modern_name": "开封",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨12路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R09",
+        "R10",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 18
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 19
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 9
+        },
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 15
+        },
+        {
+          "route_id": "R10",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 14,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.307Z"
+    },
+    {
+      "id": "P009",
+      "ancient_name": "汴京翰林院",
+      "modern_name": "河南开封翰林院旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.308Z"
+    },
+    {
+      "id": "P010",
+      "ancient_name": "汴京太学",
+      "modern_name": "河南开封太学旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.308Z"
+    },
+    {
+      "id": "P011",
+      "ancient_name": "汴京文德殿",
+      "modern_name": "河南开封文德殿旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R15",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.308Z"
+    },
+    {
+      "id": "P012",
+      "ancient_name": "汴京御史台",
+      "modern_name": "河南开封御史台旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.309Z"
+    },
+    {
+      "id": "P013",
+      "ancient_name": "汴京御史台监狱",
+      "modern_name": "河南开封御史台监狱",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R09",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.309Z"
+    },
+    {
+      "id": "P014",
+      "ancient_name": "汴京政事堂",
+      "modern_name": "河南开封政事堂旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R05",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.309Z"
+    },
+    {
+      "id": "P015",
+      "ancient_name": "曹州",
+      "modern_name": "山东菏泽",
+      "type": "main",
+      "layer": "main",
+      "lat": 35.2333,
+      "lng": 115.4811,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P016",
+      "ancient_name": "常山",
+      "modern_name": "山东诸城常山",
+      "type": "around",
+      "layer": "around",
+      "lat": 35.894203,
+      "lng": 119.405251,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省潍坊市诸城市常山",
+      "coords_updated_at": "2026-06-01T10:17:04.310Z"
+    },
+    {
+      "id": "P017",
+      "ancient_name": "常州",
+      "modern_name": "江苏常州",
+      "type": "death",
+      "layer": "main",
+      "lat": 31.811313,
+      "lng": 119.974092,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨6路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R07",
+        "R09",
+        "R11",
+        "R15",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 9
+        },
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 10
+        },
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 2
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 17
+        }
+      ],
+      "occurrences": 7,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省常州市",
+      "coords_updated_at": "2026-06-01T10:17:04.310Z"
+    },
+    {
+      "id": "P018",
+      "ancient_name": "常州终老故居",
+      "modern_name": "江苏常州孙氏馆",
+      "type": "around",
+      "layer": "around",
+      "lat": 31.811313,
+      "lng": 119.974092,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省常州市",
+      "coords_updated_at": "2026-06-01T10:17:04.310Z"
+    },
+    {
+      "id": "P019",
+      "ancient_name": "陈仓",
+      "modern_name": "宝鸡",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.362862,
+      "lng": 107.237682,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 10
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省宝鸡市",
+      "coords_updated_at": "2026-06-01T10:17:04.310Z"
+    },
+    {
+      "id": "P020",
+      "ancient_name": "陈州",
+      "modern_name": "河南淮阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.731543,
+      "lng": 114.852604,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R10",
+        "R14",
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R10",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省周口市淮阳区",
+      "coords_updated_at": "2026-06-01T10:17:04.311Z"
+    },
+    {
+      "id": "P021",
+      "ancient_name": "成都",
+      "modern_name": "四川成都",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.572961,
+      "lng": 104.066301,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨3路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R00",
+        "R01",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 2
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 33
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省成都市",
+      "coords_updated_at": "2026-06-01T10:17:04.311Z"
+    },
+    {
+      "id": "P022",
+      "ancient_name": "成都青羊宫",
+      "modern_name": "四川成都青羊宫",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.6664,
+      "lng": 104.0466,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P023",
+      "ancient_name": "澄迈",
+      "modern_name": "海南澄迈",
+      "type": "main",
+      "layer": "main",
+      "lat": 19.7385,
+      "lng": 110.0079,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 19
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P024",
+      "ancient_name": "赤壁",
+      "modern_name": "赤鼻矶",
+      "type": "sight",
+      "layer": "around",
+      "lat": 30.463,
+      "lng": 114.8869,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P025",
+      "ancient_name": "滁州",
+      "modern_name": "安徽滁州",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.255904,
+      "lng": 118.333439,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "安徽省滁州市",
+      "coords_updated_at": "2026-06-01T10:17:04.311Z"
+    },
+    {
+      "id": "P026",
+      "ancient_name": "滁州琅琊山",
+      "modern_name": "安徽滁州琅琊山",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "安徽省滁州市琅琊区琅琊山",
+      "coords_updated_at": "2026-06-01T10:17:04.312Z"
+    },
+    {
+      "id": "P027",
+      "ancient_name": "楚州",
+      "modern_name": "江苏淮安",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.551495,
+      "lng": 119.113166,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨7路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R07",
+        "R08",
+        "R09",
+        "R12",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 13
+        },
+        {
+          "route_id": "R12",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 7,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省淮安市",
+      "coords_updated_at": "2026-06-01T10:17:04.312Z"
+    },
+    {
+      "id": "P028",
+      "ancient_name": "磁州",
+      "modern_name": "河北磁县",
+      "type": "main",
+      "layer": "main",
+      "lat": 36.3744,
+      "lng": 114.3776,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P029",
+      "ancient_name": "大别山边缘古道",
+      "modern_name": "大别山北缘古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.5,
+      "lng": 115.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P030",
+      "ancient_name": "大慈寺",
+      "modern_name": "四川成都大慈寺",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.6612,
+      "lng": 104.085,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P031",
+      "ancient_name": "大庾岭",
+      "modern_name": "梅岭",
+      "type": "main",
+      "layer": "main",
+      "lat": 25.4162,
+      "lng": 114.3105,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P032",
+      "ancient_name": "大庾岭梅关",
+      "modern_name": "江西大余梅关",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 25.367996,
+      "lng": 114.352982,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江西省赣州市大余县梅关",
+      "coords_updated_at": "2026-06-01T10:17:04.313Z"
+    },
+    {
+      "id": "P033",
+      "ancient_name": "丹崖山",
+      "modern_name": "山东蓬莱丹崖山",
+      "type": "around",
+      "layer": "around",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省烟台市蓬莱区",
+      "coords_updated_at": "2026-06-01T10:17:04.313Z"
+    },
+    {
+      "id": "P034",
+      "ancient_name": "儋州",
+      "modern_name": "海南儋州",
+      "type": "stay",
+      "layer": "main",
+      "lat": 19.5176,
+      "lng": 109.581,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 20
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P035",
+      "ancient_name": "儋州桄榔庵",
+      "modern_name": "海南儋州桄榔庵",
+      "type": "around",
+      "layer": "around",
+      "lat": 19.524,
+      "lng": 109.581,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P036",
+      "ancient_name": "登州",
+      "modern_name": "蓬莱",
+      "type": "official",
+      "layer": "main",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R12",
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省烟台市蓬莱区",
+      "coords_updated_at": "2026-06-01T10:17:04.313Z"
+    },
+    {
+      "id": "P037",
+      "ancient_name": "邓州",
+      "modern_name": "河南邓州",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.6814,
+      "lng": 112.0876,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P038",
+      "ancient_name": "定州",
+      "modern_name": "河北定州",
+      "type": "official",
+      "layer": "main",
+      "lat": 38.516,
+      "lng": 114.9897,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17",
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P039",
+      "ancient_name": "定州中山故都",
+      "modern_name": "河北定州中山故都",
+      "type": "around",
+      "layer": "around",
+      "lat": 38.516,
+      "lng": 114.9897,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P040",
+      "ancient_name": "渡琼州海峡",
+      "modern_name": "琼州海峡",
+      "type": "main",
+      "layer": "main",
+      "lat": 20.2,
+      "lng": 110.3,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 17
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P041",
+      "ancient_name": "飞来峰",
+      "modern_name": "浙江杭州飞来峰",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.2454,
+      "lng": 120.1003,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P042",
+      "ancient_name": "凤凰山",
+      "modern_name": "浙江杭州凤凰山",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.233,
+      "lng": 120.1646,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P043",
+      "ancient_name": "凤县",
+      "modern_name": "陕西凤县",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.912,
+      "lng": 106.5238,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 9
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 26
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P044",
+      "ancient_name": "凤翔",
+      "modern_name": "陕西宝鸡凤翔区",
+      "type": "official",
+      "layer": "main",
+      "lat": 34.5234,
+      "lng": 107.3962,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 14
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P045",
+      "ancient_name": "凤翔东湖",
+      "modern_name": "陕西宝鸡凤翔区",
+      "type": "official",
+      "layer": "around",
+      "lat": 34.5234,
+      "lng": 107.3962,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P046",
+      "ancient_name": "扶风",
+      "modern_name": "陕西扶风",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.375636,
+      "lng": 107.900157,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 11
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省宝鸡市扶风县",
+      "coords_updated_at": "2026-06-01T10:17:04.314Z"
+    },
+    {
+      "id": "P047",
+      "ancient_name": "赣江古道",
+      "modern_name": "江西赣江古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 25.8298,
+      "lng": 114.9335,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P048",
+      "ancient_name": "高邮",
+      "modern_name": "江苏高邮",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.7811,
+      "lng": 119.4584,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04",
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 10
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 12
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P049",
+      "ancient_name": "姑苏寒山寺",
+      "modern_name": "江苏苏州寒山寺",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.310469,
+      "lng": 120.568391,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省苏州市姑苏区寒山寺",
+      "coords_updated_at": "2026-06-01T10:17:04.314Z"
+    },
+    {
+      "id": "P050",
+      "ancient_name": "孤山",
+      "modern_name": "浙江杭州孤山",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.2589,
+      "lng": 120.1444,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P051",
+      "ancient_name": "瓜州渡",
+      "modern_name": "江苏扬州瓜洲渡",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.2497,
+      "lng": 119.4361,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04",
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 12
+        },
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P052",
+      "ancient_name": "瓜州古渡",
+      "modern_name": "江苏扬州瓜洲镇",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.254619,
+      "lng": 119.384787,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "江苏省扬州市邗江区瓜洲镇",
+      "coords_updated_at": "2026-06-01T10:17:04.314Z"
+    },
+    {
+      "id": "P053",
+      "ancient_name": "光州",
+      "modern_name": "河南潢川",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.1335,
+      "lng": 115.0468,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P054",
+      "ancient_name": "广州",
+      "modern_name": "广东广州",
+      "type": "main",
+      "layer": "main",
+      "lat": 23.1291,
+      "lng": 113.2644,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 9
+        },
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 12
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P055",
+      "ancient_name": "海州",
+      "modern_name": "江苏连云港",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.5973,
+      "lng": 119.2225,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R12",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P056",
+      "ancient_name": "海州花果山古址",
+      "modern_name": "江苏连云港花果山",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.596639,
+      "lng": 119.221487,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省连云港市",
+      "coords_updated_at": "2026-06-01T10:17:04.314Z"
+    },
+    {
+      "id": "P057",
+      "ancient_name": "汉中栈道",
+      "modern_name": "陕西汉中古栈道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 33.0667,
+      "lng": 107.0228,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R05",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P058",
+      "ancient_name": "杭州",
+      "modern_name": "浙江杭州",
+      "type": "official",
+      "layer": "main",
+      "lat": 30.246566,
+      "lng": 120.209903,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R07",
+        "R14",
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 11
+        },
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "浙江省杭州市",
+      "coords_updated_at": "2026-06-01T10:17:04.315Z"
+    },
+    {
+      "id": "P059",
+      "ancient_name": "濠州",
+      "modern_name": "安徽凤阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.875714,
+      "lng": 117.531791,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "安徽省滁州市凤阳县",
+      "coords_updated_at": "2026-06-01T10:17:04.315Z"
+    },
+    {
+      "id": "P060",
+      "ancient_name": "河北平原古驿",
+      "modern_name": "河北平原驿道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 38,
+      "lng": 115,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P061",
+      "ancient_name": "洪泽湖",
+      "modern_name": "江苏洪泽湖",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.25,
+      "lng": 118.63,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P062",
+      "ancient_name": "洪泽湖古渡口",
+      "modern_name": "江苏洪泽湖古渡口",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 33.25,
+      "lng": 118.63,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R16",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P063",
+      "ancient_name": "洪泽湖沿岸",
+      "modern_name": "江苏洪泽湖沿岸",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 33.25,
+      "lng": 118.63,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R15",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P064",
+      "ancient_name": "洪州",
+      "modern_name": "南昌",
+      "type": "main",
+      "layer": "main",
+      "lat": 28.682,
+      "lng": 115.8579,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P065",
+      "ancient_name": "湖州",
+      "modern_name": "浙江湖州",
+      "type": "official",
+      "layer": "main",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07",
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "浙江省湖州市",
+      "coords_updated_at": "2026-06-01T10:17:04.315Z"
+    },
+    {
+      "id": "P066",
+      "ancient_name": "湖州西塞山",
+      "modern_name": "湖北黄石西塞山（旧考为湖州西塞）",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.205114,
+      "lng": 115.110067,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R09",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "湖北省黄石市西塞山区",
+      "coords_updated_at": "2026-06-01T10:17:04.315Z"
+    },
+    {
+      "id": "P067",
+      "ancient_name": "华山远眺",
+      "modern_name": "陕西华阴华山",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.477861,
+      "lng": 110.084789,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "陕西省渭南市华阴市华山",
+      "coords_updated_at": "2026-06-01T10:17:04.316Z"
+    },
+    {
+      "id": "P068",
+      "ancient_name": "华州",
+      "modern_name": "陕西华州",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.497019,
+      "lng": 109.775765,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨3路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 13
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 24
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 12
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省渭南市华州区",
+      "coords_updated_at": "2026-06-01T10:17:04.316Z"
+    },
+    {
+      "id": "P069",
+      "ancient_name": "淮河",
+      "modern_name": "淮河南岸驿道",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.5,
+      "lng": 116.5,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P070",
+      "ancient_name": "淮河南岸古驿",
+      "modern_name": "淮河南岸驿道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.5,
+      "lng": 116.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P071",
+      "ancient_name": "淮水",
+      "modern_name": "淮河（中游）",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.63,
+      "lng": 117.681,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 9
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P072",
+      "ancient_name": "黄州",
+      "modern_name": "湖北黄冈",
+      "type": "stay",
+      "layer": "main",
+      "lat": 30.454,
+      "lng": 114.88,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10",
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P073",
+      "ancient_name": "黄州东坡雪堂",
+      "modern_name": "湖北黄冈东坡雪堂",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.453722,
+      "lng": 114.872425,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "湖北省黄冈市",
+      "coords_updated_at": "2026-06-01T10:17:04.316Z"
+    },
+    {
+      "id": "P074",
+      "ancient_name": "惠州\n惠州再贬：惠州",
+      "modern_name": "广东惠州",
+      "type": "stay",
+      "layer": "main",
+      "lat": 23.1115,
+      "lng": 114.4153,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 11
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P075",
+      "ancient_name": "惠州合江楼",
+      "modern_name": "广东惠州合江楼",
+      "type": "around",
+      "layer": "around",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P076",
+      "ancient_name": "吉州",
+      "modern_name": "江西吉安",
+      "type": "main",
+      "layer": "main",
+      "lat": 27.091243,
+      "lng": 114.96681,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 13
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江西省吉安市",
+      "coords_updated_at": "2026-06-01T10:17:04.316Z"
+    },
+    {
+      "id": "P077",
+      "ancient_name": "济南",
+      "modern_name": "山东济南",
+      "type": "main",
+      "layer": "main",
+      "lat": 36.6512,
+      "lng": 117.1201,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P078",
+      "ancient_name": "嘉州",
+      "modern_name": "乐山",
+      "type": "main",
+      "layer": "main",
+      "lat": 29.5521,
+      "lng": 103.7656,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 18
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P079",
+      "ancient_name": "犍为",
+      "modern_name": "四川犍为",
+      "type": "main",
+      "layer": "main",
+      "lat": 29.2092,
+      "lng": 103.9491,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P080",
+      "ancient_name": "剑门关",
+      "modern_name": "四川剑阁剑门关",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.2857,
+      "lng": 105.5247,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 30
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P081",
+      "ancient_name": "剑门关古驿",
+      "modern_name": "四川剑阁剑门关古驿",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.2857,
+      "lng": 105.5247,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P082",
+      "ancient_name": "江淮水乡驿道",
+      "modern_name": "江淮水乡古驿",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.5,
+      "lng": 118.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P083",
+      "ancient_name": "江陵",
+      "modern_name": "湖北荆州江陵",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.3517,
+      "lng": 112.1859,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 10
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P084",
+      "ancient_name": "江陵荆州古城",
+      "modern_name": "湖北荆州古城",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.346194,
+      "lng": 112.214557,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "湖北省荆州市荆州区荆州古城(公交站)",
+      "coords_updated_at": "2026-06-01T10:17:04.316Z"
+    },
+    {
+      "id": "P085",
+      "ancient_name": "江南运河",
+      "modern_name": "江南运河（苏州段）",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.2989,
+      "lng": 120.5853,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P086",
+      "ancient_name": "江南运河全线",
+      "modern_name": "江南运河",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 30.8702,
+      "lng": 120.0934,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R15",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P087",
+      "ancient_name": "江州",
+      "modern_name": "九江",
+      "type": "main",
+      "layer": "main",
+      "lat": 29.66116,
+      "lng": 115.95356,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 14
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江西省九江市",
+      "coords_updated_at": "2026-06-01T10:17:04.317Z"
+    },
+    {
+      "id": "P088",
+      "ancient_name": "胶东半岛古道",
+      "modern_name": "山东胶东半岛古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 36.8,
+      "lng": 120.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P089",
+      "ancient_name": "金陵",
+      "modern_name": "南京",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.0603,
+      "lng": 118.7969,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 15
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P090",
+      "ancient_name": "金陵秦淮",
+      "modern_name": "江苏南京秦淮河",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.022,
+      "lng": 118.78,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P091",
+      "ancient_name": "金陵钟山",
+      "modern_name": "江苏南京钟山",
+      "type": "around",
+      "layer": "around",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省南京市玄武区钟山",
+      "coords_updated_at": "2026-06-01T10:17:04.317Z"
+    },
+    {
+      "id": "P092",
+      "ancient_name": "荆州",
+      "modern_name": "湖北荆州",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.3358,
+      "lng": 112.2391,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 11
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P093",
+      "ancient_name": "夔门三峡",
+      "modern_name": "长江三峡（瞿塘峡）",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.05,
+      "lng": 109.7,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P094",
+      "ancient_name": "夔州",
+      "modern_name": "奉节",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.018505,
+      "lng": 109.401056,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 14
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "重庆市奉节县",
+      "coords_updated_at": "2026-06-01T10:17:04.317Z"
+    },
+    {
+      "id": "P095",
+      "ancient_name": "莱州",
+      "modern_name": "山东莱州",
+      "type": "main",
+      "layer": "main",
+      "lat": 37.1771,
+      "lng": 119.9333,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P096",
+      "ancient_name": "乐山大佛",
+      "modern_name": "四川乐山大佛",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 29.545,
+      "lng": 103.7752,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P097",
+      "ancient_name": "雷州",
+      "modern_name": "广东雷州",
+      "type": "main",
+      "layer": "main",
+      "lat": 20.9143,
+      "lng": 110.0905,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 15
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P098",
+      "ancient_name": "雷州伏波庙",
+      "modern_name": "广东雷州伏波庙",
+      "type": "around",
+      "layer": "around",
+      "lat": 20.9143,
+      "lng": 110.0905,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P099",
+      "ancient_name": "利州",
+      "modern_name": "广元",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.4356,
+      "lng": 105.8395,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 29
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P100",
+      "ancient_name": "廉州",
+      "modern_name": "合浦",
+      "type": "main",
+      "layer": "main",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广西壮族自治区北海市合浦县",
+      "coords_updated_at": "2026-06-01T10:17:04.317Z"
+    },
+    {
+      "id": "P101",
+      "ancient_name": "廉州白石镇",
+      "modern_name": "广西合浦白石镇",
+      "type": "around",
+      "layer": "around",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广西壮族自治区北海市合浦县",
+      "coords_updated_at": "2026-06-01T10:17:04.318Z"
+    },
+    {
+      "id": "P102",
+      "ancient_name": "临沂",
+      "modern_name": "山东临沂",
+      "type": "main",
+      "layer": "main",
+      "lat": 35.1042,
+      "lng": 118.3564,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P103",
+      "ancient_name": "灵隐寺",
+      "modern_name": "浙江杭州灵隐寺",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.244,
+      "lng": 120.0982,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P104",
+      "ancient_name": "灵隐天竺",
+      "modern_name": "浙江杭州灵隐天竺",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.274832,
+      "lng": 120.129683,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "浙江省杭州市西湖区灵隐街道天竺(网商银行)",
+      "coords_updated_at": "2026-06-01T10:17:04.318Z"
+    },
+    {
+      "id": "P105",
+      "ancient_name": "岭南西江水路",
+      "modern_name": "广东西江水路",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 23.5,
+      "lng": 111.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P106",
+      "ancient_name": "六井遗迹",
+      "modern_name": "浙江杭州六井",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.2586,
+      "lng": 120.162,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P107",
+      "ancient_name": "卢山",
+      "modern_name": "山东诸城卢山",
+      "type": "around",
+      "layer": "around",
+      "lat": 36.0117,
+      "lng": 119.4336,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P108",
+      "ancient_name": "庐山",
+      "modern_name": "江西庐山",
+      "type": "sight",
+      "layer": "main",
+      "lat": 29.5644,
+      "lng": 115.9933,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P109",
+      "ancient_name": "庐山全山",
+      "modern_name": "江西庐山",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 29.5644,
+      "lng": 115.9933,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P110",
+      "ancient_name": "庐州",
+      "modern_name": "合肥",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.8206,
+      "lng": 117.2272,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P111",
+      "ancient_name": "泸州",
+      "modern_name": "四川泸州",
+      "type": "main",
+      "layer": "main",
+      "lat": 28.8717,
+      "lng": 105.4422,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 16
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P112",
+      "ancient_name": "罗浮山",
+      "modern_name": "广东博罗罗浮山",
+      "type": "sight",
+      "layer": "main",
+      "lat": 23.269017,
+      "lng": 114.034674,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 10
+        },
+        {
+          "route_id": "R18",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广东省惠州市博罗县罗浮山",
+      "coords_updated_at": "2026-06-01T10:17:04.318Z"
+    },
+    {
+      "id": "P113",
+      "ancient_name": "洛阳",
+      "modern_name": "河南洛阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.6197,
+      "lng": 112.454,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 17
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 20
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 9
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 8
+        }
+      ],
+      "occurrences": 5,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P114",
+      "ancient_name": "洛阳龙门",
+      "modern_name": "河南洛阳龙门石窟",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.567215,
+      "lng": 112.477141,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省洛阳市洛龙区龙门村石窟街道",
+      "coords_updated_at": "2026-06-01T10:17:04.318Z"
+    },
+    {
+      "id": "P115",
+      "ancient_name": "蟆颐山蟆颐观",
+      "modern_name": "四川眉山蟆颐山",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.051142,
+      "lng": 103.876237,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "四川省眉山市东坡区蟆颐山",
+      "coords_updated_at": "2026-06-01T10:17:04.319Z"
+    },
+    {
+      "id": "P116",
+      "ancient_name": "眉山",
+      "modern_name": "四川眉山",
+      "type": "birth",
+      "layer": "main",
+      "lat": 30.077113,
+      "lng": 103.848417,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R02",
+        "R04",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 35
+        },
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 19
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 5,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省眉山市",
+      "coords_updated_at": "2026-06-01T10:17:04.319Z"
+    },
+    {
+      "id": "P117",
+      "ancient_name": "眉山玻璃江",
+      "modern_name": "四川眉山玻璃江",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 30.077113,
+      "lng": 103.848417,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省眉山市",
+      "coords_updated_at": "2026-06-01T10:17:04.319Z"
+    },
+    {
+      "id": "P118",
+      "ancient_name": "眉山故居",
+      "modern_name": "四川眉山",
+      "type": "birth",
+      "layer": "main",
+      "lat": 30.077113,
+      "lng": 103.848417,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "四川省眉山市",
+      "coords_updated_at": "2026-06-01T10:17:04.320Z"
+    },
+    {
+      "id": "P119",
+      "ancient_name": "密州",
+      "modern_name": "诸城",
+      "type": "official",
+      "layer": "main",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07",
+        "R08",
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 0
+        },
+        {
+          "route_id": "R12",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省潍坊市诸城市",
+      "coords_updated_at": "2026-06-01T10:17:04.320Z"
+    },
+    {
+      "id": "P120",
+      "ancient_name": "密州超然台",
+      "modern_name": "山东诸城超然台",
+      "type": "around",
+      "layer": "around",
+      "lat": 35.9942,
+      "lng": 119.4039,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P121",
+      "ancient_name": "绵州",
+      "modern_name": "四川绵阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.4674,
+      "lng": 104.6796,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 32
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P122",
+      "ancient_name": "勉县",
+      "modern_name": "陕西勉县",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.153,
+      "lng": 106.6789,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 27
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P123",
+      "ancient_name": "渑池",
+      "modern_name": "河南渑池",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.767,
+      "lng": 111.77,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 16
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 21
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P124",
+      "ancient_name": "渑池僧舍",
+      "modern_name": "河南渑池僧舍",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.767,
+      "lng": 111.77,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P125",
+      "ancient_name": "南都",
+      "modern_name": "商丘",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.4148,
+      "lng": 115.65,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P126",
+      "ancient_name": "南雄",
+      "modern_name": "广东南雄",
+      "type": "main",
+      "layer": "main",
+      "lat": 25.117,
+      "lng": 114.3115,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P127",
+      "ancient_name": "南浔古驿",
+      "modern_name": "浙江湖州南浔古驿",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 30.850835,
+      "lng": 120.418244,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R09",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "浙江省湖州市南浔区",
+      "coords_updated_at": "2026-06-01T10:17:04.321Z"
+    },
+    {
+      "id": "P128",
+      "ancient_name": "宁强",
+      "modern_name": "陕西宁强",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.8294,
+      "lng": 106.258,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 28
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P129",
+      "ancient_name": "彭山",
+      "modern_name": "四川彭山",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.1929,
+      "lng": 103.8769,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00",
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 34
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P130",
+      "ancient_name": "彭山江口",
+      "modern_name": "四川彭山江口",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 30.245716,
+      "lng": 103.91945,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省眉山市彭山区江口街道",
+      "coords_updated_at": "2026-06-01T10:17:04.321Z"
+    },
+    {
+      "id": "P131",
+      "ancient_name": "蓬莱阁",
+      "modern_name": "山东蓬莱阁",
+      "type": "around",
+      "layer": "around",
+      "lat": 37.8228,
+      "lng": 120.7546,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P132",
+      "ancient_name": "鄱阳湖",
+      "modern_name": "江西鄱阳湖",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 29.05,
+      "lng": 116.2167,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P133",
+      "ancient_name": "齐鲁古道",
+      "modern_name": "山东齐鲁古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 36.5,
+      "lng": 117.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P134",
+      "ancient_name": "岐亭",
+      "modern_name": "湖北麻城岐亭镇",
+      "type": "around",
+      "layer": "around",
+      "lat": 31.022195,
+      "lng": 114.754592,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "湖北省黄冈市麻城市岐亭镇",
+      "coords_updated_at": "2026-06-01T10:17:04.321Z"
+    },
+    {
+      "id": "P135",
+      "ancient_name": "蕲水",
+      "modern_name": "湖北浠水",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.4509,
+      "lng": 115.2615,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P136",
+      "ancient_name": "虔州",
+      "modern_name": "赣州",
+      "type": "main",
+      "layer": "main",
+      "lat": 25.8298,
+      "lng": 114.9335,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 12
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P137",
+      "ancient_name": "秦岭古驿",
+      "modern_name": "陕西秦岭古驿",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 33.5,
+      "lng": 107,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R05",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P138",
+      "ancient_name": "青神",
+      "modern_name": "四川青神",
+      "type": "main",
+      "layer": "main",
+      "lat": 29.8323,
+      "lng": 103.8475,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P139",
+      "ancient_name": "青神平羌江",
+      "modern_name": "四川青神平羌江",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 29.8323,
+      "lng": 103.8475,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P140",
+      "ancient_name": "青州",
+      "modern_name": "山东青州",
+      "type": "main",
+      "layer": "main",
+      "lat": 36.685178,
+      "lng": 118.479637,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省潍坊市青州市",
+      "coords_updated_at": "2026-06-01T10:17:04.321Z"
+    },
+    {
+      "id": "P141",
+      "ancient_name": "琼州",
+      "modern_name": "海口",
+      "type": "main",
+      "layer": "main",
+      "lat": 20.0444,
+      "lng": 110.1992,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 18
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P142",
+      "ancient_name": "琼州海峡",
+      "modern_name": "琼州海峡",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 20.2,
+      "lng": 110.3,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P143",
+      "ancient_name": "仁和运河",
+      "modern_name": "浙江杭州仁和运河",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.4,
+      "lng": 120.1551,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P144",
+      "ancient_name": "戎州",
+      "modern_name": "宜宾",
+      "type": "main",
+      "layer": "main",
+      "lat": 28.752354,
+      "lng": 104.642826,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 17
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省宜宾市",
+      "coords_updated_at": "2026-06-01T10:17:04.321Z"
+    },
+    {
+      "id": "P145",
+      "ancient_name": "汝州",
+      "modern_name": "河南汝州",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.1611,
+      "lng": 112.8443,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P146",
+      "ancient_name": "润州",
+      "modern_name": "镇江",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.1885,
+      "lng": 119.4253,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨5路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R09",
+        "R11",
+        "R14",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 16
+        }
+      ],
+      "occurrences": 5,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P147",
+      "ancient_name": "三苏祠",
+      "modern_name": "四川眉山三苏祠",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省眉山市东坡区三苏祠",
+      "coords_updated_at": "2026-06-01T10:17:04.322Z"
+    },
+    {
+      "id": "P148",
+      "ancient_name": "三潭印月",
+      "modern_name": "浙江杭州三潭印月",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.246566,
+      "lng": 120.209903,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "浙江省杭州市",
+      "coords_updated_at": "2026-06-01T10:17:04.322Z"
+    },
+    {
+      "id": "P149",
+      "ancient_name": "三峡全程",
+      "modern_name": "",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.009,
+      "lng": 112.987,
+      "coordinate_source": "approximate",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标待考"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P150",
+      "ancient_name": "沙湖",
+      "modern_name": "湖北浠水沙湖",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.41,
+      "lng": 115.035,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P151",
+      "ancient_name": "陕州",
+      "modern_name": "河南三门峡",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.7706,
+      "lng": 111.199,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 22
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 10
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P152",
+      "ancient_name": "陕州硖石",
+      "modern_name": "河南三门峡硖石",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.732,
+      "lng": 111.2854,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 15
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P153",
+      "ancient_name": "韶州",
+      "modern_name": "广东韶关",
+      "type": "main",
+      "layer": "main",
+      "lat": 24.8108,
+      "lng": 113.5972,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 11
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P154",
+      "ancient_name": "石鼓山",
+      "modern_name": "陕西宝鸡石鼓山",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.350822,
+      "lng": 107.195044,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省宝鸡市渭滨区石鼓山",
+      "coords_updated_at": "2026-06-01T10:17:04.322Z"
+    },
+    {
+      "id": "P155",
+      "ancient_name": "石钟山",
+      "modern_name": "江西湖口石钟山",
+      "type": "sight",
+      "layer": "main",
+      "lat": 29.743224,
+      "lng": 116.223424,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R11",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江西省九江市湖口县石钟山",
+      "coords_updated_at": "2026-06-01T10:17:04.322Z"
+    },
+    {
+      "id": "P156",
+      "ancient_name": "寿州",
+      "modern_name": "安徽寿县",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "安徽省淮南市寿县",
+      "coords_updated_at": "2026-06-01T10:17:04.322Z"
+    },
+    {
+      "id": "P157",
+      "ancient_name": "泗水古道",
+      "modern_name": "山东泗水古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34,
+      "lng": 117.46,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P158",
+      "ancient_name": "泗水亭",
+      "modern_name": "江苏徐州泗水亭",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.2632,
+      "lng": 117.1786,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P159",
+      "ancient_name": "泗州",
+      "modern_name": "江苏盱眙",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R08",
+        "R09",
+        "R15",
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 14
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省淮安市盱眙县",
+      "coords_updated_at": "2026-06-01T10:17:04.323Z"
+    },
+    {
+      "id": "P160",
+      "ancient_name": "苏北沿海驿道",
+      "modern_name": "江苏苏北沿海",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 33,
+      "lng": 119.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P161",
+      "ancient_name": "苏州",
+      "modern_name": "江苏苏州",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.2989,
+      "lng": 120.5853,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨5路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R07",
+        "R09",
+        "R14",
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 10
+        },
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 2
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 5,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P162",
+      "ancient_name": "宿州",
+      "modern_name": "安徽宿州",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.647726,
+      "lng": 116.96419,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08",
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "安徽省宿州市",
+      "coords_updated_at": "2026-06-01T10:17:04.323Z"
+    },
+    {
+      "id": "P163",
+      "ancient_name": "太白山",
+      "modern_name": "陕西太白山",
+      "type": "around",
+      "layer": "around",
+      "lat": 33.953718,
+      "lng": 107.7701,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省宝鸡市太白县太白山",
+      "coords_updated_at": "2026-06-01T10:17:04.323Z"
+    },
+    {
+      "id": "P164",
+      "ancient_name": "太湖西岸古村落",
+      "modern_name": "太湖西岸",
+      "type": "around",
+      "layer": "around",
+      "lat": 31.4,
+      "lng": 119.9,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P165",
+      "ancient_name": "太湖沿岸",
+      "modern_name": "太湖",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.2087,
+      "lng": 120.2236,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P166",
+      "ancient_name": "太行山东麓",
+      "modern_name": "河北太行山东麓",
+      "type": "around",
+      "layer": "around",
+      "lat": 38.5,
+      "lng": 114,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P167",
+      "ancient_name": "太学",
+      "modern_name": "河南开封太学旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R15"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R15",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.324Z"
+    },
+    {
+      "id": "P168",
+      "ancient_name": "泰山余脉",
+      "modern_name": "山东泰安泰山余脉",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 36.2546,
+      "lng": 117.1011,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P169",
+      "ancient_name": "唐州",
+      "modern_name": "河南唐河",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.682464,
+      "lng": 112.80829,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省南阳市唐河县",
+      "coords_updated_at": "2026-06-01T10:17:04.324Z"
+    },
+    {
+      "id": "P170",
+      "ancient_name": "藤州",
+      "modern_name": "广西藤县",
+      "type": "main",
+      "layer": "main",
+      "lat": 23.3743,
+      "lng": 110.9203,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 14
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 9
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P171",
+      "ancient_name": "潼关",
+      "modern_name": "陕西潼关",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.5418,
+      "lng": 110.2391,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨3路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 14
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 23
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 11
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 4,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P172",
+      "ancient_name": "潼关渡口",
+      "modern_name": "陕西潼关渡口",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.606776,
+      "lng": 110.29004,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省渭南市潼关县潼关渡口",
+      "coords_updated_at": "2026-06-01T10:17:04.324Z"
+    },
+    {
+      "id": "P173",
+      "ancient_name": "潍水古战场",
+      "modern_name": "山东诸城潍水古战场",
+      "type": "around",
+      "layer": "around",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省潍坊市诸城市",
+      "coords_updated_at": "2026-06-01T10:17:04.324Z"
+    },
+    {
+      "id": "P174",
+      "ancient_name": "尉氏",
+      "modern_name": "河南尉氏",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.4117,
+      "lng": 114.1929,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P175",
+      "ancient_name": "巫山",
+      "modern_name": "重庆巫山",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.083,
+      "lng": 109.8821,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 8
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P176",
+      "ancient_name": "巫山神女峰",
+      "modern_name": "重庆巫山神女峰",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.032123,
+      "lng": 110.014172,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "重庆市巫山县巫山神女峰",
+      "coords_updated_at": "2026-06-01T10:17:04.324Z"
+    },
+    {
+      "id": "P177",
+      "ancient_name": "无锡",
+      "modern_name": "江苏无锡",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.4912,
+      "lng": 120.3119,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R07",
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 9
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P178",
+      "ancient_name": "梧州",
+      "modern_name": "广西梧州",
+      "type": "main",
+      "layer": "main",
+      "lat": 23.4775,
+      "lng": 111.2727,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 13
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 10
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P179",
+      "ancient_name": "五丈原",
+      "modern_name": "陕西宝鸡五丈原",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.276745,
+      "lng": 107.618984,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省宝鸡市岐山县五丈原镇",
+      "coords_updated_at": "2026-06-01T10:17:04.325Z"
+    },
+    {
+      "id": "P180",
+      "ancient_name": "武昌樊山",
+      "modern_name": "湖北鄂州（北宋武昌）",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.55,
+      "lng": 114.88,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P181",
+      "ancient_name": "西湖全域",
+      "modern_name": "浙江杭州西湖",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "浙江省杭州市西湖区",
+      "coords_updated_at": "2026-06-01T10:17:04.325Z"
+    },
+    {
+      "id": "P182",
+      "ancient_name": "西湖苏堤",
+      "modern_name": "浙江杭州西湖",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R14"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R14",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "浙江省杭州市西湖区",
+      "coords_updated_at": "2026-06-01T10:17:04.325Z"
+    },
+    {
+      "id": "P183",
+      "ancient_name": "西江山水",
+      "modern_name": "广东西江山水",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 23.5,
+      "lng": 111.5,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P184",
+      "ancient_name": "相国寺",
+      "modern_name": "河南开封大相国寺",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798,
+      "lng": 114.35,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R05",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P185",
+      "ancient_name": "相州",
+      "modern_name": "安阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 36.098779,
+      "lng": 114.39248,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省安阳市",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P186",
+      "ancient_name": "襄城",
+      "modern_name": "河南襄城",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.851609,
+      "lng": 113.506904,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省许昌市襄城县",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P187",
+      "ancient_name": "襄阳",
+      "modern_name": "湖北襄阳",
+      "type": "main",
+      "layer": "main",
+      "lat": 32.0086,
+      "lng": 112.1265,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P188",
+      "ancient_name": "襄阳古隆中",
+      "modern_name": "湖北襄阳古隆中",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.011263,
+      "lng": 112.036777,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "湖北省襄阳市襄城区古隆中(东1门)",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P189",
+      "ancient_name": "崤山二陵",
+      "modern_name": "河南三门峡崤山二陵",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.5,
+      "lng": 111,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P190",
+      "ancient_name": "崤山古道",
+      "modern_name": "河南三门峡崤山古道",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 34.5,
+      "lng": 111,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P191",
+      "ancient_name": "邢州",
+      "modern_name": "河北邢台",
+      "type": "main",
+      "layer": "main",
+      "lat": 37.060227,
+      "lng": 114.49742,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河北省邢台市",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P192",
+      "ancient_name": "兴廉村净行院",
+      "modern_name": "广东雷州兴廉村净行院",
+      "type": "main",
+      "layer": "main",
+      "lat": 20.9143,
+      "lng": 110.0905,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P193",
+      "ancient_name": "兴元",
+      "modern_name": "汉中",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.0667,
+      "lng": 107.0228,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P194",
+      "ancient_name": "徐闻递角场",
+      "modern_name": "广东徐闻递角场（古址）",
+      "type": "main",
+      "layer": "main",
+      "lat": 20.325969,
+      "lng": 110.17595,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18",
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 16
+        },
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广东省湛江市徐闻县",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P195",
+      "ancient_name": "徐州",
+      "modern_name": "江苏徐州",
+      "type": "official",
+      "layer": "main",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08",
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 7
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P196",
+      "ancient_name": "徐州黄楼",
+      "modern_name": "江苏徐州",
+      "type": "official",
+      "layer": "around",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P197",
+      "ancient_name": "许州",
+      "modern_name": "河南许昌",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.0357,
+      "lng": 113.8525,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P198",
+      "ancient_name": "扬州",
+      "modern_name": "江苏扬州",
+      "type": "official",
+      "layer": "main",
+      "lat": 32.3947,
+      "lng": 119.4143,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨8路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R04",
+        "R06",
+        "R07",
+        "R09",
+        "R14",
+        "R15",
+        "R16",
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 11
+        },
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R07",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R09",
+          "layer": "main",
+          "order": 11
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R15",
+          "layer": "main",
+          "order": 3
+        },
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 6
+        },
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 9,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P199",
+      "ancient_name": "扬州平山堂",
+      "modern_name": "江苏扬州平山堂",
+      "type": "around",
+      "layer": "around",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R16",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "江苏省扬州市",
+      "coords_updated_at": "2026-06-01T10:17:04.326Z"
+    },
+    {
+      "id": "P200",
+      "ancient_name": "扬州瘦西湖旧址",
+      "modern_name": "江苏扬州瘦西湖（旧址）",
+      "type": "around",
+      "layer": "around",
+      "lat": 32.409,
+      "lng": 119.4197,
+      "coordinate_source": "inferred",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": false,
+      "legacy": {}
+    },
+    {
+      "id": "P201",
+      "ancient_name": "叶县",
+      "modern_name": "河南叶县",
+      "type": "main",
+      "layer": "main",
+      "lat": 33.627437,
+      "lng": 113.357476,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R03"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省平顶山市叶县",
+      "coords_updated_at": "2026-06-01T10:17:04.327Z"
+    },
+    {
+      "id": "P202",
+      "ancient_name": "沂蒙山",
+      "modern_name": "山东沂蒙山",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 35.55,
+      "lng": 118.19,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P203",
+      "ancient_name": "沂州",
+      "modern_name": "山东临沂",
+      "type": "main",
+      "layer": "main",
+      "lat": 35.1042,
+      "lng": 118.3564,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "main",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P204",
+      "ancient_name": "宜宾锁江楼",
+      "modern_name": "四川宜宾锁江楼",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 28.752354,
+      "lng": 104.642826,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省宜宾市",
+      "coords_updated_at": "2026-06-01T10:17:04.327Z"
+    },
+    {
+      "id": "P205",
+      "ancient_name": "宜兴",
+      "modern_name": "江苏宜兴",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.338429,
+      "lng": 119.821873,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11",
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 8
+        },
+        {
+          "route_id": "R12",
+          "layer": "main",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省无锡市宜兴市",
+      "coords_updated_at": "2026-06-01T10:17:04.327Z"
+    },
+    {
+      "id": "P206",
+      "ancient_name": "宜兴田园",
+      "modern_name": "江苏宜兴",
+      "type": "around",
+      "layer": "around",
+      "lat": 31.338429,
+      "lng": 119.821873,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省无锡市宜兴市",
+      "coords_updated_at": "2026-06-01T10:17:04.327Z"
+    },
+    {
+      "id": "P207",
+      "ancient_name": "益州官署",
+      "modern_name": "拜谒张方平",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.6589,
+      "lng": 104.0633,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P208",
+      "ancient_name": "颍州",
+      "modern_name": "安徽阜阳",
+      "type": "official",
+      "layer": "main",
+      "lat": 32.8898,
+      "lng": 115.8146,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R14",
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "main",
+          "order": 2
+        },
+        {
+          "route_id": "R14",
+          "layer": "main",
+          "order": 2
+        },
+        {
+          "route_id": "R16",
+          "layer": "main",
+          "order": 2
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P209",
+      "ancient_name": "颍州西湖",
+      "modern_name": "安徽阜阳颍州西湖",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.8951,
+      "lng": 115.786,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06",
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "sight",
+          "order": 0
+        },
+        {
+          "route_id": "R16",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P210",
+      "ancient_name": "颍州颍水",
+      "modern_name": "安徽阜阳颍水",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.8898,
+      "lng": 115.8146,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R16"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R16",
+          "layer": "sight",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P211",
+      "ancient_name": "渝州",
+      "modern_name": "重庆",
+      "type": "main",
+      "layer": "main",
+      "lat": 29.563,
+      "lng": 106.5516,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02",
+        "R04"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 5
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 15
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P212",
+      "ancient_name": "郁林",
+      "modern_name": "玉林",
+      "type": "main",
+      "layer": "main",
+      "lat": 22.654001,
+      "lng": 110.18097,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "main",
+          "order": 8
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "广西壮族自治区玉林市",
+      "coords_updated_at": "2026-06-01T10:17:04.328Z"
+    },
+    {
+      "id": "P213",
+      "ancient_name": "云龙山",
+      "modern_name": "江苏徐州云龙山",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.23803,
+      "lng": 117.175429,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R08"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R08",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江苏省徐州市泉山区云龙山",
+      "coords_updated_at": "2026-06-01T10:17:04.328Z"
+    },
+    {
+      "id": "P214",
+      "ancient_name": "筠州",
+      "modern_name": "高安",
+      "type": "main",
+      "layer": "main",
+      "lat": 28.448054,
+      "lng": 115.366863,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R11"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R11",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "江西省宜春市高安市",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P215",
+      "ancient_name": "运河全线风光",
+      "modern_name": "京杭大运河",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.7811,
+      "lng": 119.4584,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R09"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R09",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P216",
+      "ancient_name": "郓州",
+      "modern_name": "山东东平",
+      "type": "main",
+      "layer": "main",
+      "lat": 35.6051,
+      "lng": 116.5891,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 5
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P217",
+      "ancient_name": "载酒堂",
+      "modern_name": "海南儋州载酒堂",
+      "type": "around",
+      "layer": "around",
+      "lat": 19.5232,
+      "lng": 109.5754,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "around",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P218",
+      "ancient_name": "漳河渡口",
+      "modern_name": "河北漳河渡口",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 36.3744,
+      "lng": 114.3776,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "sight",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P219",
+      "ancient_name": "长安",
+      "modern_name": "西安",
+      "type": "main",
+      "layer": "main",
+      "lat": 34.3416,
+      "lng": 108.9398,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 1,
+      "tags": [
+        "核心节点",
+        "跨4路线"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R03",
+        "R04",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 12
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 25
+        },
+        {
+          "route_id": "R03",
+          "layer": "main",
+          "order": 13
+        },
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 1
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 5,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P220",
+      "ancient_name": "长安曲江",
+      "modern_name": "陕西西安曲江",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.209977,
+      "lng": 108.996094,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "around",
+          "order": 0
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "陕西省西安市雁塔区曲江街道",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P221",
+      "ancient_name": "长岛渡口",
+      "modern_name": "山东长岛",
+      "type": "around",
+      "layer": "around",
+      "lat": 37.928274,
+      "lng": 120.727034,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": false,
+      "importance": 3,
+      "tags": [
+        "坐标推断"
+      ],
+      "summary": "",
+      "related_routes": [
+        "R12"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R12",
+          "layer": "around",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": false,
+      "legacy": {},
+      "amap_address": "山东省烟台市蓬莱区长岛(轮渡站)",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P222",
+      "ancient_name": "长江",
+      "modern_name": "长江（中游）",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.5,
+      "lng": 113,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R04",
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R04",
+          "layer": "main",
+          "order": 13
+        },
+        {
+          "route_id": "R18",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 2,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P223",
+      "ancient_name": "长江南岸渡口",
+      "modern_name": "湖北黄冈长江渡口",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.454,
+      "lng": 114.88,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R10"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R10",
+          "layer": "around",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P224",
+      "ancient_name": "长江下游全线",
+      "modern_name": "长江下游",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 31.5,
+      "lng": 118,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R19"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R19",
+          "layer": "sight",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P225",
+      "ancient_name": "长江沿岸渡口",
+      "modern_name": "长江中游渡口",
+      "type": "around",
+      "layer": "around",
+      "lat": 30.5,
+      "lng": 113,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P226",
+      "ancient_name": "真定",
+      "modern_name": "正定",
+      "type": "main",
+      "layer": "main",
+      "lat": 38.1453,
+      "lng": 114.5705,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R17"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R17",
+          "layer": "main",
+          "order": 7
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P227",
+      "ancient_name": "镇江金山寺",
+      "modern_name": "江苏镇江金山寺",
+      "type": "sight",
+      "layer": "sight",
+      "lat": 32.2055,
+      "lng": 119.4036,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R06"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R06",
+          "layer": "sight",
+          "order": 2
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P228",
+      "ancient_name": "中和古镇",
+      "modern_name": "海南儋州中和古镇",
+      "type": "around",
+      "layer": "around",
+      "lat": 19.681,
+      "lng": 109.561,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R18"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R18",
+          "layer": "around",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P229",
+      "ancient_name": "中岩寺",
+      "modern_name": "四川青神中岩寺",
+      "type": "study",
+      "layer": "main",
+      "lat": 29.831302,
+      "lng": 103.846596,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R00"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R00",
+          "layer": "main",
+          "order": 4
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "四川省眉山市青神县",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P230",
+      "ancient_name": "忠州",
+      "modern_name": "重庆忠县",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.2912,
+      "lng": 108.0386,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 6
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P231",
+      "ancient_name": "资善堂",
+      "modern_name": "河南开封资善堂旧址",
+      "type": "around",
+      "layer": "around",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "around",
+          "order": 1
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "河南省开封市",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P232",
+      "ancient_name": "淄州",
+      "modern_name": "山东淄博",
+      "type": "main",
+      "layer": "main",
+      "lat": 36.813787,
+      "lng": 118.054994,
+      "coordinate_source": "amap_corrected",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R13"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R13",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {},
+      "amap_address": "山东省淄博市",
+      "coords_updated_at": "2026-06-01T10:17:04.329Z"
+    },
+    {
+      "id": "P233",
+      "ancient_name": "秭归",
+      "modern_name": "湖北秭归",
+      "type": "main",
+      "layer": "main",
+      "lat": 30.8265,
+      "lng": 110.9825,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 3,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R02"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R02",
+          "layer": "main",
+          "order": 9
+        }
+      ],
+      "occurrences": 1,
+      "has_detail": false,
+      "verified": true,
+      "legacy": {}
+    },
+    {
+      "id": "P234",
+      "ancient_name": "梓潼",
+      "modern_name": "四川梓潼",
+      "type": "main",
+      "layer": "main",
+      "lat": 31.6357,
+      "lng": 105.1664,
+      "coordinate_source": "core_curated",
+      "trustworthy": true,
+      "importance": 2,
+      "tags": [],
+      "summary": "",
+      "related_routes": [
+        "R01",
+        "R05"
+      ],
+      "route_layers": [
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 4
+        },
+        {
+          "route_id": "R01",
+          "layer": "main",
+          "order": 31
+        },
+        {
+          "route_id": "R05",
+          "layer": "main",
+          "order": 3
+        }
+      ],
+      "occurrences": 3,
+      "has_detail": true,
+      "verified": true,
+      "legacy": {}
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "P092",
+  "ancient_name": "荆州",
+  "modern_name": "湖北荆州",
+  "type": "main",
+  "lat": 30.3358,
+  "lng": 112.2391,
+  "related_routes": [
+    "R02",
+    "R03"
+  ],
+  "summary": "苏轼父丧回乡途经江陵",
+  "background": "江陵即今荆州，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "tags": [
+    "江陵",
+    "荆州",
+    "main",
+    "hub",
+    "stay"
+  ],
+  "periods": [
+    {
+      "period": "元丰二年·知湖州，乌台诗案爆发",
+      "startYear": 1079,
+      "endYear": 1079,
+      "narrative": "元丰二年（1079年）四月，苏轼到湖州任知州。仅三个月后（七月），御史台官员弹劾苏轼诗文『诽谤朝廷』，神宗皇帝下令逮捕苏轼。苏轼在湖州任上被逮捕，押解至开封乌台狱中。这就是著名的『乌台诗案』。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "jl-001",
+      "date": "治平三年（1066年）",
+      "title": "父丧返乡过江陵",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩回乡，途经江陵",
+      "significance": "route03回程"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "R02": {
+      "duration": "1059年江汉腹地中转",
+      "duration_years": [
+        1059
+      ],
+      "essence": "江汉平原文脉核心",
+      "su_shi_story": "驻足荆州古城，览江汉风物，\n感受荆楚文脉厚重，\n为后续中原行旅铺垫视野。\n",
+      "historical_context": "荆楚文化核心古都，江汉平原门户，\n南行水路重要落脚地。\n",
+      "order_in_route": 12,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R03": {
+      "duration": "1060年 水路终点、陆路北上始发",
+      "duration_years": [
+        1060
+      ],
+      "essence": "水路转陆路的分界枢纽",
+      "su_shi_story": "苏轼结束岷江长江全程水路行旅，\n在荆州弃舟登岸，改走中原陆路古驿道，\n正式开启二次进京的官道行程。\n",
+      "historical_context": "江汉平原核心枢纽，南北水陆转换重镇，\n宋代南人北上中原必经登陆节点。\n",
+      "order_in_route": 1,
+      "layer": "main",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "jl-s001",
+      "name": "荆州古城",
+      "type": "古城",
+      "location": "湖北省荆州市荆州区",
+      "description": "古代兵家必争之地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "2-3小时",
+      "photos": [],
+      "url": "",
+      "rating": "AAAAA",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "荆州站",
+    "bus": "荆州汽车站",
+    "car": "沪渝高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS060",
+    "pinyin_id": "jiangling",
+    "match_strategy": "ss:ancient_exact+pinyin:coord_near",
+    "confidence": 0.95,
+    "v3_lat": 30.35,
+    "v3_lng": 111.78
+  },
+  "extended_story": "驻足荆州古城，览江汉风物，\n感受荆楚文脉厚重，\n为后续中原行旅铺垫视野。",
+  "essence": "江汉平原文脉核心",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.192Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1059,
+    "last_year": 1064,
+    "span_years": 5,
+    "duration_label": "1059-1064 · 5年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

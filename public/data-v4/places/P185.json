@@ -1,0 +1,67 @@
+{
+  "id": "P185",
+  "ancient_name": "相州",
+  "modern_name": "安阳",
+  "type": "main",
+  "lat": 36.098779,
+  "lng": 114.39248,
+  "related_routes": [
+    "R17"
+  ],
+  "summary": "",
+  "background": "豫北古州，殷商故地，河北平原南部门户古驿。",
+  "tags": [
+    "main",
+    "ancient"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R17": {
+      "duration": "1094年河北古驿首站",
+      "duration_years": [
+        1094
+      ],
+      "essence": "中原入河北平原门户节点",
+      "su_shi_story": "自汴京北入河北，首至相州，\n地貌转为平原苍莽，风物渐显北地荒寒。\n",
+      "historical_context": "豫北古州，殷商故地，河北平原南部门户古驿。\n",
+      "order_in_route": 5,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS111",
+    "pinyin_id": null,
+    "match_strategy": "ss:ancient_exact",
+    "confidence": 0.95,
+    "v3_lat": 36.1,
+    "v3_lng": 114.5
+  },
+  "extended_story": "自汴京北入河北，首至相州，\n地貌转为平原苍莽，风物渐显北地荒寒。",
+  "essence": "中原入河北平原门户节点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.252Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "河南省安阳市",
+  "coords_updated_at": "2026-06-01T10:17:04.326Z",
+  "duration_summary": {
+    "first_year": 1093,
+    "last_year": 1094,
+    "span_years": 1,
+    "duration_label": "1093-1094 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S4"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "P128",
+  "ancient_name": "宁强",
+  "modern_name": "陕西宁强",
+  "type": "main",
+  "lat": 32.8294,
+  "lng": 106.258,
+  "related_routes": [
+    "R01"
+  ],
+  "summary": "",
+  "background": "秦岭东段山地古驿道，川入陕艰险路段。",
+  "tags": [
+    "main"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "R01": {
+      "duration": "1056年秦岭驿道途经",
+      "duration_years": [
+        1056
+      ],
+      "essence": "秦岭山地驿道途经点",
+      "su_shi_story": "穿行秦岭山道，体会古驿行路艰辛，磨炼心性。\n",
+      "historical_context": "秦岭东段山地古驿道，川入陕艰险路段。\n",
+      "order_in_route": 8,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [],
+  "foods": [],
+  "transport": {},
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS129",
+    "pinyin_id": null,
+    "match_strategy": "ss:modern_exact",
+    "confidence": 0.8,
+    "v3_lat": 32.8478,
+    "v3_lng": 106.2335
+  },
+  "extended_story": "穿行秦岭山道，体会古驿行路艰辛，磨炼心性。",
+  "essence": "秦岭山地驿道途经点",
+  "source": [
+    "李常生苏轼行踪考"
+  ],
+  "last_updated": "2026-06-01T10:22:05.182Z",
+  "schema_version": "v4.1",
+  "duration_summary": {
+    "first_year": 1056,
+    "last_year": 1057,
+    "span_years": 1,
+    "duration_label": "1056-1057 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S2"
+    ]
+  }
+}

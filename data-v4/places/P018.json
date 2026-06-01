@@ -1,0 +1,134 @@
+{
+  "id": "P018",
+  "ancient_name": "常州终老故居",
+  "modern_name": "江苏常州孙氏馆",
+  "type": "around",
+  "lat": 31.811313,
+  "lng": 119.974092,
+  "related_routes": [
+    "R19"
+  ],
+  "summary": "苏轼北归卒于常州",
+  "background": "常州今江苏常州，苏轼建中靖国元年卒于此",
+  "tags": [
+    "常州",
+    "毗陵",
+    "stay",
+    "end_life",
+    "seclusion"
+  ],
+  "periods": [
+    {
+      "period": "1100",
+      "title": "北归途经·计划养老",
+      "description": "元符三年（1100年）正月，宋徽宗即位，大赦天下。五月，苏轼接到诏命，移廉州安置。\n\n从儋州北返，途经广西、广东、江西、福建、浙江、江苏。苏轼在途中，计划在常州养老——'吾欲退休于常州'。\n\n常州在北宋属于'江南富庶之地'，苏轼年轻时（1066年）就路过常州，留下了好印象。后来在杭州、扬州任职时，也多次经过常州。"
+    },
+    {
+      "period": "1101",
+      "title": "常州病逝·享年六十五",
+      "description": "建中靖国元年（1101年）六月，苏轼抵达常州。\n\n此时的苏轼，已经百病缠身：痔疮、疟疾、眼病、背痛……六十六岁的老人，在热带海岛待了三年，身体彻底垮了。\n\n他在常州租了一所房子住下，写信给朋友说：'某病甚，气羸然不能支。'——我病得很重，气力微弱得撑不住。\n\n七月二十八日，苏轼在常州逝世，享年六十五岁（虚岁六十六）。\n\n临终前，苏辙赶来见最后一面。苏轼说：'吾生无恶，死必不堕。'——我一生没做过恶事，死了必定不会堕落。说完，端坐而逝。"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "changz-001",
+      "date": "建中靖国元年（1101年）七月二十八日",
+      "title": "卒于常州",
+      "description": "苏轼卒于常州",
+      "significance": "卒于常州"
+    }
+  ],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "changz-002",
+        "date": "建中靖国元年（1101年）七月",
+        "title": "到常州",
+        "description": "苏轼北归至常州",
+        "significance": "到常州"
+      },
+      {
+        "id": "changz-003",
+        "date": "建中靖国元年（1101年）七月二十八日",
+        "title": "卒于常州",
+        "description": "苏轼卒于常州孙氏公馆",
+        "significance": "卒于常州"
+      }
+    ],
+    "R19": {
+      "duration": "1101年定居终老",
+      "duration_years": [],
+      "essence": "苏轼人生最终归宿、一生行旅收官圣地",
+      "su_shi_story": "半生向往卜居江南，终在常州圆梦，\n自此闭门静养、不复出仕，\n以江南山水为伴，安然走完一生，\n少年离蜀、宦游万里、暮年归常，行旅圆满闭环。\n",
+      "historical_context": "苏轼一生多次心仪、念念不舍的江南归隐福地，\n水土温润、民风恬淡，是晚年理想归宿。\n",
+      "order_in_route": 26,
+      "layer": "surrounding",
+      "priority": "P0"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "changz-s001",
+      "name": "藤花旧馆",
+      "type": "遗址",
+      "location": "江苏省常州市",
+      "description": "苏轼卒于此",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    },
+    {
+      "id": "changz-s002",
+      "name": "东坡公园",
+      "type": "公园",
+      "location": "江苏省常州市",
+      "description": "纪念苏轼而建",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "常州站/常州北站",
+    "bus": "常州汽车站",
+    "car": "沪宁高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": "SS052",
+    "pinyin_id": "changzhou",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 31.2988,
+    "v3_lng": 121.4802
+  },
+  "extended_story": "半生向往卜居江南，终在常州圆梦，\n自此闭门静养、不复出仕，\n以江南山水为伴，安然走完一生，\n少年离蜀、宦游万里、暮年归常，行旅圆满闭环。",
+  "essence": "苏轼人生最终归宿、一生行旅收官圣地",
+  "last_updated": "2026-06-01T10:22:05.268Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "江苏省常州市",
+  "coords_updated_at": "2026-06-01T10:17:04.310Z",
+  "duration_summary": {
+    "first_year": 1100,
+    "last_year": 1101,
+    "span_years": 1,
+    "duration_label": "1100-1101 · 1年",
+    "related_route_count": 1,
+    "stage_ids": [
+      "S6"
+    ]
+  }
+}

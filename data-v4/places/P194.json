@@ -1,0 +1,114 @@
+{
+  "id": "P194",
+  "ancient_name": "徐闻递角场",
+  "modern_name": "广东徐闻递角场（古址）",
+  "type": "main",
+  "lat": 20.325969,
+  "lng": 110.17595,
+  "related_routes": [
+    "R18",
+    "R19"
+  ],
+  "summary": "苏轼渡琼州海峡的出发地",
+  "background": "徐闻是苏轼渡琼州海峡前往海南的出发地",
+  "tags": [
+    "徐闻",
+    "渡海",
+    "海峡",
+    "main",
+    "ferry",
+    "master_meet"
+  ],
+  "periods": [],
+  "global_events": [],
+  "global_works": [],
+  "route_events": {
+    "route19": [
+      {
+        "id": "xw-001",
+        "date": "绍圣四年（1097年）",
+        "title": "渡海前往儋州",
+        "description": "苏轼从徐闻渡海前往儋州",
+        "significance": "渡海南下"
+      },
+      {
+        "id": "xw-002",
+        "date": "元符三年（1100年）",
+        "title": "渡海北归",
+        "description": "苏轼从徐闻渡海北归",
+        "significance": "渡海北归"
+      }
+    ],
+    "R18": {
+      "duration": "1097年6月 兄弟徐闻渡口诀别",
+      "duration_years": [],
+      "essence": "跨海启程古渡口、苏辙兄弟徐闻诀别地",
+      "su_shi_story": "自雷州结伴行至徐闻递角场，苏辙亲送苏轼至此渡口，\n兄弟徐闻渡海诀别——此一别便是手足生离，\n此后苏轼跨海远赴儋州，兄弟天涯隔海再无相见。\n",
+      "historical_context": "宋代渡琼州海峡官方古渡；\n绍圣四年六月，苏轼自此登舟渡海，苏辙亲送至此分别。\n",
+      "order_in_route": 16,
+      "layer": "main",
+      "priority": "P0"
+    },
+    "R19": {
+      "duration": "1100年登船渡海",
+      "duration_years": [],
+      "essence": "离岛跨海古渡口",
+      "su_shi_story": "再度自徐闻登舟渡海，\n告别海南孤岛，重返大陆故土。\n",
+      "historical_context": "宋代南北跨海官方古渡。\n",
+      "order_in_route": 4,
+      "layer": "main",
+      "priority": "P1"
+    }
+  },
+  "route_works": {},
+  "memorial_sites": [
+    {
+      "id": "xw-s001",
+      "name": "徐闻古城",
+      "type": "城",
+      "location": "广东省徐闻县",
+      "description": "苏轼渡海出发地",
+      "opening_hours": "全天",
+      "ticket": "免费",
+      "suggested_duration": "1-2小时",
+      "photos": [],
+      "url": "",
+      "rating": "",
+      "distance": ""
+    }
+  ],
+  "foods": [],
+  "transport": {
+    "train": "",
+    "bus": "徐闻汽车站",
+    "car": "沈海高速",
+    "airport": ""
+  },
+  "sub_places": [],
+  "legacy": {
+    "ss_id": null,
+    "pinyin_id": "xuwen",
+    "match_strategy": "pinyin:ancient_substr",
+    "confidence": 0.85,
+    "v3_lat": 20.3312,
+    "v3_lng": 110.1712
+  },
+  "extended_story": "自雷州结伴行至徐闻递角场，苏辙亲送苏轼至此渡口，\n兄弟徐闻渡海诀别——此一别便是手足生离，\n此后苏轼跨海远赴儋州，兄弟天涯隔海再无相见。",
+  "essence": "跨海启程古渡口、苏辙兄弟徐闻诀别地",
+  "last_updated": "2026-06-01T10:22:05.264Z",
+  "schema_version": "v4.1",
+  "coordinate_source": "amap_corrected",
+  "amap_address": "广东省湛江市徐闻县",
+  "coords_updated_at": "2026-06-01T10:17:04.326Z",
+  "duration_summary": {
+    "first_year": 1094,
+    "last_year": 1101,
+    "span_years": 7,
+    "duration_label": "1094-1101 · 7年",
+    "related_route_count": 2,
+    "stage_ids": [
+      "S5",
+      "S6"
+    ]
+  }
+}

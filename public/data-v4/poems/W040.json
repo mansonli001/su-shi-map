@@ -1,0 +1,22 @@
+{
+  "id": "W040",
+  "title": "翰林院制诰序跋",
+  "category": "台阁文",
+  "type": "文",
+  "year_estimate": 1086,
+  "route_id": "R13",
+  "related_route_ids": [
+    "R13"
+  ],
+  "note": "入职翰林院主持文史、草拟朝制的典雅官文",
+  "external_links": {
+    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E7%BF%B0%E6%9E%97%E9%99%A2%E5%88%B6%E8%AF%B0%E5%BA%8F%E8%B7%8B",
+    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E7%BF%B0%E6%9E%97%E9%99%A2%E5%88%B6%E8%AF%B0%E5%BA%8F%E8%B7%8B&author=苏轼",
+    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E7%BF%B0%E6%9E%97%E9%99%A2%E5%88%B6%E8%AF%B0%E5%BA%8F%E8%B7%8B&author=苏轼"
+  },
+  "source_chain": [
+    "李常生苏轼行踪考",
+    "孔凡礼苏轼年谱"
+  ],
+  "has_full_text": false
+}
