@@ -195,6 +195,86 @@ body {
   width: 0;
 }
 
+/* ========== 行吟山河 LOGO 艺术字 v1.0 ==========
+ * 基于霞鹜文楷 + 金色渐变填充 + 字距 + 阴影柔光
+ * 三档：lg（Hero）/ md（Section 标题）/ sm（顶栏小 logo）
+ */
+.logo-brand {
+  font-family: 'LXGW WenKai', 'Songti SC', 'STSong', serif;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+
+/* Hero 大字版：金色立体渐变（上亮下深） + 柔光 */
+.logo-brand-lg {
+  font-size: clamp(56px, 11vw, 110px);
+  letter-spacing: 0.32em;
+  font-weight: 800;
+  /* 三段金色立体渐变：浅金 → 主金 → 深赭金 */
+  background: linear-gradient(180deg,
+    #FAEEDA 0%,
+    #FAC775 38%,
+    #EF9F27 65%,
+    #BA7517 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(250, 199, 117, 0.25))
+          drop-shadow(0 4px 14px rgba(0, 0, 0, 0.35));
+  /* 笔画粗细补偿 */
+  -webkit-text-stroke: 0.6px rgba(250, 199, 117, 0.18);
+  line-height: 1;
+}
+
+/* 落款风格上下金线（仅大版有） */
+.logo-brand-lg::before,
+.logo-brand-lg::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 1px;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    rgba(250, 199, 117, 0.55) 30%,
+    rgba(250, 199, 117, 0.85) 50%,
+    rgba(250, 199, 117, 0.55) 70%,
+    transparent 100%);
+  transform: translateX(-50%);
+}
+.logo-brand-lg::before { top: -22px; }
+.logo-brand-lg::after  { bottom: -22px; }
+
+/* 中字版（Section 标题用） */
+.logo-brand-md {
+  font-size: clamp(28px, 5vw, 38px);
+  letter-spacing: 0.28em;
+  font-weight: 700;
+  background: linear-gradient(180deg,
+    #FAEEDA 0%,
+    #FAC775 50%,
+    #BA7517 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.4px rgba(250, 199, 117, 0.2);
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* 顶栏小版：纯金色 + 加粗 + 字距（小尺寸用渐变会糊，舍去） */
+.logo-brand-sm {
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: var(--gold);
+  /* 极淡阴影，营造"刻印"感 */
+  text-shadow:
+    0 1px 0 rgba(0, 0, 0, 0.25),
+    0 0 12px rgba(250, 199, 117, 0.18);
+}
+
 /* ========== Marker 交互（设计稿 §2.3） ========== */
 /* hover：图标放大至 1.10×，drop-shadow 增强 */
 .su-marker:hover {

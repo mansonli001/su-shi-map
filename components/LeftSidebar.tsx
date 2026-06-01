@@ -73,9 +73,7 @@ export default function LeftSidebar() {
     <>
       {/* 标题区 */}
       <div className="px-4 py-3 border-b border-gold/10">
-        <h2
-          className="font-wenkai text-[14px] font-semibold text-gold tracking-[0.25em]"
-        >
+        <h2 className="logo-brand logo-brand-sm">
           行吟山河
         </h2>
         <p className="text-[10px] text-gold/40 mt-1 tracking-[0.16em]">
@@ -201,7 +199,7 @@ export default function LeftSidebar() {
         <div className="w-10 h-1 rounded-full bg-gold/30 mb-3" />
         <div className="w-full flex items-center justify-between">
           <div>
-            <h2 className="font-wenkai text-[17px] font-semibold text-gold tracking-[0.22em]">
+            <h2 className="logo-brand logo-brand-sm">
               行吟山河
             </h2>
             <p className="text-[10px] text-gold-m/60 mt-0.5 tracking-[0.16em]">

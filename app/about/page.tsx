@@ -24,7 +24,7 @@ export default function AboutPage() {
       <div className="pt-16 px-4 pb-8 max-w-2xl mx-auto">
         {/* 项目介绍 */}
         <section className="mb-8">
-          <h2 className="text-2xl font-wenkai text-ink mb-2 tracking-wider">行吟山河</h2>
+          <h2 className="logo-brand logo-brand-md mb-2">行吟山河</h2>
           <p className="text-xs text-gold-m tracking-[0.2em] mb-4">
             XINGYIN SHANHE · 读苏轼游神州
           </p>

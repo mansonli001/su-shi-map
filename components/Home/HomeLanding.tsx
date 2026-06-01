@@ -22,7 +22,7 @@ export default function HomeLanding() {
       {/* ============ Hero ============ */}
       <section className="ho-hero">
         <div className="ho-en">XINGYIN SHANHE</div>
-        <h1 className="ho-brand">行吟山河</h1>
+        <h1 className="logo-brand logo-brand-lg ho-brand">行吟山河</h1>
         <div className="ho-tag">追随千古诗人步履　行走华夏山河之间</div>
 
         <svg
@@ -298,7 +298,7 @@ export default function HomeLanding() {
 
       {/* ============ Footer ============ */}
       <footer className="ho-footer">
-        <div className="ho-hf-brand">行吟山河</div>
+        <div className="logo-brand logo-brand-md ho-hf-brand">行吟山河</div>
         <div className="ho-hf-en">XINGYIN SHANHE</div>
         <div className="ho-hf-note">
           追随千古诗人步履　行走华夏山河之间

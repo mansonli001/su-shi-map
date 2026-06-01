@@ -28,13 +28,8 @@
   margin-bottom: 0.8rem;
 }
 .ho-brand {
-  font-family: var(--font-serif);
-  font-size: clamp(56px, 10vw, 110px);
-  font-weight: 600;
-  letter-spacing: 0.18em;
-  color: var(--gold);
+  /* 字体/字号/字距/渐变填充全部交给 .logo-brand-lg 处理 */
   margin: 0 0 1rem;
-  line-height: 1;
 }
 .ho-tag {
   font-size: 14px;
@@ -450,10 +445,7 @@
   text-align: center;
 }
 .ho-hf-brand {
-  font-size: 22px;
-  color: var(--gold);
-  letter-spacing: 0.25em;
-  font-weight: 600;
+  /* logo-brand-md 接管字体/渐变，这里仅控制布局 */
   margin-bottom: 0.4rem;
 }
 .ho-hf-en {
