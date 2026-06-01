@@ -8,9 +8,9 @@ import './globals.css';
 import AMapScript from '@/components/AMapScript';
 
 export const metadata: Metadata = {
-  title: '读苏轼·游神州',
-  description: '苏轼一生234地点交互式数字地图（PWA）',
-  applicationName: '读苏轼·游神州',
+  title: '行吟山河 · 读苏轼游神州',
+  description: '行吟山河 — 苏轼一生234地点交互式数字地图（PWA）',
+  applicationName: '行吟山河',
   appleWebApp: {
     capable: true,
     title: '苏轼足迹',

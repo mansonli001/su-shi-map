@@ -476,11 +476,41 @@
   letter-spacing: 0.1em;
 }
 
-/* 移动端：4 数字改 2x2，timeline 字号缩 */
+/* 移动端：4 数字改 2x2，timeline 字号缩，COMING SOON 强制 2 列，CTA 按钮换行等宽 */
 @media (max-width: 640px) {
   .ho-tl-stats { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
   .ho-tl-sname { font-size: 12px; }
   .ho-tl-ssub  { font-size: 10px; }
+
+  /* 问题 3：COMING SOON 4 卡片移动端 2x2，避免一卡占一行浪费空间 */
+  .ho-ft-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+    max-width: 100%;
+  }
+  .ho-ft-card { padding: 1rem 0.6rem; }
+  .ho-ft-name { font-size: 19px; letter-spacing: 0.1em; }
+  .ho-ft-yrs  { font-size: 10px; margin-bottom: 0.6rem; }
+  .ho-tag-live, .ho-tag-soon { font-size: 9px; padding: 2px 8px; }
+
+  /* 问题 4：Hero 两按钮 + Final CTA 三按钮，移动端换行等宽对齐 */
+  .ho-btns,
+  .ho-cta-btns {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 0.7rem;
+  }
+  .ho-btns .ho-btn-p,
+  .ho-btns .ho-btn-s,
+  .ho-cta-btns .ho-btn-p,
+  .ho-cta-btns .ho-btn-s {
+    width: 100%;
+    text-align: center;
+    padding: 14px 24px;
+  }
 }
 
 /* ========== Final CTA ========== */

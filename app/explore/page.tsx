@@ -117,11 +117,15 @@ function ExploreInner() {
       {/* 右侧主区域 */}
       <div className="flex-1 relative">
         {/* === 顶部「行吟山河」深色导航（手机全宽 / 桌面 left-200） === */}
-        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[52px]">
+        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[56px] md:h-[52px]">
           <div className="flex items-center justify-between px-3 md:px-5 h-full gap-2">
-            <div className="flex items-center gap-2 md:gap-4 pl-10 md:pl-0 min-w-0">
-              <div className="font-wenkai font-semibold text-[14px] md:text-[16px] text-gold tracking-[0.18em] md:tracking-[0.25em] whitespace-nowrap">
+            {/* 主标题 + 副标题（双行） */}
+            <div className="flex flex-col justify-center gap-[1px] pl-14 md:pl-0 min-w-0 md:flex-row md:items-center md:gap-4">
+              <div className="font-wenkai font-semibold text-[17px] md:text-[16px] text-gold tracking-[0.22em] md:tracking-[0.25em] whitespace-nowrap leading-tight">
                 行吟山河
+              </div>
+              <div className="text-[10px] md:hidden text-gold-m/75 tracking-[0.15em] whitespace-nowrap leading-tight">
+                读苏轼 · 游神州
               </div>
               <div className="hidden md:block w-px h-[18px] bg-gold/20" />
               <div className="hidden md:flex items-center gap-3">

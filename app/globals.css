@@ -3,7 +3,12 @@
  * 设计稿对齐：霞鹜文楷 + 墨黑+金 + 米白
  */
 
-/* ========== 字体方案：霞鹜文楷（CDN）+ 系统兜底 ========== */
+/* ========== 字体方案 v6.0「双字体职能分工」 ==========
+ * 主力：Noto Sans SC（思源黑体）—— UI/导航/卡片/列表/正文（贴近地图字体）
+ * 诗意锚点：LXGW WenKai（霞鹜文楷）—— Hero 大标题/品牌名/诗句
+ * 数字：系统等宽字体
+ */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
 
 /* ========== Home Landing 专属样式（独立文件） ========== */
@@ -47,9 +52,14 @@
   --tx2:        #5F5E5A;
   --tx3:        #9CA3AF;
 
-  /* === 字体栈 === */
-  --font-serif: 'LXGW WenKai', 'Songti SC', 'STSong', 'SimSun', 'PingFang SC', 'Microsoft YaHei', serif;
-  --font-sans:  'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  /* === 字体栈 v6.0 双字体分工 ===
+   * --font-sans  = UI 主力（思源黑体，贴近地图）
+   * --font-serif = 诗意/Hero（霞鹜文楷，仅在重点位）
+   * --font-mono  = 数字（年份/时间）
+   */
+  --font-sans:  'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  --font-serif: 'LXGW WenKai', 'Songti SC', 'STSong', 'PingFang SC', serif;
+  --font-mono:  'JetBrains Mono', 'SF Mono', 'Menlo', 'Courier New', monospace;
 
   /* === 兼容历史变量名 === */
   --ink-primary: var(--gold-m);
@@ -62,10 +72,11 @@ html, body, #__next {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);  /* v6.0：默认走思源黑体（UI 现代感） */
   background-color: var(--bg);
   color: var(--tx);
   line-height: 1.5;
+  font-feature-settings: 'tnum' on, 'lnum' on;  /* 等宽数字 */
 }
 
 /* 宣纸纹理（保留极淡） */

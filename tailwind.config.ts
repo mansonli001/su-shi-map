@@ -45,9 +45,11 @@ const config: Config = {
         inkBlack: '#1A1008',
       },
       fontFamily: {
-        serif: ['LXGW WenKai', 'Songti SC', 'STSong', 'SimSun', 'serif'],
-        sans:  ['LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', 'system-ui', 'sans-serif'],
+        // v6.0 双字体分工：sans 主力（UI），wenkai/serif 诗意锚点
+        sans:  ['Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'system-ui', 'sans-serif'],
+        serif: ['LXGW WenKai', 'Songti SC', 'STSong', 'serif'],
         wenkai: ['LXGW WenKai', 'serif'],
+        mono:  ['JetBrains Mono', 'SF Mono', 'Menlo', 'Courier New', 'monospace'],
       },
       letterSpacing: {
         wider2: '0.16em',
