@@ -29,6 +29,11 @@ export interface PlaceCore {
   importance: 1 | 2 | 3; // 1=必看 2=推荐 3=了解
   songName: string;     // 宋代地名
   modernName: string;   // 当代地名
+  summary?: string;     // 50字摘要（从 index 合并）
+  famousLine?: string;  // 最著名诗句（从 index 合并）
+  routeId?: string;     // 所属19条路线之一（route01~route19）或总览（overview）
+  routeOrder?: number;   // 在路线中的行进顺序（从1开始）
+  tag?: string;          // 进京/出京/途经/被捕/谪居/终老
 }
 
 /** 地点索引（搜索用，轻量） */

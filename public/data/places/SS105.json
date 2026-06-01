@@ -1,0 +1,37 @@
+{
+  "id": "SS105",
+  "songName": "真州",
+  "modernName": "江苏仪征",
+  "lat": 32.2988,
+  "lng": 119.0100,
+  "type": "tour",
+  "stage": "middle_career",
+  "importance": 3,
+  "story": "真州（今江苏仪征）在宋代是两浙路重要州府。苏轼在杭州任职期间，可能途经真州往返于杭州与开封之间。真州是宋代重要港口，苏轼如果途经，可能会游览真州古城、登月台山等地。",
+  "poems": [],
+  "attractions": [
+    {
+      "name": "仪征鼓楼 ⭐⭐",
+      "description": "位于仪征市区，始建于明代，是仪征地标性建筑。苏轼如果途经真州，可能会在鼓楼下歇脚。现存建筑为明代重建。",
+      "location": "扬州市仪征市鼓楼",
+      "isHistorical": true,
+      "ticket": "免费",
+      "openingHours": "8:00-17:00"
+    },
+    {
+      "name": "仪征天宁塔",
+      "description": "位于仪征市区，始建于唐代，是仪征最古老的建筑之一。苏轼如果途经真州，可能会登塔远眺长江。现存建筑为清代重建。",
+      "location": "扬州市仪征市天宁塔",
+      "isHistorical": true,
+      "ticket": "¥10",
+      "openingHours": "8:00-17:00"
+    }
+  ],
+  "foods": [
+    {
+      "name": "仪征酱菜",
+      "description": "仪征传统名产，选用本地蔬菜，经腌制而成。酱香浓郁，口感脆嫩。是仪征特色伴手礼。苏轼如果品尝，可能会写诗赞美。",
+      "isFamous": false
+    }
+  ]
+}

@@ -4,7 +4,6 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server';
-import { checkin, uncheckin, getAllCheckins } from '@/lib/idb';
 
 /**
  * POST - 打卡

@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19",
+    "@types/geojson": "^7946.0.16",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
@@ -49,6 +50,7 @@
     "eslint-config-next": "14.2.35",
     "json5": "^2.2.3",
     "postcss": "^8.5.15",
+    "puppeteer": "^25.1.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

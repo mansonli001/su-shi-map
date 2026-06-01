@@ -5,13 +5,13 @@
 
 const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
-  disable: process.env.NODE_ENV === 'development',
+  disable: true, // 临时禁用 PWA
   register: true,
   skipWaiting: true,
   runtimeCaching: [
     // ① StaleWhileRevalidate：places-core.json / places-index.json
     {
-      urlPattern: /\/places-core\.json$|\/places-index\.json$/,
+      urlPattern: /\/data\/places-core\.json$|\/data\/places-index\.json$/,
       handler: 'StaleWhileRevalidate',
       options: {
         cacheName: 'su-shi-data',

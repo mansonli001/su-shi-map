@@ -6,6 +6,14 @@
 import { create } from 'zustand';
 import { Stage, PlaceCore } from '@/types';
 
+export type RouteId = 
+  | 'route01' | 'route02' | 'route03' | 'route04' | 'route05'
+  | 'route06' | 'route07' | 'route08' | 'route09' | 'route10'
+  | 'route11' | 'route12' | 'route13' | 'route14' | 'route15'
+  | 'route16' | 'route17' | 'route18' | 'route19'
+  | 'overview'
+  | null;
+
 interface SuShiStore {
   // 地点数据（首屏加载后写入）
   places: PlaceCore[];
@@ -36,6 +44,11 @@ interface SuShiStore {
   isSearchOpen: boolean;
   openSearch: () => void;
   closeSearch: () => void;
+
+  // 当前路线（时间轴点击后高亮该路线）
+  currentRoute: RouteId;
+  setCurrentRoute: (routeId: RouteId) => void;
+  clearRoute: () => void;
 }
 
 export const useSuShiStore = create<SuShiStore>((set) => ({
@@ -68,4 +81,9 @@ export const useSuShiStore = create<SuShiStore>((set) => ({
   isSearchOpen: false,
   openSearch: () => set({ isSearchOpen: true }),
   closeSearch: () => set({ isSearchOpen: false }),
+
+  // 当前路线
+  currentRoute: null,
+  setCurrentRoute: (routeId) => set({ currentRoute: routeId }),
+  clearRoute: () => set({ currentRoute: null }),
 }));

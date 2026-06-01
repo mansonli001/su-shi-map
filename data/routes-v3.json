@@ -1,0 +1,329 @@
+{
+  "version": "4.0",
+  "created_at": "2026-05-31T19:38:21.854441",
+  "routes": {
+    "route01": {
+      "route_id": "route01",
+      "route_name": "第一次出蜀赴京",
+      "start_date": "嘉祐元年（1056年）三月",
+      "end_date": "嘉祐二年（1057年）四月",
+      "description": "嘉祐元年三月，三苏从眉州出发，沿蜀道出蜀，经成都、阆中、剑门关、利州、凤翔、长安、渑池，五六月到汴京。嘉祐二年三月科举及第，四月奔母丧归蜀。",
+      "place_ids": [
+        "meishan",
+        "chengdu",
+        "langzhong",
+        "jianmen",
+        "lizhou",
+        "fengxiang",
+        "changan",
+        "mianchi",
+        "bianjing"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route02": {
+      "route_id": "route02",
+      "route_name": "第二次出蜀与三苏《南行集》",
+      "start_date": "嘉祐四年（1059年）十月",
+      "end_date": "嘉祐五年（1060年）二月",
+      "description": "嘉祐四年十月，三苏自眉州出发，取道长江水路出蜀。经嘉州、戎州、泸州、恭州、夔州，穿越三峡，经峡州、江陵、荆门、襄州、南阳、颍昌，嘉祐五年二月二十五日抵达汴京。途中父子三人创作《南行集》。",
+      "place_ids": [
+        "meishan",
+        "chengdu",
+        "langzhong",
+        "jianmen",
+        "lizhou",
+        "fengxiang",
+        "changan",
+        "mianchi",
+        "bianjing"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route03": {
+      "route_id": "route03",
+      "route_name": "第二次进京与凤翔签判",
+      "start_date": "嘉祐六年（1061年）十一月十九日",
+      "end_date": "嘉祐六年（1061年）十二月十四日",
+      "description": "嘉祐六年十一月十九日，苏轼与苏辙别于郑州西门外。苏轼赴凤翔府任签书判官，经洛阳、渑池、陕州、华州、渭南、长安、扶风，十二月十四日到凤翔任。途中作《和子由渑池怀旧》。",
+      "place_ids": [
+        "bianjing",
+        "zhengzhou",
+        "luoyang",
+        "mianchi",
+        "shanzhou",
+        "huazhou",
+        "weinan",
+        "changan",
+        "fufeng",
+        "fengxiang"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route04": {
+      "route_id": "route04",
+      "route_name": "第三次入京与父丧返乡",
+      "start_date": "治平元年（1064年）正月",
+      "end_date": "治平四年（1067年）四月",
+      "description": "治平元年正月，苏轼自凤翔入京。三月至京，寓居景德寺。治平四年(1067年)正月，英宗即位。三月护送英宗向后山陵。治平三年（1066年）四月，苏洵病逝于京，苏轼兄弟护丧归蜀。回程经大名府、泗州、龟山、洪泽、樊口、江陵、下岩、仙都山、丰都，治平四年四月回到眉山。",
+      "place_ids": [
+        "fengxiang",
+        "changan",
+        "huaqing",
+        "huazhou",
+        "bianjing",
+        "wenan",
+        "damingfu",
+        "sizhou",
+        "guishan",
+        "fankou",
+        "jiangling",
+        "xiaoyan",
+        "xiandushan",
+        "fengdu",
+        "meishan"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route05": {
+      "route_id": "route05",
+      "route_name": "第四次出蜀赴京",
+      "start_date": "熙宁元年（1068年）十一二月",
+      "end_date": "熙宁二年（1069年）二月初",
+      "description": "熙宁元年十一月底、十二月初，苏轼为父苏洵守丧期满后，携家眷从眉山出发，第四次出蜀赴京。经过益昌(昭化)、凤翔、长安，约于熙宁二年二月初抵达汴京。居南园，除判官告院兼判尚书祠部。",
+      "place_ids": [
+        "meishan",
+        "zhaohua",
+        "fengxiang",
+        "changan",
+        "bianjing"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route06": {
+      "route_id": "route06",
+      "route_name": "任杭州倅",
+      "start_date": "熙宁四年（1071年）七月上旬",
+      "end_date": "熙宁四年（1071年）十一月二十八日",
+      "description": "熙宁四年七月上旬，苏轼离京赴陈州，拜访张方平、会见苏辙。后顺颍河南下至颍州，拜望退隐的欧阳修。再顺颍河、淮河、运河南下，途经寿州、扬州、润州、常州、苏州，十一月二十八日抵达杭州任通判。",
+      "place_ids": [
+        "bianjing",
+        "chengzhou",
+        "yingzhou",
+        "shouzhou",
+        "yangzhou",
+        "runzhou",
+        "suzhou",
+        "hangzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route07": {
+      "route_id": "route07",
+      "route_name": "知密州",
+      "start_date": "熙宁七年（1074年）九月下旬",
+      "end_date": "熙宁九年（1076年）十二月",
+      "description": "熙宁七年九月下旬，苏轼离开杭州北行知密州。途经润州、高邮、海州，十一月三日到密州任。在密州期间创作《水调歌头》《江城子·密州出猎》等名篇。熙宁九年十二月离去。",
+      "place_ids": [
+        "hangzhou",
+        "runzhou",
+        "gaoyou",
+        "haizhou",
+        "mizhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route08": {
+      "route_id": "route08",
+      "route_name": "知徐州",
+      "start_date": "熙宁九年（1076年）十二月",
+      "end_date": "元丰二年（1079年）二三月",
+      "description": "熙宁九年十二月，苏轼罢密州，北上经郓州改知徐州。熙宁十年四月二十一日到徐州任。期间率民抗黄河洪水，建黄楼。创作《永遇乐》《放鹤亭记》等。元丰二年二三月，罢徐州知湖州。",
+      "place_ids": [
+        "mizhou",
+        "yizhou",
+        "yuncheng",
+        "xuzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route09": {
+      "route_id": "route09",
+      "route_name": "知湖与乌台诗案",
+      "start_date": "元丰二年（1079年）二三月",
+      "end_date": "元丰二年（1079年）十二月",
+      "description": "元丰二年二三月，苏轼罢徐州知湖州，南下经楚州、润州等到湖州。七月因乌台诗案被捕，押解至汴京。",
+      "place_ids": [
+        "xuzhou",
+        "huaian",
+        "zhenjiang",
+        "huzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route10": {
+      "route_id": "route10",
+      "route_name": "贬谪黄州",
+      "start_date": "元丰三年（1080年）正月",
+      "end_date": "元丰七年（1084年）四月",
+      "description": "元丰二年十二月，苏轼因乌台诗案被贬黄州团练副使。元丰三年正月出狱，二月至黄州。在黄州四年多，躬耕东坡，自号东坡居士，创作《念奴娇·赤壁怀古》、前后《赤壁赋》等千古名篇。",
+      "place_ids": [
+        "bianjing",
+        "guangzhou_henan",
+        "macheng",
+        "huangzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route11": {
+      "route_id": "route11",
+      "route_name": "量移汝州与庐山之游",
+      "start_date": "元丰七年（1084年）四月",
+      "end_date": "元丰七年（1084年）十二月",
+      "description": "元丰七年四月，苏轼量移汝州团练副使。离开黄州，经金陵访王安石，经高安访好友，游庐山。后至汝州。",
+      "place_ids": [
+        "huangzhou",
+        "jinling",
+        "gaoan",
+        "lushan"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route12": {
+      "route_id": "route12",
+      "route_name": "万里来去知登州",
+      "start_date": "元丰八年（1085年）六月",
+      "end_date": "元丰八年（1085年）十一月",
+      "description": "元丰八年六月，苏轼在南都接诰命起知登州。北上循运河经海州、密州、莱州至登州。十月十五日至登州，五日后即以礼部郎中召还。",
+      "place_ids": [
+        "nandu",
+        "haizhou",
+        "mizhou",
+        "laizhou",
+        "dengzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route13": {
+      "route_id": "route13",
+      "route_name": "第六次入京",
+      "start_date": "元丰八年（1085年）十二月",
+      "end_date": "元祐四年（1089年）四月",
+      "description": "元丰八年十二月，苏轼自登州返京，任职约四年。元祐四年四月，出京赴杭州任知州。",
+      "place_ids": [
+        "bianjing"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route14": {
+      "route_id": "route14",
+      "route_name": "再知杭州",
+      "start_date": "元祐四年（1089年）四月",
+      "end_date": "元祐六年（1091年）",
+      "description": "元祐四年四月，苏轼自汴京赴杭州任知州。疏浚西湖，修筑苏堤。",
+      "place_ids": [
+        "bianjing",
+        "hangzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route15": {
+      "route_id": "route15",
+      "route_name": "知颍州与知扬州",
+      "start_date": "元祐六年（1091年）",
+      "end_date": "元祐七年（1092年）",
+      "description": "元祐六年，苏轼自杭州移知颍州，途经高邮。元祐七年，自颍州移知扬州。",
+      "place_ids": [
+        "hangzhou",
+        "gaoyou",
+        "yingzhou",
+        "yangzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route16": {
+      "route_id": "route16",
+      "route_name": "第七次进京",
+      "start_date": "元祐七年（1092年）",
+      "end_date": "元祐八年（1093年）",
+      "description": "元祐七年，苏轼自扬州进京任兵部尚书、礼部尚书等职。",
+      "place_ids": [
+        "yangzhou",
+        "chuzhou",
+        "bianjing"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route17": {
+      "route_id": "route17",
+      "route_name": "贬谪惠州",
+      "start_date": "绍圣元年（1094年）四月",
+      "end_date": "绍圣四年（1097年）四月",
+      "description": "绍圣元年四月，苏轼落职知英州，后贬惠州安置。从定州出发，经淮安、扬州、真州、金陵、当涂、湖口、江州、彭蠡、南康、赣州、大庾岭、南雄、韶州、英德、广州，十月二日到惠州贬所。在惠州两年多。",
+      "place_ids": [
+        "dingzhou",
+        "huaian",
+        "yangzhou",
+        "zhenzhou",
+        "changlu",
+        "jinling",
+        "dangtu",
+        "hukou",
+        "jiangzhou",
+        "pengli",
+        "nankang",
+        "ganzhou",
+        "dayuling",
+        "nanxiongzhou",
+        "shaozhou",
+        "yinzhou",
+        "guangzhou",
+        "huizhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route18": {
+      "route_id": "route18",
+      "route_name": "贬谪儋州",
+      "start_date": "绍圣四年（1097年）四月",
+      "end_date": "元符三年（1100年）六月",
+      "description": "绍圣四年四月，苏轼再贬儋州别驾，昌化军安置。从惠州出发，经广州、梧州、藤州、容州、雷州，渡海至琼州，到儋州。在儋州三年，讲学授徒。",
+      "place_ids": [
+        "huizhou",
+        "guangzhou",
+        "wuzhou",
+        "tengzhou",
+        "rongzhou",
+        "leizhou",
+        "xuwen",
+        "qiongzhou",
+        "danzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    },
+    "route19": {
+      "route_id": "route19",
+      "route_name": "北归常州",
+      "start_date": "元符三年（1100年）六月",
+      "end_date": "建中靖国元年（1101年）七月",
+      "description": "元符三年，苏轼遇赦北归。离儋州，经澄迈、琼州、雷州、廉州、容州、藤州、梧州、广州、英州、赣州、金陵，至常州。建中靖国元年七月卒于常州。",
+      "place_ids": [
+        "danzhou",
+        "chengmai",
+        "qiongzhou",
+        "leizhou",
+        "lianzhou",
+        "rongzhou",
+        "tengzhou",
+        "wuzhou",
+        "guangzhou",
+        "yinzhou",
+        "ganzhou",
+        "jinling",
+        "changzhou"
+      ],
+      "source": "李常生《苏轼行踪考》"
+    }
+  },
+  "source": "李常生《苏轼行踪考》"
+}

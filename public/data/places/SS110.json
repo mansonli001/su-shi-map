@@ -1,0 +1,29 @@
+{
+  "id": "SS110",
+  "songName": "滑州",
+  "modernName": "河南滑县",
+  "lat": 35.7500,
+  "lng": 114.6500,
+  "type": "tour",
+  "stage": "middle_career",
+  "importance": 3,
+  "story": "滑州（今河南滑县）在宋代是京西北路重要州府。苏轼在元祐年间（1086-1093年）可能途经滑州往返于开封与杭州、颍州等地之间。滑州是中原交通要冲，苏轼如果途经，可能会在此歇脚。",
+  "poems": [],
+  "attractions": [
+    {
+      "name": "滑县古城墙遗址",
+      "description": "位于滑县老城，是宋代滑州城遗址。苏轼如果途经滑州，可能会在古城内歇脚。现存部分城墙基址和城门遗址。",
+      "location": "安阳市滑县老城",
+      "isHistorical": true,
+      "ticket": "免费",
+      "openingHours": "全天开放"
+    }
+  ],
+  "foods": [
+    {
+      "name": "滑县烧饼",
+      "description": "滑县传统面食，外皮酥脆，内里软嫩。是滑县人日常主食。",
+      "isFamous": false
+    }
+  ]
+}
