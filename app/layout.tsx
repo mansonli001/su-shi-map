@@ -30,6 +30,13 @@ export const metadata: Metadata = {
     address: false,
   },
   manifest: '/manifest.json',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico' },
+    ],
+    apple: '/icons/pwa-192.png',
+  },
   // Open Graph（微信分享卡片 / 朋友圈预览）
   openGraph: {
     title: '行吟山河 · 读苏轼游神州',

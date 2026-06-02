@@ -16,7 +16,9 @@
     "lint": "next lint",
     "validate": "npx tsx scripts/validate-data.ts",
     "convert": "npx tsx scripts/convert-geojson.ts",
-    "poems": "npx tsx scripts/extract-sushi-poems.ts"
+    "poems": "npx tsx scripts/extract-sushi-poems.ts",
+    "walkthrough": "node scripts/auto-walkthrough.mjs",
+    "walkthrough:prod": "node scripts/auto-walkthrough.mjs --prod"
   },
   "dependencies": {
     "@amap/amap-jsapi-loader": "^1.0.1",
