@@ -162,14 +162,14 @@ export default function LeftSidebar() {
                               {r.period} · {r.place_count}点
                             </div>
                           </button>
-                          {/* 跳转介绍页（hover 露出） */}
+                          {/* 跳转介绍页（桌面端：hover 露出右箭头） */}
                           <a
                             href={`/routes/${r.id}`}
                             onClick={(e) => e.stopPropagation()}
-                            className="absolute right-1.5 top-1.5 text-[12px] px-1.5 py-1 rounded text-gold/40 hover:text-gold hover:bg-gold/10 opacity-0 group-hover/route:opacity-100 transition-opacity"
+                            className="absolute right-1.5 top-2 text-[16px] leading-none px-1.5 py-1 rounded text-gold/50 hover:text-gold hover:bg-gold/10 opacity-0 group-hover/route:opacity-100 transition-opacity font-light"
                             title="查看路线介绍"
                           >
-                            📖
+                            ›
                           </a>
                         </div>
                       );
@@ -311,14 +311,14 @@ export default function LeftSidebar() {
                               {r.period} · {r.place_count}点
                             </div>
                           </button>
-                          {/* 跳转介绍页 */}
+                          {/* 跳转介绍页（移动端：右箭头比 📖 更轻量国际化） */}
                           <a
                             href={`/routes/${r.id}`}
                             onClick={(e) => e.stopPropagation()}
-                            className="absolute right-2 top-2.5 text-[18px] px-2 py-1 rounded text-gold/50 active:text-gold active:bg-gold/10"
+                            className="absolute right-2 top-3 text-[20px] leading-none px-2 py-1 rounded text-gold/55 active:text-gold active:bg-gold/10 font-light"
                             title="查看路线介绍"
                           >
-                            📖
+                            ›
                           </a>
                         </div>
                       );

@@ -280,3 +280,53 @@ body {
 .su-marker.is-faded:hover {
   opacity: 0.80;
 }
+
+/* ========== 微信/iOS 浏览器深度适配 v2026-06-02 ========== */
+
+/* 1. iOS Safari 防双指缩放（除地图外） */
+html { touch-action: manipulation; }
+/* 地图容器允许捏放 */
+.amap-container,
+[class*="amap-"] { touch-action: auto !important; }
+
+/* 2. iOS Safari 双击放大网页 → 关闭 */
+* { -webkit-tap-highlight-color: transparent; }
+
+/* 3. 防止 iOS 长按弹出"拷贝/查询"菜单（仅地图区域） */
+.amap-container { -webkit-user-select: none; user-select: none; }
+
+/* 4. 微信 X5 内核 input/textarea 边框默认样式重置 */
+input, textarea, button, select {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 0;
+}
+
+/* 5. 隐藏 iOS Safari 输入框右侧 X 清除按钮 */
+input[type="search"]::-webkit-search-cancel-button { display: none; }
+
+/* 6. 微信浏览器 overscroll 弹性效果禁用（避免页面被拉出黑边） */
+html, body { overscroll-behavior-y: none; }
+
+/* 7. iOS 微信"分享给朋友"等遮罩层防止滚动透传 */
+body.modal-open { overflow: hidden; position: fixed; width: 100%; }
+
+/* 8. 安全区适配（刘海/底部 Home Indicator） */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .safe-x { padding-left: env(safe-area-inset-left); padding-right: env(safe-area-inset-right); }
+}
+
+/* 9. 微信浏览器 fixed 元素错位 fallback（部分老版本 X5 内核） */
+@supports (-webkit-touch-callout: none) {
+  .fix-ios-fixed { position: fixed; -webkit-transform: translateZ(0); }
+}
+
+/* 10. 字体抗锯齿（微信 Android 默认锯齿明显） */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* 11. 微信浏览器底部"安全区"颜色（避免下拉时露出白底） */
+html { background: var(--ink); }
