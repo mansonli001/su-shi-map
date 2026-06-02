@@ -1,678 +1,405 @@
-# 苏轼行踪地图 - 项目架构与进度说明文档
+# 行吟山河 · 项目架构与技术说明
 
-## 项目概述
+> **当前版本**: v6.0「行吟山河」  
+> **创建时间**: 2026-05-29  
+> **当前状态**: ✅ v1.0 已上线弹性维护期 + 数据补全持续推进  
+> **线上地址**: https://su-shi.starfluxes.com
 
-**项目名称**：读苏轼·游神州 v4.0
+---
 
-**项目类型**：苏轼一生120地点交互式数字地图（PWA）
+## 一、项目定位
 
-**创建时间**：2026-05-29
+**行吟山河（XINGYIN SHANHE）** 是一个交互式数字地图，把苏轼一生 234 处足迹、20 条主题路线、68 篇代表作放回它们真实发生的土地上。
 
-**当前版本**：v4.0
+**核心理念**：中国的山河，从来不只是地理。是千年诗文落地生根。
 
-## 一、项目架构
+**远期愿景**：行吟山河不止于苏轼——李白、杜甫、白居易等历代诗人将逐步加入。
 
-### 1.1 技术架构图
+---
+
+## 二、技术架构
+
+### 2.1 架构图
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                         用户界面层 (UI)                          │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
-│  │ 首页地图 │  │地点详情页│  │  关于页  │  │ 404页面  │       │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘       │
+│  / Landing  │  /explore  │  /routes  │  /routes/[id]  │  /about │
+│  (Hero +    │  (地图主页)│ (路线列表)│ (沉浸阅读页)   │  (关于) │
+│   4 卡片)   │            │           │                │         │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │                        组件层 (Components)                        │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │AMapContainer│  │ PlaceCard   │  │ PlaceDetail │             │
-│  └─────────────┘  └─────────────┘  └─────────────┘             │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐             │
-│  │ Timeline    │  │ Search      │  │ Trajectory  │             │
-│  └─────────────┘  └─────────────┘  └─────────────┘             │
-│  ┌─────────────┐  ┌─────────────┐                              │
-│  │ Checkin     │  │ AMapScript  │                              │
-│  └─────────────┘  └─────────────┘                              │
+│  HomeLanding   AMapContainer   PlaceCard   LeftSidebar          │
+│  (首页)         (地图核心)      (详情卡)    (路线抽屉)           │
+│                                                                  │
+│  StageTimelineBar   Search   TrajectoryAnimation   AMapScript   │
+│  (底部时间轴)        (搜索)   (轨迹动画)            (脚本加载)   │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │                        状态与工具层 (Lib)                        │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐           │
-│  │Zustand  │  │ Navigate│  │Cluster  │  │ IndexedDB│           │
-│  │Store    │  │         │  │ Render  │  │         │           │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────┘           │
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐                        │
-│  │ Config  │  │Route Utils│ │Route19 Config│                    │
-│  └─────────┘  └─────────┘  └─────────┘                        │
+│  Zustand store   v4-adapter   route19-config   navigate         │
+│  (全局状态)       (数据加载)   (路线配置)        (URL 跳转)      │
+│                                                                  │
+│  clusterRender   handDrawnPath   logger                          │
+│  (Marker SVG)     (手绘平滑)      (日志)                         │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │                        API路由层 (API Routes)                   │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐           │
-│  │ /og     │  │/checkin │  │/route   │  │_AMapServ│           │
-│  │ (OG图)  │  │(打卡)    │  │(路线)    │  │ (代理)  │           │
-│  └─────────┘  └─────────┘  └─────────┘  └─────────┘           │
+│  /api/_AMapService/security_js_code  (高德密钥代理)              │
+│  /api/checkin                          (打卡)                    │
+│  /api/og                               (OG 图片)                  │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │                        数据层 (Data)                            │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐     │
-│  │ places-core  │  │ places-index  │  │ places/*.json│     │
-│  │ (核心数据)    │  │ (搜索索引)    │  │ (120个地点)  │     │
-│  └───────────────┘  └───────────────┘  └───────────────┘     │
-│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐     │
-│  │ places-detai │  │  routes-v3    │  │ poems-sushi  │     │
-│  │ led-v3.json  │  │ (19条路线)    │  │ (苏轼诗词)   │     │
-│  └───────────────┘  └───────────────┘  └───────────────┘     │
+│  data-v4/                                                        │
+│    ├─ places-index.json (234)   ├─ poems-index.json (68)        │
+│    ├─ routes-index.json (20)    ├─ stages-index.json (6)        │
+│    ├─ places/*.json (234)       ├─ poems/*.json                 │
+│    └─ routes/*.json (20)                                         │
+│                                                                  │
+│  data-v4-source/  (数据原料)                                     │
+│    └─ 行踪考-简体/ (25 篇 markdown / 100 万字)                  │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
 │                        外部服务层 (Services)                     │
 ├─────────────────────────────────────────────────────────────────┤
-│  ┌───────────────┐  ┌───────────────┐  ┌───────────────┐     │
-│  │ 高德地图JSAPI │  │  Vercel OG   │  │ Cloudflare CDN│     │
-│  └───────────────┘  └───────────────┘  └───────────────┘     │
+│  高德 JSAPI 2.0  + 自定义样式 amap://styles/5bcb3755...          │
+│  Vercel OG (分享卡)                                              │
+│  Cloudflare CDN (橙云代理)                                       │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### 1.2 目录结构
+### 2.2 目录结构
 
 ```
 su-shi-map/
 ├── app/                                  # Next.js App Router
-│   ├── about/
-│   │   └── page.tsx                     # 关于页
+│   ├── page.tsx                          # 首页（→ HomeLanding）
+│   ├── home.css                          # Landing 专属样式
+│   ├── explore/page.tsx                  # 地图主页 /explore
+│   ├── routes/
+│   │   ├── page.tsx                      # 路线列表 /routes
+│   │   └── [id]/page.tsx                 # 单条路线详情 /routes/[id]
+│   ├── routes.css                        # 路线浏览/详情样式
+│   ├── about/page.tsx                    # 关于页 v5.0
 │   ├── api/
-│   │   ├── _AMapService/
-│   │   │   └── security_js_code/
-│   │   │       └── route.ts            # 高德地图安全代理
-│   │   ├── checkin/
-│   │   │   └── route.ts                # 打卡API
-│   │   ├── og/
-│   │   │   └── route.tsx               # OG图片生成
-│   │   └── route/
-│   │       └── route.ts                # 路线API（预留）
-│   ├── place/
-│   │   └── [id]/
-│   │       └── page.tsx               # 地点详情页（SSG）
-│   ├── globals.css                     # 全局样式
-│   ├── layout.tsx                      # 根布局
-│   └── page.tsx                        # 首页
+│   │   ├── _AMapService/security_js_code/route.ts
+│   │   ├── checkin/route.ts
+│   │   └── og/route.tsx
+│   ├── globals.css                       # 全局样式 + 字体 + 微信适配
+│   └── layout.tsx                        # Root layout（OG 元数据）
 │
-├── components/                          # React组件
-│   ├── map/
-│   │   └── AMapContainer.tsx          # 地图容器组件
-│   ├── place/
-│   │   ├── PlaceCard.tsx              # 地点卡片
-│   │   └── PlaceDetail.tsx            # 地点详情
-│   ├── AMapScript.tsx                  # 高德地图脚本加载
-│   ├── Checkin.tsx                     # 打卡组件
-│   ├── LeftSidebar.tsx                # 左侧边栏
-│   ├── Search.tsx                      # 搜索组件
-│   └── TrajectoryAnimation.tsx        # 轨迹动画
+├── components/
+│   ├── Home/HomeLanding.tsx              # 首页 Landing
+│   ├── map/AMapContainer.tsx             # 地图核心
+│   ├── place/PlaceCard.tsx               # 地点详情卡
+│   ├── LeftSidebar.tsx                   # 路线抽屉（移动底部 / 桌面左侧）
+│   ├── StageTimelineBar.tsx              # 底部时间轴（横向滑动）
+│   ├── Search.tsx                        # 全局搜索
+│   ├── TrajectoryAnimation.tsx           # 轨迹动画
+│   └── AMapScript.tsx                    # 高德脚本加载
 │
-├── data/                               # 数据目录
-│   ├── places/                         # 120个地点详情
-│   │   ├── SS001.json
-│   │   ├── SS002.json
-│   │   └── ...
-│   ├── places-core.json               # 地点核心数据
-│   ├── places-index.json              # 地点搜索索引
-│   ├── places-detailed-v3.json       # V4详细地点数据
-│   ├── routes-v3.json                 # V4路线数据（19条）
-│   ├── poems-sushi.json               # 苏轼诗词
-│   ├── ROUTE-ANALYSIS-AND-FIX-PLAN.md # 路线分析文档
-│   ├── ROUTE-FIX-PLAN-v2.md          # 路线修复计划
-│   ├── ROUTE-FIX-PLAN-DETAILED.md    # 详细修复计划
-│   └── sushi-extract/                 # 苏轼行踪考提取数据
+├── lib/
+│   ├── store.ts                          # Zustand 全局状态
+│   ├── v4-adapter.ts                     # v4 数据加载/转换
+│   ├── route19-config.ts                 # 路线运行时配置
+│   ├── clusterRender.ts                  # Marker SVG 渲染
+│   ├── handDrawnPath.ts                  # 手绘平滑路径算法
+│   ├── navigate.ts                       # URL 跳转工具
+│   └── logger.ts                         # 日志工具
 │
-├── lib/                                # 工具库
-│   ├── clusterRender.ts              # 地图聚类渲染
-│   ├── config.ts                      # 配置文件
-│   ├── idb.ts                         # IndexedDB封装
-│   ├── navigate.ts                    # 导航工具
-│   ├── route-config.ts                # 路线配置
-│   ├── route-utils.ts                 # 路线工具
-│   ├── route19-config.ts              # 19条路线配置
-│   └── store.ts                       # Zustand状态管理
+├── types/
+│   └── index.ts                          # TypeScript 全局类型
 │
-├── public/                             # 静态资源
-│   ├── data/
-│   │   ├── chgis-song.zip            # CHGIS历史地理数据
-│   │   ├── places-core.json          # 公开版核心数据
-│   │   ├── places-index.json         # 公开版索引
-│   │   ├── places/                   # 公开版地点
-│   │   └── poems-sushi.json          # 公开版诗词
-│   ├── icons/
-│   │   ├── marker-birth.svg
-│   │   ├── marker-burial.svg
-│   │   ├── marker-exile.svg
-│   │   ├── marker-friend.svg
-│   │   ├── marker-office.svg
-│   │   ├── marker-tour.svg
-│   │   ├── pwa-192.png
-│   │   └── pwa-512.png
-│   └── manifest.json                  # PWA清单
+├── data-v4/                              # 生产数据 Schema v4.0
+│   ├── places-index.json                 # 234 地点索引
+│   ├── poems-index.json                  # 68 首诗词索引
+│   ├── routes-index.json                 # 20 条路线索引
+│   ├── stages-index.json                 # 6 阶段索引
+│   ├── map-config.json                   # 地图全局配置
+│   ├── places/P001~P234.json             # 234 个 place 详情
+│   ├── poems/W001~W068.json              # 39 已有全文 + 29 待补
+│   └── routes/R00~R19.json               # 20 条路线详情
 │
-├── scripts/                           # Python脚本
-│   ├── generate-route-table.py        # 生成路线表格
-│   ├── place-database-v3.py          # V4数据生成
-│   └── verify-routes.py              # 路线数据验证
+├── data-v4-source/                       # 数据原料（不进生产）
+│   ├── R0X_xxx.md                        # 20 条路线源数据 markdown
+│   ├── 行踪考-简体/                      # 25 篇繁→简 markdown · 100 万字
+│   ├── 行踪考诗词候选/                   # Phase 2 提取脚本输出
+│   └── 外部专家任务清单/                 # A3 史实疑义裁决等
 │
-├── types/                             # TypeScript类型定义
-│   └── index.ts
+├── data/                                 # 历史 v3 + 备份
+│   └── legacy-v3-backup-2026-06-01/
 │
-├── .github/
-│   └── workflows/
-│       └── keepalive.yml              # GitHub Actions保活
+├── public/
+│   ├── markers/marker-{type}.svg         # 8 类设计稿 SVG marker
+│   ├── icons/pwa-{192,512}.png           # PWA 图标（占位）
+│   ├── favicon.svg                       # 行吟山河"山"金色渐变 SVG
+│   ├── favicon.ico                       # PWA 占位
+│   └── manifest.json                     # PWA 清单
 │
-├── .env.example                       # 环境变量示例
-├── .gitignore
-├── next.config.js                     # Next.js配置
-├── package.json                       # 依赖配置
-├── pnpm-lock.yaml                     # pnpm锁文件
-├── postcss.config.js                  # PostCSS配置
-├── tailwind.config.ts                 # Tailwind配置
-├── tsconfig.json                      # TypeScript配置
-├── README.md                          # 项目说明
-├── 2026-05-30-WORKLOG.md            # 周六工作日志
-├── 2026-05-31-WORKLOG.md            # 周日工作日志
-└── PROJECT-ARCHITECTURE.md           # 本文档
+├── scripts/
+│   ├── extract-xingzhongkao.py           # 行踪考 Word → 简体 md
+│   ├── extract-poems-from-xingzhongkao.py # 诗词候选提取
+│   ├── auto-walkthrough.mjs              # Puppeteer 自动化走查
+│   ├── validate-data.ts                  # 数据校验
+│   ├── convert-geojson.ts                # 坐标转换
+│   └── extract-sushi-poems.ts            # 苏轼诗词提取
+│
+├── tailwind.config.ts                    # Tailwind 配置
+├── next.config.js                        # Next.js 配置
+├── package.json                          # 依赖
+├── tsconfig.json                         # TypeScript 配置
+├── vercel.json                           # Vercel 部署配置
+├── README.md                             # 项目说明
+└── PROJECT-ARCHITECTURE.md               # 本文档
 ```
-
-### 1.3 技术栈详解
-
-| 技术 | 版本 | 用途 | 状态 |
-|------|------|------|------|
-| Next.js | 14 | 全栈框架，App Router | ✅ 完成 |
-| TypeScript | 5.x | 类型安全 | ✅ 完成 |
-| Tailwind CSS | 3.x | CSS框架 | ✅ 完成 |
-| shadcn/ui | - | UI组件库（预留） | ⏳ 待集成 |
-| 高德地图 JSAPI | 2.0 | 地图服务 | ✅ 完成 |
-| @amap/amap-jsapi-loader | - | 地图SDK加载 | ✅ 完成 |
-| Zustand | 4.x | 状态管理 | ✅ 完成 |
-| Framer Motion | 10.x | 动画库 | ✅ 完成 |
-| Fuse.js | 6.x | 模糊搜索 | ✅ 完成 |
-| @ducanh2912/next-pwa | - | PWA支持 | ✅ 完成 |
-| @vercel/og | - | OG图片生成 | ✅ 完成 |
-| Python | 3.x | 数据处理脚本 | ✅ 完成 |
-| Vercel | - | 部署平台 | ✅ 配置完成 |
-| Cloudflare | - | CDN加速 | ✅ 配置完成 |
-
-### 1.4 核心数据结构
-
-#### 1.4.1 地点数据结构（places-detailed-v3.json）
-
-```typescript
-interface PlaceDetailed {
-  place_id: string;              // 地点ID
-  name_song: string;             // 宋代名称
-  name_modern: string;           // 现代名称
-  name_pinyin: string;           // 拼音
-  latitude: number;             // 纬度（GCJ-02）
-  longitude: number;            // 经度（GCJ-02）
-  place_type: PlaceType;         // 地点类型
-  tags: string[];                // 标签
-  summary: string;               // 摘要
-  background: string;            // 背景介绍
-  global_events: Event[];        // 全局事件
-  global_works: Work[];          // 全局作品
-  route_events: {                // 路线事件
-    [route_id: string]: Event[];
-  };
-  route_order: {                 // 路线顺序
-    [route_id: string]: number;
-  };
-  route_arrival: {               // 路线到达时间
-    [route_id: string]: string;
-  };
-  route_departure: {             // 路线离开时间
-    [route_id: string]: string;
-  };
-  memorial_sites: MemorialSite[]; // 纪念地
-  transport: Transport;          // 交通信息
-  source: string;                // 数据来源
-}
-
-type PlaceType = 
-  | 'birth'       // 出生
-  | 'burial'      // 长眠
-  | 'exile'       // 贬谪
-  | 'friend'      // 友人
-  | 'office'      // 任职
-  | 'tour';       // 游览
-
-interface Event {
-  id: string;
-  date: string;
-  title: string;
-  description: string;
-  significance?: string;
-}
-
-interface Work {
-  id: string;
-  title: string;
-  content: string;
-  type: 'poem' | 'ci' | 'prose';
-}
-
-interface MemorialSite {
-  name: string;
-  location: string;
-  description: string;
-}
-
-interface Transport {
-  train?: string;
-  bus?: string;
-  car?: string;
-}
-```
-
-#### 1.4.2 路线数据结构（routes-v3.json）
-
-```typescript
-interface RoutesData {
-  version: string;               // 数据版本
-  created_at: string;            // 创建时间
-  routes: {
-    [route_id: string]: Route;
-  };
-  source: string;
-}
-
-interface Route {
-  route_id: string;              // 路线ID
-  route_name: string;            // 路线名称
-  start_date: string;            // 开始时间
-  end_date: string;              // 结束时间
-  description: string;           // 路线描述
-  place_ids: string[];           // 途经地点ID数组
-  source: string;                // 数据来源
-}
-```
-
-## 二、核心功能说明
-
-### 2.1 地图功能
-
-**组件**：`components/map/AMapContainer.tsx`
-
-**功能特性**：
-- ✅ 高德地图JSAPI 2.0集成
-- ✅ GCJ-02坐标系统
-- ✅ 水墨自定义地图样式
-- ✅ 标记聚类渲染（MarkerCluster）
-- ✅ 地点标记按类型区分（6种）
-- ✅ 标记点击交互
-- ✅ 地图缩放控制
-- ✅ 地图拖拽控制
-- ✅ 地图初始化与标记创建分离
-
-**标记类型**：
-- 🎯 出生（marker-birth.svg）
-- ⚰️ 长眠（marker-burial.svg）
-- 🚫 贬谪（marker-exile.svg）
-- 👥 友人（marker-friend.svg）
-- 🏢 任职（marker-office.svg）
-- 🎪 游览（marker-tour.svg）
-
-### 2.2 地点卡片
-
-**组件**：`components/place/PlaceCard.tsx`
-
-**功能特性**：
-- ✅ 半屏手势拖拽（Framer Motion）
-- ✅ 上滑展开详情
-- ✅ 下滑关闭卡片
-- ✅ 地点基本信息展示
-- ✅ 诗词关联展示
-- ✅ 纪念地信息
-- ✅ 交通信息
-- ✅ 平滑过渡动画
-
-### 2.3 地点详情页
-
-**页面**：`app/place/[id]/page.tsx`
-
-**功能特性**：
-- ✅ SSG静态生成
-- ✅ 完整地点信息展示
-- ✅ 事迹时间轴
-- ✅ 诗词作品展示
-- ✅ 景点介绍
-- ✅ 美食推荐
-- ✅ 纪念地导航
-- ✅ 返回地图功能
-
-### 2.4 时间轴
-
-**组件**：`components/Timeline.tsx`
-
-**功能特性**：
-- ✅ 7阶段时间轴
-- ✅ 底部滑动切换
-- ✅ 阶段：眉山少年→第一次出蜀→第二次出蜀→凤翔签判→杭州密徐→贬谪黄州→晚年惠州儋州→北归常州
-- ✅ 当前阶段高亮
-- ✅ 平滑切换动画
-
-### 2.5 搜索功能
-
-**组件**：`components/Search.tsx`
-
-**功能特性**：
-- ✅ Fuse.js模糊搜索
-- ✅ 地点名称搜索
-- ✅ 诗词内容搜索
-- ✅ 搜索结果展示
-- ✅ 点击跳转到地点
-- ✅ 搜索历史（预留）
-
-### 2.6 轨迹动画
-
-**组件**：`components/TrajectoryAnimation.tsx`
-
-**功能特性**：
-- ✅ 按时间顺序连线
-- ✅ 播放控制（开始/暂停/继续）
-- ✅ 播放速度调节
-- ✅ 进度显示
-- ✅ 轨迹高亮
-- ✅ 平滑动画过渡
-
-### 2.7 打卡功能
-
-**组件**：`components/Checkin.tsx`
-
-**功能特性**：
-- ✅ IndexedDB本地存储
-- ✅ 匿名打卡
-- ✅ 打卡记录查看
-- ✅ 打卡地点标记
-- ✅ 微信登录入口（二期预留）
-- ✅ 分享功能（预留）
-
-### 2.8 分享长图
-
-**API**：`app/api/og/route.tsx`
-
-**功能特性**：
-- ✅ @vercel/og动态生成
-- ✅ 地点信息展示
-- ✅ 地点地图截图
-- ✅ 诗词展示
-- ✅ 可分享到社交媒体
-
-### 2.9 PWA功能
-
-**功能特性**：
-- ✅ Service Worker
-- ✅ 三级缓存策略
-- ✅ 离线访问
-- ✅ 添加到主屏幕
-- ✅ 推送通知（预留）
-- ✅ 首屏加载优化（<2s）
-
-## 三、数据系统
-
-### 3.1 数据版本历史
-
-| 版本 | 时间 | 主要变更 |
-|------|------|---------|
-| v1.0 | 2026-05-29 | 初始版本，120地点基础数据 |
-| v2.0 | 2026-05-30 | 添加地点详情，集成诗词 |
-| v3.0 | 2026-05-31 | 18条路线，初步关联 |
-| v4.0 | 2026-05-31 | 19条完整路线，V4数据修复 |
-
-### 3.2 19条路线详情（V4）
-
-#### Route01：第一次出蜀赴京
-- **时间**：嘉祐元年（1056年）三月→嘉祐二年（1057年）四月
-- **途经**：眉州/眉山 → 益州/成都 → 阆州/阆中 → 剑门关 → 利州/益昌 → 凤翔府 → 京兆府/长安 → 渑池 → 汴京/东京（9个）
-
-#### Route02：第二次出蜀与三苏《南行集》
-- **时间**：嘉祐四年（1059年）十月→嘉祐五年（1060年）二月
-- **途经**：眉州/眉山 → 益州/成都 → 阆州/阆中 → 剑门关 → 利州/益昌 → 凤翔府 → 京兆府/长安 → 渑池 →汴京/东京（9个）
-
-#### Route03：第二次进京与凤翔签判 ⭐
-- **时间**：嘉祐六年（1061年）十一月十九日→嘉祐六年（1061年）十二月十四日
-- **途经**：汴京/东京 → 郑州 → 洛阳 → 渑池 → 陕州 → 华州 → 渭南 → 京兆府/长安 → 扶风 → 凤翔府（10个）
-- **备注**：此路线为V4新增，解决原数据缺失问题
-
-#### Route04：第三次入京与父丧返乡
-- **时间**：治平元年（1064年）正月→治平四年（1067年）四月
-- **途经**：凤翔府 → 京兆府/长安 → 华清宫 → 华州 →汴京/东京 → 文安县 → 大名府 → 泗州 → 龟山 → 樊口 → 江陵府 → 下岩/云安 → 仙都山 → 丰都 → 眉州/眉山（15个）
-
-#### Route05：第四次出蜀赴京
-- **时间**：熙宁元年（1068年）十一二月→熙宁二年（1069年）二月初
-- **途经**：眉州/眉山 → 昭化/益昌 → 凤翔府 → 京兆府/长安 → 汴京/东京（5个）
-
-#### Route06：任杭州倅
-- **时间**：熙宁四年（1071年）七月上旬→熙宁四年（1071年）十一月二十八日
-- **途经**：汴京/东京 → 陈州/宛丘 → 颍州 → 寿州 → 扬州/广陵 → 润州/镇江 → 苏州/平江府 → 杭州/临安（8个）
-
-#### Route07：知密州
-- **时间**：熙宁七年（1074年）九月下旬→熙宁九年（1076年）十二月
-- **途经**：杭州/临安 → 润州/镇江 → 高邮 → 海州 → 密州（5个）
-
-#### Route08：知徐州
-- **时间**：熙宁九年（1076年）十二月→元丰二年（1079年）二三月
-- **途经**：密州 → 沂州 → 郓州 → 徐州/彭城（4个）
-
-#### Route09：知湖与乌台诗案
-- **时间**：元丰二年（1079年）二三月→元丰二年（1079年）十二月
-- **途经**：徐州/彭城 → 楚州/淮安 → 润州/镇江 → 湖州（4个）
-
-#### Route10：贬谪黄州
-- **时间**：元丰三年（1080年）正月→元丰七年（1084年）四月
-- **途经**：汴京/东京 → 光州 → 麻城 → 黄州（4个）
-
-#### Route11：量移汝州与庐山之游
-- **时间**：元丰七年（1084年）四月→元丰七年（1084年）十二月
-- **途经**：黄州 → 金陵/江宁 → 高安 → 庐山（4个）
-
-#### Route12：万里来去知登州
-- **时间**：元丰八年（1085年）六月→元丰八年（1085年）十一月
-- **途经**：南都/宋城 → 海州 → 密州 → 莱州 → 登州（5个）
-
-#### Route13：第六次入京
-- **时间**：元丰八年（1085年）十二月→元祐四年（1089年）四月
-- **途经**：汴京/东京（1个）
-
-#### Route14：再知杭州
-- **时间**：元祐四年（1089年）四月→元祐六年（1091年）
-- **途经**：汴京/东京 → 杭州/临安（2个）
-
-#### Route15：知颍州与知扬州
-- **时间**：元祐六年（1091年）→元祐七年（1092年）
-- **途经**：杭州/临安 → 高邮 → 颍州 → 扬州/广陵（4个）
-
-#### Route16：第七次进京
-- **时间**：元祐七年（1092年）→元祐八年（1093年）
-- **途经**：扬州/广陵 → 滁州 → 汴京/东京（3个）
-
-#### Route17：贬谪惠州
-- **时间**：绍圣元年（1094年）四月→绍圣四年（1097年）四月
-- **途经**：定州 → 楚州/淮安 → 扬州/广陵 → 真州 → 长芦 → 金陵/江宁 → 当涂 → 湖口 → 江州/九江 → 彭蠡湖 → 南康军 → 赣州 → 大庾岭 → 南雄州 → 韶州 → 英州 → 广州 → 惠州（18个）
-
-#### Route18：贬谪儋州
-- **时间**：绍圣四年（1097年）四月→元符三年（1100年）六月
-- **途经**：惠州 → 广州 → 梧州 → 藤州 → 容州 → 雷州 → 徐闻 → 琼州/海口 → 儋州（9个）
-
-#### Route19：北归常州
-- **时间**：元符三年（1100年）六月→建中靖国元年（1101年）七月
-- **途经**：儋州 → 澄迈 → 琼州/海口 → 雷州 → 廉州 → 容州 → 藤州 → 梧州 → 广州 → 英州 → 赣州 → 金陵/江宁 → 常州（13个）
-
-### 3.3 数据来源
-
-| 数据类型 | 来源 | 说明 |
-|---------|------|------|
-| 苏轼生平 | 《苏轼年谱》、《苏轼全集校注》、李常生《苏轼行踪考》 | 核心数据 |
-| 历史地理 | CHGIS（哈佛大学+复旦大学） | 宋代地名与坐标 |
-| 诗词 | chinese-poetry (CC0) | 苏轼诗词作品 |
-| 地图服务 | 高德地图 JSAPI 2.0 | GCJ-02坐标 |
-
-### 3.4 数据处理脚本
-
-| 脚本 | 用途 | 状态 |
-|------|------|------|
-| scripts/place-database-v3.py | V4数据生成（地点+路线） | ✅ 完成 |
-| scripts/verify-routes.py | 路线数据验证 | ✅ 完成 |
-| scripts/generate-route-table.py | 路线表格生成 | ✅ 完成 |
-
-## 四、项目进度
-
-### 4.1 总体进度
-
-**完成度**：85%
-
-### 4.2 功能完成度
-
-| 功能模块 | 完成度 | 状态 |
-|---------|--------|------|
-| 项目初始化 | 100% | ✅ 完成 |
-| 地图功能 | 95% | ✅ 基本完成，待优化 |
-| 地点卡片 | 90% | ✅ 基本完成，待优化 |
-| 地点详情页 | 85% | ✅ 基本完成，待补充数据 |
-| 时间轴 | 80% | ⚠️ 需要与19条路线对应 |
-| 搜索功能 | 90% | ✅ 基本完成，待优化 |
-| 轨迹动画 | 70% | ⚠️ 需要对接19条路线 |
-| 打卡功能 | 85% | ✅ 基本完成，二期：微信登录 |
-| 分享长图 | 90% | ✅ 基本完成，待优化 |
-| PWA | 95% | ✅ 基本完成 |
-| 路线数据 | 90% | ✅ V4完成，待补充5个地点 |
-| 地点数据 | 80% | ⚠️ 部分地点缺少事件 |
-| 测试 | 30% | ⚠️ 待完善 |
-| 部署 | 90% | ✅ 配置完成 |
-
-### 4.3 已知问题
-
-#### 问题1：route03缺失5个地点数据
-- **问题**：route03中的郑州、洛阳、陕州、渭南、扶风在地点数据库中缺失
-- **影响**：这些地点无法在地图上显示
-- **优先级**：🔴 高
-- **状态**：待修复
-
-#### 问题2：部分地点缺少route_events
-- **问题**：约28个地点缺少路线事件数据
-- **影响**：地点详情页事件时间轴不完整
-- **优先级**：🟡 中
-- **状态**：待完善
-
-#### 问题3：时间轴需要与19条路线对应
-- **问题**：当前时间轴为7阶段，需要调整为与19条路线对应
-- **影响**：用户体验不一致
-- **优先级**：🟡 中
-- **状态**：待调整
-
-#### 问题4：轨迹动画需要对接19条路线
-- **问题**：当前轨迹动画未使用V4路线数据
-- **影响**：轨迹展示不准确
-- **优先级**：🟡 中
-- **状态**：待对接
-
-### 4.4 待办事项
-
-#### 高优先级（🔴）
-- [ ] 补充route03缺失的5个地点数据（郑州、洛阳、陕州、渭南、扶风）
-- [ ] 验证所有19条路线的途经点在地点数据库中存在
-- [ ] 修复地点与路线的关联关系
-
-#### 中优先级（🟡）
-- [ ] 完善约28个地点的route_events字段
-- [ ] 调整时间轴与19条路线对应
-- [ ] 对接轨迹动画使用V4路线数据
-- [ ] 优化地图标记展示
-- [ ] 完善地点详情页内容
-
-#### 低优先级（🟢）
-- [ ] 集成shadcn/ui组件库
-- [ ] 单元测试
-- [ ] E2E测试
-- [ ] 性能优化
-- [ ] 微信登录（二期）
-- [ ] 更多分享功能
-
-## 五、部署与运维
-
-### 5.1 部署架构
-
-```
-                    ┌─────────────┐
-                    │   用户     │
-                    └──────┬──────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │ Cloudflare │
-                    │   CDN      │
-                    └──────┬──────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │   Vercel   │
-                    │  (托管)    │
-                    └──────┬──────┘
-                           │
-            ┌──────────────┼──────────────┐
-            │              │              │
-            ▼              ▼              ▼
-    ┌──────────────┐ ┌──────────┐  ┌──────────┐
-    │  Next.js     │ │  静态资源 │  │ 高德地图 │
-    │  Server      │ │ (CDN)    │  │ (API)    │
-    └──────────────┘ └──────────┘  └──────────┘
-```
-
-### 5.2 环境变量
-
-| 变量名 | 说明 | 必填 |
-|--------|------|------|
-| NEXT_PUBLIC_AMAP_KEY | 高德地图 JS API Key | ✅ 是 |
-| AMAP_SECURITY_JS_CODE | 高德 securityJsCode | ✅ 是 |
-
-### 5.3 部署命令
-
-```bash
-# 开发
-npm run dev
-
-# 构建
-npm run build
-
-# 生产服务器
-npm run start
-
-# Vercel部署
-vercel deploy
-```
-
-## 六、未来规划
-
-### 6.1 二期功能
-- [ ] 微信登录
-- [ ] 社交分享增强
-- [ ] 用户个人中心
-- [ ] 路线导览
-- [ ] 语音讲解
-- [ ] AR功能
-
-### 6.2 长期规划
-- [ ] 更多宋代文人行踪
-- [ ] 宋代文化地图
-- [ ] 教育互动功能
-- [ ] 学术研究支持
-- [ ] 多语言支持
 
 ---
 
-**文档版本**：v1.0
+## 三、视觉系统 v6.0
 
-**最后更新**：2026-06-01
+### 3.1 字体职能分工
 
-**维护者**：项目团队
+| 用途 | 字体 | CSS 类 |
+|---|---|---|
+| UI 主力（导航/卡片/列表）| Noto Sans SC 思源黑体 | `var(--font-sans)` 默认 |
+| 诗意锚点（Hero/品牌/诗句）| LXGW WenKai 霞鹜文楷 | `font-wenkai` |
+| 数字位（年份/时间）| JetBrains Mono | `font-mono` |
+
+### 3.2 行吟山河 LOGO 艺术字（3 档）
+
+| 档位 | 用在哪 | CSS 类 |
+|---|---|---|
+| lg | Hero 大字 56-110px | `.logo-brand-lg` |
+| md | Section 标题 28-38px | `.logo-brand-md` |
+| sm | 顶栏小 logo 17px | `.logo-brand-sm` |
+
+### 3.3 主色板
+
+| 色 | Hex | CSS 变量 |
+|---|---|---|
+| 墨黑 | #1A1008 | `--ink` |
+| 主金 | #FAC775 | `--gold` |
+| 中金 | #BA7517 | `--gold-m` |
+| 深金 | #EF9F27 | `--gold-d` |
+| 米白 1 | #FAF6F0 | `--paper` |
+| 米白 2 | #F0E9DF | `--paper2` |
+
+### 3.4 4 类阶段色
+
+| 类型 | 主色 | 浅色 |
+|---|---|---|
+| birth 出生 | #085041 | #5DCAA5 |
+| office 任职 | #0C447C | #85B7EB |
+| exile 贬谪 | #712B13 | #F0997B |
+| tour 游览 | #633806 | #C9975A |
+
+### 3.5 地图样式
+
+- **样式 ID**: `amap://styles/5bcb375541c22ed25703103920a7d5e8`
+- **基调**: 暖米白宣纸底图 #F4EEDD
+- **路网**: 淡金主干道（高速 #C4A96A）+ 全部小路关闭
+- **POI**: 全部关闭（餐饮/景区/医疗/商业等）
+- **行政区界**: 淡赭石细线 #B0A080
+
+---
+
+## 四、关键交互设计
+
+### 4.1 路线模式切换
+
+```
+总览模式（currentRoute === null/overview）：
+- 所有 234 marker 显示
+- 所有 20 条 polyline 显示（细虚线 strokeWeight 2）
+- setFitView 自适应中国全图
+
+单路线模式（currentRoute === 'Rxx'）：
+- 仅显示该路线相关 marker
+- 仅画该路线 polyline（中虚线 strokeWeight 3 + 方向箭头）
+- 自动 setFitView 到该路线范围
+```
+
+### 4.2 移动端底部抽屉（v3.1）
+
+苹果地图风格，68vh 弹起，地图永远 32% 可见。
+
+```
+┌────────────────────┐
+│   [地图 32%]        │
+├────────────────────┤
+│   ━━━ 把手          │
+│   行吟山河          │
+│   ROUTES · 苏轼一生 │
+│  ─────────────────  │
+│   ● 一生总览         │
+│  ─────────────────  │
+│   ● 眉山·少年        │
+│     眉山故里·少年... │
+│   ● 汴京·宦游        │
+│     ...              │
+│  ─────────────────  │
+│  ┌──────────────┐   │
+│  │浏览全部 20 条→│   │ ← 主入口大按钮
+│  └──────────────┘   │
+└────────────────────┘
+```
+
+### 4.3 底部时间轴（v2.0）
+
+横向可滑动 6 阶段，当前阶段自动居中放大（scale 1.05 + 金色背景）。
+
+```
+[眉山·少年] [汴京·宦游] [黄州·东坡] ◀ [元祐·还朝] [惠儋·南贬] [北归·终老]
+   1037        1056        1080         1085         1094         1100
+```
+
+### 4.4 PlaceCard 详情卡
+
+Framer Motion 三档拖动：折叠（38%）/ 展开（8%），底部留 144px 安全区防止 Safari 浏览器栏遮挡。
+
+---
+
+## 五、数据架构
+
+### 5.1 v4 Schema 概览
+
+每个 place 含以下字段：
+
+```typescript
+type PlaceCore = {
+  id: string;                    // P001-P234
+  ancient_name: string;          // 古地名（如"黄州"）
+  modern_name: string;           // 今地名（如"湖北黄冈"）
+  type: 'main' | 'visit' | 'stay' | 'study' | 'birth' | 'official' | 'death' | 'tomb';
+  designType: DesignPlaceType;   // 设计稿 8 类
+  lat: number;                   // GCJ-02 纬度
+  lng: number;                   // GCJ-02 经度
+  related_routes: string[];      // R00-R19
+  summary: string;               // 一句话简介（100% 覆盖）
+  background: string;            // 背景介绍 30-100 字（100% 覆盖）
+  global_events: Array<{         // 史实事件（平均 5-8 条）
+    id, date, title, description, significance
+  }>;
+  modern_visit?: {                // 旅游信息（57% 覆盖）
+    address, ticket, hours, transport, tips
+  };
+  importance: 1 | 2 | 3;         // 重要度
+  tags: string[];                // 标签
+};
+```
+
+### 5.2 数据补全 Phase 路径
+
+| Phase | 状态 | 内容 |
+|---|---|---|
+| Phase 1 | ✅ 完成 | 苏轼行踪考 26 docx → 25 简体 md（100 万字）|
+| Phase 2 | 🟡 进行中 | 诗词关联 68 → 200+（卡在白名单数据源升级）|
+| Phase 3 | ⏳ 计划中 | global_events 史实补全（最重）|
+| Phase 4 | ⏳ 计划中 | 实景图片提取 + place 关联 |
+| modern_visit | ⏳ 计划中 | 高德 POI API 批量补全 134 个 |
+| A3 裁决 | 🟡 进行中 | 外部专家史实疑义清单 |
+
+---
+
+## 六、部署链路
+
+```
+开发环境
+    ↓ git push origin main
+GitHub (mansonli001/su-shi-map · Public)
+    ↓ webhook
+Vercel (Hobby 免费版)
+    ↓ next build → Edge Functions
+Cloudflare (橙云代理)
+    ↓ CDN 分发
+su-shi.starfluxes.com（国内+海外稳定）
+```
+
+### 域名架构
+
+- **主域** `starfluxes.com` — 阿里云万网注册，Cloudflare DNS
+- **当前子域** `su-shi.starfluxes.com` — 苏轼地图专用
+- **未来子域**（规划中）`xingxing.starfluxes.com` — 醒醒攻 / `toxic-pm.starfluxes.com` — 产品抬杠大师等
+
+### 环境变量（生产）
+
+```bash
+NEXT_PUBLIC_AMAP_KEY=...          # 高德 JS API（白名单含 starfluxes）
+AMAP_SECURITY_JS_CODE=...          # 安全密钥（保密）
+AMAP_WEB_SERVICE_KEY=...          # POI Web Service（开发数据补全用）
+```
+
+---
+
+## 七、自动化质量保证
+
+### 7.1 自动化走查脚本
+
+`scripts/auto-walkthrough.mjs`：
+
+- Puppeteer 模拟 iPhone 14 Pro（393x852, DPR 2）
+- 5 条黄金路径 22 项断言
+- 截图 + console 日志 + 网络 4xx/5xx 抓取
+- 输出 `walkthrough-report/{01-05}.png + report.md`
+
+```bash
+pnpm walkthrough          # 跑本地 dev server
+pnpm walkthrough:prod     # 跑线上 starfluxes
+```
+
+最近一次走查：**22 pass / 0 warn / 0 fail · 0 console error**
+
+### 7.2 数据完整性
+
+| 字段 | 覆盖率 |
+|---|---|
+| summary | ✅ 234/234 (100%) |
+| background | ✅ 234/234 (100%) |
+| global_events | ✅ 234/234（平均 5-8 条）|
+| modern_visit | 🟡 100/234 (43%) |
+| 实景图片 | ❌ 0/234 |
+| 诗词关联 | 🟡 68 首已关联 |
+
+---
+
+## 八、版本历史
+
+| 版本 | 日期 | 主要变更 |
+|---|---|---|
+| v6.0 | 2026-06-02 | 自定义地图样式 + LOGO 艺术字 + 微信适配 + 数据补全 Phase 1 |
+| v5.0 | 2026-06-01 | v3→v4 数据切换 + Landing 首页 + Routes 详情页 + GitHub/Vercel 上线 |
+| v4.0 | 2026-05-29 | 项目启动，120 地点骨架 |
+
+---
+
+## 九、重要原则
+
+### 不做（v1.0 弹性维护期）
+
+- ❌ 试探性新功能（推荐算法 / 用户系统 / 多语言等）
+- ❌ 没有用户反馈支持的优化
+- ❌ 锦上添花的视觉调整
+
+### 永远做
+
+- ✅ Bug 修复
+- ✅ 性能优化
+- ✅ 安全加固
+- ✅ 用户反馈调优
+- ✅ 数据补全（核心内涵）
+
+---
+
+**Loading in Progress** · *Cyber Loading* 🌸
