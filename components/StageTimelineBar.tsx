@@ -86,10 +86,10 @@ export default function StageTimelineBar() {
                 className={`
                   flex flex-col items-center text-center flex-shrink-0
                   md:min-w-0 md:flex-1 md:px-1
-                  px-3 py-1.5 rounded-md
+                  px-3.5 py-2 md:py-1.5 rounded-md
                   group cursor-pointer
                   transition-all duration-300
-                  ${isActive ? 'bg-gold/12 scale-105' : 'hover:bg-gold/5'}
+                  ${isActive ? 'bg-gold/15 scale-105' : 'hover:bg-gold/5'}
                 `}
                 style={{ scrollSnapAlign: 'center' }}
                 title={`${s.name} · ${s.theme}`}
@@ -98,17 +98,19 @@ export default function StageTimelineBar() {
                   className={`
                     font-wenkai transition-colors leading-tight whitespace-nowrap
                     ${isActive
-                      ? 'text-gold font-semibold text-[14px] md:text-[12px]'
-                      : 'text-gold/45 group-hover:text-gold/75 text-[12px] md:text-[11px]'}
+                      ? 'text-gold font-semibold text-[16px] md:text-[12px]'
+                      : 'text-gold/55 group-hover:text-gold/80 text-[14px] md:text-[11px]'}
                   `}
-                  style={{ letterSpacing: '0.04em' }}
+                  style={{ letterSpacing: '0.06em' }}
                 >
                   {s.name}
                 </span>
                 <span
                   className={`
-                    text-[10px] md:text-[9px] mt-0.5 transition-colors font-mono
-                    ${isActive ? 'text-gold-d/95' : 'text-ink-lt/55 group-hover:text-gold-m/65'}
+                    mt-0.5 transition-colors font-mono
+                    ${isActive
+                      ? 'text-gold-d/95 text-[12px] md:text-[9px] font-semibold'
+                      : 'text-ink-lt/65 group-hover:text-gold-m/65 text-[11px] md:text-[9px]'}
                   `}
                 >
                   {s.start_year}
