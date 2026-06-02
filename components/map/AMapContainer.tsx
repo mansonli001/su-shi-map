@@ -64,11 +64,13 @@ export default function AMapContainer() {
           zoomControl: true,
           scaleControl: false,
           toolBarControl: false,
+          // 行吟山河自定义样式（米白宣纸 + 淡金路网 + POI 全关）
+          mapStyle: 'amap://styles/5bcb375541c22ed25703103920a7d5e8',
         });
         mapRef.current = map;
         setMapRef(map);
         setIsMapReady(true);
-        logger.info('AMap map instance ready');
+        logger.info('AMap map instance ready (style: 行吟山河 v1)');
       } catch (err: any) {
         logger.error('地图初始化异常', err?.message || err);
       }
