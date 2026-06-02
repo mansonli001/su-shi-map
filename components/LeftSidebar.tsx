@@ -182,9 +182,24 @@ export default function LeftSidebar() {
         )}
       </nav>
 
-      {/* 底部说明 */}
-      <div className="px-4 py-2 border-t border-gold/10">
-        <p className="text-[9px] text-gold/30 tracking-[0.16em]">
+      {/* 底部：'浏览全部 20 条路线' 醒目入口（桌面版） */}
+      <div className="px-2 pt-2 pb-2 border-t border-gold/15">
+        <a
+          href="/routes"
+          className="block w-full px-3 py-2.5 rounded-md text-center transition-all hover:brightness-110"
+          style={{
+            background: 'linear-gradient(135deg, rgba(250,199,117,0.15) 0%, rgba(186,117,23,0.20) 100%)',
+            border: '1px solid rgba(250,199,117,0.30)',
+          }}
+        >
+          <div className="text-[11.5px] font-wenkai text-gold font-semibold tracking-[0.1em] leading-tight">
+            浏览全部 20 条路线 →
+          </div>
+          <div className="text-[9px] text-gold-m/65 mt-0.5 tracking-[0.04em]">
+            史诗 · 事件 · 文学
+          </div>
+        </a>
+        <p className="text-[9px] text-gold/30 tracking-[0.16em] text-center mt-1.5">
           {routes.length > 0 ? `${routes.length} 条 · 6 阶段 · v4` : '加载中…'}
         </p>
       </div>
@@ -316,9 +331,25 @@ export default function LeftSidebar() {
         )}
       </nav>
 
-      {/* 底部说明 */}
-      <div className="px-4 py-2 border-t border-gold/10 flex-shrink-0">
-        <p className="text-[10px] text-gold/40 tracking-[0.16em] text-center">
+      {/* 底部：'浏览全部 20 条路线介绍' 醒目入口（移动版） */}
+      <div className="px-3 pt-3 pb-3 border-t border-gold/15 flex-shrink-0">
+        <a
+          href="/routes"
+          className="block w-full px-4 py-3 rounded-lg text-center transition-all active:scale-[0.98]"
+          style={{
+            background: 'linear-gradient(135deg, rgba(250,199,117,0.18) 0%, rgba(186,117,23,0.22) 100%)',
+            border: '1px solid rgba(250,199,117,0.35)',
+            boxShadow: '0 2px 8px rgba(250,199,117,0.08)',
+          }}
+        >
+          <div className="text-[14px] font-wenkai text-gold font-semibold tracking-[0.12em] leading-tight">
+            浏览全部 20 条路线介绍 →
+          </div>
+          <div className="text-[10px] text-gold-m/70 mt-1 tracking-[0.06em]">
+            每条路线含史诗叙事 · 关键事件 · 文学创作
+          </div>
+        </a>
+        <p className="text-[10px] text-gold/35 tracking-[0.16em] text-center mt-2">
           {routes.length > 0 ? `${routes.length} 条 · 6 阶段 · v4` : '加载中…'}
         </p>
       </div>

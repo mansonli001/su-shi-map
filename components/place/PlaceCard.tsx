@@ -175,7 +175,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
             </div>
 
-            <div className="px-5 pb-6">
+            <div className="px-5 pb-32" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 9rem)' }}>
               {/* ====== 详情视图 ====== */}
               {showDetail ? (
                 <DetailView

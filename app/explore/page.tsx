@@ -118,10 +118,10 @@ function ExploreInner() {
       <div className="flex-1 relative">
         {/* === 顶部「读苏轼·游神州」副标题导航
               （主标题"行吟山河"在浏览器顶栏 / Safari Tab，此处不再重复） === */}
-        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[52px]">
-          <div className="flex items-center justify-between px-3 md:px-5 h-full gap-2">
-            {/* 副标题（普通字体，不再用 logo 艺术字） */}
-            <div className="flex items-center gap-2 md:gap-4 pl-14 md:pl-0 min-w-0">
+        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[60px] md:h-[56px]">
+          <div className="relative flex items-center justify-end px-3 md:px-5 h-full gap-2">
+            {/* 副标题（移动端绝对定位居中 / 桌面端左对齐） */}
+            <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-0 md:mr-auto flex items-center gap-2 md:gap-4 min-w-0 pointer-events-none md:pointer-events-auto">
               <div className="font-wenkai text-[15px] md:text-[14px] text-gold/90 tracking-[0.18em] md:tracking-[0.2em] whitespace-nowrap leading-tight">
                 读苏轼 · 游神州
               </div>
