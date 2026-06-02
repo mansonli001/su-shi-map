@@ -71,6 +71,17 @@ export default function AMapContainer() {
         setMapRef(map);
         setIsMapReady(true);
         logger.info('AMap map instance ready (style: 行吟山河 v1)');
+
+        // === Marker zoom 联动缩放 v1.0 ===
+        // 总览（zoom ≤5）缩 60%、大区（≤7）75%、省级（≤9）90%、城市（≥10）100%
+        // 解决总览模式 marker 互相遮挡的视觉问题
+        const updateMarkerScale = () => {
+          const z = map.getZoom();
+          const scale = z <= 5 ? 0.6 : z <= 7 ? 0.75 : z <= 9 ? 0.9 : 1.0;
+          document.documentElement.style.setProperty('--marker-scale', String(scale));
+        };
+        updateMarkerScale(); // 初始化触发一次
+        map.on('zoomend', updateMarkerScale);
       } catch (err: any) {
         logger.error('地图初始化异常', err?.message || err);
       }

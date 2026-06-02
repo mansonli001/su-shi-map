@@ -256,16 +256,25 @@ body {
     0 0 12px rgba(250, 199, 117, 0.18);
 }
 
-/* ========== Marker 交互（设计稿 §2.3） ========== */
-/* hover：图标放大至 1.10×，drop-shadow 增强 */
+/* ========== Marker 交互（设计稿 §2.3 + 2026-06-02 zoom 联动缩放） ==========
+ * --marker-scale 由 AMapContainer 根据 zoom 动态写入 :root：
+ *   zoom ≤5 总览：0.6 / ≤7 大区：0.75 / ≤9 省级：0.9 / ≥10 城市：1.0
+ * 解决总览模式 marker 互相遮挡问题
+ */
+.su-marker {
+  transform: scale(var(--marker-scale, 1));
+  transform-origin: center bottom;
+  transition: transform 0.25s ease-out, filter 0.18s ease-out;
+}
+/* hover：图标放大至 1.10×，drop-shadow 增强（叠乘 marker-scale） */
 .su-marker:hover {
-  transform: scale(1.10);
+  transform: scale(calc(var(--marker-scale, 1) * 1.10));
   filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
   z-index: 50;
 }
-/* 选中：白色柔光晕 */
+/* 选中：白色柔光晕（叠乘 marker-scale） */
 .su-marker.is-selected {
-  transform: scale(1.18);
+  transform: scale(calc(var(--marker-scale, 1) * 1.18));
   filter:
     drop-shadow(0 0 8px rgba(255, 255, 255, 0.85))
     drop-shadow(0 0 16px rgba(250, 199, 117, 0.55))
