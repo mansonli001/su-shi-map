@@ -145,11 +145,12 @@ export function makeMarkerHtml(
           ? 'visit'
           : 'visit';
 
-  // §2.4 尺寸规则
+  // §2.4 尺寸规则（v2026-06-02 调整：visit 游览类降到默认 24px，避免数量多互相遮挡）
+  // 关键节点（当官 official / 居住 stay）保留 30px 突出
   let size = 24;
-  if (mappedType === 'visit' || mappedType === 'stay' || mappedType === 'official') size = 30;
-  else if (mappedType === 'main') size = 22;
-  else size = 24;
+  if (mappedType === 'official' || mappedType === 'stay') size = 30;  // 关键节点
+  else if (mappedType === 'main') size = 22;                            // 主线行进
+  else size = 24;                                                       // visit/birth/study/death/tomb 统一 24px
 
   // 重要度微调（importance=1 主推 +2px / 3=灰度 -2px）
   if (importance === 1) size += 2;
