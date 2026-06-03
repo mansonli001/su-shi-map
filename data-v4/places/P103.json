@@ -23,7 +23,22 @@
       "description": "元祐四年（1089年），苏轼以龙图阁学士身份，再任杭州知州。\n\n这一次，他做的实事更多：疏浚西湖，用挖出的淤泥筑成'苏堤'（南北长堤，上有六桥）；设立'安乐坊'（中国最早的公立医院之一）；再次赈济灾民。\n\n在杭州百姓心里，苏轼不是一个'文学家'，他是一个'好官'——修了堤、治了病、救了灾。百姓叫他'苏贤良'，这个称呼，比'大文豪'让他更高兴。\n\n元祐六年（1091年）三月，苏轼被召回朝。杭州百姓沿湖相送，他写《别杭州》：'百姓依依不舍，我亦恋西湖。'"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元祐四年（1089年）",
+      "title": "杭州知州",
+      "description": "苏轼第二次任杭州知州",
+      "significance": "route14",
+      "id": "p103-evt-001"
+    },
+    {
+      "date": "熙宁四年（1071年）",
+      "title": "游灵隐寺",
+      "description": "苏轼游览灵隐寺，作《灵隐前一首赠唐林夫》",
+      "significance": "route04",
+      "id": "p103-evt-002"
+    }
+  ],
   "global_works": [],
   "route_events": {},
   "route_works": {},
@@ -48,5 +63,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B023B02842",
+    "amap_name": "灵隐寺",
+    "address": "法云弄1号",
+    "location": "120.101406,30.240826",
+    "cityname": "杭州市",
+    "adname": "西湖区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0571-87969691",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "夏季",
+        "url": "http://store.is.autonavi.com/showpic/4aa0a6a1b6ee72c9833441f363cbb43a"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/c7cccce2249dbb7aa013ee0b06888e9d"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/69e2dbe5322886d53ed57057e9ab5514"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:16.000Z"
 }

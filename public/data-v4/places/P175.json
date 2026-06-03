@@ -67,5 +67,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B00178WOW6",
+    "amap_name": "巫山县",
+    "address": "巫山县",
+    "location": "109.878995,31.074780",
+    "cityname": "重庆市",
+    "adname": "巫山县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B00178WOW6/comment/content_media_external_images_media_100002083_1734521358209_68097138.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B00178WOW6/comment/content_media_external_images_media_100002083_1734521358206_09723054.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B00178WOW6/comment/E079992B_32E7_465D_B398_CB484FEB4214_L0_001_1024_73_1745074592965_68446941.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:07.000Z"
 }

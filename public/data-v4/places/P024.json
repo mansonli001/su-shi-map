@@ -77,7 +77,8 @@
       "type": "词",
       "date": "1080年2月",
       "location": "黄州定慧院",
-      "background": "初到黄州，寓居定慧院，心境孤寂"
+      "background": "初到黄州，寓居定慧院，心境孤寂",
+      "poem_id": "C059"
     },
     {
       "id": "hz-w002",
@@ -90,7 +91,7 @@
       "background": "游赤壁怀古",
       "fullText": "大江东去，浪淘尽，千古风流人物。故垒西边，人道是，三国周郎赤壁。乱石穿空，惊涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。\n遥想公瑾当年，小乔初嫁了，雄姿英发。羽扇纶巾，谈笑间，樯橹灰飞烟灭。故国神游，多情应笑我，早生华发。人生如梦，一尊还酹江月。",
       "coreVerse": "大江东去，浪淘尽，千古风流人物。",
-      "poem_id": "W027"
+      "poem_id": "C036"
     },
     {
       "id": "hz-w003",
@@ -100,7 +101,8 @@
       "type": "文",
       "date": "1082年7月",
       "location": "黄州赤壁",
-      "background": "七月十六夜游赤壁"
+      "background": "七月十六夜游赤壁",
+      "poem_id": "F002"
     },
     {
       "id": "hz-w004",
@@ -113,7 +115,7 @@
       "background": "沙湖道中遇雨",
       "fullText": "三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉，已而遂晴，故作此词。\n\n莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。\n料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。",
       "coreVerse": "回首向来萧瑟处，归去，也无风雨也无晴。",
-      "poem_id": "W028"
+      "poem_id": "C037"
     }
   ],
   "route_events": {
@@ -211,5 +213,24 @@
     "quote": "拣尽寒枝不肯栖，寂寞沙洲冷。",
     "source": "卜算子·缺月挂疏桐",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0LKBOVED5",
+    "amap_name": "舒达床垫(赤壁红星美凯龙店)",
+    "address": "赤马港街道红星美凯龙三楼",
+    "location": "113.934463,29.731746",
+    "cityname": "咸宁市",
+    "adname": "赤壁市",
+    "type": "购物服务;家居建材市场;家具城",
+    "typecode": "060602",
+    "tel": "4009933231",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:15.000Z"
 }

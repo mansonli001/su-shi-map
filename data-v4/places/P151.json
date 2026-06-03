@@ -61,5 +61,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B018E0N900",
+    "amap_name": "三门峡市",
+    "address": "湖滨区",
+    "location": "111.200482,34.773196",
+    "cityname": "三门峡市",
+    "adname": "湖滨区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "娘娘山景区",
+        "url": "http://store.is.autonavi.com/showpic/2211224f8580bd0472a7902d0d3726c3"
+      },
+      {
+        "title": "仰韶仙门山旅游景区",
+        "url": "http://store.is.autonavi.com/showpic/48cae8d7b0b605fe7e47608c23df18e6"
+      },
+      {
+        "title": "陕州地坑院",
+        "url": "http://store.is.autonavi.com/showpic/4f189bfdcbc8a68cdbb04adace8e217d"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:50.000Z"
 }

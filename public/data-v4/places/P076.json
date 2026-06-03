@@ -57,5 +57,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B031C0ORCR",
+    "amap_name": "吉安市",
+    "address": "吉州区",
+    "location": "114.96681,27.091243",
+    "cityname": "吉安市",
+    "adname": "吉州区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "后河梦回庐陵景区",
+        "url": "http://store.is.autonavi.com/showpic/28b36b254437e7d7545ccc147120b83f"
+      },
+      {
+        "title": "安福武功山景区",
+        "url": "http://store.is.autonavi.com/showpic/6854df86e502d4b2eacf8b0f4093d629"
+      },
+      {
+        "title": "钓源古村",
+        "url": "http://store.is.autonavi.com/showpic/9564d5e2090a41d169c44602579e0c58"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:57.000Z"
 }

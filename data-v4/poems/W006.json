@@ -1,22 +1,21 @@
 {
   "id": "W006",
-  "title": "上神宗皇帝书（前期酝酿）",
-  "category": "奏疏",
-  "type": "策",
-  "year_estimate": 1069,
-  "route_id": "R05",
-  "related_route_ids": [
-    "R05"
+  "title": "济南龙洞山记",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1077,
+  "route_id": "R08",
+  "location": "济南",
+  "paragraphs": [
+    "济南之西南，有山焉，曰龙洞。洞深不可测，传闻有龙居焉。",
+    "元丰二年夏五月，予自徐来济南，领军悴李君文之从予游。始与二三子，裹粮相寻于龙洞之上。",
+    "龙洞者，盖禹之所疏凿，尧时洪水泛滥，民垫于渊，故禹治水于此。山之上有庙，庙有尧之遗像焉。",
+    "登山之路，皆石壁削立，无阶而升。予与文之凭高眺远，见山之连延起伏，如万马奔腾而出。又见洞门之上，有白石数片，莹然如玉。",
+    "文之曰：「此龙之蜕也，其骨在乎？」予以谓不然。夫龙之变化，固不可测，然其蜕也，岂能久留于此？此特石耳。"
   ],
-  "note": "入朝后针对变法政见陈述己见的奠基之作",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E4%B8%8A%E7%A5%9E%E5%AE%97%E7%9A%87%E5%B8%9D%E4%B9%A6&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": false
+  "background": "元丰二年（1077年），苏轼在徐州任上，曾到济南游览龙洞山，写下此记。文章描写了龙洞山的险峻景色和传说。",
+  "famousQuotes": [
+    "登山之路，皆石壁削立，无阶而升。",
+    "山之连延起伏，如万马奔腾而出。"
+  ]
 }

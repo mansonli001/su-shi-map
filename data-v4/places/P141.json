@@ -105,5 +105,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03820PU1A",
+    "amap_name": "海口市",
+    "address": "秀英区",
+    "location": "110.200162,20.046316",
+    "cityname": "海口市",
+    "adname": "秀英区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "海南省博物馆",
+        "url": "http://store.is.autonavi.com/showpic/1283915989e638442e5553428874c41a"
+      },
+      {
+        "title": "海口市骑楼老街",
+        "url": "http://store.is.autonavi.com/showpic/1973203b533ea7bdecdcf0bd6d0e29ad"
+      },
+      {
+        "title": "天空之山驿站",
+        "url": "http://store.is.autonavi.com/showpic/1fffe12a9690a0800144840bacfe721e"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:44.000Z"
 }

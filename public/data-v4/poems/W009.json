@@ -1,29 +1,18 @@
 {
   "id": "W009",
-  "title": "六月二十七日望湖楼醉书",
-  "category": "七言绝句",
-  "type": "诗",
-  "year_estimate": 1072,
-  "route_id": "R06",
-  "related_route_ids": [
-    "R06"
+  "title": "记承天寺夜游",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1083,
+  "route_id": "R10",
+  "location": "黄州",
+  "paragraphs": [
+    "元丰六年十月十二日夜，解衣欲睡，月色入户，欣然起行。念无与为乐者，遂至承天寺寻张怀民。怀民亦未寝，相与步于中庭。",
+    "庭下如积水空明，水中藻、荇交横，盖竹柏影也。何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
   ],
-  "note": "西湖暴雨千古名篇，\"黑云翻墨未遮山，白雨跳珠乱入船\"",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%85%AD%E6%9C%88%E4%BA%8C%E5%8D%81%E4%B8%83%E6%97%A5%E6%9C%9B%E6%B9%96%E6%A5%BC%E9%86%89%E4%B9%A6",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%85%AD%E6%9C%88%E4%BA%8C%E5%8D%81%E4%B8%83%E6%97%A5%E6%9C%9B%E6%B9%96%E6%A5%BC%E9%86%89%E4%B9%A6&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%85%AD%E6%9C%88%E4%BA%8C%E5%8D%81%E4%B8%83%E6%97%A5%E6%9C%9B%E6%B9%96%E6%A5%BC%E9%86%89%E4%B9%A6&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "黑云翻墨未遮山，白雨跳珠乱入船。\n卷地风来忽吹散，望湖楼下水如天。",
-  "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。",
-  "excerpt": "黑云翻墨未遮山，白雨跳珠乱入船。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 2,
-  "matched_title": "六月二十七日望湖樓醉書五絕  其一",
-  "full_text_needs_review": true
+  "background": "元丰六年（1083年），苏轼在黄州期间，与好友张怀民夜游承天寺，写下这篇著名的小品文。文章短小精悍，意境深远。",
+  "famousQuotes": [
+    "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
+    "何夜无月？何处无竹柏？但少闲人如吾两人者耳。"
+  ]
 }

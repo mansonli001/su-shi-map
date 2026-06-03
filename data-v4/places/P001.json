@@ -47,7 +47,7 @@
       "background": "苏轼在惠州食荔枝作此诗",
       "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
       "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。",
-      "poem_id": "W056"
+      "poem_id": "S132"
     }
   ],
   "route_events": {
@@ -132,5 +132,37 @@
     "quote": "日啖荔枝三百颗，不辞长作岭南人。",
     "source": "食荔枝",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFITG5CQ",
+    "amap_name": "东坡祠",
+    "address": "滨江东路45-2号",
+    "location": "114.419182,23.089608",
+    "cityname": "惠州市",
+    "adname": "惠城区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/4993dabe35e340eb0000002473438605?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFITG5CQ/comment/20260309-a6a97e9b6976717ee9d7c8f7-ARjZGHW3NBK9Ec23sI8Gp2.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/ada56bbb640237eb0000002568822492?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:13:59.000Z"
 }

@@ -121,5 +121,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03470OZNA",
+    "amap_name": "广元市",
+    "address": "利州区",
+    "location": "105.844004,32.435774",
+    "cityname": "广元市",
+    "adname": "利州区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "曾家山旅游景区",
+        "url": "http://store.is.autonavi.com/showpic/13259974d485e85a09215fd2100fb6f9"
+      },
+      {
+        "title": "广元市天曌山景区",
+        "url": "http://store.is.autonavi.com/showpic/328be27798559f6fee99c544918859fb"
+      },
+      {
+        "title": "红军渡·西武当山景区",
+        "url": "http://store.is.autonavi.com/showpic/53fe02a19dd81ac672ff17efaec6ce0f"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:13.000Z"
 }

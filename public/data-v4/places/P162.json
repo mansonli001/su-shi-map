@@ -26,7 +26,7 @@
       "fullText": "我欲归休瑟渐希，舞雩何日著春衣。\n多情白发三千丈，无用苍皮四十围。\n晚觉文章真小技，早知富贵有危机。\n为君垂涕君知否，千古华亭鹤自飞。",
       "coreVerse": "我欲归休瑟渐希，舞雩何日著春衣。",
       "excerpt": "我欲归休瑟渐希，舞雩何日著春衣。",
-      "poem_id": "W020"
+      "poem_id": "S054"
     }
   ],
   "route_events": {
@@ -93,5 +93,37 @@
     "quote": "我欲归休瑟渐希，舞雩何日著春衣。",
     "source": "宿州次韵刘泾",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF9HGBZ",
+    "amap_name": "宿州市",
+    "address": "埇桥区",
+    "location": "116.96419,33.647726",
+    "cityname": "宿州市",
+    "adname": "埇桥区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "宿州瀚海立方动物王国",
+        "url": "http://store.is.autonavi.com/showpic/25c81e51f2775d3d5a538dddb8335ab1"
+      },
+      {
+        "title": "皇藏峪国家森林公园",
+        "url": "http://store.is.autonavi.com/showpic/3fd02ade6684bb7b1bafea225927b663"
+      },
+      {
+        "title": "宿州野生动物园",
+        "url": "http://store.is.autonavi.com/showpic/46ea443c205ca67a69b0d202fad243b4"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:58.000Z"
 }

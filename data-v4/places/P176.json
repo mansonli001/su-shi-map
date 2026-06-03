@@ -47,5 +47,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF2RWFC",
+    "amap_name": "巫山神女峰",
+    "address": "滨江路9码头",
+    "location": "110.014172,31.032123",
+    "cityname": "重庆市",
+    "adname": "巫山县",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "023-57756666",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2RWFC/comment/354B884C_6886_47A5_888F_16BF3DECA4D7_L0_001_1500_200_1759479994314_71917514.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2RWFC/comment/content_media_external_file_1001292853_ss__1765892433384_22620032.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2RWFC/comment/176494147872_1764941479836_81546356.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:07.000Z"
 }

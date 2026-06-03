@@ -36,5 +36,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B00140TYJH",
+    "amap_name": "领峰",
+    "address": "珠江新城兴盛路7号",
+    "location": "113.328793,23.121935",
+    "cityname": "广州市",
+    "adname": "天河区",
+    "type": "商务住宅;住宅区;住宅小区",
+    "typecode": "120302",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "实景图",
+        "url": "http://store.is.autonavi.com/showpic/e28e89f9501bcee1791079840cd477f0"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/46167e333f92b205de233e4de91135d6"
+      },
+      {
+        "title": "外景图",
+        "url": "http://store.is.autonavi.com/showpic/905e93fb519953844da3e4fecb252e5a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:19.000Z"
 }

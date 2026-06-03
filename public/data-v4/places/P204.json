@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03180S3ZI",
+    "amap_name": "锁江楼",
+    "address": "滨江路1464-1750号附近",
+    "location": "116.007880,29.736878",
+    "cityname": "九江市",
+    "adname": "浔阳区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/16bf9a515c9cd49ba33facda00c3facf"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/5a83bfbaa2ea591e2b79855947a03fd2"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/4607dbed47f2eb5a4258030d57b2fe5b"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:32.000Z"
 }

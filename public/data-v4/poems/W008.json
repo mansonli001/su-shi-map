@@ -1,28 +1,18 @@
 {
   "id": "W008",
-  "title": "游金山寺",
-  "category": "古风诗",
-  "type": "诗",
-  "year_estimate": 1071,
-  "route_id": "R06",
-  "related_route_ids": [
-    "R06"
+  "title": "湖州谢上表",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1079,
+  "route_id": "R09",
+  "location": "湖州",
+  "paragraphs": [
+    "臣轼言：蒙恩就移前件差遣，已于今月二十日到任上讫者。风俗阜安，在东南号为无事；山水清远，本朝廷所以优贤。顾惟何人，亦与兹选。臣轼诚惶诚恐，顿首顿首。",
+    "伏念臣性资顽鄙，名迹堙微。议论阔疏，文学浅陋。凡人必有一得，而臣独无寸长。荷先帝之误恩，擢置三馆；蒙陛下之过听，付以两州。非不欲痛自激昂，少酬恩造。而才分所限，力不逮心。致灾速谤，上辜圣恩。",
+    "臣轼诚惶诚恐，顿首顿首。伏望陛下，俯怜愚忠，曲赐全宥。使得改过自新，以效犬马之报。"
   ],
-  "note": "镇江金山寺登临怀古名作，\"江山如此不归山\"",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%B8%B8%E9%87%91%E5%B1%B1%E5%AF%BA",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%B8%B8%E9%87%91%E5%B1%B1%E5%AF%BA&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%B8%B8%E9%87%91%E5%B1%B1%E5%AF%BA&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
-  "coreVerse": "我家江水初发源，宦游直送江入海。",
-  "excerpt": "我家江水初发源，宦游直送江入海。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 1,
-  "matched_title": "遊金山寺"
+  "background": "元丰二年（1079年），苏轼调任湖州知州，按惯例上谢表。表中「陛下知其愚不适时，难以追陪新进；察其老不生事，或能牧养小民」等语被新党抓住把柄，引发了著名的「乌台诗案」。",
+  "famousQuotes": [
+    "陛下知其愚不适时，难以追陪新进；察其老不生事，或能牧养小民。"
+  ]
 }

@@ -4,7 +4,7 @@
   min-height: 100vh;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
 }
 
 /* Hero */
@@ -644,4 +644,44 @@
   color: var(--gold-m);
   letter-spacing: 0.04em;
   opacity: 0.85;
+}
+
+/* ========== 诗词浏览入口卡 ========== */
+.ho-poems-entry {
+  max-width: 720px;
+  margin: 1rem auto 0;
+  padding: 0 8px;
+}
+.ho-poems-card {
+  display: block;
+  background: var(--card);
+  color: var(--tx);
+  padding: 16px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 0.5px solid var(--bdr);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ho-poems-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26,16,8,0.08);
+}
+.ho-poems-en {
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  color: var(--gold);
+  margin-bottom: 0.4rem;
+}
+.ho-poems-title {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+  margin-bottom: 0.4rem;
+}
+.ho-poems-sub {
+  font-size: 11px;
+  color: var(--tx2);
+  letter-spacing: 0.04em;
 }

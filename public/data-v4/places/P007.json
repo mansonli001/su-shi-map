@@ -40,5 +40,29 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFGM1NK9",
+    "amap_name": "包公巡视汴河漕运",
+    "address": "龙亭西路5号",
+    "location": "114.341050,34.807794",
+    "cityname": "开封市",
+    "adname": "龙亭区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0371-25663819",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/fa1b910a4f85fa7ba3961b865c2f462a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:03.000Z"
 }

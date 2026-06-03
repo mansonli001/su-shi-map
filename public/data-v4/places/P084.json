@@ -71,5 +71,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02CC01V6N",
+    "amap_name": "荆州古城历史文化旅游区",
+    "address": "东环路118号",
+    "location": "112.197642,30.351570",
+    "cityname": "荆州市",
+    "adname": "荆州区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0716-8468124;0716-8450389",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "荆州城",
+        "url": "http://store.is.autonavi.com/showpic/e341bd8cf6a90d8d22a1d1d14247da0e"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/f7ac796db27de49165b87cb3a7eaf8e1"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/221ce10b7a3699c190423210b302a911"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:03.000Z"
 }

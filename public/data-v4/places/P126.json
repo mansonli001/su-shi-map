@@ -70,5 +70,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02EF0I9X2",
+    "amap_name": "南雄市",
+    "address": "南雄市",
+    "location": "114.311840,25.117653",
+    "cityname": "韶关市",
+    "adname": "南雄市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02EF0I9X2/comment/content_media_external_images_media_100000470_1742743783384_93464383.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/3443a25683f27c6e44733eddb7b4f03a"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02EF0I9X2/comment/6D6E2BC8_1958_48D5_A2ED_F59F9A7200EB_L0_001_1208_1436_1744389571865_42366409.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:32.000Z"
 }

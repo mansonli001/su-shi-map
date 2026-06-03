@@ -36,5 +36,33 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFJ125HX",
+    "amap_name": "北部湾海岸",
+    "address": "东街街道东街街道茶亭路27号海滨公园内",
+    "location": "109.127051,21.487557",
+    "cityname": "北海市",
+    "adname": "海城区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0779-2069973",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/215619042353c2f90000000946606479?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/3e3bdff0bc14bf620000000946638167?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:01.000Z"
 }

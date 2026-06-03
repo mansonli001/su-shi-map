@@ -46,6 +46,22 @@
       "title": "护送父丧归蜀",
       "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
       "significance": "回乡守孝"
+    },
+    {
+      "place": "眉山",
+      "date": "景祐四年（1037年）",
+      "title": "苏辙出生",
+      "description": "苏辙诞生于眉州眉山",
+      "significance": "family",
+      "id": "p118-003"
+    },
+    {
+      "place": "眉山",
+      "date": "庆历七年（1047年）",
+      "title": "苏序去世",
+      "description": "苏轼祖父苏序去世",
+      "significance": "family",
+      "id": "p118-004"
     }
   ],
   "global_works": [],
@@ -137,5 +153,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B07290N02W",
+    "amap_name": "眉山市",
+    "address": "东坡区",
+    "location": "103.848417,30.077113",
+    "cityname": "眉山市",
+    "adname": "东坡区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "柳江古镇",
+        "url": "http://store.is.autonavi.com/showpic/3d14196f2fe402f16b1a5ea522ac9705"
+      },
+      {
+        "title": "中国眉山·七里坪国际旅游度假区",
+        "url": "http://store.is.autonavi.com/showpic/57cbb92cde0b578e0cc1ca4faac7cfbf"
+      },
+      {
+        "title": "仁寿城市湿地公园",
+        "url": "http://store.is.autonavi.com/showpic/61979a2eff7f69a4eb26d62dae442280"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:26.000Z"
 }

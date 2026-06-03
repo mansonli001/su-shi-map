@@ -172,5 +172,37 @@
     "quote": "六祖之像，在浴室院。",
     "source": "兴国寺浴室院六祖画赞",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF2WPA2",
+    "amap_name": "开封文书寺",
+    "address": "文殊寺街41-6号",
+    "location": "114.357143,34.795805",
+    "cityname": "开封市",
+    "adname": "顺河回族区",
+    "type": "风景名胜;风景名胜;回教寺",
+    "typecode": "110207",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2WPA2/comment/content_media_external_file_1000104305_ss__1770191183970_12582749.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2WPA2/comment/content_media_external_file_1000104301_ss__1770191183949_11342322.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF2WPA2/comment/content_media_external_file_1000104298_ss__1770191183942_85210357.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:06.000Z"
 }

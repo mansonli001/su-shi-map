@@ -109,5 +109,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02260RI0X",
+    "amap_name": "滁州市",
+    "address": "南谯区",
+    "location": "118.333439,32.255904",
+    "cityname": "滁州市",
+    "adname": "南谯区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "皇甫山国家森林公园",
+        "url": "http://store.is.autonavi.com/showpic/348438ab4f7ef7a1d9bd5b2ea5d730f2"
+      },
+      {
+        "title": "小岗村乡村旅游区",
+        "url": "http://store.is.autonavi.com/showpic/4ec9c0b76f9ed4278efb281d325bb0c2"
+      },
+      {
+        "title": "琅琊山景区",
+        "url": "http://store.is.autonavi.com/showpic/6b69d51c52a1a5d945d6c8de7316b7ce"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:15.000Z"
 }

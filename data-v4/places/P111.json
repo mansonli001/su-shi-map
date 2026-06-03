@@ -72,5 +72,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B033E0N5LG",
+    "amap_name": "泸州市",
+    "address": "江阳区",
+    "location": "105.441866,28.87098",
+    "cityname": "泸州市",
+    "adname": "江阳区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "泸州老窖旅游景区",
+        "url": "http://store.is.autonavi.com/showpic/34ad88dc6915c2deb47b82688acb675a"
+      },
+      {
+        "title": "酒城乐园",
+        "url": "http://store.is.autonavi.com/showpic/57abdec7724e01a11464d9188449fb98"
+      },
+      {
+        "title": "方山景区",
+        "url": "http://store.is.autonavi.com/showpic/5d64cdfdc757a680a3304cdffa4a88be"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:21.000Z"
 }

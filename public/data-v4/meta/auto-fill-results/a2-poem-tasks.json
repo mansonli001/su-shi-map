@@ -1,0 +1,549 @@
+{
+  "total": 68,
+  "tasks": [
+    {
+      "route_id": "R01",
+      "title": "刑赏忠厚之至论",
+      "category": "策论",
+      "note": "汴京应试成名作，获欧阳修高度赏识",
+      "year": 1057,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R02",
+      "title": "初发嘉州",
+      "category": "山水诗",
+      "note": "水路出蜀开篇名作，抒写离蜀江行情怀",
+      "year": 1059,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R03",
+      "title": "凤翔八观",
+      "category": "怀古散文组诗",
+      "note": "凤翔时期标志性组作，咏关中古迹风物",
+      "year": 1062,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R03",
+      "title": "石鼓文跋",
+      "category": "金石题跋",
+      "note": "石鼓山研学考据代表作",
+      "year": 1063,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R04",
+      "title": "挽父诗文、江淮行旅杂咏",
+      "category": "哀辞/行旅诗",
+      "note": "丧亲南行途中感怀所作，情真意切",
+      "year": 1066,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R05",
+      "title": "上神宗皇帝书（前期酝酿）",
+      "category": "奏疏",
+      "note": "入朝后针对变法政见陈述己见的奠基之作",
+      "year": 1069,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "陪欧阳公燕西湖",
+      "category": "七言古诗",
+      "note": "颍州陪欧阳修宴游传世名篇，记师生最后相会",
+      "year": 1071,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "游金山寺",
+      "category": "古风诗",
+      "note": "镇江金山寺登临怀古名作，\"江山如此不归山\"",
+      "year": 1071,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "六月二十七日望湖楼醉书",
+      "category": "七言绝句",
+      "note": "西湖暴雨千古名篇，\"黑云翻墨未遮山，白雨跳珠乱入船\"",
+      "year": 1072,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "饮湖上初晴后雨",
+      "category": "七言绝句",
+      "note": "西湖千古第一咏，\"水光潋滟晴方好，山色空蒙雨亦奇\"",
+      "year": 1073,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "有美堂暴雨",
+      "category": "七言律诗",
+      "note": "杭州登临名作，\"天外黑风吹海立\"",
+      "year": 1073,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R06",
+      "title": "新城道中二首",
+      "category": "七言律诗",
+      "note": "杭州赴新城田园诗代表，\"野桃含笑竹篱短\"",
+      "year": 1073,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R07",
+      "title": "超然台记",
+      "category": "散文",
+      "note": "密州超然台登临名篇，寄寓超然物外人生心境",
+      "year": 1075,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R07",
+      "title": "江城子·密州出猎",
+      "category": "词作",
+      "note": "北宋豪放词开山之作，豪情报国",
+      "year": 1075,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R07",
+      "title": "水调歌头·明月几时有",
+      "category": "词作",
+      "note": "密州中秋怀人千古绝唱",
+      "year": 1076,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "济南龙洞山记",
+      "category": "纪游散文",
+      "note": "1077.1 齐州滞留月余期间，与李公择同游龙洞作（《东坡七集·文集》卷十二）",
+      "year": 1077,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "至济南李公择以诗相迎次其韵二首",
+      "category": "次韵诗",
+      "note": "1077.1 齐州，李公择以诗相迎，苏轼次其韵作（《苏轼诗集》卷十五）",
+      "year": 1077,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "澶濮道中见子由",
+      "category": "纪事诗",
+      "note": "1077.2 澶濮间与苏辙七年重逢作（《东坡七集·东坡诗集》卷十四）",
+      "year": 1077,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "陈桥驿",
+      "category": "纪事诗",
+      "note": "1077.2 陈桥驿接改命徐州诏，\"不得入国门\"，寓范镇东园作（《东坡七集·东坡诗集》卷十四）",
+      "year": 1077,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "宿州次韵刘泾",
+      "category": "纪行诗",
+      "note": "1077 沿汴河东下徐州途经宿州作（《苏轼诗集》卷十五）",
+      "year": 1077,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "黄楼赋",
+      "category": "辞赋",
+      "note": "1078 徐州抗洪后营建黄楼标志性名篇",
+      "year": 1078,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R08",
+      "title": "放鹤亭记",
+      "category": "散文",
+      "note": "1078 云龙山交友隐逸寄怀千古散文",
+      "year": 1078,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R09",
+      "title": "湖州谢上表",
+      "category": "表文",
+      "note": "触发乌台诗案的关键奏表",
+      "year": 1079,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R09",
+      "title": "狱中寄子由二首",
+      "category": "诗作",
+      "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」",
+      "year": 1079,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "前赤壁赋",
+      "category": "辞赋散文",
+      "note": "黄州月夜泛舟赤壁，江山、历史、人生哲思融为一体的千古第一文赋",
+      "year": 1082,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "后赤壁赋",
+      "category": "辞赋散文",
+      "note": "冬夜重游赤壁，意境空灵缥缈，写入世出世之思",
+      "year": 1082,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "念奴娇·赤壁怀古",
+      "category": "词作",
+      "note": "豪放词压卷之作，大江东去道尽千古兴亡与人生感慨",
+      "year": 1082,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "定风波·莫听穿林打叶声",
+      "category": "词作",
+      "note": "沙湖道中遇雨有感，一生旷达人生态度的凝练写照",
+      "year": 1082,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "卜算子·黄州定慧院寓居作",
+      "category": "词作",
+      "note": "谪居初期孤寂清冷心境的寄托，孤高自守、不随世俗",
+      "year": 1080,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R10",
+      "title": "浣溪沙·黄州春日田园杂兴",
+      "category": "词作",
+      "note": "躬耕东坡、贴近乡野民生的田园闲适之作",
+      "year": 1081,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R11",
+      "title": "题西林壁",
+      "category": "哲理山水诗",
+      "note": "庐山漫游巅峰名作，以山景悟道，成为千古观物处世格言",
+      "year": 1084,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R11",
+      "title": "石钟山记",
+      "category": "考据纪行散文",
+      "note": "中国古代实地探险、实证求真游记的开山之作",
+      "year": 1084,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R11",
+      "title": "庐山诸寺题咏诗",
+      "category": "山水纪行诗",
+      "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇",
+      "year": 1084,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R11",
+      "title": "金陵怀古杂咏",
+      "category": "怀古诗",
+      "note": "凭吊秦淮六朝遗迹，格调清淡悠远、不刻意悲叹兴亡",
+      "year": 1084,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R12",
+      "title": "海市诗并序",
+      "category": "山海哲理诗",
+      "note": "登州观海市千古名篇，虚实相融、悟道人生",
+      "year": 1085,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R12",
+      "title": "蓬莱阁记所见",
+      "category": "纪行小品",
+      "note": "登临蓬莱阁观海写实短文",
+      "year": 1085,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R12",
+      "title": "望海",
+      "category": "沧海山水诗",
+      "note": "登州东海揽胜代表作",
+      "year": 1085,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R13",
+      "title": "齐鲁古道怀古系列",
+      "category": "纪怀古诗",
+      "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作",
+      "year": 1085,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R13",
+      "title": "迩英阁经筵讲义",
+      "category": "经世文",
+      "note": "侍讲帝王、阐释儒道治世理念的典制文章",
+      "year": 1086,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R13",
+      "title": "翰林院制诰序跋",
+      "category": "台阁文",
+      "note": "入职翰林院主持文史、草拟朝制的典雅官文",
+      "year": 1086,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R14",
+      "title": "杭州乞度牒开西湖状",
+      "category": "治水奏疏",
+      "note": "1090年请朝廷拨度牒经费疏浚西湖，苏堤建设的直接史料文献",
+      "year": 1090,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R14",
+      "title": "次韵刘景文",
+      "category": "赠友山水诗",
+      "note": "「荷尽已无擎雨盖，菊残犹有傲霜枝。一年好景君须记，最是橙黄橘绿时」千古名作",
+      "year": 1090,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R14",
+      "title": "与莫同年雨中饮湖上",
+      "category": "湖山赠友诗",
+      "note": "再守杭州时与友人雨中泛舟西湖之作",
+      "year": 1090,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R14",
+      "title": "钱塘勤上人诗集叙",
+      "category": "禅意序跋",
+      "note": "灵隐禅林友人诗集序言，体现湖山禅意创作维度",
+      "year": "1089-1091",
+      "verification_status": ""
+    },
+    {
+      "route_id": "R14",
+      "title": "苏堤纪事诗作",
+      "category": "纪功山水诗",
+      "note": "记述筑堤始末、湖山新生，工程与诗意合一",
+      "year": 1090,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R15",
+      "title": "临江仙·送钱穆父",
+      "category": "词作（送别）",
+      "note": "1091.3 润州江行送钱穆父途中作，\"人生如逆旅，我亦是行人\"豁达人生态度经典",
+      "year": 1091,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R15",
+      "title": "临江仙·昨夜扁舟京口",
+      "category": "词作",
+      "note": "1091 润州（京口）作，专家二采纳",
+      "year": 1091,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R15",
+      "title": "临江仙·夜到扬州",
+      "category": "词作",
+      "note": "1091 北上途经扬州作，专家二采纳",
+      "year": 1091,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R15",
+      "title": "赴颍州过金陵呈王胜之",
+      "category": "纪行诗",
+      "note": "1091 北上途经金陵呈王胜之，专家一采纳",
+      "year": 1091,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R15",
+      "title": "泗州僧伽塔",
+      "category": "纪行诗",
+      "note": "1091 北上途经泗州，专家一采纳",
+      "year": 1091,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R16",
+      "title": "浣溪沙·颍州春月",
+      "category": "词作",
+      "note": "1092 颍州赠赵令畤，词序「颍州西湖，赠赵令畤」",
+      "year": 1092,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R16",
+      "title": "减字木兰花·颍州西湖",
+      "category": "词作",
+      "note": "1092.2.15 颍州疏浚西湖后作，亦名《木兰花令·次欧公西湖韵》追和欧阳修",
+      "year": 1092,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R16",
+      "title": "王进叔所藏画跋尾·赵昌四季芍药",
+      "category": "题画诗",
+      "note": "1091.9 颍州为王进叔所藏赵昌四季芍药花卷题诗（《东坡七集·诗集》卷二十五），自注「元祐六年九月，在颍州，王进叔出所藏赵昌画四季芍药，求题」；赵昌为北宋前期花鸟名家（约970-1016），早于苏轼半个世纪。注：苏轼对赵昌画评价极高（\"赵昌花传神\"），与 1092 扬州罢万花会反对官方扰民盛会立场不冲突——题画诗属艺术审美，罢花会属反对劳民伤财。双专家最终一致采纳。",
+      "year": 1091,
+      "verification_status": "dual_expert_confirmed"
+    },
+    {
+      "route_id": "R17",
+      "title": "雪浪石",
+      "category": "咏物长诗",
+      "note": "1094 春定州衙署后圃得奇石，命名「雪浪石」并作长诗，\"黑质白脉，如孙知微画水\"",
+      "year": 1094,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R17",
+      "title": "雪浪斋铭",
+      "category": "铭文",
+      "note": "1094 定州筑「雪浪斋」作铭，苏辙、秦观皆有和诗",
+      "year": 1094,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "食荔枝",
+      "category": "岭南名篇",
+      "note": "1096 惠州，\"日啖荔枝三百颗，不辞长作岭南人\"",
+      "year": 1096,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "荔枝叹",
+      "category": "讽喻诗",
+      "note": "1095 惠州，借荔枝讽喻宫廷奢侈、同情百姓疾苦",
+      "year": 1095,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "纵笔三首",
+      "category": "惠州名篇",
+      "note": "1097 惠州，\"白头萧散满霜风，小阁藤床寄病容\"，传至京城引发政敌不满",
+      "year": 1097,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "惠州一绝·梅花二首",
+      "category": "咏物诗",
+      "note": "1095-1096 惠州，罗浮山下咏梅",
+      "year": 1095,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "到惠州谢表",
+      "category": "朝堂奏表",
+      "note": "1094 惠州，宋代官员到任谢表",
+      "year": 1094,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "和陶诗全集",
+      "category": "古体组诗",
+      "note": "1098-1100 儋州 120 余首，晚年思想文学最高成就",
+      "year": 1098,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "和陶时运四首",
+      "category": "和陶系列",
+      "note": "1098 儋州，表达随遇而安心境",
+      "year": 1098,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "桄榔庵记（铭）",
+      "category": "小品散文",
+      "note": "1098 儋州，记荒岛安居悟道（《东坡七集·文集》卷三十二《桄榔庵铭》）",
+      "year": 1098,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R18",
+      "title": "赠王子直秀才",
+      "category": "赠诗",
+      "note": "1095 惠州（绍圣二年），赠虔州（江西赣州）处士王原（字子直，号鹤田处士），王子直专程访惠留七十日（《苏轼诗集》卷三十八）；元符三年苏轼北归途中复在虔州赣上重逢，证其为江西人。\"幅巾我欲作州民，君肯同耕谷口春\"，描绘惠州终老田园之愿。注：双专家最终一致采纳惠州说，驳回儋州说（儋州交往对象为王介石、黎子云等，无王子直踪迹）。",
+      "year": 1095,
+      "verification_status": "dual_expert_confirmed"
+    },
+    {
+      "route_id": "R19",
+      "title": "六月二十日夜渡海",
+      "category": "渡海绝唱",
+      "note": "1100 北归渡琼州海峡所作，\"云散月明谁点缀，天容海色本澄清\"——离岛终极感悟",
+      "year": 1100,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R19",
+      "title": "澄迈驿通潮阁二首",
+      "category": "海南绝笔",
+      "note": "「九死南荒吾不恨，兹游奇绝冠平生」——海南三年贬谪定终极之论",
+      "year": 1100,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R19",
+      "title": "自题金山画像",
+      "category": "一生绝笔",
+      "note": "「问汝平生功业，黄州惠州儋州」——润州金山寺自题画像，二十八字盖棺一生",
+      "year": 1101,
+      "verification_status": ""
+    },
+    {
+      "route_id": "R19",
+      "title": "伏波将军庙碑",
+      "category": "碑文",
+      "note": "1100 徐闻为伏波将军庙作碑（《东坡七集·文集》卷二十二），论汉代两伏波将军对岭南功绩，感谢\"往返顺风\"庇佑（注：苏轼仅作此碑文，无同题纪诗，专家二人一致驳回原\"伏波庙怀古\"）",
+      "year": 1100,
+      "verification_status": ""
+    }
+  ]
+}

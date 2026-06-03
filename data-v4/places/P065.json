@@ -33,6 +33,14 @@
       "title": "任湖州知州",
       "description": "苏轼任湖州知州",
       "significance": "湖州仕途"
+    },
+    {
+      "place": "湖州",
+      "date": "元丰二年（1079年）",
+      "title": "湖州被捕",
+      "description": "苏轼在湖州任上被捕，引发乌台诗案",
+      "significance": "political",
+      "id": "p065-002"
     }
   ],
   "global_works": [
@@ -40,7 +48,8 @@
       "title": "湖州谢上表",
       "type": "biao",
       "note": "乌台诗案导火索",
-      "source_route": "R09"
+      "source_route": "R09",
+      "poem_id": "W008"
     }
   ],
   "route_events": {
@@ -152,5 +161,37 @@
     "quote": "湖州谢上表",
     "source": "湖州谢上表",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B023C0OZ1D",
+    "amap_name": "湖州市",
+    "address": "吴兴区",
+    "location": "120.086881,30.894178",
+    "cityname": "湖州市",
+    "adname": "吴兴区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "南浔古镇",
+        "url": "http://store.is.autonavi.com/showpic/5bd366082ae4a2839e247ad6654aa4e6"
+      },
+      {
+        "title": "南浔古镇",
+        "url": "http://store.is.autonavi.com/showpic/819310d889ea5f5bcb800eb9b808788b"
+      },
+      {
+        "title": "龙之梦动物世界",
+        "url": "http://store.is.autonavi.com/showpic/ecbd071ae77919e5a4b420833fa20cef"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:49.000Z"
 }

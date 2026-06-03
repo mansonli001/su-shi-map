@@ -36,6 +36,14 @@
       "title": "卒于常州",
       "description": "苏轼卒于常州",
       "significance": "卒于常州"
+    },
+    {
+      "place": "常州",
+      "date": "元丰七年（1084年）",
+      "title": "买田宜兴",
+      "description": "苏轼在宜兴买田，计划定居",
+      "significance": "route10",
+      "id": "p018-002"
     }
   ],
   "global_works": [],
@@ -130,5 +138,24 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0I2YSQCGY",
+    "amap_name": "孙氏大宗祠",
+    "address": "后场头99号",
+    "location": "120.035832,31.641006",
+    "cityname": "常州市",
+    "adname": "武进区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:11.000Z"
 }

@@ -54,5 +54,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0017055D7",
+    "amap_name": "重庆青龙湖风景名胜区",
+    "address": "大路街道西北29千米处的云雾山中",
+    "location": "106.167589,29.706851",
+    "cityname": "重庆市",
+    "adname": "璧山区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "023-41638072",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0017055D7/comment/9526D9FB_12AF_4065_91A3_402FE1EF0814_L0_001_1119_58_1772418490093_82422229.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0017055D7/comment/177029266014_1770292671047_49074576.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0017055D7/comment/content_media_external_file_100000713_1767528530598_15909017.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:40.000Z"
 }

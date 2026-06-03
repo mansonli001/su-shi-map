@@ -49,7 +49,7 @@
       "fullText": "朝发鼓阗阗，西风猎画旃。\n故乡飘已远，往意浩无边。\n锦水细不见，蛮江清可怜。\n奔腾过佛脚，旷荡造平川。\n野市有禅客，钓台寻暮烟。\n相期定先到，久立水潺潺。",
       "coreVerse": "朝发鼓阗阗，西风猎画旃。",
       "excerpt": "朝发鼓阗阗，西风猎画旃。",
-      "poem_id": "W002"
+      "poem_id": "S002"
     }
   ],
   "source": [
@@ -71,5 +71,53 @@
     "quote": "朝发鼓阗阗，西风猎画旃。",
     "source": "初发嘉州",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B034100387",
+    "amap_name": "乐山大佛",
+    "address": "凌云路2435号",
+    "location": "103.771388,29.544099",
+    "cityname": "乐山市",
+    "adname": "市中区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0833-2355557",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/34c06899361414f774a884d9739ffdc8"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/d20a7475856c7f1718ebf2e98e0550ce"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B034100387/comment/E7B1D1E6_AFA0_45FC_81BD_3A4D56DED141_L0_001_1290_169_1766627374203_01765208.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:59.000Z",
+  "global_events": [
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "途经嘉州",
+      "description": "苏轼赴京途中经过嘉州（今乐山）",
+      "significance": "route01",
+      "id": "p078-evt-001"
+    },
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "观乐山大佛",
+      "description": "苏轼赴京途中观赏乐山大佛",
+      "significance": "route01",
+      "id": "p078-evt-002"
+    }
+  ]
 }

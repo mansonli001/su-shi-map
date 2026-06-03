@@ -62,5 +62,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0KRX7GI59",
+    "amap_name": "邢州古城",
+    "address": "东门里街",
+    "location": "114.507874,37.066525",
+    "cityname": "邢台市",
+    "adname": "襄都区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0319-3029666;0319-3033666",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0KRX7GI59/comment/B331CFDA_89D7_4895_B362_28EB81ED0D85_L0_001_1500_200_1765678795499_67274246.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0KRX7GI59/comment/content_media_external_file_1000123640_ss__1770425566590_08449803.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0KRX7GI59/comment/20260322-8ca3fc1557c8e0d4830e27fa-8k0RGqdjBlq9aGWK9LOuiG.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:18.000Z"
 }

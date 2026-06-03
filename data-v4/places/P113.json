@@ -99,5 +99,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017B0OW4O",
+    "amap_name": "洛阳市",
+    "address": "洛龙区",
+    "location": "112.453895,34.619702",
+    "cityname": "洛阳市",
+    "adname": "洛龙区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "白马寺",
+        "url": "http://store.is.autonavi.com/showpic/06cf4e5b9f5086fa9f6cd70dffc7651c"
+      },
+      {
+        "title": "龙潭大峡谷",
+        "url": "http://store.is.autonavi.com/showpic/2298683c56d5420ac7e9b7eb9d340781"
+      },
+      {
+        "title": "洛阳博物馆",
+        "url": "http://store.is.autonavi.com/showpic/25295da6d28adf1f9e16f70384ddd95f"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:23.000Z"
 }

@@ -65,5 +65,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02C70LRG0",
+    "amap_name": "鄂州市",
+    "address": "鄂城区",
+    "location": "114.894909,30.391461",
+    "cityname": "鄂州市",
+    "adname": "鄂城区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "鄂州市城市展示馆",
+        "url": "http://store.is.autonavi.com/showpic/353198db44644dcff52e43cb5c6926e2"
+      },
+      {
+        "title": "鄂州西山风景区",
+        "url": "http://store.is.autonavi.com/showpic/64627af13d97577a33216798c94d5ef0"
+      },
+      {
+        "title": "梁子湖生态旅游区",
+        "url": "http://store.is.autonavi.com/showpic/691fb30ede4bec30526a9b5b639a28d7"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:10.000Z"
 }

@@ -87,5 +87,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF4NWIQ",
+    "amap_name": "剑门关景区",
+    "address": "108国道东侧",
+    "location": "105.573841,32.220796",
+    "cityname": "广元市",
+    "adname": "剑阁县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0839-6750978",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/58f07099e1d07c3135d198da51d23b0f"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFF4NWIQ/comment/176380599206_1763805998759_51636822.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/4440bebaa27419b0862da279ba7ed645"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:01.000Z"
 }

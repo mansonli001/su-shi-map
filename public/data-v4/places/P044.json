@@ -44,7 +44,8 @@
       "type": "诗",
       "date": "嘉祐七年（1062年）三月",
       "location": "凤翔府仙游潭中兴寺",
-      "background": "游仙游潭中兴寺作"
+      "background": "游仙游潭中兴寺作",
+      "poem_id": "S011"
     },
     {
       "title": "凤翔八观",
@@ -54,7 +55,7 @@
       "fullText": "冬十二月岁辛丑，我初从政见鲁叟。\n旧闻石鼓今见之，文字郁律蛟蛇走。\n细观初以指画肚，欲读嗟如箝在口。\n韩公好古生已迟，我今况又百年后。\n强寻偏傍推点画，时得一二遗八九。\n我车既攻马亦同，其鱼维𫚈贯之柳。\n古器纵横犹识鼎，众星错落仅名斗。\n模糊半已隠瘢胝，诘曲犹能辨跟肘。\n娟娟缺月隠云雾，濯濯嘉禾秀稂莠。\n漂流百战偶然存，独立千载谁与友。\n上追轩颉相唯诺，下揖冰斯同鷇㝅。\n忆昔周宣歌鸿雁，当时籀史变蝌蚪。\n厌乱人方思圣贤，中兴天为生耆耈。\n东征徐虏阚虓虎，北伏犬戎随指嗾。\n象胥杂沓贡狼鹿，方召联翩赐圭卣。\n遂因鼓鼙思将帅，岂为考击烦蒙瞍。\n何人作颂比嵩高，万古斯文齐岣嵝。\n勋劳至大不矜伐，文武未远犹忠厚。\n欲寻年岁无甲乙，岂有名字记谁某。\n自从周衰更七国，竟使秦人有九有。\n埽除诗书诵法律，投弃俎豆陈鞭杻。\n当年何人佐祖龙，上蔡公子牵黄狗。\n登山刻石颂功烈，后者无继前无偶。\n皆云皇帝巡四国，烹灭强暴救黔首。\n六经既已委灰尘，此鼓亦当遭击剖。\n传闻九鼎沦泗上，欲使万夫沉水取。\n暴君纵欲穷人力，神物义不污秦垢。\n是时石鼓何处避，无乃天工令鬼守。\n兴亡百变物自闲，富贵一朝名不朽。\n细思物理坐叹息，人生安得如汝寿。",
       "coreVerse": "冬十二月岁辛丑，我初从政见鲁叟。",
       "excerpt": "冬十二月岁辛丑，我初从政见鲁叟。",
-      "poem_id": "W003"
+      "poem_id": "W001"
     },
     {
       "id": "W005",
@@ -62,7 +63,8 @@
       "type": "诗",
       "year": 1066,
       "route_id": "R04",
-      "note": "丧亲南行途中感怀所作，情真意切"
+      "note": "丧亲南行途中感怀所作，情真意切",
+      "poem_id": "S012"
     }
   ],
   "route_events": {
@@ -180,5 +182,37 @@
     "quote": "清潭百丈皎无泥，山木阴阴谷鸟啼。",
     "source": "留题仙游潭中兴寺",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03950PHPX",
+    "amap_name": "凤翔区",
+    "address": "凤翔区",
+    "location": "107.401029,34.522167",
+    "cityname": "宝鸡市",
+    "adname": "凤翔区",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/content_media_external_images_media_100000969_1734051404597_72838518.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/content_media_external_images_media_100000969_1734051404596_52481507.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/F7567CBE_D5F5_4045_B4CE_E67B27940C9F_L0_001_1179_2010_1735182263368_32502412.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:35.000Z"
 }

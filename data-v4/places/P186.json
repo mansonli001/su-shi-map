@@ -45,5 +45,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFH3Q67I",
+    "amap_name": "襄城收费站(G0421许广高速入口)",
+    "address": "襄城县",
+    "location": "113.575115,33.846305",
+    "cityname": "许昌市",
+    "adname": "襄城县",
+    "type": "道路附属设施;收费站;收费站",
+    "typecode": "180200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/e4b8d656fbadfdf2135583e86f7e67b8"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8d9c25b95cfb6e17ab7cb0eb567060e3"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFH3Q67I/comment/content_media_external_file_100003557_1751419712086_62605362.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:14.000Z"
 }

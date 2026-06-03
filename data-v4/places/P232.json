@@ -45,5 +45,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02150QGWU",
+    "amap_name": "淄博市",
+    "address": "张店区",
+    "location": "118.054994,36.813787",
+    "cityname": "淄博市",
+    "adname": "张店区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "淄博市博物馆",
+        "url": "http://store.is.autonavi.com/showpic/470f0cf6471808a1c3ce6eca65992568"
+      },
+      {
+        "title": "颜神古镇",
+        "url": "http://store.is.autonavi.com/showpic/94dd3d612735556cba2aa5c05a932573"
+      },
+      {
+        "title": "文昌湖旅游度假区",
+        "url": "http://store.is.autonavi.com/showpic/3d32b7d76116988a60328b0025cfdce2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:17:01.000Z"
 }

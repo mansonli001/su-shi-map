@@ -87,5 +87,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B031704Z7O",
+    "amap_name": "梅岭生态旅游度假区",
+    "address": "052县道",
+    "location": "115.720587,28.810114",
+    "cityname": "南昌市",
+    "adname": "新建区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0791-83760263;0791-83796003",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/f615d3d68b9daf5ed7647eddcfc0001b"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/54c4ead55f10f06bd5e88714549d5de7"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ce20925d742cae9b359726a9dda971d4"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:27.000Z"
 }

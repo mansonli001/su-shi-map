@@ -1,28 +1,20 @@
 {
   "id": "W011",
-  "title": "有美堂暴雨",
-  "category": "七言律诗",
-  "type": "诗",
-  "year_estimate": 1073,
-  "route_id": "R06",
-  "related_route_ids": [
-    "R06"
+  "title": "迩英阁经筵讲义",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1086,
+  "route_id": "R13",
+  "location": "汴京",
+  "paragraphs": [
+    "元祐元年四月戊午，轼入侍迩英阁，讲《春秋》。臣轼言：",
+    "《春秋》之义，莫大于正名分。名分正则纲纪立，纲纪立则人心定。今陛下以圣继圣，而于名分尤有所当正者。",
+    "昔者周公相成王，制礼作乐，而天下大服。然成王有短折之哀，而康王有迟暮之欢。兄弟之际，不能无少嫌焉。是以《春秋》于鲁隐公、桓公之间，详而辨之，以见嫡庶之分。",
+    "臣轼幸得讲读，敢不以《春秋》之义，献于陛下。惟陛下详察而审行之。"
   ],
-  "note": "杭州登临名作，\"天外黑风吹海立\"",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%9C%89%E7%BE%8E%E5%A0%82%E6%9A%B4%E9%9B%A8",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%9C%89%E7%BE%8E%E5%A0%82%E6%9A%B4%E9%9B%A8&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%9C%89%E7%BE%8E%E5%A0%82%E6%9A%B4%E9%9B%A8&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "游人脚底一声雷，满座顽云拨不开。\n天外黑风吹海立，浙东飞雨过江来。\n十分潋滟金樽凸，千杖敲铿羯鼓催。\n唤起谪仙泉洒面，倒倾鲛室泻琼瑰。",
-  "coreVerse": "游人脚底一声雷，满座顽云拨不开。",
-  "excerpt": "游人脚底一声雷，满座顽云拨不开。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 1,
-  "matched_title": "有美堂暴雨"
+  "background": "元祐元年（1086年），苏轼在翰林院任职期间，多次为宋哲宗讲读《春秋》。这是他在迩英阁为皇帝讲解经义的讲义记录。",
+  "famousQuotes": [
+    "《春秋》之义，莫大于正名分。",
+    "名分正则纲纪立，纲纪立则人心定。"
+  ]
 }

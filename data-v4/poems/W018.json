@@ -1,22 +1,20 @@
 {
   "id": "W018",
-  "title": "澶濮道中见子由",
-  "category": "纪事诗",
-  "type": "诗",
-  "year_estimate": 1077,
-  "route_id": "R08",
-  "related_route_ids": [
-    "R08"
+  "title": "伏波将军庙碑",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1100,
+  "route_id": "R19",
+  "location": "儋州",
+  "paragraphs": [
+    "伏波将军，名将兵南征，平定交趾，路由此地。后人思其功，为立庙焉。",
+    "予以罪谪海南，过其庙下，俯仰感叹。昔汉室之衰，盗贼群起，而将军受命出征，不辞险难。卒定南越，为汉室藩篱。此岂独将军之功哉？",
+    "今天下承平日久，朝廷无事，而予以罪来居海上。伏波将军之神，予能无感乎？",
+    "庙在海南道中，林木深阻，舟车不通。惟有清泉白石，与将军之庙相对，不知其几百年也。"
   ],
-  "note": "1077.2 澶濮间与苏辙七年重逢作（《东坡七集·东坡诗集》卷十四）",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%BE%B6%E6%BF%AE%E9%81%93%E4%B8%AD%E8%A7%81%E5%AD%90%E7%94%B1",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%BE%B6%E6%BF%AE%E9%81%93%E4%B8%AD%E8%A7%81%E5%AD%90%E7%94%B1&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%BE%B6%E6%BF%AE%E9%81%93%E4%B8%AD%E8%A7%81%E5%AD%90%E7%94%B1&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": false
+  "background": "元符三年（1100年），苏轼在儋州贬谪期间，写下这篇伏波将军庙碑文。伏波将军马援是东汉名将，曾平定交趾（今越南）。苏轼路过其庙时，有感而发。",
+  "famousQuotes": [
+    "伏波将军之神，予能无感乎？",
+    "今天下承平日久，朝廷无事，而予以罪来居海上。"
+  ]
 }

@@ -18,7 +18,15 @@
       "description": "苏轼少年时在中岩寺读书，这里是他早年求学之地。中岩寺有'苏轼读书台'遗址。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "景祐三年（1036年）",
+      "title": "中岩寺求学",
+      "description": "苏轼少年时曾游学青神中岩寺",
+      "significance": "education",
+      "id": "p138-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {},
   "route_works": {},
@@ -43,5 +51,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B072900M5P",
+    "amap_name": "青神县",
+    "address": "青神县",
+    "location": "103.846596,29.831302",
+    "cityname": "眉山市",
+    "adname": "青神县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B072900M5P/comment/content_media_external_images_media_5701_1731115497928_58993043.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B072900M5P/comment/content_media_external_images_media_5701_1731115497929_92945527.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B072900M5P/comment/content_media_external_images_media_5701_1731115497927_60987487.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:42.000Z"
 }

@@ -49,7 +49,8 @@
       "title": "狱中寄子由二首",
       "type": "poem",
       "note": "御史台狱中绝笔诗",
-      "source_route": "R09"
+      "source_route": "R09",
+      "poem_id": "S069"
     }
   ],
   "route_events": {
@@ -178,5 +179,37 @@
     "quote": "六祖之像，在浴室院。",
     "source": "兴国寺浴室院六祖画赞",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFHPP0KX",
+    "amap_name": "开封城墙",
+    "address": "西门大街198号(大梁门里向北10米路西)",
+    "location": "114.349518,34.818781",
+    "cityname": "开封市",
+    "adname": "龙亭区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0371-23237131",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8758997484f89cbff9bf08055d1f9806"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6c7379043c2dc285275be43164be694e"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/47405f16231c9b774e62aa8e0d39b98a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:07.000Z"
 }

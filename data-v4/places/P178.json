@@ -17,7 +17,15 @@
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元符三年（1100年）",
+      "title": "途经梧州",
+      "description": "苏轼北归途经梧州",
+      "significance": "route20",
+      "id": "p178-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "route19": [
@@ -97,5 +105,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03060MG9D",
+    "amap_name": "梧州市",
+    "address": "长洲区",
+    "location": "111.279022,23.476733",
+    "cityname": "梧州市",
+    "adname": "长洲区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "石表山休闲旅游风景区",
+        "url": "http://store.is.autonavi.com/showpic/13a8eadebd821b4cd428d9ecb85e4525"
+      },
+      {
+        "title": "天书侠谷",
+        "url": "http://store.is.autonavi.com/showpic/50e21c1396b46ebcea83398e2028e229"
+      },
+      {
+        "title": "龙岩景区",
+        "url": "http://store.is.autonavi.com/showpic/53f5ce91dae2e8af9f8b2cec9c2bbc38"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:09.000Z"
 }

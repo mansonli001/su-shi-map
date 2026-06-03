@@ -35,6 +35,14 @@
       "title": "第一次到长安",
       "description": "三苏出蜀途经长安，这是北宋西北重镇",
       "significance": "途经长安"
+    },
+    {
+      "place": "长安",
+      "date": "嘉祐元年（1056年）",
+      "title": "首次入长安",
+      "description": "苏轼首次到达长安",
+      "significance": "route01",
+      "id": "p220-002"
     }
   ],
   "global_works": [],
@@ -131,5 +139,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFG7DXJL",
+    "amap_name": "曲江南苑",
+    "address": "雁南四路与芙蓉西路交口西(曲江池西地铁站B西南口旁)",
+    "location": "108.972202,34.195959",
+    "cityname": "西安市",
+    "adname": "雁塔区",
+    "type": "商务住宅;住宅区;住宅小区",
+    "typecode": "120302",
+    "tel": "029-85559555",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "外景图",
+        "url": "http://store.is.autonavi.com/showpic/3bdbbeacb2cf60552c6c4a8d7c8d115e"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFG7DXJL/comment/content_media_external_file_864_1766250711946_49315679.jpg"
+      },
+      {
+        "title": "外景图",
+        "url": "http://store.is.autonavi.com/showpic/5ea9f0466bb9ee5e34a0f5a69d66d4c2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:49.000Z"
 }

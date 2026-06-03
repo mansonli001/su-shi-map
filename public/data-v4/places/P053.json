@@ -89,5 +89,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0178013XX",
+    "amap_name": "潢川县",
+    "address": "潢川县",
+    "location": "115.051683,32.131426",
+    "cityname": "信阳市",
+    "adname": "潢川县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0178013XX/comment/content_media_external_images_media_100001854_1733775623485_66154504.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0178013XX/comment/48D1A9DE_6429_4CD9_9A4A_610786BE5A05_L0_001_1178_707_1738942185260_10476872.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0178013XX/comment/content_media_external_images_media_100002771_1728693462436_60453397.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:40.000Z"
 }

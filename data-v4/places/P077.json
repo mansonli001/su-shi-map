@@ -42,5 +42,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02130U9XI",
+    "amap_name": "济南市",
+    "address": "历下区",
+    "location": "117.120128,36.652069",
+    "cityname": "济南市",
+    "adname": "历下区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "千佛山风景名胜区",
+        "url": "http://store.is.autonavi.com/query_pic?id=sta8c41e2b-ec35-4f5e-b082-fd9eadb6579c&user=search&operate=original"
+      },
+      {
+        "title": "济南市环城公园-黑虎泉",
+        "url": "http://store.is.autonavi.com/showpic/27b88d9c14784f6f8c532b4f581282b2"
+      },
+      {
+        "title": "印象济南·泉世界",
+        "url": "http://store.is.autonavi.com/showpic/59edf0e05bc71ae9ee09ee7c63ae78a5"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:58.000Z"
 }

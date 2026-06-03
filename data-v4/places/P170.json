@@ -18,13 +18,22 @@
     "master_meet"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元符三年（1100年）",
+      "title": "途经藤州",
+      "description": "苏轼北归途经藤州",
+      "significance": "route20",
+      "id": "p170-evt-001"
+    }
+  ],
   "global_works": [
     {
       "title": "别子由三首",
       "type": "poem",
       "note": "",
-      "source_route": "R18"
+      "source_route": "R18",
+      "poem_id": "S162"
     }
   ],
   "route_events": {
@@ -115,5 +124,37 @@
     "quote": "别子由三首",
     "source": "别子由三首",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03060MFS4",
+    "amap_name": "藤县",
+    "address": "藤县",
+    "location": "110.914606,23.375538",
+    "cityname": "梧州市",
+    "adname": "藤县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03060MFS4/comment/content_media_external_images_media_89123_1737625424151_19121767.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03060MFS4/comment/content_media_external_images_media_89123_1737625424150_48652815.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03060MFS4/comment/content_media_external_images_media_1000007720_ss__1729021204903_23801213.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:03.000Z"
 }

@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HB9ACERW",
+    "amap_name": "淮河公园",
+    "address": "广场北路淮河新城西北侧约200米",
+    "location": "116.989747,32.650498",
+    "cityname": "淮南市",
+    "adname": "田家庵区",
+    "type": "风景名胜;公园广场;公园",
+    "typecode": "110101",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0HB9ACERW/comment/content_media_external_file_1000332755_ss__1767402738931_89543431.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/b4e2aeae-83fc-4c0e-bd7b-f25f43b43bdb.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0HB9ACERW/comment/content_media_external_file_1000332761_ss__1767402738795_90210524.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:53.000Z"
 }

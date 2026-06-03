@@ -41,5 +41,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFJDC2CP",
+    "amap_name": "玉林市",
+    "address": "玉州区",
+    "location": "110.18097,22.654001",
+    "cityname": "玉林市",
+    "adname": "玉州区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "铜石岭国际旅游度假区",
+        "url": "http://store.is.autonavi.com/showpic/2112543106f09bbc964a4cb4bb049448"
+      },
+      {
+        "title": "三名景区",
+        "url": "http://store.is.autonavi.com/showpic/27fb8b39475f912334d9482772e67011"
+      },
+      {
+        "title": "龟山公园",
+        "url": "http://store.is.autonavi.com/showpic/31b1ac581b789e89e9f1a02a1f23c6bd"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:41.000Z"
 }

@@ -60,5 +60,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02C60P80R",
+    "amap_name": "襄阳市",
+    "address": "襄城区",
+    "location": "112.121743,32.010161",
+    "cityname": "襄阳市",
+    "adname": "襄城区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "华侨城奇趣童年亲子乐园",
+        "url": "http://store.is.autonavi.com/showpic/04a1f65089044b368d430b60f74fd38d"
+      },
+      {
+        "title": "古隆中",
+        "url": "http://store.is.autonavi.com/showpic/3b7cda6dbade2cc0837e4782a8b1ecb2"
+      },
+      {
+        "title": "黄家湾风景区",
+        "url": "http://store.is.autonavi.com/showpic/3dbd39faa097f7c42989b8a4fcc830dd"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:15.000Z"
 }

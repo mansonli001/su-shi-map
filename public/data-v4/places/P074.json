@@ -33,6 +33,14 @@
       "title": "到惠州贬所",
       "description": "苏轼到惠州贬所",
       "significance": "到惠州"
+    },
+    {
+      "place": "惠州",
+      "date": "绍圣二年（1095年）",
+      "title": "白鹤峰新居",
+      "description": "苏轼在惠州白鹤峰建新居",
+      "significance": "route18",
+      "id": "p074-002"
     }
   ],
   "global_works": [
@@ -47,7 +55,7 @@
       "background": "苏轼在惠州食荔枝作此诗",
       "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
       "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。",
-      "poem_id": "W056"
+      "poem_id": "S132"
     }
   ],
   "route_events": {
@@ -129,5 +137,37 @@
     "quote": "日啖荔枝三百颗，不辞长作岭南人。",
     "source": "食荔枝",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02F00PQR1",
+    "amap_name": "惠州市",
+    "address": "惠城区",
+    "location": "114.415587,23.112368",
+    "cityname": "惠州市",
+    "adname": "惠城区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "南昆山国家森林公园",
+        "url": "http://store.is.autonavi.com/showpic/2b4983b11592ab4fc1b54dd93251274b"
+      },
+      {
+        "title": "巽寮湾",
+        "url": "http://store.is.autonavi.com/showpic/304b692dcd65c24b95d22dc87ffe23ec"
+      },
+      {
+        "title": "罗浮山风景名胜区",
+        "url": "http://store.is.autonavi.com/showpic/35f8fa25280c811719585a66399fab64"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:56.000Z"
 }

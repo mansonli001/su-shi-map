@@ -38,5 +38,24 @@
       "S2",
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFIVYSU1",
+    "amap_name": "长江",
+    "address": "黄州区",
+    "location": "114.884820,30.418464",
+    "cityname": "黄冈市",
+    "adname": "黄州区",
+    "type": "地名地址信息;自然地名;河流",
+    "typecode": "190204",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:51.000Z"
 }

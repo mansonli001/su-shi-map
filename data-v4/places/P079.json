@@ -40,5 +40,46 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0341015UW",
+    "amap_name": "犍为县",
+    "address": "犍为县",
+    "location": "103.949231,29.208118",
+    "cityname": "乐山市",
+    "adname": "犍为县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0341015UW/comment/B87686F8_4BBC_4763_A5D6_6D378FB30AF0_L0_001_883_50_1745202243200_39930494.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0341015UW/comment/content_media_external_images_media_2893_1745044658240_91858852.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0341015UW/comment/content_media_external_images_media_4067_1730264302221_62189306.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:59.000Z",
+  "global_events": [
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "犍为停留",
+      "description": "苏轼赴京途中停留犍为",
+      "significance": "route01",
+      "id": "p079-evt-001"
+    }
+  ]
 }

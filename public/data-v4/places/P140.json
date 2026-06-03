@@ -63,5 +63,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B021815X03",
+    "amap_name": "青州市",
+    "address": "青州市",
+    "location": "118.479637,36.685178",
+    "cityname": "潍坊市",
+    "adname": "青州市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021815X03/comment/E2C4C91F_3FFC_4C03_9004_F5B1EDFDB646_L0_001_756_500_1735832158129_93097846.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021815X03/comment/C60B214C_7267_405A_B7EF_A092424B4C40_L0_001_2000_1500_1743768659857_45996495.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021815X03/comment/C55C36CF_AA65_4BA9_BD52_80C793C7629E_L0_001_1920_1280_1735832158130_08402156.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:43.000Z"
 }

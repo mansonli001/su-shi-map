@@ -59,5 +59,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFGQS8C1",
+    "amap_name": "宁强收费站(G5京昆高速出口)",
+    "address": "宁强县",
+    "location": "106.261536,32.821946",
+    "cityname": "汉中市",
+    "adname": "宁强县",
+    "type": "道路附属设施;收费站;收费站",
+    "typecode": "180200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGQS8C1/comment/content_media_external_file_100000660_1759204658933_02733538.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/0631ba076fd563f54da511a30b18c0cf"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGQS8C1/comment/content_media_external_file_100000660_1759204658973_52415287.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:33.000Z"
 }

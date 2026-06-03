@@ -15,7 +15,29 @@
     "historical"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "熙宁十年（1077年）",
+      "title": "徐州知州",
+      "description": "苏轼调任徐州知州",
+      "significance": "route06",
+      "id": "p158-evt-001"
+    },
+    {
+      "date": "元丰元年（1078年）",
+      "title": "抗洪保城",
+      "description": "苏轼率军民抗洪，保全徐州城",
+      "significance": "local",
+      "id": "p158-evt-002"
+    },
+    {
+      "date": "元丰二年（1079年）",
+      "title": "作黄楼赋",
+      "description": "苏轼建黄楼，作《黄楼赋》",
+      "significance": "literary",
+      "id": "p158-evt-003"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R08": {
@@ -61,5 +83,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B020402EJ5",
+    "amap_name": "泗水亭公园",
+    "address": "沛城镇东风路168号",
+    "location": "116.923281,34.734439",
+    "cityname": "徐州市",
+    "adname": "沛县",
+    "type": "风景名胜;公园广场;公园",
+    "typecode": "110101",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "泗水亭公园",
+        "url": "http://store.is.autonavi.com/showpic/bd9e08a145dc2bf1815e952f0097116d"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B020402EJ5/comment/content_media_external_file_1000007472_ss__1761829567487_06193764.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B020402EJ5/comment/content_media_external_file_1000007477_ss__1761829567457_14593314.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:55.000Z"
 }

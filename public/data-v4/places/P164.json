@@ -42,5 +42,33 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0MGBASZUZ",
+    "amap_name": "河西太湖里办公区西岸跨境产业园",
+    "address": "大沽南路880号河西太湖里办公区西岸跨境产业园",
+    "location": "117.237255,39.086649",
+    "cityname": "天津市",
+    "adname": "河西区",
+    "type": "商务住宅;产业园区;产业园区",
+    "typecode": "120100",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/89037177ca6818b000f5a56bcc8e756a"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/3515f5232931ee138b870f9269c90a1d"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:59.000Z"
 }

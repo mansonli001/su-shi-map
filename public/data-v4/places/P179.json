@@ -43,5 +43,46 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0H0HHDDBQ",
+    "amap_name": "五丈原风景名胜区",
+    "address": "五丈原村五丈原诸葛亮庙西南",
+    "location": "107.625946,34.261335",
+    "cityname": "宝鸡市",
+    "adname": "岐山县",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0917-8770456",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0H0HHDDBQ/comment/content_media_external_file_1000086786_ss__1759455683822_89843365.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0H0HHDDBQ/comment/4d855cef4463ab7c68e4e2ca3724d69f_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0H0HHDDBQ/comment/content_media_external_images_media_100003540_1736172667615_62905341.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:10.000Z",
+  "global_events": [
+    {
+      "date": "嘉祐年间",
+      "title": "巡行宝鸡",
+      "description": "苏轼任凤翔签判时巡行宝鸡",
+      "significance": "route02",
+      "id": "p179-evt-001"
+    }
+  ]
 }

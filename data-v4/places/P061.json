@@ -41,5 +41,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HR5AB64G",
+    "amap_name": "洪泽湖",
+    "address": "洪泽区",
+    "location": "118.718857,33.266292",
+    "cityname": "淮安市",
+    "adname": "洪泽区",
+    "type": "地名地址信息;自然地名;湖泊",
+    "typecode": "190205",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/c0d90947ba0320f92a5f4ed784f1b8b1"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/349adb8c050db7ef18a98f8b8f4c62a4"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/45d51d5e606150c5bbd505199245b189"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:46.000Z"
 }

@@ -1,29 +1,20 @@
 {
   "id": "W012",
-  "title": "新城道中二首",
-  "category": "七言律诗",
-  "type": "诗",
-  "year_estimate": 1073,
-  "route_id": "R06",
-  "related_route_ids": [
-    "R06"
+  "title": "翰林院制诰序跋",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1086,
+  "route_id": "R13",
+  "location": "汴京",
+  "paragraphs": [
+    "元祐元年，轼叨尘禁林，待罪制诰。窃观朝廷以文章造士，非一日矣。",
+    "三代以前，文章与治化同出而异名者也。唐虞之治，焕乎有文章；商周之盛，亦皆以文章为治之具。降及后世，专以为言，而治化始失其本矣。",
+    "今夫诏诰之所从来远矣。《典》、《谟》、《训》、《诰》之文，其流则为《左氏》、《国语》之风，其变而为汉唐之诏令。然其体要不异也。",
+    "轼也不佞，承乏词垣，敢不勉乎哉。"
   ],
-  "note": "杭州赴新城田园诗代表，\"野桃含笑竹篱短\"",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%96%B0%E5%9F%8E%E9%81%93%E4%B8%AD%E4%BA%8C%E9%A6%96&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "东风知我欲山行，吹断檐间积雨声。\n岭上晴云披絮帽，树头初日挂铜钲。\n野桃含笑竹篱短，溪柳自摇沙水清。\n西崦人家应最乐，煮芹烧笋饷春耕。",
-  "coreVerse": "东风知我欲山行，吹断檐间积雨声。",
-  "excerpt": "东风知我欲山行，吹断檐间积雨声。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 2,
-  "matched_title": "新城道中二首  其一",
-  "full_text_needs_review": true
+  "background": "元祐元年（1086年），苏轼任翰林院学士，负责起草朝廷诏令。这篇文章是苏轼为翰林院制诰集所写的序言，阐述了他对文章与治国关系的看法。",
+  "famousQuotes": [
+    "三代以前，文章与治化同出而异名者也。",
+    "今夫诏诰之所从来远矣。"
+  ]
 }

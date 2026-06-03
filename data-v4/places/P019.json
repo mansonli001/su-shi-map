@@ -15,7 +15,15 @@
     "visit"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "嘉祐年间",
+      "title": "巡行宝鸡",
+      "description": "苏轼任凤翔签判时巡行宝鸡",
+      "significance": "route02",
+      "id": "p019-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R01": {
@@ -63,5 +71,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03950PH57",
+    "amap_name": "宝鸡市",
+    "address": "金台区",
+    "location": "107.237682,34.362862",
+    "cityname": "宝鸡市",
+    "adname": "金台区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "法门文化景区",
+        "url": "http://store.is.autonavi.com/showpic/08e7450b7b82badfd93c2079833bd90d"
+      },
+      {
+        "title": "中国周原景区",
+        "url": "http://store.is.autonavi.com/showpic/2dce27f263b8b55938efd0756dbe5dfe"
+      },
+      {
+        "title": "人民公园",
+        "url": "http://store.is.autonavi.com/showpic/2ec8d1623839e3e266444f8540812f43"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:11.000Z"
 }

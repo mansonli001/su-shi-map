@@ -34,6 +34,14 @@
       "title": "知定州",
       "description": "苏轼知定州",
       "significance": "知定州"
+    },
+    {
+      "place": "定州",
+      "date": "元祐八年（1093年）",
+      "title": "整顿军纪",
+      "description": "苏轼在定州整顿军纪",
+      "significance": "route17",
+      "id": "p038-002"
     }
   ],
   "global_works": [
@@ -41,7 +49,8 @@
       "title": "定州中山怀古",
       "type": "shi",
       "note": "北地咏史代表作",
-      "source_route": "R17"
+      "source_route": "R17",
+      "poem_id": "S131"
     },
     {
       "id": "W055",
@@ -49,7 +58,8 @@
       "type": "文",
       "year": 1094,
       "route_id": "R17",
-      "note": "1094 定州筑「雪浪斋」作铭，苏辙、秦观皆有和诗"
+      "note": "1094 定州筑「雪浪斋」作铭，苏辙、秦观皆有和诗",
+      "poem_id": "W013"
     },
     {
       "id": "W054",
@@ -59,7 +69,8 @@
       "route_id": "R17",
       "note": "1094 春定州衙署后圃得奇石，命名「雪浪石」并作长诗，\"黑质白脉，如孙知微画水\"",
       "fullText": "太行西来万马屯，势与岱岳争雄尊。\n飞狐上党天下脊，半掩落日先黄昏。\n削成山东二百郡，气压代北三家村。\n千峰右卷矗牙帐，崩崖凿断开土门。\n朅来城下作飞石，一𪿫惊落天骄魂。\n承平百年烽燧冷，此物僵卧枯榆根。\n画师争摹雪浪势，天工不见雷斧痕。\n离堆四面绕江水，坐无蜀士谁与论。\n老翁儿戏作飞雨，把酒坐看珠跳盆。\n此身自幻孰非梦，故国山水聊心存。",
-      "excerpt": "太行西来万马屯，势与岱岳争雄尊。"
+      "excerpt": "太行西来万马屯，势与岱岳争雄尊。",
+      "poem_id": "S082"
     },
     {
       "id": "W057",
@@ -67,7 +78,8 @@
       "type": "诗",
       "year": 1095,
       "route_id": "R18",
-      "note": "1095 惠州，借荔枝讽喻宫廷奢侈、同情百姓疾苦"
+      "note": "1095 惠州，借荔枝讽喻宫廷奢侈、同情百姓疾苦",
+      "poem_id": "S142"
     },
     {
       "id": "W056",
@@ -78,7 +90,8 @@
       "note": "1096 惠州，\"日啖荔枝三百颗，不辞长作岭南人\"",
       "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
       "excerpt": "日啖荔枝三百颗，不辞长作岭南人。",
-      "background": "绍圣三年（1096）四月，苏轼贬居惠州第三年，初食荔枝作此诗。岭南风物入诗，把贬谪苦境化作了对天地慷慨馈赠的礼赞，是苏轼晚年豁达心境的典型写照。"
+      "background": "绍圣三年（1096）四月，苏轼贬居惠州第三年，初食荔枝作此诗。岭南风物入诗，把贬谪苦境化作了对天地慷慨馈赠的礼赞，是苏轼晚年豁达心境的典型写照。",
+      "poem_id": "S132"
     },
     {
       "id": "W060",
@@ -88,7 +101,8 @@
       "route_id": "R18",
       "note": "1094 惠州，宋代官员到任谢表",
       "fullText": "仿佛曾游岂梦中，欣然鸡犬识新丰。\n吏民惊怪坐何事，父老相携迎此翁。\n苏武岂知还漠北，管宁自欲老辽东。\n岭南万户皆春色，会有幽人客寓公。",
-      "excerpt": "仿佛曾游岂梦中，欣然鸡犬识新丰。"
+      "excerpt": "仿佛曾游岂梦中，欣然鸡犬识新丰。",
+      "poem_id": "Z004"
     }
   ],
   "route_events": {
@@ -179,5 +193,37 @@
     "quote": "定州中山怀古",
     "source": "定州中山怀古",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B027B02OMR",
+    "amap_name": "定州市",
+    "address": "定州市",
+    "location": "114.990321,38.516746",
+    "cityname": "保定市",
+    "adname": "定州市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B027B02OMR/comment/content_media_external_images_media_100000860_1731213738403_20592787.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B027B02OMR/comment/content_media_external_images_media_100000860_1731213738403_98100876.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B027B02OMR/comment/content_media_external_images_media_100000860_1731213738392_21775202.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:31.000Z"
 }

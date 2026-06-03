@@ -45,5 +45,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02260QPZT",
+    "amap_name": "凤阳县",
+    "address": "凤阳县",
+    "location": "117.531791,32.875714",
+    "cityname": "滁州市",
+    "adname": "凤阳县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/cefcbe452e878f3b56b9f051bf1bcc10"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/530b5e7d9100e9e3a27ae2dd5de2c54c"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/0e50e458920949e2ea1c888cfde764a2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:45.000Z"
 }

@@ -40,5 +40,24 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0MBY15TB5",
+    "amap_name": "无锡江南古运河旅游度假区(北京)联合创新中心",
+    "address": "百子湾南二路与广百中路交叉口东南200米",
+    "location": "116.511825,39.895425",
+    "cityname": "北京市",
+    "adname": "朝阳区",
+    "type": "商务住宅;产业园区;产业园区",
+    "typecode": "120100",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:04.000Z"
 }

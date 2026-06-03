@@ -42,5 +42,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFG97H9P",
+    "amap_name": "京杭大运河杭州景区",
+    "address": "环城北路226号武林门码头",
+    "location": "120.141908,30.302955",
+    "cityname": "杭州市",
+    "adname": "拱墅区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0571-85190851",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0e552ff17cf852fb94b0e9fb4a006389"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ac0cb0e5138dd97944baf1d120808cc9"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6dc74cb7c8d30bb1ba582b56a0180f08"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:44.000Z"
 }

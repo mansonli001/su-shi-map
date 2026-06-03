@@ -41,5 +41,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03940O81I",
+    "amap_name": "汉中市",
+    "address": "汉台区",
+    "location": "107.02319,33.066373",
+    "cityname": "汉中市",
+    "adname": "汉台区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "诸葛古镇",
+        "url": "http://store.is.autonavi.com/showpic/27a11c48580bacbbc8a97ecc3b69330b"
+      },
+      {
+        "title": "樱桃沟",
+        "url": "http://store.is.autonavi.com/showpic/32eb74ac59c25088a835a9d6c5053738"
+      },
+      {
+        "title": "青木川古镇",
+        "url": "http://store.is.autonavi.com/showpic/43fae934dd779aeb23f433fbb5b80ac2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:20.000Z"
 }

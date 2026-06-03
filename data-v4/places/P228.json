@@ -26,7 +26,36 @@
       "description": "在儋州，苏轼住在'桄榔庵'（用桄榔树叶搭的棚屋）。当地百姓可怜他，帮他盖了几间茅屋，他给房子起名'桄榔庵'。\n\n儋州'非人所居，药饵皆无有'。苏轼不得不吃孩子们喜欢的零食（因为没别的吃的），研究怎么在热带生存。他在《食荔枝》里写：'日啖荔枝三百颗，不辞长作岭南人'——这是在惠州写的，到了儋州，连荔枝都没得吃了。\n\n但苏轼在儋州做了一件影响深远的事：开学堂，教当地人读书。儋州在此之前，'学者稀少'，苏轼来了之后，'书声琅琅，弦歌四起'。后来，儋州出了第一个进士（姜唐佐），就是苏轼的学生。\n\n元符三年（1100年）正月，宋徽宗即位，大赦天下。五月，苏轼接到诏命，移廉州安置。离开儋州时，当地百姓送他到海边。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "绍圣四年（1097年）",
+      "title": "贬谪儋州",
+      "description": "苏轼贬儋州安置，为最远贬所",
+      "significance": "route19",
+      "id": "p228-evt-001"
+    },
+    {
+      "date": "元符元年（1098年）",
+      "title": "建载酒堂",
+      "description": "苏轼在儋州建载酒堂讲学",
+      "significance": "local",
+      "id": "p228-evt-002"
+    },
+    {
+      "date": "元符三年（1100年）",
+      "title": "遇赦北归",
+      "description": "苏轼获赦，准备北归",
+      "significance": "route20",
+      "id": "p228-evt-003"
+    },
+    {
+      "date": "绍圣四年（1097年）",
+      "title": "居中和镇",
+      "description": "苏轼居儋州中和镇",
+      "significance": "route19",
+      "id": "p228-evt-004"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R18": {
@@ -66,5 +95,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFHCBQM7",
+    "amap_name": "中和古镇",
+    "address": "中和镇",
+    "location": "109.356212,19.738253",
+    "cityname": "儋州市",
+    "adname": "儋州市",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFHCBQM7/comment/content_media_external_file_100006821_1769264331209_51712612.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/7ce3fc9b088df9120000002337262895?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFHCBQM7/comment/71D34E1C_9F93_417A_A20B_C9D806C04EE7_L0_001_1512_201_1770855290634_73232004.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:57.000Z"
 }

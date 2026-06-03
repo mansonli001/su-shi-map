@@ -55,5 +55,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03170S0TD",
+    "amap_name": "南昌市",
+    "address": "红谷滩区",
+    "location": "115.857972,28.682976",
+    "cityname": "南昌市",
+    "adname": "红谷滩区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "南昌汉代海昏侯国国家考古遗址公园",
+        "url": "http://store.is.autonavi.com/showpic/145d60f6f9b24edfa1c60849b6a0ee12"
+      },
+      {
+        "title": "南昌秋水广场音乐喷泉",
+        "url": "http://store.is.autonavi.com/showpic/42067b9e5704c0f762de9ad8fe337f1d"
+      },
+      {
+        "title": "万寿宫",
+        "url": "http://store.is.autonavi.com/showpic/6dbf36b77946a18249e5656a4386c220"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:48.000Z"
 }

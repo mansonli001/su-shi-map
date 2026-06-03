@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017B00X4D",
+    "amap_name": "龙门石窟",
+    "address": "龙门中街13号",
+    "location": "112.477463,34.558782",
+    "cityname": "洛阳市",
+    "adname": "洛龙区",
+    "type": "风景名胜;风景名胜;世界遗产",
+    "typecode": "110201",
+    "tel": "0379-65980972",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/90fc4281626b617c1fc0d347e782bfd0"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017B00X4D/comment/content_media_external_file_1000025984_ss__1766842954599_93051509.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6a0c360aaf9bc273a827380fdd27874e"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:23.000Z"
 }

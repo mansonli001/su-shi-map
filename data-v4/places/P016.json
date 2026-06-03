@@ -48,5 +48,46 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02180I0FV",
+    "amap_name": "常山",
+    "address": "诸城市",
+    "location": "119.405251,35.894203",
+    "cityname": "潍坊市",
+    "adname": "诸城市",
+    "type": "地名地址信息;自然地名;山",
+    "typecode": "190203",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02180I0FV/comment/e8d7b0472b52a61fd1ae17eb40a9f147_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02180I0FV/comment/7f185108c4d1f0795b50c4788610981c_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02180I0FV/comment/content_media_external_file_100005113_1767087057183_88666073.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:09.000Z",
+  "global_events": [
+    {
+      "date": "熙宁七年（1074年）",
+      "title": "密州任职",
+      "description": "苏轼任密州知州，治所在诸城",
+      "significance": "route05",
+      "id": "p016-evt-001"
+    }
+  ]
 }

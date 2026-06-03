@@ -26,7 +26,15 @@
       "description": "元祐四年（1089年），苏轼以龙图阁学士身份，再任杭州知州。\n\n这一次，他做的实事更多：疏浚西湖，用挖出的淤泥筑成'苏堤'（南北长堤，上有六桥）；设立'安乐坊'（中国最早的公立医院之一）；再次赈济灾民。\n\n在杭州百姓心里，苏轼不是一个'文学家'，他是一个'好官'——修了堤、治了病、救了灾。百姓叫他'苏贤良'，这个称呼，比'大文豪'让他更高兴。\n\n元祐六年（1091年）三月，苏轼被召回朝。杭州百姓沿湖相送，他写《别杭州》：'百姓依依不舍，我亦恋西湖。'"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元祐四年（1089年）",
+      "title": "杭州知州",
+      "description": "苏轼第二次任杭州知州",
+      "significance": "route14",
+      "id": "p143-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R14": {
@@ -73,5 +81,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFG97H9P",
+    "amap_name": "京杭大运河杭州景区",
+    "address": "环城北路226号武林门码头",
+    "location": "120.141908,30.302955",
+    "cityname": "杭州市",
+    "adname": "拱墅区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0571-85190851",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0e552ff17cf852fb94b0e9fb4a006389"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ac0cb0e5138dd97944baf1d120808cc9"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6dc74cb7c8d30bb1ba582b56a0180f08"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:45.000Z"
 }

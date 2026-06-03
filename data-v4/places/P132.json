@@ -42,5 +42,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03190RHJA",
+    "amap_name": "鄱阳湖国家湿地公园",
+    "address": "团林乡",
+    "location": "116.680317,29.133105",
+    "cityname": "上饶市",
+    "adname": "鄱阳县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0793-6666699",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/28d12ac520598acb8aaf06e37823a888"
+      },
+      {
+        "title": "鄱阳湖",
+        "url": "http://store.is.autonavi.com/showpic/7a20f898bc5aaf563e9b9525a2f565c8"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/90dbefe01a92f425739a7cd6b440214e"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:37.000Z"
 }

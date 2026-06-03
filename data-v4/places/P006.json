@@ -53,5 +53,46 @@
       "S2",
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFFYSF91",
+    "amap_name": "汴河游船",
+    "address": "大宋汴河",
+    "location": "114.344842,34.807615",
+    "cityname": "开封市",
+    "adname": "龙亭区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0371-23322688",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/c3fe58b66e2d8ae70000002653376944?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/038314172b6a9a3a0000002193124273?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/8cabe4b11ffe252c0000001681186324?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:02.000Z",
+  "global_events": [
+    {
+      "date": "嘉祐二年（1057年）",
+      "title": "进士及第",
+      "description": "苏轼在开封应进士试及第",
+      "significance": "career",
+      "id": "p006-evt-001"
+    }
+  ]
 }

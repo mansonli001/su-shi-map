@@ -137,5 +137,29 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0729019DI",
+    "amap_name": "眉山市东坡区蟆颐堰管理处",
+    "address": "崇礼镇十字口",
+    "location": "103.865292,30.026399",
+    "cityname": "眉山市",
+    "adname": "东坡区",
+    "type": "政府机构及社会团体;政府机关;区县级政府及事业单位",
+    "typecode": "130104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0e2e6e9c818c24c736ef44b3c324cfeb"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:24.000Z"
 }

@@ -41,5 +41,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B013700020",
+    "amap_name": "苍岩山风景名胜区",
+    "address": "胡家滩村",
+    "location": "114.166392,37.833961",
+    "cityname": "石家庄市",
+    "adname": "井陉县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0311-82324104",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/b008b4a60cc0cf14c733272fa94c8980"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/d3458e3ca3fe5e686ea5300769d9e071"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8bfb97e7c36379bb69ae7562a48e5853"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:01.000Z"
 }

@@ -157,5 +157,37 @@
       "S2",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0200175BU",
+    "amap_name": "苏州市",
+    "address": "姑苏区",
+    "location": "120.585294,31.299758",
+    "cityname": "苏州市",
+    "adname": "姑苏区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "苏州园林",
+        "url": "http://store.is.autonavi.com/showpic/04acf9feca084d000308b22a70360dd0"
+      },
+      {
+        "title": "苏州市王母宫山瑶池",
+        "url": "http://store.is.autonavi.com/showpic/41a380732f423446aef32c0031b66a45"
+      },
+      {
+        "title": "苏州市太湖湿地公园",
+        "url": "http://store.is.autonavi.com/showpic/49c3cc34d82aa97ef2ee38f432c620b8"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:57.000Z"
 }

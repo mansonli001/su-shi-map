@@ -43,7 +43,8 @@
       "type": "诗",
       "date": "元丰七年（1084年）",
       "location": "金陵/江宁",
-      "background": "泊船瓜洲"
+      "background": "泊船瓜洲",
+      "poem_id": "S109"
     }
   ],
   "route_events": {
@@ -146,5 +147,37 @@
     "quote": "春风又绿江南岸，明月何时照我还。",
     "source": "泊船瓜洲",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B00190BSET",
+    "amap_name": "秦淮河",
+    "address": "钞库街",
+    "location": "118.792026,32.021196",
+    "cityname": "南京市",
+    "adname": "秦淮区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/2b5070db544281e34500647f99447487"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/7da27fe5390b54e0394d5ffd09793e7d"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/7f6dbb05d99c2cbbf9a098d62b62491d"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:07.000Z"
 }

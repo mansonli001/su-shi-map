@@ -16,7 +16,22 @@
     "visit"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "戎州停留",
+      "description": "苏轼赴京途中停留戎州（今宜宾）",
+      "significance": "route01",
+      "id": "p144-evt-001"
+    },
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "途经宜宾",
+      "description": "苏轼赴京途中经过宜宾",
+      "significance": "route01",
+      "id": "p144-evt-002"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R02": {
@@ -76,5 +91,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B033F0NBPX",
+    "amap_name": "宜宾市",
+    "address": "叙州区",
+    "location": "104.642826,28.752354",
+    "cityname": "宜宾市",
+    "adname": "叙州区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "李庄古镇景区",
+        "url": "http://store.is.autonavi.com/showpic/2742dfe10274d058bcd49d2b7750e791"
+      },
+      {
+        "title": "僰王山",
+        "url": "http://store.is.autonavi.com/showpic/301dfa4b37b2b2ea5d661a48a97e6c0d"
+      },
+      {
+        "title": "宜宾市翠屏山景区",
+        "url": "http://store.is.autonavi.com/showpic/3678d110dcdf01f4406d697cd42a4991"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:46.000Z"
 }

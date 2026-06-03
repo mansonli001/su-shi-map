@@ -42,7 +42,7 @@
       "background": "游金山寺",
       "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
       "coreVerse": "我家江水初发源，宦游直送江入海。",
-      "poem_id": "W008"
+      "poem_id": "S014"
     }
   ],
   "route_events": {
@@ -148,5 +148,37 @@
     "quote": "金山何时去，此地去金山。",
     "source": "游金山寺",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFGPCJMA",
+    "amap_name": "瓜洲古渡公园",
+    "address": "瓜洲镇古运河下游与长江交汇处",
+    "location": "119.391433,32.249749",
+    "cityname": "扬州市",
+    "adname": "邗江区",
+    "type": "风景名胜;公园广场;公园",
+    "typecode": "110101",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/17d49af238d635480000002208082146?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/5794ad337fe1b47d0000002335592421?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGPCJMA/comment/69E45AD9_2E98_48D5_B7EF_63C79DC31FAE_L0_001_1500_200_1767156835677_75630222.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:39.000Z"
 }

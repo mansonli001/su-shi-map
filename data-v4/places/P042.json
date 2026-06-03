@@ -49,7 +49,7 @@
       "background": "描写西湖美景的千古绝唱",
       "fullText": "朝曦迎客艳重冈，晚雨留人入醉乡。\n此意自佳君不会，一杯当属水仙王。",
       "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。",
-      "poem_id": "W010"
+      "poem_id": "S036"
     }
   ],
   "route_events": {
@@ -154,5 +154,24 @@
     "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
     "source": "饮湖上初晴后雨",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFIVM2PB",
+    "amap_name": "凤凰山",
+    "address": "余杭区",
+    "location": "119.944322,30.252890",
+    "cityname": "杭州市",
+    "adname": "余杭区",
+    "type": "地名地址信息;自然地名;山",
+    "typecode": "190203",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:34.000Z"
 }

@@ -1,29 +1,22 @@
 {
   "id": "W017",
-  "title": "至济南李公择以诗相迎次其韵二首",
-  "category": "次韵诗",
-  "type": "诗",
-  "year_estimate": 1077,
-  "route_id": "R08",
-  "related_route_ids": [
-    "R08"
+  "title": "在儋耳书",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1098,
+  "route_id": "R18",
+  "location": "儋州",
+  "paragraphs": [
+    "吾在儋耳，闻有秀才黎子云者，好读书，通古今。",
+    "予往见之，坐谈间，有老父数人来，皆粗陋朴野，而言辞有理。",
+    "予甚异之，问其何所从来，曰：吾侪小人，不知书，然见先生，知是好人。",
+    "予笑曰：吾亦不知书，然吾亦好人。",
+    "老父皆笑，曰：先生好人，吾侪小人亦好人。",
+    "予益异之，因留饮，谈笑甚欢。",
+    "老父皆曰：先生好人，吾侪小人亦好人，此天下之理也。"
   ],
-  "note": "1077.1 齐州，李公择以诗相迎，苏轼次其韵作（《苏轼诗集》卷十五）",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%87%B3%E6%B5%8E%E5%8D%97%E6%9D%8E%E5%85%AC%E6%8B%A9%E4%BB%A5%E8%AF%97%E7%9B%B8%E8%BF%8E%E6%AC%A1%E5%85%B6%E9%9F%B5%E4%BA%8C%E9%A6%96",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%87%B3%E6%B5%8E%E5%8D%97%E6%9D%8E%E5%85%AC%E6%8B%A9%E4%BB%A5%E8%AF%97%E7%9B%B8%E8%BF%8E%E6%AC%A1%E5%85%B6%E9%9F%B5%E4%BA%8C%E9%A6%96&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%87%B3%E6%B5%8E%E5%8D%97%E6%9D%8E%E5%85%AC%E6%8B%A9%E4%BB%A5%E8%AF%97%E7%9B%B8%E8%BF%8E%E6%AC%A1%E5%85%B6%E9%9F%B5%E4%BA%8C%E9%A6%96&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "敝裘羸马古河滨，野阔天低糁玉尘。\n自笑餐毡典属国，来看换酒谪仙人。\n宦游到处身如寄，农事何时手自亲。\n剩作新诗与君和，莫因风雨废鸣晨。",
-  "coreVerse": "敝裘羸马古河滨，野阔天低糁玉尘。",
-  "excerpt": "敝裘羸马古河滨，野阔天低糁玉尘。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 2,
-  "matched_title": "至濟南李公擇以詩相迎次其韵二首  其一",
-  "full_text_needs_review": true
+  "background": "元符元年（1098年）在儋州与黎民交往。",
+  "famousQuotes": [
+    "先生好人，吾侪小人亦好人，此天下之理也。"
+  ]
 }

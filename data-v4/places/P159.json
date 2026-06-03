@@ -44,7 +44,8 @@
       "route_id": "R15",
       "note": "1091 北上途经泗州，专家一采纳",
       "fullText": "我昔南行舟系汴，逆风三日沙吹面。\n舟人共劝祷灵塔，香火未收旗脚转。\n回头顷刻失长桥，却到龟山未朝饭。\n至人无心何厚薄，我自怀私欣所便。\n耕田欲雨刈欲晴，去得顺风来者怨。\n若使人人祷辄遂，造物应须日千变。\n今我身世两悠悠，去无所逐来无恋。\n得行固愿留不恶，每到有求神亦倦。\n退之旧云三百尺，澄观所营今已换。\n不嫌俗士污丹梯，一看云山绕淮甸。",
-      "excerpt": "我昔南行舟系汴，逆风三日沙吹面。"
+      "excerpt": "我昔南行舟系汴，逆风三日沙吹面。",
+      "poem_id": "S101"
     }
   ],
   "route_events": {
@@ -138,5 +139,37 @@
       "S2",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02050SUWO",
+    "amap_name": "盱眙县",
+    "address": "盱眙县",
+    "location": "118.544545,33.011905",
+    "cityname": "淮安市",
+    "adname": "盱眙县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02050SUWO/comment/content_media_external_images_media_100001823_1726760847414_38993143.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02050SUWO/comment/content_media_external_images_media_100001822_1726760847413_62367984.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02050SUWO/comment/content_media_external_images_media_100001400_1734156082435_87992742.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:56.000Z"
 }

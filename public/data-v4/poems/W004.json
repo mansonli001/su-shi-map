@@ -1,22 +1,26 @@
 {
   "id": "W004",
-  "title": "石鼓文跋",
-  "category": "金石题跋",
+  "title": "范文正公文集序",
+  "author": "苏轼",
   "type": "文",
-  "year_estimate": 1063,
-  "route_id": "R03",
-  "related_route_ids": [
-    "R03"
+  "year": 1072,
+  "route_id": "R06",
+  "location": "杭州",
+  "paragraphs": [
+    "庆历三年，轼始总角入乡校，士有自京师来者，以鲁人石守道所作《庆历圣德诗》示乡先生。",
+    "轼从旁窃观，则能诵习其词，问先生以所颂十一人是何等人？",
+    "先生曰：童子何知？",
+    "轼曰：此天人耶，则不敢知；若亦人耳，何为其不可？",
+    "先生奇轼言，尽以告之。",
+    "且曰：韩、范、富、欧阳，此四人者，人杰也。",
+    "时虽未尽了，则已私识之矣。",
+    "后七年，始得见范公于京师。",
+    "又八年，始见富公、欧阳公于京师。",
+    "又十一年，始见韩公于京师。",
+    "呜呼！轼何幸，得见此四人者乎！"
   ],
-  "note": "石鼓山研学考据代表作",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E7%9F%B3%E9%BC%93%E6%96%87%E8%B7%8B",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E7%9F%B3%E9%BC%93%E6%96%87%E8%B7%8B&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E7%9F%B3%E9%BC%93%E6%96%87%E8%B7%8B&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": false
+  "background": "熙宁五年（1072年）为范仲淹文集作序。",
+  "famousQuotes": [
+    "韩、范、富、欧阳，此四人者，人杰也。"
+  ]
 }

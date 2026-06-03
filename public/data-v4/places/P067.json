@@ -22,5 +22,37 @@
   "sub_places": [],
   "periods": [],
   "_auto_generated": true,
-  "_source": "b9-fill-missing-detail"
+  "_source": "b9-fill-missing-detail",
+  "modern_visit": {
+    "amap_poi_id": "B0391003ON",
+    "amap_name": "华山风景名胜区",
+    "address": "集灵路",
+    "location": "110.070978,34.493336",
+    "cityname": "渭南市",
+    "adname": "华阴市",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0913-8375999;0913-8376888",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "华山",
+        "url": "http://store.is.autonavi.com/showpic/51279a07d6da0f46ddd4a11183d9c1bc"
+      },
+      {
+        "title": "华山",
+        "url": "http://store.is.autonavi.com/showpic/2c80c4c0c903b0e6a1b7d9a5131f2f0f"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/291c9adf563384720000002465128141?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:50.000Z"
 }

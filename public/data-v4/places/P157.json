@@ -20,5 +20,37 @@
   "sub_places": [],
   "periods": [],
   "_auto_generated": true,
-  "_source": "b9-fill-missing-detail"
+  "_source": "b9-fill-missing-detail",
+  "modern_visit": {
+    "amap_poi_id": "B02190YM5S",
+    "amap_name": "泗水汽车站",
+    "address": "327国道",
+    "location": "117.238868,35.650638",
+    "cityname": "济宁市",
+    "adname": "泗水县",
+    "type": "交通设施服务;长途汽车站;长途汽车站",
+    "typecode": "150400",
+    "tel": "0537-4221413",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02190YM5S/comment/088AB9F7_DFF4_4AEA_A686_FDC4F2123ECD_L0_001_1242_84_1766274320717_53852795.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/33339044e374d2590000002262946914?type=pic"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6c1deb3dd23eb56d2a3de8e8e8bfa399"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:54.000Z"
 }

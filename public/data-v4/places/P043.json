@@ -37,5 +37,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03950PHEP",
+    "amap_name": "凤县",
+    "address": "凤县",
+    "location": "106.515841,33.910797",
+    "cityname": "宝鸡市",
+    "adname": "凤县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHEP/comment/content_media_external_images_media_441606_1733897485102_18414785.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHEP/comment/23B19EEF_428B_45B9_8D3A_140B7BDED4A0_L0_001_1200_800_1726969087345_20004489.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHEP/comment/content_media_external_images_media_100011425_1726595362399_90788728.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:34.000Z"
 }

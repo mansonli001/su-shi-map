@@ -51,5 +51,29 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF5DNLP",
+    "amap_name": "岐亭镇人民政府",
+    "address": "歧亭镇车站街",
+    "location": "114.753637,31.017540",
+    "cityname": "黄冈市",
+    "adname": "麻城市",
+    "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "typecode": "130105",
+    "tel": "0713-2091010",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/090bb42bea9d33b63ceae858694ab42c"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:38.000Z"
 }

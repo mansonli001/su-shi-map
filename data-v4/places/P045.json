@@ -36,7 +36,8 @@
       "type": "诗",
       "date": "嘉祐七年（1062年）三月",
       "location": "凤翔府仙游潭中兴寺",
-      "background": "游仙游潭中兴寺作"
+      "background": "游仙游潭中兴寺作",
+      "poem_id": "S011"
     }
   ],
   "route_events": {
@@ -154,5 +155,37 @@
     "quote": "清潭百丈皎无泥，山木阴阴谷鸟啼。",
     "source": "留题仙游潭中兴寺",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03950PHPX",
+    "amap_name": "凤翔区",
+    "address": "凤翔区",
+    "location": "107.401029,34.522167",
+    "cityname": "宝鸡市",
+    "adname": "凤翔区",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/content_media_external_images_media_100000969_1734051404597_72838518.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/content_media_external_images_media_100000969_1734051404596_52481507.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PHPX/comment/F7567CBE_D5F5_4045_B4CE_E67B27940C9F_L0_001_1179_2010_1735182263368_32502412.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:35.000Z"
 }

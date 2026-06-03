@@ -41,5 +41,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0G34YQXXW",
+    "amap_name": "正定古城",
+    "address": "镇州南街与常山东路交叉口西南约140米",
+    "location": "114.574037,38.144749",
+    "cityname": "石家庄市",
+    "adname": "正定县",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0311-88029987",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/9d2e8ccee845a6fbebe860e7dfa511f7"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/6bd42871-6b21-4ab5-a66b-60c84b7bf2c8.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/896c4df2a3e90d33de8a29deba0d3242"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:55.000Z"
 }

@@ -20,7 +20,29 @@
       "description": "熙宁十年（1076年）十二月，苏轼由密州调任徐州知州。\n\n到任第二年（1077年）秋天，黄河决口，洪水直扑徐州城下。水位离城头只有'一版'（约30厘米）。苏轼组织军民，'庐于城上'（住在城楼上，不回家），亲自指挥抗洪。\n\n四十多天后，洪水退去。苏轼在城东门上建了一座楼，取名'黄楼'（取'土实胜水'之意）。九月九日重阳节，苏轼大宴宾客，庆祝黄楼落成。\n\n徐州任上，苏轼还写了一篇著名的《徐州上皇帝书》，详细论述徐州的战略地位和国防意义。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "熙宁十年（1077年）",
+      "title": "徐州知州",
+      "description": "苏轼调任徐州知州",
+      "significance": "route06",
+      "id": "p003-evt-001"
+    },
+    {
+      "date": "元丰元年（1078年）",
+      "title": "抗洪保城",
+      "description": "苏轼率军民抗洪，保全徐州城",
+      "significance": "local",
+      "id": "p003-evt-002"
+    },
+    {
+      "date": "元丰二年（1079年）",
+      "title": "作黄楼赋",
+      "description": "苏轼建黄楼，作《黄楼赋》",
+      "significance": "literary",
+      "id": "p003-evt-003"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R08": {
@@ -69,5 +91,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFG82E7X",
+    "amap_name": "百步洪",
+    "address": "黄河西路与和平路交叉口南120米",
+    "location": "117.199681,34.249838",
+    "cityname": "徐州市",
+    "adname": "云龙区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFG82E7X/comment/12989bd5dc4cc99ab868342b4ac0dee0_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFG82E7X/comment/8776ef1bda60f37bb4d5def6a4acde23_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFG82E7X/comment/609b79f1e9884347c453dbe2625c5888_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:00.000Z"
 }

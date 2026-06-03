@@ -28,6 +28,14 @@
       "title": "过陈州见张方平",
       "description": "苏轼过陈州，拜访张方平",
       "significance": "途经陈州"
+    },
+    {
+      "place": "陈州",
+      "date": "熙宁三年（1070年）",
+      "title": "访张方平",
+      "description": "苏轼赴陈州探访张方平",
+      "significance": "personal",
+      "id": "p020-002"
     }
   ],
   "global_works": [],
@@ -165,5 +173,37 @@
       "S3",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B018A0O288",
+    "amap_name": "淮阳区",
+    "address": "淮阳区",
+    "location": "114.852604,33.731543",
+    "cityname": "周口市",
+    "adname": "淮阳区",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B018A0O288/comment/content_media_external_images_media_431_1728640518785_54754279.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/88ac2edc183026b4025fb27f401251d4"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B018A0O288/comment/content_media_external_images_media_100009092_1738417744701_03896958.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:12.000Z"
 }

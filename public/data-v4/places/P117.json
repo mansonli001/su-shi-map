@@ -46,6 +46,22 @@
       "title": "护送父丧归蜀",
       "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
       "significance": "回乡守孝"
+    },
+    {
+      "place": "眉山",
+      "date": "景祐四年（1037年）",
+      "title": "苏辙出生",
+      "description": "苏辙诞生于眉州眉山",
+      "significance": "family",
+      "id": "p117-003"
+    },
+    {
+      "place": "眉山",
+      "date": "庆历七年（1047年）",
+      "title": "苏序去世",
+      "description": "苏轼祖父苏序去世",
+      "significance": "family",
+      "id": "p117-004"
     }
   ],
   "global_works": [],
@@ -137,5 +153,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFJN9KP5",
+    "amap_name": "玉屏山玻璃栈道",
+    "address": "柳江镇玉屏山景区",
+    "location": "103.190783,29.761133",
+    "cityname": "眉山市",
+    "adname": "洪雅县",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFJN9KP5/comment/55f08fec65741e4d8cfa073e345534ff_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/2788db12-9392-470d-8f4d-73b1b4d8c8fe.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFJN9KP5/comment/content_media_external_images_media_1000176069_ss__1770448367120_19841346.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:25.000Z"
 }

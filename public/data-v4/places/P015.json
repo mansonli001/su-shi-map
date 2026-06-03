@@ -40,5 +40,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02120SB0L",
+    "amap_name": "菏泽市",
+    "address": "牡丹区",
+    "location": "115.479646,35.234309",
+    "cityname": "菏泽市",
+    "adname": "牡丹区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "青龙山旅游度假区",
+        "url": "http://store.is.autonavi.com/showpic/09d3274018e187b268147e1e03fcebb6"
+      },
+      {
+        "title": "孙膑旅游城",
+        "url": "http://store.is.autonavi.com/showpic/2ddd2005e5d50bff28cb37354e6b7e8f"
+      },
+      {
+        "title": "曹州牡丹园",
+        "url": "http://store.is.autonavi.com/showpic/48dfa4a1d295b0cf955aeaa393d5a058"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:09.000Z"
 }

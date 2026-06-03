@@ -35,5 +35,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03070MYJJ",
+    "amap_name": "博白县",
+    "address": "博白县",
+    "location": "109.975856,22.273539",
+    "cityname": "玉林市",
+    "adname": "博白县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03070MYJJ/comment/C0DAAA21_FB44_43F8_A893_8AF7BEEB152C_L0_001_1500_2000_1740337396082_77578534.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03070MYJJ/comment/content_media_external_images_media_100001483_1726631455775_51006438.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03070MYJJ/comment/EDE3BD41_1D07_457B_88A0_877CD7AF9F97_L0_001_1018_1130_1740337800171_27792367.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:00.000Z"
 }

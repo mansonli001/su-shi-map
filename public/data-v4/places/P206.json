@@ -16,7 +16,15 @@
     "seclusion_ideal"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元丰七年（1084年）",
+      "title": "买田宜兴",
+      "description": "苏轼在宜兴买田，计划定居",
+      "significance": "route10",
+      "id": "p206-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R11": {
@@ -64,5 +72,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B01FE16PAB",
+    "amap_name": "宜兴市",
+    "address": "宜兴市",
+    "location": "119.821873,31.338429",
+    "cityname": "无锡市",
+    "adname": "宜兴市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B01FE16PAB/comment/content_media_external_images_media_4531_1731173121046_68115608.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B01FE16PAB/comment/content_media_external_images_media_4530_1731173121044_67682663.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B01FE16PAB/comment/content_media_external_images_media_78504_1733841216666_07785881.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:34.000Z"
 }

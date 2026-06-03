@@ -125,5 +125,24 @@
       "S2",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0JAMCJ5XT",
+    "amap_name": "连云港园",
+    "address": "云善路22号",
+    "location": "119.319527,34.577062",
+    "cityname": "连云港市",
+    "adname": "海州区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0518-85800720",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:42.000Z"
 }

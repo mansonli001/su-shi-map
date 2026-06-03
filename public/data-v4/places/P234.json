@@ -72,5 +72,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03300PWI6",
+    "amap_name": "梓潼县",
+    "address": "梓潼县",
+    "location": "105.170746,31.642635",
+    "cityname": "绵阳市",
+    "adname": "梓潼县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03300PWI6/comment/content_media_external_images_media_100001908_1726932585456_18876852.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03300PWI6/comment/content_media_external_images_media_100001907_1726932585454_23777697.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03300PWI6/comment/content_media_external_images_media_100001908_1726932585452_35524436.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:17:03.000Z"
 }

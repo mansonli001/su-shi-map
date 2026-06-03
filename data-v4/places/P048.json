@@ -103,5 +103,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02020I5DV",
+    "amap_name": "高邮市",
+    "address": "高邮市",
+    "location": "119.458920,32.781606",
+    "cityname": "扬州市",
+    "adname": "高邮市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02020I5DV/comment/8F0CD840_8CF8_49EF_930D_820FCAC19652_L0_001_800_1066_1732536587349_53778272.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02020I5DV/comment/%5B2024-10-26-09-16-40%5DDFC45F54-F28C-4BB1-B75F-A2283C4D9C8_1729905406145_49602782.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02020I5DV/comment/content_media_external_images_media_519830_1733814932422_98055707.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:37.000Z"
 }

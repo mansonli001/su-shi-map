@@ -18,6 +18,19 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
+/**
+ * 把 markdown 风格 **bold** 标记安全地转成 React 节点
+ * 修复 v6.1: 替换 dangerouslySetInnerHTML，杜绝数据源被污染时的 XSS 风险
+ */
+function renderBoldMarkers(line: string): React.ReactNode {
+  if (!line.includes('**')) return line;
+  const parts = line.split(/\*\*(.+?)\*\*/g);
+  // split 结果：偶数 index 为普通文本，奇数 index 为加粗内容
+  return parts.map((seg, i) =>
+    i % 2 === 1 ? <strong key={i}>{seg}</strong> : <span key={i}>{seg}</span>,
+  );
+}
+
 type RouteDetail = {
   id: string;
   index: number;
@@ -175,9 +188,7 @@ export default function RouteDetailPage({ params }: { params: { id: string } }) 
           <div className="rd-narrative">
             {route.description_long.split('\n').map((line, i) =>
               line.trim() ? (
-                <p key={i} dangerouslySetInnerHTML={{
-                  __html: line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>'),
-                }} />
+                <p key={i}>{renderBoldMarkers(line)}</p>
               ) : null,
             )}
           </div>
@@ -192,9 +203,10 @@ export default function RouteDetailPage({ params }: { params: { id: string } }) 
           <p className="rd-locations">
             {route.key_locations_summary.split('\n').map((line, i) =>
               line.trim() ? (
-                <span key={i} dangerouslySetInnerHTML={{
-                  __html: line.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>') + '<br/>',
-                }} />
+                <span key={i}>
+                  {renderBoldMarkers(line)}
+                  <br />
+                </span>
               ) : null,
             )}
           </p>

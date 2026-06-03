@@ -103,5 +103,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B021A02387",
+    "amap_name": "东平县",
+    "address": "东平县",
+    "location": "116.470211,35.937049",
+    "cityname": "泰安市",
+    "adname": "东平县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021A02387/comment/content_media_external_images_media_1357_1731164062557_18308619.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021A02387/comment/content_media_external_images_media_5630_1733493584923_74396935.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021A02387/comment/0C378F48_8412_486A_90F0_F02BF073B9F4_L0_001_1536_1202_1726988190742_53892615.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:45.000Z"
 }

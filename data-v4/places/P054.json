@@ -24,7 +24,16 @@
       "narrative": "苏轼从儋州获赦北归，途经廉州（今广西合浦）。在这里，他遇到了一位老朋友，两人抱头痛哭。苏轼写下『廉州何处是，海外此归来』的诗句，表达对重返大陆的激动。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "place": "广州",
+      "date": "元符三年（1100年）",
+      "title": "途经广州",
+      "description": "苏轼北归途经广州",
+      "significance": "route20",
+      "id": "p054-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "route18": [
@@ -109,5 +118,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B00141JEHS",
+    "amap_name": "广州市",
+    "address": "越秀区",
+    "location": "113.264499,23.130061",
+    "cityname": "广州市",
+    "adname": "越秀区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "广州天河体育场",
+        "url": "http://store.is.autonavi.com/showpic/205648cd51051ee062ccb36ce79c11b7"
+      },
+      {
+        "title": "北京路步行街",
+        "url": "http://store.is.autonavi.com/showpic/4e0e5c3a01dfe2954b9fe4b31c618934"
+      },
+      {
+        "title": "广州长洲岛黄埔军校历史纪念景点",
+        "url": "http://store.is.autonavi.com/showpic/54861cf6e18b88e6fd255fcde06d1b4a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:41.000Z"
 }

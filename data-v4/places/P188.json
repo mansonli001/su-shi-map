@@ -63,5 +63,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02C6025OT",
+    "amap_name": "古隆中",
+    "address": "303省道隆中路461-1号",
+    "location": "112.035372,32.012011",
+    "cityname": "襄阳市",
+    "adname": "襄城区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0710-3775067;0710-3591656",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/498e0a4f3986d364628b2b5588b33b8e"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/420e0f3eafb85947708324b950ff9e45"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/fcc4f3ce3bf28b8bedd8796500d1fcd2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:15.000Z"
 }

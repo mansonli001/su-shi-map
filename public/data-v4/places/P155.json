@@ -33,7 +33,8 @@
       "title": "石钟山记",
       "type": "wen",
       "note": "实地考据纪行散文代表作",
-      "source_route": "R11"
+      "source_route": "R11",
+      "poem_id": "W010"
     }
   ],
   "source": [
@@ -60,5 +61,53 @@
     "quote": "石钟山记",
     "source": "石钟山记",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B031800728",
+    "amap_name": "石钟山国家旅游风景名胜区",
+    "address": "登山路22号",
+    "location": "116.222565,29.743863",
+    "cityname": "九江市",
+    "adname": "湖口县",
+    "type": "风景名胜;风景名胜;省级景点",
+    "typecode": "110203",
+    "tel": "0792-6332816",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0caf1113b2c564e86ff13fd25c71db8f"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/c32decb75718c9ae7c56e318fbf5348c"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B031800728/comment/content_media_external_file_100004498_1761417574165_12411706.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:53.000Z",
+  "global_events": [
+    {
+      "date": "元祐四年（1089年）",
+      "title": "疏浚西湖",
+      "description": "苏轼疏浚西湖，筑苏堤，建三潭印月",
+      "significance": "local",
+      "id": "p155-evt-001"
+    },
+    {
+      "date": "元丰七年（1084年）",
+      "title": "夜探石钟山",
+      "description": "苏轼夜探石钟山，作《石钟山记》",
+      "significance": "route10",
+      "id": "p155-evt-002"
+    }
+  ]
 }

@@ -45,5 +45,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017700YU6",
+    "amap_name": "叶县",
+    "address": "叶县",
+    "location": "113.357476,33.627437",
+    "cityname": "平顶山市",
+    "adname": "叶县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017700YU6/comment/BBEEFB58_A599_40C5_BE9D_5D2AFE6A4061_L0_001_1500_200_1749451071597_56931649.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/c7744b8734ae149c0d8c5bbb0cb8deed"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017700YU6/comment/content_media_external_images_media_16730_ss__1743924917336_07138208.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:29.000Z"
 }

@@ -118,5 +118,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFGQSTX2",
+    "amap_name": "华州西收费站(G30连霍高速出口)",
+    "address": "华州区",
+    "location": "109.692335,34.493469",
+    "cityname": "渭南市",
+    "adname": "华州区",
+    "type": "道路附属设施;收费站;收费站",
+    "typecode": "180200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGQSTX2/comment/3135e2bc9e94e35c5bd0c6c75a57a04e_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGQSTX2/comment/content_media_external_file_1000115456_ss__1763841888545_87223112.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFGQSTX2/comment/content_media_external_file_1000115457_ss__1763841888547_97519959.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:51.000Z"
 }

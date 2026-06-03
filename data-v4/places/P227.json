@@ -25,6 +25,14 @@
       "title": "南下途经镇江",
       "description": "苏轼南下赴杭州倅，途经润州游金山寺",
       "significance": "途经镇江"
+    },
+    {
+      "place": "镇江",
+      "date": "元丰七年（1084年）",
+      "title": "金山寺",
+      "description": "苏轼游览金山寺",
+      "significance": "route10",
+      "id": "p227-002"
     }
   ],
   "global_works": [
@@ -39,7 +47,7 @@
       "background": "游金山寺",
       "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
       "coreVerse": "我家江水初发源，宦游直送江入海。",
-      "poem_id": "W008"
+      "poem_id": "S014"
     }
   ],
   "route_events": {
@@ -133,5 +141,37 @@
     "quote": "金山何时去，此地去金山。",
     "source": "游金山寺",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFIZOVVI",
+    "amap_name": "金山公园-念佛堂",
+    "address": "长江路与金山路交叉口北160米",
+    "location": "119.415840,32.214824",
+    "cityname": "镇江市",
+    "adname": "润州区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0511-85512992",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFIZOVVI/comment/content_media_external_images_media_112464_ss__1725747544767_01270752.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFIZOVVI/comment/2eff75e8c8f926b6b61aefdaa979e0a7_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFIZOVVI/comment/814d794977def1401bc949d2111447a7_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:56.000Z"
 }

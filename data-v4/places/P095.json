@@ -89,5 +89,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B021704SAQ",
+    "amap_name": "莱州市",
+    "address": "莱州市",
+    "location": "119.942057,37.178187",
+    "cityname": "烟台市",
+    "adname": "莱州市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021704SAQ/comment/content_media_external_images_media_100001238_1729384130594_11613624.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021704SAQ/comment/8a03d5f921386a7dc6bc3b6f8997acd4_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B021704SAQ/comment/40ABD1A5_4946_45D0_8C3D_DADFCDF4DADF_L0_001_1500_2000_1728350622066_24706058.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:10.000Z"
 }

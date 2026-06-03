@@ -37,7 +37,7 @@
       "background": "游金山寺",
       "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
       "coreVerse": "我家江水初发源，宦游直送江入海。",
-      "poem_id": "W008"
+      "poem_id": "S014"
     }
   ],
   "route_events": {
@@ -115,5 +115,29 @@
     "quote": "金山何时去，此地去金山。",
     "source": "游金山寺",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFFEXR6K",
+    "amap_name": "瓜洲镇人民政府",
+    "address": "迎江路105号",
+    "location": "119.389028,32.251034",
+    "cityname": "扬州市",
+    "adname": "邗江区",
+    "type": "政府机构及社会团体;政府机关;乡镇级政府及事业单位",
+    "typecode": "130105",
+    "tel": "0514-87501001",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/55c70d22f4dd3ecc85b301dc5442c49e"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:40.000Z"
 }

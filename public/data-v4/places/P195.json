@@ -45,7 +45,8 @@
       "type": "词",
       "date": "元丰元年（1078年）",
       "location": "徐州燕子楼",
-      "background": "苏轼梦入燕子楼，作此词"
+      "background": "苏轼梦入燕子楼，作此词",
+      "poem_id": "C017"
     },
     {
       "id": "xz-w002",
@@ -55,7 +56,8 @@
       "type": "文",
       "date": "元丰元年（1078年）",
       "location": "徐州云龙山",
-      "background": "苏轼在云龙山为张天骥作《放鹤亭记》"
+      "background": "苏轼在云龙山为张天骥作《放鹤亭记》",
+      "poem_id": "W007"
     },
     {
       "title": "黄楼赋",
@@ -65,7 +67,7 @@
       "fullText": "我在黄楼上，欲作黄楼诗。\n忽得故人书，中有黄楼词。\n黄楼高十丈，下建五丈旗。\n楚山以为城，泗水以为池。\n我诗无杰句，万景骄莫随。\n夫子独何妙，雨雹散雷椎。\n雄辞杂今古，中有屈宋姿。\n南山多磬石，清滑如流脂。\n朱蜡为摹刻，细妙分毫厘。\n佳处未易识，当有来者知。",
       "coreVerse": "我在黄楼上，欲作黄楼诗。",
       "excerpt": "我在黄楼上，欲作黄楼诗。",
-      "poem_id": "W021"
+      "poem_id": "F001"
     },
     {
       "id": "W019",
@@ -73,7 +75,8 @@
       "type": "诗",
       "year": 1077,
       "route_id": "R08",
-      "note": "1077.2 陈桥驿接改命徐州诏，\"不得入国门\"，寓范镇东园作（《东坡七集·东坡诗集》卷十四）"
+      "note": "1077.2 陈桥驿接改命徐州诏，\"不得入国门\"，寓范镇东园作（《东坡七集·东坡诗集》卷十四）",
+      "poem_id": "S053"
     },
     {
       "id": "W024",
@@ -81,7 +84,8 @@
       "type": "诗",
       "year": 1079,
       "route_id": "R09",
-      "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」"
+      "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」",
+      "poem_id": "S069"
     }
   ],
   "route_events": {
@@ -234,5 +238,37 @@
     "quote": "明月如霜，好风如水，清景无限。",
     "source": "永遇乐·彭城夜宿燕子楼",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02040R9GF",
+    "amap_name": "徐州市",
+    "address": "云龙区",
+    "location": "117.283752,34.204224",
+    "cityname": "徐州市",
+    "adname": "云龙区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "马陵山风景名胜区",
+        "url": "http://store.is.autonavi.com/showpic/0829255e3361ac098eca741a4f694876"
+      },
+      {
+        "title": "徐州海底世界",
+        "url": "http://store.is.autonavi.com/showpic/09d3d4c5a8e6bd24d7d8879505c782e3"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/3e85a1a93b05842b5092e03f0a425126"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:22.000Z"
 }

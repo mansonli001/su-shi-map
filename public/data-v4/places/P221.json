@@ -46,5 +46,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF33TAG",
+    "amap_name": "长岛南北长山旅游景区",
+    "address": "海滨路",
+    "location": "120.693820,37.989476",
+    "cityname": "烟台市",
+    "adname": "蓬莱区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0535-3215406;0535-3216568",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/c32802b0b2f3b2ea9b9ba29a830db7c8"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/c4e02041ead3d3a5872e7e671dd46bb8"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/218281e19168c295411801775f5f4a98"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:50.000Z"
 }

@@ -39,6 +39,14 @@
       "title": "第一次到长安",
       "description": "三苏出蜀途经长安，这是北宋西北重镇",
       "significance": "途经长安"
+    },
+    {
+      "place": "长安",
+      "date": "嘉祐元年（1056年）",
+      "title": "首次入长安",
+      "description": "苏轼首次到达长安",
+      "significance": "route01",
+      "id": "p219-002"
     }
   ],
   "global_works": [],
@@ -168,5 +176,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B001D09TAA",
+    "amap_name": "西安钟楼",
+    "address": "西安地铁2号线钟楼站C出口正对面",
+    "location": "108.947030,34.259430",
+    "cityname": "西安市",
+    "adname": "莲湖区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "029-87276420",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "西安钟楼",
+        "url": "http://store.is.autonavi.com/showpic/5d751d269b840f620b9f2deb768698a8"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/3b525983-7154-4c03-9423-6683ecfef221.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ac2ed4de49dc97fe83bf7b5cd008a38b"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:48.000Z"
 }

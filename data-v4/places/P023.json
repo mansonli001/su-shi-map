@@ -29,7 +29,8 @@
       "note": "「九死南荒吾不恨，兹游奇绝冠平生」——海南三年贬谪定终极之论",
       "fullText": "其一：倦客愁闻归路遥，眼明飞阁俯长桥。贪看白鹭横秋浦，不觉青林没晚潮。\n其二：余生欲老海南村，帝遣巫阳招我魂。杳杳天低鹘没处，青山一发是中原。",
       "excerpt": "杳杳天低鹘没处，青山一发是中原。",
-      "background": "元符三年（1100）六月，苏轼北归途经澄迈通潮阁。「青山一发是中原」被誉为对故土最深的凝望——中原远在天边，仅是一发之青，却是六十五岁老人魂之所归。"
+      "background": "元符三年（1100）六月，苏轼北归途经澄迈通潮阁。「青山一发是中原」被誉为对故土最深的凝望——中原远在天边，仅是一发之青，却是六十五岁老人魂之所归。",
+      "poem_id": "S157"
     }
   ],
   "route_events": {
@@ -95,5 +96,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0324002OD",
+    "amap_name": "澄迈县",
+    "address": "澄迈县",
+    "location": "110.007497,19.738885",
+    "cityname": "澄迈县",
+    "adname": "澄迈县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "福山咖啡文化风情镇中心区",
+        "url": "http://store.is.autonavi.com/showpic/03b54294e803c0c474f76994459461ed"
+      },
+      {
+        "title": "富力红树湾红树林湿地保护公园",
+        "url": "http://store.is.autonavi.com/showpic/63bbaa892526dfe22f58535dccef9b32"
+      },
+      {
+        "title": "永庆寺",
+        "url": "http://store.is.autonavi.com/showpic/afabc763910bf006ee0486668ba3af64"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:14.000Z"
 }

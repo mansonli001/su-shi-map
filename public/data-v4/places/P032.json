@@ -91,5 +91,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFLB8EKO",
+    "amap_name": "大余县梅关景区",
+    "address": "梅岭登山步道大余县梅关景区",
+    "location": "114.345576,25.334608",
+    "cityname": "赣州市",
+    "adname": "大余县",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0797-2028891",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/aaa37e9b10cf319c0000002358084118?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFLB8EKO/comment/content_media_external_images_media_138499_ss__1726572640699_73282853.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFLB8EKO/comment/content_media_external_file_1000016552_ss__1768656819291_91542664.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:27.000Z"
 }

@@ -1,6 +1,6 @@
 /**
- * OG 分享长图 v4.0
- * @vercel/og Edge Runtime 动态生成
+ * OG 分享图 v5.0 - 支持v4数据
+ * 使用Vercel OG生成动态分享图片
  */
 
 import { NextRequest } from 'next/server';
@@ -9,30 +9,45 @@ import { ImageResponse } from '@vercel/og';
 export const runtime = 'edge';
 
 export async function GET(request: NextRequest) {
-  const { searchParams } = new URL(request.url);
+  const { searchParams } = request.nextUrl;
   const id = searchParams.get('id');
 
-  // 加载地点数据
+  // 默认值
   let placeName = '读苏轼·游神州';
-  let modernName = '';
+  let modernName = '苏轼一生足迹交互式地图';
+  let ancientName = '';
+  let summary = '';
   let famousLine = '';
+  let author = '';
 
   if (id) {
     try {
-      const res = await fetch(new URL(`/data/places-core.json`, request.url));
-      const places = await res.json();
-      const place = places.find((p: any) => p.id === id);
-      if (place) {
-        placeName = place.songName;
-        modernName = place.modernName;
-      }
+      // 加载v4 places-index
+      const indexRes = await fetch(new URL(`/data-v4/places-index.json`, request.url));
+      if (indexRes.ok) {
+        const indexData = await indexRes.json();
+        const place = indexData.places?.find((p: any) => p.id === id);
+        if (place) {
+          ancientName = place.ancient_name || place.songName || '';
+          modernName = place.modern_name || '';
+          summary = place.summary || '';
 
-      // 尝试加载详情获取诗句
-      const detailRes = await fetch(new URL(`/data/places/${id}.json`, request.url));
-      if (detailRes.ok) {
-        const detail = await detailRes.json();
-        if (detail.poems && detail.poems.length > 0) {
-          famousLine = detail.poems[0].content.slice(0, 20) + '...';
+          // 如果有诗词，提取名句
+          if (place.poems && place.poems.length > 0) {
+            const poem = place.poems[0];
+            famousLine = poem.content?.slice(0, 25) || '';
+            famousLine = poem.famousLine || poem.coreVerse || famousLine;
+            author = poem.author || '苏轼';
+          } else if (place.related_poems && place.related_poems.length > 0) {
+            // 尝试从相关诗词获取
+            const poemId = place.related_poems[0];
+            const poemRes = await fetch(new URL(`/data-v4/poems/${poemId}.json`, request.url));
+            if (poemRes.ok) {
+              const poem = await poemRes.json();
+              famousLine = poem.famousQuotes?.[0] || poem.paragraphs?.[0]?.slice(0, 25) || '';
+              author = poem.author || '苏轼';
+            }
+          }
         }
       }
     } catch (err) {
@@ -49,49 +64,145 @@ export async function GET(request: NextRequest) {
           height: '630px',
           display: 'flex',
           flexDirection: 'column',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: '#F5E6C8',
-          fontFamily: 'Noto Serif SC',
+          background: 'linear-gradient(180deg, #F5E6C8 0%, #EBD9B8 100%)',
           padding: '60px',
+          position: 'relative',
         }}
       >
-        {/* 标题 */}
-        <div style={{ fontSize: '48px', color: '#8B6914', marginBottom: '24px', fontWeight: 'bold' }}>
-          读苏轼·游神州
+        {/* 顶部装饰线 */}
+        <div style={{
+          position: 'absolute',
+          top: '0',
+          left: '0',
+          right: '0',
+          height: '8px',
+          background: 'linear-gradient(90deg, #BA7517, #FAC775, #BA7517)',
+        }} />
+
+        {/* 主标题 */}
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          marginBottom: '40px',
+        }}>
+          <div style={{
+            fontSize: '36px',
+            color: '#8B6914',
+            fontWeight: 'bold',
+            letterSpacing: '0.1em',
+          }}>
+            行吟山河
+          </div>
+          <div style={{
+            width: '2px',
+            height: '24px',
+            background: '#8B6914',
+            margin: '0 20px',
+            opacity: 0.5,
+          }} />
+          <div style={{
+            fontSize: '24px',
+            color: '#8B6914',
+            opacity: 0.8,
+          }}>
+            苏轼足迹地图
+          </div>
         </div>
 
-        {/* 地点名 */}
-        <div style={{ fontSize: '72px', color: '#1A1405', marginBottom: '16px', fontWeight: 'bold' }}>
-          {placeName}
+        {/* 地点名 - 核心展示 */}
+        <div style={{
+          fontSize: id ? '72px' : '64px',
+          color: '#1A1405',
+          fontWeight: 'bold',
+          marginBottom: '16px',
+          fontFamily: 'serif',
+        }}>
+          {id ? ancientName : '苏轼一生'}
         </div>
 
         {/* 现代地名 */}
         {modernName && (
-          <div style={{ fontSize: '32px', color: '#1A1405', opacity: 0.6, marginBottom: '32px' }}>
+          <div style={{
+            fontSize: '28px',
+            color: '#1A1405',
+            opacity: 0.6,
+            marginBottom: '24px',
+          }}>
             {modernName}
           </div>
         )}
 
-        {/* 诗句 */}
+        {/* 诗句展示 */}
         {famousLine && (
-          <div
-            style={{
-              fontSize: '28px',
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            marginTop: '20px',
+          }}>
+            <div style={{
+              width: '4px',
+              height: '48px',
+              background: '#BA7517',
+              marginRight: '20px',
+            }} />
+            <div style={{
+              fontSize: '26px',
               color: '#1A1405',
-              opacity: 0.8,
-              maxWidth: '800px',
-              textAlign: 'center',
-              lineHeight: '1.6',
-            }}
-          >
-            {famousLine}
+              opacity: 0.85,
+              maxWidth: '900px',
+              lineHeight: '1.5',
+            }}>
+              {famousLine}
+              {author && (
+                <span style={{
+                  fontSize: '20px',
+                  color: '#8B6914',
+                  marginLeft: '20px',
+                  opacity: 0.8,
+                }}>
+                  —— {author}
+                </span>
+              )}
+            </div>
           </div>
         )}
 
-        {/* 底部 */}
-        <div style={{ position: 'absolute', bottom: '40px', fontSize: '24px', color: '#8B6914', opacity: 0.8 }}>
-          扫码探索苏轼一生足迹 →
+        {/* 底部信息 */}
+        <div style={{
+          position: 'absolute',
+          bottom: '40px',
+          left: '60px',
+          right: '60px',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+        }}>
+          <div style={{
+            fontSize: '20px',
+            color: '#8B6914',
+          }}>
+            su-shi.starfluxes.com
+          </div>
+          <div style={{
+            fontSize: '22px',
+            color: '#8B6914',
+            display: 'flex',
+            alignItems: 'center',
+          }}>
+            扫码探索 →
+          </div>
+        </div>
+
+        {/* 右下角装饰 */}
+        <div style={{
+          position: 'absolute',
+          bottom: '40px',
+          right: '60px',
+          fontSize: '14px',
+          color: '#8B6914',
+          opacity: 0.5,
+        }}>
+          {id ? `地点: ${id}` : '交互式数字地图'}
         </div>
       </div>
     ),

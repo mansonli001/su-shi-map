@@ -44,6 +44,14 @@
       "title": "赦还北归",
       "description": "苏轼遇赦北归",
       "significance": "北归"
+    },
+    {
+      "place": "儋州",
+      "date": "元符元年（1098年）",
+      "title": "建载酒堂",
+      "description": "苏轼在儋州建载酒堂",
+      "significance": "route19",
+      "id": "p035-003"
     }
   ],
   "global_works": [
@@ -55,7 +63,8 @@
       "type": "诗",
       "date": "元符三年（1100年）",
       "location": "儋州",
-      "background": "苏轼离海南诗"
+      "background": "苏轼离海南诗",
+      "poem_id": "S163"
     },
     {
       "id": "dz2-w002",
@@ -175,5 +184,37 @@
     "quote": "九死南荒吾不恨，兹游奇绝冠平生。",
     "source": "海南日记",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0K01Z7ROF",
+    "amap_name": "桄榔庵遗址",
+    "address": "X513(解放街)",
+    "location": "109.346135,19.740499",
+    "cityname": "儋州市",
+    "adname": "儋州市",
+    "type": "风景名胜;风景名胜;纪念馆",
+    "typecode": "110204",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFFQZLIU/comment/128da2c6b49b116ba9d31aa3e233b78e_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFFQZLIU/comment/b0613f74bf78a5ef04615a7ac072f5c8_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/a723522d90dafdb2f6eda68ca13300b8"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:29.000Z"
 }

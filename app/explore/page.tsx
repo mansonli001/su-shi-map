@@ -149,8 +149,16 @@ function ExploreInner() {
                 className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
                 aria-label="路线列表"
               >
-                <span className="md:hidden">📖</span>
-                <span className="hidden md:inline">📖 路线</span>
+                <span className="md:hidden">🔍</span>
+                <span className="hidden md:inline">路线</span>
+              </button>
+              <button
+                onClick={() => (window.location.href = '/poems')}
+                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
+                aria-label="诗词"
+              >
+                <span className="md:hidden">诗</span>
+                <span className="hidden md:inline">诗词</span>
               </button>
               <button
                 onClick={openSearch}
@@ -158,7 +166,7 @@ function ExploreInner() {
                 aria-label="搜索"
               >
                 <span className="md:hidden">🔍</span>
-                <span className="hidden md:inline">🔍 搜索</span>
+                <span className="hidden md:inline">搜索</span>
               </button>
               <button
                 onClick={() => (window.location.href = '/about')}

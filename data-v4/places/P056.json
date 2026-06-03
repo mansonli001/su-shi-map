@@ -90,5 +90,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02060PPQT",
+    "amap_name": "花果山风景区",
+    "address": "郁林路5号",
+    "location": "119.283146,34.645922",
+    "cityname": "连云港市",
+    "adname": "海州区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0518-85723837;0518-85723839",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/a0f81f96b5e843b48da1515975fa68ab"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/a528690a158fb4b5b9aafe4c668cca25"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/de3afb07749b92a6dd12cca1e955c981"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:43.000Z"
 }

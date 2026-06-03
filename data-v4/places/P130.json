@@ -20,5 +20,37 @@
   "sub_places": [],
   "periods": [],
   "_auto_generated": true,
-  "_source": "b9-fill-missing-detail"
+  "_source": "b9-fill-missing-detail",
+  "modern_visit": {
+    "amap_poi_id": "B0729001DB",
+    "amap_name": "彭祖山景区",
+    "address": "江口街道茶场社区彭祖山景区西山门游客中心",
+    "location": "103.933213,30.221296",
+    "cityname": "眉山市",
+    "adname": "彭山区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "028-35065777",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/74effc8abd0856c45d1ae1204f64f6ab"
+      },
+      {
+        "title": "彭祖山",
+        "url": "http://store.is.autonavi.com/showpic/f2b4ca669b31df3cab7844491f1affb2"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/00f04c6f-d68c-4ef5-9a70-ad05c52eae3a.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:35.000Z"
 }

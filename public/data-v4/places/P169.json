@@ -45,5 +45,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017901R31",
+    "amap_name": "唐河县",
+    "address": "唐河县",
+    "location": "112.808290,32.682464",
+    "cityname": "南阳市",
+    "adname": "唐河县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017901R31/comment/content_media_external_images_media_100006040_1728921526296_33021748.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017901R31/comment/711BF671_395F_4F75_863F_CECF6A6F09CE_L0_001_2000_1956_1728403274091_70858472.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017901R31/comment/C7ECD1EB_D513_491A_8474_25FDABB55752_L0_001_1070_918_1728742091844_73965909.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:03.000Z"
 }

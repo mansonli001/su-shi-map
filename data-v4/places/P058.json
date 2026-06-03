@@ -58,7 +58,7 @@
       "background": "描写西湖美景的千古绝唱",
       "fullText": "朝曦迎客艳重冈，晚雨留人入醉乡。\n此意自佳君不会，一杯当属水仙王。",
       "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。",
-      "poem_id": "W010"
+      "poem_id": "S036"
     },
     {
       "title": "六月二十七日望湖楼醉书",
@@ -68,7 +68,7 @@
       "fullText": "黑云翻墨未遮山，白雨跳珠乱入船。\n卷地风来忽吹散，望湖楼下水如天。",
       "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。",
       "excerpt": "黑云翻墨未遮山，白雨跳珠乱入船。",
-      "poem_id": "W009"
+      "poem_id": "S017"
     },
     {
       "title": "有美堂暴雨",
@@ -78,13 +78,14 @@
       "fullText": "游人脚底一声雷，满座顽云拨不开。\n天外黑风吹海立，浙东飞雨过江来。\n十分潋滟金樽凸，千杖敲铿羯鼓催。\n唤起谪仙泉洒面，倒倾鲛室泻琼瑰。",
       "coreVerse": "游人脚底一声雷，满座顽云拨不开。",
       "excerpt": "游人脚底一声雷，满座顽云拨不开。",
-      "poem_id": "W011"
+      "poem_id": "S124"
     },
     {
       "title": "新城道中",
       "type": "poem",
       "note": "",
-      "source_route": "R06"
+      "source_route": "R06",
+      "poem_id": "S044"
     },
     {
       "title": "次韵刘景文",
@@ -94,13 +95,14 @@
       "fullText": "絮飞春减不成年，老境同乘下濑船。\n蓝尾忽惊新火后，遨头要及浣花前。\n山西老将诗无敌，洛下书生语更妍。\n共向北山寻二士，画桡鼍鼓聒清眠。",
       "coreVerse": "絮飞春减不成年，老境同乘下濑船。",
       "excerpt": "絮飞春减不成年，老境同乘下濑船。",
-      "poem_id": "W042"
+      "poem_id": "S125"
     },
     {
       "title": "杭州乞度牒开西湖状",
       "type": "zoushu",
       "note": "1090年治水奏疏，苏堤建设直接史料",
-      "source_route": "R14"
+      "source_route": "R14",
+      "poem_id": "Z003"
     },
     {
       "id": "W043",
@@ -110,7 +112,8 @@
       "route_id": "R14",
       "note": "再守杭州时与友人雨中泛舟西湖之作",
       "fullText": "到处相逢是偶然，梦中相对各华颠。\n还来一醉西湖雨，不见跳珠十五年。",
-      "excerpt": "到处相逢是偶然，梦中相对各华颠。"
+      "excerpt": "到处相逢是偶然，梦中相对各华颠。",
+      "poem_id": "S128"
     },
     {
       "id": "W012",
@@ -120,7 +123,8 @@
       "route_id": "R06",
       "note": "杭州赴新城田园诗代表，\"野桃含笑竹篱短\"",
       "fullText": "东风知我欲山行，吹断檐间积雨声。\n岭上晴云披絮帽，树头初日挂铜钲。\n野桃含笑竹篱短，溪柳自摇沙水清。\n西崦人家应最乐，煮芹烧笋饷春耕。",
-      "excerpt": "东风知我欲山行，吹断檐间积雨声。"
+      "excerpt": "东风知我欲山行，吹断檐间积雨声。",
+      "poem_id": "S037"
     },
     {
       "id": "W049",
@@ -128,7 +132,8 @@
       "type": "诗",
       "year": 1091,
       "route_id": "R15",
-      "note": "1091 北上途经金陵呈王胜之，专家一采纳"
+      "note": "1091 北上途经金陵呈王胜之，专家一采纳",
+      "poem_id": "S129"
     },
     {
       "id": "W047",
@@ -138,7 +143,8 @@
       "route_id": "R15",
       "note": "1091 润州（京口）作，专家二采纳",
       "fullText": "细马远驮双侍女，青巾玉带红靴。\n溪山好处便为家。\n谁知巴峡路，却见洛城花。\n面旋落英飞玉蕊，人间春日初斜。\n十年不见紫云车。\n龙丘新洞府，铅鼎养丹砂。",
-      "excerpt": "细马远驮双侍女，青巾玉带红靴。"
+      "excerpt": "细马远驮双侍女，青巾玉带红靴。",
+      "poem_id": "C114"
     },
     {
       "id": "W046",
@@ -148,7 +154,8 @@
       "route_id": "R15",
       "note": "1091.3 润州江行送钱穆父途中作，\"人生如逆旅，我亦是行人\"豁达人生态度经典",
       "fullText": "细马远驮双侍女，青巾玉带红靴。\n溪山好处便为家。\n谁知巴峡路，却见洛城花。\n面旋落英飞玉蕊，人间春日初斜。\n十年不见紫云车。\n龙丘新洞府，铅鼎养丹砂。",
-      "excerpt": "细马远驮双侍女，青巾玉带红靴。"
+      "excerpt": "细马远驮双侍女，青巾玉带红靴。",
+      "poem_id": "C110"
     }
   ],
   "route_events": {
@@ -315,5 +322,37 @@
     "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
     "source": "饮湖上初晴后雨",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B023B148F8",
+    "amap_name": "杭州市",
+    "address": "上城区",
+    "location": "120.209903,30.246566",
+    "cityname": "杭州市",
+    "adname": "上城区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "杭州西湖风景名胜区",
+        "url": "http://store.is.autonavi.com/query_pic?id=st52254022-677f-43e5-bb85-f457c716c494&user=search&operate=original"
+      },
+      {
+        "title": "杭州动物园",
+        "url": "http://store.is.autonavi.com/showpic/41ba8c0ea11375651e405e81de8665d4"
+      },
+      {
+        "title": "灵隐寺",
+        "url": "http://store.is.autonavi.com/showpic/4aa0a6a1b6ee72c9833441f363cbb43a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:44.000Z"
 }

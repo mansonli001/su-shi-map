@@ -17,7 +17,16 @@
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "place": "虔州",
+      "date": "建中靖国元年（1101年）",
+      "title": "虔州停留",
+      "description": "苏轼北归停留虔州",
+      "significance": "route20",
+      "id": "p136-001"
+    }
+  ],
   "global_works": [
     {
       "id": "W064",
@@ -27,7 +36,8 @@
       "route_id": "R18",
       "note": "1095 惠州（绍圣二年），赠虔州（江西赣州）处士王原（字子直，号鹤田处士），王子直专程访惠留七十日（《苏轼诗集》卷三十八）；元符三年苏轼北归途中复在虔州赣上重逢，证其为江西人。\"幅巾我欲作州民，君肯同耕谷口春\"，描绘惠州终老田园之愿。注：双专家最终一致采纳惠州说，驳回儋州说（儋州交往对象为王介石、黎子云等，无王子直踪迹）。",
       "fullText": "万里云山一破裘，杖端闲挂百钱游。\n五车书已留儿读，二顷田应为鹤谋。\n水底笙歌蛙两部，山中奴婢橘千头。\n幅巾我欲相随去，海上何人识故侯。",
-      "excerpt": "万里云山一破裘，杖端闲挂百钱游。"
+      "excerpt": "万里云山一破裘，杖端闲挂百钱游。",
+      "poem_id": "S144"
     }
   ],
   "route_events": {
@@ -117,5 +127,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B031D0QJJI",
+    "amap_name": "赣州市",
+    "address": "章贡区",
+    "location": "114.933494,25.831139",
+    "cityname": "赣州市",
+    "adname": "章贡区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "瑞金共和国摇篮景区",
+        "url": "http://store.is.autonavi.com/showpic/030b72621d570691523af7affc207b59"
+      },
+      {
+        "title": "红井景区",
+        "url": "http://store.is.autonavi.com/showpic/1b2617f1e1378f90383a2bc4ac12a035"
+      },
+      {
+        "title": "赣州极地海洋世界",
+        "url": "http://store.is.autonavi.com/showpic/634a316006ab295071c664560aa0cb15?operate=original&query_type=oss&operate_gif=1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:39.000Z"
 }

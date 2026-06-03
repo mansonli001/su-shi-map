@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02000KAEP",
+    "amap_name": "太湖绿洲",
+    "address": "体育路1000号东太湖国家级生态旅游度假区(西南角)",
+    "location": "120.526364,31.031809",
+    "cityname": "苏州市",
+    "adname": "吴江区",
+    "type": "商务住宅;住宅区;住宅小区|风景名胜;风景名胜;风景名胜",
+    "typecode": "120302|110200",
+    "tel": "0512-63707708",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02000KAEP/comment/D9A2CE09_31D5_4A06_85F9_13C5B9B625CB_L0_001_2000_112_1747125235342_33409267.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02000KAEP/comment/D77EF313_8F8F_4433_9ADD_19807599023F_L0_001_2000_112_1747125235295_76193298.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/67efe1ba45b8867d864065099076edf1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:00.000Z"
 }

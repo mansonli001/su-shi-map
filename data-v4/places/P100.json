@@ -36,6 +36,14 @@
       "title": "知廉州",
       "description": "苏轼北归，授知廉州",
       "significance": "知廉州"
+    },
+    {
+      "place": "廉州",
+      "date": "元符三年（1100年）",
+      "title": "廉州安置",
+      "description": "苏轼移廉州安置",
+      "significance": "route20",
+      "id": "p100-002"
     }
   ],
   "global_works": [],
@@ -109,5 +117,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B030B00F5H",
+    "amap_name": "合浦县",
+    "address": "合浦县",
+    "location": "109.207236,21.661320",
+    "cityname": "北海市",
+    "adname": "合浦县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B030B00F5H/comment/content_media_external_images_media_100001201_1732464417649_01108912.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B030B00F5H/comment/content_media_external_images_media_100001201_1732464417654_63022874.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B030B00F5H/comment/%5B2025-03-21-18-24-45%5D11812DCB-AE57-494E-96E8-0360AE8A82E_1742552686629_10042707.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:13.000Z"
 }

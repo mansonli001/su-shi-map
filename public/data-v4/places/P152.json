@@ -71,5 +71,24 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "BV10758739",
+    "amap_name": "硖石乡(公交站)",
+    "address": "观音堂-西站",
+    "location": "111.477516,34.716667",
+    "cityname": "三门峡市",
+    "adname": "陕州区",
+    "type": "交通设施服务;公交车站;公交车站相关",
+    "typecode": "150700",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:51.000Z"
 }

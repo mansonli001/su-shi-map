@@ -42,5 +42,24 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0MBPN0KXV",
+    "amap_name": "泰安市泰山景区",
+    "address": "泰佛路与103省道交叉口北440米",
+    "location": "117.142604,36.299228",
+    "cityname": "泰安市",
+    "adname": "泰山区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:02.000Z"
 }

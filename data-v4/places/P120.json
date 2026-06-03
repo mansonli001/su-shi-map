@@ -44,7 +44,7 @@
       "background": "苏轼在密州中秋欢饮达旦，大醉作此篇，兼怀子由",
       "fullText": "丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。\n\n明月几时有，把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间。\n转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆。人有悲欢离合，月有阴晴圆缺，此事古难全。但愿人长久，千里共婵娟。",
       "coreVerse": "但愿人长久，千里共婵娟。",
-      "poem_id": "W015"
+      "poem_id": "C012"
     },
     {
       "id": "mz-w002",
@@ -57,7 +57,7 @@
       "background": "苏轼在密州出猎所作",
       "fullText": "老夫聊发少年狂，左牵黄，右擎苍，锦帽貂裘，千骑卷平冈。为报倾城随太守，亲射虎，看孙郎。\n酒酣胸胆尚开张。鬓微霜，又何妨。持节云中，何日遣冯唐。会挽雕弓如满月，西北望，射天狼。",
       "coreVerse": "会挽雕弓如满月，西北望，射天狼。",
-      "poem_id": "W014"
+      "poem_id": "C002"
     }
   ],
   "route_events": {
@@ -176,5 +176,37 @@
     "quote": "明月几时有，把酒问青天。",
     "source": "水调歌头·明月几时有",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0G2Z7HGW7",
+    "amap_name": "密州东坡糕点(超然台旗舰店)",
+    "address": "超然台路58号",
+    "location": "119.408357,35.997988",
+    "cityname": "潍坊市",
+    "adname": "诸城市",
+    "type": "餐饮服务;糕饼店;糕饼店",
+    "typecode": "050800",
+    "tel": "18266607788",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/content_media_external_images_media_1000027420_ss__1764119644464_46251645.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/d1af401462ddff05459d7d11532a2fb1_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/content_media_external_file_1000012996_ss__1764122011652_14916678.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:27.000Z"
 }

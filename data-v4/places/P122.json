@@ -60,5 +60,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B039400XIN",
+    "amap_name": "勉县",
+    "address": "勉县",
+    "location": "106.673217,33.153636",
+    "cityname": "汉中市",
+    "adname": "勉县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039400XIN/comment/6206FC86_68E1_4C11_A991_34422D99F835_L0_001_1170_624_1726589968066_44307522.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039400XIN/comment/content_media_external_images_media_100000338_1731043021654_52900771.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039400XIN/comment/content_media_external_images_media_100000337_1731043021654_59307047.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:28.000Z"
 }

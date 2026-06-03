@@ -62,5 +62,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03950PIDZ",
+    "amap_name": "扶风县",
+    "address": "扶风县",
+    "location": "107.900157,34.375636",
+    "cityname": "宝鸡市",
+    "adname": "扶风县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PIDZ/comment/content_media_external_file_2420_1747093565482_89981395.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/381e8f6351cd5cdeb34a3327fbfc98d4"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B03950PIDZ/comment/content_media_external_images_media_25764_1738594937295_39361902.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:36.000Z"
 }

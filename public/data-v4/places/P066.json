@@ -45,5 +45,47 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02CA00BUG",
+    "amap_name": "西塞山风景区",
+    "address": "黄石大道654号",
+    "location": "115.165001,30.206314",
+    "cityname": "黄石市",
+    "adname": "西塞山区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0714-3270566",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02CA00BUG/comment/content_media_external_file_100008216_1765513578550_25728225.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/d8bd6e79a401332d9c73e88d739ead27"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02CA00BUG/comment/04813c4b349af8f51ac3d19f778b5d91_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:49.000Z",
+  "global_events": [
+    {
+      "place": "湖州",
+      "date": "元丰二年（1079年）",
+      "title": "湖州被捕",
+      "description": "苏轼在湖州任上被捕，引发乌台诗案",
+      "significance": "political",
+      "id": "p066-001"
+    }
+  ]
 }

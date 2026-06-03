@@ -53,5 +53,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03300PD2O",
+    "amap_name": "绵阳市",
+    "address": "涪城区",
+    "location": "104.679127,31.467673",
+    "cityname": "绵阳市",
+    "adname": "涪城区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "仙海水利风景区",
+        "url": "http://store.is.autonavi.com/showpic/276d722c076b3f44ed96014637215b39"
+      },
+      {
+        "title": "七曲山风景区",
+        "url": "http://store.is.autonavi.com/showpic/4409a5fa0de4c8a1343aeae10853300d"
+      },
+      {
+        "title": "佛爷洞",
+        "url": "http://store.is.autonavi.com/showpic/62871a290454188bb60bfd10448c89c0"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:28.000Z"
 }

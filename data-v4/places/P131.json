@@ -42,5 +42,53 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF4XX51",
+    "amap_name": "蓬莱阁景区",
+    "address": "北关路1号",
+    "location": "120.752923,37.824795",
+    "cityname": "烟台市",
+    "adname": "蓬莱区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0535-5621111;0535-5643012",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/37aa3158faf15fd9ebc0d1a3b7f23d0a"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/3c8816129b839db51e9c92438e486c4c"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6cc41f14d4604cbfb6b2696381bdca3c"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:36.000Z",
+  "global_events": [
+    {
+      "date": "元丰八年（1085年）",
+      "title": "登蓬莱阁",
+      "description": "苏轼登蓬莱阁，作《登州海市》",
+      "significance": "route11",
+      "id": "p131-evt-001"
+    },
+    {
+      "date": "元丰八年（1085年）",
+      "title": "观海市",
+      "description": "苏轼在蓬莱阁观海市蜃楼",
+      "significance": "route11",
+      "id": "p131-evt-002"
+    }
+  ]
 }

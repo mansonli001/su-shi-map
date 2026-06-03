@@ -18,7 +18,29 @@
       "description": "苏轼1056年出蜀赴京应试，途经成都。成都当时是西川首府，繁华富庶。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "途经成都",
+      "description": "苏轼赴京途中停留成都，拜访张方平",
+      "significance": "route01",
+      "id": "p030-evt-001"
+    },
+    {
+      "date": "治平三年（1066年）",
+      "title": "扶柩过成都",
+      "description": "苏轼兄弟扶父柩回乡途经成都",
+      "significance": "route03",
+      "id": "p030-evt-002"
+    },
+    {
+      "date": "嘉祐元年（1056年）",
+      "title": "游大慈寺",
+      "description": "苏轼赴京途中游览成都大慈寺",
+      "significance": "route01",
+      "id": "p030-evt-003"
+    }
+  ],
   "global_works": [],
   "route_events": {},
   "route_works": {},
@@ -43,5 +65,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B001C00869",
+    "amap_name": "大慈寺",
+    "address": "大慈寺路21-23号(春熙路地铁站C口步行360米)",
+    "location": "104.083791,30.654243",
+    "cityname": "成都市",
+    "adname": "锦江区",
+    "type": "风景名胜;风景名胜;寺庙道观",
+    "typecode": "110205",
+    "tel": "028-86658341",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/5fa3898c347ba4e69fcf0e5648589af3"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/952a77162d00e478d12b0903999f1021"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/6ff84dbf2381cdb45bf8fccae8105d41"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:19.000Z"
 }

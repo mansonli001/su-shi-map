@@ -76,5 +76,29 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HG0MX89J",
+    "amap_name": "奉节县",
+    "address": "少陵支路与少陵路交叉口西200米",
+    "location": "109.464001,31.018494",
+    "cityname": "重庆市",
+    "adname": "奉节县",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8372c5ef0f1f6a3b5c1789efb8a47710"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:10.000Z"
 }

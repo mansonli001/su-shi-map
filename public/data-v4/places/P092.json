@@ -111,5 +111,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02CC0O31L",
+    "amap_name": "荆州市",
+    "address": "沙市区",
+    "location": "112.24143,30.336282",
+    "cityname": "荆州市",
+    "adname": "沙市区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "沙市市中山公园-动物园",
+        "url": "http://store.is.autonavi.com/showpic/2428677dec198bc8f24fdd8dc589377a"
+      },
+      {
+        "title": "张居正故居",
+        "url": "http://store.is.autonavi.com/showpic/48e33cc9c5d7f62eb6c411a592814e12"
+      },
+      {
+        "title": "荆州海洋世界",
+        "url": "http://store.is.autonavi.com/showpic/66cd559091fd6981b4093c2c8aece4ff"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:08.000Z"
 }

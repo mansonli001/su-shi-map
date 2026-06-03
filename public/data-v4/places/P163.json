@@ -43,5 +43,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B039500BA7",
+    "amap_name": "太白山国家森林公园",
+    "address": "汤峪镇中心大道与迎宾大道交叉口",
+    "location": "107.878659,34.048156",
+    "cityname": "宝鸡市",
+    "adname": "眉县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0917-5716685;4006980917",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/a898e08c026e492e194f0ac610845d19"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ae54fcc106bc05aa052f43a77ca1280c"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0217a687425fc57c780c24d5035981c1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:58.000Z"
 }

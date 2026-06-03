@@ -36,5 +36,24 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HKHCD5ED",
+    "amap_name": "北江",
+    "address": "番禺区",
+    "location": "113.277637,22.895054",
+    "cityname": "广州市",
+    "adname": "番禺区",
+    "type": "地名地址信息;自然地名;自然地名",
+    "typecode": "190200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:02.000Z"
 }

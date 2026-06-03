@@ -15,13 +15,22 @@
     "visit"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "嘉祐年间",
+      "title": "巡行宝鸡",
+      "description": "苏轼任凤翔签判时巡行宝鸡",
+      "significance": "route02",
+      "id": "p154-evt-001"
+    }
+  ],
   "global_works": [
     {
       "title": "石鼓文跋",
       "type": "wen",
       "note": "",
-      "source_route": "R03"
+      "source_route": "R03",
+      "poem_id": "W002"
     }
   ],
   "route_events": {
@@ -72,5 +81,37 @@
     "quote": "石鼓文跋",
     "source": "石鼓文跋",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0G2MBUKAZ",
+    "amap_name": "石鼓山",
+    "address": "渭滨区",
+    "location": "107.191615,34.347428",
+    "cityname": "宝鸡市",
+    "adname": "渭滨区",
+    "type": "地名地址信息;自然地名;山",
+    "typecode": "190203",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2MBUKAZ/comment/77e91b17fd59640092dc299f46b65e25_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2MBUKAZ/comment/content_media_external_file_3414_1763702618604_55239761.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0G2MBUKAZ/comment/content_media_external_file_3414_1763702618610_59224706.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:52.000Z"
 }

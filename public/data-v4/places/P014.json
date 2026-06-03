@@ -172,5 +172,37 @@
     "quote": "六祖之像，在浴室院。",
     "source": "兴国寺浴室院六祖画赞",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017A007A3",
+    "amap_name": "开封府",
+    "address": "州桥街道延庆街7号",
+    "location": "114.346500,34.789726",
+    "cityname": "开封市",
+    "adname": "鼓楼区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0371-23963159;0371-23983319",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/17352aadd0171ea30a8376e43a7d0ec1"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/97582c56c607802bca4881e0a58fbe3e"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/52deb8032fac3d8c54e0e7b2508edd6b"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:08.000Z"
 }

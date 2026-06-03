@@ -46,5 +46,29 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0KGD7RRE7",
+    "amap_name": "长江黄冈航道处",
+    "address": "明珠大道8号",
+    "location": "114.926163,30.415295",
+    "cityname": "黄冈市",
+    "adname": "黄州区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/cfe3a443942ec082e1ee8a4f824e95ea"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:52.000Z"
 }

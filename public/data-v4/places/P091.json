@@ -43,7 +43,8 @@
       "type": "诗",
       "date": "元丰七年（1084年）",
       "location": "金陵/江宁",
-      "background": "泊船瓜洲"
+      "background": "泊船瓜洲",
+      "poem_id": "S109"
     }
   ],
   "route_events": {
@@ -144,5 +145,37 @@
     "quote": "春风又绿江南岸，明月何时照我还。",
     "source": "泊船瓜洲",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B00190CS6P",
+    "amap_name": "钟山风景名胜区",
+    "address": "石象路7号",
+    "location": "118.844262,32.064908",
+    "cityname": "南京市",
+    "adname": "玄武区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "025-84431174",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/72c44f5fd1da65af6128fdae808d237d"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/16bf469886e45372a46f121735e9a9e1"
+      },
+      {
+        "title": "紫金山",
+        "url": "http://store.is.autonavi.com/showpic/d10eb1ccc73542b33bef1611fdc9e3a8"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:08.000Z"
 }

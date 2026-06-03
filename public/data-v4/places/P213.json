@@ -15,13 +15,43 @@
     "literary"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "熙宁十年（1077年）",
+      "title": "徐州知州",
+      "description": "苏轼调任徐州知州",
+      "significance": "route06",
+      "id": "p213-evt-001"
+    },
+    {
+      "date": "元丰元年（1078年）",
+      "title": "抗洪保城",
+      "description": "苏轼率军民抗洪，保全徐州城",
+      "significance": "local",
+      "id": "p213-evt-002"
+    },
+    {
+      "date": "元丰二年（1079年）",
+      "title": "作黄楼赋",
+      "description": "苏轼建黄楼，作《黄楼赋》",
+      "significance": "literary",
+      "id": "p213-evt-003"
+    },
+    {
+      "date": "元丰元年（1078年）",
+      "title": "登云龙山",
+      "description": "苏轼登云龙山，作《放鹤亭记》",
+      "significance": "route06",
+      "id": "p213-evt-004"
+    }
+  ],
   "global_works": [
     {
       "title": "放鹤亭记",
       "type": "wen",
       "note": "云龙山核心代表作",
-      "source_route": "R08"
+      "source_route": "R08",
+      "poem_id": "W007"
     }
   ],
   "route_events": {
@@ -76,5 +106,37 @@
     "quote": "放鹤亭记",
     "source": "放鹤亭记",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HD2HCRDX",
+    "amap_name": "云龙山",
+    "address": "泉山区",
+    "location": "117.175429,34.238030",
+    "cityname": "徐州市",
+    "adname": "泉山区",
+    "type": "地名地址信息;自然地名;山",
+    "typecode": "190203",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0HD2HCRDX/comment/content_media_external_file_100002696_1768206778557_30986298.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0HD2HCRDX/comment/177224479512_1772244801086_13285861.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0HD2HCRDX/comment/0725F444_C724_4064_B9E5_388C59B97DAD_L0_001_2000_150_1757784771869_51603975.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:42.000Z"
 }

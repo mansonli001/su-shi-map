@@ -54,5 +54,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B01FE16WDP",
+    "amap_name": "无锡市",
+    "address": "滨湖区",
+    "location": "120.311889,31.491064",
+    "cityname": "无锡市",
+    "adname": "滨湖区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "太湖鼋头渚风景区",
+        "url": "http://store.is.autonavi.com/query_pic?id=stcb2fdde1-6c6a-43d4-87da-7775bf90caad&user=search&operate=original"
+      },
+      {
+        "title": "中央电视总台无锡影视基地",
+        "url": "http://store.is.autonavi.com/showpic/051069feb2174312c5e201382ab77ed7"
+      },
+      {
+        "title": "三国水浒景区",
+        "url": "http://store.is.autonavi.com/showpic/0e4219548a53a060b890149c6fec9704"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:08.000Z"
 }

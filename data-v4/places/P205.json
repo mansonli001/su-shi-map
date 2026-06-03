@@ -18,7 +18,15 @@
     "start"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元丰七年（1084年）",
+      "title": "买田宜兴",
+      "description": "苏轼在宜兴买田，计划定居",
+      "significance": "route10",
+      "id": "p205-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R11": {
@@ -79,5 +87,37 @@
       "S3",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFFA55WB",
+    "amap_name": "宜兴阳羡生态旅游度假区",
+    "address": [],
+    "location": "119.753368,31.203544",
+    "cityname": "无锡市",
+    "adname": "宜兴市",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0510-87980908",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFFA55WB/comment/content_media_external_images_media_714893_1683904766014_1243dd3b.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFFA55WB/comment/3c3ed4ba5baf166ec39cfe5cc8accb73_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFFA55WB/comment/db2be7bc891e0493639d0a2c2c65c661_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:33.000Z"
 }

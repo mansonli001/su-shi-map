@@ -15,6 +15,7 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
+import Link from 'next/link';
 
 interface FamousLine {
   quote: string;
@@ -101,24 +102,34 @@ interface PlaceCardProps {
 }
 
 export default function PlaceCard({ place }: PlaceCardProps) {
-  const { isCardOpen, closeCard } = useSuShiStore();
+  const { isCardOpen, closeCard, addCheckin, removeCheckin, isPlaceCheckedIn } = useSuShiStore();
   const [expanded, setExpanded] = useState(false);
-  const [showDetail, setShowDetail] = useState(false);
+  const [showDetail, setShowDetail] = useState<string | false>(false);
   const [detail, setDetail] = useState<V4PlaceFull | null>(null);
   const [detailLoading, setDetailLoading] = useState(false);
+  const [showCheckinSuccess, setShowCheckinSuccess] = useState(false);
 
   // 卡片打开时加载详情（v4 路径）
+  // 修复 v6.1: 加 AbortController 防快速切换地点的请求竞态；去掉 ?t= 让浏览器/Vercel CDN 正常缓存
   useEffect(() => {
     if (!place || !isCardOpen) return;
     setDetailLoading(true);
     setShowDetail(false);
-    fetch(`/data-v4/places/${place.id}.json?t=${Date.now()}`)
+    setDetail(null); // 切换地点时清掉旧详情，避免短暂错位
+    const ctrl = new AbortController();
+    fetch(`/data-v4/places/${place.id}.json`, { signal: ctrl.signal })
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => {
         if (data) setDetail(data as V4PlaceFull);
       })
-      .catch(() => {})
+      .catch((err) => {
+        if (err?.name !== 'AbortError') {
+          // 真正的网络/解析错误才打印，AbortError 是正常切换信号
+          console.warn('[PlaceCard] 详情加载失败', place.id, err);
+        }
+      })
       .finally(() => setDetailLoading(false));
+    return () => ctrl.abort();
   }, [place, isCardOpen]);
 
   const handleDragEnd = (_event: any, info: PanInfo) => {
@@ -175,7 +186,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
             </div>
 
-            <div className="px-5 pb-32" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 9rem)' }}>
+            <div className="px-5 pb-8 md:pb-16" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 4rem)' }}>
               {/* ====== 详情视图 ====== */}
               {showDetail ? (
                 <DetailView
@@ -183,6 +194,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                   works={works}
                   memorialSites={memorialSites}
                   foods={foods}
+                  initialTab={showDetail as 'story' | 'works' | 'travel'}
                   onBack={() => setShowDetail(false)}
                 />
               ) : (
@@ -290,17 +302,64 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                     </div>
                   </div>
 
+                  {/* 打卡按钮 */}
+                  <div className="mb-3">
+                    <button
+                      onClick={() => {
+                        if (isPlaceCheckedIn(place.id)) {
+                          removeCheckin(place.id);
+                        } else {
+                          addCheckin({
+                            placeId: place.id,
+                            placeName: ancient || place.songName || '未知地点',
+                            checkinAt: new Date().toISOString(),
+                          });
+                          setShowCheckinSuccess(true);
+                          setTimeout(() => setShowCheckinSuccess(false), 2000);
+                        }
+                      }}
+                      className="w-full font-wenkai py-2.5 rounded-lg text-[12px] transition-colors flex items-center justify-center gap-2"
+                      style={{
+                        background: isPlaceCheckedIn(place.id) ? 'rgba(186,117,23,0.1)' : 'var(--gold-m)',
+                        color: isPlaceCheckedIn(place.id) ? '#8B6914' : '#fff',
+                        border: isPlaceCheckedIn(place.id) ? '1px solid rgba(186,117,23,0.3)' : 'none',
+                      }}
+                    >
+                      {isPlaceCheckedIn(place.id) ? (
+                        <>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                          </svg>
+                          已打卡
+                        </>
+                      ) : (
+                        <>
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <circle cx="12" cy="10" r="3" />
+                            <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" />
+                          </svg>
+                          打卡此地
+                        </>
+                      )}
+                    </button>
+                    {showCheckinSuccess && (
+                      <div className="text-center mt-2 text-[11px] text-gold-m font-wenkai">
+                        ✅ 打卡成功！可在"打卡"页查看
+                      </div>
+                    )}
+                  </div>
+
                   {/* 三按钮 */}
                   <div className="grid grid-cols-3 gap-2 mt-4">
                     <button
-                      onClick={() => setShowDetail(true)}
+                      onClick={() => setShowDetail('story')}
                       className="font-wenkai py-3 rounded-lg text-[12px] text-ink border transition-colors hover:bg-paper-2"
                       style={{ borderColor: 'rgba(186,117,23,0.3)' }}
                     >
                       查看详情
                     </button>
                     <button
-                      onClick={() => setShowDetail(true)}
+                      onClick={() => setShowDetail('works')}
                       className="font-wenkai py-3 rounded-lg text-[12px] text-ink border transition-colors hover:bg-paper-2"
                       style={{ borderColor: 'rgba(186,117,23,0.3)' }}
                     >
@@ -333,10 +392,11 @@ function DetailView(props: {
   works: any[];
   memorialSites: any[];
   foods: any[];
+  initialTab: 'story' | 'works' | 'travel';
   onBack: () => void;
 }) {
-  const { detail, works, memorialSites, foods, onBack } = props;
-  const [tab, setTab] = useState<'story' | 'works' | 'travel'>('story');
+  const { detail, works, memorialSites, foods, initialTab, onBack } = props;
+  const [tab, setTab] = useState<'story' | 'works' | 'travel'>(initialTab);
 
   const events = detail?.global_events || [];
   const routeEvents = detail?.route_events || {};
@@ -363,10 +423,32 @@ function DetailView(props: {
       });
     }
   }
-  const allEvents = [...events, ...flatRouteEvents].sort((a, b) => {
-    const numA = typeof a.year === 'number' ? a.year : parseInt(String(a.year || a.year_estimate || 0).match(/\d+/)?.[0] || '0', 10);
-    const numB = typeof b.year === 'number' ? b.year : parseInt(String(b.year || b.year_estimate || 0).match(/\d+/)?.[0] || '0', 10);
-    return numA - numB;
+  
+  // 合并事件并去重（根据标题和年份判断重复）
+  // 修复 v6.1: 用 Map 把 O(n²) 降到 O(n)，避免事件数大时卡顿
+  const _eventKey = (ev: any): string => {
+    const y = typeof ev.year === 'number'
+      ? ev.year
+      : parseInt(String(ev.year || ev.year_estimate || ev.date || 0).match(/\d+/)?.[0] || '0', 10);
+    const t = (ev.title || ev.event || '').trim();
+    return `${y}|${t}`;
+  };
+  const _seen = new Map<string, any>();
+  for (const ev of [...events, ...flatRouteEvents]) {
+    const k = _eventKey(ev);
+    if (!_seen.has(k)) _seen.set(k, ev);
+  }
+  const allEventsWithDedup = Array.from(_seen.values());
+  
+  // 按年份排序
+  const allEvents = allEventsWithDedup.sort((a, b) => {
+    const getYear = (item: any) => {
+      if (typeof item.year === 'number') return item.year;
+      const yearStr = String(item.year || item.year_estimate || item.date || '0');
+      const match = yearStr.match(/\d{4}/);
+      return match ? parseInt(match[0], 10) : 0;
+    };
+    return getYear(a) - getYear(b);
   });
 
   return (
@@ -470,7 +552,7 @@ function DetailView(props: {
                 此地暂未收录代表作
               </p>
               <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-                苏轼一生作品逾 3000 首，本系统收录 68 首代表作（已注入 39 首全文）<br />
+                苏轼一生作品逾 3000 首，本系统收录 326 首代表作（全部含全文与赏析）<br />
                 此地或为途经停留，未留下传世名篇
               </p>
             </div>
@@ -542,10 +624,17 @@ function DetailView(props: {
   );
 }
 
-// ═════ 单部作品卡片（支持展开全文） ═════
+// ═════ 单部作品卡片（支持展开全文与跳转） ═════
+// 诗词：保留"展开全文"模式，同时支持跳转
+// 文章：只支持跳转
 function WorkCard({ work }: { work: any }) {
   const [open, setOpen] = useState(false);
   const hasFull = !!work.fullText && work.fullText.length > 0;
+  const hasPoemId = !!work.poem_id;
+  
+  // 判断是否为诗词类型（诗、词）还是文章类型（文、赋、策等）
+  const poemTypes = ['诗', '词'];
+  const isPoem = poemTypes.includes(work.type || '');
 
   return (
     <div
@@ -553,9 +642,19 @@ function WorkCard({ work }: { work: any }) {
       style={{ borderColor: 'rgba(186,117,23,0.18)' }}
     >
       <div className="flex justify-between items-start mb-1 gap-2">
-        <div className="font-wenkai text-[13px] font-semibold text-ink flex-1">
-          {work.title}
-        </div>
+        {/* 标题：文章类型直接跳转，诗词类型只有有poem_id时才跳转 */}
+        {(isPoem && hasPoemId) || (!isPoem && hasPoemId) ? (
+          <Link 
+            href={`/poems/${work.poem_id}`}
+            className="font-wenkai text-[13px] font-semibold text-gold-m hover:text-gold-d flex-1"
+          >
+            {work.title}
+          </Link>
+        ) : (
+          <div className="font-wenkai text-[13px] font-semibold text-ink flex-1">
+            {work.title}
+          </div>
+        )}
         {work.type && (
           <span className="text-[9px] px-2 py-0.5 rounded text-gold-m bg-gold-light tracking-[0.08em] whitespace-nowrap">
             {work.type}
@@ -575,7 +674,9 @@ function WorkCard({ work }: { work: any }) {
           {work.note}
         </div>
       )}
-      {hasFull && (
+      
+      {/* 诗词类型：保留展开全文按钮 */}
+      {isPoem && hasFull && (
         <>
           {open ? (
             <div
@@ -598,6 +699,26 @@ function WorkCard({ work }: { work: any }) {
             {open ? '收起 ↑' : '展开全文 ↓'}
           </button>
         </>
+      )}
+      
+      {/* 诗词类型：有poem_id但无fullText时显示查看全文链接 */}
+      {isPoem && hasPoemId && !hasFull && (
+        <Link 
+          href={`/poems/${work.poem_id}`}
+          className="font-wenkai text-[11px] text-gold-m hover:text-gold-d tracking-wider mt-1 block"
+        >
+          查看全文与赏析 →
+        </Link>
+      )}
+      
+      {/* 文章类型：只支持跳转，不显示展开全文 */}
+      {!isPoem && hasPoemId && (
+        <Link 
+          href={`/poems/${work.poem_id}`}
+          className="font-wenkai text-[11px] text-gold-m hover:text-gold-d tracking-wider mt-1 block"
+        >
+          查看全文 →
+        </Link>
       )}
     </div>
   );

@@ -43,5 +43,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0KUPC5WG4",
+    "amap_name": "夜游青衣江(平羌渡码头)",
+    "address": "雅东路与清风桥交叉口北160米",
+    "location": "103.029805,29.992530",
+    "cityname": "雅安市",
+    "adname": "雨城区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/47eb0e63f937d1e982b0d5347cfff27c"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0KUPC5WG4/comment/content_media_external_file_1000016864_ss__1763010247633_46516387.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0KUPC5WG4/comment/content_media_external_file_1000034100_ss__1771681968043_44342954.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:43.000Z"
 }

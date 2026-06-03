@@ -42,5 +42,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02C90OJ2Q",
+    "amap_name": "浠水县",
+    "address": "浠水县",
+    "location": "115.265155,30.452212",
+    "cityname": "黄冈市",
+    "adname": "浠水县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02C90OJ2Q/comment/content_media_external_images_media_100002129_1727537716930_51636387.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02C90OJ2Q/comment/content_media_external_images_media_100002129_1727537716931_74287919.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02C90OJ2Q/comment/content_media_external_images_media_100002128_1727537716926_17304476.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:39.000Z"
 }

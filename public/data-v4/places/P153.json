@@ -16,7 +16,15 @@
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "建中靖国元年（1101年）",
+      "title": "途经韶州",
+      "description": "苏轼北归途经韶州",
+      "significance": "route20",
+      "id": "p153-evt-001"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "route18": [
@@ -70,5 +78,37 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02EF15900",
+    "amap_name": "韶关市",
+    "address": "浈江区",
+    "location": "113.597324,24.810977",
+    "cityname": "韶关市",
+    "adname": "浈江区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "梅关古道景区",
+        "url": "http://store.is.autonavi.com/showpic/01918a3a5699e26b17a4dd9132b0b64d"
+      },
+      {
+        "title": "山城水都阳光湖农旅公园",
+        "url": "http://store.is.autonavi.com/showpic/29acb34684016dbfe8fe0f5149e92d8d"
+      },
+      {
+        "title": "南华禅寺",
+        "url": "http://store.is.autonavi.com/showpic/37391b43f7d5ca96364f18dfcf4656b1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:52.000Z"
 }

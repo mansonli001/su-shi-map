@@ -66,5 +66,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B01760MUU3",
+    "amap_name": "许昌市",
+    "address": "魏都区",
+    "location": "113.852004,34.03732",
+    "cityname": "许昌市",
+    "adname": "魏都区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "春秋楼景区",
+        "url": "http://store.is.autonavi.com/showpic/064718391ef9834f2cf27979fd59a01d"
+      },
+      {
+        "title": "禹州森林植物园",
+        "url": "http://store.is.autonavi.com/showpic/13875dffaf357bbeba78d1d4a6a77b4d"
+      },
+      {
+        "title": "北海公园",
+        "url": "http://store.is.autonavi.com/showpic/1b1ba8c2e612d7afc467ed7415426751"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:24.000Z"
 }

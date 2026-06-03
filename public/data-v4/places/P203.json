@@ -70,5 +70,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B021B0XOWP",
+    "amap_name": "临沂市",
+    "address": "兰山区",
+    "location": "118.356464,35.103771",
+    "cityname": "临沂市",
+    "adname": "兰山区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "萤火虫水洞·地下大峡谷",
+        "url": "http://store.is.autonavi.com/showpic/0a706f051489a87771be5ad670627492"
+      },
+      {
+        "title": "沂蒙山旅游区龟蒙景区",
+        "url": "http://store.is.autonavi.com/showpic/0b52ebd5f70239cf71168d347353c09f"
+      },
+      {
+        "title": "临沂龙园旅游区",
+        "url": "http://store.is.autonavi.com/showpic/191a1c85f521baad2d42c430a118e7a1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:31.000Z"
 }

@@ -32,6 +32,14 @@
       "title": "过扬州",
       "description": "苏轼南下途经扬州",
       "significance": "途经扬州"
+    },
+    {
+      "place": "扬州",
+      "date": "元祐七年（1092年）",
+      "title": "平山堂",
+      "description": "苏轼游览平山堂，缅怀欧阳修",
+      "significance": "route16",
+      "id": "p199-002"
     }
   ],
   "global_works": [],
@@ -124,5 +132,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B020218FOD",
+    "amap_name": "平山堂(扬州大运河文化旅游度假区)",
+    "address": "蜀冈中峰平山堂东路8号大明寺(扬州大运河文化旅游度假区)",
+    "location": "119.412486,32.419789",
+    "cityname": "扬州市",
+    "adname": "邗江区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0514-87346328",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/ab8085b31d2a3f6a0000002457572953?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B020218FOD/comment/3b4896a39d84d43dc704391b5445f496_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B020218FOD/comment/80c27c07b05cd3a9c62479f50bfd44ba_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:27.000Z"
 }

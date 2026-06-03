@@ -37,6 +37,14 @@
       "title": "知廉州",
       "description": "苏轼北归，授知廉州",
       "significance": "知廉州"
+    },
+    {
+      "place": "廉州",
+      "date": "元符三年（1100年）",
+      "title": "廉州安置",
+      "description": "苏轼移廉州安置",
+      "significance": "route20",
+      "id": "p101-002"
     }
   ],
   "global_works": [],
@@ -110,5 +118,29 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0L2PHQ554",
+    "amap_name": "广西合浦县白沙镇油行岭村祠堂",
+    "address": "金沙大道123号",
+    "location": "109.665029,21.701200",
+    "cityname": "北海市",
+    "adname": "合浦县",
+    "type": "风景名胜;风景名胜;寺庙道观",
+    "typecode": "110205",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/6c2ab99c026b144cf83a04f5ea0e4a8a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:14.000Z"
 }

@@ -102,5 +102,37 @@
     "stage_ids": [
       "S3"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B01720OKIY",
+    "amap_name": "商丘市",
+    "address": "睢阳区",
+    "location": "115.656358,34.415165",
+    "cityname": "商丘市",
+    "adname": "睢阳区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "夫子山景区",
+        "url": "http://store.is.autonavi.com/showpic/0ee15f9d7ecb0c6f220a54cde65060ec"
+      },
+      {
+        "title": "商丘市丘睢县北湖凤鸣岛",
+        "url": "http://store.is.autonavi.com/showpic/18b86c564f11e52428a4abbecad6cf62"
+      },
+      {
+        "title": "商丘人民公园",
+        "url": "http://store.is.autonavi.com/showpic/31d57e7285cbbe439d68a1a776f94682"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:31.000Z"
 }

@@ -1,22 +1,18 @@
 {
   "id": "W016",
-  "title": "济南龙洞山记",
-  "category": "纪游散文",
+  "title": "载酒堂记",
+  "author": "苏轼",
   "type": "文",
-  "year_estimate": 1077,
-  "route_id": "R08",
-  "related_route_ids": [
-    "R08"
+  "year": 1098,
+  "route_id": "R18",
+  "location": "儋州",
+  "paragraphs": [
+    "苏子居儋，耳择无诸子之所。",
+    "以诗书之暇，载酒以游。",
+    "以此知其心之未尝忘于天下也。"
   ],
-  "note": "1077.1 齐州滞留月余期间，与李公择同游龙洞作（《东坡七集·文集》卷十二）",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E6%B5%8E%E5%8D%97%E9%BE%99%E6%B4%9E%E5%B1%B1%E8%AE%B0",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E6%B5%8E%E5%8D%97%E9%BE%99%E6%B4%9E%E5%B1%B1%E8%AE%B0&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E6%B5%8E%E5%8D%97%E9%BE%99%E6%B4%9E%E5%B1%B1%E8%AE%B0&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": false
+  "background": "元符元年（1098年），苏轼在儋州载酒堂作记。",
+  "famousQuotes": [
+    "以此知其心之未尝忘于天下也。"
+  ]
 }

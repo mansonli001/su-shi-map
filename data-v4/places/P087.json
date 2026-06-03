@@ -107,5 +107,37 @@
       "S3",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B03180S1NB",
+    "amap_name": "九江市",
+    "address": "浔阳区",
+    "location": "115.95356,29.66116",
+    "cityname": "九江市",
+    "adname": "浔阳区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "秀峰风景名胜区",
+        "url": "http://store.is.autonavi.com/showpic/3a47bac9cb9adb4a4ef0889e7befb8b5"
+      },
+      {
+        "title": "龙宫洞旅游风景区",
+        "url": "http://store.is.autonavi.com/showpic/477a8275491f9a465be2f621c4cbafcc"
+      },
+      {
+        "title": "庐山西海柘林老镇非遗美食文创园",
+        "url": "http://store.is.autonavi.com/showpic/783156c6e863350bab5961870c9e97d1"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:05.000Z"
 }

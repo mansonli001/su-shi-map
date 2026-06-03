@@ -23,6 +23,14 @@
       "title": "第一次过渑池",
       "description": "三苏出蜀途经渑池",
       "significance": "途经渑池"
+    },
+    {
+      "place": "渑池",
+      "date": "嘉祐六年（1061年）",
+      "title": "渑池怀旧",
+      "description": "苏轼赴凤翔任途经渑池，作《和子由渑池怀旧》",
+      "significance": "route02",
+      "id": "p124-002"
     }
   ],
   "global_works": [
@@ -34,7 +42,8 @@
       "type": "诗",
       "date": "嘉祐六年（1061年）十一月",
       "location": "渑池",
-      "background": "与苏辙分别后过渑池作，表达对往事的感怀"
+      "background": "与苏辙分别后过渑池作，表达对往事的感怀",
+      "poem_id": "S013"
     }
   ],
   "route_events": {
@@ -95,5 +104,37 @@
     "quote": "人生到处知何似，应似飞鸿踏雪泥。",
     "source": "和子由渑池怀旧",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B018E01G0R",
+    "amap_name": "渑池县",
+    "address": "渑池县",
+    "location": "111.761753,34.767937",
+    "cityname": "三门峡市",
+    "adname": "渑池县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B018E01G0R/comment/A3069CDA_B3B5_4442_8CC1_45D6F99F7F80_L0_001_800_450_1733246229008_80809836.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B018E01G0R/comment/content_media_external_images_media_8642_1729641982794_09662381.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B018E01G0R/comment/content_media_external_images_media_8642_1729641982794_45597727.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:30.000Z"
 }

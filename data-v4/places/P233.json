@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFF4HBPZ",
+    "amap_name": "屈原故里",
+    "address": "平湖大道",
+    "location": "110.988428,30.826058",
+    "cityname": "宜昌市",
+    "adname": "秭归县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "15717895513;15717895515",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/0547aa0c926bd231c493db2280f7bb10"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/eaafb122dc05570eee68d3987d7d9c26"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8436aae32448ca3794b5581f3e6623a2"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:17:03.000Z"
 }

@@ -100,5 +100,24 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0HG0501T1",
+    "amap_name": "伏波庙",
+    "address": "平城村",
+    "location": "110.592155,21.389768",
+    "cityname": "湛江市",
+    "adname": "吴川市",
+    "type": "风景名胜;风景名胜;寺庙道观",
+    "typecode": "110205",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:12.000Z"
 }

@@ -87,5 +87,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0LGTSW6BL",
+    "amap_name": "泥巴沱风景区",
+    "address": "交大万通香洲半岛东侧410米",
+    "location": "104.168399,30.790391",
+    "cityname": "成都市",
+    "adname": "新都区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/0178d8908deba8930000000980168347?type=pic"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/7ce30865dfa7bd925250f21c9d63262c"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/1f829657f4340fdeba6be4c335d154a6"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:36.000Z"
 }

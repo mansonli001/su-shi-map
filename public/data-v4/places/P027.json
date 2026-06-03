@@ -198,5 +198,37 @@
       "S2",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B020505F1C",
+    "amap_name": "淮安府署",
+    "address": "东门大街38号",
+    "location": "119.145777,33.510800",
+    "cityname": "淮安市",
+    "adname": "淮安区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0517-85616678",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/b50c5fadefb271b80000002473286477?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B020505F1C/comment/20260306-c9d1597f734c224f9108d100-2EjS9aQrEws8H0hZsz5CVA.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/341523a0c38bd6d10000002506456700?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:17.000Z"
 }

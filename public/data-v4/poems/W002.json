@@ -1,28 +1,19 @@
 {
   "id": "W002",
-  "title": "初发嘉州",
-  "category": "山水诗",
-  "type": "诗",
-  "year_estimate": 1059,
-  "route_id": "R02",
-  "related_route_ids": [
-    "R02"
+  "title": "石鼓文跋",
+  "author": "苏轼",
+  "type": "文",
+  "year": 1063,
+  "route_id": "R03",
+  "location": "凤翔",
+  "paragraphs": [
+    "岐山之阳，有石鼓焉。刻文字焉，其文可读。然世莫能识，以为上古之物也。予以考之，知其为周宣王之猎碣。盖宣王之世，中兴之美，诗人歌之，以为万世之法。而石鼓之作，亦其一时之盛焉。",
+    "今其文残缺，不可尽知。然其可读者，如「我车既攻，我马既同」之类，与《车攻》之诗合。则是鼓也，疑即宣王之时所刻，而诗人取之以入颂者。",
+    "嗟夫！物之废兴，岂有常哉？此鼓既刻于岐山之阳，而埋没于此，岂非天之欲存其迹，以待后世之好古者耶？予以是知物之显晦，各有有时，不可强也。"
   ],
-  "note": "水路出蜀开篇名作，抒写离蜀江行情怀",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E5%88%9D%E5%8F%91%E5%98%89%E5%B7%9E",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E5%88%9D%E5%8F%91%E5%98%89%E5%B7%9E&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E5%88%9D%E5%8F%91%E5%98%89%E5%B7%9E&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "朝发鼓阗阗，西风猎画旃。\n故乡飘已远，往意浩无边。\n锦水细不见，蛮江清可怜。\n奔腾过佛脚，旷荡造平川。\n野市有禅客，钓台寻暮烟。\n相期定先到，久立水潺潺。",
-  "coreVerse": "朝发鼓阗阗，西风猎画旃。",
-  "excerpt": "朝发鼓阗阗，西风猎画旃。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 1,
-  "matched_title": "初發嘉州"
+  "background": "嘉祐八年（1063年），苏轼在凤翔任职期间，见到石鼓文并作此跋。石鼓文是中国现存最古老的石刻文字之一，苏轼对其进行了考证。",
+  "famousQuotes": [
+    "物之废兴，岂有常哉？",
+    "物之显晦，各有有时，不可强也。"
+  ]
 }

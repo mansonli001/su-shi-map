@@ -28,13 +28,29 @@
       "description": "元祐四年（1089年），苏轼以龙图阁学士身份，再任杭州知州。\n\n这一次，他做的实事更多：疏浚西湖，用挖出的淤泥筑成'苏堤'（南北长堤，上有六桥）；设立'安乐坊'（中国最早的公立医院之一）；再次赈济灾民。\n\n在杭州百姓心里，苏轼不是一个'文学家'，他是一个'好官'——修了堤、治了病、救了灾。百姓叫他'苏贤良'，这个称呼，比'大文豪'让他更高兴。\n\n元祐六年（1091年）三月，苏轼被召回朝。杭州百姓沿湖相送，他写《别杭州》：'百姓依依不舍，我亦恋西湖。'"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "date": "元祐四年（1089年）",
+      "title": "杭州知州",
+      "description": "苏轼第二次任杭州知州",
+      "significance": "route14",
+      "id": "p104-evt-001"
+    },
+    {
+      "date": "熙宁四年（1071年）",
+      "title": "游天竺",
+      "description": "苏轼游览天竺寺",
+      "significance": "route04",
+      "id": "p104-evt-002"
+    }
+  ],
   "global_works": [
     {
       "title": "钱塘勤上人诗集叙",
       "type": "xuwen",
       "note": "灵隐禅林友人诗集序言",
-      "source_route": "R14"
+      "source_route": "R14",
+      "poem_id": "S001"
     }
   ],
   "route_events": {
@@ -90,5 +106,24 @@
     "quote": "钱塘勤上人诗集叙",
     "source": "钱塘勤上人诗集叙",
     "from": "global_works.title"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFI12EPE",
+    "amap_name": "隐天竺",
+    "address": "天竺路359号",
+    "location": "120.096814,30.225964",
+    "cityname": "杭州市",
+    "adname": "西湖区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:16.000Z"
 }

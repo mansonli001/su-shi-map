@@ -53,7 +53,49 @@
       "route_id": "R18",
       "note": "1095-1096 惠州，罗浮山下咏梅",
       "fullText": "春来幽谷水潺潺，的皪梅花草棘间。\n一夜东风吹石裂，半随飞雪度关山。",
-      "excerpt": "春来幽谷水潺潺，的皪梅花草棘间。"
+      "excerpt": "春来幽谷水潺潺，的皪梅花草棘间。",
+      "poem_id": "S143"
+    }
+  ],
+  "modern_visit": {
+    "amap_poi_id": "B02F002J5M",
+    "amap_name": "罗浮山风景名胜区",
+    "address": "长宁镇罗浮山",
+    "location": "114.067620,23.261221",
+    "cityname": "惠州市",
+    "adname": "博罗县",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0752-6668600",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/a41f29cdb2fa87f1cbf1358ea43461ae"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/f1c38d135bbd7d70e5b186d796e1d90e"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/f36c5aaa762280e3fe1b9ace96fcca70"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:22.000Z",
+  "global_events": [
+    {
+      "date": "绍圣二年（1095年）",
+      "title": "游罗浮山",
+      "description": "苏轼游览罗浮山",
+      "significance": "route18",
+      "id": "p112-evt-001"
     }
   ]
 }

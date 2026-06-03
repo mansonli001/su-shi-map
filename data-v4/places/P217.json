@@ -53,7 +53,8 @@
       "type": "诗",
       "date": "元符三年（1100年）",
       "location": "儋州",
-      "background": "苏轼离海南诗"
+      "background": "苏轼离海南诗",
+      "poem_id": "S163"
     },
     {
       "id": "dz2-w002",
@@ -159,5 +160,37 @@
     "quote": "九死南荒吾不恨，兹游奇绝冠平生。",
     "source": "海南日记",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFIT9SXG",
+    "amap_name": "海南火莲花地质景区",
+    "address": "兰洋镇万洋高速兰洋互通旁",
+    "location": "109.662536,19.427419",
+    "cityname": "儋州市",
+    "adname": "儋州市",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": "0898-23324891",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/42cffa728a1b25a31a0681342333a663"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/87935c87773ecac64e5f02b8b1b0c8b0"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/9866a92ce16d200b1df5b2c3a3bc1b79"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:46.000Z"
 }

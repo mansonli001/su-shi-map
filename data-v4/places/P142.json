@@ -95,5 +95,29 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFFF7SJ9",
+    "amap_name": "琼州海峡",
+    "address": "海口市",
+    "location": "110.3358,20.173471",
+    "cityname": "海口市",
+    "adname": "海口市",
+    "type": "地名地址信息;自然地名;海湾海峡",
+    "typecode": "190201",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/89efba18d5af1e6a9138d4bba8b9e954"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:44.000Z"
 }

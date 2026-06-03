@@ -137,5 +137,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0729001E1",
+    "amap_name": "三苏祠",
+    "address": "纱縠行南段72号",
+    "location": "103.830863,30.040704",
+    "cityname": "眉山市",
+    "adname": "东坡区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "028-35081994;028-38220186",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/1589fb52f8e35e21d2522f75174a9c2d"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0729001E1/comment/20260314-f56dbd624b921d4849035991-8QQmAnG7vYA6yL1QxoQGJj.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/53a4727ca1d92bc10000002260348175?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:48.000Z"
 }

@@ -40,5 +40,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B022715TCR",
+    "amap_name": "合肥市",
+    "address": "蜀山区",
+    "location": "117.227267,31.820567",
+    "cityname": "合肥市",
+    "adname": "蜀山区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "安徽博物院",
+        "url": "http://store.is.autonavi.com/showpic/09b213318d4b8a7d646442ea4476f8cb"
+      },
+      {
+        "title": "合肥滨湖国家森林公园",
+        "url": "http://store.is.autonavi.com/showpic/1097e36dfca0c7db472ce2e5373294e0"
+      },
+      {
+        "title": "合肥海洋世界",
+        "url": "http://store.is.autonavi.com/showpic/1620d83220ace098f60a33610052774a"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:20.000Z"
 }

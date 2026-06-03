@@ -43,8 +43,24 @@
       "id": "changz-001",
       "date": "建中靖国元年（1101年）七月二十八日",
       "title": "卒于常州",
-      "description": "苏轼卒于常州",
-      "significance": "卒于常州"
+      "description": "苏轼在常州孙氏公馆病逝，享年六十五岁。临终前与弟弟苏辙相见，留下'吾生无恶，死必不堕'之语，端坐而逝。常州成为苏轼一生行旅的终点，实现了他晚年归隐江南的心愿。",
+      "significance": "苏轼生命终点，归眠之地"
+    },
+    {
+      "id": "p017-002",
+      "place": "常州宜兴",
+      "date": "元丰七年（1084年）",
+      "title": "买田宜兴",
+      "description": "苏轼在宜兴买田，计划日后归隐于此，表达了对江南水乡的喜爱和对田园生活的向往。",
+      "significance": "归隐心愿的开端"
+    },
+    {
+      "id": "p017-003",
+      "place": "常州",
+      "date": "建中靖国元年（1101年）六月",
+      "title": "定居常州",
+      "description": "苏轼北归途中抵达常州，租屋居住，计划在此养老。此时他已百病缠身，身体极度衰弱。",
+      "significance": "人生最后居所"
     }
   ],
   "global_works": [],
@@ -206,5 +222,37 @@
       "S4",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02070RY43",
+    "amap_name": "常州市",
+    "address": "新北区",
+    "location": "119.974092,31.811313",
+    "cityname": "常州市",
+    "adname": "新北区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "常州淹城野生动物世界",
+        "url": "http://store.is.autonavi.com/showpic/13d476ccc5467e09661426cdf0cafd3c"
+      },
+      {
+        "title": "青果巷历史文化街区",
+        "url": "http://store.is.autonavi.com/showpic/141283959a3d91c6ad8a37763fc5f241"
+      },
+      {
+        "title": "天目湖旅游度假区",
+        "url": "http://store.is.autonavi.com/showpic/20836168feda261f64ee5dc88f9682d8"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:10.000Z"
 }

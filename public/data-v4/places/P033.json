@@ -46,5 +46,45 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B024006WDA",
+    "amap_name": "丹崖停车场",
+    "address": "杭温南路与一环路交叉口西300米",
+    "location": "121.355190,28.505231",
+    "cityname": "台州市",
+    "adname": "温岭市",
+    "type": "交通设施服务;停车场;公共停车场",
+    "typecode": "150904",
+    "tel": "13758624168",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/177f8371f4dc1adc96addebf26eb1290"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:28.000Z",
+  "global_events": [
+    {
+      "date": "元丰八年（1085年）",
+      "title": "登蓬莱阁",
+      "description": "苏轼登蓬莱阁，作《登州海市》",
+      "significance": "route11",
+      "id": "p033-evt-001"
+    },
+    {
+      "date": "元丰八年（1085年）",
+      "title": "登丹崖山",
+      "description": "苏轼登丹崖山",
+      "significance": "route11",
+      "id": "p033-evt-002"
+    }
+  ]
 }

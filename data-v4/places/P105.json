@@ -36,5 +36,29 @@
     "stage_ids": [
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFL2MBLC",
+    "amap_name": "西江原水管理所",
+    "address": "鸦岗南大道沙场路自编1号",
+    "location": "113.201483,23.229601",
+    "cityname": "广州市",
+    "adname": "白云区",
+    "type": "政府机构及社会团体;政府机关;政府机关相关",
+    "typecode": "130100",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/6599015facd0e2886b7730286a591778"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:17.000Z"
 }

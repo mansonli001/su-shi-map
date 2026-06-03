@@ -173,5 +173,37 @@
     "quote": "六祖之像，在浴室院。",
     "source": "兴国寺浴室院六祖画赞",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0L3XU1F3Y",
+    "amap_name": "馄饨小栈",
+    "address": "枫杨街道金梭路与石楠路交叉口西南角",
+    "location": "113.551025,34.824613",
+    "cityname": "郑州市",
+    "adname": "中原区",
+    "type": "餐饮服务;中餐厅;中餐厅",
+    "typecode": "050100",
+    "tel": "18403928800;19339497771",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/9680656df7e62ea81a71a6434caad35c"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/5c604941af7186c74551f79c1bf20e70"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/38d564947c57554582f8da8d64ce71fe"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:04.000Z"
 }

@@ -46,7 +46,7 @@
       "background": "苏轼游庐山题诗于西林寺壁",
       "fullText": "横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。",
       "coreVerse": "不识庐山真面目，只缘身在此山中。",
-      "poem_id": "W031"
+      "poem_id": "S098"
     },
     {
       "id": "ls-w002",
@@ -56,7 +56,8 @@
       "type": "诗",
       "date": "元丰七年（1084年）五月",
       "location": "庐山",
-      "background": "苏轼初入庐山时作"
+      "background": "苏轼初入庐山时作",
+      "poem_id": "S108"
     },
     {
       "id": "W033",
@@ -64,7 +65,8 @@
       "type": "诗",
       "year": 1084,
       "route_id": "R11",
-      "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇"
+      "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇",
+      "poem_id": "S099"
     }
   ],
   "route_events": {
@@ -158,5 +160,37 @@
     "quote": "不识庐山真面目，只缘身在此山中。",
     "source": "题西林壁",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B031803HUW",
+    "amap_name": "庐山国家级旅游风景名胜区",
+    "address": "牯岭镇河西路48号",
+    "location": "115.973108,29.522059",
+    "cityname": "九江市",
+    "adname": "庐山市",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "4009006162",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8b0a2ea7508699ea63d68ad7b495f171"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/da4ef5346114b123e087588a4f3df6c3"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/f1954cc29c56dd7691f3408db16675ad"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:19.000Z"
 }

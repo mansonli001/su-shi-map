@@ -51,7 +51,32 @@
       "type": "策",
       "year": "",
       "route_id": "R01",
-      "note": "汴京应试成名作，获欧阳修高度赏识"
+      "note": "汴京应试成名作，获欧阳修高度赏识",
+      "poem_id": "Z001"
     }
-  ]
+  ],
+  "modern_visit": {
+    "amap_poi_id": "BZA3N30071",
+    "amap_name": "彭山收费站(G0512成乐高速出口)",
+    "address": "彭山区",
+    "location": "103.846019,30.214667",
+    "cityname": "眉山市",
+    "adname": "彭山区",
+    "type": "道路附属设施;收费站;收费站",
+    "typecode": "180200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/1e45443600772133a582cf358e752811"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:34.000Z"
 }

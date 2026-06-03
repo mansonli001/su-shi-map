@@ -93,5 +93,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B039100H7M",
+    "amap_name": "潼关县",
+    "address": "潼关县",
+    "location": "110.246105,34.544294",
+    "cityname": "渭南市",
+    "adname": "潼关县",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039100H7M/comment/content_media_external_file_1000494767_ss__1748925274342_38081905.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039100H7M/comment/content_media_external_images_media_100001231_1744765014417_51829843.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B039100H7M/comment/content_media_external_images_media_100001232_1744765014418_98163813.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:04.000Z"
 }

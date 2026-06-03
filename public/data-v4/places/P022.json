@@ -28,6 +28,14 @@
       "title": "第一次到成都",
       "description": "三苏出蜀途经成都，拜访成都知府王素（王龙图）",
       "significance": "途经成都"
+    },
+    {
+      "place": "成都",
+      "date": "嘉祐元年（1056年）",
+      "title": "途经成都",
+      "description": "苏轼赴京途中停留成都",
+      "significance": "route01",
+      "id": "p022-002"
     }
   ],
   "global_works": [],
@@ -93,5 +101,37 @@
     "stage_ids": [
       "S1"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B001C04CFE",
+    "amap_name": "青羊宫",
+    "address": "一环路西二段9号(青羊宫地铁站C口向后步行90米)",
+    "location": "104.042609,30.661542",
+    "cityname": "成都市",
+    "adname": "青羊区",
+    "type": "风景名胜;风景名胜;寺庙道观",
+    "typecode": "110205",
+    "tel": "028-87766584",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/3a705c47a0dccba3e7eb61b7b6599084"
+      },
+      {
+        "title": [],
+        "url": "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B001C04CFE/headerImg/content_media_external_images_media_852165_1654615078169_2c07f209.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://comment-oss-online.oss-cn-wulanchabu.aliyuncs.com/B001C04CFE/headerImg/content_media_external_images_media_852166_1654615078169_a0c1b8e8.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:13.000Z"
 }

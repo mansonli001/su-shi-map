@@ -99,5 +99,37 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B020001C0E",
+    "amap_name": "寒山寺",
+    "address": "枫桥路16号",
+    "location": "120.568391,31.310469",
+    "cityname": "苏州市",
+    "adname": "姑苏区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
+    "tel": "0512-67236213",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/ab02d6e508f2e4e59213947d3d0034cd"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/466c3783113718e157b3f3876fab1fd1"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/92b0dc346f20a961cf5dc3a9f7f2be3f"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:38.000Z"
 }

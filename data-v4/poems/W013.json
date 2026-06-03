@@ -1,29 +1,19 @@
 {
   "id": "W013",
-  "title": "超然台记",
-  "category": "散文",
+  "title": "雪浪斋铭",
+  "author": "苏轼",
   "type": "文",
-  "year_estimate": 1075,
-  "route_id": "R07",
-  "related_route_ids": [
-    "R07"
+  "year": 1094,
+  "route_id": "R17",
+  "location": "定州",
+  "paragraphs": [
+    "予以罪谪守定武，有田在常山之西。",
+    "其地有奇石，闻是燕赵之战场也。",
+    "有老兵工于画，获此石以献。置于斋前，旦夕对之，如对百万兵也。",
+    "铭曰：定州西北，有石如雪。万里长城在其下，至今人马不得过。我欲舂之碎之，使为齑粉，以苏我民。"
   ],
-  "note": "密州超然台登临名篇，寄寓超然物外人生心境",
-  "external_links": {
-    "gushiwen_search": "https://www.gushiwen.cn/search.aspx?value=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0",
-    "ctext_search": "https://ctext.org/searchbooks.pl?if=gb&searchu=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0&author=苏轼",
-    "sou_yun_search": "https://sou-yun.cn/QueryPoem.aspx?key=%E8%B6%85%E7%84%B6%E5%8F%B0%E8%AE%B0&author=苏轼"
-  },
-  "source_chain": [
-    "李常生苏轼行踪考",
-    "孔凡礼苏轼年谱"
-  ],
-  "has_full_text": true,
-  "fullText": "我公厌富贵，常苦勋业寻。\n相期赤松子，永望白云岑。\n清风出谈笑，万窍为号吟。\n吟成超然诗，洗我蓬之心。\n嗟我本何人，麋鹿强冠襟。\n身微空志大，交浅屡言深。\n嘱公如得谢，呼我幸寄音。\n但恐酒钱尽，烦公挥橐金。",
-  "coreVerse": "我公厌富贵，常苦勋业寻。",
-  "excerpt": "我公厌富贵，常苦勋业寻。",
-  "full_text_source": "chinese-poetry",
-  "full_text_match_level": 4,
-  "matched_title": "和潞公超然臺次韵",
-  "full_text_needs_review": true
+  "background": "绍圣元年（1094年），苏轼被贬定州任职时得到一块雪浪石，作此铭文。雪浪石形状奇特，苏轼将其置于斋前，表达了对边塞局势的忧虑和对百姓的关怀。",
+  "famousQuotes": [
+    "定州西北，有石如雪。万里长城在其下，至今人马不得过。"
+  ]
 }

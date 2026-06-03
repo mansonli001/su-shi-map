@@ -41,5 +41,33 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFKW7DJ1",
+    "amap_name": "小张物流",
+    "address": "三真驿道内",
+    "location": "117.229216,39.058514",
+    "cityname": "天津市",
+    "adname": "河西区",
+    "type": "生活服务;物流速递;物流速递",
+    "typecode": "070500",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/9dc44272bd59dd2ca9492327fa0ef0b1"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/861ac13fdea0ac91ff694c23f7eee224"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:45.000Z"
 }

@@ -63,5 +63,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B01740NUH3",
+    "amap_name": "安阳市",
+    "address": "文峰区",
+    "location": "114.39248,36.098779",
+    "cityname": "安阳市",
+    "adname": "文峰区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "人民公园",
+        "url": "http://store.is.autonavi.com/showpic/3671e432f76863a9bc636c2f7269dd59"
+      },
+      {
+        "title": "红旗渠风景区",
+        "url": "http://store.is.autonavi.com/showpic/3c6249fd73fa2d7c93c9b632e9af53ef"
+      },
+      {
+        "title": "安阳小南海景区",
+        "url": "http://store.is.autonavi.com/showpic/4a01a3d889fdbfe4fe822b999ff0f3a7"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:13.000Z"
 }

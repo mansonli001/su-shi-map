@@ -114,5 +114,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02F701W2H",
+    "amap_name": "雷州市",
+    "address": "雷州市",
+    "location": "110.097011,20.914548",
+    "cityname": "湛江市",
+    "adname": "雷州市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02F701W2H/comment/content_media_external_images_media_100012512_1739360553912_27872451.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/7820fd368d0f2d33db2955e957dafd34"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02F701W2H/comment/content_media_external_images_media_100001815_1726717086113_95390258.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:12.000Z"
 }

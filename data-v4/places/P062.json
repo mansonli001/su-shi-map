@@ -41,5 +41,37 @@
     "stage_ids": [
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02050S8QP",
+    "amap_name": "淮安洪泽湖古堰景区",
+    "address": "南环路33号",
+    "location": "118.840109,33.288749",
+    "cityname": "淮安市",
+    "adname": "洪泽区",
+    "type": "风景名胜;风景名胜相关;旅游景点",
+    "typecode": "110000",
+    "tel": "0517-87225129;0517-87298662;0517-87299881",
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02050S8QP/comment/713B3875_9131_4042_A372_6E53E5BE5270_L0_001_2000_112_1769561765012_35282295.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://aos-cdn-image.amap.com/sns/ugccomment/62026c24-91b4-4f2f-852d-efa96bd3d868.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/8d81d9a729b83e7dda6ca9d78bcea1fa"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:47.000Z"
 }

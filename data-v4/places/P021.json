@@ -33,6 +33,14 @@
       "title": "第一次到成都",
       "description": "三苏出蜀途经成都，拜访成都知府王素（王龙图）",
       "significance": "途经成都"
+    },
+    {
+      "place": "成都",
+      "date": "嘉祐元年（1056年）",
+      "title": "途经成都",
+      "description": "苏轼赴京途中停留成都",
+      "significance": "route01",
+      "id": "p021-002"
     }
   ],
   "global_works": [
@@ -42,7 +50,8 @@
       "type": "策",
       "year": "",
       "route_id": "R05",
-      "note": "入朝后针对变法政见陈述己见的奠基之作"
+      "note": "入朝后针对变法政见陈述己见的奠基之作",
+      "poem_id": "Z002"
     }
   ],
   "route_events": {
@@ -142,5 +151,37 @@
       "S1",
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B001C8OIZM",
+    "amap_name": "成都市",
+    "address": "武侯区",
+    "location": "104.066301,30.572961",
+    "cityname": "成都市",
+    "adname": "武侯区",
+    "type": "地名地址信息;普通地名;地市级地名",
+    "typecode": "190104",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "人民公园",
+        "url": "http://store.is.autonavi.com/showpic/0a852fba6a00582ac15c0f20db8a2ad0"
+      },
+      {
+        "title": "成都大熊猫繁育研究基地",
+        "url": "http://store.is.autonavi.com/showpic/1d50e640f9b8d73bd8fbbbded4a0ef50"
+      },
+      {
+        "title": "洛带古镇",
+        "url": "http://store.is.autonavi.com/showpic/44457060236040337212c1acc0b34d2c"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:13.000Z"
 }

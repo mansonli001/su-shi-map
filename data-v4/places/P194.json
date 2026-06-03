@@ -110,5 +110,37 @@
       "S5",
       "S6"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0LA4R9UOU",
+    "amap_name": "草潭角头沙风景区(暂停开放)",
+    "address": "角头沙·风情民宿东北侧120米",
+    "location": "109.770916,21.335610",
+    "cityname": "湛江市",
+    "adname": "遂溪县",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/19e4818fd1313f665e6c19c84ef65b5a"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0LA4R9UOU/comment/content_media_external_file_1000040688_ss__1756514211791_68158489.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0LA4R9UOU/comment/content_media_external_file_100000933_1753791653565_30158376.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:21.000Z"
 }

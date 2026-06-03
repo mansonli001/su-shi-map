@@ -47,5 +47,46 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B0FFKRPSQQ",
+    "amap_name": "诸城古城墙",
+    "address": "中天如意花园北门",
+    "location": "119.407348,35.985301",
+    "cityname": "潍坊市",
+    "adname": "诸城市",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/196bf4c16746986f0000002095622960?type=pic"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/8d804b3be18723958f592a996deda241"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B0FFKRPSQQ/comment/content_media_external_file_1000054672_ss__1767391898419_74536868.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:16:05.000Z",
+  "global_events": [
+    {
+      "date": "熙宁七年（1074年）",
+      "title": "密州任职",
+      "description": "苏轼任密州知州，治所在诸城",
+      "significance": "route05",
+      "id": "p173-evt-001"
+    }
+  ]
 }

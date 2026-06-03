@@ -49,7 +49,7 @@
       "background": "描写西湖美景的千古绝唱",
       "fullText": "朝曦迎客艳重冈，晚雨留人入醉乡。\n此意自佳君不会，一杯当属水仙王。",
       "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。",
-      "poem_id": "W010"
+      "poem_id": "S036"
     }
   ],
   "route_events": {
@@ -157,5 +157,37 @@
     "quote": "水光潋滟晴方好，山色空蒙雨亦奇。",
     "source": "饮湖上初晴后雨",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B023B0283D",
+    "amap_name": "杭州西湖风景名胜区-三潭印月",
+    "address": "龙井路1号杭州西湖风景名胜区内(东北角)",
+    "location": "120.145369,30.238845",
+    "cityname": "杭州市",
+    "adname": "西湖区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": "夏季-summer",
+        "url": "http://store.is.autonavi.com/showpic/51ae752f732cc261577798e7fe0a2f1a"
+      },
+      {
+        "title": "冬季-winter",
+        "url": "http://store.is.autonavi.com/showpic/6e4552f2bb6bfd72b296f1948e553af3"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/5880A36FB6E143BE86C71E402CE03EAC"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:49.000Z"
 }

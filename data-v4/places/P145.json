@@ -60,5 +60,37 @@
     "stage_ids": [
       "S5"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017700YGU",
+    "amap_name": "汝州市",
+    "address": "汝州市",
+    "location": "112.844696,34.167170",
+    "cityname": "平顶山市",
+    "adname": "汝州市",
+    "type": "地名地址信息;普通地名;区县级地名",
+    "typecode": "190105",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017700YGU/comment/content_media_external_images_media_18845_1735639324149_43775912.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017700YGU/comment/content_media_external_images_media_100001914_1726970115932_70603806.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017700YGU/comment/0c4fc798d802ed7a0bf34a782d7bbc7a_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:47.000Z"
 }

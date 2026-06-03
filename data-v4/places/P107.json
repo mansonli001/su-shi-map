@@ -42,5 +42,46 @@
     "stage_ids": [
       "S2"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B02180I0FM",
+    "amap_name": "卢山",
+    "address": "诸城市",
+    "location": "119.530352,35.937510",
+    "cityname": "潍坊市",
+    "adname": "诸城市",
+    "type": "地名地址信息;自然地名;山",
+    "typecode": "190203",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02180I0FM/comment/3f914f5caeb14cd3db41f63ad2368ef2_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B02180I0FM/comment/24acdd9eea10122b224efceb5726b7bf_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "http://store.is.autonavi.com/showpic/421e17e56406f072dd770220e8fe7b4d"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:19.000Z",
+  "global_events": [
+    {
+      "date": "熙宁七年（1074年）",
+      "title": "密州任职",
+      "description": "苏轼任密州知州，治所在诸城",
+      "significance": "route05",
+      "id": "p107-evt-001"
+    }
+  ]
 }

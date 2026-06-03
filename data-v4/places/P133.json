@@ -50,7 +50,40 @@
       "type": "诗",
       "year": 1085,
       "route_id": "R13",
-      "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作"
+      "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作",
+      "poem_id": "S113"
     }
-  ]
+  ],
+  "modern_visit": {
+    "amap_poi_id": "B0LDNHYY7J",
+    "amap_name": "齐鲁古道",
+    "address": [],
+    "location": "117.312775,36.551030",
+    "cityname": "济南市",
+    "adname": "历城区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/98965c7aafd4c3720000000765886478?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/0b894ed0de55c0c30000000765892316?type=pic"
+      },
+      {
+        "title": [],
+        "url": "https://store.is.autonavi.com/showpic/0d2d54b5085c05e20000000765882562?type=pic"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:37.000Z"
 }

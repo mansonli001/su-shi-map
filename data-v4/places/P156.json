@@ -107,5 +107,24 @@
       "S2",
       "S4"
     ]
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "BZAPQ0001U",
+    "amap_name": "寿州大道",
+    "address": "寿县",
+    "location": "116.881629,32.011425",
+    "cityname": "淮南市",
+    "adname": "寿县",
+    "type": "地名地址信息;交通地名;道路名",
+    "typecode": "190301",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:15:54.000Z"
 }

@@ -173,5 +173,37 @@
     "quote": "六祖之像，在浴室院。",
     "source": "兴国寺浴室院六祖画赞",
     "from": "global_works.excerpt"
-  }
+  },
+  "modern_visit": {
+    "amap_poi_id": "B017A01A36",
+    "amap_name": "开封国家森林公园",
+    "address": "东京大道中段(近开封大学)",
+    "location": "114.368555,34.818565",
+    "cityname": "开封市",
+    "adname": "龙亭区",
+    "type": "风景名胜;公园广场;公园|风景名胜;风景名胜;风景名胜",
+    "typecode": "110101|110200",
+    "tel": [],
+    "rating": null,
+    "cost": null,
+    "open_time": null,
+    "photos": [
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017A01A36/comment/content_media_external_file_100000291_1765000428558_12132777.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017A01A36/comment/46e8d12d0470bd199eef502454c4c742_2048_2048_80.jpg"
+      },
+      {
+        "title": [],
+        "url": "https://aos-comment.amap.com/B017A01A36/comment/a91186f700a129db7d399a3428b9257d_2048_2048_80.jpg"
+      }
+    ],
+    "recommendation": "",
+    "best_time_to_visit": "",
+    "transportation": ""
+  },
+  "amap_updated_at": "2026-06-03T05:14:07.000Z"
 }
