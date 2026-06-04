@@ -1,0 +1,26 @@
+{
+  "id": "C0120",
+  "title": "阮郎归",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "阮郎归",
+  "paragraphs": [
+    "暗香浮动月黄昏。",
+    "堂前一树春。",
+    "东风何事入西邻。",
+    "儿家常闭门。",
+    "雪肌冷，玉容真。",
+    "香腮粉未匀。",
+    "折花欲寄岭头人。",
+    "江南日暮云。"
+  ],
+  "coreVerse": "暗香浮动月黄昏。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -50,7 +50,7 @@ export default function LeftSidebar() {
 
   const handleRouteClick = (routeId: string | null) => {
     if (routeId === null) clearRoute();
-    else setCurrentRoute(routeId as any);
+    else setCurrentRoute(routeId);
     setMobileOpen(false);
   };
 

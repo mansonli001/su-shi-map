@@ -1,0 +1,26 @@
+{
+  "id": "C0113",
+  "title": "醉蓬莱·笑劳生一梦，羁旅三年",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "醉蓬莱",
+  "paragraphs": [
+    "笑劳生一梦，羁旅三年，又还重九。",
+    "华发萧萧，对荒园搔首。",
+    "赖有多情，好饮无事，似古人贤守。",
+    "岁岁登高，年年落帽，物华依旧。",
+    "此会应须烂醉，仍把紫菊茱萸，细看重嗅。",
+    "摇落霜风，有手栽双柳。",
+    "来岁今朝，为我西顾，酹羽觞江口。",
+    "会与州人，饮公遗爱，一江醇酎。"
+  ],
+  "coreVerse": "笑劳生一梦，羁旅三年，又还重九。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

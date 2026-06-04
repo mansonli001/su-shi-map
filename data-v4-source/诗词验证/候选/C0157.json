@@ -1,0 +1,26 @@
+{
+  "id": "C0157",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "画檐初挂弯弯月。",
+    "孤光未满先忧缺。",
+    "遥认玉帘钩。",
+    "天孙梳洗楼。",
+    "佳人言语好。",
+    "不顾求新巧。",
+    "此恨固应知。",
+    "愿人无别离。"
+  ],
+  "coreVerse": "画檐初挂弯弯月。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -16,6 +16,7 @@ import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
 import Link from 'next/link';
+import { searchNearbyFood, getSushiSpecialFoods, type AMapPOIResult, type FoodItem } from '@/lib/food-search';
 
 interface FamousLine {
   quote: string;
@@ -162,7 +163,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             onClick={closeCard}
           />
 
-          {/* 半屏卡片 */}
+          {/* 半屏卡片 - 修复移动端滚动问题 */}
           <motion.div
             initial={{ y: '100%' }}
             animate={{ y: expanded ? '8%' : '38%' }}
@@ -171,22 +172,31 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             drag="y"
             dragConstraints={{ top: 0, bottom: 0 }}
             onDragEnd={handleDragEnd}
-            className="fixed inset-x-0 bottom-0 z-50 max-h-[88vh] overflow-y-auto md:max-w-2xl md:mx-auto"
+            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto"
             style={{
               background: 'var(--card)',
               borderRadius: '18px 18px 0 0',
               boxShadow: '0 -10px 40px rgba(26,16,8,0.18)',
+              // 关键修复：最大可视高度 = 全屏高度 - 顶部安全区 - 顶部标题栏60px - 全局底部Tab70px - 底部系统安全区
+              maxHeight: 'calc(100vh - env(safe-area-inset-top, 0px) - 60px - 70px - env(safe-area-inset-bottom, 0px))',
             }}
           >
-            {/* 拖拽手柄 */}
+            {/* 拖拽手柄（固定高度，不参与滚动） */}
             <div
               onPointerDown={() => setExpanded((v) => !v)}
-              className="cursor-grab active:cursor-grabbing pt-3 pb-2"
+              className="cursor-grab active:cursor-grabbing pt-3 pb-2 shrink-0"
             >
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
             </div>
 
-            <div className="px-5 pb-8 md:pb-16" style={{ paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 4rem)' }}>
+            {/* 内容区：单独开启内部滚动，核心修复 */}
+            <div 
+              className="px-5 overflow-y-auto"
+              style={{ 
+                maxHeight: 'calc(100vh - env(safe-area-inset-top, 0px) - 80px - 70px - env(safe-area-inset-bottom, 0px))',
+                WebkitOverflowScrolling: 'touch', // 解决IOS移动端滚动卡顿失效
+              }}
+            >
               {/* ====== 详情视图 ====== */}
               {showDetail ? (
                 <DetailView
@@ -196,6 +206,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                   foods={foods}
                   initialTab={showDetail as 'story' | 'works' | 'travel'}
                   onBack={() => setShowDetail(false)}
+                  place={place}
                 />
               ) : (
                 <>
@@ -394,8 +405,9 @@ function DetailView(props: {
   foods: any[];
   initialTab: 'story' | 'works' | 'travel';
   onBack: () => void;
+  place: PlaceCore;
 }) {
-  const { detail, works, memorialSites, foods, initialTab, onBack } = props;
+  const { detail, works, memorialSites, foods, initialTab, onBack, place } = props;
   const [tab, setTab] = useState<'story' | 'works' | 'travel'>(initialTab);
 
   const events = detail?.global_events || [];
@@ -561,63 +573,196 @@ function DetailView(props: {
       )}
 
       {tab === 'travel' && (
-        <div>
-          {memorialSites.length > 0 && (
-            <div className="mb-4">
-              <div className="text-[10px] text-ink-lt/60 tracking-[0.16em] mb-3">推荐景点</div>
-              <div className="space-y-2">
-                {memorialSites.map((s, i) => (
-                  <div
-                    key={i}
-                    className="border rounded-lg p-3"
-                    style={{ borderColor: 'rgba(186,117,23,0.18)' }}
-                  >
-                    <div className="font-wenkai text-[13px] font-medium text-ink mb-1">
-                      {s.name || ''}
-                    </div>
-                    <div className="font-wenkai text-[11.5px] text-ink/70 leading-[1.85]">
-                      {s.description || s.note || ''}
-                    </div>
-                    {s.address && (
-                      <div className="text-[10px] text-ink-lt/60 mt-1.5">📍 {s.address}</div>
+        <TravelTab 
+          memorialSites={memorialSites} 
+          localFoods={foods}
+          routeId={detail?.routeId || ''}
+          placeLat={detail?.lat || place.lat}
+          placeLng={detail?.lng || place.lng}
+        />
+      )}
+    </div>
+  );
+}
+
+// ═════ Travel Tab 组件（美食模块：全部/苏轼特供/附近推荐） ═════
+function TravelTab({ 
+  memorialSites, 
+  localFoods, 
+  routeId,
+  placeLat,
+  placeLng 
+}: { 
+  memorialSites: any[];
+  localFoods: any[];
+  routeId: string;
+  placeLat: number | undefined;
+  placeLng: number | undefined;
+}) {
+  const [foodTab, setFoodTab] = useState<'all' | 'sushi' | 'nearby'>('all');
+  const [sushiFoods, setSushiFoods] = useState<FoodItem[]>([]);
+  const [nearbyFoods, setNearbyFoods] = useState<AMapPOIResult[]>([]);
+  const [nearbyLoading, setNearbyLoading] = useState(false);
+
+  // 加载苏轼特供美食
+  useEffect(() => {
+    getSushiSpecialFoods(routeId).then(setSushiFoods);
+  }, [routeId]);
+
+  // 加载附近美食
+  useEffect(() => {
+    if (foodTab === 'nearby' && placeLat && placeLng) {
+      setNearbyLoading(true);
+      searchNearbyFood(placeLat, placeLng, 2000)
+        .then(setNearbyFoods)
+        .finally(() => setNearbyLoading(false));
+    }
+  }, [foodTab, placeLat, placeLng]);
+
+  // 获取当前显示的美食列表
+  const getDisplayFoods = () => {
+    if (foodTab === 'sushi') {
+      return sushiFoods;
+    }
+    if (foodTab === 'nearby') {
+      return nearbyFoods;
+    }
+    // all: 合并本地美食和苏轼特供
+    const localItems = localFoods.map((f, i) => ({ ...f, source: 'local', uniqueId: `local-${i}` }));
+    const sushiItems = sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${f.id}` }));
+    return [...localItems, ...sushiItems];
+  };
+
+  const displayFoods = getDisplayFoods();
+
+  return (
+    <div>
+      {/* 推荐景点 */}
+      {memorialSites.length > 0 && (
+        <div className="mb-4">
+          <div className="text-[10px] text-ink-lt/60 tracking-[0.16em] mb-3">推荐景点</div>
+          <div className="space-y-2">
+            {memorialSites.map((s, i) => (
+              <div
+                key={i}
+                className="border rounded-lg p-3"
+                style={{ borderColor: 'rgba(186,117,23,0.18)' }}
+              >
+                <div className="font-wenkai text-[13px] font-medium text-ink mb-1">
+                  {s.name || ''}
+                </div>
+                <div className="font-wenkai text-[11.5px] text-ink/70 leading-[1.85]">
+                  {s.description || s.note || ''}
+                </div>
+                {s.address && (
+                  <div className="text-[10px] text-ink-lt/60 mt-1.5">📍 {s.address}</div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 美食模块 */}
+      <div>
+        <div className="flex justify-between items-center mb-3">
+          <div className="text-[10px] text-ink-lt/60 tracking-[0.16em]">特色美食</div>
+          {/* 美食 sub-tab */}
+          <div className="flex bg-paper-2 rounded-lg p-0.5">
+            {(['all', 'sushi', 'nearby'] as const).map((t) => (
+              <button
+                key={t}
+                onClick={() => setFoodTab(t)}
+                className={`font-wenkai text-[10px] px-2 py-1 rounded-md transition-colors ${
+                  foodTab === t 
+                    ? 'bg-white text-gold-m' 
+                    : 'text-ink-lt/60 hover:text-ink'
+                }`}
+              >
+                {t === 'all' ? '全部' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* 加载状态 */}
+        {nearbyLoading && (
+          <div className="text-center py-4">
+            <div className="text-[11px] text-ink-lt/60">加载附近美食中...</div>
+          </div>
+        )}
+
+        {/* 美食列表 */}
+        {!nearbyLoading && displayFoods.length > 0 && (
+          <div className="space-y-2">
+            {displayFoods.map((f) => (
+              <div
+                key={(f as any).uniqueId || (f as any).id || Math.random()}
+                className="border rounded-lg p-3"
+                style={{ 
+                  borderColor: (f as any).source === 'sushi' 
+                    ? 'rgba(186,117,23,0.35)' 
+                    : 'rgba(186,117,23,0.18)',
+                  background: (f as any).source === 'sushi' 
+                    ? 'rgba(186,117,23,0.05)' 
+                    : 'transparent'
+                }}
+              >
+                <div className="flex justify-between items-start mb-1">
+                  <div className="font-wenkai text-[13px] font-medium text-ink">
+                    {((f as any).name || (f as FoodItem).name) || ''}
+                    {((f as FoodItem).alias) && (
+                      <span className="text-ink-lt/50 ml-1">({(f as FoodItem).alias})</span>
                     )}
                   </div>
-                ))}
-              </div>
-            </div>
-          )}
-          {foods.length > 0 && (
-            <div className="mb-4">
-              <div className="text-[10px] text-ink-lt/60 tracking-[0.16em] mb-3">特色美食</div>
-              <div className="space-y-2">
-                {foods.map((f, i) => (
-                  <div
-                    key={i}
-                    className="border rounded-lg p-3"
-                    style={{ borderColor: 'rgba(186,117,23,0.18)' }}
-                  >
-                    <div className="font-wenkai text-[13px] font-medium text-ink mb-1">
-                      {f.name || ''}
-                    </div>
-                    <div className="font-wenkai text-[11.5px] text-ink/70 leading-[1.85]">
-                      {f.description || ''}
-                    </div>
+                  {(f as any).source === 'sushi' && (
+                    <span className="text-[9px] px-1.5 py-0.5 rounded text-white bg-gold-m">
+                      苏轼特供
+                    </span>
+                  )}
+                  {(f as AMapPOIResult).rating && (
+                    <span className="text-[10px] text-amber-500">★ {(f as AMapPOIResult).rating}</span>
+                  )}
+                </div>
+                <div className="font-wenkai text-[11.5px] text-ink/70 leading-[1.85] mb-2">
+                  {(f as any).description || (f as FoodItem).desc || (f as AMapPOIResult).address || ''}
+                </div>
+                {(f as FoodItem).relatedPoem && (
+                  <div className="text-[10px] text-gold-m/80 italic font-wenkai border-l-2 border-gold-m/30 pl-2">
+                    「{(f as FoodItem).relatedPoem}」
                   </div>
-                ))}
+                )}
+                {(f as AMapPOIResult).distance && (
+                  <div className="text-[10px] text-ink-lt/60 mt-1">
+                    📍 距离 {(f as AMapPOIResult).distance}m
+                  </div>
+                )}
               </div>
-            </div>
-          )}
-          {memorialSites.length === 0 && foods.length === 0 && (
-            <div className="text-center py-8">
-              <p className="text-[12px] text-ink-lt/60 italic mb-2">
-                此地文旅信息待补充
-              </p>
-              <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-                推荐景点 / 特色美食 / 交通信息<br />
-                正在分批整理中（外部专家任务 A5）
-              </p>
-            </div>
-          )}
+            ))}
+          </div>
+        )}
+
+        {/* 空状态 */}
+        {!nearbyLoading && displayFoods.length === 0 && (
+          <div className="text-center py-6">
+            <div className="text-[32px] mb-2">🍽️</div>
+            <p className="text-[12px] text-ink-lt/60 italic">
+              {foodTab === 'sushi' ? '暂无苏轼特供美食' : '暂无美食信息'}
+            </p>
+          </div>
+        )}
+      </div>
+
+      {/* 空状态（无景点无美食） */}
+      {memorialSites.length === 0 && !nearbyLoading && displayFoods.length === 0 && (
+        <div className="text-center py-8">
+          <p className="text-[12px] text-ink-lt/60 italic mb-2">
+            此地文旅信息待补充
+          </p>
+          <p className="text-[11px] text-ink-lt/50 leading-relaxed">
+            推荐景点 / 特色美食 / 交通信息<br />
+            正在分批整理中
+          </p>
         </div>
       )}
     </div>

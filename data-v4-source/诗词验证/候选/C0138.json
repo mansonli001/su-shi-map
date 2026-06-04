@@ -1,0 +1,26 @@
+{
+  "id": "C0138",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "云水萦回溪上路。",
+    "叠叠青山，环绕溪东注。",
+    "月白沙汀翘宿鹭。",
+    "更无一点尘来处。",
+    "溪叟相看私自语。",
+    "底事区区，苦要为官去。",
+    "尊酒不空田百亩。",
+    "归来分得闲中趣。"
+  ],
+  "coreVerse": "云水萦回溪上路。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

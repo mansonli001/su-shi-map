@@ -1,0 +1,28 @@
+{
+  "id": "C0053",
+  "title": "渔家傲",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "渔家傲",
+  "paragraphs": [
+    "千古龙蟠并虎踞。",
+    "从公一吊兴亡处。",
+    "渺渺斜风吹细雨。",
+    "芳草渡。",
+    "江南父老留公住。",
+    "公驾飞车凌彩雾。",
+    "红鸾骖乘青鸾驭。",
+    "却讶此洲名白鹭。",
+    "非吾侣。",
+    "翩然欲下还飞去。"
+  ],
+  "coreVerse": "千古龙蟠并虎踞。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

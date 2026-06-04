@@ -1,0 +1,24 @@
+{
+  "id": "C0040",
+  "title": "西江月·昨夜扁舟京口，今朝马",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "昨夜扁舟京口，今朝马首长安。",
+    "旧官何物与新官。",
+    "只有湖山公案。",
+    "此景百年几变，个中下语千难。",
+    "使君才气卷波澜。",
+    "与把新诗判断。"
+  ],
+  "coreVerse": "昨夜扁舟京口，今朝马首长安。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

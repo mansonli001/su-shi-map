@@ -1,0 +1,26 @@
+{
+  "id": "C0164",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "翠鬟斜幔云垂耳。",
+    "耳垂云幔斜鬟翠。",
+    "春晚睡昏昏。",
+    "昏昏睡晚春。",
+    "细花梨雪坠。",
+    "坠雪梨花细。",
+    "颦浅念谁人。",
+    "人谁念浅颦。"
+  ],
+  "coreVerse": "翠鬟斜幔云垂耳。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

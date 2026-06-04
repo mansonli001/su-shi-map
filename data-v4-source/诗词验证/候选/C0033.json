@@ -1,0 +1,24 @@
+{
+  "id": "C0033",
+  "title": "西江月·龙焙今年绝品，谷帘自",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "龙焙今年绝品，谷帘自古珍泉。",
+    "雪芽双井散神仙。",
+    "苗裔来从北苑。",
+    "汤发云腴酽白，盏浮花乳轻圆。",
+    "人间谁敢更争妍。",
+    "斗取红窗粉面。"
+  ],
+  "coreVerse": "龙焙今年绝品，谷帘自古珍泉。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

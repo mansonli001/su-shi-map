@@ -1,0 +1,27 @@
+{
+  "id": "C0015",
+  "title": "满江红·江汉西来，高楼下、蒲",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "满江红",
+  "paragraphs": [
+    "江汉西来，高楼下、蒲萄深碧。",
+    "犹自带、岷峨云浪，锦江春色。",
+    "君是南山遗爱守，我为剑外思归客。",
+    "对此间、风物岂无情，殷勤说。",
+    "江表传，君休读。",
+    "狂处士，真堪惜。",
+    "空洲对鹦鹉，苇花萧瑟。",
+    "不独笑书生争底事，曹公黄祖俱飘忽。",
+    "愿使君、还赋谪仙诗，追黄鹤。"
+  ],
+  "coreVerse": "江汉西来，高楼下、蒲萄深碧。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

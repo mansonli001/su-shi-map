@@ -7,18 +7,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useSuShiStore } from '@/lib/store';
-import { PlaceCore, Stage } from '@/types';
-
-// 阶段颜色
-const STAGE_COLORS: Record<Stage, string> = {
-  youth: '#4CAF50',
-  early_career: '#37474F',
-  first_exile: '#C62828',
-  middle_career: '#6D4C41',
-  second_exile: '#F9A825',
-  third_exile: '#424242',
-  final_journey: '#8B6914',
-};
+import { Stage } from '@/types';
 
 export default function TrajectoryAnimation() {
   const { isTrajectoryPlaying, setTrajectoryPlaying } = useSuShiStore();

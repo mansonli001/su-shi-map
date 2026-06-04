@@ -1,0 +1,24 @@
+{
+  "id": "C0086",
+  "title": "南乡子·雨暗初疑夜，风回忽报",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "雨暗初疑夜，风回忽报晴。",
+    "淡云斜照著山明。",
+    "细草软沙溪路、马蹄轻。",
+    "卯酒醒还困，仙材梦不成。",
+    "蓝桥何处觅云英。",
+    "只有多情流水、伴人行。"
+  ],
+  "coreVerse": "雨暗初疑夜，风回忽报晴。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

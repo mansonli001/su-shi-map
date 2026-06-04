@@ -1,0 +1,24 @@
+{
+  "id": "C0089",
+  "title": "南歌子·日薄花房绽，风和麦浪",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "日薄花房绽，风和麦浪轻。",
+    "夜来微雨洗郊坰。",
+    "正是一年春好、近清明。",
+    "已改煎茶火，犹调入粥饧。",
+    "使君高会有馀清。",
+    "此乐无声无味、最难名。"
+  ],
+  "coreVerse": "日薄花房绽，风和麦浪轻。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

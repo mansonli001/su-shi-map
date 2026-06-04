@@ -1,0 +1,26 @@
+{
+  "id": "C0153",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "玉童西迓浮丘伯。",
+    "洞天冷落秋萧瑟。",
+    "不用许飞琼。",
+    "瑶台空月明。",
+    "清香凝夜宴。",
+    "借与韦郎看。",
+    "莫便向姑苏。",
+    "扁舟下五湖。"
+  ],
+  "coreVerse": "玉童西迓浮丘伯。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0227",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "莺初解语。",
+    "最是一年春好处。",
+    "微雨如酥。",
+    "草色遥看近却无。",
+    "休辞醉倒。",
+    "花不看开人易老。",
+    "莫待春回。",
+    "颠倒红英间绿苔。"
+  ],
+  "coreVerse": "莺初解语。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "C0233",
+  "title": "瑞鹧鸪",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "瑞鹧鸪",
+  "paragraphs": [
+    "城头月落尚啼乌。",
+    "朱舰红船早满湖。",
+    "鼓吹未容迎五马，水云先已漾双凫。",
+    "映山黄帽螭头舫，夹岸青烟鹊尾炉。",
+    "老病逢春只思睡，独求僧榻寄须臾。"
+  ],
+  "coreVerse": "城头月落尚啼乌。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

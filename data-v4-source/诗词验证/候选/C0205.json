@@ -1,0 +1,26 @@
+{
+  "id": "C0205",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "云容皓白。",
+    "破晓玉英纷似织。",
+    "风力无端。",
+    "欲学杨花更耐寒。",
+    "相如未老。",
+    "梁苑犹能陪俊少。",
+    "莫惹闲愁。",
+    "且折江梅上小楼。"
+  ],
+  "coreVerse": "云容皓白。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

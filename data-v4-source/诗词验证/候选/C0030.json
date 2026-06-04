@@ -1,0 +1,24 @@
+{
+  "id": "C0030",
+  "title": "西江月·怪此花枝怨泣，托君诗",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "怪此花枝怨泣，托君诗句名通。",
+    "凭将草木记吴风。",
+    "继取相如云梦。",
+    "点笔袖沾醉墨，谤花面有惭红。",
+    "知君却是为情秾。",
+    "怕见此花撩动。"
+  ],
+  "coreVerse": "怪此花枝怨泣，托君诗句名通。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

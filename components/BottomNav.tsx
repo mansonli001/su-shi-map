@@ -33,9 +33,13 @@ const NAV_ITEMS = [
 ];
 
 export default function BottomNav() {
-  const pathname = usePathname();
+  const pathname = usePathname() || '/';
 
   const isActive = (path: string) => {
+    // 特殊处理：/places/* 也高亮「地图」Tab
+    if (path === '/explore' && pathname.startsWith('/places/')) {
+      return true;
+    }
     return pathname === path || pathname.startsWith(path + '/');
   };
 

@@ -1,0 +1,26 @@
+{
+  "id": "C0241",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "空床响琢。",
+    "花上春禽冰上雹。",
+    "醉梦尊前。",
+    "惊起湖风入坐寒。",
+    "转关镬索。",
+    "春水流弦霜入拨。",
+    "月堕更阑。",
+    "更请宫高奏独弹。"
+  ],
+  "coreVerse": "空床响琢。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

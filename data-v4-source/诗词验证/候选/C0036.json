@@ -1,0 +1,24 @@
+{
+  "id": "C0036",
+  "title": "西江月·莫叹平原落落，且应去",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "莫叹平原落落，且应去鲁迟迟。",
+    "与君各记少年时。",
+    "须信人生如寄。",
+    "白发千茎相送，深杯百罚休辞。",
+    "拍浮何用酒为池。",
+    "我已为君德醉。"
+  ],
+  "coreVerse": "莫叹平原落落，且应去鲁迟迟。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,28 @@
+{
+  "id": "C0054",
+  "title": "渔家傲",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "渔家傲",
+  "paragraphs": [
+    "送客归来灯火尽。",
+    "西楼淡月凉生晕。",
+    "明日潮来无定准。",
+    "潮来稳。",
+    "舟横渡口重城近。",
+    "江水似知孤客恨。",
+    "南风为解佳人愠。",
+    "莫学时流轻久困。",
+    "频寄问。",
+    "钱塘江上须忠信。"
+  ],
+  "coreVerse": "送客归来灯火尽。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

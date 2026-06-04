@@ -69,7 +69,7 @@ function ExploreInner() {
 
         const tracks = await buildV4RouteTracks();
         if (aborted) return;
-        setRoute19PointsCache(tracks as any);
+        setRoute19PointsCache(tracks);
 
         setPlaces(cores);
 
@@ -82,7 +82,7 @@ function ExploreInner() {
 
         // URL ?focus=Pxxx → 自动打开该 place 详情卡
         if (focusId) {
-          const target = cores.find((p: any) => p.id === focusId);
+          const target = cores.find((p) => p.id === focusId);
           if (target) {
             setTimeout(() => {
               if (!aborted) setSelectedPlace(target);
@@ -100,9 +100,9 @@ function ExploreInner() {
             '· route=', routeParam || '(none)',
           );
         }
-      } catch (err: any) {
+      } catch (err) {
         // eslint-disable-next-line no-console
-        console.error('[page v6] 加载 v4 数据失败:', err?.message || err);
+        console.error('[page v6] 加载 v4 数据失败:', err instanceof Error ? err.message : String(err));
       }
     })();
 
@@ -118,8 +118,20 @@ function ExploreInner() {
       <div className="flex-1 relative">
         {/* === 顶部「读苏轼·游神州」副标题导航
               （主标题"行吟山河"在浏览器顶栏 / Safari Tab，此处不再重复） === */}
+        {/* 顶部导航栏 - 修复移动端布局挤压和图标重复问题 */}
         <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[60px] md:h-[56px]">
-          <div className="relative flex items-center justify-end px-3 md:px-5 h-full gap-2">
+          <div className="relative flex items-center justify-between px-3 md:px-5 h-full gap-3">
+            {/* 左侧：汉堡菜单按钮（移动端） */}
+            <div className="flex-shrink-0 md:hidden">
+              <button
+                onClick={() => (window.location.href = '/')}
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 rounded text-[11px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors"
+                aria-label="返回首页"
+              >
+                ←
+              </button>
+            </div>
+            
             {/* 副标题（移动端绝对定位居中 / 桌面端左对齐） */}
             <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-0 md:mr-auto flex items-center gap-2 md:gap-4 min-w-0 pointer-events-none md:pointer-events-auto">
               <div className="font-wenkai text-[15px] md:text-[14px] text-gold/90 tracking-[0.18em] md:tracking-[0.2em] whitespace-nowrap leading-tight">
@@ -135,42 +147,43 @@ function ExploreInner() {
                 </span>
               </div>
             </div>
-            <div className="flex items-center gap-0.5 md:gap-1 flex-shrink-0">
-              <button
-                onClick={() => (window.location.href = '/')}
-                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
-                aria-label="返回首页"
-              >
-                <span className="md:hidden">←</span>
-                <span className="hidden md:inline">← 首页</span>
-              </button>
+            
+            {/* 右侧图标组 - 修复双放大镜重复问题，添加最小尺寸约束 */}
+            <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
+              {/* 路线列表 - 使用📍地图标记图标，与搜索🔍区分 */}
               <button
                 onClick={() => (window.location.href = '/routes')}
-                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
                 aria-label="路线列表"
               >
-                <span className="md:hidden">🔍</span>
+                <span className="md:hidden">📍</span>
                 <span className="hidden md:inline">路线</span>
               </button>
+              
+              {/* 诗词 */}
               <button
                 onClick={() => (window.location.href = '/poems')}
-                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
                 aria-label="诗词"
               >
                 <span className="md:hidden">诗</span>
                 <span className="hidden md:inline">诗词</span>
               </button>
+              
+              {/* 全局搜索 - 保留🔍放大镜图标 */}
               <button
                 onClick={openSearch}
-                className="px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider whitespace-nowrap"
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
                 aria-label="搜索"
               >
                 <span className="md:hidden">🔍</span>
                 <span className="hidden md:inline">搜索</span>
               </button>
+              
+              {/* 关于（仅桌面端） */}
               <button
                 onClick={() => (window.location.href = '/about')}
-                className="hidden md:inline-flex px-3 py-1.5 rounded text-[12px] text-gold/60 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="hidden md:inline-flex min-w-[44px] min-h-[44px] items-center justify-center px-3 py-1.5 rounded text-[12px] text-gold/60 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
                 aria-label="关于"
               >
                 关于

@@ -1,0 +1,26 @@
+{
+  "id": "C0077",
+  "title": "南乡子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "凉簟碧纱厨。",
+    "一枕清风昼睡馀。",
+    "睡听晚衙无一事，徐徐。",
+    "读尽床头几卷书。",
+    "搔首赋归欤。",
+    "自觉功名懒更疏。",
+    "若问使君才与术，何如。",
+    "占得人间一味愚。"
+  ],
+  "coreVerse": "凉簟碧纱厨。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

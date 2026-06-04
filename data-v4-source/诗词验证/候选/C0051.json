@@ -1,0 +1,24 @@
+{
+  "id": "C0051",
+  "title": "临江仙·夜饮东坡醒复醉，归来",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "夜饮东坡醒复醉，归来仿佛三更。",
+    "家童鼻息已雷鸣。",
+    "敲门都不应，倚杖听江声。",
+    "长恨此身非我有，何时忘却营营。",
+    "夜阑风静縠纹平。",
+    "小舟从此逝，江海寄馀生。"
+  ],
+  "coreVerse": "夜饮东坡醒复醉，归来仿佛三更。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

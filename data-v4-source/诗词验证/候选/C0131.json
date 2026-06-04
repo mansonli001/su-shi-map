@@ -1,0 +1,26 @@
+{
+  "id": "C0131",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "花褪残红青杏小。",
+    "燕子飞时，绿水人家绕。",
+    "枝上柳绵吹又少。",
+    "天涯何处无芳草。",
+    "墙里秋千墙外道。",
+    "墙外行人，墙里佳人笑。",
+    "笑渐不闻声渐悄。",
+    "多情却被无情恼。"
+  ],
+  "coreVerse": "花褪残红青杏小。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "C0037",
+  "title": "西江月·玉骨那愁瘴雾，冰姿自",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "玉骨那愁瘴雾，冰姿自有仙风。",
+    "海仙时遣探芳丛。",
+    "倒挂绿毛么凤。",
+    "素面翻嫌粉涴，洗妆不褪唇红。",
+    "高情已逐晓云空。",
+    "不与梨花同梦。"
+  ],
+  "coreVerse": "玉骨那愁瘴雾，冰姿自有仙风。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-06-02T15:13:46.989126",
+  "statistics": {
+    "total": 283,
+    "ready_for_review": 7,
+    "needs_manual_check": 276,
+    "high_confidence": 8,
+    "medium_confidence": 275,
+    "low_confidence": 0,
+    "by_route": {
+      "R10": 4,
+      "R07": 3,
+      "R06": 1
+    }
+  }
+}

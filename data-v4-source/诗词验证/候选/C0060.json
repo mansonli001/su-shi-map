@@ -1,0 +1,22 @@
+{
+  "id": "C0060",
+  "title": "少年游·去年相送，馀杭门外，",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "少年游",
+  "paragraphs": [
+    "去年相送，馀杭门外，飞雪似杨花。",
+    "今年春尽，杨花似雪，犹不见还家。",
+    "对酒卷帘邀明月，风露透窗纱。",
+    "恰似姮娥怜双燕，分明照、画梁斜。"
+  ],
+  "coreVerse": "去年相送，馀杭门外，飞雪似杨花。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0152",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "秋风湖上萧萧雨。",
+    "使君欲去还留住。",
+    "今日漫留君。",
+    "明朝愁杀人。",
+    "佳人千点泪。",
+    "洒向长河水。",
+    "不用敛双蛾。",
+    "路人啼更多。"
+  ],
+  "coreVerse": "秋风湖上萧萧雨。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "C0038",
+  "title": "西江月·照野弥弥浅浪，横空暧",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "照野弥弥浅浪，横空暧暧微霄。",
+    "障泥未解玉骢骄。",
+    "我欲醉眠芳草。",
+    "可惜一溪明月，莫教踏破琼瑶。",
+    "解鞍敧枕绿杨桥。",
+    "杜宇一声春晓。"
+  ],
+  "coreVerse": "照野弥弥浅浪，横空暧暧微霄。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

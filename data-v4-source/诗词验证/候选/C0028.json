@@ -1,0 +1,24 @@
+{
+  "id": "C0028",
+  "title": "西江月·公子眼花乱发，老夫鼻",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "公子眼花乱发，老夫鼻观先通。",
+    "领巾飘下瑞香风。",
+    "惊起谪仙春梦。",
+    "后土祠中玉蕊，蓬莱殿后鞓红。",
+    "此花清绝更纤秾。",
+    "把酒何人心动。"
+  ],
+  "coreVerse": "公子眼花乱发，老夫鼻观先通。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

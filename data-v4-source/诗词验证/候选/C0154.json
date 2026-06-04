@@ -1,0 +1,26 @@
+{
+  "id": "C0154",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "天怜豪俊腰金晚。",
+    "故教月向松江满。",
+    "清景为淹留。",
+    "从君都占秋。",
+    "身闲惟有酒。",
+    "拭问清游首。",
+    "帝梦已遥思。",
+    "匆匆归去时。"
+  ],
+  "coreVerse": "天怜豪俊腰金晚。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

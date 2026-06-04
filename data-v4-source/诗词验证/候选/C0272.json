@@ -1,0 +1,30 @@
+{
+  "id": "C0272",
+  "title": "瑶池燕",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "瑶池燕",
+  "paragraphs": [
+    "飞花成阵。",
+    "春心困。",
+    "寸寸。",
+    "别肠多少愁闷。",
+    "无人问。",
+    "偷啼自搵。",
+    "残妆粉。",
+    "抱瑶琴、寻出新韵。",
+    "玉纤趁。",
+    "南风来解幽愠。",
+    "低云鬟、眉峰敛晕。",
+    "娇和恨。"
+  ],
+  "coreVerse": "飞花成阵。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

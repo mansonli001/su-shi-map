@@ -1,0 +1,26 @@
+{
+  "id": "C0191",
+  "title": "谒金门",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "谒金门",
+  "paragraphs": [
+    "秋池阁。",
+    "风傍晓庭帘幕。",
+    "霜叶未衰吹未落。",
+    "半惊鸦喜鹊。",
+    "自笑浮名情薄。",
+    "似与世人疏略。",
+    "一片懒心双懒脚。",
+    "好教闲处著。"
+  ],
+  "coreVerse": "秋池阁。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "C0052",
+  "title": "临江仙·冬夜夜寒冰合井，画堂",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "冬夜夜寒冰合井，画堂明月侵帏。",
+    "青缸明灭照悲啼。",
+    "青缸挑欲尽，粉泪裛还垂。",
+    "未尽一尊先掩泪，歌声半带清悲。",
+    "情声两尽莫相违。",
+    "欲知肠断处，梁上暗尘飞。"
+  ],
+  "coreVerse": "冬夜夜寒冰合井，画堂明月侵帏。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,31 @@
+{
+  "id": "C0005",
+  "title": "满庭芳·归去来兮，吾归何处，",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "满庭芳",
+  "paragraphs": [
+    "归去来兮，吾归何处，万里家在岷峨。",
+    "百年强半，来日苦无多。",
+    "坐见黄州再闰，儿童尽、楚语吴歌。",
+    "山中友，鸡豚社酒，相劝老东坡。",
+    "云何。",
+    "当此去，人生底事，来往如梭。",
+    "待闲看，秋风洛水清波。",
+    "好在堂前细柳，应念我、莫翦柔柯。",
+    "仍传语，江南父老，时与晒渔蓑。"
+  ],
+  "coreVerse": "归去来兮，吾归何处，万里家在岷峨。",
+  "source": "chinese-poetry",
+  "confidence": 0.9899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": "R10",
+  "relatedRouteIds": [
+    "R10"
+  ],
+  "year": null,
+  "notes": "",
+  "verificationLog": [
+    "发现异体字/旧字形 '翦'（建议 '剪'）"
+  ]
+}

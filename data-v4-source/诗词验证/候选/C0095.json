@@ -1,0 +1,24 @@
+{
+  "id": "C0095",
+  "title": "南歌子·紫陌寻春去，红尘拂面",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "紫陌寻春去，红尘拂面来。",
+    "无人不道看花回。",
+    "惟见石榴新蕊、一枝开。",
+    "冰簟堆云髻，金尊滟玉醅。",
+    "绿阴青子莫相催。",
+    "留取红巾千点、照池台。"
+  ],
+  "coreVerse": "紫陌寻春去，红尘拂面来。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

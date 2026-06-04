@@ -1,0 +1,26 @@
+{
+  "id": "C0141",
+  "title": "苏幕遮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "苏幕遮",
+  "paragraphs": [
+    "暑笼晴，风解愠。",
+    "雨后馀清，暗袭衣裾润。",
+    "一局选仙逃暑困。",
+    "笑指尊前、谁向青霄近。",
+    "整金盆，轮玉笋。",
+    "凤驾鸾车，谁敢争先进。",
+    "重五休言升最紧。",
+    "纵有碧油，到了输堂印。"
+  ],
+  "coreVerse": "暑笼晴，风解愠。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

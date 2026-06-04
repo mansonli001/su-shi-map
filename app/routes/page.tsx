@@ -121,7 +121,7 @@ export default function RoutesListPage() {
           ].map((c) => (
             <button
               key={c.k}
-              onClick={() => setFilter(c.k as any)}
+              onClick={() => setFilter(c.k as 'all' | 'office' | 'exile' | 'tour')}
               className={`rb-chip ${filter === c.k ? 'rb-chip-act' : ''}`}
             >
               {c.label}

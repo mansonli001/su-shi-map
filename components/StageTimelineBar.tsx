@@ -54,7 +54,7 @@ export default function StageTimelineBar() {
 
   const handleStageClick = (s: V4StageIdx) => {
     if (s.route_ids.length === 0) return;
-    setCurrentRoute(s.route_ids[0] as any);
+    setCurrentRoute(s.route_ids[0]);
   };
 
   return (

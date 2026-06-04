@@ -1,0 +1,24 @@
+{
+  "id": "C0278",
+  "title": "西江月·马趁香微路远，沙笼月",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "马趁香微路远，沙笼月淡烟斜。",
+    "渡波清彻映妍华。",
+    "倒绿枝寒凤挂。",
+    "挂凤寒枝绿倒，华妍映彻清波。",
+    "渡斜烟淡月笼沙。",
+    "远路微香趁马。"
+  ],
+  "coreVerse": "马趁香微路远，沙笼月淡烟斜。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

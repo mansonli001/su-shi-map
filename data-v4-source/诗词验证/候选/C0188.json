@@ -1,0 +1,26 @@
+{
+  "id": "C0188",
+  "title": "醉落魄・一斛珠",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "醉落魄・一斛珠",
+  "paragraphs": [
+    "苍颜华发。",
+    "故山归计何时决。",
+    "旧交新贵音书绝。",
+    "惟有佳人，犹作殷勤别。",
+    "离亭欲去歌声咽。",
+    "潇潇细雨凉吹颊。",
+    "泪珠不用罗巾裛。",
+    "弹在罗衣，图得见时说。"
+  ],
+  "coreVerse": "苍颜华发。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

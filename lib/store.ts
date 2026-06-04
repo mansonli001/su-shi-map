@@ -6,6 +6,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Stage, PlaceCore } from '@/types';
+import { evaluateAchievements, getAchievement, type Achievement } from './achievements';
 
 // v4.1: RouteId 弱类型化，兼容 R00-R19 与历史 route01-route19
 export type RouteId = string | null;
@@ -92,6 +93,12 @@ interface SuShiStore {
   updateNote: (noteId: string, content: string) => void;
   deleteNote: (noteId: string) => void;
   getNotesByTarget: (targetId: string) => UserNote[];
+
+  // ===== 成就系统 =====
+  unlockedAchievements: string[];
+  lastUnlockedAchievement: Achievement | null;
+  setLastUnlockedAchievement: (achievement: Achievement | null) => void;
+  checkAndUnlockAchievements: () => void;
 }
 
 export const useSuShiStore = create<SuShiStore>()(
@@ -148,10 +155,14 @@ export const useSuShiStore = create<SuShiStore>()(
 
       // 打卡地点
       checkinPlaces: [],
-      addCheckin: (checkin) =>
-        set((state) => ({
-          checkinPlaces: [...state.checkinPlaces, checkin],
-        })),
+      addCheckin: (checkin) => {
+        set((state) => {
+          const newCheckins = [...state.checkinPlaces, checkin];
+          return { checkinPlaces: newCheckins };
+        });
+        // 打卡后检查成就解锁
+        get().checkAndUnlockAchievements();
+      },
       removeCheckin: (placeId) =>
         set((state) => ({
           checkinPlaces: state.checkinPlaces.filter((c) => c.placeId !== placeId),
@@ -185,6 +196,33 @@ export const useSuShiStore = create<SuShiStore>()(
         })),
       getNotesByTarget: (targetId) =>
         get().userNotes.filter((n) => n.targetId === targetId),
+
+      // ===== 成就系统 =====
+      unlockedAchievements: [],
+      lastUnlockedAchievement: null,
+      setLastUnlockedAchievement: (achievement) => set({ lastUnlockedAchievement: achievement }),
+      checkAndUnlockAchievements: () => {
+        const { checkinPlaces, places, unlockedAchievements } = get();
+        const checkedIds = new Set(checkinPlaces.map((c) => c.placeId));
+        
+        const { unlocked } = evaluateAchievements(checkedIds, places);
+        
+        // 找出新解锁的成就
+        const newlyUnlocked = unlocked.filter((id) => !unlockedAchievements.includes(id));
+        
+        if (newlyUnlocked.length > 0) {
+          set((state) => ({
+            unlockedAchievements: [...state.unlockedAchievements, ...newlyUnlocked],
+          }));
+
+          // 取最后解锁的成就触发 toast（直接复用 lib/achievements.ts 单一数据源，避免漂移）
+          const latestId = newlyUnlocked[newlyUnlocked.length - 1] as Achievement['id'];
+          const latestAchievement = getAchievement(latestId);
+          if (latestAchievement) {
+            set({ lastUnlockedAchievement: latestAchievement });
+          }
+        }
+      },
     }),
     {
       name: 'su-shi-user-data',
@@ -192,6 +230,7 @@ export const useSuShiStore = create<SuShiStore>()(
         favoritePoems: state.favoritePoems,
         checkinPlaces: state.checkinPlaces,
         userNotes: state.userNotes,
+        unlockedAchievements: state.unlockedAchievements,
       }),
     }
   )

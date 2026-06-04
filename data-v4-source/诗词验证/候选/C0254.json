@@ -1,0 +1,26 @@
+{
+  "id": "C0254",
+  "title": "虞美人",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "虞美人",
+  "paragraphs": [
+    "深深庭院清明过。",
+    "桃李初红破。",
+    "柳丝搭在玉阑干。",
+    "帘外潇潇微雨、做轻寒。",
+    "晚晴台榭增明媚。",
+    "已拼花前醉。",
+    "更阑人静月侵廊。",
+    "独自行来行去、好思量。"
+  ],
+  "coreVerse": "深深庭院清明过。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

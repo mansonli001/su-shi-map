@@ -1,0 +1,24 @@
+{
+  "id": "C0248",
+  "title": "南歌子·云鬓裁新绿，霞衣曳晓",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "云鬓裁新绿，霞衣曳晓红。",
+    "待歌凝立翠筵中。",
+    "一朵彩云何事、下巫峰。",
+    "趁拍鸾飞镜，回身燕漾空。",
+    "莫翻红袖过帘栊。",
+    "怕被杨花句引、嫁东风。"
+  ],
+  "coreVerse": "云鬓裁新绿，霞衣曳晓红。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

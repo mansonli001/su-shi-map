@@ -1,0 +1,26 @@
+{
+  "id": "C0244",
+  "title": "行香子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "行香子",
+  "paragraphs": [
+    "北望平川。",
+    "野水荒湾。",
+    "共寻春、飞步孱颜。",
+    "和风弄袖，香雾萦鬟。",
+    "正酒酣时，人语笑，白云间。",
+    "飞鸿落照，相将归去，澹娟娟、玉宇清闲。",
+    "何人无事，宴坐空山。",
+    "望长桥上，灯火乱，使君还。"
+  ],
+  "coreVerse": "北望平川。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

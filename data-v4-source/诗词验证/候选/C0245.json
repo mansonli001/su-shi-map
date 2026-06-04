@@ -1,0 +1,25 @@
+{
+  "id": "C0245",
+  "title": "画堂春",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "画堂春",
+  "paragraphs": [
+    "柳花飞处麦摇波。",
+    "晚湖净鉴新磨。",
+    "小舟飞棹去如梭。",
+    "齐唱采菱歌。",
+    "平野水云溶漾，小楼风日晴和。",
+    "济南何在暮云多。",
+    "归去奈愁何。"
+  ],
+  "coreVerse": "柳花飞处麦摇波。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

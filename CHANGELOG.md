@@ -1,6 +1,207 @@
 # 苏轼地图项目变更日志
 
+## 2026-06-04
+
+---
+
+### 23. BUG-FOOD-001 美食模块假数据修复 + 成就系统数据源去重
+
+**问题描述**：
+6/3 落地的美食模块存在 P0 级数据真实性事故，并伴随成就系统数据漂移风险，需要在合并到主分支前修复。
+
+**故障根因**：
+
+| # | 严重度 | 问题 | 后果 |
+|---|--------|------|------|
+| 1 | 🚨 P0 | `lib/food-search.ts` 的 `searchNearbyFood` 是 mock 实现，无论用户在哪个地点（黄州/眉山/惠州/儋州）永远返回同样的 5 家硬编码杭州餐厅（东坡酒楼/楼外楼/知味观/奎元馆/杭帮菜博物馆） | 上线后用户在儋州看到楼外楼，立刻信任崩塌 |
+| 2 | 🟡 P1 | `lib/store.ts` 的 `checkAndUnlockAchievements` 内硬编码了一份完整的 6 枚成就数据，与 `lib/achievements.ts` 单一数据源完全重复 | 未来改金句/emoji/名称两边漂移 |
+| 3 | 🟡 P1 | `lib/amap-loader.ts` 的 plugins 列表缺 `AMap.PlaceSearch` | PlaceSearch 调用直接 undefined |
+
+**修复方案**：
+
+| 修改项 | 文件 | 说明 |
+|--------|------|------|
+| 真接入高德 PlaceSearch | `lib/food-search.ts` | 用 `AMap.PlaceSearch` + `searchNearBy` 真调用，type=050000 餐饮服务大类，半径 2000m，返回前 20 条；映射 POI 到 `AMapPOIResult` schema 保持 PlaceCard 向后兼容 |
+| 失败兜底 | `lib/food-search.ts` | SDK 加载失败 / 插件超时（5s）/ status≠complete / 异常一律返回 `[]`，UI 显示「附近暂无推荐」不阻塞苏轼特供 |
+| SSR 防护 | `lib/food-search.ts` | `typeof window === 'undefined'` 直接返回 `[]`，避免误调爆炸 |
+| 苏轼特供加单 Promise 缓存 | `lib/food-search.ts` | `_sushiFoodsPromise` 单例，避免切换地点时反复 fetch JSON |
+| PlaceSearch 插件按需加载 | `lib/food-search.ts` | `AMap.plugin(['AMap.PlaceSearch'], cb)` 动态加载，不污染初始 SDK 体积 |
+| 基础 plugins 补 PlaceSearch | `lib/amap-loader.ts` | plugins 列表追加 `AMap.PlaceSearch` 双保险 |
+| 删除重复的 achievementMap | `lib/store.ts` | 6 枚成就硬编码（35 行）整体删除，改为 `import { getAchievement }` + `getAchievement(latestId)`，单一数据源即 `lib/achievements.ts` |
+
+**修复效果**：
+- ✅ 用户在任意地点点「附近推荐」拿到的是真实高德 POI（餐饮店名/距离/评分/类别）
+- ✅ 高德 SDK / 插件 / API 任意环节失败一律静默兜底，不影响苏轼特供与打卡主流程
+- ✅ 成就金句 / emoji / 名称只在 `lib/achievements.ts` 维护一份，store 不再持有副本
+- ✅ `npx next build` 通过，0 TypeScript 错误，0 ESLint 警告
+
+**验证记录**：
+```
+✓ Compiled successfully
+✓ Generating static pages (11/11)
+○ (Static)  / /about /checkin /explore /poems /profile /routes /_not-found
+ƒ (Dynamic) /api/* /poems/[id] /routes/[id]
+```
+
+---
+
+### 22. BUG-NAV-003 移动端 Header 图标重复与布局挤压修复
+
+**问题描述**：
+- 视觉重复冗余：路线筛选和全局搜索共用放大镜图标，用户无法区分功能
+- 移动端布局挤压：窄屏环境下右侧图标被压缩变形、间距拥挤、显示裁切
+
+**故障根因**：
+- 图标复用错误：路线筛选、全局搜索共用放大镜Search图标
+- 布局缺少弹性约束：Header容器未使用flex:1自适应分配空间
+- 图标无最小尺寸：窄屏自动挤压变形
+
+**修复方案**：
+
+| 修改项 | 文件 | 说明 |
+|--------|------|------|
+| 图标差异化 | `app/explore/page.tsx` | 路线列表改用📍地图标记图标，搜索保留🔍放大镜 |
+| 布局弹性约束 | `app/explore/page.tsx` | Header容器改为 `justify-between`，标题区域 `flex-1` |
+| 图标最小尺寸 | `app/explore/page.tsx` | 所有按钮添加 `min-w-[44px] min-h-[44px]`（全局触控规范） |
+| 间距统一 | `app/explore/page.tsx` | 右侧图标组使用 `gap-1 md:gap-2` |
+| 移动端左侧按钮 | `app/explore/page.tsx` | 首页按钮移到左侧，避免右侧拥挤 |
+
+**修复效果**：
+- ✅ 图标语义清晰：📍路线列表 vs 🔍全局搜索，用户可快速区分
+- ✅ 移动端布局稳定：按钮固定44px最小尺寸，不会被挤压变形
+- ✅ 间距均匀：右侧图标组有合理间距，不紧贴
+- ✅ 桌面端不变：原有布局和交互逻辑保持不变
+
+---
+
+### 21. BUG-NAV-002 地点详情抽屉移动端滚动修复
+
+**问题描述**：
+- PC桌面端：地点详情抽屉弹窗可正常滚动浏览
+- 移动端：长内容详情抽屉高度被截断，内部无法滚动，底部内容被遮挡
+
+**故障根因**：
+- CSS布局定位错误：移动端BottomSheet缺少高度约束
+- 滚动层级溢出：弹窗父容器未添加`overflow-y: auto`
+- PWA安全区适配缺失：未适配`env(safe-area-inset-bottom)`底部安全边距
+
+**修复方案**：
+
+| 修改项 | 文件 | 说明 |
+|--------|------|------|
+| 外层容器高度约束 | `components/place/PlaceCard.tsx` | 设置 `maxHeight: calc(100vh - env(safe-area-inset-top) - 60px - 70px - env(safe-area-inset-bottom))` |
+| 内容区独立滚动 | `components/place/PlaceCard.tsx` | 添加 `overflow-y: auto` + `WebkitOverflowScrolling: touch` |
+| 拖拽手柄固定 | `components/place/PlaceCard.tsx` | 添加 `shrink-0` 防止被压缩 |
+
+**修复效果**：
+- ✅ 移动端长内容详情抽屉可正常滚动，末尾文字完整展示
+- ✅ iPhone全面屏机型避开顶部刘海、底部手势条、全局Tab，无遮挡
+- ✅ PC桌面端原有逻辑不变，保持正常滚动效果
+- ✅ 兼容即将上线的全局底部Tab导航（预留70px高度）
+
+---
+
+### 20. BUG-NAV-001 全页面统一底部导航修复
+
+**问题描述**：
+- 一级页面（首页/地图/诗词/我的）显示自研水墨风格4项Tab导航
+- 二级详情页（诗词详情`/poems/[id]`、地点详情）仅显示浏览器原生控件，无项目统一导航
+- UI不一致、交互路径冗余、PWA体验破损
+
+**修复方案**：
+
+| 修改项 | 文件 | 说明 |
+|--------|------|------|
+| 根布局全局挂载 | `app/layout.tsx` | 添加全局底部安全边距 `pb-[calc(70px+env(safe-area-inset-bottom))]`，全局挂载 `<BottomNav />` |
+| 路由高亮增强 | `components/BottomNav.tsx` | 新增 `/places/*` 路径匹配「地图」Tab高亮 |
+| PWA配置检查 | `public/manifest.json` | 已配置 `"display": "standalone"` |
+
+**修复效果**：
+- ✅ 全站点统一：所有页面（含动态详情页）固定显示同款底部4项Tab导航
+- ✅ 高亮规则正确：诗词列表/详情页 →「诗词」高亮；地图/地点详情 →「地图」高亮  
+- ✅ PWA原生体验：隐藏浏览器原生导航控件，实现APP级沉浸式浏览
+- ✅ 交互逻辑一致：详情页可一键跳转任意一级页面，无需逐级返回
+
+---
+
+### 19. ESLint 代码质量修复
+
+**目标**：修复项目中的 ESLint 代码质量问题，包括未使用变量、`any` 类型、`prefer-const` 等。
+
+**修复内容**：
+
+| 文件 | 修复项 |
+|------|--------|
+| `app/api/og/route.tsx` | 删除未使用变量 `placeName`、`summary`，添加类型定义 |
+| `app/api/route/route.ts` | 添加 `AMapPathStep`、`AMapPath` 接口，移除 `error: any` |
+| `app/checkin/page.tsx` | 移除未使用的 `useEffect` 导入 |
+| `app/explore/page.tsx` | 修复 `any` 类型，移除 `error: any` |
+| `app/poems/[id]/page.tsx` | 移除未使用的 `RouteIdx` 类型和 `favoritePoems` 变量，优化 `let` → `const` |
+| `app/poems/page.tsx` | 移除未使用的 `setSearchQuery` |
+| `app/routes/page.tsx` | 修复类型转换问题 |
+| `components/LeftSidebar.tsx` | 修复 `any` 类型 |
+| `components/Search.tsx` | 修复类型转换问题 |
+| `components/StageTimelineBar.tsx` | 修复 `any` 类型 |
+| `components/TrajectoryAnimation.tsx` | 移除未使用的 `PlaceCore` 导入和 `STAGE_COLORS` 常量 |
+| `data-v4/scripts/audit-completeness.ts` | 将 `any[]` 改为 `unknown[]` |
+
+**验证**：`npx next build` ✓ 编译成功，无 TypeScript 错误。
+
+---
+
 ## 2026-06-03
+
+---
+
+### 18. Phase 5 - 打卡/成就/美食功能开发
+
+**目标**：实现完整的用户成就系统和美食推荐功能，提升用户互动体验。
+
+**核心亮点**：
+- 零技术债起步：清理无人调用的老打卡代码（`lib/idb.ts` + `components/Checkin.tsx`）
+- 复用现有 zustand store：直接在 `addCheckin()` 中集成成就解锁判定
+- Canvas 成就卡 1:1 复刻设计稿：750×1280 / 6枚成就 / 金句+出处 / 系统衬线字体降级
+- 美食模块深嵌 PlaceCard：travel Tab 加3档sub-tab（全部/苏轼特供/附近推荐）
+- 高德POI 1分钟同地点缓存避免重复请求
+
+**新增文件**：
+| 文件 | 说明 |
+|------|------|
+| `lib/uid.ts` | 匿名UUID生成器（localStorage存储） |
+| `lib/achievements.ts` | 成就系统核心模块（6枚成就定义+解锁逻辑） |
+| `lib/achievement-card.ts` | Canvas成就卡生成器（750×1280 PNG） |
+| `lib/food-search.ts` | 美食搜索模块（AMap POI封装+1分钟缓存） |
+| `data-v4/foods-sushi.json` | 苏轼特供美食数据（15种特色美食） |
+| `components/AchievementWall.tsx` | 成就墙组件 |
+| `components/AchievementCardModal.tsx` | 成就卡预览弹窗 |
+| `components/AchievementToast.tsx` | 成就解锁Toast提示 |
+
+**修改文件**：
+| 文件 | 修改内容 |
+|------|----------|
+| `lib/store.ts` | 添加成就状态（unlockedAchievements、checkAndUnlockAchievements） |
+| `app/profile/page.tsx` | 新增成就墙Tab、统计卡片升级、打卡进度条 |
+| `components/place/PlaceCard.tsx` | Travel Tab加美食sub-tab（全部/苏轼特供/附近推荐） |
+
+**6枚成就定义**：
+| 成就ID | 名称 | 解锁条件 | 金句 |
+|--------|------|----------|------|
+| bronze | 苏轼青铜爱好者 | 打卡5个地点 | 人生到处知何似，应似飞鸿踏雪泥 |
+| silver | 苏轼白银探索者 | 打卡20个地点 | 竹外桃花三两枝，春江水暖鸭先知 |
+| gold | 苏轼黄金追寻者 | 打卡50个地点 | 明月几时有，把酒问青天 |
+| exile | 贬谪三地行者 | 打卡黄州、惠州、儋州 | 一蓑烟雨任平生 |
+| westlake | 西湖苏堤漫步 | 打卡杭州系列地点 | 欲把西湖比西子，淡妆浓抹总相宜 |
+| full | 集大成者 | 打卡全部120个地点 | 大江东去，浪淘尽，千古风流人物 |
+
+**苏轼特供美食（15种）**：
+- 东坡肉、东坡羹、东坡饼、东坡肘子
+- 西湖醋鱼、龙井虾仁、葱包桧
+- 惠州梅菜扣肉、儋州粽子、儋州海鲜
+- 蜜酒、荔枝、莼菜羹、蟹、河豚
+
+**删除文件**：
+- `lib/idb.ts` - 老打卡代码，无人调用
+- `components/Checkin.tsx` - 老打卡组件，无人调用
 
 ---
 

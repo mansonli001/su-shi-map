@@ -13,10 +13,8 @@ export async function GET(request: NextRequest) {
   const id = searchParams.get('id');
 
   // 默认值
-  let placeName = '读苏轼·游神州';
   let modernName = '苏轼一生足迹交互式地图';
   let ancientName = '';
-  let summary = '';
   let famousLine = '';
   let author = '';
 
@@ -26,11 +24,10 @@ export async function GET(request: NextRequest) {
       const indexRes = await fetch(new URL(`/data-v4/places-index.json`, request.url));
       if (indexRes.ok) {
         const indexData = await indexRes.json();
-        const place = indexData.places?.find((p: any) => p.id === id);
+        const place = indexData.places?.find((p: { id: string }) => p.id === id);
         if (place) {
           ancientName = place.ancient_name || place.songName || '';
           modernName = place.modern_name || '';
-          summary = place.summary || '';
 
           // 如果有诗词，提取名句
           if (place.poems && place.poems.length > 0) {

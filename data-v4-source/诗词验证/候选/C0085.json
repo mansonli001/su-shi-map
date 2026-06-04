@@ -1,0 +1,24 @@
+{
+  "id": "C0085",
+  "title": "南歌子·古岸开青葑，新渠走碧",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "古岸开青葑，新渠走碧流。",
+    "会看光满万家楼。",
+    "记取他年扶路、入西州。",
+    "佳节连梅雨，馀生寄叶舟。",
+    "只将菱角与鸡头。",
+    "更有月明千顷、一时留。"
+  ],
+  "coreVerse": "古岸开青葑，新渠走碧流。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,6 +1,20 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAMapKey } from '@/lib/config';
 
+interface AMapPathStep {
+  instruction: string;
+  road: string;
+  distance: number;
+  polyline: string;
+}
+
+interface AMapPath {
+  distance: number;
+  duration: number;
+  polyline: string;
+  steps: AMapPathStep[];
+}
+
 /**
  * 高德导航API - 获取真实行车路径
  * 
@@ -28,7 +42,7 @@ export async function GET(request: NextRequest) {
     
     if (data.status === '1' && data.info === 'OK') {
       // 解析路径坐标
-      const routes = data.route.paths.map((path: any) => {
+      const routes = data.route.paths.map((path: AMapPath) => {
         // 解析 polyline（格式：lng,lat;lng,lat;...）
         const polyline = path.polyline;
         const points = polyline.split(';').map((coord: string) => {
@@ -40,7 +54,7 @@ export async function GET(request: NextRequest) {
           distance: path.distance,  // 距离（米）
           duration: path.duration,  // 时间（秒）
           polyline: points,
-          steps: path.steps.map((step: any) => ({
+          steps: path.steps.map((step: AMapPathStep) => ({
             instruction: step.instruction,
             road: step.road,
             distance: step.distance,
@@ -64,9 +78,9 @@ export async function GET(request: NextRequest) {
         { status: 500 }
       );
     }
-  } catch (error: any) {
+  } catch (error) {
     return NextResponse.json(
-      { error: '服务器错误', detail: error.message },
+      { error: '服务器错误', detail: error instanceof Error ? error.message : String(error) },
       { status: 500 }
     );
   }
@@ -140,9 +154,9 @@ export async function POST(request: NextRequest) {
       polyline: merged,  // 合并后的真实路径坐标
       segments: allPolylines.length
     });
-  } catch (error: any) {
+  } catch (error) {
     return NextResponse.json(
-      { error: '服务器错误', detail: error.message },
+      { error: '服务器错误', detail: error instanceof Error ? error.message : String(error) },
       { status: 500 }
     );
   }

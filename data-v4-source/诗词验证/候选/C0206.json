@@ -1,0 +1,26 @@
+{
+  "id": "C0206",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "玉房金蕊。",
+    "宜在玉人纤手里。",
+    "淡月朦胧。",
+    "更有微微弄袖风。",
+    "温香熟美。",
+    "醉慢云鬟垂两耳。",
+    "多谢春工。",
+    "不是花红是玉红。"
+  ],
+  "coreVerse": "玉房金蕊。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

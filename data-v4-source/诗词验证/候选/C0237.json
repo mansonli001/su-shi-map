@@ -1,0 +1,26 @@
+{
+  "id": "C0237",
+  "title": "虞美人",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "虞美人",
+  "paragraphs": [
+    "持杯遥劝天边月。",
+    "愿月圆无缺。",
+    "持杯复更劝花枝。",
+    "且愿花枝长在、莫离披。",
+    "持杯月下花前醉。",
+    "休问荣枯事。",
+    "此欢能有几人知。",
+    "对酒逢花不饮、待何时。"
+  ],
+  "coreVerse": "持杯遥劝天边月。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "C0091",
+  "title": "南歌子·苒苒中秋过，萧萧两鬓",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "苒苒中秋过，萧萧两鬓华。",
+    "寓身化世一尘沙。",
+    "笑看潮来潮去、了生涯。",
+    "方士三山路，渔人一叶家。",
+    "早知身世两聱牙。",
+    "好伴骑鲸公子、赋雄夸。"
+  ],
+  "coreVerse": "苒苒中秋过，萧萧两鬓华。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

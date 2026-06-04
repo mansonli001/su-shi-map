@@ -1,0 +1,26 @@
+{
+  "id": "C0220",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "涂香莫惜莲承步。",
+    "长愁罗袜凌波去。",
+    "只见舞迥风。",
+    "都无行处踪。",
+    "偷穿宫样稳。",
+    "并立双趺困。",
+    "纤妙说应难。",
+    "须从掌上看。"
+  ],
+  "coreVerse": "涂香莫惜莲承步。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

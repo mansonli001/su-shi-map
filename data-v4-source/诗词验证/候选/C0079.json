@@ -1,0 +1,26 @@
+{
+  "id": "C0079",
+  "title": "南乡子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "旌旆满江湖。",
+    "诏发楼船万舳舻。",
+    "投笔将军因笑我，迂儒。",
+    "帕首腰刀是丈夫。",
+    "粉泪怨离居。",
+    "喜子垂窗报捷书。",
+    "试问伏波三万语，何如。",
+    "一斛明珠换绿珠。"
+  ],
+  "coreVerse": "旌旆满江湖。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0032",
+  "title": "西江月",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "点点楼头细雨。",
+    "重重江外平湖。",
+    "当年戏马会东徐。",
+    "今日凄凉南浦。",
+    "莫恨黄花未吐。",
+    "且教红粉相扶。",
+    "酒阑不必看茱萸。",
+    "俯仰人间今古。"
+  ],
+  "coreVerse": "点点楼头细雨。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "C0209",
+  "title": "浣溪沙",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "浣溪沙",
+  "paragraphs": [
+    "霜鬓真堪插拒霜。",
+    "哀弦危柱作《伊凉》。",
+    "暂时流转为风光。",
+    "未遣清尊空北海，莫因《长笛》赋山阳。",
+    "金钗玉腕泻鹅黄。"
+  ],
+  "coreVerse": "霜鬓真堪插拒霜。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

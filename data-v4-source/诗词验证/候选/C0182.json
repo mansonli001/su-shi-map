@@ -1,0 +1,24 @@
+{
+  "id": "C0182",
+  "title": "诉衷情",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "诉衷情",
+  "paragraphs": [
+    "小莲初上琵琶弦。",
+    "弹破碧云天。",
+    "分明绣阁幽恨，都向曲中传。",
+    "肤莹玉，鬓梳蝉。",
+    "绮窗前。",
+    "素蛾今夜，故故随人，似斗婵娟。"
+  ],
+  "coreVerse": "小莲初上琵琶弦。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

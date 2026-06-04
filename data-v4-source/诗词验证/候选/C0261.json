@@ -1,0 +1,28 @@
+{
+  "id": "C0261",
+  "title": "渔家傲",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "渔家傲",
+  "paragraphs": [
+    "临水纵横回晚鞚。",
+    "归来转觉情怀动。",
+    "梅笛烟中闻几弄。",
+    "秋阴重。",
+    "西山雪淡云凝冻。",
+    "美酒一杯谁与共。",
+    "尊前舞雪狂歌送。",
+    "腰跨金鱼旌旆拥。",
+    "将何用。",
+    "只堪妆点浮生梦。"
+  ],
+  "coreVerse": "临水纵横回晚鞚。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

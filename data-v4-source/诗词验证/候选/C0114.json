@@ -1,0 +1,30 @@
+{
+  "id": "C0114",
+  "title": "贺新郎",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "贺新郎",
+  "paragraphs": [
+    "乳燕飞华屋。",
+    "悄无人、桐阴转午，晚凉新浴。",
+    "手弄生绡白团扇，扇手一时似玉。",
+    "渐困倚、孤眠清熟。",
+    "帘外谁来推绣户，枉教人、梦断瑶台曲。",
+    "又却是，风敲竹。",
+    "石榴半吐红巾蹙。",
+    "待浮花、浪蕊都尽，伴君幽独。",
+    "秾艳一枝细看取，芳心千重似束。",
+    "又恐被、秋风惊绿。",
+    "若待得君来向此，花前对酒不忍触。",
+    "共粉泪，两蔌蔌。"
+  ],
+  "coreVerse": "乳燕飞华屋。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

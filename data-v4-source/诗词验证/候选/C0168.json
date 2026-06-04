@@ -1,0 +1,24 @@
+{
+  "id": "C0168",
+  "title": "翻香令",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "翻香令",
+  "paragraphs": [
+    "金炉犹暖麝煤残。",
+    "惜香更把宝钗翻。",
+    "重闻处，馀薰在，这一番、气味胜从前。",
+    "背人偷盖小蓬山。",
+    "更将沈水暗同然。",
+    "且图得，氤氲久，为情深、嫌怕断头烟。"
+  ],
+  "coreVerse": "金炉犹暖麝煤残。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

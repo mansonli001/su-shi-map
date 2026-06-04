@@ -1,0 +1,24 @@
+{
+  "id": "C0087",
+  "title": "南歌子·日出西山雨，无晴又有",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "日出西山雨，无晴又有晴。",
+    "乱山深处过清明。",
+    "不见彩绳花板、细腰轻。",
+    "尽日行桑野，无人与目成。",
+    "且将新句琢琼英。",
+    "我是世间闲客、此闲行。"
+  ],
+  "coreVerse": "日出西山雨，无晴又有晴。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0137",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "自古涟漪佳绝地。",
+    "绕郭荷花，欲把吴兴比。",
+    "倦客尘埃何处洗。",
+    "真君堂下寒泉水。",
+    "左海门前酤酒市。",
+    "夜半潮来，月下孤舟起。",
+    "倾盖相逢拼一醉。",
+    "双凫飞去人千里。"
+  ],
+  "coreVerse": "自古涟漪佳绝地。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

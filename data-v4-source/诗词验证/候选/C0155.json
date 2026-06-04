@@ -1,0 +1,26 @@
+{
+  "id": "C0155",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "娟娟缺月西南落。",
+    "相思拨断琵琶索。",
+    "枕泪梦魂中。",
+    "觉来眉晕重。",
+    "华堂堆烛泪。",
+    "长笛吹《新水》。",
+    "醉客各西东。",
+    "应思陈孟公。"
+  ],
+  "coreVerse": "娟娟缺月西南落。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

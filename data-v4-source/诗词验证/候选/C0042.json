@@ -1,0 +1,24 @@
+{
+  "id": "C0042",
+  "title": "临江仙·诗句端来磨我钝，钝锥",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "诗句端来磨我钝，钝锥不解生鋩。",
+    "欢颜为我解冰霜。",
+    "酒阑清梦觉，春草满池塘。",
+    "应念雪堂坡下老，昔年共采芸香。",
+    "功成名遂早还乡。",
+    "回车来过我，乔木拥千章。"
+  ],
+  "coreVerse": "诗句端来磨我钝，钝锥不解生鋩。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

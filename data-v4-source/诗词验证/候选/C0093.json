@@ -1,0 +1,24 @@
+{
+  "id": "C0093",
+  "title": "南歌子·欲执河梁手，还升月旦",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "欲执河梁手，还升月旦堂。",
+    "酒阑人散月侵廊。",
+    "北客明朝归去、雁南翔。",
+    "窈窕高明玉，风流郑季庄。",
+    "一时分散水云乡。",
+    "惟有落花芳草、断人肠。"
+  ],
+  "coreVerse": "欲执河梁手，还升月旦堂。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

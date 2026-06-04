@@ -1,0 +1,24 @@
+{
+  "id": "C0115",
+  "title": "洞仙歌·江南腊尽，早梅花开后",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "洞仙歌",
+  "paragraphs": [
+    "江南腊尽，早梅花开后。",
+    "分付新春与垂柳。",
+    "细腰肢、自有入格风流，仍更是、骨体清英雅秀。",
+    "永丰坊那畔，尽日无人，惟见金丝弄晴昼。",
+    "断肠是，飞絮时，绿叶成阴，无个事、一成消瘦。",
+    "又莫是、东风逐君来，便吹散眉间，一点春皱。"
+  ],
+  "coreVerse": "江南腊尽，早梅花开后。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

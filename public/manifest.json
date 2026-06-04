@@ -1,5 +1,5 @@
 {
-  "name": "读苏轼·游神州",
+  "name": "行吟山河",
   "short_name": "苏轼足迹",
   "description": "苏轼一生234地点交互式数字地图",
   "start_url": "/",
@@ -19,7 +19,7 @@
       "type": "image/png"
     },
     {
-      "src": "/icons/pwa-512.png",
+      "src": "/icons/pwa-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

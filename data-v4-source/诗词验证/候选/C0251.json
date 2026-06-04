@@ -1,0 +1,24 @@
+{
+  "id": "C0251",
+  "title": "木兰花令",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "木兰花令",
+  "paragraphs": [
+    "经旬未识东君信。",
+    "一夕薰风来解愠。",
+    "红绡衣薄麦秋寒，绿绮韵低梅雨润。",
+    "瓜头绿染山光嫩。",
+    "弄色金桃新傅粉。",
+    "日高慵卷水晶帘，犹带春醪红玉困。"
+  ],
+  "coreVerse": "经旬未识东君信。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "C0107",
+  "title": "卜算子·蜀客到江南，长忆吴山",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "卜算子",
+  "paragraphs": [
+    "蜀客到江南，长忆吴山好。",
+    "吴蜀风流自古同，归去应须早。",
+    "还与去年人，共藉西湖草。",
+    "莫惜尊前仔细看，应是容颜老。"
+  ],
+  "coreVerse": "蜀客到江南，长忆吴山好。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

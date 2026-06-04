@@ -1,0 +1,24 @@
+{
+  "id": "C0279",
+  "title": "踏莎行",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "踏莎行",
+  "paragraphs": [
+    "山秀芙蓉，溪明罨画。",
+    "真游洞穴沧波下。",
+    "临风慨想斩蛟灵，长桥千载犹横跨。",
+    "解佩投簪，求田问舍。",
+    "黄鸡白酒渔樵社。",
+    "元龙非复少时豪，耳根洗尽功名话。"
+  ],
+  "coreVerse": "山秀芙蓉，溪明罨画。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

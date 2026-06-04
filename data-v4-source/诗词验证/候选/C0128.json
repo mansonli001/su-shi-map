@@ -1,0 +1,28 @@
+{
+  "id": "C0128",
+  "title": "江神子・江城子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "江神子・江城子",
+  "paragraphs": [
+    "黄昏犹是雨纤纤。",
+    "晓开帘。",
+    "欲平檐。",
+    "江阔天低，无处认青帘。",
+    "孤坐冻吟谁伴我，揩病目，拈衰髯。",
+    "使君留客醉厌厌。",
+    "水晶盐。",
+    "为谁甜。",
+    "手把梅花，东望忆陶潜。",
+    "雪似故人人似雪，虽可爱，有人嫌。"
+  ],
+  "coreVerse": "黄昏犹是雨纤纤。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

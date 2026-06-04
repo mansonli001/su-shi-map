@@ -1,0 +1,24 @@
+{
+  "id": "C0045",
+  "title": "临江仙·忘却成都来十载，因君",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "忘却成都来十载，因君未免思量。",
+    "凭将清泪洒江阳。",
+    "故山知好在，孤客自悲凉。",
+    "坐上别愁君未见，归来欲断无肠。",
+    "殷勤且更尽离觞。",
+    "此身如传舍，何处是吾乡。"
+  ],
+  "coreVerse": "忘却成都来十载，因君未免思量。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

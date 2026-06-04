@@ -1,0 +1,24 @@
+{
+  "id": "C0044",
+  "title": "临江仙·自古相从休务日，何妨",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "自古相从休务日，何妨低唱微吟。",
+    "天垂云重作春阴。",
+    "坐中人半醉，帘外雪将深。",
+    "闻道分司狂御史，紫云无路追寻。",
+    "凄风寒雨是骎骎。",
+    "问囚长损气，见鹤忽惊心。"
+  ],
+  "coreVerse": "自古相从休务日，何妨低唱微吟。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

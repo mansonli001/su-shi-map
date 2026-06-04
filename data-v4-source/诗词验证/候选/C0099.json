@@ -1,0 +1,24 @@
+{
+  "id": "C0099",
+  "title": "南歌子·绀绾双蟠髻，云敧小偃",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "绀绾双蟠髻，云敧小偃巾。",
+    "轻盈红脸小腰身。",
+    "叠鼓忽催花拍、斗精神。",
+    "空阔轻红歇，风和约柳春。",
+    "蓬山才调最清新。",
+    "胜似缠头千锦、共藏珍。"
+  ],
+  "coreVerse": "绀绾双蟠髻，云敧小偃巾。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

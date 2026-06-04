@@ -1,0 +1,26 @@
+{
+  "id": "C0165",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "柳庭风静人眠昼。",
+    "昼眠人静风庭柳。",
+    "香汗薄衫凉。",
+    "凉衫薄汗香。",
+    "手红冰碗藕。",
+    "藕碗冰红手。",
+    "郎笑藕丝长。",
+    "长丝藕笑郎。"
+  ],
+  "coreVerse": "柳庭风静人眠昼。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -49,7 +49,7 @@ export default function Search() {
       .then((cores: PlaceIndex[]) => {
         const core = cores.find(p => p.id === place.id);
         if (core) {
-          setSelectedPlace(core as any);
+          setSelectedPlace(core as unknown as Parameters<typeof setSelectedPlace>[0]);
         }
       });
     setQuery('');

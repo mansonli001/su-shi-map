@@ -1,0 +1,24 @@
+{
+  "id": "C0088",
+  "title": "南歌子·带酒冲山雨，和衣睡晚",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "带酒冲山雨，和衣睡晚晴。",
+    "不知钟鼓报天明。",
+    "梦里栩然蝴蝶、一身轻。",
+    "老去才都尽，归来计未成。",
+    "求田问舍笑豪英。",
+    "自爱湖边沙路、免泥行。"
+  ],
+  "coreVerse": "带酒冲山雨，和衣睡晚晴。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

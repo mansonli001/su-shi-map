@@ -1,0 +1,30 @@
+{
+  "id": "C0127",
+  "title": "江神子・江城子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "江神子・江城子",
+  "paragraphs": [
+    "相逢不觉又初寒。",
+    "对尊前。",
+    "惜流年。",
+    "风紧离亭，冰结泪珠圆。",
+    "雪意留君君不住，从此去，少清欢。",
+    "转头山下转头看。",
+    "路漫漫。",
+    "玉花翻。",
+    "银海光宽，何处是超然。",
+    "知道故人相念否，携翠袖，倚朱阑。"
+  ],
+  "coreVerse": "相逢不觉又初寒。",
+  "source": "chinese-poetry",
+  "confidence": 0.9899999999999999,
+  "verificationStatus": "ready_for_review",
+  "routeId": "R07",
+  "relatedRouteIds": [
+    "R07"
+  ],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

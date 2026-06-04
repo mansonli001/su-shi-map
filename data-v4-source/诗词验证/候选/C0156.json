@@ -1,0 +1,26 @@
+{
+  "id": "C0156",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "玉笙不受朱唇暖。",
+    "离声凄咽胸填满。",
+    "遗痕几千秋。",
+    "恩留人不留。",
+    "他年京国酒。",
+    "泫泪攀枯柳。",
+    "莫唱短因缘。",
+    "长安远似天。"
+  ],
+  "coreVerse": "玉笙不受朱唇暖。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

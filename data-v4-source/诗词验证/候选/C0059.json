@@ -1,0 +1,23 @@
+{
+  "id": "C0059",
+  "title": "少年游",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "少年游",
+  "paragraphs": [
+    "银塘朱槛曲尘波。",
+    "圆绿卷新荷。",
+    "兰条荐浴，菖花酿酒，天气尚清和。",
+    "好将沈醉酬佳节，十分酒、一分歌。",
+    "狱草烟深，讼庭人悄，无吝宴游过。"
+  ],
+  "coreVerse": "银塘朱槛曲尘波。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

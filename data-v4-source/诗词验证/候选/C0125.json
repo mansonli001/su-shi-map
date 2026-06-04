@@ -1,0 +1,30 @@
+{
+  "id": "C0125",
+  "title": "江神子・江城子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "江神子・江城子",
+  "paragraphs": [
+    "老夫聊发少年狂。",
+    "左牵黄。",
+    "右擎苍。",
+    "锦帽貂裘，千骑卷平冈。",
+    "为报倾城随太守，亲射虎，看孙郎。",
+    "酒酣胸胆尚开张。",
+    "鬓微霜。",
+    "又何妨。",
+    "持节云中，何日遣冯唐。",
+    "会挽雕弓如满月，西北望，射天狼。"
+  ],
+  "coreVerse": "老夫聊发少年狂。",
+  "source": "chinese-poetry",
+  "confidence": 0.9899999999999999,
+  "verificationStatus": "ready_for_review",
+  "routeId": "R07",
+  "relatedRouteIds": [
+    "R07"
+  ],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

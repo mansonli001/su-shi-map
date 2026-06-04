@@ -1,0 +1,22 @@
+{
+  "id": "C0102",
+  "title": "好事近·湖上雨晴时，秋水半篙",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "好事近",
+  "paragraphs": [
+    "湖上雨晴时，秋水半篙初没。",
+    "朱槛俯窥寒鉴，照衰颜华发。",
+    "醉中吹堕白纶巾，溪风漾流月。",
+    "独棹小舟归去，任烟波飘兀。"
+  ],
+  "coreVerse": "湖上雨晴时，秋水半篙初没。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

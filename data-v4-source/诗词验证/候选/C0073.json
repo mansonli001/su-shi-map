@@ -1,0 +1,26 @@
+{
+  "id": "C0073",
+  "title": "南乡子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "霜降水痕收。",
+    "浅碧鳞鳞露远洲。",
+    "酒力渐消风力软，飕飕。",
+    "破帽多情却恋头。",
+    "佳节若为酬。",
+    "但把清尊断送秋。",
+    "万事到头都是梦，休休。",
+    "明日黄花蝶也愁。"
+  ],
+  "coreVerse": "霜降水痕收。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

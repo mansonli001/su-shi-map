@@ -1,0 +1,26 @@
+{
+  "id": "C0158",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "风回仙驭云开扇。",
+    "更阑月堕星河转。",
+    "枕上梦魂惊。",
+    "晓檐疏雨零。",
+    "相逢虽草草。",
+    "长共天难老。",
+    "终不羡人间。",
+    "人间日似年。"
+  ],
+  "coreVerse": "风回仙驭云开扇。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

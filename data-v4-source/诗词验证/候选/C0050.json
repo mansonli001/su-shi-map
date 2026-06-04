@@ -1,0 +1,24 @@
+{
+  "id": "C0050",
+  "title": "临江仙·多病休文都瘦损，不堪",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "多病休文都瘦损，不堪金带垂腰。",
+    "望湖楼上暗香飘。",
+    "和风春弄袖，明月夜闻箫。",
+    "酒醒梦回清漏永，隐床无限更潮。",
+    "佳人不见董娇饶。",
+    "徘徊花上月，空度可怜宵。"
+  ],
+  "coreVerse": "多病休文都瘦损，不堪金带垂腰。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "C0124",
+  "title": "江神子・江城子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "江神子・江城子",
+  "paragraphs": [
+    "凤凰山下雨初晴。",
+    "水风清。",
+    "晚霞明。",
+    "一朵芙蕖，开过尚盈盈。",
+    "何处飞来双白鹭，如有意，慕娉婷。",
+    "忽闻江上弄哀筝。",
+    "苦含情，遣谁听。",
+    "烟敛云收，依约是湘灵。",
+    "欲待曲终寻问取，人不见，数峰青。"
+  ],
+  "coreVerse": "凤凰山下雨初晴。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

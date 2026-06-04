@@ -1,0 +1,26 @@
+{
+  "id": "C0082",
+  "title": "南乡子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "怅望送春杯。",
+    "渐老逢春能几回。",
+    "花满楚城愁远别，伤怀。",
+    "何况清丝急管催。",
+    "吟断望乡台。",
+    "万里归心独上来。",
+    "景物登临闲始见，徘徊。",
+    "一寸相思一寸灰。"
+  ],
+  "coreVerse": "怅望送春杯。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,29 @@
+{
+  "id": "C0061",
+  "title": "定风波",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "定风波",
+  "paragraphs": [
+    "两两轻红半晕腮。",
+    "依依独为使君回。",
+    "若道使君无此意。",
+    "何为。",
+    "双花不向别人开。",
+    "但看低昂烟雨里。",
+    "不已。",
+    "劝君休诉十分杯。",
+    "更问尊前狂副使。",
+    "来岁。",
+    "花开时节与谁来。"
+  ],
+  "coreVerse": "两两轻红半晕腮。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0249",
+  "title": "浪淘沙",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "浪淘沙",
+  "paragraphs": [
+    "昨日出东城。",
+    "拭探春情。",
+    "墙头红杏暗如倾。",
+    "槛内群芳芽未吐，早已回春。",
+    "绮陌敛香尘。",
+    "雪霁前村。",
+    "东君用意不辞辛。",
+    "料想春光先到处，吹绽梅英。"
+  ],
+  "coreVerse": "昨日出东城。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

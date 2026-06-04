@@ -1,0 +1,25 @@
+{
+  "id": "C0121",
+  "title": "阮郎归",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "阮郎归",
+  "paragraphs": [
+    "一年三度过苏台。",
+    "清尊长是开。",
+    "佳人相问苦相猜。",
+    "这回来不来。",
+    "情未尽，老先催。",
+    "人生真可咍，他年桃李阿谁栽。",
+    "刘郎双鬓衰。"
+  ],
+  "coreVerse": "一年三度过苏台。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

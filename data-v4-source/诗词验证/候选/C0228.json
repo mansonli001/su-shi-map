@@ -1,0 +1,26 @@
+{
+  "id": "C0228",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "江南游女。",
+    "问我何年归得去。",
+    "雨细风微。",
+    "雨足如霜挽纻衣。",
+    "江亭夜语。",
+    "喜见京华新样舞。",
+    "莲步轻飞。",
+    "迁客今朝始是归。"
+  ],
+  "coreVerse": "江南游女。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

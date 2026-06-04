@@ -32,13 +32,6 @@ type PoemIndex = {
   title: string;
 };
 
-type RouteIdx = {
-  id: string;
-  name: string;
-  start_year: number;
-  end_year: number;
-};
-
 export default function PoemDetailPage() {
   const router = useRouter();
   const params = useParams();
@@ -48,7 +41,7 @@ export default function PoemDetailPage() {
   const [allPoems, setAllPoems] = useState<PoemIndex[]>([]);
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [loading, setLoading] = useState(true);
-  const { favoritePoems, addFavoritePoem, removeFavoritePoem, isPoemFavorited } = useSuShiStore();
+  const { addFavoritePoem, removeFavoritePoem, isPoemFavorited } = useSuShiStore();
   const isFavorite = isPoemFavorited(poemId);
 
   useEffect(() => {
@@ -76,7 +69,7 @@ export default function PoemDetailPage() {
         setCurrentIndex(idx);
         
         // 处理数据：适配 fullText 和 paragraphs 两种格式
-        let processedPoem = {
+        const processedPoem = {
           ...poemData,
           author: poemData.author || '苏轼',
           paragraphs: [] as string[],

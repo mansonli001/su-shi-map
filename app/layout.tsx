@@ -1,11 +1,12 @@
 /**
- * Root Layout v9.1（微信浏览器深度适配）
+ * Root Layout v9.2（全站点统一底部导航）
  * 服务器组件（无 'use client'），导出 metadata + viewport + Open Graph
  * AMap Script 通过客户端组件 <AMapScript /> 加载
  */
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import AMapScript from '@/components/AMapScript';
+import BottomNav from '@/components/BottomNav';
 
 const SITE_URL = 'https://su-shi.starfluxes.com';
 
@@ -99,9 +100,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
       </head>
-      <body className="antialiased overflow-x-hidden">
+      <body className="antialiased overflow-x-hidden min-h-screen flex flex-col">
         <AMapScript />
-        {children}
+        {/* 主内容区：预留底部安全边距，适配底部Tab高度+系统安全区 */}
+        <main className="flex-1 pb-[calc(70px+env(safe-area-inset-bottom))]">
+          {children}
+        </main>
+        {/* 全局底部导航：所有页面共用，无例外（除特例全屏弹窗） */}
+        <BottomNav />
       </body>
     </html>
   );

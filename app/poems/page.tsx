@@ -33,7 +33,7 @@ export default function PoemsListPage() {
   const [routes, setRoutes] = useState<Map<string, RouteIdx>>(new Map());
   const [loading, setLoading] = useState(true);
   const [activeFilter, setActiveFilter] = useState<string>('全部');
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery] = useState('');
 
   const filters = ['全部', '词', '诗', '文', '赋'];
 

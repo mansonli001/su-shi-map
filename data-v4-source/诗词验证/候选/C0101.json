@@ -1,0 +1,24 @@
+{
+  "id": "C0101",
+  "title": "好事近·红粉莫悲啼，俯仰半年",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "好事近",
+  "paragraphs": [
+    "红粉莫悲啼，俯仰半年离别。",
+    "看取雪堂坡下，老农夫凄切。",
+    "明年春水漾桃花，柳岸隘舟楫。",
+    "从此满城歌吹，看黄州阗咽。"
+  ],
+  "coreVerse": "红粉莫悲啼，俯仰半年离别。",
+  "source": "chinese-poetry",
+  "confidence": 0.9899999999999999,
+  "verificationStatus": "ready_for_review",
+  "routeId": "R10",
+  "relatedRouteIds": [
+    "R10"
+  ],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

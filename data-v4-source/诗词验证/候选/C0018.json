@@ -1,0 +1,27 @@
+{
+  "id": "C0018",
+  "title": "满江红·天岂无情，天也解、多",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "满江红",
+  "paragraphs": [
+    "天岂无情，天也解、多情留客。",
+    "春向暖、朝来底事，尚飘轻雪。",
+    "君过春来纡组绶，我应归去耽泉石。",
+    "恐异时、杯酒忽相思，云山隔。",
+    "浮世事，俱难必。",
+    "人纵健，头应白。",
+    "何辞更一醉，此欢难觅。",
+    "欲向佳人诉离恨，泪珠先已凝双睫。",
+    "但莫遣、新燕却来时，音书绝。"
+  ],
+  "coreVerse": "天岂无情，天也解、多情留客。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

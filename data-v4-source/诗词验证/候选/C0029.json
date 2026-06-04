@@ -1,0 +1,24 @@
+{
+  "id": "C0029",
+  "title": "西江月·小院朱阑几曲，重城画",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "西江月",
+  "paragraphs": [
+    "小院朱阑几曲，重城画鼓三通。",
+    "更看微月转光风。",
+    "归去香云入梦。",
+    "翠袖争浮大白，皂罗半插斜红。",
+    "灯花零落酒花秾。",
+    "妙语一时飞动。"
+  ],
+  "coreVerse": "小院朱阑几曲，重城画鼓三通。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

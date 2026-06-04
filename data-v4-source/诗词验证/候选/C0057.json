@@ -1,0 +1,24 @@
+{
+  "id": "C0057",
+  "title": "鹧鸪天",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "鹧鸪天",
+  "paragraphs": [
+    "林断山明竹隐墙。",
+    "乱蝉衰草小池塘。",
+    "翻空白鸟时时见，照水红蕖细细香。",
+    "村舍外，古城旁。",
+    "杖藜徐步转斜阳。",
+    "殷勤昨夜三更雨，又得浮生一日凉。"
+  ],
+  "coreVerse": "林断山明竹隐墙。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

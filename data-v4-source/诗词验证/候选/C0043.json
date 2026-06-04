@@ -1,0 +1,24 @@
+{
+  "id": "C0043",
+  "title": "临江仙·我劝髯张归去好，从来",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "临江仙",
+  "paragraphs": [
+    "我劝髯张归去好，从来自己忘情。",
+    "尘心消尽道心平。",
+    "江南与塞北，何处不堪行。",
+    "俎豆庚桑真过矣，凭君说与南荣。",
+    "愿闻吴越报丰登。",
+    "君王如有问，结袜赖王生。"
+  ],
+  "coreVerse": "我劝髯张归去好，从来自己忘情。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

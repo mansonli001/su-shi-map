@@ -1,0 +1,26 @@
+{
+  "id": "C0207",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "春庭月午。",
+    "摇荡香醪光欲舞。",
+    "步转迥廊。",
+    "半落梅花婉娩香。",
+    "轻云薄雾。",
+    "总是少年行乐处。",
+    "不似秋光。",
+    "只与离人照断肠。"
+  ],
+  "coreVerse": "春庭月午。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

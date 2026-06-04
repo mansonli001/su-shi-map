@@ -1,0 +1,28 @@
+{
+  "id": "C0002",
+  "title": "水龙吟·楚山修竹如云，异材秀",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "水龙吟",
+  "paragraphs": [
+    "楚山修竹如云，异材秀出千林表。",
+    "龙须半翦，凤膺微涨，玉肌匀绕。",
+    "木落淮南，雨晴云梦，月明风袅。",
+    "自中郎不见，桓伊去后，知孤负、秋多少。",
+    "闻道岭南太守，后堂深、绿珠娇小。",
+    "绮窗学弄，梁州初遍，霓裳未了。",
+    "嚼徵含宫，泛商流羽，一声云杪。",
+    "为使君洗尽，蛮风瘴雨，作霜天晓。"
+  ],
+  "coreVerse": "楚山修竹如云，异材秀出千林表。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": [
+    "发现异体字/旧字形 '翦'（建议 '剪'）"
+  ]
+}

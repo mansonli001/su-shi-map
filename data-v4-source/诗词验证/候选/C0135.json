@@ -1,0 +1,26 @@
+{
+  "id": "C0135",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "灯火钱塘三五夜。",
+    "明月如霜，照见人如画。",
+    "帐底吹笙香吐麝。",
+    "此般风味应无价。",
+    "寂寞山城人老也。",
+    "击鼓吹箫，乍入农桑社。",
+    "火冷灯稀霜露下。",
+    "昏昏雪意云垂野。"
+  ],
+  "coreVerse": "灯火钱塘三五夜。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

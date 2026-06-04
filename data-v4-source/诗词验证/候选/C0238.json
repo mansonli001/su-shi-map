@@ -1,0 +1,30 @@
+{
+  "id": "C0238",
+  "title": "天仙子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "天仙子",
+  "paragraphs": [
+    "走马探花花发未。",
+    "人与化工俱不易。",
+    "千回来绕百回看，蜂作婢。",
+    "莺为使。",
+    "谷雨清明空屈指。",
+    "白发卢郎情未已。",
+    "一夜翦刀收玉蕊。",
+    "尊前还对断肠红，人有泪。",
+    "花无意。",
+    "明日酒醒应满地。"
+  ],
+  "coreVerse": "走马探花花发未。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": [
+    "发现异体字/旧字形 '翦'（建议 '剪'）"
+  ]
+}

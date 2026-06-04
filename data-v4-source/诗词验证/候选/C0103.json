@@ -1,0 +1,22 @@
+{
+  "id": "C0103",
+  "title": "鹊桥仙·缑山仙子，高情云渺，",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "鹊桥仙",
+  "paragraphs": [
+    "缑山仙子，高情云渺，不学痴牛呆女。",
+    "凤箫声断月明中，举手谢、时人欲去。",
+    "客槎曾犯，银河微浪，尚带天风海雨。",
+    "相逢一醉是前缘，风雨散、飘然何处。"
+  ],
+  "coreVerse": "缑山仙子，高情云渺，不学痴牛呆女。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -35,15 +35,15 @@ interface PlaceDetail {
   summary?: string;
   background?: string;
   tags?: string[];
-  periods?: any[];
-  global_events?: any[];
-  global_works?: any[];
-  route_events?: Record<string, any[]>;
-  route_works?: Record<string, any[]>;
-  memorial_sites?: any[];
-  foods?: any[];
+  periods?: unknown[];
+  global_events?: unknown[];
+  global_works?: unknown[];
+  route_events?: Record<string, unknown[]>;
+  route_works?: Record<string, unknown[]>;
+  memorial_sites?: unknown[];
+  foods?: unknown[];
   transport?: { train?: string; bus?: string; car?: string; airport?: string };
-  sub_places?: any[];
+  sub_places?: unknown[];
   legacy?: { ss_id?: string; confidence?: number; match_strategy?: string };
 }
 

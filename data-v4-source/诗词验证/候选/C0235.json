@@ -1,0 +1,23 @@
+{
+  "id": "C0235",
+  "title": "少年游",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "少年游",
+  "paragraphs": [
+    "玉肌铅粉傲秋霜。",
+    "准拟凤呼凰。",
+    "伶伦不见，清香未吐，且糠秕吹扬。",
+    "到处成双君独只，空无数、烂文章。",
+    "一点香檀，谁能借箸，无复似张良。"
+  ],
+  "coreVerse": "玉肌铅粉傲秋霜。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

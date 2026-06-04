@@ -1,0 +1,26 @@
+{
+  "id": "C0159",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "城隅静女谁人见。",
+    "先生日夜歌彤管。",
+    "谁识蔡姬贤。",
+    "江南顾彦先。",
+    "先生那久困。",
+    "汤沐须名郡。",
+    "惟有谢夫人。",
+    "从来见拟伦。"
+  ],
+  "coreVerse": "城隅静女谁人见。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

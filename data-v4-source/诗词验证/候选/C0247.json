@@ -1,0 +1,23 @@
+{
+  "id": "C0247",
+  "title": "占春芳·红杏了，夭桃尽，独自",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "占春芳",
+  "paragraphs": [
+    "红杏了，夭桃尽，独自占春芳。",
+    "不比人间兰麝，自然透骨生香。",
+    "对酒莫相忘。",
+    "似佳人、兼合明光。",
+    "只忧长笛吹花落，除是宁王。"
+  ],
+  "coreVerse": "红杏了，夭桃尽，独自占春芳。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

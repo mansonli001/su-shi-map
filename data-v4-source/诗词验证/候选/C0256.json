@@ -1,0 +1,26 @@
+{
+  "id": "C0256",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "春事阑珊芳草歇。",
+    "客里风光，又过清明节。",
+    "小院黄昏人忆别。",
+    "落红处处闻啼鴂。",
+    "咫尺江山分楚越。",
+    "目断魂销，应是音尘绝。",
+    "梦破五更心欲折。",
+    "角声吹落梅花月。"
+  ],
+  "coreVerse": "春事阑珊芳草歇。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

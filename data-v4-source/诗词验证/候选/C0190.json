@@ -1,0 +1,26 @@
+{
+  "id": "C0190",
+  "title": "谒金门",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "谒金门",
+  "paragraphs": [
+    "秋帷里。",
+    "长漏伴人无寐。",
+    "低玉枕凉轻绣被。",
+    "一番秋气味。",
+    "晓色又侵窗纸。",
+    "窗外鸡声初起。",
+    "声断几声还到耳。",
+    "已明声未已。"
+  ],
+  "coreVerse": "秋帷里。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0242",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "回风落景。",
+    "散乱东墙疏竹影。",
+    "满坐清微。",
+    "入袖寒泉不湿衣。",
+    "梦回酒醒。",
+    "百尺飞澜鸣碧井。",
+    "雪洒冰麾。",
+    "散落佳人白玉肌。"
+  ],
+  "coreVerse": "回风落景。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

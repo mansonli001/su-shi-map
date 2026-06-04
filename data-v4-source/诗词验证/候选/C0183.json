@@ -1,0 +1,26 @@
+{
+  "id": "C0183",
+  "title": "更漏子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "更漏子",
+  "paragraphs": [
+    "水涵空，山照市。",
+    "西汉二疏乡里。",
+    "新白发，旧黄金。",
+    "故人恩意深。",
+    "海东头，山尽处。",
+    "自古客槎来去。",
+    "槎有信，赴秋期。",
+    "使君行不归。"
+  ],
+  "coreVerse": "水涵空，山照市。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

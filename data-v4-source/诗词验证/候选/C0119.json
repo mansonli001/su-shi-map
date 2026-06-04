@@ -1,0 +1,26 @@
+{
+  "id": "C0119",
+  "title": "阮郎归",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "阮郎归",
+  "paragraphs": [
+    "绿槐高柳咽新蝉。",
+    "薰风初入弦。",
+    "碧纱窗下水沈烟。",
+    "棋声惊昼眠。",
+    "微雨过，小荷翻。",
+    "榴花开欲然。",
+    "玉盆纤手弄清泉。",
+    "琼珠碎却圆。"
+  ],
+  "coreVerse": "绿槐高柳咽新蝉。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

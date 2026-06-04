@@ -1,0 +1,26 @@
+{
+  "id": "C0162",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "火云凝汗挥珠颗。",
+    "颗珠挥汗凝云火。",
+    "琼暖碧纱轻。",
+    "轻纱碧暖琼。",
+    "晕腮嫌枕印。",
+    "印枕嫌腮晕。",
+    "闲照晚妆残。",
+    "残妆晚照闲。"
+  ],
+  "coreVerse": "火云凝汗挥珠颗。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,26 @@
+{
+  "id": "C0192",
+  "title": "谒金门",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "谒金门",
+  "paragraphs": [
+    "今夜雨。",
+    "断送一年残暑。",
+    "坐听潮声来别浦。",
+    "明朝何处去。",
+    "孤负金尊绿醑。",
+    "来岁今宵圆否。",
+    "酒醒梦回愁几许。",
+    "夜阑还独语。"
+  ],
+  "coreVerse": "今夜雨。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

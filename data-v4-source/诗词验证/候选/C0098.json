@@ -1,0 +1,24 @@
+{
+  "id": "C0098",
+  "title": "南歌子·寸恨谁云短，绵绵岂易",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南歌子",
+  "paragraphs": [
+    "寸恨谁云短，绵绵岂易裁。",
+    "半年眉绿未曾开。",
+    "明月好风闲处、是人猜。",
+    "春雨消残冻，温风到冷灰。",
+    "尊前一曲为谁哉。",
+    "留取曲终一拍、待君来。"
+  ],
+  "coreVerse": "寸恨谁云短，绵绵岂易裁。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

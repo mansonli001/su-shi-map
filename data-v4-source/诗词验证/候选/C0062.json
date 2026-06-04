@@ -1,0 +1,29 @@
+{
+  "id": "C0062",
+  "title": "定风波",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "定风波",
+  "paragraphs": [
+    "莫听穿林打叶声。",
+    "何妨吟啸且徐行。",
+    "竹杖芒鞋轻胜马。",
+    "谁怕。",
+    "一蓑烟雨任平生。",
+    "料峭春风吹酒醒。",
+    "微冷。",
+    "山头斜照却相迎。",
+    "回首向来潇洒处。",
+    "归去。",
+    "也无风雨也无晴。"
+  ],
+  "coreVerse": "莫听穿林打叶声。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

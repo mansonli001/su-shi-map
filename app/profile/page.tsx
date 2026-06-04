@@ -5,19 +5,34 @@
 
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSuShiStore } from '@/lib/store';
+import AchievementWall from '@/components/AchievementWall';
+import AchievementToast from '@/components/AchievementToast';
 
 export default function ProfilePage() {
-  const { favoritePoems, checkinPlaces, userNotes } = useSuShiStore();
-  const [activeTab, setActiveTab] = useState<'favorites' | 'notes'>('favorites');
+  const { favoritePoems, checkinPlaces, userNotes, places, unlockedAchievements, checkAndUnlockAchievements } = useSuShiStore();
+  const [activeTab, setActiveTab] = useState<'achievements' | 'favorites' | 'notes'>('achievements');
+
+  // 初始化时检查成就
+  useEffect(() => {
+    if (places.length > 0) {
+      checkAndUnlockAchievements();
+    }
+  }, [places, checkAndUnlockAchievements]);
 
   const stats = {
     favorites: favoritePoems.length,
     checkins: checkinPlaces.length,
     notes: userNotes.length,
+    achievements: unlockedAchievements.length,
+    totalPlaces: places.length,
   };
+
+  const checkinProgress = stats.totalPlaces > 0 
+    ? Math.round((stats.checkins / stats.totalPlaces) * 100) 
+    : 0;
 
   return (
     <div
@@ -27,6 +42,9 @@ export default function ProfilePage() {
         paddingBottom: 'calc(64px + env(safe-area-inset-bottom))',
       }}
     >
+      {/* 成就解锁Toast */}
+      <AchievementToast />
+
       {/* 头部信息 */}
       <div
         style={{
@@ -120,6 +138,26 @@ export default function ProfilePage() {
                 color: '#FAC775',
               }}
             >
+              {stats.achievements}
+            </div>
+            <div
+              style={{
+                fontSize: '11px',
+                color: '#888780',
+                marginTop: '4px',
+              }}
+            >
+              成就解锁
+            </div>
+          </div>
+          <div style={{ textAlign: 'center' }}>
+            <div
+              style={{
+                fontSize: '22px',
+                fontWeight: '600',
+                color: '#FAC775',
+              }}
+            >
               {stats.notes}
             </div>
             <div
@@ -133,6 +171,41 @@ export default function ProfilePage() {
             </div>
           </div>
         </div>
+
+        {/* 打卡进度条 */}
+        <div style={{ marginTop: '16px' }}>
+          <div
+            style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              marginBottom: '8px',
+            }}
+          >
+            <span style={{ fontSize: '13px', color: '#FAF6F0' }}>打卡进度</span>
+            <span style={{ fontSize: '13px', color: '#FAC775', fontWeight: '600' }}>
+              {stats.checkins} / {stats.totalPlaces} ({checkinProgress}%)
+            </span>
+          </div>
+          <div
+            style={{
+              height: '8px',
+              background: 'rgba(255, 255, 255, 0.1)',
+              borderRadius: '4px',
+              overflow: 'hidden',
+            }}
+          >
+            <div
+              style={{
+                height: '100%',
+                background: 'linear-gradient(90deg, #BA7517 0%, #FAC775 100%)',
+                borderRadius: '4px',
+                transition: 'width 0.5s ease-out',
+                width: `${checkinProgress}%`,
+              }}
+            />
+          </div>
+        </div>
       </div>
 
       {/* Tab切换 */}
@@ -141,12 +214,36 @@ export default function ProfilePage() {
           display: 'flex',
           background: '#fff',
           borderBottom: '0.5px solid #E5E7EB',
+          overflowX: 'auto',
         }}
       >
+        <button
+          onClick={() => setActiveTab('achievements')}
+          style={{
+            flex: 1,
+            minWidth: '100px',
+            padding: '12px 4px',
+            background: 'transparent',
+            border: 'none',
+            borderBottom:
+              activeTab === 'achievements'
+                ? '2px solid #BA7517'
+                : '2px solid transparent',
+            color: activeTab === 'achievements' ? '#BA7517' : '#9CA3AF',
+            fontWeight: activeTab === 'achievements' ? '600' : 'normal',
+            fontSize: '12px',
+            letterSpacing: '0.03em',
+            cursor: 'pointer',
+            marginBottom: '-0.5px',
+          }}
+        >
+          成就墙
+        </button>
         <button
           onClick={() => setActiveTab('favorites')}
           style={{
             flex: 1,
+            minWidth: '100px',
             padding: '12px 4px',
             background: 'transparent',
             border: 'none',
@@ -168,6 +265,7 @@ export default function ProfilePage() {
           onClick={() => setActiveTab('notes')}
           style={{
             flex: 1,
+            minWidth: '100px',
             padding: '12px 4px',
             background: 'transparent',
             border: 'none',
@@ -189,7 +287,26 @@ export default function ProfilePage() {
 
       {/* 内容区域 */}
       <div style={{ padding: '16px' }}>
-        {activeTab === 'favorites' ? (
+        {activeTab === 'achievements' ? (
+          <div>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '16px',
+              }}
+            >
+              <h2 style={{ fontSize: '15px', fontWeight: '600', color: '#1A1008' }}>
+                成就墙
+              </h2>
+              <span style={{ fontSize: '12px', color: '#9CA3AF' }}>
+                {stats.achievements} / 6 已解锁
+              </span>
+            </div>
+            <AchievementWall />
+          </div>
+        ) : activeTab === 'favorites' ? (
           favoritePoems.length === 0 ? (
             <div
               style={{

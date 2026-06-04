@@ -1,0 +1,26 @@
+{
+  "id": "C0258",
+  "title": "蝶恋花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "蝶恋花",
+  "paragraphs": [
+    "昨夜秋风来万里。",
+    "月上屏帏，冷透人衣袂。",
+    "有客抱衾愁不寐。",
+    "那堪玉漏长如岁。",
+    "羁舍留连归计未。",
+    "梦断魂销，一枕相思泪。",
+    "衣带渐宽无别意。",
+    "新书报我添憔悴。"
+  ],
+  "coreVerse": "昨夜秋风来万里。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

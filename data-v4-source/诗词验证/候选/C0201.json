@@ -1,0 +1,26 @@
+{
+  "id": "C0201",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "天台旧路。",
+    "应恨刘郎来又去。",
+    "别酒频倾。",
+    "忍听《阳关》第四声。",
+    "刘郎未老。",
+    "怀恋仙乡重得到。",
+    "只恐因循。",
+    "不见如今劝酒人。"
+  ],
+  "coreVerse": "天台旧路。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "C0027",
+  "title": "木兰花令",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "木兰花令",
+  "paragraphs": [
+    "梧桐叶上三更雨。",
+    "惊破梦魂无觅处。",
+    "夜凉枕簟已知秋，更听寒蛩促机杼。",
+    "梦中历历来时路。",
+    "犹在江亭醉歌舞。",
+    "尊前必有问君人，为道别来心与绪。"
+  ],
+  "coreVerse": "梧桐叶上三更雨。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

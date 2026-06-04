@@ -1,0 +1,26 @@
+{
+  "id": "C0083",
+  "title": "南乡子",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "南乡子",
+  "paragraphs": [
+    "何处倚阑干。",
+    "弦管高楼月正圆。",
+    "胡蝶梦中家万里，依然。",
+    "老去愁来强自宽。",
+    "明镜借红颜。",
+    "须著人间比梦间。",
+    "蜡烛半笼金翡翠，更阑。",
+    "绣被焚香独自眠。"
+  ],
+  "coreVerse": "何处倚阑干。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}

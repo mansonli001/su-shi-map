@@ -1,0 +1,28 @@
+{
+  "id": "C0219",
+  "title": "菩萨蛮",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "菩萨蛮",
+  "paragraphs": [
+    "娟娟侵鬓妆痕浅。",
+    "双颦相媚弯如翦。",
+    "一瞬百般宜。",
+    "无论笑与啼。",
+    "酒阑思翠被。",
+    "特故腾腾地。",
+    "生怕促归轮。",
+    "微波先注人。"
+  ],
+  "coreVerse": "娟娟侵鬓妆痕浅。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": [
+    "发现异体字/旧字形 '翦'（建议 '剪'）"
+  ]
+}

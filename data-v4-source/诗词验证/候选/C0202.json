@@ -1,0 +1,26 @@
+{
+  "id": "C0202",
+  "title": "减字木兰花",
+  "author": "苏轼",
+  "type": "词",
+  "rhythmic": "减字木兰花",
+  "paragraphs": [
+    "双龙对起。",
+    "白甲苍髯烟雨里。",
+    "疏影微香。",
+    "下有幽人昼梦长。",
+    "湖风清软。",
+    "双鹊飞来争噪晚。",
+    "翠飐红轻。",
+    "时下凌宵百尺英。"
+  ],
+  "coreVerse": "双龙对起。",
+  "source": "chinese-poetry",
+  "confidence": 0.7899999999999999,
+  "verificationStatus": "needs_manual_check",
+  "routeId": null,
+  "relatedRouteIds": [],
+  "year": null,
+  "notes": "",
+  "verificationLog": []
+}
