@@ -163,7 +163,15 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             onClick={closeCard}
           />
 
-          {/* 半屏卡片 - 修复移动端滚动问题 */}
+          {/* 半屏卡片 — BUG-NAV-002 v2 真修复：固定高度 + flex 让浏览器自己算可滚动空间
+              v1 失效根因：
+                外层 maxHeight 按全屏算（≈92vh），但 collapsed 状态 translateY=38% 把卡片往下推 35vh，
+                实际可见只剩 ≈57vh；内层滚动容器仍按全屏 maxHeight 渲染 → 浏览器判定"未溢出"→ 滑不动。
+              v2 改造：
+                1) 外层固定 height:92dvh（不是 maxHeight）+ flex flex-col，translateY 不再影响 layout；
+                2) 内层用 flex-1 min-h-0 overflow-y-auto，浏览器自动 = 92dvh - 拖拽手柄；
+                3) 100dvh 解决 iOS Safari 地址栏弹收时高度跳变；
+                4) .sheet-scroll = -webkit-overflow-scrolling:touch + overscroll-behavior:contain 防穿透。 */}
           <motion.div
             initial={{ y: '100%' }}
             animate={{ y: expanded ? '8%' : '38%' }}
@@ -172,13 +180,14 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             drag="y"
             dragConstraints={{ top: 0, bottom: 0 }}
             onDragEnd={handleDragEnd}
-            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto"
+            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto flex flex-col"
             style={{
               background: 'var(--card)',
               borderRadius: '18px 18px 0 0',
               boxShadow: '0 -10px 40px rgba(26,16,8,0.18)',
-              // 关键修复：最大可视高度 = 全屏高度 - 顶部安全区 - 顶部标题栏60px - 全局底部Tab70px - 底部系统安全区
-              maxHeight: 'calc(100vh - env(safe-area-inset-top, 0px) - 60px - 70px - env(safe-area-inset-bottom, 0px))',
+              // 固定高度（不是 maxHeight）：dvh 适配移动端动态视口，扣掉顶部安全区 + 底部安全区
+              height: 'calc(92dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
+              maxHeight: 'calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
             }}
           >
             {/* 拖拽手柄（固定高度，不参与滚动） */}
@@ -189,13 +198,10 @@ export default function PlaceCard({ place }: PlaceCardProps) {
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
             </div>
 
-            {/* 内容区：单独开启内部滚动，核心修复 */}
-            <div 
-              className="px-5 overflow-y-auto"
-              style={{ 
-                maxHeight: 'calc(100vh - env(safe-area-inset-top, 0px) - 80px - 70px - env(safe-area-inset-bottom, 0px))',
-                WebkitOverflowScrolling: 'touch', // 解决IOS移动端滚动卡顿失效
-              }}
+            {/* 内容区：flex-1 撑满 + min-h-0 让 overflow 生效 + sheet-scroll iOS 顺滑滚动 */}
+            <div
+              className="px-5 pb-6 flex-1 min-h-0 overflow-y-auto sheet-scroll"
+              style={{ WebkitOverflowScrolling: 'touch' }}
             >
               {/* ====== 详情视图 ====== */}
               {showDetail ? (

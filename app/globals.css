@@ -330,3 +330,11 @@ body {
 
 /* 11. 微信浏览器底部"安全区"颜色（避免下拉时露出白底） */
 html { background: var(--ink); }
+
+/* 12. BUG-NAV-002 v2 — 抽屉内部滚动容器（iOS 顺滑 + 阻止穿透） */
+@layer utilities {
+  .sheet-scroll {
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+  }
+}

@@ -4,6 +4,51 @@
 
 ---
 
+### 24. BUG-NAV-002 v2 真修复 — 移动端抽屉滚动失效根因定位
+
+**问题描述**：
+6/4 上午做过 BUG-NAV-002 第一次修复（外层+内层 maxHeight 双层 calc），用户实测仍然在常州故居等长内容详情页**滑不动**，验收失败。
+
+**真实根因（v1 没修对的原因）**：
+
+| # | 错误点 | 后果 |
+|---|--------|------|
+| 1 | 抽屉外层用 `maxHeight: calc(100vh - 60 - 70 - safe)` ≈ 全屏 92vh，但 `motion.div` 在 collapsed 状态 `y: '38%'` 是相对自身高度的 transform，把卡片向下推 35vh | **collapsed 状态卡片实际可见 ≈ 57vh，但内层滚动容器仍按近全屏 maxHeight 渲染 → 浏览器判定"未溢出" → 滑不动** |
+| 2 | 外层未声明 `flex flex-col`，内层手动写 maxHeight 而非 `flex-1 min-h-0` | 浏览器无法基于父容器实际高度推算可滚动空间，两层 calc 互相打架 |
+| 3 | 用 `100vh` 而非 `100dvh` | iOS Safari 地址栏弹收时视口高度跳变，maxHeight 计算瞬间失准 |
+| 4 | 缺 `overscroll-behavior: contain` | 滚到底部时事件穿透到 body，体感上像"滑不动" |
+
+**v2 修复方案**：
+
+| 修改项 | 文件 | 说明 |
+|--------|------|------|
+| 外层固定高度 + flex 布局 | `components/place/PlaceCard.tsx` | `height: calc(92dvh - safe-top - safe-bottom)` + `maxHeight: calc(100dvh - safe-top - safe-bottom)` 兜底 + `flex flex-col`，translateY 不再影响 layout 高度 |
+| 内层让浏览器自动算 | `components/place/PlaceCard.tsx` | `flex-1 min-h-0 overflow-y-auto sheet-scroll`，删除原 maxHeight calc，浏览器自动 = 92dvh - 拖拽手柄 ≈ 88dvh |
+| 100vh → 100dvh | `components/place/PlaceCard.tsx` | 动态视口单位适配移动端浏览器地址栏弹收 |
+| 新增 `.sheet-scroll` utility | `app/globals.css` §12 | `-webkit-overflow-scrolling: touch` (iOS 顺滑) + `overscroll-behavior: contain` (阻止滚动穿透到 body) |
+
+**为什么 v2 一定能修好**：
+- v1 错把 `maxHeight` 当 `height` 用 → translateY 动一动，可视高度和滚动容器高度立刻脱节
+- v2 用 `height` 锁死 layout 高度 → translateY 只改视觉位置，layout 高度不变 → flex-1 min-h-0 准确算出滚动空间
+- 不再做"扣掉标题60+Tab70"的硬编码减法（项目暂无固定 60px 标题栏，原计算本就和实际不符）
+
+**验证记录**：
+```
+✓ Compiled successfully
+✓ Generating static pages (11/11)
+✓ next build 11/11 静态页通过，0 TS 错误，0 ESLint 警告
+✓ next dev Ready in 2.4s @ http://localhost:3000
+```
+
+**自测路径**：
+1. 移动端打开 `/explore`
+2. 点击常州故居（P010）/ 黄州东坡雪堂（P053）/ 任意贬谪长内容地点
+3. 抽屉弹出后内容区可上下顺滑滚动到底，末尾文字完整显示
+4. 切换 collapsed（38%）↔ expanded（8%）两种状态都可滚
+5. iOS Safari 地址栏弹收时高度无跳动
+
+---
+
 ### 23. BUG-FOOD-001 美食模块假数据修复 + 成就系统数据源去重
 
 **问题描述**：
