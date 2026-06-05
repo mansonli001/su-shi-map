@@ -3924,11 +3924,11 @@
     {
       "id": "T001",
       "title": "王进叔所藏画跋尾·赵昌四季芍药",
-      "type": "题画",
+      "type": "文",
       "year": 1089,
-      "route_id": "R16",
+      "route_id": "R14",
       "related_route_ids": [
-        "R16"
+        "R14"
       ],
       "has_full_text": true,
       "coreVerse": "江左风流王谢家，尽携书画到天涯。"

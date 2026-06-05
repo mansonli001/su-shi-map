@@ -30,6 +30,13 @@ type Poem = {
 type PoemIndex = {
   id: string;
   title: string;
+  type?: string;
+  route_id?: string;
+};
+
+type RouteIdx = {
+  id: string;
+  name: string;
 };
 
 export default function PoemDetailPage() {
@@ -39,6 +46,7 @@ export default function PoemDetailPage() {
 
   const [poem, setPoem] = useState<Poem | null>(null);
   const [allPoems, setAllPoems] = useState<PoemIndex[]>([]);
+  const [routes, setRoutes] = useState<Map<string, RouteIdx>>(new Map());
   const [currentIndex, setCurrentIndex] = useState(-1);
   const [loading, setLoading] = useState(true);
   const { addFavoritePoem, removeFavoritePoem, isPoemFavorited } = useSuShiStore();
@@ -50,19 +58,25 @@ export default function PoemDetailPage() {
     Promise.all([
       fetch(`/data-v4/poems/${poemId}.json`).then((r) => {
         if (!r.ok) {
-          // 如果单个诗词文件不存在，从索引获取基础信息
           throw new Error('Poem not found');
         }
         return r.json();
       }).catch(() => {
-        // 返回一个基本对象，稍后从索引补充
         return { id: poemId, title: '', author: '苏轼', paragraphs: [], type: '诗' };
       }),
       fetch('/data-v4/poems-index.json').then((r) => r.json()),
+      fetch('/data-v4/routes-index.json').then((r) => r.json()),
     ])
-      .then(([poemData, poemsIdx]) => {
+      .then(([poemData, poemsIdx, routesIdx]) => {
         const allPoemsList = poemsIdx.poems || [];
         setAllPoems(allPoemsList);
+        
+        // 构建路线映射
+        const routeMap = new Map<string, RouteIdx>();
+        for (const r of routesIdx.routes || []) {
+          routeMap.set(r.id, { id: r.id, name: r.name });
+        }
+        setRoutes(routeMap);
         
         // 查找当前诗词在列表中的位置
         const idx = allPoemsList.findIndex((p: PoemIndex) => p.id === poemId);
@@ -76,23 +90,14 @@ export default function PoemDetailPage() {
           location: poemData.location || '',
         };
         
-        // 如果没有 location，尝试从 route_id 推断
+        // 如果没有 location，尝试从 route_id 获取路线名称
         if (!processedPoem.location && poemData.route_id) {
-          const routeNames: Record<string, string> = {
-            'R10': '黄州',
-            'R07': '密州',
-            'R01': '凤翔',
-            'R02': '杭州',
-            'R03': '密州',
-            'R04': '徐州',
-            'R05': '湖州',
-            'R06': '黄州',
-            'R08': '登州',
-            'R09': '开封',
-            'R11': '惠州',
-            'R12': '儋州',
-          };
-          processedPoem.location = routeNames[poemData.route_id] || '';
+          const route = routeMap.get(poemData.route_id);
+          if (route) {
+            // 从路线名称中提取地点信息
+            const locationMatch = route.name.match(/·(.+)$/);
+            processedPoem.location = locationMatch ? locationMatch[1] : route.name;
+          }
         }
         
         // 优先使用 paragraphs，如果没有则从 fullText 拆分
@@ -121,14 +126,24 @@ export default function PoemDetailPage() {
   }, [poemId]);
 
   const goToPrev = () => {
-    if (currentIndex > 0) {
-      router.push(`/poems/${allPoems[currentIndex - 1].id}`);
+    // 只在同类型诗词之间跳转
+    for (let i = currentIndex - 1; i >= 0; i--) {
+      const prevPoem = allPoems[i];
+      if (!prevPoem.type || prevPoem.type === poem?.type) {
+        router.push(`/poems/${prevPoem.id}`);
+        return;
+      }
     }
   };
 
   const goToNext = () => {
-    if (currentIndex < allPoems.length - 1) {
-      router.push(`/poems/${allPoems[currentIndex + 1].id}`);
+    // 只在同类型诗词之间跳转
+    for (let i = currentIndex + 1; i < allPoems.length; i++) {
+      const nextPoem = allPoems[i];
+      if (!nextPoem.type || nextPoem.type === poem?.type) {
+        router.push(`/poems/${nextPoem.id}`);
+        return;
+      }
     }
   };
 
@@ -225,7 +240,7 @@ export default function PoemDetailPage() {
         <button 
           className="poem-nav-btn" 
           onClick={goToPrev}
-          disabled={currentIndex <= 0}
+          disabled={!poem || !allPoems.slice(0, currentIndex).some(p => !p.type || p.type === poem.type)}
         >
           ← 上一首
         </button>
@@ -235,7 +250,7 @@ export default function PoemDetailPage() {
         <button 
           className="poem-nav-btn" 
           onClick={goToNext}
-          disabled={currentIndex >= allPoems.length - 1}
+          disabled={!poem || !allPoems.slice(currentIndex + 1).some(p => !p.type || p.type === poem.type)}
         >
           下一首 →
         </button>

@@ -24,6 +24,8 @@ export interface AMapPOIResult {
   photos?: string[];
   businessHours?: string;
   tel?: string;
+  categories?: string[];
+  comment_count?: string;
 }
 
 // 缓存接口
@@ -110,25 +112,40 @@ export async function searchNearbyFood(
             return;
           }
           const pois: AMapPOIPoi[] = result.poiList.pois || [];
-          const mapped: AMapPOIResult[] = pois.map((p) => ({
-            id: String(p.id || ''),
-            name: String(p.name || ''),
-            type: String(p.type || ''),
-            address: String(p.address || ''),
-            location: {
-              lat: typeof p.location?.lat === 'number' ? p.location.lat : lat,
-              lng: typeof p.location?.lng === 'number' ? p.location.lng : lng,
-            },
-            distance: typeof p.distance === 'number' ? Math.round(p.distance) : undefined,
-            tel: p.tel ? String(p.tel) : undefined,
-            photos:
+          const mapped: AMapPOIResult[] = pois.map((p) => {
+            const typeStr = String(p.type || '');
+            // v6.2 修复：高德 type 字段格式如 "餐饮服务;粤菜;茶餐厅"，按 ; 拆出可用作菜系匹配的类目
+            // 之前未填 categories → PlaceCard 的 isCuisineMatch 永远返回 0 → 本地菜系维度（20%权重）形同虚设
+            const categories = typeStr
+              .split(/[;；]/)
+              .map((s) => s.trim())
+              .filter(Boolean);
+            // v6.2 修复：高德 PlaceSearch 不直接返回评论数，用 photos 数量作为热度代理
+            // 之前未填 comment_count → PlaceCard 中 parseInt(undefined||'0')=0 → 评论数维度（25%权重）形同虚设
+            // photos 数量虽不等于评论数，但与商家曝光度正相关，可作为 popularity proxy
+            const photosArr =
               Array.isArray(p.photos) && p.photos.length > 0
                 ? p.photos.map((ph) => String(ph?.url || '')).filter(Boolean)
-                : undefined,
-            // 高德返回的 rating 多数为空字符串，做容错
-            rating: parseRating(p.biz_ext?.rating),
-            // 高德 PlaceSearch 不直接给营业时间字段，留空
-          }));
+                : undefined;
+            const photosCount = photosArr ? photosArr.length : 0;
+            return {
+              id: String(p.id || ''),
+              name: String(p.name || ''),
+              type: typeStr,
+              address: String(p.address || ''),
+              location: {
+                lat: typeof p.location?.lat === 'number' ? p.location.lat : lat,
+                lng: typeof p.location?.lng === 'number' ? p.location.lng : lng,
+              },
+              distance: typeof p.distance === 'number' ? Math.round(p.distance) : undefined,
+              tel: p.tel ? String(p.tel) : undefined,
+              photos: photosArr,
+              // 高德返回的 rating 多数为空字符串，做容错
+              rating: parseRating(p.biz_ext?.rating),
+              categories,
+              comment_count: String(photosCount),
+            };
+          });
           resolve(mapped);
         },
       );

@@ -36,7 +36,7 @@ import { loadAMap } from '@/lib/amap-loader';
 import { logger } from '@/lib/logger';
 
 export default function AMapContainer() {
-  const { places, setSelectedPlace, selectedPlace, currentStage, setMapRef, currentRoute } = useSuShiStore();
+  const { places, setSelectedPlace, selectedPlace, currentStage, setMapRef, currentRoute, checkinPlaces, isPlaceCheckedIn } = useSuShiStore();
   const onSelectPlace = setSelectedPlace;
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -57,6 +57,11 @@ export default function AMapContainer() {
     function initMap(AMap: any) {
       if (destroyed || mapRef.current) return;
       try {
+        // 计算底部安全边距（底部导航高度 + 系统安全区）
+        const bottomNavHeight = 70; // px
+        const safeAreaBottom = parseInt(window.getComputedStyle(document.documentElement).getPropertyValue('--safe-area-bottom')) || 0;
+        const totalBottomPadding = bottomNavHeight + safeAreaBottom;
+
         const map = new AMap.Map(containerRef.current, {
           zoom: 5,
           center: [104.5, 32.0],
@@ -66,6 +71,8 @@ export default function AMapContainer() {
           toolBarControl: false,
           // 行吟山河自定义样式（米白宣纸 + 淡金路网 + POI 全关）
           mapStyle: 'amap://styles/5bcb375541c22ed25703103920a7d5e8',
+          // 设置地图内边距，避免控件被底部导航遮挡
+          viewPadding: [0, 0, totalBottomPadding, 0],
         });
         mapRef.current = map;
         setMapRef(map);
@@ -127,17 +134,19 @@ export default function AMapContainer() {
         const wrapper = document.createElement('div');
         // v5：用 designType（v4 真实 8 类）选择 SVG；老 type 自动兜底
         const dt = (place as any).designType || place.type;
-        wrapper.innerHTML = makeMarkerHtml(dt, place.importance);
+        const checkedIn = isPlaceCheckedIn(place.id);
+        wrapper.innerHTML = makeMarkerHtml(dt, place.importance, checkedIn);
         const markerEl = wrapper.firstElementChild as HTMLElement | null;
         if (markerEl) {
           markerEl.style.transformOrigin = 'bottom center';
           markerEl.dataset.placeId = place.id;
           markerEl.dataset.routeId = place.routeId || '';
+          markerEl.dataset.checkedIn = String(checkedIn);
         }
 
         const marker = new AMapLocal.Marker({
           position,
-          content: markerEl || makeMarkerHtml(dt, place.importance),
+          content: markerEl || makeMarkerHtml(dt, place.importance, checkedIn),
           anchor: 'bottom-center',
           extData: place,
         });
@@ -349,7 +358,7 @@ export default function AMapContainer() {
   }, [selectedPlace, currentRoute]);
 
   return (
-    <div className="absolute inset-0">
+    <div className="absolute inset-0" style={{ paddingBottom: 'calc(var(--bottom-nav-height) + var(--safe-area-bottom))' }}>
       <div ref={containerRef} className="w-full h-full" />
       {/* 水墨风格覆盖层 */}
       <div className="pointer-events-none absolute inset-0 border-2 border-ink/10 rounded-lg" />

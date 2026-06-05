@@ -10,6 +10,8 @@ import Link from 'next/link';
 import { useSuShiStore } from '@/lib/store';
 import AchievementWall from '@/components/AchievementWall';
 import AchievementToast from '@/components/AchievementToast';
+import SharePoster from '@/components/SharePoster';
+import { achievements } from '@/lib/achievements';
 
 export default function ProfilePage() {
   const { favoritePoems, checkinPlaces, userNotes, places, unlockedAchievements, checkAndUnlockAchievements } = useSuShiStore();
@@ -300,9 +302,12 @@ export default function ProfilePage() {
               <h2 style={{ fontSize: '15px', fontWeight: '600', color: '#1A1008' }}>
                 成就墙
               </h2>
-              <span style={{ fontSize: '12px', color: '#9CA3AF' }}>
-                {stats.achievements} / 6 已解锁
-              </span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <span style={{ fontSize: '12px', color: '#9CA3AF' }}>
+                  {stats.achievements} / {achievements.length} 已解锁
+                </span>
+                <SharePoster type="collection" />
+              </div>
             </div>
             <AchievementWall />
           </div>

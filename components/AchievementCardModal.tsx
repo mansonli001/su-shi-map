@@ -1,10 +1,11 @@
 /**
  * 成就卡预览弹窗组件
- * 展示生成的Canvas成就卡，并支持下载
+ * 展示生成的Canvas成就卡，并支持下载和分享
  */
 
 import { useEffect, useState } from 'react';
 import type { Achievement } from '@/lib/achievements';
+import SharePoster, { ShareType } from './SharePoster';
 
 interface AchievementCardModalProps {
   achievement: Achievement;
@@ -99,10 +100,15 @@ export default function AchievementCardModal({
           <button
             onClick={handleDownload}
             disabled={isDownloading}
-            className="flex-1 px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-stone-900 font-semibold rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex-1 px-4 py-2.5 bg-stone-600 hover:bg-stone-500 text-white font-semibold rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
-            {isDownloading ? '下载中...' : '下载成就卡'}
+            {isDownloading ? '下载中...' : '下载'}
           </button>
+          <SharePoster 
+            type="achievement" 
+            achievement={achievement} 
+            onClose={onClose} 
+          />
         </div>
       </div>
     </div>

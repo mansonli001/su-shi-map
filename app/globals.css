@@ -22,6 +22,11 @@
 @tailwind utilities;
 
 :root {
+  /* === 布局尺寸变量 === */
+  --bottom-nav-height: 70px;
+  --safe-area-bottom: env(safe-area-inset-bottom);
+  --header-height: 56px;
+
   /* === 行吟山河 主色板 === */
   --ink:        #1A1008;     /* 主墨黑 */
   --ink-mid:    #3D2B1F;

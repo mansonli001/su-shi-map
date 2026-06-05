@@ -18,13 +18,22 @@ export interface FavoritePoem {
   addedAt: string;
 }
 
+// 打卡类型
+export type CheckinType = 'cloud' | 'photo' | 'gps';
+
 // 用户打卡
 export interface CheckinPlace {
   placeId: string;
   placeName: string;
   checkinAt: string;
+  checkinType: CheckinType; // 云打卡/传图打卡/GPS打卡
   note?: string;
-  photos?: string[];
+  photos?: string[]; // 传图打卡的照片URL
+  gpsLocation?: { // GPS打卡的位置信息
+    latitude: number;
+    longitude: number;
+    accuracy?: number;
+  };
 }
 
 // 用户笔记
@@ -157,7 +166,8 @@ export const useSuShiStore = create<SuShiStore>()(
       checkinPlaces: [],
       addCheckin: (checkin) => {
         set((state) => {
-          const newCheckins = [...state.checkinPlaces, checkin];
+          const newCheckins = [...state.checkinPlaces, checkin]
+            .sort((a, b) => new Date(b.checkinAt).getTime() - new Date(a.checkinAt).getTime());
           return { checkinPlaces: newCheckins };
         });
         // 打卡后检查成就解锁
@@ -202,21 +212,23 @@ export const useSuShiStore = create<SuShiStore>()(
       lastUnlockedAchievement: null,
       setLastUnlockedAchievement: (achievement) => set({ lastUnlockedAchievement: achievement }),
       checkAndUnlockAchievements: () => {
-        const { checkinPlaces, places, unlockedAchievements } = get();
+        const { checkinPlaces, places, unlockedAchievements, favoritePoems } = get();
         const checkedIds = new Set(checkinPlaces.map((c) => c.placeId));
-        
-        const { unlocked } = evaluateAchievements(checkedIds, places);
-        
+        const favoritePoemIds = new Set(favoritePoems.map((p) => p.poemId));
+        const checkinDates = checkinPlaces.map((c) => new Date(c.checkinAt));
+
+        const { unlocked } = evaluateAchievements(checkedIds, places, favoritePoemIds, checkinDates);
+
         // 找出新解锁的成就
         const newlyUnlocked = unlocked.filter((id) => !unlockedAchievements.includes(id));
-        
+
         if (newlyUnlocked.length > 0) {
           set((state) => ({
             unlockedAchievements: [...state.unlockedAchievements, ...newlyUnlocked],
           }));
 
           // 取最后解锁的成就触发 toast（直接复用 lib/achievements.ts 单一数据源，避免漂移）
-          const latestId = newlyUnlocked[newlyUnlocked.length - 1] as Achievement['id'];
+          const latestId = newlyUnlocked[newlyUnlocked.length - 1];
           const latestAchievement = getAchievement(latestId);
           if (latestAchievement) {
             set({ lastUnlockedAchievement: latestAchievement });

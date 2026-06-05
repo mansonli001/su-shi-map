@@ -129,6 +129,7 @@ export function makeClusterRender(getMap: () => any | null): (context: any) => v
 export function makeMarkerHtml(
   designType: DesignPlaceType | PlaceType,
   importance: 1 | 2 | 3 = 2,
+  isCheckedIn: boolean = false,
 ): string {
   const t = String(designType || '').toLowerCase();
 
@@ -160,18 +161,38 @@ export function makeMarkerHtml(
   const h = Math.round(size * 1.25); // 48:60 = 1:1.25
   const url = `/markers/marker-${mappedType}.svg`;
 
+  // 已打卡高亮效果
+  const checkinStyle = isCheckedIn ? `
+    filter: drop-shadow(0 0 8px rgba(74, 124, 98, 0.8)) brightness(1.1);
+  ` : `
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.25));
+  `;
+
   return `
-    <div class="su-marker su-marker--${mappedType}" data-type="${mappedType}" style="
+    <div class="su-marker su-marker--${mappedType} ${isCheckedIn ? 'su-marker--checked' : ''}" data-type="${mappedType}" data-checked="${isCheckedIn}" style="
       width: ${w}px;
       height: ${h}px;
       position: relative;
       cursor: pointer;
-      filter: drop-shadow(0 2px 3px rgba(0,0,0,0.25));
+      ${checkinStyle}
       will-change: transform, filter;
       transition: transform 0.18s ease-out, filter 0.18s ease-out;
     ">
       <img src="${url}" alt="${mappedType}" draggable="false"
            style="width:100%;height:100%;display:block;pointer-events:none;user-select:none;" />
+      ${isCheckedIn ? `
+      <div style="
+        position: absolute;
+        top: -4px;
+        right: -4px;
+        width: 12px;
+        height: 12px;
+        background: #4A7C62;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      "></div>
+      ` : ''}
     </div>
   `;
 }

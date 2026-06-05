@@ -128,9 +128,57 @@ export default function CheckinPage() {
                     >
                       {checkin.placeName}
                     </h3>
-                    <p style={{ fontSize: '11px', color: '#9CA3AF' }}>
-                      {new Date(checkin.checkinAt).toLocaleDateString('zh-CN')}
-                    </p>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <p style={{ fontSize: '11px', color: '#9CA3AF' }}>
+                        {new Date(checkin.checkinAt).toLocaleDateString('zh-CN')}
+                      </p>
+                      {/* 打卡类型徽章 */}
+                      {checkin.checkinType === 'cloud' && (
+                        <span
+                          style={{
+                            background: '#FDF3DC',
+                            border: '0.5px solid #C9973A',
+                            color: '#7A4E1A',
+                            fontSize: '10px',
+                            padding: '2px 8px',
+                            borderRadius: '20px',
+                            letterSpacing: '0.5px',
+                          }}
+                        >
+                          云游
+                        </span>
+                      )}
+                      {checkin.checkinType === 'photo' && (
+                        <span
+                          style={{
+                            background: '#EEF4FF',
+                            border: '0.5px solid #9BB8E0',
+                            color: '#1A4A8A',
+                            fontSize: '10px',
+                            padding: '2px 8px',
+                            borderRadius: '20px',
+                            letterSpacing: '0.5px',
+                          }}
+                        >
+                          传图认证
+                        </span>
+                      )}
+                      {checkin.checkinType === 'gps' && (
+                        <span
+                          style={{
+                            background: '#EAF3DE',
+                            border: '0.5px solid #7AAA80',
+                            color: '#1E4A2A',
+                            fontSize: '10px',
+                            padding: '2px 8px',
+                            borderRadius: '20px',
+                            letterSpacing: '0.5px',
+                          }}
+                        >
+                          GPS核验
+                        </span>
+                      )}
+                    </div>
                   </div>
                   <button
                     onClick={() => removeCheckin(checkin.placeId)}

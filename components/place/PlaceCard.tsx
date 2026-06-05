@@ -17,6 +17,7 @@ import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
 import Link from 'next/link';
 import { searchNearbyFood, getSushiSpecialFoods, type AMapPOIResult, type FoodItem } from '@/lib/food-search';
+import SharePoster from '@/components/SharePoster';
 
 interface FamousLine {
   quote: string;
@@ -103,12 +104,18 @@ interface PlaceCardProps {
 }
 
 export default function PlaceCard({ place }: PlaceCardProps) {
-  const { isCardOpen, closeCard, addCheckin, removeCheckin, isPlaceCheckedIn } = useSuShiStore();
+  const { isCardOpen, closeCard, addCheckin, removeCheckin, isPlaceCheckedIn, checkinPlaces } = useSuShiStore();
   const [expanded, setExpanded] = useState(false);
   const [showDetail, setShowDetail] = useState<string | false>(false);
   const [detail, setDetail] = useState<V4PlaceFull | null>(null);
   const [detailLoading, setDetailLoading] = useState(false);
   const [showCheckinSuccess, setShowCheckinSuccess] = useState(false);
+  const [showUpgradeOptions, setShowUpgradeOptions] = useState(false);
+
+  // 获取当前地点的打卡信息
+  const currentCheckin = checkinPlaces.find(c => c.placeId === place.id);
+  const isCloudCheckin = currentCheckin?.checkinType === 'cloud';
+  const isFieldCheckin = currentCheckin?.checkinType === 'photo' || currentCheckin?.checkinType === 'gps';
 
   // 卡片打开时加载详情（v4 路径）
   // 修复 v6.1: 加 AbortController 防快速切换地点的请求竞态；去掉 ?t= 让浏览器/Vercel CDN 正常缓存
@@ -319,49 +326,171 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                     </div>
                   </div>
 
-                  {/* 打卡按钮 */}
+                  {/* 打卡按钮 - 三状态设计 */}
                   <div className="mb-3">
-                    <button
-                      onClick={() => {
-                        if (isPlaceCheckedIn(place.id)) {
-                          removeCheckin(place.id);
-                        } else {
-                          addCheckin({
-                            placeId: place.id,
-                            placeName: ancient || place.songName || '未知地点',
-                            checkinAt: new Date().toISOString(),
-                          });
-                          setShowCheckinSuccess(true);
-                          setTimeout(() => setShowCheckinSuccess(false), 2000);
-                        }
-                      }}
-                      className="w-full font-wenkai py-2.5 rounded-lg text-[12px] transition-colors flex items-center justify-center gap-2"
-                      style={{
-                        background: isPlaceCheckedIn(place.id) ? 'rgba(186,117,23,0.1)' : 'var(--gold-m)',
-                        color: isPlaceCheckedIn(place.id) ? '#8B6914' : '#fff',
-                        border: isPlaceCheckedIn(place.id) ? '1px solid rgba(186,117,23,0.3)' : 'none',
-                      }}
-                    >
-                      {isPlaceCheckedIn(place.id) ? (
-                        <>
-                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                            <path d="M20 6L9 17l-5-5" />
-                          </svg>
-                          已打卡
-                        </>
-                      ) : (
-                        <>
+                    {!isPlaceCheckedIn(place.id) ? (
+                      // 状态A：未打卡
+                      <>
+                        <button
+                          onClick={() => {
+                            addCheckin({
+                              placeId: place.id,
+                              placeName: ancient || place.songName || '未知地点',
+                              checkinAt: new Date().toISOString(),
+                              checkinType: 'cloud',
+                            });
+                            setShowCheckinSuccess(true);
+                            setTimeout(() => setShowCheckinSuccess(false), 2000);
+                          }}
+                          className="w-full font-wenkai py-2.5 rounded-lg text-[12px] transition-colors flex items-center justify-center gap-2"
+                          style={{
+                            background: 'var(--gold-m)',
+                            color: '#fff',
+                          }}
+                        >
                           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                             <circle cx="12" cy="10" r="3" />
                             <path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z" />
                           </svg>
-                          打卡此地
-                        </>
-                      )}
-                    </button>
-                    {showCheckinSuccess && (
-                      <div className="text-center mt-2 text-[11px] text-gold-m font-wenkai">
-                        ✅ 打卡成功！可在"打卡"页查看
+                          云打卡 · 到此一游
+                        </button>
+
+                        {/* 展开的升级选项 */}
+                        {showUpgradeOptions && (
+                          <div className="mt-2">
+                            <div className="text-[10px] text-center text-[#8B7355] mb-2">
+                              或升级为实地打卡，获得专属徽章
+                            </div>
+                            <div className="grid grid-cols-2 gap-2">
+                              <button
+                                onClick={() => {
+                                  // TODO: 实现传图打卡功能
+                                  alert('传图打卡功能开发中...');
+                                }}
+                                className="font-wenkai py-2 rounded-lg text-[11px] border flex items-center justify-center gap-1"
+                                style={{
+                                  borderColor: 'rgba(212,196,160,0.5)',
+                                  background: '#FAF6F0',
+                                  color: '#7A6045',
+                                }}
+                              >
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                  <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                  <circle cx="12" cy="13" r="4" />
+                                </svg>
+                                传图打卡
+                              </button>
+                              <button
+                                onClick={() => {
+                                  // TODO: 实现GPS打卡功能
+                                  alert('GPS打卡功能开发中...');
+                                }}
+                                className="font-wenkai py-2 rounded-lg text-[11px] border flex items-center justify-center gap-1"
+                                style={{
+                                  borderColor: 'rgba(212,196,160,0.5)',
+                                  background: '#FAF6F0',
+                                  color: '#7A6045',
+                                }}
+                              >
+                                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                  <circle cx="12" cy="10" r="3" />
+                                </svg>
+                                GPS打卡
+                              </button>
+                            </div>
+                          </div>
+                        )}
+
+                        {!showUpgradeOptions && (
+                          <button
+                            onClick={() => setShowUpgradeOptions(true)}
+                            className="w-full mt-2 text-[11px] text-[#8B7355] font-wenkai"
+                          >
+                            ▼ 升级为实地打卡
+                          </button>
+                        )}
+                      </>
+                    ) : isCloudCheckin ? (
+                      // 状态B：云打卡后
+                      <>
+                        <button
+                          className="w-full font-wenkai py-2.5 rounded-lg text-[12px] transition-colors flex items-center justify-center gap-2"
+                          style={{
+                            background: '#EAF3DE',
+                            color: '#2A5A3A',
+                            border: '1px solid #4A7C62',
+                          }}
+                        >
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                          </svg>
+                          已到此一游
+                        </button>
+
+                        <div className="mt-2">
+                          <div className="text-[10px] text-center text-[#6A5840] mb-2">
+                            曾经到此？升级为实地打卡，获得专属金色徽章
+                          </div>
+                          <div className="grid grid-cols-2 gap-2">
+                            <button
+                              onClick={() => {
+                                // TODO: 实现传图升级功能
+                                alert('传图升级功能开发中...');
+                              }}
+                              className="font-wenkai py-2 rounded-lg text-[11px] border flex items-center justify-center gap-1"
+                              style={{
+                                borderColor: 'rgba(212,196,160,0.5)',
+                                background: '#FAF6F0',
+                                color: '#7A6045',
+                              }}
+                            >
+                              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
+                                <circle cx="12" cy="13" r="4" />
+                              </svg>
+                              传图升级
+                            </button>
+                            <button
+                              onClick={() => {
+                                // TODO: 实现GPS升级功能
+                                alert('GPS升级功能开发中...');
+                              }}
+                              className="font-wenkai py-2 rounded-lg text-[11px] border flex items-center justify-center gap-1"
+                              style={{
+                                borderColor: 'rgba(212,196,160,0.5)',
+                                background: '#FAF6F0',
+                                color: '#7A6045',
+                              }}
+                            >
+                              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                              </svg>
+                              GPS升级
+                            </button>
+                          </div>
+                        </div>
+                      </>
+                    ) : (
+                      // 状态C：实地打卡后
+                      <div className="text-center py-2">
+                        <div className="flex items-center justify-center gap-2 text-[12px] text-[#4A7C62] font-wenkai">
+                          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M20 6L9 17l-5-5" />
+                          </svg>
+                          实地打卡已完成
+                        </div>
+                        <div className="text-[10px] text-[#4A7C62] mt-1 font-wenkai">
+                          +2 积分
+                        </div>
+                        {/* 分享按钮 */}
+                        <div className="mt-3">
+                          <SharePoster 
+                            type="checkin" 
+                            placeName={ancient || place.songName || '未知地点'} 
+                          />
+                        </div>
                       </div>
                     )}
                   </div>
@@ -403,18 +532,19 @@ export default function PlaceCard({ place }: PlaceCardProps) {
   );
 }
 
-// ═════ 详情视图（事迹 / 作品 / 文旅 三 Tab） ═════
+// ═════ 详情视图（事迹 / 美食 / 作品 / 文旅 四 Tab） ═════
+// 调整顺序：美食前置到第二位（苏轼 = 吃货人设，美食是最有传播力的钩子）
 function DetailView(props: {
   detail: V4PlaceFull | null;
   works: any[];
   memorialSites: any[];
   foods: any[];
-  initialTab: 'story' | 'works' | 'travel';
+  initialTab: 'story' | 'food' | 'works' | 'travel';
   onBack: () => void;
   place: PlaceCore;
 }) {
   const { detail, works, memorialSites, foods, initialTab, onBack, place } = props;
-  const [tab, setTab] = useState<'story' | 'works' | 'travel'>(initialTab);
+  const [tab, setTab] = useState<'story' | 'food' | 'works' | 'travel'>(initialTab);
 
   const events = detail?.global_events || [];
   const routeEvents = detail?.route_events || {};
@@ -489,21 +619,21 @@ function DetailView(props: {
 
       {/* Tab 栏 */}
       <div className="flex border-b mb-4" style={{ borderColor: 'rgba(186,117,23,0.2)' }}>
-        {(['story', 'works', 'travel'] as const).map((t) => (
-          <button
-            key={t}
-            onClick={() => setTab(t)}
-            className={`font-wenkai flex-1 text-center py-2 text-[12px] tracking-[0.08em] transition-colors ${
-              tab === t ? 'text-gold-m font-semibold' : 'text-ink-lt/60'
-            }`}
-            style={{
-              borderBottom: tab === t ? '2px solid var(--gold-m)' : 'none',
-              marginBottom: tab === t ? '-1px' : 0,
-            }}
-          >
-            {t === 'story' ? '事迹' : t === 'works' ? '作品' : '文旅'}
-          </button>
-        ))}
+        {(['story', 'food', 'works', 'travel'] as const).map((t) => (
+            <button
+              key={t}
+              onClick={() => setTab(t)}
+              className={`font-wenkai flex-1 text-center py-2 text-[12px] tracking-[0.08em] transition-colors ${
+                tab === t ? 'text-gold-m font-semibold' : 'text-ink-lt/60'
+              }`}
+              style={{
+                borderBottom: tab === t ? '2px solid var(--gold-m)' : 'none',
+                marginBottom: tab === t ? '-1px' : 0,
+              }}
+            >
+              {t === 'story' ? '事迹' : t === 'food' ? '美食' : t === 'works' ? '作品' : '文旅'}
+            </button>
+          ))}
       </div>
 
       {/* === Tab 内容 === */}
@@ -581,66 +711,32 @@ function DetailView(props: {
       {tab === 'travel' && (
         <TravelTab 
           memorialSites={memorialSites} 
+          showFood={false}
+        />
+      )}
+
+      {/* 美食 Tab（独立） */}
+      {tab === 'food' && (
+        <FoodTab 
           localFoods={foods}
           routeId={detail?.routeId || ''}
           placeLat={detail?.lat || place.lat}
           placeLng={detail?.lng || place.lng}
+          modernName={detail?.modern_name || (place as any).modernName || ''}
         />
       )}
     </div>
   );
 }
 
-// ═════ Travel Tab 组件（美食模块：全部/苏轼特供/附近推荐） ═════
+// ═════ Travel Tab 组件（文旅：景点） ═════
 function TravelTab({ 
   memorialSites, 
-  localFoods, 
-  routeId,
-  placeLat,
-  placeLng 
+  showFood = true,
 }: { 
   memorialSites: any[];
-  localFoods: any[];
-  routeId: string;
-  placeLat: number | undefined;
-  placeLng: number | undefined;
+  showFood?: boolean;
 }) {
-  const [foodTab, setFoodTab] = useState<'all' | 'sushi' | 'nearby'>('all');
-  const [sushiFoods, setSushiFoods] = useState<FoodItem[]>([]);
-  const [nearbyFoods, setNearbyFoods] = useState<AMapPOIResult[]>([]);
-  const [nearbyLoading, setNearbyLoading] = useState(false);
-
-  // 加载苏轼特供美食
-  useEffect(() => {
-    getSushiSpecialFoods(routeId).then(setSushiFoods);
-  }, [routeId]);
-
-  // 加载附近美食
-  useEffect(() => {
-    if (foodTab === 'nearby' && placeLat && placeLng) {
-      setNearbyLoading(true);
-      searchNearbyFood(placeLat, placeLng, 2000)
-        .then(setNearbyFoods)
-        .finally(() => setNearbyLoading(false));
-    }
-  }, [foodTab, placeLat, placeLng]);
-
-  // 获取当前显示的美食列表
-  const getDisplayFoods = () => {
-    if (foodTab === 'sushi') {
-      return sushiFoods;
-    }
-    if (foodTab === 'nearby') {
-      return nearbyFoods;
-    }
-    // all: 合并本地美食和苏轼特供
-    const localItems = localFoods.map((f, i) => ({ ...f, source: 'local', uniqueId: `local-${i}` }));
-    const sushiItems = sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${f.id}` }));
-    return [...localItems, ...sushiItems];
-  };
-
-  const displayFoods = getDisplayFoods();
-
   return (
     <div>
       {/* 推荐景点 */}
@@ -669,51 +765,255 @@ function TravelTab({
         </div>
       )}
 
-      {/* 美食模块 */}
-      <div>
-        <div className="flex justify-between items-center mb-3">
-          <div className="text-[10px] text-ink-lt/60 tracking-[0.16em]">特色美食</div>
-          {/* 美食 sub-tab */}
-          <div className="flex bg-paper-2 rounded-lg p-0.5">
-            {(['all', 'sushi', 'nearby'] as const).map((t) => (
-              <button
-                key={t}
-                onClick={() => setFoodTab(t)}
-                className={`font-wenkai text-[10px] px-2 py-1 rounded-md transition-colors ${
-                  foodTab === t 
-                    ? 'bg-white text-gold-m' 
-                    : 'text-ink-lt/60 hover:text-ink'
-                }`}
-              >
-                {t === 'all' ? '全部' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
-              </button>
-            ))}
-          </div>
+      {/* 空状态（无景点） */}
+      {memorialSites.length === 0 && (
+        <div className="text-center py-8">
+          <p className="text-[12px] text-ink-lt/60 italic mb-2">
+            此地暂无景点记录
+          </p>
+          <p className="text-[11px] text-ink-lt/50 leading-relaxed">
+            推荐景点 / 交通信息<br />
+            正在分批整理中
+          </p>
         </div>
+      )}
+    </div>
+  );
+}
 
-        {/* 加载状态 */}
-        {nearbyLoading && (
-          <div className="text-center py-4">
-            <div className="text-[11px] text-ink-lt/60">加载附近美食中...</div>
-          </div>
-        )}
+// ═════ Food Tab 组件（美食：全部/苏轼特供/附近推荐） ═════
+// 优化：美食前置为独立Tab，添加综合评分排序，优化空状态文案
+// v6.2 修复：从 modernName 推断 province → 让本地菜系匹配维度（20%权重）真正生效
+function FoodTab({ 
+  localFoods, 
+  routeId,
+  placeLat,
+  placeLng,
+  modernName,
+}: { 
+  localFoods: any[];
+  routeId: string;
+  placeLat: number | undefined;
+  placeLng: number | undefined;
+  modernName: string;
+}) {
+  const [foodTab, setFoodTab] = useState<'all' | 'sushi' | 'nearby'>('all');
+  const [sushiFoods, setSushiFoods] = useState<FoodItem[]>([]);
+  const [nearbyFoods, setNearbyFoods] = useState<AMapPOIResult[]>([]);
+  const [nearbyLoading, setNearbyLoading] = useState(false);
 
-        {/* 美食列表 */}
-        {!nearbyLoading && displayFoods.length > 0 && (
-          <div className="space-y-2">
-            {displayFoods.map((f) => (
+  // 菜系关键词库（按省份）
+  const regionalKeywords: Record<string, string[]> = {
+    "广东省": ["粤菜", "早茶", "肠粉", "潮汕", "客家", "点心"],
+    "四川省": ["川菜", "火锅", "串串", "钵钵鸡", "麻辣"],
+    "浙江省": ["浙菜", "杭帮菜", "龙井虾仁", "西湖醋鱼"],
+    "海南省": ["文昌鸡", "海南粉", "清补凉", "椰子鸡"],
+    "湖北省": ["鄂菜", "武昌鱼", "热干面"],
+    "江西省": ["赣菜", "瓦罐汤", "米粉"],
+    "湖南省": ["湘菜", "剁椒鱼头", "臭豆腐"],
+    "福建省": ["闽菜", "佛跳墙", "沙县"],
+    "江苏省": ["苏菜", "淮扬菜", "汤包"],
+    "山东省": ["鲁菜", "孔府菜", "海鲜"],
+    "安徽省": ["徽菜", "臭鳜鱼", "毛豆腐"],
+    "河北省": ["冀菜", "驴火", "河间"],
+    "河南省": ["豫菜", "烩面", "胡辣汤"],
+    "陕西省": ["陕菜", "肉夹馍", "凉皮", "羊肉泡"],
+    "云南省": ["滇菜", "过桥米线", "汽锅鸡"],
+    "贵州省": ["黔菜", "酸汤鱼", "丝娃娃"],
+    "广西壮族自治区": ["桂菜", "螺蛳粉", "老友粉"],
+    "重庆市": ["火锅", "小面", "江湖菜"],
+    "上海市": ["本帮菜", "生煎", "小笼包"],
+    "北京市": ["京菜", "烤鸭", "涮肉"],
+    "天津市": ["津菜", "狗不理", "麻花"],
+    "香港特别行政区": ["粤菜", "茶餐厅", "点心"],
+    "澳门特别行政区": ["粤菜", "葡国菜"],
+    "台湾省": ["卤肉饭", "蚵仔煎", "三杯鸡"],
+  };
+
+  // v6.2 修复：从 modernName（如"河南开封太学旧址""浙江杭州""海南儋州"）推断 province key
+  // 之前 scoreRestaurant 调用未传 province，导致 isCuisineMatch 永远返回 0，本地菜系维度形同虚设
+  const detectProvince = (name: string): string => {
+    if (!name) return '';
+    // 直辖市 / 特别行政区
+    const directs: Array<[string, string]> = [
+      ['北京', '北京市'], ['上海', '上海市'], ['天津', '天津市'], ['重庆', '重庆市'],
+      ['香港', '香港特别行政区'], ['澳门', '澳门特别行政区'], ['台湾', '台湾省'], ['台北', '台湾省'],
+    ];
+    for (const [k, v] of directs) {
+      if (name.startsWith(k) || name.includes(k)) return v;
+    }
+    // 省 / 自治区：取 regionalKeywords key 头部去后缀（"河南省"→"河南"）匹配 modernName 开头/包含
+    for (const fullProv of Object.keys(regionalKeywords)) {
+      const head = fullProv
+        .replace(/省$/, '')
+        .replace(/市$/, '')
+        .replace(/特别行政区$/, '')
+        .replace(/壮族自治区$/, '')
+        .replace(/回族自治区$/, '')
+        .replace(/维吾尔自治区$/, '')
+        .replace(/自治区$/, '');
+      if (head && (name.startsWith(head) || name.includes(head))) {
+        return fullProv;
+      }
+    }
+    return '';
+  };
+
+  const province = detectProvince(modernName);
+
+  // 获取省份关键词
+  const getRegionalKeywords = (prov: string): string[] => {
+    return regionalKeywords[prov] || [];
+  };
+
+  // 判断是否匹配本地菜系
+  const isCuisineMatch = (poi: AMapPOIResult, prov: string): number => {
+    const keywords = getRegionalKeywords(prov);
+    if (keywords.length === 0) return 0;
+    const categories = poi.categories || [];
+    const name = poi.name || '';
+    const typeStr = poi.type || '';
+    for (const keyword of keywords) {
+      if (
+        categories.some((c) => c.includes(keyword)) ||
+        name.includes(keyword) ||
+        typeStr.includes(keyword)
+      ) {
+        return 1;
+      }
+    }
+    return 0;
+  };
+
+  // 判断是否为连锁品牌（黑名单）
+  const chainBrands = ['麦当劳', '肯德基', '汉堡王', '星巴克', '必胜客', '德克士', '赛百味', '吉野家', '真功夫', '永和大王', '味千拉面', 'DQ', '冰雪奇缘', '奈雪', '喜茶', '瑞幸'];
+  const isChain = (poi: AMapPOIResult): boolean => {
+    const name = poi.name || '';
+    return chainBrands.some(brand => name.includes(brand));
+  };
+
+  // 距离衰减函数
+  const distancePenalty = (distance: number): number => {
+    if (distance <= 1000) return 1; // 1km内满分
+    if (distance <= 3000) return 0.7; // 3km内
+    if (distance <= 5000) return 0.4; // 5km内
+    return 0.1; // 超过5km大幅降权
+  };
+
+  // 综合评分公式（CHANGELOG #29 承诺权重：评分40% + 评论数25% + 本地菜系20% + 非连锁15% + 距离衰减）
+  const scoreRestaurant = (poi: AMapPOIResult, prov: string): number => {
+    const rating = poi.rating || 0;
+    const commentCount = parseInt(poi.comment_count || '0') || 0;
+    const cuisineMatch = isCuisineMatch(poi, prov);
+    const chainPenalty = isChain(poi) ? -0.15 : 0.15;
+    const distance = poi.distance || 0;
+    const distPenalty = distancePenalty(distance);
+
+    const score =
+      rating * 0.40 +                           // 高德评分（满分5分）
+      Math.log(commentCount + 1) * 0.25 +       // 评论数（取对数避免头部效应；现以 photos 数量代理）
+      cuisineMatch * 0.20 +                     // 是否为本地特色菜系
+      chainPenalty +                            // 非连锁加分
+      distPenalty * 0.15;                       // 距离衰减
+
+    return score;
+  };
+
+  // 加载苏轼特供美食
+  useEffect(() => {
+    getSushiSpecialFoods(routeId).then(setSushiFoods);
+  }, [routeId]);
+
+  // 加载附近美食
+  useEffect(() => {
+    if (foodTab === 'nearby' && placeLat && placeLng) {
+      setNearbyLoading(true);
+      searchNearbyFood(placeLat, placeLng, 2000)
+        .then((foods) => {
+          // 筛选和排序
+          const filtered = foods.filter((poi) => {
+            const rating = poi.rating || 0;
+            return rating >= 3.8 && !isChain(poi);
+          });
+          // 按综合评分排序（v6.2 修复：传 province 让本地菜系维度生效）
+          filtered.sort((a, b) => scoreRestaurant(b, province) - scoreRestaurant(a, province));
+          setNearbyFoods(filtered);
+        })
+        .finally(() => setNearbyLoading(false));
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [foodTab, placeLat, placeLng, province]);
+
+  // 获取当前显示的美食列表
+  const getDisplayFoods = () => {
+    if (foodTab === 'sushi') {
+      return sushiFoods;
+    }
+    if (foodTab === 'nearby') {
+      return nearbyFoods;
+    }
+    // all: 合并本地美食和苏轼特供
+    const localItems = localFoods.map((f, i) => ({ ...f, source: 'local', uniqueId: `local-${i}` }));
+    const sushiItems = sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${f.id}` }));
+    return [...localItems, ...sushiItems];
+  };
+
+  const displayFoods = getDisplayFoods();
+
+  return (
+    <div>
+      {/* 美食 sub-tab */}
+      <div className="flex bg-paper-2 rounded-lg p-0.5 mb-4">
+        {(['all', 'sushi', 'nearby'] as const).map((t) => (
+          <button
+            key={t}
+            onClick={() => setFoodTab(t)}
+            className={`font-wenkai text-[10px] px-2 py-1 rounded-md transition-colors flex-1 ${
+              foodTab === t 
+                ? 'bg-white text-gold-m' 
+                : 'text-ink-lt/60 hover:text-ink'
+            }`}
+          >
+            {t === 'all' ? '全部' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
+          </button>
+        ))}
+      </div>
+
+      {/* 加载状态 */}
+      {nearbyLoading && (
+        <div className="text-center py-8">
+          <div className="text-[11px] text-ink-lt/60">寻味中...</div>
+        </div>
+      )}
+
+      {/* 美食列表 */}
+      {!nearbyLoading && displayFoods.length > 0 && (
+        <div className="space-y-2">
+          {displayFoods.map((f, index) => {
+            const isTop3 = foodTab === 'nearby' && index < 3;
+            return (
               <div
                 key={(f as any).uniqueId || (f as any).id || Math.random()}
-                className="border rounded-lg p-3"
+                className="border rounded-lg p-3 relative"
                 style={{ 
                   borderColor: (f as any).source === 'sushi' 
                     ? 'rgba(186,117,23,0.35)' 
-                    : 'rgba(186,117,23,0.18)',
+                    : isTop3 
+                      ? 'rgba(8,80,65,0.3)'
+                      : 'rgba(186,117,23,0.18)',
                   background: (f as any).source === 'sushi' 
                     ? 'rgba(186,117,23,0.05)' 
-                    : 'transparent'
+                    : isTop3
+                      ? 'rgba(8,80,65,0.05)'
+                      : 'transparent'
                 }}
               >
+                {/* 本地推荐角标 */}
+                {isTop3 && (
+                  <span className="absolute top-2 right-2 text-[9px] px-1.5 py-0.5 rounded text-white" style={{ background: '#085041' }}>
+                    当地推荐
+                  </span>
+                )}
                 <div className="flex justify-between items-start mb-1">
                   <div className="font-wenkai text-[13px] font-medium text-ink">
                     {((f as any).name || (f as FoodItem).name) || ''}
@@ -744,30 +1044,26 @@ function TravelTab({
                   </div>
                 )}
               </div>
-            ))}
-          </div>
-        )}
+            );
+          })}
+        </div>
+      )}
 
-        {/* 空状态 */}
-        {!nearbyLoading && displayFoods.length === 0 && (
-          <div className="text-center py-6">
-            <div className="text-[32px] mb-2">🍽️</div>
-            <p className="text-[12px] text-ink-lt/60 italic">
-              {foodTab === 'sushi' ? '暂无苏轼特供美食' : '暂无美食信息'}
-            </p>
-          </div>
-        )}
-      </div>
-
-      {/* 空状态（无景点无美食） */}
-      {memorialSites.length === 0 && !nearbyLoading && displayFoods.length === 0 && (
+      {/* 空状态 */}
+      {!nearbyLoading && displayFoods.length === 0 && (
         <div className="text-center py-8">
+          <div className="text-[32px] mb-3">🍽️</div>
           <p className="text-[12px] text-ink-lt/60 italic mb-2">
-            此地文旅信息待补充
+            {foodTab === 'sushi' 
+              ? '此处暂未收录东坡足迹美食' 
+              : '此处山水尚在，美食记录尚未抵达'
+            }
           </p>
           <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-            推荐景点 / 特色美食 / 交通信息<br />
-            正在分批整理中
+            {foodTab === 'sushi' 
+              ? '苏轼一生足迹所至，美食无数<br />期待你发现更多东坡美食' 
+              : '你若到访，不妨留下线索'
+            }
           </p>
         </div>
       )}
