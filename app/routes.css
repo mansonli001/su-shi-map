@@ -630,3 +630,71 @@
     font-family: var(--font-serif);
   }
 }
+
+/* ============================================================
+ * v1.1 stitch 视觉增强（2026-06-05）
+ * 不改 .rb-* 既有样式，只追加 hover/active 装饰强化
+ * ============================================================ */
+
+/* —— 胶囊 chips：active 加朱砂红印章光晕 —— */
+.rb-chip-act {
+  position: relative;
+  box-shadow:
+    0 0 0 1px rgba(186, 26, 26, 0.18) inset,
+    0 2px 6px rgba(186, 26, 26, 0.18);
+}
+.rb-chip-act::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 7px;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--stitch-cinnabar, #ba1a1a);
+  box-shadow: 0 0 4px rgba(186, 26, 26, 0.6);
+}
+.rb-chip-act {
+  padding-left: 18px;
+}
+
+/* —— 路线卡片：hover 升起 + 金边光 —— */
+.rb-card {
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+.rb-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 0.5px rgba(253, 195, 77, 0.25),
+    0 8px 22px rgba(29, 27, 26, 0.08);
+}
+
+/* —— 类型徽章：加印章感（圆角 + 内描边） —— */
+.rb-badge {
+  position: relative;
+  box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.45) inset;
+}
+.rb-badge-exile {
+  background: rgba(186, 26, 26, 0.10);
+  color: var(--stitch-cinnabar, #ba1a1a);
+}
+
+/* —— 路线卡描述加左侧朱砂引导线 —— */
+.rb-card-desc {
+  position: relative;
+  padding-left: 10px;
+}
+.rb-card-desc::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  border-radius: 1px;
+  background: linear-gradient(180deg,
+    rgba(186, 26, 26, 0) 0%,
+    rgba(186, 26, 26, 0.35) 50%,
+    rgba(186, 26, 26, 0) 100%);
+}

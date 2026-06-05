@@ -18,7 +18,7 @@ import Link from 'next/link';
 
 export default function HomeLanding() {
   return (
-    <div className="ho-root ho-root--stitch">
+    <div className="ho-root">
       {/* ============ Hero ============ */}
       <section className="ho-hero">
         <div className="ho-en">XINGYIN SHANHE</div>

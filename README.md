@@ -9,6 +9,25 @@
 
 ---
 
+## 🔁 v1.0 冷启动快照与回滚
+
+v1.1 stitch 视觉升级前已对 v1.0（commit `564246d`）做了三层快照保护，任何时候出问题都可秒回：
+
+```bash
+# 方案 A：回到 v1.0 tag（只读快照，推荐先 checkout 看效果）
+git checkout v1.0.0
+
+# 方案 B：切回 release/v1.0 分支（可继续在 v1.0 上 hotfix）
+git checkout release/v1.0
+
+# 方案 C：直接强制把 main 拉回 v1.0（核选项，慎用）
+git checkout main && git reset --hard v1.0.0
+```
+
+> 备份位置：tag `v1.0.0` + 分支 `release/v1.0` + `app/page.v1.tsx.bak`（首页源码备份）
+
+---
+
 ## 项目愿景
 
 中国的山河，从来不只是地理。  

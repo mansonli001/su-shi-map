@@ -38,6 +38,7 @@ export default function ProfilePage() {
 
   return (
     <div
+      className="pf-stitch"
       style={{
         minHeight: '100vh',
         background: '#F1EFE8',

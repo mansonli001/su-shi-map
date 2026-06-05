@@ -4,6 +4,85 @@
 
 ---
 
+### 31. v1.1.0 stitch 视觉升级（增量装饰层 · 业务逻辑 0 改动）
+
+**升级动机**：吸收 stitch 设计稿的「三色印章 + 玻璃质感 + 纸张纹理 + 印章戳记」视觉语言，让产品观感从「PWA 工具感」升级为「精致内容产品感」。
+
+**两条最高级铁律**：
+- **铁律 ①**：现有功能 100% 保留（含 v1.0 之后所有已落地新增——打卡 / 收藏 / 成就 / 美食 / 笔记 / 分享 / 检查页 / 所有 API 路由）
+- **铁律 ②**：只参考 stitch 的视觉设计，文案 / 数据 / 入口全部用项目原版（不引入英文文案 / 不写死虚构数据 / 不砍 stitch 没画的入口）
+
+**三层快照保险**（任意时刻可秒回 v1.0）：
+
+| 层 | 备份方式 | 命令 |
+|---|---|---|
+| Tag | `v1.0.0` 锁定 commit `564246d` | `git checkout v1.0.0` |
+| 分支 | `release/v1.0` | `git checkout release/v1.0` |
+| 文件 | `components/Home/HomeLanding.v1.tsx.bak`（首页源码备份） | 直接覆盖 |
+| 兜底 | 重置 main 到 v1.0 | `git checkout main && git reset --hard v1.0.0` |
+
+**改动文件清单**（6 文件 +1 备份 +1 新增）：
+
+| # | 文件 | 类型 | 说明 |
+|---|---|---|---|
+| 1 | `app/globals.css` | 增量 | §13 stitch tokens（5 个 CSS 变量）+ §14 工具类（glass-card / parchment-texture / nav-seal-active / gold-edge-top / marker-ripple）+ §15 页面级装饰（pf-stitch / topnav-luxe 玻璃增强）。**0 删除原有变量与样式** |
+| 2 | `app/home.css` | 增量 | 末尾追加 8 段 stitch 装饰（仅在 `.ho-root--stitch` 下生效，老样式 0 影响）：纸纹 overlay / Hero 朱砂印章 / 代表足迹卡金边 / CTA 玻璃感 / 引言朱砂中线 / 英文小标暗金渐变 / 时间轴关键节点高光 |
+| 3 | `app/routes.css` | 增量 | 末尾追加 stitch 增强：active chip 朱砂红圆点 + 印章光晕 / card hover 升起金边 / badge 内描边 / desc 朱砂引导线 |
+| 4 | `components/Home/HomeLanding.tsx` | 1 行 | `<div className="ho-root">` → `<div className="ho-root ho-root--stitch">`。**所有 JSX 结构、文案、数字、href 0 改动** |
+| 5 | `components/BottomNav.tsx` | 1 行 | active 项 `<Link>` 加条件 className `nav-seal-active`，触发朱砂红印章 ::before 圆点上浮动画 |
+| 6 | `app/profile/page.tsx` | 1 行 | 最外层 `<div>` 加 className `pf-stitch`（保留所有 inline style）→ 触发头像朱砂红外环 + 头部底金边渐变 |
+| 7 | `components/Home/HomeLanding.v1.tsx.bak` | 新增 | HomeLanding v1.0 完整源码备份 |
+| 8 | `INVENTORY-BASELINE.md` | 新增 | 升级前功能入口 / 文案 / 业务逻辑基线（升级后逐项自检对照表） |
+
+**视觉装饰清单**（按页面）：
+
+- **首页 HomeLanding**
+  - 全页 feTurbulence 微纸纹（opacity 0.045）
+  - Hero 右上角朱砂红「行吟」印章戳记（旋转 -8°，box-shadow 三层堆叠模拟印章质感）
+  - 代表足迹 4 卡顶部金边渐变 + hover 朱砂红描边
+  - section 英文小标 `XINGYIN SHANHE / LIFE TRAJECTORY` 等改暗金→亮金→暗金渐变文字
+  - 引言「此心安处是吾乡」加垂直朱砂红中线
+- **底部导航 BottomNav**
+  - active 项标签上方朱砂红圆点（5×5px）+ navSealPop 弹跳动画（cubic-bezier(0.34, 1.56, 0.64, 1)，220ms）
+- **路线 /routes**
+  - active chip 左侧朱砂红圆点 + 朱砂光晕 box-shadow
+  - 路线卡 hover 升起 + 0.5px 金边光
+  - 贬谪 badge 改朱砂红软调
+- **个人中心 /profile**
+  - 头像 72×72 加 2px 朱砂红外环 + 1px 暖米白衬纸圈
+  - 头部墨黑背景底加金边渐变线（左右淡出）
+- **地图 /explore**
+  - 顶栏 `.topnav-luxe` 改深色玻璃（rgba(26,16,8,0.78) + backdrop-filter blur 14px saturate 160%）
+  - 顶栏底部追加 0.5px 暗金渐变线
+
+**安全设计原则**：
+
+| 原则 | 体现 |
+|---|---|
+| 增量装饰 | 所有视觉变更通过新增 className + CSS scope 实现，0 删除既有样式与 token |
+| 业务逻辑 0 改动 | 不动任何 store 字段、props 契约、API 路由、URL 参数协议、数据加载逻辑 |
+| 文案 0 改动 | 不引入 stitch 的英文文案，所有现有中文文案逐字保留（已通过 INVENTORY-BASELINE.md 锁定） |
+| 入口 0 缺失 | BottomNav 4 项 / 首页 10 个 Link / explore 顶栏 7 个入口 / routes 4 个 chips / profile 3 个 Tab — 全部可达 |
+| 数据 0 篡改 | 首页数字 234/64/3000+/14/20/68 全部维持 v4 真实数据，不写死 stitch 设计稿的虚构数字 |
+| inline style 0 重写 | profile 页大量 inline style 全部保留，避免爆破半径过大 |
+| 老 className 0 删除 | `.ho-* / .rb-* / .topnav-luxe / --paper / --gold-* / --ink` 等所有现有 className 与 CSS 变量保留 |
+
+**自检结果**（基于 INVENTORY-BASELINE.md）：
+
+- 入口完整性：✅ 7 路由全部 HTTP 200（/ /explore /poems /routes /profile /checkin /about）
+- 文案一致性：✅ 关键文案逐字未改（Hero / BottomNav / Tab labels / 统计字段）
+- 业务逻辑：✅ Store hook、checkAndUnlockAchievements、URL focus/route 参数、PlaceCard 90vh — 全部 0 改动
+- 数据真实性：✅ 234/64/3000+/14/20/68 维持，stitch 虚构数字未引入
+
+**回滚命令**：
+```bash
+git checkout main && git reset --hard v1.0.0
+# 或文件级
+cp components/Home/HomeLanding.v1.tsx.bak components/Home/HomeLanding.tsx
+```
+
+---
+
 ### 30. CHANGELOG #29 综合评分排序「假修复」根因修补 v2
 
 **复盘动机**：用户要求「逐项校验 CHANGELOG 与代码一致性」，发现 #29 子项 3「综合评分排序模型」承诺的 5 个维度中，**评论数(25%) + 本地菜系(20%) = 45% 权重在代码层完全失效**。

@@ -65,6 +65,7 @@ export default function BottomNav() {
           <Link
             key={item.path}
             href={item.path}
+            className={active ? 'nav-seal-active' : undefined}
             style={{
               display: 'flex',
               flexDirection: 'column',

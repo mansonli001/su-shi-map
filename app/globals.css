@@ -343,3 +343,214 @@ html { background: var(--ink); }
     overscroll-behavior: contain;
   }
 }
+
+/* ========================================================================
+ * 13. v1.1 stitch 视觉升级 token（2026-06-05）
+ *     参考 stitch 设计稿的「三色印章 + 玻璃质感 + 纸张纹理 + 印章戳记」视觉语言
+ *     ⚠️ 与现有 --paper/--ink/--gold-* 等老变量并存，零冲突零删除
+ * ====================================================================== */
+:root {
+  /* 印章三色 */
+  --stitch-cinnabar: #ba1a1a;       /* 朱砂红：印章戳记主色 */
+  --stitch-cinnabar-soft: #c95151;  /* 朱砂红软调（hover/装饰） */
+  --stitch-bronze: #fdc34d;         /* 亮金：金边/高光 */
+  --stitch-bronze-dark: #7b5800;    /* 暗金：文字加重 */
+  --stitch-jade: #8fb0a9;           /* 玉色：辅助点缀 */
+
+  /* 纸张色与轮廓 */
+  --stitch-parchment: #fef8f6;      /* 暖米白：纸张底 */
+  --stitch-parchment-2: #faf6f0;    /* 暖米白次级 */
+  --stitch-misty: #d1c4bc;          /* 灰雾：分隔线/轮廓 */
+  --stitch-outline: #80756e;        /* 暖灰描边 */
+  --stitch-ink: #1d1b1a;            /* 墨黑（与现有 --ink #12090a 不同色温，更暖） */
+}
+
+/* ========================================================================
+ * 14. v1.1 stitch 视觉工具类（页面级按需使用，不强制全局生效）
+ * ====================================================================== */
+@layer components {
+
+  /* 14.1 玻璃卡 — 浅色场景（rgba .7 + blur 12px + 暖灰描边） */
+  .glass-card {
+    background: rgba(254, 248, 246, 0.72);
+    -webkit-backdrop-filter: blur(12px) saturate(140%);
+    backdrop-filter: blur(12px) saturate(140%);
+    border: 0.5px solid rgba(128, 117, 110, 0.18);
+    box-shadow:
+      0 1px 0 rgba(255, 255, 255, 0.5) inset,
+      0 4px 12px rgba(29, 27, 26, 0.06);
+  }
+
+  /* 14.2 玻璃卡 — 深色场景（用于 explore 顶栏 topnav-luxe 增强） */
+  .glass-card-dark {
+    background: rgba(26, 16, 8, 0.72);
+    -webkit-backdrop-filter: blur(14px) saturate(160%);
+    backdrop-filter: blur(14px) saturate(160%);
+    border-bottom: 0.5px solid rgba(253, 195, 77, 0.18);
+  }
+
+  /* 14.3 纸张纹理 — inline SVG dataURL（feTurbulence 0.05 opacity）
+   *      ⚠️ 透明背景叠加，可挂在任何容器上做装饰；不强制改 body 全局底色 */
+  .parchment-texture {
+    position: relative;
+    background-color: var(--stitch-parchment);
+  }
+  .parchment-texture::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.045;
+    z-index: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.32  0 0 0 0 0.22  0 0 0 0.6 0'/></filter><rect width='220' height='220' filter='url(%23n)'/></svg>");
+    background-size: 220px 220px;
+    mix-blend-mode: multiply;
+  }
+  .parchment-texture > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* 14.4 纸张纹理 · 自适应底色版（仅叠纹理不改底色，给已有 background 的容器用） */
+  .parchment-overlay {
+    position: relative;
+  }
+  .parchment-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.32  0 0 0 0 0.22  0 0 0 0.6 0'/></filter><rect width='220' height='220' filter='url(%23n)'/></svg>");
+    background-size: 220px 220px;
+    mix-blend-mode: multiply;
+  }
+
+  /* 14.5 BottomNav active 印章戳记（朱砂红圆点上浮 1px 模拟印章） */
+  .nav-seal-active {
+    position: relative;
+  }
+  .nav-seal-active::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: var(--stitch-cinnabar);
+    box-shadow:
+      0 0 0 1px rgba(186, 26, 26, 0.18),
+      0 1px 2px rgba(186, 26, 26, 0.35);
+    pointer-events: none;
+    animation: navSealPop 220ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  }
+  @keyframes navSealPop {
+    0%   { transform: translate(-50%, 4px) scale(0.4); opacity: 0; }
+    60%  { transform: translate(-50%, -1px) scale(1.15); opacity: 1; }
+    100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+  }
+
+  /* 14.6 朱砂金边 — 卡片顶部 1px 金边（Bento 风格） */
+  .gold-edge-top {
+    position: relative;
+  }
+  .gold-edge-top::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 12px;
+    right: 12px;
+    height: 1px;
+    background: linear-gradient(90deg,
+      rgba(253, 195, 77, 0) 0%,
+      rgba(253, 195, 77, 0.65) 50%,
+      rgba(253, 195, 77, 0) 100%);
+  }
+
+  /* 14.7 marker 涟漪环（朱砂红 ping 动画） */
+  .marker-ripple {
+    position: relative;
+  }
+  .marker-ripple::after {
+    content: '';
+    position: absolute;
+    inset: -4px;
+    border-radius: 50%;
+    border: 1.5px solid var(--stitch-cinnabar);
+    opacity: 0;
+    animation: markerRipple 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+    pointer-events: none;
+  }
+  @keyframes markerRipple {
+    0%   { transform: scale(0.85); opacity: 0.7; }
+    80%  { transform: scale(2.0);  opacity: 0;   }
+    100% { transform: scale(2.0);  opacity: 0;   }
+  }
+}
+
+/* ========================================================================
+ * 15. v1.1 stitch 页面级装饰 — profile + explore（2026-06-05）
+ *     scope 在专属 className 下，老代码 0 影响
+ * ====================================================================== */
+
+/* —— 15.1 profile 个人中心：头部金边渐变 + 统计卡 hover 朱砂高光 —— */
+.pf-stitch {
+  position: relative;
+}
+/* 头部墨黑底加底部金边 */
+.pf-stitch > div:first-of-type:not([class]) + div {
+  /* 占位 - 选择器太脆弱，改用更稳的方式 */
+}
+
+/* 头部 hero 区追加金边 ::after（基于 inline style 的第一个 div 是 AchievementToast，第二个才是 hero）
+   使用 :nth-child(2) 兼容性更好 */
+.pf-stitch > div:nth-child(2) {
+  position: relative;
+}
+.pf-stitch > div:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.5px;
+  background: linear-gradient(90deg,
+    rgba(253, 195, 77, 0) 0%,
+    rgba(253, 195, 77, 0.55) 30%,
+    rgba(253, 195, 77, 0.85) 50%,
+    rgba(253, 195, 77, 0.55) 70%,
+    rgba(253, 195, 77, 0) 100%);
+  pointer-events: none;
+}
+
+/* 头像加印章风格外环（72×72 → 加 2px 朱砂红外环） */
+.pf-stitch > div:nth-child(2) > div > div:first-child {
+  box-shadow:
+    0 0 0 2px rgba(254, 248, 246, 0.18),
+    0 0 0 3px rgba(186, 26, 26, 0.45),
+    0 4px 14px rgba(186, 117, 23, 0.35);
+}
+
+/* —— 15.2 explore 顶栏 .topnav-luxe 玻璃质感增强 —— */
+.topnav-luxe {
+  background: rgba(26, 16, 8, 0.78);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  backdrop-filter: blur(14px) saturate(160%);
+  border-bottom: 0.5px solid rgba(253, 195, 77, 0.22);
+}
+/* 顶栏底部加 1px 暗金边 */
+.topnav-luxe::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.5px;
+  height: 0.5px;
+  background: linear-gradient(90deg,
+    rgba(253, 195, 77, 0) 0%,
+    rgba(253, 195, 77, 0.35) 50%,
+    rgba(253, 195, 77, 0) 100%);
+  pointer-events: none;
+}
