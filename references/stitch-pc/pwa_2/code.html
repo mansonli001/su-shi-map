@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>探索地图 - 行吟山河 (艺术定制版)</title>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style>
+        /* Custom Fonts mapping for Tailwind */
+        @font-face {
+            font-family: 'notoSerif';
+            src: local('Noto Serif SC');
+        }
+        @font-face {
+            font-family: 'sourceSansThree';
+            src: local('Source Sans 3');
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Map texture overlay */
+        .ink-wash-overlay {
+            background-image: url('data:image/svg+xml;utf8,<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.05"/></svg>');
+            pointer-events: none;
+        }
+
+        /* Bottom Sheet Animation */
+        .bottom-sheet {
+            transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        .bottom-sheet.open {
+            transform: translateY(0);
+        }
+        .bottom-sheet.closed {
+            transform: translateY(calc(100% - 64px)); /* Only show handle */
+        }
+        
+        /* Safe Area Padding for PWA */
+        .pb-safe {
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+        }
+        .pt-safe {
+            padding-top: env(safe-area-inset-top, 20px);
+        }
+    </style>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "secondary-container": "#fdc34d",
+                        "surface-variant": "#e7e1df",
+                        "on-tertiary-fixed": "#171c23",
+                        "on-secondary-fixed": "#271900",
+                        "surface-dim": "#ded9d7",
+                        "surface-container-lowest": "#ffffff",
+                        "inverse-on-surface": "#f5efed",
+                        "on-surface": "#1d1b1a",
+                        "on-primary-fixed-variant": "#52443a",
+                        "inverse-primary": "#d7c3b5",
+                        "error": "#ba1a1a",
+                        "secondary-fixed": "#ffdea6",
+                        "on-background": "#1d1b1a",
+                        "secondary": "#7b5800",
+                        "on-tertiary-fixed-variant": "#42474f",
+                        "on-error": "#ffffff",
+                        "on-tertiary-container": "#7f848d",
+                        "primary": "#000000",
+                        "surface-container-high": "#ede7e5",
+                        "tertiary": "#000000",
+                        "outline": "#80756e",
+                        "surface-container-low": "#f8f2f0",
+                        "on-primary-fixed": "#241911",
+                        "tertiary-fixed-dim": "#c2c6d1",
+                        "on-primary": "#ffffff",
+                        "primary-container": "#241911",
+                        "on-secondary-fixed-variant": "#5d4200",
+                        "tertiary-fixed": "#dee2ed",
+                        "primary-fixed-dim": "#d7c3b5",
+                        "on-tertiary": "#ffffff",
+                        "surface-container-highest": "#e7e1df",
+                        "background": "#fef8f6",
+                        "surface-tint": "#6b5b50",
+                        "on-surface-variant": "#4e453f",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#d1c4bc",
+                        "primary-fixed": "#f4ded0",
+                        "on-secondary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-primary-container": "#928174",
+                        "surface-bright": "#fef8f6",
+                        "surface": "#fef8f6",
+                        "surface-container": "#f3edea",
+                        "inverse-surface": "#32302f",
+                        "secondary-fixed-dim": "#f7bd48",
+                        "on-secondary-container": "#715000",
+                        "tertiary-container": "#171c23"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "stack-lg": "48px",
+                        "touch-target-min": "44px",
+                        "gutter": "16px",
+                        "container-margin": "24px",
+                        "stack-sm": "12px",
+                        "stack-md": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["sourceSansThree"],
+                        "display-lg": ["notoSerif"],
+                        "display-lg-mobile": ["notoSerif"],
+                        "vertical-header": ["notoSerif"],
+                        "body-lg": ["sourceSansThree"],
+                        "label-caps": ["sourceSansThree"],
+                        "headline-md": ["notoSerif"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "display-lg": ["42px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "vertical-header": ["20px", { "lineHeight": "1.5", "fontWeight": "500" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md h-screen w-screen overflow-hidden flex flex-col relative antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Ink Wash Map Canvas (Background) -->
+<div class="absolute inset-0 z-0">
+<!-- Map Image with data-location for map generation, styling to look like ink wash -->
+<div class="w-full h-full bg-surface-dim relative overflow-hidden" data-alt="A minimalist, stylized map rendering of Hubei province, China, focusing on Huangzhou. The aesthetic is inspired by traditional Chinese ink-wash painting, using muted misty grey tones for terrain and subtle bronze-gold lines indicating historical travel routes and rivers. The background color is a warm parchment tint, providing a scholarly, meditative, and high-end digital art feel suitable for a contemporary historical application. No modern labels or bright colors, just elegant cartographic art in a light-mode palette." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBlaDrRQ2D_Zkp3NBD0EAGIj2rJA5gMFOq9rxZa3xeO7efWprCGmtCI6UnSM98q00XgECPaDwS_YJRrDtk8Gpajyx7zq0lE0ex8c7e6UQzRTkNyT3Kuqs_GbyfqMiGUIz4KnEQhsj1w5wkncbl6ydd31PymCQ02lyUmYKYxxtWtwPO6Ym-phNjwAb5U4Xf6TUBZ8aT_5cmuT1RXLLRS7Ny0-uc9LAar1QTzaZiQz0m-5-EK0GW4LvDfEUtiMQbu2BhPrucbNirPf8m9'); background-size: cover; background-position: center; mix-blend-mode: multiply; opacity: 0.6;"></div>
+<div class="absolute inset-0 ink-wash-overlay z-10"></div>
+<!-- Map Markers -->
+<div class="absolute z-20 flex flex-col items-center top-[40%] left-[55%] transform -translate-x-1/2 -translate-y-1/2">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center relative">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.15)] animate-pulse">
+<span class="material-symbols-outlined text-on-primary text-[20px]" data-icon="account_balance">account_balance</span>
+</div>
+<!-- Calligraphy label -->
+<div class="absolute top-14 whitespace-nowrap bg-surface/90 backdrop-blur-sm px-3 py-1 rounded-full border border-outline-variant/50 shadow-sm">
+<span class="font-headline-md text-headline-md text-primary text-sm font-semibold tracking-wide">东坡雪堂</span>
+</div>
+</div>
+</div>
+<div class="absolute z-20 flex flex-col items-center top-[30%] left-[35%] transform -translate-x-1/2 -translate-y-1/2 opacity-60">
+<div class="w-6 h-6 rounded-full bg-outline-variant flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-surface text-[14px]" data-icon="location_on">location_on</span>
+</div>
+<div class="mt-1 whitespace-nowrap text-on-surface-variant font-label-caps text-label-caps tracking-widest text-[10px]">黄州府</div>
+</div>
+</div>
+<!-- Top App Bar Area (Floating above map) -->
+<header class="fixed top-0 left-0 w-full z-40 pt-safe px-container-margin pb-4 flex flex-col gap-4 bg-gradient-to-b from-background/90 to-transparent">
+<div class="flex justify-between items-center w-full h-[56px]">
+<!-- Brand -->
+<div class="font-display-lg-mobile text-display-lg-mobile text-primary tracking-tight">
+                行吟山河
+            </div>
+<!-- Offline Status Chip -->
+<div class="flex items-center gap-2 bg-surface/80 backdrop-blur-md px-3 py-1.5 rounded-full border border-outline-variant/30 shadow-sm">
+<div class="w-2 h-2 rounded-full bg-secondary-container"></div>
+<span class="font-label-caps text-label-caps text-on-surface-variant text-[10px] tracking-wider">离线地图就绪</span>
+</div>
+</div>
+<!-- Search Bar -->
+<div class="w-full relative shadow-sm rounded-full bg-surface/90 backdrop-blur-md border border-outline-variant/50 h-[48px] flex items-center px-4 overflow-hidden focus-within:border-primary transition-colors">
+<span class="material-symbols-outlined text-outline mr-3" data-icon="search">search</span>
+<input class="w-full bg-transparent border-none p-0 text-on-surface font-body-md text-body-md placeholder:text-outline-variant focus:ring-0 focus:outline-none h-full" placeholder="寻访诗人足迹、名篇发源地..." type="text"/>
+<button class="ml-2 w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]" data-icon="mic">mic</span>
+</button>
+</div>
+</header>
+<!-- Bottom Sheet Drawer (Dongpo Snow Hall) -->
+<div class="fixed bottom-[56px] left-0 w-full z-40 bg-surface rounded-t-[24px] shadow-[0_-8px_32px_rgba(0,0,0,0.08)] border-t border-outline-variant/30 bottom-sheet open flex flex-col max-h-[618px]" id="locationDrawer">
+<!-- Handle -->
+<div class="w-full flex justify-center items-center h-[32px] cursor-pointer shrink-0" onclick="toggleDrawer()">
+<div class="w-[40px] h-[4px] rounded-full bg-outline-variant/50"></div>
+</div>
+<!-- Scrollable Content -->
+<div class="px-container-margin pb-6 overflow-y-auto overscroll-contain flex-grow">
+<!-- Header -->
+<div class="flex justify-between items-start mb-6">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded-full bg-primary/5 text-primary font-label-caps text-[10px] tracking-widest border border-primary/10">湖北 · 黄州</span>
+<span class="text-outline text-sm font-body-md text-body-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="distance">distance</span> 2.4 km
+                        </span>
+</div>
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-primary mb-2">东坡雪堂</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant italic font-serif">"雪堂之西，有泉涓涓..."</p>
+</div>
+<!-- Action Buttons -->
+<div class="flex gap-2">
+<button class="w-[44px] h-[44px] rounded-full border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined" data-icon="bookmark_border">bookmark_border</span>
+</button>
+<button class="w-[44px] h-[44px] rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md hover:bg-primary/90 transition-colors">
+<span class="material-symbols-outlined" data-icon="navigation">navigation</span>
+</button>
+</div>
+</div>
+<!-- Historical Context -->
+<div class="space-y-4">
+<div class="border-l-2 border-secondary-container pl-4 py-1">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed text-justify">
+                        元丰五年（1082年），苏轼谪居黄州，于城东山坡筑室。因适逢大雪，堂落成时四壁皆绘雪景，故名“雪堂”。此地为苏轼在黄州期间读书、会客、作画之所。
+                    </p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed text-justify">
+                    在这里，他写下了《雪堂记》，自号“东坡居士”。雪堂不仅是他在困境中安顿身心的居所，更是中国文学史上一处重要的精神地标。
+                </p>
+</div>
+<!-- Related Works Bento -->
+<div class="mt-8">
+<h3 class="font-headline-md text-headline-md text-primary mb-4 text-base border-b border-outline-variant/30 pb-2">关联名篇</h3>
+<div class="grid grid-cols-2 gap-3">
+<div class="bg-surface-container rounded-xl p-4 border border-outline-variant/20 relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="absolute -right-4 -bottom-4 text-outline/10 group-hover:text-outline/20 transition-colors">
+<span class="material-symbols-outlined text-[80px]" data-icon="history_edu">history_edu</span>
+</div>
+<div class="relative z-10">
+<div class="font-headline-md text-headline-md text-primary text-sm mb-1">《雪堂记》</div>
+<div class="font-body-md text-body-md text-on-surface-variant text-xs mb-3">宋 · 苏轼</div>
+<div class="font-label-caps text-label-caps text-secondary text-[10px]">散文随笔</div>
+</div>
+</div>
+<div class="bg-surface-container rounded-xl p-4 border border-outline-variant/20 relative overflow-hidden group hover:bg-surface-container-high transition-colors">
+<div class="absolute -right-4 -bottom-4 text-outline/10 group-hover:text-outline/20 transition-colors">
+<span class="material-symbols-outlined text-[80px]" data-icon="water">water</span>
+</div>
+<div class="relative z-10">
+<div class="font-headline-md text-headline-md text-primary text-sm mb-1">《定风波》</div>
+<div class="font-body-md text-body-md text-on-surface-variant text-xs mb-3">宋 · 苏轼</div>
+<div class="font-label-caps text-label-caps text-secondary text-[10px]">沙湖道中遇雨</div>
+</div>
+</div>
+</div>
+</div>
+<div class="h-12"></div> <!-- Spacer for scrolling -->
+</div>
+</div>
+<!-- BottomNavBar (Shared Component JSON definition applied) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-[56px] pb-safe bg-surface/95 backdrop-blur-md border-t border-outline-variant/20 shadow-[0_-4px_16px_rgba(0,0,0,0.02)]">
+<!-- 首页 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant w-[64px] h-full hover:bg-surface-container-low transition-colors active:scale-90 duration-150 relative group" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1 group-hover:text-primary transition-colors" data-icon="home" data-weight="regular">home</span>
+<span class="font-label-caps text-[10px] group-hover:text-primary transition-colors">首页</span>
+</a>
+<!-- 地图 Active -->
+<a class="flex flex-col items-center justify-center text-primary w-[64px] h-full hover:bg-surface-container-low transition-colors active:scale-90 duration-150 relative" href="#">
+<!-- Active Indicator Dot (Cinnabar Red conceptual) -->
+<div class="absolute top-1 w-1.5 h-1.5 rounded-full bg-error"></div>
+<span class="material-symbols-outlined text-[24px] mb-1 font-bold" data-icon="map" data-weight="fill" style="font-variation-settings: 'FILL' 1;">map</span>
+<span class="font-label-caps text-[10px] font-bold">地图</span>
+</a>
+<!-- 诗词 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant w-[64px] h-full hover:bg-surface-container-low transition-colors active:scale-90 duration-150 relative group" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1 group-hover:text-primary transition-colors" data-icon="auto_stories" data-weight="regular">auto_stories</span>
+<span class="font-label-caps text-[10px] group-hover:text-primary transition-colors">诗词</span>
+</a>
+<!-- 我的 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant w-[64px] h-full hover:bg-surface-container-low transition-colors active:scale-90 duration-150 relative group" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1 group-hover:text-primary transition-colors" data-icon="person" data-weight="regular">person</span>
+<span class="font-label-caps text-[10px] group-hover:text-primary transition-colors">我的</span>
+</a>
+</nav>
+<script>
+        // Simple logic to toggle the bottom sheet drawer
+        function toggleDrawer() {
+            const drawer = document.getElementById('locationDrawer');
+            if (drawer.classList.contains('open')) {
+                drawer.classList.remove('open');
+                drawer.classList.add('closed');
+            } else {
+                drawer.classList.remove('closed');
+                drawer.classList.add('open');
+            }
+        }
+    </script>
+</body></html>

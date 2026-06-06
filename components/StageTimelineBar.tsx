@@ -1,10 +1,16 @@
 /**
- * StageTimelineBar v2.0「行吟山河」
- * 底部六阶段时间轴 · 横向可滑动版（参考用户设计稿）
+ * StageTimelineBar v3.0「行吟山河 · ink-path 米白版」
+ * 底部六阶段时间轴 · 与顶栏统一 parchment 米白 + 朱砂红 active
  *
- * 视觉：墨黑底 + 金色当前态 + 横向滚动（不强塞屏）
- * 移动端：当前阶段放大居中 + 左右可滑动
- * 桌面端：保持均分铺满
+ * 视觉对齐：references/stitch-pc/ink_path/DESIGN.md
+ *   - 主底：rgba(254,248,246,0.96) 暖米白 frosted（与 explore 顶栏一致）
+ *   - 文字：墨黑 #1a1410 / 次级 #6b5d54
+ *   - active：朱砂红 #ba1a1a（text + progress dot + 阶段按钮 tint）
+ *   - 进度条 fill：暗金 #7b5800
+ *   - 1037–1101 年份刻度：移动端也显示（字号收紧 9px）
+ *
+ * 移动端：阶段名横向可滑动，当前态自动居中
+ * 桌面端：6 阶段均分铺满
  */
 
 'use client';
@@ -12,6 +18,19 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
 import { useSuShiStore } from '@/lib/store';
 import { loadV4Stages, loadV4RoutesIdx, type V4StageIdx, type V4RouteIdx } from '@/lib/v4-adapter';
+
+// ===== 设计 token（与顶栏 / ink-path.css 严格一致） =====
+const COLOR = {
+  surface: 'rgba(254, 248, 246, 0.96)',
+  ink: '#1a1410',
+  inkSub: '#6b5d54',
+  hairline: 'rgba(209, 196, 188, 0.5)',
+  trackBg: 'rgba(209, 196, 188, 0.4)',
+  cinnabar: '#ba1a1a',
+  cinnabarTint: 'rgba(186, 26, 26, 0.08)',
+  cinnabarTintHover: 'rgba(186, 26, 26, 0.04)',
+  bronze: '#7b5800',
+};
 
 export default function StageTimelineBar() {
   const [stages, setStages] = useState<V4StageIdx[]>([]);
@@ -40,7 +59,6 @@ export default function StageTimelineBar() {
     if (activeStageIdx == null || !activeRef.current || !scrollRef.current) return;
     const el = activeRef.current;
     const container = scrollRef.current;
-    // 平滑滚动到当前 button 居中
     const offset = el.offsetLeft - container.clientWidth / 2 + el.clientWidth / 2;
     container.scrollTo({ left: offset, behavior: 'smooth' });
   }, [activeStageIdx]);
@@ -61,8 +79,10 @@ export default function StageTimelineBar() {
     <div
       className="fixed bottom-0 left-0 md:left-[200px] right-0 z-30 select-none safe-bottom"
       style={{
-        background: 'var(--ink)',
-        borderTop: '1px solid rgba(250,199,117,0.14)',
+        background: COLOR.surface,
+        backdropFilter: 'blur(14px) saturate(140%)',
+        WebkitBackdropFilter: 'blur(14px) saturate(140%)',
+        borderTop: `1px solid ${COLOR.hairline}`,
       }}
     >
       <div className="px-0 md:px-5 py-2 md:py-3">
@@ -89,29 +109,55 @@ export default function StageTimelineBar() {
                   px-3.5 py-2 md:py-1.5 rounded-md
                   group cursor-pointer
                   transition-all duration-300
-                  ${isActive ? 'bg-gold/15 scale-105' : 'hover:bg-gold/5'}
+                  ${isActive ? 'scale-105' : ''}
                 `}
-                style={{ scrollSnapAlign: 'center' }}
+                style={{
+                  scrollSnapAlign: 'center',
+                  background: isActive ? COLOR.cinnabarTint : 'transparent',
+                  fontFamily: '"Noto Serif SC", serif',
+                }}
+                onMouseEnter={(e) => {
+                  if (!isActive) e.currentTarget.style.background = COLOR.cinnabarTintHover;
+                }}
+                onMouseLeave={(e) => {
+                  if (!isActive) e.currentTarget.style.background = 'transparent';
+                }}
                 title={`${s.name} · ${s.theme}`}
               >
                 <span
-                  className={`
-                    font-wenkai transition-colors leading-tight whitespace-nowrap
-                    ${isActive
-                      ? 'text-gold font-semibold text-[16px] md:text-[12px]'
-                      : 'text-gold/55 group-hover:text-gold/80 text-[14px] md:text-[11px]'}
-                  `}
-                  style={{ letterSpacing: '0.06em' }}
+                  className="font-wenkai transition-colors leading-tight whitespace-nowrap"
+                  style={{
+                    color: isActive ? COLOR.cinnabar : COLOR.ink,
+                    fontWeight: isActive ? 700 : 500,
+                    fontSize: isActive ? 'clamp(13px,3.5vw,15px)' : 'clamp(12px,3vw,13px)',
+                    letterSpacing: '0.08em',
+                  }}
                 >
                   {s.name}
                 </span>
+                {/* 副标 alias（如「蜀中读书」「贬谪悟道」），桌面端始终显示 */}
                 <span
-                  className={`
-                    mt-0.5 transition-colors font-mono
-                    ${isActive
-                      ? 'text-gold-d/95 text-[12px] md:text-[9px] font-semibold'
-                      : 'text-ink-lt/65 group-hover:text-gold-m/65 text-[11px] md:text-[9px]'}
-                  `}
+                  className="hidden md:block transition-colors whitespace-nowrap"
+                  style={{
+                    marginTop: '2px',
+                    color: isActive ? COLOR.cinnabar : COLOR.inkSub,
+                    fontSize: '10px',
+                    fontFamily: '"Source Sans 3", sans-serif',
+                    letterSpacing: '0.04em',
+                    opacity: isActive ? 0.85 : 0.7,
+                  }}
+                >
+                  {s.alias}
+                </span>
+                <span
+                  className="transition-colors font-mono"
+                  style={{
+                    marginTop: '2px',
+                    color: isActive ? COLOR.cinnabar : COLOR.inkSub,
+                    fontSize: '10px',
+                    fontWeight: isActive ? 600 : 400,
+                    opacity: isActive ? 0.9 : 0.7,
+                  }}
                 >
                   {s.start_year}
                 </span>
@@ -121,27 +167,43 @@ export default function StageTimelineBar() {
         </div>
 
         {/* 进度条 */}
-        <div className="relative h-[2px] mx-3 md:mx-0 bg-[#2C2C2A] rounded-full mb-1 md:mb-1.5">
+        <div
+          className="relative h-[2px] mx-3 md:mx-0 rounded-full mb-1 md:mb-1.5"
+          style={{ background: COLOR.trackBg }}
+        >
           <div
-            className="absolute top-0 left-0 h-[2px] bg-gold-m rounded-full transition-all duration-700"
-            style={{ width: `${fillPct}%` }}
+            className="absolute top-0 left-0 h-[2px] rounded-full transition-all duration-700"
+            style={{ width: `${fillPct}%`, background: COLOR.bronze }}
           />
           {activeStageIdx != null && (
             <div
-              className="absolute -top-[5px] w-3 h-3 bg-gold rounded-full border-2 border-[var(--ink)] transition-all duration-700"
-              style={{ left: `calc(${fillPct}% - 6px)` }}
+              className="absolute -top-[5px] w-3 h-3 rounded-full transition-all duration-700"
+              style={{
+                left: `calc(${fillPct}% - 6px)`,
+                background: COLOR.cinnabar,
+                border: `2px solid ${COLOR.surface}`,
+                boxShadow: `0 0 0 1px ${COLOR.cinnabar}, 0 0 6px rgba(186,26,26,0.35)`,
+              }}
             />
           )}
         </div>
 
-        {/* 年份行 · 桌面端展示 */}
-        <div className="hidden md:flex justify-between text-[10px] text-ink-lt/60 font-mono px-0.5">
+        {/* 年份行 · 全屏可见（窄屏字号自动收紧） */}
+        <div
+          className="flex justify-between font-mono px-3 md:px-0.5"
+          style={{
+            fontSize: 'clamp(9px,2.4vw,10px)',
+            color: COLOR.inkSub,
+            opacity: 0.75,
+            letterSpacing: '0.04em',
+          }}
+        >
           <span>1037</span>
-          <span className={activeStageIdx === 0 ? 'text-gold' : ''}>1056</span>
-          <span className={activeStageIdx === 1 ? 'text-gold' : ''}>1079</span>
-          <span className={activeStageIdx === 2 ? 'text-gold' : ''}>1085</span>
-          <span className={activeStageIdx === 3 ? 'text-gold' : ''}>1094</span>
-          <span className={activeStageIdx === 4 ? 'text-gold' : ''}>1100</span>
+          <span style={activeStageIdx === 0 ? { color: COLOR.cinnabar, fontWeight: 700, opacity: 1 } : undefined}>1056</span>
+          <span style={activeStageIdx === 1 ? { color: COLOR.cinnabar, fontWeight: 700, opacity: 1 } : undefined}>1079</span>
+          <span style={activeStageIdx === 2 ? { color: COLOR.cinnabar, fontWeight: 700, opacity: 1 } : undefined}>1085</span>
+          <span style={activeStageIdx === 3 ? { color: COLOR.cinnabar, fontWeight: 700, opacity: 1 } : undefined}>1094</span>
+          <span style={activeStageIdx === 4 ? { color: COLOR.cinnabar, fontWeight: 700, opacity: 1 } : undefined}>1100</span>
           <span>1101</span>
         </div>
       </div>

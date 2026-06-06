@@ -1,6 +1,9 @@
 /**
- * /profile — 个人中心页
- * 完全按照设计稿实现
+ * /profile — 个人中心页 v4.0「Ink & Path」
+ * 米白宣纸 + 墨黑 + 朱砂红 视觉
+ * 顶部：身份卡（米白 hairline）+ 苏轼全局数据 4 卡（引导探索）
+ *      ↓ 用户行为数据 4 卡（收藏/打卡/成就/笔记）+ 打卡进度条
+ * Tab 切换：成就墙 / 收藏诗词 / 我的笔记
  */
 
 'use client';
@@ -12,6 +15,30 @@ import AchievementWall from '@/components/AchievementWall';
 import AchievementToast from '@/components/AchievementToast';
 import SharePoster from '@/components/SharePoster';
 import { achievements } from '@/lib/achievements';
+
+// ink-path tokens
+const INK = {
+  parchment: '#fef8f6',
+  parchmentSoft: '#f7f0ec',
+  parchmentDeep: '#ede4dd',
+  ink: '#1a1410',
+  inkSoft: '#3d342e',
+  inkLite: '#6b5d54',
+  cinnabar: '#ba1a1a',
+  cinnabarSoft: 'rgba(186, 26, 26, 0.08)',
+  goldM: '#9b7a3a',
+  goldLite: '#d1c4bc',
+  hairline: 'rgba(209, 196, 188, 0.5)',
+  hairlineSoft: 'rgba(209, 196, 188, 0.28)',
+};
+
+// 苏轼一生全局数据（v4 数据库实测值）
+const SU_SHI_GLOBAL = {
+  places: 234,   // 234 处足迹
+  poems: 326,    // 326 首代表作
+  routes: 20,    // 20 条主题路线
+  stages: 6,     // 6 大人生阶段
+};
 
 export default function ProfilePage() {
   const { favoritePoems, checkinPlaces, userNotes, places, unlockedAchievements, checkAndUnlockAchievements } = useSuShiStore();
@@ -29,154 +56,213 @@ export default function ProfilePage() {
     checkins: checkinPlaces.length,
     notes: userNotes.length,
     achievements: unlockedAchievements.length,
-    totalPlaces: places.length,
+    totalPlaces: places.length || SU_SHI_GLOBAL.places,
   };
 
-  const checkinProgress = stats.totalPlaces > 0 
-    ? Math.round((stats.checkins / stats.totalPlaces) * 100) 
+  const checkinProgress = stats.totalPlaces > 0
+    ? Math.round((stats.checkins / stats.totalPlaces) * 100)
     : 0;
 
   return (
     <div
-      className="pf-stitch"
       style={{
         minHeight: '100vh',
-        background: '#F1EFE8',
-        paddingBottom: 'calc(64px + env(safe-area-inset-bottom))',
+        background: INK.parchment,
+        paddingBottom: 'calc(80px + env(safe-area-inset-bottom))',
+        fontFamily: '"Noto Serif SC", serif',
       }}
     >
       {/* 成就解锁Toast */}
       <AchievementToast />
 
-      {/* 头部信息 */}
+      {/* ===== 顶部：身份区（米白 hairline 卡） ===== */}
       <div
         style={{
-          background: '#1A1008',
-          padding: '32px 16px 24px',
+          padding: '40px 16px 28px',
+          textAlign: 'center',
+          background: INK.parchment,
+          borderBottom: `1px solid ${INK.hairlineSoft}`,
         }}
       >
-        <div style={{ textAlign: 'center' }}>
-          {/* 头像 */}
-          <div
-            style={{
-              width: '72px',
-              height: '72px',
-              borderRadius: '50%',
-              background: '#BA7517',
-              margin: '0 auto 16px',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontSize: '28px',
-              color: '#FAF6F0',
-              fontWeight: '600',
-            }}
-          >
-            行
-          </div>
-          <h1 style={{ fontSize: '18px', fontWeight: '600', color: '#FAF6F0', marginBottom: '4px' }}>
-            行吟山河
-          </h1>
-          <p style={{ fontSize: '12px', color: '#888780', letterSpacing: '0.08em' }}>
-            追随苏轼足迹，品读千古诗词
-          </p>
-        </div>
-
-        {/* 统计卡片 */}
+        {/* 头像（墨黑实底 + 米白字） */}
         <div
           style={{
+            width: '72px',
+            height: '72px',
+            borderRadius: '50%',
+            background: INK.ink,
+            margin: '0 auto 16px',
             display: 'flex',
-            justifyContent: 'space-around',
-            marginTop: '24px',
-            padding: '16px',
-            background: 'rgba(250, 199, 117, 0.06)',
-            borderRadius: '12px',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '28px',
+            color: INK.parchment,
+            fontWeight: 600,
+            border: `2px solid ${INK.cinnabar}`,
+            boxShadow: '0 2px 8px rgba(186, 26, 26, 0.18)',
           }}
         >
-          <div style={{ textAlign: 'center' }}>
-            <div
+          行
+        </div>
+        <h1
+          style={{
+            fontSize: '20px',
+            fontWeight: 600,
+            color: INK.ink,
+            marginBottom: '6px',
+            letterSpacing: '0.06em',
+          }}
+        >
+          行吟山河
+        </h1>
+        <p
+          style={{
+            fontSize: '12px',
+            color: INK.inkLite,
+            letterSpacing: '0.1em',
+          }}
+        >
+          追随苏轼足迹，品读千古诗词
+        </p>
+      </div>
+
+      {/* ===== 苏轼全局数据 4 卡（引导探索） ===== */}
+      <div style={{ padding: '20px 16px 12px' }}>
+        <div
+          style={{
+            fontSize: '10px',
+            color: INK.inkLite,
+            letterSpacing: '0.24em',
+            textTransform: 'uppercase',
+            marginBottom: '10px',
+            paddingLeft: '4px',
+            fontFamily: '"Source Sans 3", sans-serif',
+          }}
+        >
+          SU SHI · 一生数据
+        </div>
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '8px',
+          }}
+        >
+          {[
+            { label: '足迹', value: SU_SHI_GLOBAL.places, unit: '处', href: '/explore' },
+            { label: '诗词', value: SU_SHI_GLOBAL.poems, unit: '首', href: '/poems' },
+            { label: '路线', value: SU_SHI_GLOBAL.routes, unit: '条', href: '/routes' },
+            { label: '阶段', value: SU_SHI_GLOBAL.stages, unit: '幕', href: '/' },
+          ].map((c) => (
+            <Link
+              key={c.label}
+              href={c.href}
               style={{
-                fontSize: '22px',
-                fontWeight: '600',
-                color: '#FAC775',
+                display: 'block',
+                background: INK.parchment,
+                border: `1px solid ${INK.hairline}`,
+                borderRadius: '10px',
+                padding: '14px 8px',
+                textAlign: 'center',
+                textDecoration: 'none',
+                transition: 'all 0.2s',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.borderColor = INK.cinnabar;
+                e.currentTarget.style.background = INK.cinnabarSoft;
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.borderColor = INK.hairline;
+                e.currentTarget.style.background = INK.parchment;
               }}
             >
-              {stats.favorites}
+              <div
+                style={{
+                  fontSize: '24px',
+                  fontWeight: 700,
+                  color: INK.ink,
+                  lineHeight: 1,
+                  fontFamily: '"Noto Serif SC", serif',
+                }}
+              >
+                {c.value}
+              </div>
+              <div
+                style={{
+                  fontSize: '10px',
+                  color: INK.inkLite,
+                  marginTop: '6px',
+                  letterSpacing: '0.06em',
+                }}
+              >
+                {c.label} · {c.unit}
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      {/* ===== 我的探索 4 卡（用户行为数据） ===== */}
+      <div style={{ padding: '8px 16px 20px' }}>
+        <div
+          style={{
+            fontSize: '10px',
+            color: INK.inkLite,
+            letterSpacing: '0.24em',
+            textTransform: 'uppercase',
+            marginTop: '8px',
+            marginBottom: '10px',
+            paddingLeft: '4px',
+            fontFamily: '"Source Sans 3", sans-serif',
+          }}
+        >
+          MY · 我的探索
+        </div>
+        <div
+          style={{
+            background: INK.parchmentSoft,
+            border: `1px solid ${INK.hairlineSoft}`,
+            borderRadius: '12px',
+            padding: '16px 12px',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
+            gap: '4px',
+          }}
+        >
+          {[
+            { label: '收藏', value: stats.favorites, color: stats.favorites > 0 ? INK.cinnabar : INK.inkLite },
+            { label: '打卡', value: stats.checkins, color: stats.checkins > 0 ? INK.cinnabar : INK.inkLite },
+            { label: '成就', value: stats.achievements, color: stats.achievements > 0 ? INK.cinnabar : INK.inkLite },
+            { label: '笔记', value: stats.notes, color: stats.notes > 0 ? INK.cinnabar : INK.inkLite },
+          ].map((c) => (
+            <div key={c.label} style={{ textAlign: 'center' }}>
+              <div
+                style={{
+                  fontSize: '22px',
+                  fontWeight: 600,
+                  color: c.color,
+                  lineHeight: 1,
+                  fontFamily: '"Noto Serif SC", serif',
+                }}
+              >
+                {c.value}
+              </div>
+              <div
+                style={{
+                  fontSize: '11px',
+                  color: INK.inkLite,
+                  marginTop: '6px',
+                  letterSpacing: '0.04em',
+                }}
+              >
+                {c.label}
+              </div>
             </div>
-            <div
-              style={{
-                fontSize: '11px',
-                color: '#888780',
-                marginTop: '4px',
-              }}
-            >
-              收藏诗词
-            </div>
-          </div>
-          <div style={{ textAlign: 'center' }}>
-            <div
-              style={{
-                fontSize: '22px',
-                fontWeight: '600',
-                color: '#FAC775',
-              }}
-            >
-              {stats.checkins}
-            </div>
-            <div
-              style={{
-                fontSize: '11px',
-                color: '#888780',
-                marginTop: '4px',
-              }}
-            >
-              打卡地点
-            </div>
-          </div>
-          <div style={{ textAlign: 'center' }}>
-            <div
-              style={{
-                fontSize: '22px',
-                fontWeight: '600',
-                color: '#FAC775',
-              }}
-            >
-              {stats.achievements}
-            </div>
-            <div
-              style={{
-                fontSize: '11px',
-                color: '#888780',
-                marginTop: '4px',
-              }}
-            >
-              成就解锁
-            </div>
-          </div>
-          <div style={{ textAlign: 'center' }}>
-            <div
-              style={{
-                fontSize: '22px',
-                fontWeight: '600',
-                color: '#FAC775',
-              }}
-            >
-              {stats.notes}
-            </div>
-            <div
-              style={{
-                fontSize: '11px',
-                color: '#888780',
-                marginTop: '4px',
-              }}
-            >
-              个人笔记
-            </div>
-          </div>
+          ))}
         </div>
 
         {/* 打卡进度条 */}
-        <div style={{ marginTop: '16px' }}>
+        <div style={{ marginTop: '14px' }}>
           <div
             style={{
               display: 'flex',
@@ -185,110 +271,93 @@ export default function ProfilePage() {
               marginBottom: '8px',
             }}
           >
-            <span style={{ fontSize: '13px', color: '#FAF6F0' }}>打卡进度</span>
-            <span style={{ fontSize: '13px', color: '#FAC775', fontWeight: '600' }}>
+            <span style={{ fontSize: '12px', color: INK.inkSoft, letterSpacing: '0.04em' }}>打卡进度</span>
+            <span style={{ fontSize: '12px', color: stats.checkins > 0 ? INK.cinnabar : INK.inkLite, fontWeight: 600 }}>
               {stats.checkins} / {stats.totalPlaces} ({checkinProgress}%)
             </span>
           </div>
           <div
             style={{
-              height: '8px',
-              background: 'rgba(255, 255, 255, 0.1)',
-              borderRadius: '4px',
+              height: '6px',
+              background: INK.parchmentDeep,
+              borderRadius: '3px',
               overflow: 'hidden',
             }}
           >
             <div
               style={{
                 height: '100%',
-                background: 'linear-gradient(90deg, #BA7517 0%, #FAC775 100%)',
-                borderRadius: '4px',
+                background: `linear-gradient(90deg, ${INK.cinnabar} 0%, #d44343 100%)`,
+                borderRadius: '3px',
                 transition: 'width 0.5s ease-out',
                 width: `${checkinProgress}%`,
               }}
             />
           </div>
+          {stats.checkins === 0 && (
+            <p
+              style={{
+                fontSize: '11px',
+                color: INK.inkLite,
+                marginTop: '10px',
+                letterSpacing: '0.04em',
+                fontStyle: 'italic',
+              }}
+            >
+              还未启程 · 去
+              <Link href="/explore" style={{ color: INK.cinnabar, fontWeight: 600, margin: '0 4px', textDecoration: 'underline' }}>
+                水墨地图
+              </Link>
+              开始第一次打卡
+            </p>
+          )}
         </div>
       </div>
 
-      {/* Tab切换 */}
+      {/* ===== Tab 切换 ===== */}
       <div
         style={{
           display: 'flex',
-          background: '#fff',
-          borderBottom: '0.5px solid #E5E7EB',
+          background: INK.parchment,
+          borderTop: `1px solid ${INK.hairlineSoft}`,
+          borderBottom: `1px solid ${INK.hairlineSoft}`,
           overflowX: 'auto',
         }}
       >
-        <button
-          onClick={() => setActiveTab('achievements')}
-          style={{
-            flex: 1,
-            minWidth: '100px',
-            padding: '12px 4px',
-            background: 'transparent',
-            border: 'none',
-            borderBottom:
-              activeTab === 'achievements'
-                ? '2px solid #BA7517'
-                : '2px solid transparent',
-            color: activeTab === 'achievements' ? '#BA7517' : '#9CA3AF',
-            fontWeight: activeTab === 'achievements' ? '600' : 'normal',
-            fontSize: '12px',
-            letterSpacing: '0.03em',
-            cursor: 'pointer',
-            marginBottom: '-0.5px',
-          }}
-        >
-          成就墙
-        </button>
-        <button
-          onClick={() => setActiveTab('favorites')}
-          style={{
-            flex: 1,
-            minWidth: '100px',
-            padding: '12px 4px',
-            background: 'transparent',
-            border: 'none',
-            borderBottom:
-              activeTab === 'favorites'
-                ? '2px solid #BA7517'
-                : '2px solid transparent',
-            color: activeTab === 'favorites' ? '#BA7517' : '#9CA3AF',
-            fontWeight: activeTab === 'favorites' ? '600' : 'normal',
-            fontSize: '12px',
-            letterSpacing: '0.03em',
-            cursor: 'pointer',
-            marginBottom: '-0.5px',
-          }}
-        >
-          收藏诗词
-        </button>
-        <button
-          onClick={() => setActiveTab('notes')}
-          style={{
-            flex: 1,
-            minWidth: '100px',
-            padding: '12px 4px',
-            background: 'transparent',
-            border: 'none',
-            borderBottom:
-              activeTab === 'notes'
-                ? '2px solid #BA7517'
-                : '2px solid transparent',
-            color: activeTab === 'notes' ? '#BA7517' : '#9CA3AF',
-            fontWeight: activeTab === 'notes' ? '600' : 'normal',
-            fontSize: '12px',
-            letterSpacing: '0.03em',
-            cursor: 'pointer',
-            marginBottom: '-0.5px',
-          }}
-        >
-          我的笔记
-        </button>
+        {[
+          { k: 'achievements', label: '成就墙' },
+          { k: 'favorites', label: '收藏诗词' },
+          { k: 'notes', label: '我的笔记' },
+        ].map((t) => {
+          const isActive = activeTab === t.k;
+          return (
+            <button
+              key={t.k}
+              onClick={() => setActiveTab(t.k as typeof activeTab)}
+              style={{
+                flex: 1,
+                minWidth: '100px',
+                padding: '14px 4px',
+                background: 'transparent',
+                border: 'none',
+                borderBottom: isActive ? `2px solid ${INK.cinnabar}` : '2px solid transparent',
+                color: isActive ? INK.cinnabar : INK.inkLite,
+                fontWeight: isActive ? 600 : 400,
+                fontSize: '13px',
+                letterSpacing: '0.08em',
+                cursor: 'pointer',
+                marginBottom: '-1px',
+                fontFamily: '"Noto Serif SC", serif',
+                transition: 'color 0.2s',
+              }}
+            >
+              {t.label}
+            </button>
+          );
+        })}
       </div>
 
-      {/* 内容区域 */}
+      {/* ===== 内容区 ===== */}
       <div style={{ padding: '16px' }}>
         {activeTab === 'achievements' ? (
           <div>
@@ -300,11 +369,11 @@ export default function ProfilePage() {
                 marginBottom: '16px',
               }}
             >
-              <h2 style={{ fontSize: '15px', fontWeight: '600', color: '#1A1008' }}>
+              <h2 style={{ fontSize: '15px', fontWeight: 600, color: INK.ink, letterSpacing: '0.06em' }}>
                 成就墙
               </h2>
               <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <span style={{ fontSize: '12px', color: '#9CA3AF' }}>
+                <span style={{ fontSize: '12px', color: INK.inkLite }}>
                   {stats.achievements} / {achievements.length} 已解锁
                 </span>
                 <SharePoster type="collection" />
@@ -314,38 +383,13 @@ export default function ProfilePage() {
           </div>
         ) : activeTab === 'favorites' ? (
           favoritePoems.length === 0 ? (
-            <div
-              style={{
-                textAlign: 'center',
-                padding: '40px 20px',
-                color: '#9CA3AF',
-              }}
-            >
-              <div style={{ fontSize: '48px', marginBottom: '16px' }}>📚</div>
-              <p style={{ fontSize: '14px', marginBottom: '8px' }}>
-                还没有收藏诗词
-              </p>
-              <p style={{ fontSize: '12px' }}>
-                在诗词页面点击「♥」按钮，保存你喜欢的作品
-              </p>
-              <Link
-                href="/poems"
-                style={{
-                  display: 'inline-block',
-                  marginTop: '20px',
-                  padding: '12px 40px',
-                  background: '#BA7517',
-                  color: '#FAF6F0',
-                  borderRadius: '4px',
-                  textDecoration: 'none',
-                  fontSize: '14px',
-                  letterSpacing: '0.12em',
-                  fontWeight: '600',
-                }}
-              >
-                去浏览
-              </Link>
-            </div>
+            <EmptyHint
+              icon="📚"
+              title="还没有收藏诗词"
+              hint="在诗词页面点击「♥」按钮，保存你喜欢的作品"
+              ctaLabel="去诗词集"
+              ctaHref="/poems"
+            />
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {favoritePoems.map((poem) => (
@@ -355,23 +399,33 @@ export default function ProfilePage() {
                   style={{
                     display: 'block',
                     padding: '14px 16px',
-                    background: '#fff',
-                    border: '0.5px solid #E5E7EB',
+                    background: INK.parchment,
+                    border: `1px solid ${INK.hairline}`,
                     borderRadius: '12px',
                     textDecoration: 'none',
+                    transition: 'border-color 0.2s, background 0.2s',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.borderColor = INK.cinnabar;
+                    e.currentTarget.style.background = INK.cinnabarSoft;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.borderColor = INK.hairline;
+                    e.currentTarget.style.background = INK.parchment;
                   }}
                 >
                   <h3
                     style={{
                       fontSize: '15px',
-                      fontWeight: '600',
-                      color: '#1A1008',
+                      fontWeight: 600,
+                      color: INK.ink,
                       marginBottom: '4px',
+                      letterSpacing: '0.04em',
                     }}
                   >
                     {poem.title}
                   </h3>
-                  <p style={{ fontSize: '11px', color: '#9CA3AF' }}>
+                  <p style={{ fontSize: '11px', color: INK.inkLite }}>
                     {new Date(poem.addedAt).toLocaleDateString('zh-CN')}
                   </p>
                 </Link>
@@ -380,19 +434,11 @@ export default function ProfilePage() {
           )
         ) : (
           userNotes.length === 0 ? (
-            <div
-              style={{
-                textAlign: 'center',
-                padding: '40px 20px',
-                color: '#9CA3AF',
-              }}
-            >
-              <div style={{ fontSize: '48px', marginBottom: '16px' }}>📝</div>
-              <p style={{ fontSize: '14px', marginBottom: '8px' }}>还没有笔记</p>
-              <p style={{ fontSize: '12px' }}>
-                在地点详情页或诗词页面添加笔记
-              </p>
-            </div>
+            <EmptyHint
+              icon="📝"
+              title="还没有笔记"
+              hint="在地点详情页或诗词页面添加笔记"
+            />
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {userNotes.map((note) => (
@@ -400,16 +446,16 @@ export default function ProfilePage() {
                   key={note.id}
                   style={{
                     padding: '14px 16px',
-                    background: '#fff',
-                    border: '0.5px solid #E5E7EB',
+                    background: INK.parchment,
+                    border: `1px solid ${INK.hairline}`,
                     borderRadius: '12px',
                   }}
                 >
                   <p
                     style={{
                       fontSize: '14px',
-                      color: '#3D2B1F',
-                      lineHeight: '1.7',
+                      color: INK.inkSoft,
+                      lineHeight: 1.7,
                       marginBottom: '10px',
                     }}
                   >
@@ -425,15 +471,16 @@ export default function ProfilePage() {
                     <span
                       style={{
                         fontSize: '10px',
-                        color: '#BA7517',
-                        background: 'rgba(186, 117, 23, 0.1)',
+                        color: INK.cinnabar,
+                        background: INK.cinnabarSoft,
                         padding: '2px 8px',
                         borderRadius: '4px',
+                        letterSpacing: '0.06em',
                       }}
                     >
                       {note.targetType === 'poem' ? '诗词' : '地点'}
                     </span>
-                    <span style={{ fontSize: '11px', color: '#9CA3AF' }}>
+                    <span style={{ fontSize: '11px', color: INK.inkLite }}>
                       {new Date(note.createdAt).toLocaleDateString('zh-CN')}
                     </span>
                   </div>
@@ -443,6 +490,56 @@ export default function ProfilePage() {
           )
         )}
       </div>
+    </div>
+  );
+}
+
+// ===== 空态提示组件 =====
+function EmptyHint(props: {
+  icon: string;
+  title: string;
+  hint: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+}) {
+  return (
+    <div
+      style={{
+        textAlign: 'center',
+        padding: '48px 20px',
+        color: INK.inkLite,
+      }}
+    >
+      <div style={{ fontSize: '40px', marginBottom: '16px', opacity: 0.6 }}>{props.icon}</div>
+      <p style={{ fontSize: '14px', marginBottom: '8px', color: INK.inkSoft }}>
+        {props.title}
+      </p>
+      <p style={{ fontSize: '12px' }}>
+        {props.hint}
+      </p>
+      {props.ctaLabel && props.ctaHref && (
+        <Link
+          href={props.ctaHref}
+          style={{
+            display: 'inline-block',
+            marginTop: '24px',
+            padding: '12px 36px',
+            background: INK.ink,
+            color: INK.parchment,
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontSize: '13px',
+            letterSpacing: '0.12em',
+            fontWeight: 600,
+            transition: 'background 0.2s',
+            fontFamily: '"Noto Serif SC", serif',
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.background = INK.cinnabar)}
+          onMouseLeave={(e) => (e.currentTarget.style.background = INK.ink)}
+        >
+          {props.ctaLabel}
+        </Link>
+      )}
     </div>
   );
 }

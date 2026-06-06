@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Xingyin Shanhe - Me</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "surface": "#fef8f6",
+                        "on-secondary-fixed-variant": "#5d4200",
+                        "on-background": "#1d1b1a",
+                        "inverse-surface": "#32302f",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#fdc34d",
+                        "on-tertiary-container": "#7f848d",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#52443a",
+                        "on-tertiary-fixed": "#171c23",
+                        "on-surface": "#1d1b1a",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#4e453f",
+                        "background": "#fef8f6",
+                        "secondary-fixed": "#ffdea6",
+                        "outline-variant": "#d1c4bc",
+                        "inverse-on-surface": "#f5efed",
+                        "outline": "#80756e",
+                        "surface-dim": "#ded9d7",
+                        "surface-container-highest": "#e7e1df",
+                        "on-primary-fixed": "#241911",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#715000",
+                        "tertiary-container": "#171c23",
+                        "surface-container-high": "#ede7e5",
+                        "surface-variant": "#e7e1df",
+                        "tertiary": "#000000",
+                        "surface-tint": "#6b5b50",
+                        "tertiary-fixed-dim": "#c2c6d1",
+                        "surface-bright": "#fef8f6",
+                        "primary": "#000000",
+                        "surface-container": "#f3edea",
+                        "secondary-fixed-dim": "#f7bd48",
+                        "on-secondary-fixed": "#271900",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#f4ded0",
+                        "primary-fixed-dim": "#d7c3b5",
+                        "surface-container-low": "#f8f2f0",
+                        "on-primary-container": "#928174",
+                        "secondary": "#7b5800",
+                        "on-tertiary-fixed-variant": "#42474f",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#dee2ed",
+                        "inverse-primary": "#d7c3b5",
+                        "primary-container": "#241911"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "touch-target-min": "44px",
+                        "stack-lg": "48px",
+                        "container-margin": "24px",
+                        "unit": "8px",
+                        "gutter": "16px",
+                        "stack-sm": "12px",
+                        "stack-md": "24px"
+                    },
+                    "fontFamily": {
+                        "vertical-header": ["notoSerif"],
+                        "label-caps": ["sourceSansThree"],
+                        "body-md": ["sourceSansThree"],
+                        "body-lg": ["sourceSansThree"],
+                        "headline-md": ["notoSerif"],
+                        "display-lg": ["notoSerif"],
+                        "display-lg-mobile": ["notoSerif"]
+                    },
+                    "fontSize": {
+                        "vertical-header": ["20px", { "lineHeight": "1.5", "fontWeight": "500" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg": ["42px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.surface');
+            color: theme('colors.on-surface');
+            -webkit-tap-highlight-color: transparent;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[data-weight="fill"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Smooth scrolling */
+        html { scroll-behavior: smooth; }
+        
+        /* Hide scrollbar for clean aesthetic */
+        ::-webkit-scrollbar { display: none; }
+        * { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* Padding for bottom nav */
+        .pb-safe { padding-bottom: env(safe-area-inset-bottom, 20px); }
+        .pt-safe { padding-top: env(safe-area-inset-top, 20px); }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="antialiased min-h-screen flex flex-col pt-safe pb-[80px]">
+<!-- TopAppBar (Hidden on desktop logic per JSON, but PWA context makes it visible here as requested by constraints) -->
+<header class="bg-surface dark:bg-on-background text-primary dark:text-inverse-primary font-headline-md text-headline-md-mobile dark:text-inverse-on-surface docked full-width top-0 z-40 border-b border-outline-variant/40 dark:border-outline/20 flat no shadows flex justify-between items-center px-container-margin h-touch-target-min w-full sticky">
+<button class="h-touch-target-min w-touch-target-min flex items-center justify-center active:opacity-80 transition-all hover:bg-surface-container-low dark:hover:bg-surface-container-highest rounded-full">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<span class="font-headline-md text-headline-md-mobile tracking-tight text-primary dark:text-on-primary-fixed">Xingyin Shanhe</span>
+<button class="h-touch-target-min w-touch-target-min flex items-center justify-center active:opacity-80 transition-all hover:bg-surface-container-low dark:hover:bg-surface-container-highest rounded-full">
+<span class="material-symbols-outlined" data-icon="settings">settings</span>
+</button>
+</header>
+<main class="flex-1 px-container-margin py-stack-md flex flex-col gap-stack-lg overflow-y-auto">
+<!-- Profile Header: Seal Avatar & Name -->
+<section class="flex flex-col items-center justify-center gap-stack-sm mt-stack-md">
+<div class="relative group">
+<div class="w-24 h-24 rounded-full border border-outline-variant/40 p-1 bg-surface-container-low flex items-center justify-center shadow-sm">
+<img alt="Avatar" class="w-full h-full rounded-full object-cover grayscale opacity-90" data-alt="A stylized, minimalist digital avatar resembling a traditional Chinese stone seal. The image features deep, dark grey and subtle beige tones, mimicking ancient ink on rice paper. The lighting is soft and diffused, creating a serene, scholarly atmosphere. The design embodies contemporary minimalism with calligraphic influence, perfect for a high-end cultural application." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwnXZt1dL15IF-9-NyhVi5K9WlORcGXNu6x3TaYc-3uBgix_5RDgZJcf5AUSeAsEGtv7c1b5GhXqUo7IyV8X1kyrVEm9AUZt938h8y4NV0s0z-F9xAiarZ3A0soWTPdgxm0TNVK1XN3iUkgp7mU5Lt4xKMu-pgyHDsvvLw1rXV5mCaiHUKgSpxJagRl6h5k1fiWO-qrDHid85DnhuEq_CJkbW63r531iflwWzXx2BwOuWtu3aL_TboQIJ0z4rs4QeYn8rbUnn_4VpD"/>
+</div>
+<div class="absolute -bottom-2 -right-2 bg-error text-on-error rounded-full w-8 h-8 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[16px]" data-icon="edit">edit</span>
+</div>
+</div>
+<div class="text-center">
+<h1 class="font-headline-md text-headline-md-mobile text-primary mt-2">Li Bai Scholar</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Wandering the ancient paths.</p>
+</div>
+</section>
+<!-- Stats Grid (Bento Style) -->
+<section class="grid grid-cols-2 gap-unit">
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-gutter flex flex-col gap-unit active:scale-95 transition-transform">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Poems</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="auto_stories">auto_stories</span>
+</div>
+<span class="font-display-lg text-display-lg-mobile text-primary">142</span>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-gutter flex flex-col gap-unit active:scale-95 transition-transform">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Footsteps</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="footprint">footprint</span>
+</div>
+<span class="font-display-lg text-display-lg-mobile text-primary">8,430</span>
+<span class="font-body-md text-[12px] text-on-surface-variant mt-[-4px]">Li traversed</span>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-gutter flex flex-col gap-unit active:scale-95 transition-transform">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Medals</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="military_tech">military_tech</span>
+</div>
+<span class="font-display-lg text-display-lg-mobile text-primary">12</span>
+</div>
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-gutter flex flex-col gap-unit active:scale-95 transition-transform">
+<div class="flex justify-between items-center text-on-surface-variant">
+<span class="font-label-caps text-label-caps uppercase tracking-widest">Notes</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="history_edu">history_edu</span>
+</div>
+<span class="font-display-lg text-display-lg-mobile text-primary">56</span>
+</div>
+</section>
+<!-- Achievement Wall -->
+<section class="flex flex-col gap-gutter">
+<div class="flex justify-between items-center">
+<h2 class="font-headline-md text-headline-md-mobile text-primary">Achievement Wall</h2>
+<button class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest active:opacity-50">View All</button>
+</div>
+<div class="grid grid-cols-3 gap-y-stack-md gap-x-unit">
+<!-- Medal 1 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-secondary-fixed-dim bg-surface-container flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.05)] relative overflow-hidden group">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30"></div>
+<span class="material-symbols-outlined text-[32px] text-primary relative z-10" data-icon="hiking" data-weight="fill">hiking</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant uppercase tracking-widest leading-tight">Exile<br/>Traveler</span>
+</div>
+<!-- Medal 2 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-outline-variant/40 bg-surface-container flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.05)] relative overflow-hidden group">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30"></div>
+<span class="material-symbols-outlined text-[32px] text-primary relative z-10" data-icon="local_bar" data-weight="fill">local_bar</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant uppercase tracking-widest leading-tight">Wine<br/>Immortal</span>
+</div>
+<!-- Medal 3 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-outline-variant/40 bg-surface-container flex items-center justify-center shadow-[0_4px_12px_rgba(0,0,0,0.05)] relative overflow-hidden group">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30"></div>
+<span class="material-symbols-outlined text-[32px] text-primary relative z-10" data-icon="landscape" data-weight="fill">landscape</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant uppercase tracking-widest leading-tight">Mountain<br/>Recluse</span>
+</div>
+<!-- Medal 4 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-outline-variant/40 bg-surface-container opacity-50 flex items-center justify-center grayscale relative overflow-hidden">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant relative z-10" data-icon="lock">lock</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant opacity-50 uppercase tracking-widest leading-tight">Moon<br/>Embracer</span>
+</div>
+<!-- Medal 5 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-outline-variant/40 bg-surface-container opacity-50 flex items-center justify-center grayscale relative overflow-hidden">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant relative z-10" data-icon="lock">lock</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant opacity-50 uppercase tracking-widest leading-tight">Sword<br/>Dancer</span>
+</div>
+<!-- Medal 6 -->
+<div class="flex flex-col items-center gap-unit">
+<div class="w-16 h-16 rounded-full border border-outline-variant/40 bg-surface-container opacity-50 flex items-center justify-center grayscale relative overflow-hidden">
+<span class="material-symbols-outlined text-[32px] text-on-surface-variant relative z-10" data-icon="lock">lock</span>
+</div>
+<span class="font-label-caps text-[10px] text-center text-on-surface-variant opacity-50 uppercase tracking-widest leading-tight">Court<br/>Official</span>
+</div>
+</div>
+</section>
+<!-- Personal Journal Timeline -->
+<section class="flex flex-col gap-gutter pb-stack-lg">
+<h2 class="font-headline-md text-headline-md-mobile text-primary">Journal</h2>
+<div class="flex flex-col gap-0 border-l border-outline-variant/40 ml-4 pl-6 relative">
+<!-- Entry 1 -->
+<div class="relative pb-stack-sm">
+<div class="absolute -left-[29px] top-1 w-2 h-2 bg-primary rounded-full border-2 border-surface"></div>
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase tracking-widest">Today</p>
+<div class="bg-surface-container-low border border-outline-variant/40 rounded-xl p-gutter active:scale-[0.98] transition-transform">
+<h3 class="font-body-lg text-body-lg text-primary mb-2">Reflections at Jingting Mountain</h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">The flocks of birds have flown high and away, a solitary cloud goes off calmly alone. We look at each other and never get bored...</p>
+</div>
+</div>
+<!-- Entry 2 -->
+<div class="relative pb-stack-sm">
+<div class="absolute -left-[29px] top-1 w-2 h-2 bg-outline-variant rounded-full border-2 border-surface"></div>
+<p class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase tracking-widest">Oct 12, Tang Year</p>
+<div class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl p-gutter opacity-80">
+<h3 class="font-body-lg text-body-lg text-primary mb-2">Departing White Emperor City</h3>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">Leaving Baidi in the morning amid colorful clouds, returning to Jiangling a thousand li away in a single day.</p>
+</div>
+</div>
+<!-- Action Links -->
+<div class="flex flex-col gap-unit mt-stack-sm border-t border-outline-variant/40 pt-stack-sm">
+<button class="w-full flex items-center justify-between p-unit active:bg-surface-container-low transition-colors rounded-lg text-on-surface-variant">
+<span class="font-body-lg text-body-lg">Support &amp; Feedback</span>
+<span class="material-symbols-outlined text-[20px]" data-icon="chevron_right">chevron_right</span>
+</button>
+<button class="w-full flex items-center justify-between p-unit active:bg-surface-container-low transition-colors rounded-lg text-on-surface-variant">
+<span class="font-body-lg text-body-lg">About Xingyin Shanhe</span>
+<span class="material-symbols-outlined text-[20px]" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-surface/90 dark:bg-on-background/90 backdrop-blur-md text-primary dark:text-secondary-fixed font-label-caps text-label-caps docked full-width bottom-0 rounded-t-full z-50 border-t border-outline-variant/40 dark:border-outline/20 shadow-sm touch-manipulation duration-200 fixed bottom-0 w-full flex justify-around items-center pt-2 pb-safe px-4 hidden md:hidden flex">
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1" data-icon="home">home</span>
+<span>Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1" data-icon="map">map</span>
+<span>Map</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
+<span>Poems</span>
+</button>
+<!-- Active Tab: Me -->
+<button class="flex flex-col items-center justify-center text-primary dark:text-secondary-fixed relative after:content-[''] after:absolute after:-top-1 after:w-1 after:h-1 after:bg-error after:rounded-full active:scale-95 transition-transform w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1" data-icon="person" data-weight="fill">person</span>
+<span>Me</span>
+</button>
+</nav>
+<!-- Enforce mobile visibility for the nav as requested by layout rules -->
+<style>
+        @media (max-width: 767px) {
+            nav.hidden.md\:hidden.flex {
+                display: flex !important;
+            }
+        }
+    </style>
+</body></html>

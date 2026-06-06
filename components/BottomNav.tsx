@@ -1,7 +1,12 @@
 /**
- * 底部Tab导航栏
- * 4栏设计：首页 / 地图 / 诗词 / 我的
- * 完全按照设计稿实现：白色背景 + Tabler Icons
+ * 底部 Tab 导航 v2.0「Ink & Path」（2026-06-05）
+ * - 米白 frosted parchment 底（rgba 0.92 + blur 14px）
+ * - active 状态：朱砂红圆点 dot 上浮 + 墨黑文字（不再金色）
+ * - icon 切换为 Material Symbols Outlined（与 stitch 设计稿统一）
+ * - 4 栏：首页 / 水墨地图 / 古诗集 / 名士录
+ * - 完全对齐 references/stitch-pc/ink_path/DESIGN.md「Bottom Navigation」规范：
+ *     "A frosted Warm Parchment bar with Deep Ink Black icons.
+ *      The active state is indicated by a Cinnabar Red dot above the icon."
  */
 
 'use client';
@@ -10,119 +15,43 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
 const NAV_ITEMS = [
-  {
-    path: '/',
-    label: '首页',
-    icon: 'home',
-  },
-  {
-    path: '/explore',
-    label: '地图',
-    icon: 'map',
-  },
-  {
-    path: '/poems',
-    label: '诗词',
-    icon: 'book',
-  },
-  {
-    path: '/profile',
-    label: '我的',
-    icon: 'user',
-  },
+  { path: '/',        label: '首页',     icon: 'home' },
+  { path: '/explore', label: '水墨地图', icon: 'map' },
+  { path: '/poems',   label: '古诗集',   icon: 'auto_stories' },
+  { path: '/profile', label: '名士录',   icon: 'person' },
 ];
 
 export default function BottomNav() {
   const pathname = usePathname() || '/';
 
   const isActive = (path: string) => {
-    // 特殊处理：/places/* 也高亮「地图」Tab
-    if (path === '/explore' && pathname.startsWith('/places/')) {
-      return true;
-    }
+    // /places/* → 高亮「水墨地图」
+    if (path === '/explore' && pathname.startsWith('/places/')) return true;
+    if (path === '/') return pathname === '/';
     return pathname === path || pathname.startsWith(path + '/');
   };
 
   return (
-    <nav
-      style={{
-        position: 'fixed',
-        bottom: 0,
-        left: 0,
-        right: 0,
-        background: '#fff',
-        borderTop: '0.5px solid #E5E7EB',
-        display: 'grid',
-        gridTemplateColumns: 'repeat(4, 1fr)',
-        padding: '8px 0 16px',
-        zIndex: 1000,
-      }}
-    >
+    <nav className="ip-bottomnav" aria-label="底部导航">
       {NAV_ITEMS.map((item) => {
         const active = isActive(item.path);
-
         return (
           <Link
             key={item.path}
             href={item.path}
-            className={active ? 'nav-seal-active' : undefined}
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              gap: '3px',
-              textDecoration: 'none',
-            }}
+            className="ip-bottomnav-link"
+            aria-current={active ? 'page' : undefined}
           >
-            <svg
-              width="22"
-              height="22"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke={active ? '#BA7517' : '#9CA3AF'}
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              {/* home */}
-              {item.icon === 'home' && (
-                <>
-                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                  <polyline points="9 22 9 12 15 12 15 22" />
-                </>
-              )}
-              {/* map */}
-              {item.icon === 'map' && (
-                <>
-                  <polygon points="1 6 1 22 8 18 16 22 21 18 21 2 16 6 8 2 1 6" />
-                  <line x1="8" y1="2" x2="8" y2="18" />
-                  <line x1="16" y1="6" x2="16" y2="22" />
-                </>
-              )}
-              {/* book */}
-              {item.icon === 'book' && (
-                <>
-                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-                </>
-              )}
-              {/* user */}
-              {item.icon === 'user' && (
-                <>
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </>
-              )}
-            </svg>
             <span
+              className="material-symbols-outlined ip-bottomnav-icon"
               style={{
-                fontSize: '10px',
-                letterSpacing: '0.03em',
-                color: active ? '#BA7517' : '#9CA3AF',
+                fontVariationSettings: active ? "'FILL' 1" : "'FILL' 0",
               }}
+              aria-hidden="true"
             >
-              {item.label}
+              {item.icon}
             </span>
+            <span className="ip-bottomnav-label">{item.label}</span>
           </Link>
         );
       })}

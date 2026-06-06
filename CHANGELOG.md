@@ -1,5 +1,72 @@
 # 苏轼地图项目变更日志
 
+## 2026-06-06
+
+---
+
+### 32. v1.2.0 「Ink & Path」设计系统 v1.0 + 移动端一致性收尾
+
+**升级动机**：
+- v1.1 的 stitch 装饰层完成了「视觉提级」的第一步，但全局仍是「老配色 + 增量装饰」的拼合。本次基于 `references/stitch-pc/ink_path/DESIGN.md` 重做底色与组件级配色，落地一套完整的「米白宣纸 + 墨黑 + 朱砂红 + 暗金」设计 token 体系（命名空间 `.ip-*`），与老命名 0 冲突。
+- 同时收尾一批积累的移动端 bug：附近美食永远空、地图全屏抖动、安卓首次点击 marker 需双击。
+
+**改动文件清单**（11 改 + 1 新增 CSS + 1 备份 + 25 个静态资源）：
+
+| # | 文件 | 类型 | 说明 |
+|---|---|---|---|
+| 1 | `app/ink-path.css` | **新增** | Ink & Path 设计系统 v1.0 — Material 11 级 Surface tokens + Primary/Secondary/Tertiary 三色（墨黑/暗金/朱砂红） + `.ip-bottomnav` `.ip-card` 等组件类。零冲突老 `.ho-* / .gold / .ink-*` |
+| 2 | `app/layout.tsx` | 增量 | 新增 Noto Serif SC（标题）+ Source Sans 3（正文）+ Material Symbols Outlined（图标）字体加载 |
+| 3 | `app/globals.css` | 修复 | Marker hover 锁进 `@media (hover: hover) and (pointer: fine)`，触屏设备跳过 hover 块；增 `touch-action: manipulation` + `-webkit-tap-highlight-color: transparent` |
+| 4 | `components/BottomNav.tsx` | 重构 v2.0 | 米白 frosted parchment 底（rgba 0.92 + blur 14px） + 朱砂红 active 圆点上浮 + Material Symbols 图标 + 4 栏文案改「首页 / 水墨地图 / 古诗集 / 名士录」 |
+| 5 | `components/LeftSidebar.tsx` | 重构 v4.0 | 桌面端 200px 米白宣纸 + 墨黑文字（不再深色版）；移动抽屉底部 `padding-bottom` 兜住 BottomNav 64px，CTA 不再被遮 |
+| 6 | `components/Home/HomeLanding.tsx` | 重构 | 全页迁到 ink-path token；接入 `public/hero/landscape.png` Hero 大图；v1 备份至 `HomeLanding.v2.tsx.bak` |
+| 7 | `components/StageTimelineBar.tsx` | 重构 | 时间轴节点改暗金 + 朱砂红 active；移动端字号再放大一档 |
+| 8 | `components/AchievementWall.tsx` | 视觉升级 | 卡片圆角 `xl→2xl` + padding `3→4` + hover 抬起 `-translate-y-0.5` + shadow lg→xl，配合 24 张新成就 PNG |
+| 9 | `components/place/PlaceCard.tsx` | **关键 bug 修复** | 美食「附近推荐」永远空：根因是高德 PlaceSearch 在中国大陆 90% POI 不返回 `biz_ext.rating`，旧逻辑 `rating>=3.8` 把所有 `undefined` 都丢掉。新逻辑：`rating` 缺失保留（按距离/菜系排），仅 `rating` 存在且 `<3.5` 才剔除；展示前 12 家 |
+| 10 | `components/map/AMapContainer.tsx` | 修复 | 地图容器 `absolute inset-0` 改为显式 `top/left/right` + `bottom: calc(--bottom-nav-height + --safe-area-bottom)`，解决移动端全屏地图被底栏遮挡 / 高度抖动 |
+| 11 | `app/profile/page.tsx` | 重构 | 全页迁到 ink-path token，头像朱砂红外环 + 暖米白衬纸 + 暗金底边渐变 |
+| 12 | `app/explore/page.tsx` | 重构 | 顶栏改米白 frosted parchment + 墨黑文字 + 朱砂红 hover；按钮 hover 走 inline `onMouseEnter/Leave`，与触屏点击逻辑解耦 |
+| 13 | `public/hero/landscape.png` | **新增** | 首页 Hero 山水大图 |
+| 14 | `public/achievements/*.png` × 24 | **新增** | 24 张成就图标（初踏苏途 / 风雨定风波 / 黄州客居 / 赤壁诗魂 / 鎏金终极 / 天涯儋州 等） |
+| 15 | `public/data-v4/foods-sushi.json` | **新增** | 苏轼特供美食基础数据（东坡肉 / 东坡羹 ...），驱动 PlaceCard FoodTab 「苏轼特供」分页 |
+| 16 | `components/Home/HomeLanding.v2.tsx.bak` | 新增 | v1.1 stitch 版 HomeLanding 备份，与 v1 备份并存 |
+
+**Ink & Path token 体系（节选）**：
+
+| 类别 | 变量 | 值 | 用途 |
+|---|---|---|---|
+| Surface | `--ip-surface` | `#fef8f6` | 暖米白主底（统一不分段） |
+| Surface | `--ip-surface-container` | `#f3edea` | 卡片底 |
+| Outline | `--ip-outline-variant` | `#d1c4bc` | 1px hairline 描边（替代玻璃阴影） |
+| Primary | `--ip-primary` | `#000` | 主按钮 / 主文字 / 标题（不再朱砂红） |
+| Secondary | `--ip-secondary` | `#7b5800` | 次按钮描边 / 文化路径 active |
+| Tertiary | `--ip-cinnabar` | `#ba1a1a` | 仅 marker / BottomNav active dot / 关键 emphasis |
+
+**关键移动端修复（按重要性）**：
+
+1. **附近美食永远空 → 已修复**（PlaceCard FoodTab）
+2. **地图被底栏遮挡 / 高度抖动 → 已修复**（AMapContainer 显式 bottom）
+3. **安卓首次点击 marker 需双击 → 已修复**（globals.css hover 媒体查询锁定）
+   - 根因：CSS `.su-marker:hover` 在安卓 Chrome 触发 sticky-hover，第一次 tap 被识别为 hover 粘住（点位放大），第二次 tap 才触发 click
+   - 修复：`@media (hover: hover) and (pointer: fine)` 把 hover 样式只匹配真鼠标设备，所有触屏（安卓/iOS/平板）单击直接走 click → `setSelectedPlace`，**与 iOS 行为对齐**
+4. 抽屉 CTA 被 BottomNav 遮 → 已修复（LeftSidebar v4.0 padding-bottom）
+
+**回滚保险**：
+
+| 层 | 命令 |
+|---|---|
+| Tag | `git checkout v1.1.0` |
+| 分支 | `git checkout release/v1.0`（v1.0 兜底分支仍在） |
+| HomeLanding | `cp components/Home/HomeLanding.v2.tsx.bak components/Home/HomeLanding.tsx`（v1.1 stitch 版） |
+| HomeLanding | `cp components/Home/HomeLanding.v1.tsx.bak components/Home/HomeLanding.tsx`（v1.0 朴素版） |
+
+**铁律保留**：
+- 现有功能 100% 保留（打卡 / 收藏 / 成就 / 美食 / 笔记 / 分享 / 检查页 / 所有 API 路由）
+- 业务逻辑 0 改动（仅美食 FoodTab 的过滤条件按高德数据现实做了纠错，从「假筛选」改成「真可用」）
+- 命名零冲突（`.ip-*` 与 `.ho-* / .gold / .ink-*` 全部并存）
+
+---
+
 ## 2026-06-05
 
 ---

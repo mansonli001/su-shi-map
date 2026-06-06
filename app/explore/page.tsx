@@ -116,74 +116,114 @@ function ExploreInner() {
 
       {/* 右侧主区域 */}
       <div className="flex-1 relative">
-        {/* === 顶部「读苏轼·游神州」副标题导航
-              （主标题"行吟山河"在浏览器顶栏 / Safari Tab，此处不再重复） === */}
-        {/* 顶部导航栏 - 修复移动端布局挤压和图标重复问题 */}
-        <div className="fixed top-0 left-0 md:left-[200px] right-0 z-40 topnav-luxe safe-top h-[60px] md:h-[56px]">
+        {/* === 顶部「读苏轼·游神州」副标题导航 v4.0 ink-path 风
+              米白 frosted parchment + 墨黑文字 + 朱砂红 hover === */}
+        <div
+          className="fixed top-0 left-0 md:left-[200px] right-0 z-40 safe-top h-[60px] md:h-[56px]"
+          style={{
+            background: 'rgba(254, 248, 246, 0.96)',
+            backdropFilter: 'blur(12px)',
+            WebkitBackdropFilter: 'blur(12px)',
+            borderBottom: '1px solid rgba(209, 196, 188, 0.4)',
+          }}
+        >
           <div className="relative flex items-center justify-between px-3 md:px-5 h-full gap-3">
             {/* 左侧：汉堡菜单按钮（移动端） */}
             <div className="flex-shrink-0 md:hidden">
               <button
                 onClick={() => (window.location.href = '/')}
-                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 rounded text-[11px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors"
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 rounded transition-colors"
+                style={{ fontSize: '14px', color: '#3d342e' }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = '#ba1a1a';
+                  e.currentTarget.style.background = 'rgba(186, 26, 26, 0.06)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = '#3d342e';
+                  e.currentTarget.style.background = 'transparent';
+                }}
                 aria-label="返回首页"
               >
                 ←
               </button>
             </div>
-            
+
             {/* 副标题（移动端绝对定位居中 / 桌面端左对齐） */}
             <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-0 md:mr-auto flex items-center gap-2 md:gap-4 min-w-0 pointer-events-none md:pointer-events-auto">
-              <div className="font-wenkai text-[15px] md:text-[14px] text-gold/90 tracking-[0.18em] md:tracking-[0.2em] whitespace-nowrap leading-tight">
+              <div
+                className="whitespace-nowrap"
+                style={{
+                  fontFamily: '"Noto Serif SC", serif',
+                  fontSize: '15px',
+                  fontWeight: 600,
+                  color: '#1a1410',
+                  letterSpacing: '0.18em',
+                  lineHeight: 1.2,
+                }}
+              >
                 读苏轼 · 游神州
               </div>
-              <div className="hidden md:block w-px h-[18px] bg-gold/20" />
+              <div className="hidden md:block w-px h-[18px]" style={{ background: 'rgba(209, 196, 188, 0.6)' }} />
               <div className="hidden md:flex items-center gap-3">
-                <span className="text-[10px] text-gold/55 tracking-[0.18em]">
+                <span style={{ fontSize: '10px', color: '#6b5d54', letterSpacing: '0.18em', fontFamily: '"Source Sans 3", sans-serif' }}>
                   SU SHI · 1037–1101
                 </span>
-                <span className="text-[10px] text-gold-m/65 tracking-[0.1em]">
+                <span style={{ fontSize: '10px', color: '#9b7a3a', letterSpacing: '0.1em', fontFamily: '"Noto Serif SC", serif' }}>
                   · 苏轼一生踪迹 · 数据 v4
                 </span>
               </div>
             </div>
-            
-            {/* 右侧图标组 - 修复双放大镜重复问题，添加最小尺寸约束 */}
+
+            {/* 右侧图标组 */}
             <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
-              {/* 路线列表 - 使用📍地图标记图标，与搜索🔍区分 */}
-              <button
-                onClick={() => (window.location.href = '/routes')}
-                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
-                aria-label="路线列表"
-              >
-                <span className="md:hidden">📍</span>
-                <span className="hidden md:inline">路线</span>
-              </button>
-              
-              {/* 诗词 */}
-              <button
-                onClick={() => (window.location.href = '/poems')}
-                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
-                aria-label="诗词"
-              >
-                <span className="md:hidden">诗</span>
-                <span className="hidden md:inline">诗词</span>
-              </button>
-              
-              {/* 全局搜索 - 保留🔍放大镜图标 */}
-              <button
-                onClick={openSearch}
-                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded text-[11px] md:text-[12px] text-gold/70 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
-                aria-label="搜索"
-              >
-                <span className="md:hidden">🔍</span>
-                <span className="hidden md:inline">搜索</span>
-              </button>
-              
+              {[
+                { label: '路线', mobileIcon: '📍', onClick: () => (window.location.href = '/routes'), aria: '路线列表' },
+                { label: '诗词', mobileIcon: '诗', onClick: () => (window.location.href = '/poems'), aria: '诗词' },
+                { label: '搜索', mobileIcon: '🔍', onClick: openSearch, aria: '搜索' },
+              ].map((b) => (
+                <button
+                  key={b.label}
+                  onClick={b.onClick}
+                  className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded transition-colors"
+                  style={{
+                    fontFamily: '"Noto Serif SC", serif',
+                    fontSize: '12px',
+                    color: '#3d342e',
+                    letterSpacing: '0.08em',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = '#ba1a1a';
+                    e.currentTarget.style.background = 'rgba(186, 26, 26, 0.06)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = '#3d342e';
+                    e.currentTarget.style.background = 'transparent';
+                  }}
+                  aria-label={b.aria}
+                >
+                  <span className="md:hidden">{b.mobileIcon}</span>
+                  <span className="hidden md:inline">{b.label}</span>
+                </button>
+              ))}
+
               {/* 关于（仅桌面端） */}
               <button
                 onClick={() => (window.location.href = '/about')}
-                className="hidden md:inline-flex min-w-[44px] min-h-[44px] items-center justify-center px-3 py-1.5 rounded text-[12px] text-gold/60 hover:text-gold hover:bg-gold/10 transition-colors tracking-wider"
+                className="hidden md:inline-flex min-w-[44px] min-h-[44px] items-center justify-center px-3 py-1.5 rounded transition-colors"
+                style={{
+                  fontFamily: '"Noto Serif SC", serif',
+                  fontSize: '12px',
+                  color: '#6b5d54',
+                  letterSpacing: '0.08em',
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = '#ba1a1a';
+                  e.currentTarget.style.background = 'rgba(186, 26, 26, 0.06)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = '#6b5d54';
+                  e.currentTarget.style.background = 'transparent';
+                }}
                 aria-label="关于"
               >
                 关于

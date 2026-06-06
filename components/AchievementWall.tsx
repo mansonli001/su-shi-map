@@ -138,8 +138,8 @@ export default function AchievementWall() {
               </span>
             </div>
 
-            {/* 成就卡片网格 */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+            {/* 成就卡片网格 —— 卡更大、图标更大 */}
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
               {categoryAchievements.map((ach) => {
                 const isUnlocked = unlockedAchievements.includes(ach.id);
                 const progress = getProgress(ach);
@@ -153,9 +153,9 @@ export default function AchievementWall() {
                     key={ach.id}
                     onClick={() => handleAchievementClick(ach)}
                     className={`
-                      relative rounded-xl p-3 cursor-pointer transition-all duration-300
+                      relative rounded-2xl p-4 cursor-pointer transition-all duration-300
                       ${isUnlocked
-                        ? 'border-2 hover:shadow-lg'
+                        ? 'border-2 hover:shadow-xl hover:-translate-y-0.5'
                         : 'border border-stone-600/30 opacity-70'}
                       ${isHiddenAndLocked ? 'blur-sm hover:blur-none' : ''}
                     `}
@@ -204,27 +204,41 @@ export default function AchievementWall() {
                       </div>
                     )}
 
-                    {/* 图标 */}
-                    <div 
-                      className={`w-12 h-12 mb-2 mx-auto flex items-center justify-center ${!isUnlocked && !isHiddenAndLocked ? 'grayscale opacity-50' : ''}`}
+                    {/* 图标 —— 优先 /achievements/{icon}.png（高清原图 2048×2048），
+                        缺失 fallback 到 base64 icons.ts，再 fallback emoji */}
+                    <div
+                      className={`w-24 h-24 sm:w-28 sm:h-28 mb-3 mx-auto flex items-center justify-center ${!isUnlocked && !isHiddenAndLocked ? 'grayscale opacity-60' : ''}`}
                     >
                       {isHiddenAndLocked ? (
-                        <span className="text-3xl">❓</span>
-                      ) : !ach.icon || !achievementIcons[ach.icon] ? (
-                        // 空图标或图标不存在时显示 emoji
-                        <span className="text-3xl">{ach.emoji}</span>
-                      ) : (
+                        <span className="text-5xl">❓</span>
+                      ) : ach.icon ? (
                         <img
-                          src={achievementIcons[ach.icon]}
+                          src={`/achievements/${encodeURIComponent(ach.icon)}.png`}
                           alt={ach.name}
-                          className="w-full h-full object-contain"
+                          className="w-full h-full object-contain drop-shadow-md"
+                          onError={(e) => {
+                            // PNG 文件缺失 → 回退 base64 SVG
+                            const img = e.currentTarget;
+                            if (achievementIcons[ach.icon] && img.src !== achievementIcons[ach.icon]) {
+                              img.src = achievementIcons[ach.icon];
+                            } else {
+                              // base64 也没有 → 显示 emoji
+                              img.style.display = 'none';
+                              const span = document.createElement('span');
+                              span.className = 'text-5xl';
+                              span.textContent = ach.emoji;
+                              img.parentElement?.appendChild(span);
+                            }
+                          }}
                         />
+                      ) : (
+                        <span className="text-5xl">{ach.emoji}</span>
                       )}
                     </div>
 
                     {/* 成就名称 */}
                     <h3 
-                      className={`text-sm font-semibold mb-1 truncate ${isUnlocked ? '' : 'text-stone-400'}`}
+                      className={`text-base font-semibold mb-1.5 truncate text-center ${isUnlocked ? '' : 'text-stone-400'}`}
                       style={{ color: isUnlocked ? ach.color : undefined }}
                     >
                       {isHiddenAndLocked ? '???' : ach.name}
@@ -232,7 +246,7 @@ export default function AchievementWall() {
 
                     {/* 描述 */}
                     <p 
-                      className="text-xs mb-2 line-clamp-2"
+                      className="text-xs mb-2 line-clamp-2 text-center leading-relaxed"
                       style={{ 
                         color: isUnlocked ? '#9CA3AF' : '#6B7280',
                         opacity: isHiddenAndLocked ? 0 : 1,

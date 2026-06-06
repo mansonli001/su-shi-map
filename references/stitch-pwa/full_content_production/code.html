@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>行吟山河 - 追随千古诗人步履 行走华夏山河之间</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary": "#000000",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#fdc34d",
+                        "primary-container": "#241911",
+                        "primary-fixed": "#f4ded0",
+                        "surface-variant": "#e7e1df",
+                        "on-secondary-fixed": "#271900",
+                        "surface-container-highest": "#e7e1df",
+                        "tertiary-fixed-dim": "#c2c6d1",
+                        "surface-bright": "#fef8f6",
+                        "on-surface-variant": "#4e453f",
+                        "on-primary-fixed-variant": "#52443a",
+                        "on-primary-container": "#928174",
+                        "surface-container-low": "#f8f2f0",
+                        "surface": "#fef8f6",
+                        "on-error-container": "#93000a",
+                        "tertiary-container": "#171c23",
+                        "on-error": "#ffffff",
+                        "on-surface": "#1d1b1a",
+                        "primary": "#000000",
+                        "background": "#fef8f6",
+                        "on-tertiary-fixed-variant": "#42474f",
+                        "inverse-on-surface": "#f5efed",
+                        "surface-container-high": "#ede7e5",
+                        "secondary-fixed-dim": "#f7bd48",
+                        "tertiary-fixed": "#dee2ed",
+                        "surface-tint": "#6b5b50",
+                        "outline-variant": "#d1c4bc",
+                        "error-container": "#ffdad6",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#1d1b1a",
+                        "outline": "#80756e",
+                        "on-tertiary-fixed": "#171c23",
+                        "surface-container": "#f3edea",
+                        "surface-dim": "#ded9d7",
+                        "secondary-fixed": "#ffdea6",
+                        "on-secondary-fixed-variant": "#5d4200",
+                        "secondary": "#7b5800",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#7f848d",
+                        "on-primary-fixed": "#241911",
+                        "inverse-primary": "#d7c3b5",
+                        "on-secondary-container": "#715000",
+                        "error": "#ba1a1a",
+                        "inverse-surface": "#32302f",
+                        "primary-fixed-dim": "#d7c3b5",
+                        "on-secondary": "#ffffff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "stack-md": "24px",
+                        "stack-lg": "48px",
+                        "container-margin": "24px",
+                        "unit": "8px",
+                        "touch-target-min": "44px",
+                        "gutter": "16px",
+                        "stack-sm": "12px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["'Noto Serif SC'", "serif"],
+                        "display-lg-mobile": ["'Noto Serif SC'", "serif"],
+                        "label-caps": ["'Source Sans 3'", "sans-serif"],
+                        "display-lg": ["'Noto Serif SC'", "serif"],
+                        "vertical-header": ["'Noto Serif SC'", "serif"],
+                        "body-md": ["'Source Sans 3'", "sans-serif"],
+                        "body-lg": ["'Source Sans 3'", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "display-lg": ["42px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "vertical-header": ["20px", { "lineHeight": "1.5", "fontWeight": "500" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .writing-vertical-rl {
+            writing-mode: vertical-rl;
+        }
+        
+        .parchment-texture {
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.05' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+            background-color: #fef8f6; /* background */
+        }
+        
+        .glass-card {
+            background: rgba(254, 248, 246, 0.7);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(209, 196, 188, 0.4);
+        }
+    </style>
+</head>
+<body class="parchment-texture text-on-background font-body-md antialiased min-h-screen flex flex-col selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Top Navigation (Web) -->
+<nav class="hidden md:flex justify-between items-center px-container-margin py-unit w-full sticky top-0 z-50 bg-surface/90 backdrop-blur-sm border-b border-outline-variant opacity-40">
+<div class="flex items-center">
+<span class="font-vertical-header text-vertical-header font-bold text-primary dark:text-inverse-primary border-r border-outline-variant pr-4 mr-4">行吟山河</span>
+<div class="flex gap-6 items-center">
+<a class="text-secondary border-b-2 border-secondary font-bold pb-1 text-on-surface-variant hover:text-secondary transition-colors duration-300 font-body-md" href="#">探索</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-body-md" href="#">水墨地圖</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-body-md" href="#">诗集</a>
+<a class="text-on-surface-variant hover:text-secondary transition-colors duration-300 font-body-md" href="#">行吟路线</a>
+</div>
+</div>
+<div class="flex gap-4 items-center text-primary">
+<button aria-label="Account" class="hover:text-secondary transition-colors duration-300 flex items-center justify-center w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">account_circle</span>
+</button>
+<button aria-label="Menu" class="hover:text-secondary transition-colors duration-300 flex items-center justify-center w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow flex flex-col items-center w-full max-w-7xl mx-auto md:px-container-margin pb-32 md:pb-12">
+<!-- Hero Section -->
+<section class="relative w-full min-h-[921px] flex flex-col items-center justify-center py-stack-lg px-container-margin overflow-hidden mb-stack-lg">
+<!-- Ink Wash Background Placeholder -->
+<div class="absolute inset-0 w-full h-full -z-10 opacity-40 bg-center bg-cover bg-no-repeat" data-alt="A sublime and expansive traditional Chinese ink-wash landscape painting. Towering, mist-shrouded mountains rise majestically against a muted, high-key warm parchment background. The brushstrokes vary from deep, dramatic black ink to delicate, pale grey washes, embodying a minimalist and contemplative mood. The light-mode aesthetic emphasizes negative space (liubai) and a sense of ancient poetic solitude, creating a serene and sophisticated backdrop for modern digital content." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1otOIO_4a8RxhloeWJqGbbFviWm1M5QUgr-3kd8K7PcJRc27tr42MpiHpkhzbArI-Iv0zxcMYmPzQ37hMXxRtl8uk1qR63iWsp0Jc9qm8XMUi808YOw_3PhmdiYxqz7PMQUxKN4z7AQuOUoY5RJMyHvic7WKgDVq5ldnbS_OpCsUtYsbvqUJFmncy2Pp4yskV3xpxv_HHd-vUu49wr7jVOfhOA8hwBQvEj_QjaISqzwwlRZiqbrBlhZUC1sh2aPO7X3Tk2bqniCvz');"></div>
+<div class="text-center max-w-3xl glass-card p-stack-md rounded-xl shadow-sm z-10 flex flex-col items-center">
+<span class="font-label-caps text-label-caps text-on-surface-variant mb-unit tracking-[0.2em] uppercase">Xingyin Shanhe</span>
+<h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-stack-sm tracking-tight">行吟山河</h1>
+<p class="font-headline-md text-headline-md text-on-surface-variant mb-stack-md">追随千古诗人步履 行走华夏山河之间</p>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-stack-md max-w-2xl leading-relaxed">
+                    一千年前，苏轼从眉山出发，走过了这片土地上的两百三十四个地方。他栖身的黄州，风骨依旧；他疏浚的西湖，清丽如初；他挥毫作赋的赤壁石，风华未改。
+                </p>
+<p class="font-body-lg text-body-lg text-secondary mb-stack-md italic">在地图上，跟他走一遍。</p>
+<a class="inline-flex items-center justify-center gap-2 bg-primary text-surface-container-lowest px-8 py-3 rounded-full hover:bg-surface-tint transition-all min-h-[48px] shadow-sm font-body-md font-semibold" href="/explore">
+                    开始探索 
+                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="absolute bottom-10 animate-bounce flex flex-col items-center opacity-60">
+<span class="font-label-caps text-label-caps text-on-surface-variant mb-2">向下滚动</span>
+<span class="material-symbols-outlined">arrow_downward</span>
+</div>
+</section>
+<!-- Data Dashboard (Bento Grid) -->
+<section class="w-full mb-stack-lg px-container-margin md:px-0">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="glass-card p-stack-sm rounded-lg flex flex-col items-center justify-center border-t-2 border-t-secondary-container hover:shadow-sm transition-shadow">
+<span class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary font-bold">64</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-unit">年人生</span>
+</div>
+<div class="glass-card p-stack-sm rounded-lg flex flex-col items-center justify-center border-t-2 border-t-outline hover:shadow-sm transition-shadow">
+<span class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary font-bold">234</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-unit">个足迹点</span>
+</div>
+<div class="glass-card p-stack-sm rounded-lg flex flex-col items-center justify-center border-t-2 border-t-outline hover:shadow-sm transition-shadow">
+<span class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary font-bold">3000+</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-unit">首诗词</span>
+</div>
+<div class="glass-card p-stack-sm rounded-lg flex flex-col items-center justify-center border-t-2 border-t-outline hover:shadow-sm transition-shadow">
+<span class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary font-bold">14</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant mt-unit">个省份</span>
+</div>
+</div>
+</section>
+<!-- Timeline Section -->
+<section class="w-full mb-stack-lg px-container-margin md:px-0">
+<div class="text-center mb-stack-md">
+<span class="font-label-caps text-label-caps text-secondary mb-unit block tracking-widest">LIFE TRAJECTORY</span>
+<h2 class="font-headline-md text-headline-md text-primary">苏轼一生轨迹</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">从四川眉山到海南儋州，走过半个中国</p>
+</div>
+<div class="relative max-w-4xl mx-auto py-stack-md">
+<!-- Center Line -->
+<div class="absolute left-1/2 transform -translate-x-1/2 h-full w-px bg-outline-variant opacity-40"></div>
+<!-- Timeline Items -->
+<div class="space-y-stack-md">
+<!-- Item 1 -->
+<div class="relative flex items-center justify-between w-full">
+<div class="w-5/12 text-right pr-stack-sm">
+<h3 class="font-vertical-header text-vertical-header text-primary font-bold">眉山少年</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">求学初出</p>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-3 h-3 bg-secondary-container rounded-full border-2 border-surface shadow-sm z-10"></div>
+<div class="w-5/12 pl-stack-sm text-left">
+<span class="font-label-caps text-label-caps text-secondary font-bold">1037</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="relative flex items-center justify-between w-full">
+<div class="w-5/12 text-right pr-stack-sm">
+<span class="font-label-caps text-label-caps text-secondary font-bold">1057</span>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-outline rounded-full border border-surface shadow-sm z-10"></div>
+<div class="w-5/12 pl-stack-sm text-left">
+<h3 class="font-vertical-header text-vertical-header text-primary font-bold">仕途初期</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">开封·凤翔</p>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="relative flex items-center justify-between w-full">
+<div class="w-5/12 text-right pr-stack-sm">
+<h3 class="font-vertical-header text-vertical-header text-primary font-bold">东坡居士</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">黄州四年</p>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-3 h-3 bg-error rounded-full border-2 border-surface shadow-sm z-10"></div>
+<div class="w-5/12 pl-stack-sm text-left">
+<span class="font-label-caps text-label-caps text-error font-bold">1080</span>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="relative flex items-center justify-between w-full">
+<div class="w-5/12 text-right pr-stack-sm">
+<span class="font-label-caps text-label-caps text-secondary font-bold">1094</span>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-outline rounded-full border border-surface shadow-sm z-10"></div>
+<div class="w-5/12 pl-stack-sm text-left">
+<h3 class="font-vertical-header text-vertical-header text-primary font-bold">南贬岁月</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">惠州·儋州</p>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="relative flex items-center justify-between w-full">
+<div class="w-5/12 text-right pr-stack-sm">
+<h3 class="font-vertical-header text-vertical-header text-primary font-bold">晚年北归</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">常州长眠</p>
+</div>
+<div class="absolute left-1/2 transform -translate-x-1/2 w-2 h-2 bg-tertiary-fixed-dim rounded-full border border-surface shadow-sm z-10"></div>
+<div class="w-5/12 pl-stack-sm text-left">
+<span class="font-label-caps text-label-caps text-secondary font-bold">1101</span>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center mt-stack-sm">
+<a class="inline-flex items-center gap-2 text-secondary font-body-md hover:text-on-secondary-container transition-colors" href="/routes">
+                    查看 20 条路线 
+                    <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<p class="font-label-caps text-label-caps text-outline mt-2 opacity-70">每条路线都是一段独立故事 · 含史诗叙事 / 关键事件 / 文学创作</p>
+</div>
+</section>
+<!-- Featured Places Section -->
+<section class="w-full mb-stack-lg px-container-margin md:px-0">
+<div class="text-center mb-stack-md">
+<span class="font-label-caps text-label-caps text-secondary mb-unit block tracking-widest">FEATURED PLACES</span>
+<h2 class="font-headline-md text-headline-md text-primary">代表性足迹</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">点击地点，查看苏轼在那里发生的一切</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter">
+<div class="glass-card p-stack-md rounded-xl flex flex-col hover:shadow-md transition-all border-t-2 border-t-secondary">
+<h3 class="font-headline-md text-primary font-bold mb-2">黄州</h3>
+<span class="font-label-caps text-secondary mb-4 block">1080.2 — 1084.4 · 湖北黄冈</span>
+<p class="font-body-md text-on-surface-variant mb-6 flex-grow">因乌台诗案被贬，自号"东坡居士"。人生最低谷，写下最伟大的作品群。</p>
+<blockquote class="border-l-4 border-outline-variant pl-4 italic text-on-surface-variant mb-6 font-vertical-header text-lg">大江东去，浪淘尽，千古风流人物。</blockquote>
+<a class="inline-flex items-center gap-2 text-primary font-body-md font-bold hover:text-secondary transition-colors mt-auto" href="/explore?focus=P072">
+                    查看详情 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="glass-card p-stack-md rounded-xl flex flex-col hover:shadow-md transition-all border-t-2 border-t-secondary">
+<h3 class="font-headline-md text-primary font-bold mb-2">赤壁</h3>
+<span class="font-label-caps text-secondary mb-4 block">1082.7 / 1082.10 · 两游赤壁</span>
+<p class="font-body-md text-on-surface-variant mb-6 flex-grow">两个秋夜，成就了前后《赤壁赋》与《念奴娇》，改变了中国文学的走向。</p>
+<blockquote class="border-l-4 border-outline-variant pl-4 italic text-on-surface-variant mb-6 font-vertical-header text-lg">寄蜉蝣于天地，渺沧海之一粟。</blockquote>
+<a class="inline-flex items-center gap-2 text-primary font-body-md font-bold hover:text-secondary transition-colors mt-auto" href="/explore?focus=P024">
+                    查看详情 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="glass-card p-stack-md rounded-xl flex flex-col hover:shadow-md transition-all border-t-2 border-t-secondary">
+<h3 class="font-headline-md text-primary font-bold mb-2">杭州</h3>
+<span class="font-label-caps text-secondary mb-4 block">1071 / 1089 · 两知杭州</span>
+<p class="font-body-md text-on-surface-variant mb-6 flex-grow">两次主政杭州，疏浚西湖、筑成苏堤。山水间的政治家与诗人合二为一。</p>
+<blockquote class="border-l-4 border-outline-variant pl-4 italic text-on-surface-variant mb-6 font-vertical-header text-lg">欲把西湖比西子，淡妆浓抹总相宜。</blockquote>
+<a class="inline-flex items-center gap-2 text-primary font-body-md font-bold hover:text-secondary transition-colors mt-auto" href="/explore?focus=P058">
+                    查看详情 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="glass-card p-stack-md rounded-xl flex flex-col hover:shadow-md transition-all border-t-2 border-t-secondary">
+<h3 class="font-headline-md text-primary font-bold mb-2">儋州</h3>
+<span class="font-label-caps text-secondary mb-4 block">1097.5 — 1100.6 · 海南儋州</span>
+<p class="font-body-md text-on-surface-variant mb-6 flex-grow">62 岁再贬海南，办学堂传文化，留下海南历史上最早的文脉。</p>
+<blockquote class="border-l-4 border-outline-variant pl-4 italic text-on-surface-variant mb-6 font-vertical-header text-lg">他年谁作舆地志，海南万里真吾乡。</blockquote>
+<a class="inline-flex items-center gap-2 text-primary font-body-md font-bold hover:text-secondary transition-colors mt-auto" href="/explore?focus=P034">
+                    查看详情 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Poetic Interlude -->
+<section class="w-full mb-stack-lg py-stack-lg px-container-margin md:px-0 text-center relative overflow-hidden">
+<div class="absolute inset-0 w-full h-full -z-10 opacity-10 bg-center bg-cover bg-no-repeat" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA1otOIO_4a8RxhloeWJqGbbFviWm1M5QUgr-3kd8K7PcJRc27tr42MpiHpkhzbArI-Iv0zxcMYmPzQ37hMXxRtl8uk1qR63iWsp0Jc9qm8XMUi808YOw_3PhmdiYxqz7PMQUxKN4z7AQuOUoY5RJMyHvic7WKgDVq5ldnbS_OpCsUtYsbvqUJFmncy2Pp4yskV3xpxv_HHd-vUu49wr7jVOfhOA8hwBQvEj_QjaISqzwwlRZiqbrBlhZUC1sh2aPO7X3Tk2bqniCvz');"></div>
+<div class="max-w-3xl mx-auto py-stack-lg">
+<h2 class="font-display-lg text-primary mb-stack-sm tracking-tight">此心安处是吾乡</h2>
+<span class="font-label-caps text-outline mb-stack-md block">苏轼《定风波·南海归赠王定国侍人寓娘》</span>
+<p class="font-headline-md text-on-surface-variant leading-relaxed">
+                每一个他停留过的地方，都是他的家乡。<br/>
+                那些地方，今天还在。
+            </p>
+</div>
+</section>
+<!-- About Section -->
+<section class="w-full mb-stack-lg px-container-margin md:px-0">
+<div class="text-center mb-stack-md">
+<span class="font-label-caps text-label-caps text-secondary mb-unit block tracking-widest">ABOUT</span>
+<h2 class="font-headline-md text-headline-md text-primary">中国的山河从来不只是地理</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="glass-card p-stack-md rounded-xl">
+<h3 class="font-vertical-header text-primary font-bold mb-4">苏轼在黄州</h3>
+<p class="font-body-md text-on-surface-variant mb-2 font-bold">一个人如何在人生最低谷写出最伟大的作品</p>
+<p class="font-body-md text-on-surface-variant leading-relaxed">被贬、种地、酿酒、作诗。他没有对抗命运，而是在每一寸他站立的土地上，让自己扎根下去。</p>
+</div>
+<div class="glass-card p-stack-md rounded-xl">
+<h3 class="font-vertical-header text-primary font-bold mb-4">我们做一件简单的事</h3>
+<p class="font-body-md text-on-surface-variant mb-2 font-bold">不是旅游攻略，不是语文课本</p>
+<p class="font-body-md text-on-surface-variant leading-relaxed">是一千年前的某个人，曾经站在你现在站的地方，抬头看了同一片天。</p>
+</div>
+<div class="glass-card p-stack-md rounded-xl">
+<h3 class="font-vertical-header text-primary font-bold mb-4">移动端优先</h3>
+<p class="font-body-md text-on-surface-variant mb-2 font-bold">在路上随时查，到了地方就能用</p>
+<p class="font-body-md text-on-surface-variant leading-relaxed">添加到手机桌面即用，高德地图一键导航，离线可用，完全免费。</p>
+</div>
+</div>
+</section>
+<!-- Final CTA -->
+<section class="w-full mb-stack-lg py-stack-lg px-container-margin md:px-0 text-center">
+<h2 class="font-display-lg-mobile md:font-display-lg text-primary mb-stack-sm tracking-tight">在地图上，跟他走一遍</h2>
+<p class="font-body-lg text-on-surface-variant mb-stack-md">234 个足迹 · 20 条路线 · 68 篇代表作 · 14 省山河</p>
+<div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+<a class="inline-flex items-center justify-center gap-2 bg-primary text-surface-container-lowest px-8 py-3 rounded-full hover:bg-surface-tint transition-all min-h-[48px] shadow-sm font-body-md font-semibold w-full sm:w-auto" href="/explore">
+                进入地图 <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 bg-surface-container-high text-primary px-8 py-3 rounded-full hover:bg-surface-dim transition-all min-h-[48px] border border-outline-variant w-full sm:w-auto font-body-md font-semibold" href="/routes">
+                浏览 20 条路线
+            </a>
+<a class="inline-flex items-center justify-center gap-2 text-secondary px-8 py-3 rounded-full hover:bg-secondary-container/20 transition-all min-h-[48px] w-full sm:w-auto font-body-md font-semibold" href="/explore?focus=P072">
+                从黄州开始
+            </a>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-outline-variant bg-surface-container-low py-stack-lg mt-auto pb-32 md:pb-stack-lg px-container-margin">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-stack-md">
+<div class="text-center md:text-left flex flex-col items-center md:items-start">
+<h3 class="font-vertical-header text-primary font-bold mb-1">行吟山河</h3>
+<span class="font-label-caps text-outline tracking-[0.2em] mb-4">XINGYIN SHANHE</span>
+<p class="font-body-md text-on-surface-variant">追随千古诗人步履 行走华夏山河之间</p>
+<p class="font-body-md text-outline mt-4 text-sm">© 2026 · 一个慢慢做下去的项目 · 数据 v4 · 234 地点 · 68 篇代表作</p>
+</div>
+<div class="flex gap-6 items-center">
+<a class="font-body-md text-on-surface-variant hover:text-secondary transition-colors" href="/">首页</a>
+<a class="font-body-md text-on-surface-variant hover:text-secondary transition-colors" href="/explore">地图</a>
+<a class="font-body-md text-on-surface-variant hover:text-secondary transition-colors" href="/poems">诗词</a>
+<a class="font-body-md text-on-surface-variant hover:text-secondary transition-colors" href="/profile">我的</a>
+</div>
+</div>
+</footer>
+<!-- Bottom Navigation (Mobile) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full bg-surface-container/90 backdrop-blur-md border-t border-outline-variant opacity-90 z-50 flex justify-around items-center h-16 px-2 pb-safe">
+<a aria-current="page" class="flex flex-col items-center justify-center w-full h-full text-secondary relative" href="/">
+<div class="absolute top-1 w-1.5 h-1.5 bg-error rounded-full"></div>
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-caps text-[10px]">首页</span>
+</a>
+<a class="flex flex-col items-center justify-center w-full h-full text-on-surface-variant hover:text-secondary transition-colors" href="/explore">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">map</span>
+<span class="font-label-caps text-[10px]">地图</span>
+</a>
+<a class="flex flex-col items-center justify-center w-full h-full text-on-surface-variant hover:text-secondary transition-colors" href="/poems">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">auto_stories</span>
+<span class="font-label-caps text-[10px]">诗词</span>
+</a>
+<a class="flex flex-col items-center justify-center w-full h-full text-on-surface-variant hover:text-secondary transition-colors" href="/profile">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 0;">person</span>
+<span class="font-label-caps text-[10px]">我的</span>
+</a>
+</nav>
+</body></html>

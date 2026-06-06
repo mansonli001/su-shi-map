@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Xingyin Shanhe - Map</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "error-container": "#ffdad6",
+                        "surface": "#fef8f6",
+                        "on-secondary-fixed-variant": "#5d4200",
+                        "on-background": "#1d1b1a",
+                        "inverse-surface": "#32302f",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#fdc34d",
+                        "on-tertiary-container": "#7f848d",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#52443a",
+                        "on-tertiary-fixed": "#171c23",
+                        "on-surface": "#1d1b1a",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#4e453f",
+                        "background": "#fef8f6",
+                        "secondary-fixed": "#ffdea6",
+                        "outline-variant": "#d1c4bc",
+                        "inverse-on-surface": "#f5efed",
+                        "outline": "#80756e",
+                        "surface-dim": "#ded9d7",
+                        "surface-container-highest": "#e7e1df",
+                        "on-primary-fixed": "#241911",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#715000",
+                        "tertiary-container": "#171c23",
+                        "surface-container-high": "#ede7e5",
+                        "surface-variant": "#e7e1df",
+                        "tertiary": "#000000",
+                        "surface-tint": "#6b5b50",
+                        "tertiary-fixed-dim": "#c2c6d1",
+                        "surface-bright": "#fef8f6",
+                        "primary": "#000000",
+                        "surface-container": "#f3edea",
+                        "secondary-fixed-dim": "#f7bd48",
+                        "on-secondary-fixed": "#271900",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#f4ded0",
+                        "primary-fixed-dim": "#d7c3b5",
+                        "surface-container-low": "#f8f2f0",
+                        "on-primary-container": "#928174",
+                        "secondary": "#7b5800",
+                        "on-tertiary-fixed-variant": "#42474f",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#dee2ed",
+                        "inverse-primary": "#d7c3b5",
+                        "primary-container": "#241911"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    spacing: {
+                        "touch-target-min": "44px",
+                        "stack-lg": "48px",
+                        "container-margin": "24px",
+                        "unit": "8px",
+                        "gutter": "16px",
+                        "stack-sm": "12px",
+                        "stack-md": "24px"
+                    },
+                    fontFamily: {
+                        "vertical-header": ["Noto Serif", "serif"],
+                        "label-caps": ["Source Sans 3", "sans-serif"],
+                        "body-md": ["Source Sans 3", "sans-serif"],
+                        "body-lg": ["Source Sans 3", "sans-serif"],
+                        "headline-md": ["Noto Serif", "serif"],
+                        "display-lg": ["Noto Serif", "serif"],
+                        "display-lg-mobile": ["Noto Serif", "serif"]
+                    },
+                    fontSize: {
+                        "vertical-header": ["20px", { "lineHeight": "1.5", "fontWeight": "500" }],
+                        "label-caps": ["12px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "display-lg": ["42px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "display-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "700" }]
+                    }
+                }
+            }
+        };
+    </script>
+<style>
+        body {
+            -webkit-tap-highlight-color: transparent;
+        }
+        .pb-safe {
+            padding-bottom: env(safe-area-inset-bottom, 20px);
+        }
+        .pt-safe {
+            padding-top: env(safe-area-inset-top, 20px);
+        }
+        
+        /* Drawer Animation */
+        .drawer-open {
+            transform: translateY(0);
+        }
+        .drawer-closed {
+            transform: translateY(100%);
+        }
+        
+        /* Ink Map Texture Overlay */
+        .ink-texture {
+            background-image: url('data:image/svg+xml;utf8,<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg"><filter id="noise"><feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noise)" opacity="0.05"/></svg>');
+            pointer-events: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface text-on-surface h-screen w-full overflow-hidden flex flex-col font-body-md antialiased selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- Map Canvas (Background) -->
+<main class="flex-1 relative w-full h-full">
+<!-- Placeholder for actual map implementation -->
+<div class="absolute inset-0 bg-[#e3ddd5] w-full h-full" style="background-image: radial-gradient(circle at center, #ece8e3 0%, #d8d0c6 100%);">
+<!-- Simulated Map Elements -->
+<div class="absolute inset-0 ink-texture z-0"></div>
+<!-- Simulated Mountains / Terrain SVG -->
+<svg class="absolute inset-0 w-full h-full opacity-30 z-0 pointer-events-none" preserveaspectratio="none" viewbox="0 0 1000 1000">
+<path d="M0,800 Q200,600 400,750 T800,650 T1000,800 L1000,1000 L0,1000 Z" fill="#b0a89d"></path>
+<path d="M0,900 Q300,750 500,850 T900,800 T1000,900 L1000,1000 L0,1000 Z" fill="#958e85" opacity="0.5"></path>
+</svg>
+<!-- Map Markers -->
+<div class="absolute top-1/3 left-1/4 transform -translate-x-1/2 -translate-y-1/2 z-10 flex flex-col items-center cursor-pointer" onclick="toggleDrawer()">
+<div class="w-10 h-10 bg-error/10 rounded-full flex items-center justify-center border border-error/30 mb-1 relative shadow-sm">
+<span class="material-symbols-outlined text-error" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<!-- Ripple effect -->
+<div class="absolute inset-0 rounded-full border border-error/50 animate-ping opacity-75"></div>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface/80 px-2 py-0.5 rounded backdrop-blur-sm border border-outline-variant/40">Huangzhou</span>
+</div>
+<div class="absolute top-1/2 right-1/4 transform -translate-x-1/2 -translate-y-1/2 z-10 flex flex-col items-center opacity-60">
+<div class="w-8 h-8 bg-surface rounded-full flex items-center justify-center border border-outline-variant mb-1 shadow-sm">
+<span class="material-symbols-outlined text-on-surface-variant text-sm">location_on</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface/80 px-2 py-0.5 rounded backdrop-blur-sm border border-outline-variant/40">Hangzhou</span>
+</div>
+<!-- Path between markers -->
+<svg class="absolute inset-0 w-full h-full z-0 pointer-events-none" preserveaspectratio="none" viewbox="0 0 100 100">
+<path d="M 25 33 Q 50 20 75 50" fill="none" opacity="0.6" stroke="#7b5800" stroke-dasharray="2,2" stroke-width="0.5"></path>
+</svg>
+</div>
+<!-- Floating Search Bar -->
+<div class="absolute top-0 left-0 w-full z-20 pt-safe px-container-margin mt-4">
+<div class="flex items-center bg-surface/95 backdrop-blur-md h-touch-target-min rounded-full border border-outline-variant/40 shadow-[0_4px_12px_rgba(29,27,26,0.08)] px-4">
+<span class="material-symbols-outlined text-on-surface-variant mr-3">search</span>
+<input class="flex-1 bg-transparent border-none focus:ring-0 text-body-md font-body-md text-on-surface placeholder:text-on-surface-variant/60 h-full p-0" placeholder="Search poets, locations, or works..." type="text"/>
+<button class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-surface-variant transition-colors ml-2">
+<span class="material-symbols-outlined text-on-surface-variant">tune</span>
+</button>
+</div>
+</div>
+<!-- Offline Status Pill -->
+<div class="absolute top-24 left-1/2 transform -translate-x-1/2 z-20">
+<div class="bg-surface-variant/90 backdrop-blur-sm px-4 py-1.5 rounded-full border border-outline-variant/30 flex items-center gap-2 shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">cloud_off</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Offline Map Active</span>
+</div>
+</div>
+<!-- Map Controls -->
+<div class="absolute right-container-margin bottom-32 z-20 flex flex-col gap-unit">
+<button class="w-12 h-12 bg-surface/95 backdrop-blur-md rounded-full border border-outline-variant/40 shadow-sm flex items-center justify-center text-on-surface active:scale-95 transition-transform">
+<span class="material-symbols-outlined">my_location</span>
+</button>
+<button class="w-12 h-12 bg-surface/95 backdrop-blur-md rounded-full border border-outline-variant/40 shadow-sm flex items-center justify-center text-on-surface active:scale-95 transition-transform">
+<span class="material-symbols-outlined">layers</span>
+</button>
+</div>
+<!-- Detail Drawer (Bottom Sheet) -->
+<div class="absolute bottom-0 left-0 w-full bg-surface rounded-t-xl z-30 transition-transform duration-300 ease-in-out border-t border-outline-variant/40 shadow-[0_-8px_24px_rgba(29,27,26,0.08)] flex flex-col drawer-closed" id="locationDrawer" style="height: 75vh; padding-bottom: 80px;">
+<!-- Drag Handle -->
+<div class="w-full flex justify-center pt-3 pb-2 cursor-pointer" onclick="toggleDrawer()">
+<div class="w-12 h-1 bg-outline-variant/50 rounded-full"></div>
+</div>
+<!-- Header -->
+<div class="px-container-margin pb-4 border-b border-outline-variant/20 flex justify-between items-start">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface mb-1">Dongpo Snow Hall</h2>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+                        Huangzhou, Hubei
+                    </p>
+</div>
+<button class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-95 transition-transform">
+<span class="material-symbols-outlined">bookmark_add</span>
+</button>
+</div>
+<!-- Content Area (Scrollable) -->
+<div class="flex-1 overflow-y-auto px-container-margin py-stack-md pb-safe">
+<!-- Hero Image placeholder using CSS gradient as requested -->
+<div class="w-full h-48 rounded-lg mb-6 relative overflow-hidden bg-surface-variant border border-outline-variant/20" data-alt="A minimalist architectural visualization of a traditional Chinese pavilion known as Dongpo Snow Hall in Huangzhou, set against a stark, pure white winter background. The scene is rendered in an ink-wash painting style, with soft grey tones and delicate line work contrasting beautifully with the bright, high-key lighting. The mood is serene, contemplative, and historically rich, utilizing a refined palette of deep blacks, misty greys, and warm parchment accents. The overall aesthetic is contemporary minimalism with strong calligraphic influences, emphasizing vast negative space." style="background: linear-gradient(135deg, #ded9d7 0%, #e7e1df 100%);">
+<div class="absolute inset-0 flex items-center justify-center text-outline/50">
+<span class="material-symbols-outlined text-4xl">landscape</span>
+</div>
+</div>
+<!-- Tags -->
+<div class="flex flex-wrap gap-2 mb-stack-md">
+<span class="bg-[#e8f1ec] text-primary px-3 py-1 rounded-full font-label-caps text-label-caps border border-outline-variant/20">Su Shi</span>
+<span class="bg-surface-variant text-on-surface-variant px-3 py-1 rounded-full font-label-caps text-label-caps border border-outline-variant/20">Northern Song</span>
+<span class="bg-surface-variant text-on-surface-variant px-3 py-1 rounded-full font-label-caps text-label-caps border border-outline-variant/20">Exile</span>
+</div>
+<!-- Narrative Section -->
+<section class="mb-stack-lg">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">history_edu</span>
+                        Historical Context
+                    </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                        In 1080, Su Shi was exiled to Huangzhou following the Crow Terrace Poetry Trial. Despite immense political pressure and poverty, this period marked his creative zenith. He built the "Snow Hall" (Xuetang) during a heavy winter storm, covering the walls with murals of snowscapes to reflect his pursuit of purity and resilience in adversity.
+                    </p>
+</section>
+<!-- Works Composed Here -->
+<section class="mb-stack-lg">
+<h3 class="font-headline-md text-headline-md text-on-surface mb-stack-sm flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">auto_stories</span>
+                        Composed Here
+                    </h3>
+<div class="flex flex-col gap-unit">
+<!-- Work Card -->
+<div class="border border-outline-variant/40 rounded-lg p-4 bg-surface hover:bg-surface-container-low transition-colors active:scale-[0.98]">
+<div class="flex justify-between items-start mb-2">
+<h4 class="font-headline-md text-body-lg font-semibold text-primary">Ode to the Red Cliff</h4>
+<span class="font-label-caps text-label-caps text-on-surface-variant bg-surface-variant px-2 py-0.5 rounded">1082</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">"We drifted in a small boat, offering wine to each other. We are but mayflies between heaven and earth..."</p>
+</div>
+</div>
+</section>
+<!-- Action Buttons -->
+<div class="flex gap-4 mt-stack-md">
+<button class="flex-1 bg-primary text-surface h-touch-target-min rounded-lg font-label-caps text-label-caps flex items-center justify-center gap-2 active:opacity-80 transition-opacity">
+<span class="material-symbols-outlined text-[18px]">directions_walk</span>
+                        Start Journey
+                    </button>
+<button class="w-12 h-touch-target-min border border-secondary text-secondary rounded-lg flex items-center justify-center active:bg-secondary/10 transition-colors">
+<span class="material-symbols-outlined">share</span>
+</button>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar (Shared Component JSON) -->
+<nav class="bg-surface/90 dark:bg-on-background/90 backdrop-blur-md text-primary dark:text-secondary-fixed font-label-caps text-label-caps docked full-width bottom-0 rounded-t-full z-50 border-t border-outline-variant/40 dark:border-outline/20 shadow-sm touch-manipulation duration-200 fixed bottom-0 w-full flex justify-around items-center pt-2 pb-safe px-4 md:hidden">
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform h-touch-target-min px-2 w-16">
+<span class="material-symbols-outlined mb-1">home</span>
+<span>Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-primary dark:text-secondary-fixed relative after:content-[''] after:absolute after:-top-1 after:w-1 after:h-1 after:bg-error after:rounded-full active:scale-95 transition-transform h-touch-target-min px-2 w-16">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">map</span>
+<span>Map</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform h-touch-target-min px-2 w-16">
+<span class="material-symbols-outlined mb-1">auto_stories</span>
+<span>Poems</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform h-touch-target-min px-2 w-16">
+<span class="material-symbols-outlined mb-1">person</span>
+<span>Me</span>
+</button>
+</nav>
+<script>
+        // Simple drawer toggle logic for demonstration
+        let isDrawerOpen = true; // Start open for design evaluation
+        const drawer = document.getElementById('locationDrawer');
+        
+        // Ensure it starts in correct visual state based on JS variable
+        if (isDrawerOpen) {
+            drawer.classList.remove('drawer-closed');
+            drawer.classList.add('drawer-open');
+        }
+
+        function toggleDrawer() {
+            isDrawerOpen = !isDrawerOpen;
+            if (isDrawerOpen) {
+                drawer.classList.remove('drawer-closed');
+                drawer.classList.add('drawer-open');
+            } else {
+                drawer.classList.remove('drawer-open');
+                drawer.classList.add('drawer-closed');
+            }
+        }
+    </script>
+</body></html>

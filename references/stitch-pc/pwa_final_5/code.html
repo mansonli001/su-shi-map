@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Xingyin Shanhe</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "error-container": "#ffdad6",
+                      "surface": "#fef8f6",
+                      "on-secondary-fixed-variant": "#5d4200",
+                      "on-background": "#1d1b1a",
+                      "inverse-surface": "#32302f",
+                      "on-primary": "#ffffff",
+                      "secondary-container": "#fdc34d",
+                      "on-tertiary-container": "#7f848d",
+                      "on-tertiary": "#ffffff",
+                      "on-primary-fixed-variant": "#52443a",
+                      "on-tertiary-fixed": "#171c23",
+                      "on-surface": "#1d1b1a",
+                      "on-error": "#ffffff",
+                      "on-surface-variant": "#4e453f",
+                      "background": "#fef8f6",
+                      "secondary-fixed": "#ffdea6",
+                      "outline-variant": "#d1c4bc",
+                      "inverse-on-surface": "#f5efed",
+                      "outline": "#80756e",
+                      "surface-dim": "#ded9d7",
+                      "surface-container-highest": "#e7e1df",
+                      "on-primary-fixed": "#241911",
+                      "on-error-container": "#93000a",
+                      "surface-container-lowest": "#ffffff",
+                      "on-secondary-container": "#715000",
+                      "tertiary-container": "#171c23",
+                      "surface-container-high": "#ede7e5",
+                      "surface-variant": "#e7e1df",
+                      "tertiary": "#000000",
+                      "surface-tint": "#6b5b50",
+                      "tertiary-fixed-dim": "#c2c6d1",
+                      "surface-bright": "#fef8f6",
+                      "primary": "#000000",
+                      "surface-container": "#f3edea",
+                      "secondary-fixed-dim": "#f7bd48",
+                      "on-secondary-fixed": "#271900",
+                      "error": "#ba1a1a",
+                      "primary-fixed": "#f4ded0",
+                      "primary-fixed-dim": "#d7c3b5",
+                      "surface-container-low": "#f8f2f0",
+                      "on-primary-container": "#928174",
+                      "secondary": "#7b5800",
+                      "on-tertiary-fixed-variant": "#42474f",
+                      "on-secondary": "#ffffff",
+                      "tertiary-fixed": "#dee2ed",
+                      "inverse-primary": "#d7c3b5",
+                      "primary-container": "#241911"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "touch-target-min": "44px",
+                      "stack-lg": "48px",
+                      "container-margin": "24px",
+                      "unit": "8px",
+                      "gutter": "16px",
+                      "stack-sm": "12px",
+                      "stack-md": "24px"
+              },
+              "fontFamily": {
+                      "vertical-header": [
+                              "notoSerif"
+                      ],
+                      "label-caps": [
+                              "sourceSansThree"
+                      ],
+                      "body-md": [
+                              "sourceSansThree"
+                      ],
+                      "body-lg": [
+                              "sourceSansThree"
+                      ],
+                      "headline-md": [
+                              "notoSerif"
+                      ],
+                      "display-lg": [
+                              "notoSerif"
+                      ],
+                      "display-lg-mobile": [
+                              "notoSerif"
+                      ]
+              },
+              "fontSize": {
+                      "vertical-header": [
+                              "20px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "label-caps": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "42px",
+                              {
+                                      "lineHeight": "52px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "display-lg-mobile": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        body {
+            background-color: theme('colors.background');
+            color: theme('colors.on-background');
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .ink-gradient {
+            background: linear-gradient(180deg, rgba(254, 248, 246, 0) 0%, rgba(254, 248, 246, 0.8) 50%, rgba(254, 248, 246, 1) 100%);
+        }
+        
+        .timeline-line::before {
+            content: '';
+            position: absolute;
+            left: 11px;
+            top: 24px;
+            bottom: -24px;
+            width: 1px;
+            background-color: theme('colors.outline-variant');
+            opacity: 0.4;
+        }
+        .timeline-item:last-child .timeline-line::before {
+            display: none;
+        }
+        
+        .glass-card {
+            background: rgba(254, 248, 246, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 0.5px solid theme('colors.outline-variant');
+        }
+      </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="antialiased pb-24 selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopAppBar (Web/Tablet hidden, Mobile active) -->
+<header class="md:hidden sticky top-0 z-40 bg-surface/90 backdrop-blur-md border-b border-outline-variant/40 transition-all duration-300" id="top-app-bar">
+<div class="flex justify-between items-center px-container-margin h-[64px] w-full">
+<button class="h-touch-target-min w-touch-target-min flex items-center justify-center text-primary active:opacity-80 transition-all hover:bg-surface-container-low rounded-full">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-headline-md text-headline-md-mobile tracking-tight text-primary">Xingyin Shanhe</h1>
+<button class="h-touch-target-min w-touch-target-min flex items-center justify-center text-primary active:opacity-80 transition-all hover:bg-surface-container-low rounded-full">
+<span class="material-symbols-outlined">search</span>
+</button>
+</div>
+</header>
+<!-- NavigationDrawer (Web/Tablet active, Mobile hidden) -->
+<nav class="hidden md:flex flex-col h-full py-stack-lg fixed left-0 top-0 w-64 z-30 bg-surface border-r border-outline-variant/40">
+<div class="px-6 mb-12">
+<h1 class="font-vertical-header text-vertical-header uppercase tracking-widest text-primary [writing-mode:vertical-rl] h-48">Xingyin Shanhe</h1>
+</div>
+<div class="flex flex-col gap-2">
+<a class="flex items-center gap-4 bg-secondary-container/10 text-primary font-bold border-r-4 border-primary px-6 py-4 hover:bg-surface-container-low transition-all" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-caps text-label-caps">Home</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant px-6 py-4 hover:bg-surface-container-low transition-all" href="#">
+<span class="material-symbols-outlined">map</span>
+<span class="font-label-caps text-label-caps">Map</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant px-6 py-4 hover:bg-surface-container-low transition-all" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-label-caps text-label-caps">Poems</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant px-6 py-4 hover:bg-surface-container-low transition-all" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label-caps text-label-caps">Me</span>
+</a>
+</div>
+</nav>
+<main class="md:ml-64 min-h-screen">
+<!-- Hero Section -->
+<section class="relative h-[530px] md:h-[618px] w-full overflow-hidden flex flex-col justify-end">
+<div class="absolute inset-0 z-0">
+<img alt="Serene ink-wash style landscape" class="w-full h-full object-cover object-center opacity-80" data-alt="A sweeping, panoramic view of mist-shrouded mountains in a traditional Chinese ink-wash painting style. The scene is rendered in soft, monochromatic tones of misty grey and deep ink black, evoking a sense of quiet contemplation and ancient literary heritage. A subtle, bright white light filters through the clouds, highlighting the delicate contours of the peaks. The overall mood is peaceful, minimalist, and deeply connected to nature, reflecting a contemporary minimalist aesthetic with calligraphic influences." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiO-XDTZB8UcCy-C0ovK-fPb81c1lbyyj4pOzQdelq5H226Oc27PgpFTNSSd67_r8ltjSeEjyJEOP3DL3FGB-wYuH25_DQ_tzFsgb9bWJo2jmTwZ7ctC3xxxRrQ-4IW_b6syCSkP6HiS7JipwQU9bZtnbWl1jhrzxZRUcz7ohh6ui-FwPVxx9sWYuoydyddLs95zDfWUNh2nW0fuli4052Wt54NemeEmbrcZcxjoobuElSO527B_9IuGCpiNuCX0RqLwSxHyCI44_U"/>
+<div class="absolute inset-0 ink-gradient z-10"></div>
+</div>
+<div class="relative z-20 px-container-margin pb-stack-lg w-full max-w-3xl">
+<div class="inline-block px-3 py-1 mb-4 rounded-full bg-[#8fb0a9]/10 text-primary border border-[#8fb0a9]/20 font-label-caps text-label-caps">
+                    Su Shi's Journey
+                </div>
+<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-primary mb-4">Wandering the Rivers &amp; Mountains</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">Follow the poetic footsteps of Su Dongpo across 14 provinces, discovering a life of resilience and literary genius.</p>
+</div>
+</section>
+<!-- Stats Dashboard (Bento Grid) -->
+<section class="px-container-margin py-stack-md w-full max-w-5xl mx-auto">
+<div class="grid grid-cols-2 gap-unit md:gap-gutter">
+<div class="glass-card rounded-xl p-4 md:p-6 flex flex-col justify-between aspect-square md:aspect-auto h-32 md:h-40">
+<span class="material-symbols-outlined text-outline mb-2">hourglass_empty</span>
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-primary">64</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant mt-1">Years Lived</div>
+</div>
+</div>
+<div class="glass-card rounded-xl p-4 md:p-6 flex flex-col justify-between aspect-square md:aspect-auto h-32 md:h-40 bg-surface-container-low">
+<span class="material-symbols-outlined text-outline mb-2">footprint</span>
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-primary">234</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant mt-1">Footstep Points</div>
+</div>
+</div>
+<div class="glass-card rounded-xl p-4 md:p-6 flex flex-col justify-between aspect-square md:aspect-auto h-32 md:h-40 bg-surface-container-low">
+<span class="material-symbols-outlined text-outline mb-2">menu_book</span>
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-primary">3k+</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant mt-1">Poems Written</div>
+</div>
+</div>
+<div class="glass-card rounded-xl p-4 md:p-6 flex flex-col justify-between aspect-square md:aspect-auto h-32 md:h-40">
+<span class="material-symbols-outlined text-outline mb-2">public</span>
+<div>
+<div class="font-display-lg-mobile text-display-lg-mobile text-primary">14</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant mt-1">Provinces Visited</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Daily Poem Card -->
+<section class="px-container-margin py-stack-md w-full max-w-5xl mx-auto">
+<h3 class="font-headline-md text-headline-md-mobile text-primary mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">wb_sunny</span>
+                Daily Inscription
+            </h3>
+<div class="rounded-xl overflow-hidden border border-outline-variant/40 bg-surface group cursor-pointer relative">
+<div class="h-48 w-full overflow-hidden">
+<img alt="Moon over rippling water" class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700" data-alt="A close-up view of dark, rippling water reflecting the pale light of a full moon. The surface of the water is textured with gentle waves, creating abstract, fluid patterns in misty grey and deep ink black. The lighting is soft, natural, and evocative of a quiet, contemplative night. The image exudes a minimalist, contemporary aesthetic, reminiscent of an ancient ink-wash painting brought to life in high definition." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXzdxT1feNvEPTxvlAZT6zQFK7eWcR3o7jEHihQpUDhHPaM6-lDM9vsfIqNwAWRmYT16xK1DbZUAmGvyWPKPTTf9tzW1h0INzbPR_X_OMvn_EncSOLToS-hAUpmLyrNg8xjo8wnUT93NzsqLxIl24_KFLubVoHfnjG2iFhczCRy4xS5bvmrr8CzLe-A9tolbtldvI0ei5HzR7NQZZG9HuMddugPCV2Mjx9xBugf2iL71uC6674lLRi-SkW9D-oIsI0RxSxcIz0NKX4"/>
+</div>
+<div class="p-6">
+<div class="inline-block px-2 py-1 mb-3 rounded bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps text-[10px]">
+                        Ode to the Red Cliff
+                    </div>
+<p class="font-vertical-header text-vertical-header text-primary mb-4 leading-relaxed">
+                        "Hold fast to the bright moon and long for an eternal span."
+                    </p>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                        Written in Huangzhou, reflecting on the impermanence of life and the vastness of nature.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Life Trajectory Timeline -->
+<section class="px-container-margin py-stack-lg w-full max-w-3xl mx-auto">
+<h3 class="font-headline-md text-headline-md-mobile text-primary mb-8 flex items-center gap-2">
+<span class="material-symbols-outlined text-outline">timeline</span>
+                Life Trajectory
+            </h3>
+<div class="pl-2">
+<!-- Timeline Item 1 -->
+<div class="relative flex gap-6 pb-stack-md timeline-item group cursor-pointer">
+<div class="timeline-line relative z-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full border-2 border-primary bg-surface flex items-center justify-center group-hover:bg-primary transition-colors duration-300">
+<div class="w-2 h-2 rounded-full bg-primary group-hover:bg-surface transition-colors duration-300"></div>
+</div>
+</div>
+<div class="flex-1 pb-4">
+<div class="font-label-caps text-label-caps text-outline mb-1">1037 - 1056</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-2">Meishan Youth</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Born in Sichuan. Early years shaped by rigorous classical education and natural landscapes.</p>
+</div>
+</div>
+<!-- Timeline Item 2 -->
+<div class="relative flex gap-6 pb-stack-md timeline-item group cursor-pointer">
+<div class="timeline-line relative z-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant bg-surface flex items-center justify-center group-hover:border-primary transition-colors duration-300">
+</div>
+</div>
+<div class="flex-1 pb-4">
+<div class="font-label-caps text-label-caps text-outline mb-1">1057 - 1079</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-2">Early Career</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Passed the imperial examination. Served in various posts across the empire before the Crow Terrace Poetry Trial.</p>
+</div>
+</div>
+<!-- Timeline Item 3 -->
+<div class="relative flex gap-6 pb-stack-md timeline-item group cursor-pointer">
+<div class="timeline-line relative z-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant bg-surface flex items-center justify-center group-hover:border-primary transition-colors duration-300">
+</div>
+</div>
+<div class="flex-1 pb-4">
+<div class="font-label-caps text-label-caps text-outline mb-1">1080 - 1084</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-2">Dongpo Layman</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Exiled to Huangzhou. Embraced farming and adopted his famous pen name, producing his greatest literary works.</p>
+</div>
+</div>
+<!-- Timeline Item 4 -->
+<div class="relative flex gap-6 pb-stack-md timeline-item group cursor-pointer">
+<div class="timeline-line relative z-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant bg-surface flex items-center justify-center group-hover:border-primary transition-colors duration-300">
+</div>
+</div>
+<div class="flex-1 pb-4">
+<div class="font-label-caps text-label-caps text-outline mb-1">1094 - 1100</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-2">Southern Exile</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Banished to Huizhou and later Danzhou (Hainan Island). Found peace in desolation.</p>
+</div>
+</div>
+<!-- Timeline Item 5 -->
+<div class="relative flex gap-6 timeline-item group cursor-pointer">
+<div class="timeline-line relative z-10 flex flex-col items-center">
+<div class="w-6 h-6 rounded-full border-2 border-outline-variant bg-surface flex items-center justify-center group-hover:border-primary transition-colors duration-300">
+</div>
+</div>
+<div class="flex-1">
+<div class="font-label-caps text-label-caps text-outline mb-1">1101</div>
+<h4 class="font-headline-md text-body-lg text-primary mb-2">Return North</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Pardoned, but passed away in Changzhou during his journey back.</p>
+</div>
+</div>
+</div>
+<button class="mt-8 w-full h-12 bg-surface border border-outline-variant/40 rounded-lg text-primary font-label-caps text-label-caps flex items-center justify-center gap-2 hover:bg-surface-container-low transition-colors active:scale-95 duration-200">
+                View Full Map
+                <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</section>
+<!-- Spacer for Bottom Nav -->
+<div class="h-24 md:hidden"></div>
+</main>
+<!-- BottomNavBar (Mobile active, Web/Tablet hidden) -->
+<nav class="md:hidden fixed bottom-0 w-full flex justify-around items-center pt-2 pb-safe px-4 bg-surface/90 backdrop-blur-md border-t border-outline-variant/40 z-50 rounded-t-full shadow-sm min-h-[64px] pb-6" id="bottom-nav-bar">
+<button class="flex flex-col items-center justify-center text-primary relative after:content-[''] after:absolute after:-top-1 after:w-1 after:h-1 after:bg-error after:rounded-full active:scale-95 transition-transform touch-manipulation duration-200 w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">home</span>
+<span class="font-label-caps text-label-caps">Home</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform touch-manipulation duration-200 w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1">map</span>
+<span class="font-label-caps text-label-caps">Map</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform touch-manipulation duration-200 w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1">auto_stories</span>
+<span class="font-label-caps text-label-caps">Poems</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform touch-manipulation duration-200 w-touch-target-min h-touch-target-min">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-label-caps text-label-caps">Me</span>
+</button>
+</nav>
+<script>
+        // Simple scroll effect for top app bar
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('top-app-bar');
+            if (window.scrollY > 20) {
+                header.classList.add('shadow-sm');
+                header.classList.replace('bg-surface/90', 'bg-surface/95');
+            } else {
+                header.classList.remove('shadow-sm');
+                header.classList.replace('bg-surface/95', 'bg-surface/90');
+            }
+        });
+    </script>
+</body></html>

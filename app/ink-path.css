@@ -1,0 +1,993 @@
+/* ============================================================================
+ * 行吟山河 · Ink & Path 设计系统 v1.0  （2026-06-05）
+ * 严格对齐 references/stitch-pc/ink_path/DESIGN.md
+ *
+ * 命名空间：所有 class 以 .ip-* 开头，零冲突老代码（.ho-* / .gold / .ink-* 全部并存）
+ * 字体：Noto Serif SC（标题）+ Source Sans 3（正文）+ Material Symbols Outlined（图标）
+ * 主底：暖米白 parchment #fef8f6（统一不分段）
+ * 主按钮：墨黑 #000 + 米白字（不再朱砂红）
+ * 卡片：1px hairline #d1c4bc/40 + 0 阴影（不再玻璃质感）
+ * 朱砂红 #ba1a1a：仅用于 marker / BottomNav active dot / 关键 emphasis
+ * 暗金 #7b5800/#fdc34d：次按钮描边 + 时间轴节点 + 文化路径 active 状态
+ * ========================================================================== */
+
+:root {
+  /* ===== Surface（主底/容器层级，按 DESIGN.md 11 级） ===== */
+  --ip-surface:                  #fef8f6;
+  --ip-surface-dim:              #ded9d7;
+  --ip-surface-bright:           #fef8f6;
+  --ip-surface-container-lowest: #ffffff;
+  --ip-surface-container-low:    #f8f2f0;
+  --ip-surface-container:        #f3edea;
+  --ip-surface-container-high:   #ede7e5;
+  --ip-surface-container-highest:#e7e1df;
+  --ip-on-surface:               #1d1b1a;
+  --ip-on-surface-variant:       #4e453f;
+  --ip-surface-variant:          #e7e1df;
+
+  /* ===== Outline（描边/分隔线） ===== */
+  --ip-outline:                  #80756e;
+  --ip-outline-variant:          #d1c4bc;
+
+  /* ===== Primary（墨黑 — 主按钮 / 主文字 / 标题） ===== */
+  --ip-primary:                  #000000;
+  --ip-on-primary:               #ffffff;
+  --ip-primary-container:        #241911;
+  --ip-on-primary-container:     #928174;
+
+  /* ===== Secondary（暗金 — 次按钮描边 + 文化路径 active） ===== */
+  --ip-secondary:                #7b5800;
+  --ip-on-secondary:             #ffffff;
+  --ip-secondary-container:      #fdc34d;
+  --ip-on-secondary-container:   #715000;
+
+  /* ===== Error（朱砂红 — marker / BottomNav active dot / 关键 emphasis） ===== */
+  --ip-error:                    #ba1a1a;
+  --ip-on-error:                 #ffffff;
+  --ip-error-container:          #ffdad6;
+  --ip-on-error-container:       #93000a;
+
+  /* ===== Inverse（深色面 — Hero 偶尔反白时用） ===== */
+  --ip-inverse-surface:          #32302f;
+  --ip-inverse-on-surface:       #f5efed;
+  --ip-inverse-primary:          #d7c3b5;
+
+  /* ===== 8px Grid 间距 token ===== */
+  --ip-unit:              8px;
+  --ip-gutter:            16px;
+  --ip-container-margin:  24px;
+  --ip-stack-sm:          12px;
+  --ip-stack-md:          24px;
+  --ip-stack-lg:          48px;
+  --ip-touch-target-min:  44px;
+
+  /* ===== 字号 token ===== */
+  --ip-fs-display-lg:        42px;
+  --ip-lh-display-lg:        52px;
+  --ip-ls-display-lg:        -0.02em;
+  --ip-fs-display-lg-mobile: 32px;
+  --ip-lh-display-lg-mobile: 40px;
+  --ip-fs-headline-md:       24px;
+  --ip-lh-headline-md:       32px;
+  --ip-fs-body-lg:           18px;
+  --ip-lh-body-lg:           28px;
+  --ip-fs-body-md:           16px;
+  --ip-lh-body-md:           24px;
+  --ip-fs-label-caps:        12px;
+  --ip-lh-label-caps:        16px;
+  --ip-ls-label-caps:        0.1em;
+  --ip-fs-vertical-header:   20px;
+  --ip-lh-vertical-header:   1.5;
+
+  /* ===== Radius ===== */
+  --ip-radius-sm:   2px;
+  --ip-radius:      4px;   /* 按钮 / 输入框 */
+  --ip-radius-md:   6px;
+  --ip-radius-lg:   8px;   /* 卡片 */
+  --ip-radius-xl:   12px;
+  --ip-radius-full: 9999px;
+}
+
+/* ============================================================================
+ * Shell —— 根容器（页面级使用：在最外层 div 加 .ip-shell）
+ * ========================================================================== */
+.ip-shell {
+  font-family: 'Source Sans 3', 'PingFang SC', -apple-system, system-ui, sans-serif;
+  background: var(--ip-surface);
+  color: var(--ip-on-surface);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 字体族工具类 */
+.ip-font-serif { font-family: 'Noto Serif SC', 'Songti SC', 'STSong', serif; }
+.ip-font-sans  { font-family: 'Source Sans 3', 'PingFang SC', sans-serif; }
+
+/* writing-mode 工具类（vertical-rl 竖排标题） */
+.ip-vertical-rl {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 0.16em;
+}
+
+/* ============================================================================
+ * Typography —— 七套字号 + 弱层级（H1-H3 用 serif，正文 sans）
+ * ========================================================================== */
+.ip-display-lg {
+  font-family: 'Noto Serif SC', serif;
+  font-size: var(--ip-fs-display-lg);
+  line-height: var(--ip-lh-display-lg);
+  font-weight: 700;
+  letter-spacing: var(--ip-ls-display-lg);
+  color: var(--ip-on-surface);
+}
+@media (max-width: 767px) {
+  .ip-display-lg {
+    font-size: var(--ip-fs-display-lg-mobile);
+    line-height: var(--ip-lh-display-lg-mobile);
+    letter-spacing: 0;
+  }
+}
+.ip-headline-md {
+  font-family: 'Noto Serif SC', serif;
+  font-size: var(--ip-fs-headline-md);
+  line-height: var(--ip-lh-headline-md);
+  font-weight: 600;
+  color: var(--ip-on-surface);
+}
+.ip-body-lg {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: var(--ip-fs-body-lg);
+  line-height: var(--ip-lh-body-lg);
+  font-weight: 400;
+  color: var(--ip-on-surface-variant);
+}
+.ip-body-md {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: var(--ip-fs-body-md);
+  line-height: var(--ip-lh-body-md);
+  font-weight: 400;
+  color: var(--ip-on-surface-variant);
+}
+.ip-label-caps {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: var(--ip-fs-label-caps);
+  line-height: var(--ip-lh-label-caps);
+  font-weight: 700;
+  letter-spacing: var(--ip-ls-label-caps);
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+}
+.ip-vertical-header {
+  font-family: 'Noto Serif SC', serif;
+  font-size: var(--ip-fs-vertical-header);
+  line-height: var(--ip-lh-vertical-header);
+  font-weight: 500;
+  color: var(--ip-on-surface);
+}
+
+/* ============================================================================
+ * Buttons —— 主按钮黑 + 次按钮暗金描边
+ * ========================================================================== */
+.ip-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 24px;
+  background: var(--ip-primary);
+  color: var(--ip-on-primary);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  border: none;
+  border-radius: var(--ip-radius);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+.ip-btn-primary:hover {
+  background: var(--ip-primary-container);
+  transform: translateY(-1px);
+}
+.ip-btn-primary:active {
+  transform: translateY(0);
+}
+
+.ip-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 24px;
+  background: transparent;
+  color: var(--ip-secondary);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--ip-secondary);
+  border-radius: var(--ip-radius);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease;
+}
+.ip-btn-secondary:hover {
+  background: var(--ip-secondary);
+  color: var(--ip-on-secondary);
+}
+
+/* ============================================================================
+ * Cards —— 1px hairline 卡（无阴影，hover 才微浮）
+ * ========================================================================== */
+.ip-card {
+  background: var(--ip-surface-container-lowest);
+  border: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+  border-radius: var(--ip-radius-lg);
+  padding: var(--ip-stack-md);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+.ip-card:hover {
+  border-color: color-mix(in srgb, var(--ip-outline-variant) 70%, transparent);
+  box-shadow: 0 4px 16px rgba(29, 27, 26, 0.04);
+  transform: translateY(-2px);
+}
+
+/* Bento 数字看板 — 极简方框（无阴影） */
+.ip-bento {
+  background: var(--ip-surface-container-lowest);
+  border: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+  border-radius: var(--ip-radius-lg);
+  padding: var(--ip-stack-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 110px;
+  transition: border-color 0.2s ease;
+}
+.ip-bento:hover {
+  border-color: var(--ip-outline-variant);
+}
+.ip-bento-num {
+  font-family: 'Noto Serif SC', serif;
+  font-size: var(--ip-fs-display-lg-mobile);
+  line-height: 1;
+  font-weight: 700;
+  color: var(--ip-on-surface);
+}
+@media (min-width: 768px) {
+  .ip-bento-num { font-size: var(--ip-fs-display-lg); }
+}
+.ip-bento-label {
+  margin-top: 8px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+}
+
+/* ============================================================================
+ * Chip —— 椭圆标签（暗金 / 朱砂 / 中性）
+ * ========================================================================== */
+.ip-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: var(--ip-radius-full);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.ip-chip-bronze {
+  background: var(--ip-secondary-container);
+  color: var(--ip-on-secondary-container);
+}
+.ip-chip-cinnabar {
+  background: var(--ip-error-container);
+  color: var(--ip-on-error-container);
+}
+.ip-chip-neutral {
+  background: var(--ip-surface-variant);
+  color: var(--ip-on-surface-variant);
+  border: 1px solid var(--ip-outline-variant);
+}
+
+/* ============================================================================
+ * Section / Divider
+ * ========================================================================== */
+.ip-section {
+  padding: var(--ip-stack-lg) var(--ip-container-margin);
+  background: var(--ip-surface);
+}
+.ip-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+  margin: var(--ip-stack-md) 0;
+}
+.ip-hairline-top {
+  border-top: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+}
+
+/* ============================================================================
+ * Sidenav (PC) —— 首页内嵌左侧 256px 竖排导航
+ * 注意：仅首页使用（HomeLanding 内），不影响 explore 自身的 LeftSidebar
+ * ========================================================================== */
+.ip-sidenav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 256px;
+  height: 100vh;
+  padding: 24px 0;
+  background: var(--ip-surface-container-low);
+  border-right: 1px solid color-mix(in srgb, var(--ip-outline-variant) 30%, transparent);
+  display: none;
+  flex-direction: column;
+  z-index: 30;
+}
+@media (min-width: 1024px) {
+  .ip-sidenav { display: flex; }
+}
+.ip-sidenav-header {
+  padding: 0 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ip-sidenav-seal {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--ip-surface-variant);
+  border: 1px solid var(--ip-outline-variant);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ip-on-surface);
+  margin-bottom: 16px;
+}
+.ip-sidenav-title {
+  height: 110px;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--ip-on-surface);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+.ip-sidenav-en {
+  margin-top: 14px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+  opacity: 0.7;
+}
+.ip-sidenav-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 0;
+  list-style: none;
+}
+.ip-sidenav-link {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 14px;
+  border-radius: var(--ip-radius);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--ip-on-surface-variant);
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.ip-sidenav-link:hover {
+  background: var(--ip-surface-variant);
+  color: var(--ip-on-surface);
+}
+.ip-sidenav-link[aria-current='page'] {
+  background: var(--ip-secondary-container);
+  color: var(--ip-on-secondary-container);
+  font-weight: 700;
+}
+.ip-sidenav-link .material-symbols-outlined {
+  font-size: 22px;
+}
+.ip-sidenav-cta {
+  padding: 0 16px;
+  margin-top: auto;
+}
+.ip-sidenav-cta .ip-btn-primary {
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* PC 主区让出 sidenav 宽度 */
+@media (min-width: 1024px) {
+  .ip-shell-with-sidenav {
+    padding-left: 256px;
+  }
+}
+
+/* ============================================================================
+ * Hero —— 首页 Hero（米白底，左侧大字号 Liubai）
+ * ========================================================================== */
+.ip-hero {
+  position: relative;
+  padding: 80px var(--ip-container-margin) 64px;
+  background: var(--ip-surface);
+  overflow: hidden;
+}
+/* Hero 水墨山水背景层 —— 极淡 opacity，不抢前景文字 */
+.ip-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('/hero/landscape.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.22;
+  mix-blend-mode: multiply;
+  z-index: 0;
+  pointer-events: none;
+}
+/* Hero 顶部柔化渐变（从米白渐隐到山水） */
+.ip-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 248, 246, 0.55) 0%,
+    rgba(254, 248, 246, 0.25) 40%,
+    rgba(254, 248, 246, 0.7) 100%
+  );
+  z-index: 1;
+  pointer-events: none;
+}
+@media (min-width: 768px) {
+  .ip-hero {
+    padding: 120px 64px 96px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+  }
+  .ip-hero::before {
+    opacity: 0.28;
+  }
+  .ip-hero::after {
+    background: linear-gradient(
+      90deg,
+      rgba(254, 248, 246, 0.92) 0%,
+      rgba(254, 248, 246, 0.5) 50%,
+      rgba(254, 248, 246, 0.3) 100%
+    );
+  }
+}
+.ip-hero-inner {
+  max-width: 920px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.ip-hero-eyebrow {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+  opacity: 0.7;
+  margin-bottom: 16px;
+}
+.ip-hero-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: var(--ip-fs-display-lg-mobile);
+  line-height: var(--ip-lh-display-lg-mobile);
+  font-weight: 700;
+  color: var(--ip-on-surface);
+  margin: 0 0 20px;
+}
+@media (min-width: 768px) {
+  .ip-hero-title {
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -0.02em;
+  }
+}
+.ip-hero-tag {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--ip-on-surface-variant);
+  letter-spacing: 0.08em;
+  margin-bottom: 32px;
+}
+.ip-hero-body {
+  max-width: 640px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--ip-on-surface-variant);
+  margin: 0 0 24px;
+}
+@media (min-width: 768px) {
+  .ip-hero-body {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+.ip-hero-em {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 18px;
+  font-style: italic;
+  color: var(--ip-secondary);
+  margin: 0 0 32px;
+}
+.ip-hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+/* Hero 右侧装饰：竖排「行吟山河」（仅 PC 显示，PC 主区右上角） */
+.ip-hero-vertical {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .ip-hero-vertical {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 64px;
+    height: 220px;
+    font-family: 'Noto Serif SC', serif;
+    font-size: 28px;
+    line-height: 1.4;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    color: var(--ip-on-surface);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    opacity: 0.85;
+  }
+}
+
+/* ============================================================================
+ * Timeline —— 5 阶段水平时间轴（墨色细线 + 暗金节点 + 朱砂红关键节点）
+ * ========================================================================== */
+.ip-timeline {
+  max-width: 920px;
+  margin: 32px auto 0;
+  padding: 0 8px;
+  position: relative;
+}
+.ip-timeline-stages {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0;
+  margin-bottom: 24px;
+}
+.ip-timeline-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.ip-timeline-stage-name {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ip-on-surface);
+  letter-spacing: 0.08em;
+}
+.ip-timeline-stage-sub {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--ip-on-surface-variant);
+  margin-top: 4px;
+  letter-spacing: 0.04em;
+}
+.ip-timeline-track {
+  height: 1px;
+  background: var(--ip-outline-variant);
+  margin: 0 8px;
+  position: relative;
+}
+.ip-timeline-fill {
+  position: absolute;
+  inset: 0;
+  background: var(--ip-secondary);
+  transform-origin: left;
+  animation: ipDraw 2s ease-out forwards;
+  transform: scaleX(0);
+}
+@keyframes ipDraw {
+  to { transform: scaleX(1); }
+}
+.ip-timeline-dots {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: -5px;
+}
+.ip-timeline-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ip-secondary);
+  margin: 0 auto;
+  border: 2px solid var(--ip-surface);
+  box-shadow: 0 0 0 1px var(--ip-secondary);
+}
+.ip-timeline-dot--cinnabar {
+  background: var(--ip-error);
+  box-shadow: 0 0 0 1px var(--ip-error), 0 0 8px rgba(186, 26, 26, 0.35);
+}
+.ip-timeline-years {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 12px;
+}
+.ip-timeline-year {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--ip-on-surface-variant);
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .ip-timeline-stage-name { font-size: 12px; letter-spacing: 0.04em; }
+  .ip-timeline-stage-sub  { font-size: 10px; }
+  .ip-timeline-year       { font-size: 10px; }
+}
+
+/* ============================================================================
+ * Place Card —— 代表足迹 hairline 卡（含 chip + 引诗 + 主按钮）
+ * ========================================================================== */
+.ip-place-card {
+  background: var(--ip-surface-container-lowest);
+  border: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+  border-radius: var(--ip-radius-lg);
+  padding: 24px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+.ip-place-card:hover {
+  border-color: color-mix(in srgb, var(--ip-outline-variant) 80%, transparent);
+  box-shadow: 0 6px 20px rgba(29, 27, 26, 0.06);
+  transform: translateY(-2px);
+}
+.ip-place-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 8px;
+}
+.ip-place-card-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 700;
+  color: var(--ip-on-surface);
+  margin: 0 0 6px;
+  letter-spacing: 0.04em;
+}
+.ip-place-card-loc {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  color: var(--ip-on-surface-variant);
+  margin-bottom: 12px;
+}
+.ip-place-card-loc .material-symbols-outlined { font-size: 16px; }
+.ip-place-card-quote {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-style: italic;
+  color: var(--ip-on-surface);
+  margin: 0 0 10px;
+  padding-left: 12px;
+  border-left: 2px solid var(--ip-secondary);
+}
+.ip-place-card-desc {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ip-on-surface-variant);
+  margin: 0 0 18px;
+}
+.ip-place-card-cta {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ip-secondary);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+.ip-place-card-cta:hover { color: var(--ip-on-secondary-container); }
+
+/* ============================================================================
+ * Quote / CTA / Footer —— 米白底（不再墨黑反白），靠 hairline 分隔
+ * ========================================================================== */
+.ip-quote {
+  text-align: center;
+  padding: var(--ip-stack-lg) var(--ip-container-margin);
+  background: var(--ip-surface-container-low);
+}
+.ip-quote-bar {
+  width: 56px;
+  height: 1px;
+  background: var(--ip-outline);
+  margin: 0 auto;
+  opacity: 0.5;
+}
+.ip-quote-main {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 700;
+  color: var(--ip-on-surface);
+  letter-spacing: 0.18em;
+  margin: 24px 0 12px;
+}
+.ip-quote-src {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+  opacity: 0.8;
+  margin-bottom: 16px;
+}
+.ip-quote-note {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--ip-on-surface-variant);
+}
+
+.ip-cta {
+  text-align: center;
+  padding: var(--ip-stack-lg) var(--ip-container-margin);
+  background: var(--ip-surface);
+  border-top: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+}
+.ip-cta-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(28px, 4vw, 38px);
+  font-weight: 700;
+  color: var(--ip-on-surface);
+  letter-spacing: 0.04em;
+  margin: 0 0 12px;
+}
+.ip-cta-sub {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ip-on-surface-variant);
+  margin-bottom: 32px;
+}
+.ip-cta-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ip-footer {
+  padding: 48px var(--ip-container-margin) 32px;
+  background: var(--ip-surface-container);
+  text-align: center;
+  border-top: 1px solid color-mix(in srgb, var(--ip-outline-variant) 40%, transparent);
+}
+.ip-footer-brand {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--ip-on-surface);
+  margin-bottom: 8px;
+}
+.ip-footer-en {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  color: var(--ip-on-surface-variant);
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  opacity: 0.7;
+}
+.ip-footer-note {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 13px;
+  color: var(--ip-on-surface-variant);
+  letter-spacing: 0.06em;
+  margin-bottom: 16px;
+}
+.ip-footer-copy {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  color: var(--ip-on-surface-variant);
+  opacity: 0.65;
+  letter-spacing: 0.04em;
+}
+
+/* ============================================================================
+ * BottomNav —— frosted parchment + 朱砂红圆点 active dot
+ * ========================================================================== */
+.ip-bottomnav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(254, 248, 246, 0.92);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border-top: 1px solid color-mix(in srgb, var(--ip-outline-variant) 50%, transparent);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 1000;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.ip-bottomnav-link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-height: 56px;
+  padding: 8px 0 10px;
+  text-decoration: none;
+  color: var(--ip-on-surface-variant);
+  transition: color 0.15s ease;
+}
+.ip-bottomnav-link:hover { color: var(--ip-on-surface); }
+.ip-bottomnav-link[aria-current='page'] { color: var(--ip-on-surface); }
+.ip-bottomnav-link[aria-current='page']::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--ip-error);
+  box-shadow: 0 0 0 1px rgba(186, 26, 26, 0.18), 0 1px 2px rgba(186, 26, 26, 0.35);
+  animation: ipNavSeal 220ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+@keyframes ipNavSeal {
+  0%   { transform: translate(-50%, 4px) scale(0.4); opacity: 0; }
+  60%  { transform: translate(-50%, -1px) scale(1.15); opacity: 1; }
+  100% { transform: translate(-50%, 0) scale(1); opacity: 1; }
+}
+.ip-bottomnav-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+.ip-bottomnav-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+/* ============================================================================
+ * Bento 数字看板 grid（首页用）
+ * ========================================================================== */
+.ip-bento-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--ip-gutter);
+  max-width: 920px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .ip-bento-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* 4 卡 grid（代表足迹/COMING SOON/ABOUT 共用） */
+.ip-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--ip-gutter);
+  max-width: 1080px;
+  margin: 0 auto;
+}
+@media (min-width: 1024px) {
+  .ip-grid-4 { grid-template-columns: repeat(4, 1fr); }
+}
+.ip-grid-3 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--ip-stack-md);
+  max-width: 920px;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .ip-grid-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* 节标题（label-caps + serif 主标 + 副标） */
+.ip-section-head {
+  text-align: center;
+  margin-bottom: var(--ip-stack-md);
+}
+.ip-section-eyebrow {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: var(--ip-secondary);
+  margin-bottom: 8px;
+  display: block;
+}
+.ip-section-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  color: var(--ip-on-surface);
+  margin: 0 0 8px;
+  letter-spacing: 0.04em;
+}
+@media (min-width: 768px) {
+  .ip-section-title { font-size: 32px; line-height: 40px; }
+}
+.ip-section-sub {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--ip-on-surface-variant);
+  margin: 0 auto;
+  max-width: 640px;
+}
+.ip-section-bar {
+  width: 40px;
+  height: 1px;
+  background: var(--ip-secondary);
+  margin: 16px auto var(--ip-stack-md);
+}

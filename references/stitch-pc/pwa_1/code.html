@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>诗词库 - 行吟山河 (艺术定制版) PWA</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary-container": "#fdc34d",
+                      "surface-variant": "#e7e1df",
+                      "on-tertiary-fixed": "#171c23",
+                      "on-secondary-fixed": "#271900",
+                      "surface-dim": "#ded9d7",
+                      "surface-container-lowest": "#ffffff",
+                      "inverse-on-surface": "#f5efed",
+                      "on-surface": "#1d1b1a",
+                      "on-primary-fixed-variant": "#52443a",
+                      "inverse-primary": "#d7c3b5",
+                      "error": "#ba1a1a",
+                      "secondary-fixed": "#ffdea6",
+                      "on-background": "#1d1b1a",
+                      "secondary": "#7b5800",
+                      "on-tertiary-fixed-variant": "#42474f",
+                      "on-error": "#ffffff",
+                      "on-tertiary-container": "#7f848d",
+                      "primary": "#000000",
+                      "surface-container-high": "#ede7e5",
+                      "tertiary": "#000000",
+                      "outline": "#80756e",
+                      "surface-container-low": "#f8f2f0",
+                      "on-primary-fixed": "#241911",
+                      "tertiary-fixed-dim": "#c2c6d1",
+                      "on-primary": "#ffffff",
+                      "primary-container": "#241911",
+                      "on-secondary-fixed-variant": "#5d4200",
+                      "tertiary-fixed": "#dee2ed",
+                      "primary-fixed-dim": "#d7c3b5",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-highest": "#e7e1df",
+                      "background": "#fef8f6",
+                      "surface-tint": "#6b5b50",
+                      "on-surface-variant": "#4e453f",
+                      "error-container": "#ffdad6",
+                      "outline-variant": "#d1c4bc",
+                      "primary-fixed": "#f4ded0",
+                      "on-secondary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "on-primary-container": "#928174",
+                      "surface-bright": "#fef8f6",
+                      "surface": "#fef8f6",
+                      "surface-container": "#f3edea",
+                      "inverse-surface": "#32302f",
+                      "secondary-fixed-dim": "#f7bd48",
+                      "on-secondary-container": "#715000",
+                      "tertiary-container": "#171c23",
+                      "cinnabar": "#ba1a1a" // Added for the vermilion touches
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "unit": "8px",
+                      "stack-lg": "48px",
+                      "touch-target-min": "44px",
+                      "gutter": "16px",
+                      "container-margin": "24px",
+                      "stack-sm": "12px",
+                      "stack-md": "24px",
+                      "safe-bottom": "env(safe-area-inset-bottom, 20px)"
+              },
+              "fontFamily": {
+                      "body-md": ["'Source Sans 3'", "sans-serif"],
+                      "display-lg": ["'Noto Serif SC'", "serif"],
+                      "display-lg-mobile": ["'Noto Serif SC'", "serif"],
+                      "vertical-header": ["'Noto Serif SC'", "serif"],
+                      "body-lg": ["'Source Sans 3'", "sans-serif"],
+                      "label-caps": ["'Source Sans 3'", "sans-serif"],
+                      "headline-md": ["'Noto Serif SC'", "serif"],
+                      "poem-body": ["'Noto Serif SC'", "serif"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                      "display-lg": ["42px", {"lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "display-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                      "vertical-header": ["20px", {"lineHeight": "1.5", "fontWeight": "500"}],
+                      "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                      "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.background');
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        /* Hide scrollbar for horizontal scrolling but keep functionality */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        
+        /* Vermilion side line effect for cards */
+        .vermilion-border-left {
+            border-left: 2px solid theme('colors.cinnabar');
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-background min-h-screen pb-[calc(56px+env(safe-area-inset-bottom))]">
+<!-- TopAppBar from JSON -->
+<header class="flex justify-between items-center w-full px-container-margin h-[56px] fixed top-0 z-50 bg-[#1A1008] shadow-none md:hidden">
+<div class="font-headline-md text-headline-md text-primary-fixed">行吟山河</div>
+<div class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-fixed hover:opacity-80 transition-opacity active:scale-95 duration-200 cursor-pointer" data-icon="search">search</span>
+<span class="font-label-caps text-label-caps text-surface-variant hover:opacity-80 transition-opacity active:scale-95 duration-200 cursor-pointer">诗</span>
+</div>
+</header>
+<!-- Main Canvas -->
+<main class="pt-[72px] px-container-margin md:hidden max-w-md mx-auto">
+<!-- Search Bar -->
+<div class="relative mb-stack-md mt-4">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline" data-icon="search">search</span>
+<input class="w-full h-touch-target-min pl-10 pr-4 bg-surface-container-low border-b border-outline-variant focus:border-primary focus:ring-0 rounded-t-sm font-body-md text-body-md text-on-surface placeholder:text-outline transition-colors outline-none" placeholder="搜索诗人、诗词或名句" type="text"/>
+</div>
+<!-- Dynasty Filter Chips -->
+<div class="flex overflow-x-auto hide-scrollbar gap-3 mb-stack-md pb-2 -mx-container-margin px-container-margin">
+<button class="h-8 px-4 rounded-full bg-primary-container text-on-primary-container font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform">全部</button>
+<button class="h-8 px-4 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest border border-outline-variant">唐代</button>
+<button class="h-8 px-4 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest border border-outline-variant">宋代</button>
+<button class="h-8 px-4 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest border border-outline-variant">魏晋</button>
+<button class="h-8 px-4 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest border border-outline-variant">明清</button>
+</div>
+<!-- Poetry Cards List -->
+<div class="flex flex-col gap-stack-sm">
+<!-- Card 1 -->
+<article class="bg-surface-container-lowest p-4 rounded-lg border border-outline-variant vermilion-border-left active:scale-[0.98] transition-transform duration-200 cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<h2 class="font-headline-md text-headline-md text-on-surface">静夜思</h2>
+<span class="font-label-caps text-label-caps text-outline bg-surface-container px-2 py-1 rounded-sm">李白 · 唐</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed line-clamp-2 font-display-lg-mobile" style="font-family: 'Noto Serif SC', serif;">
+                    床前明月光，疑是地上霜。<br/>
+                    举头望明月，低头思故乡。
+                </p>
+<div class="flex gap-2 mt-3">
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">思乡</span>
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">秋夜</span>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="bg-surface-container-lowest p-4 rounded-lg border border-outline-variant vermilion-border-left active:scale-[0.98] transition-transform duration-200 cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<h2 class="font-headline-md text-headline-md text-on-surface">春望</h2>
+<span class="font-label-caps text-label-caps text-outline bg-surface-container px-2 py-1 rounded-sm">杜甫 · 唐</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed line-clamp-2 font-display-lg-mobile" style="font-family: 'Noto Serif SC', serif;">
+                    国破山河在，城春草木深。<br/>
+                    感时花溅泪，恨别鸟惊心。
+                </p>
+<div class="flex gap-2 mt-3">
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">爱国</span>
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">忧国忧民</span>
+</div>
+</article>
+<!-- Card 3 -->
+<article class="bg-surface-container-lowest p-4 rounded-lg border border-outline-variant vermilion-border-left active:scale-[0.98] transition-transform duration-200 cursor-pointer">
+<div class="flex justify-between items-start mb-2">
+<h2 class="font-headline-md text-headline-md text-on-surface">水调歌头</h2>
+<span class="font-label-caps text-label-caps text-outline bg-surface-container px-2 py-1 rounded-sm">苏轼 · 宋</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed line-clamp-2 font-display-lg-mobile" style="font-family: 'Noto Serif SC', serif;">
+                    明月几时有？把酒问青天。<br/>
+                    不知天上宫阙，今夕是何年。
+                </p>
+<div class="flex gap-2 mt-3">
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">中秋</span>
+<span class="text-[10px] text-on-surface bg-surface-variant px-2 py-0.5 rounded-full">旷达</span>
+</div>
+</article>
+<!-- Spacing for bottom nav -->
+<div class="h-stack-lg"></div>
+</div>
+</main>
+<!-- BottomNavBar from JSON -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center h-[56px] pb-safe bg-surface border-t border-outline-variant md:hidden">
+<!-- 首页 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-label-caps text-label-caps hover:bg-surface-container-low transition-colors active:scale-90 duration-150 w-full h-full" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="home" style="font-variation-settings: 'FILL' 0;">home</span>
+<span>首页</span>
+</a>
+<!-- 地图 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-label-caps text-label-caps hover:bg-surface-container-low transition-colors active:scale-90 duration-150 w-full h-full" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="map" style="font-variation-settings: 'FILL' 0;">map</span>
+<span>地图</span>
+</a>
+<!-- 诗词 Active -->
+<a class="flex flex-col items-center justify-center text-primary font-bold font-label-caps text-label-caps hover:bg-surface-container-low transition-colors active:scale-90 duration-150 w-full h-full relative" href="#">
+<div class="absolute top-1 w-1.5 h-1.5 rounded-full bg-cinnabar"></div>
+<span class="material-symbols-outlined mb-1 mt-1" data-icon="auto_stories" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+<span>诗词</span>
+</a>
+<!-- 我的 Inactive -->
+<a class="flex flex-col items-center justify-center text-on-surface-variant font-label-caps text-label-caps hover:bg-surface-container-low transition-colors active:scale-90 duration-150 w-full h-full" href="#">
+<span class="material-symbols-outlined mb-1" data-icon="person" style="font-variation-settings: 'FILL' 0;">person</span>
+<span>我的</span>
+</a>
+</nav>
+<script>
+        // Simple chip selection interaction
+        document.querySelectorAll('button').forEach(btn => {
+            if(btn.textContent === '全部' || btn.textContent === '唐代' || btn.textContent === '宋代' || btn.textContent === '魏晋' || btn.textContent === '明清') {
+                btn.addEventListener('click', function() {
+                    // Reset all chips
+                    const container = this.parentElement;
+                    container.querySelectorAll('button').forEach(b => {
+                        b.className = "h-8 px-4 rounded-full bg-surface-variant text-on-surface-variant font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform hover:bg-surface-container-highest border border-outline-variant";
+                    });
+                    
+                    // Set active
+                    this.className = "h-8 px-4 rounded-full bg-primary-container text-on-primary-container font-label-caps text-label-caps whitespace-nowrap active:scale-95 transition-transform";
+                });
+            }
+        });
+    </script>
+</body></html>

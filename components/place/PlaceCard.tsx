@@ -925,19 +925,24 @@ function FoodTab({
   }, [routeId]);
 
   // 加载附近美食
+  // v6.3 修复：高德 PlaceSearch 在中国大陆 90% 的 POI 不返回评分（biz_ext.rating 为空）
+  // 旧逻辑 `rating >= 3.8` 把所有 rating===undefined 的 POI 都丢掉 → 列表永远空
+  // 新逻辑：rating 缺失保留（按距离/菜系排），仅当 rating 存在且 <3.5 才剔除
   useEffect(() => {
     if (foodTab === 'nearby' && placeLat && placeLng) {
       setNearbyLoading(true);
       searchNearbyFood(placeLat, placeLng, 2000)
         .then((foods) => {
-          // 筛选和排序
           const filtered = foods.filter((poi) => {
-            const rating = poi.rating || 0;
-            return rating >= 3.8 && !isChain(poi);
+            if (isChain(poi)) return false;
+            // rating 存在才做阈值判定，缺失视为"未知评分"保留
+            if (typeof poi.rating === 'number' && poi.rating < 3.5) return false;
+            return true;
           });
           // 按综合评分排序（v6.2 修复：传 province 让本地菜系维度生效）
           filtered.sort((a, b) => scoreRestaurant(b, province) - scoreRestaurant(a, province));
-          setNearbyFoods(filtered);
+          // 至多展示前 12 家，避免长滚动
+          setNearbyFoods(filtered.slice(0, 12));
         })
         .finally(() => setNearbyLoading(false));
     }
@@ -963,16 +968,17 @@ function FoodTab({
   return (
     <div>
       {/* 美食 sub-tab */}
-      <div className="flex bg-paper-2 rounded-lg p-0.5 mb-4">
+      <div className="flex bg-paper-2 rounded-lg p-0.5 mb-4 gap-0.5">
         {(['all', 'sushi', 'nearby'] as const).map((t) => (
           <button
             key={t}
             onClick={() => setFoodTab(t)}
-            className={`font-wenkai text-[10px] px-2 py-1 rounded-md transition-colors flex-1 ${
+            className={`font-wenkai text-[10px] py-1 rounded-md transition-colors flex-1 whitespace-nowrap min-w-0 truncate ${
               foodTab === t 
                 ? 'bg-white text-gold-m' 
                 : 'text-ink-lt/60 hover:text-ink'
             }`}
+            style={{ letterSpacing: '0.02em', padding: '4px 6px' }}
           >
             {t === 'all' ? '全部' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
           </button>

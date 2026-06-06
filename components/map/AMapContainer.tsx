@@ -358,7 +358,15 @@ export default function AMapContainer() {
   }, [selectedPlace, currentRoute]);
 
   return (
-    <div className="absolute inset-0" style={{ paddingBottom: 'calc(var(--bottom-nav-height) + var(--safe-area-bottom))' }}>
+    <div
+      className="absolute"
+      style={{
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 'calc(var(--bottom-nav-height) + var(--safe-area-bottom))',
+      }}
+    >
       <div ref={containerRef} className="w-full h-full" />
       {/* 水墨风格覆盖层 */}
       <div className="pointer-events-none absolute inset-0 border-2 border-ink/10 rounded-lg" />

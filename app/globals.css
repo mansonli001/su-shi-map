@@ -17,13 +17,16 @@
 /* ========== Routes 浏览/详情 专属样式 ========== */
 @import './routes.css';
 
+/* ========== Ink & Path 设计系统 v1.0（2026-06-05）========== */
+@import './ink-path.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   /* === 布局尺寸变量 === */
-  --bottom-nav-height: 70px;
+  --bottom-nav-height: 56px;
   --safe-area-bottom: env(safe-area-inset-bottom);
   --header-height: 56px;
 
@@ -262,13 +265,24 @@ body {
 }
 
 /* ========== Marker 交互（设计稿 §2.3） ========== */
-/* hover：图标放大至 1.10×，drop-shadow 增强 */
-.su-marker:hover {
-  transform: scale(1.10);
-  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
-  z-index: 50;
+/* v6.3 修复：hover 仅在"真鼠标"设备启用，避免安卓 sticky-hover 导致的"需双击"问题
+ * 触屏设备（无 hover 能力）第一次 tap 不再被当成 hover 放大态，单击直击 click */
+.su-marker {
+  /* 阻止 Android 双击缩放与 300ms 延迟，让 click 立即触发 */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
 }
-/* 选中：白色柔光晕 */
+@media (hover: hover) and (pointer: fine) {
+  .su-marker:hover {
+    transform: scale(1.10);
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.35));
+    z-index: 50;
+  }
+  .su-marker.is-faded:hover {
+    opacity: 0.80;
+  }
+}
+/* 选中：白色柔光晕（点击后由 JS 加 .is-selected，触屏/鼠标都生效） */
 .su-marker.is-selected {
   transform: scale(1.18);
   filter:
@@ -281,9 +295,6 @@ body {
 .su-marker.is-faded {
   opacity: 0.40;
   filter: drop-shadow(0 1px 2px rgba(0,0,0,0.15)) saturate(0.55);
-}
-.su-marker.is-faded:hover {
-  opacity: 0.80;
 }
 
 /* ========== 微信/iOS 浏览器深度适配 v2026-06-02 ========== */

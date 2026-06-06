@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/>
+<title>Xingyin Shanhe - Routes</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700&amp;family=Source+Sans+3:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "error-container": "#ffdad6",
+                        "surface": "#fef8f6",
+                        "on-secondary-fixed-variant": "#5d4200",
+                        "on-background": "#1d1b1a",
+                        "inverse-surface": "#32302f",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#fdc34d",
+                        "on-tertiary-container": "#7f848d",
+                        "on-tertiary": "#ffffff",
+                        "on-primary-fixed-variant": "#52443a",
+                        "on-tertiary-fixed": "#171c23",
+                        "on-surface": "#1d1b1a",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#4e453f",
+                        "background": "#fef8f6",
+                        "secondary-fixed": "#ffdea6",
+                        "outline-variant": "#d1c4bc",
+                        "inverse-on-surface": "#f5efed",
+                        "outline": "#80756e",
+                        "surface-dim": "#ded9d7",
+                        "surface-container-highest": "#e7e1df",
+                        "on-primary-fixed": "#241911",
+                        "on-error-container": "#93000a",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#715000",
+                        "tertiary-container": "#171c23",
+                        "surface-container-high": "#ede7e5",
+                        "surface-variant": "#e7e1df",
+                        "tertiary": "#000000",
+                        "surface-tint": "#6b5b50",
+                        "tertiary-fixed-dim": "#c2c6d1",
+                        "surface-bright": "#fef8f6",
+                        "primary": "#000000",
+                        "surface-container": "#f3edea",
+                        "secondary-fixed-dim": "#f7bd48",
+                        "on-secondary-fixed": "#271900",
+                        "error": "#ba1a1a",
+                        "primary-fixed": "#f4ded0",
+                        "primary-fixed-dim": "#d7c3b5",
+                        "surface-container-low": "#f8f2f0",
+                        "on-primary-container": "#928174",
+                        "secondary": "#7b5800",
+                        "on-tertiary-fixed-variant": "#42474f",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#dee2ed",
+                        "inverse-primary": "#d7c3b5",
+                        "primary-container": "#241911"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "touch-target-min": "44px",
+                        "stack-lg": "48px",
+                        "container-margin": "24px",
+                        "unit": "8px",
+                        "gutter": "16px",
+                        "stack-sm": "12px",
+                        "stack-md": "24px"
+                    },
+                    "fontFamily": {
+                        "vertical-header": ["Noto Serif", "serif"],
+                        "label-caps": ["Source Sans 3", "sans-serif"],
+                        "body-md": ["Source Sans 3", "sans-serif"],
+                        "body-lg": ["Source Sans 3", "sans-serif"],
+                        "headline-md": ["Noto Serif", "serif"],
+                        "display-lg": ["Noto Serif", "serif"],
+                        "display-lg-mobile": ["Noto Serif", "serif"]
+                    },
+                    "fontSize": {
+                        "vertical-header": ["20px", {"lineHeight": "1.5", "fontWeight": "500"}],
+                        "label-caps": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+                        "display-lg": ["42px", {"lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "display-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>body {
+    background-color: theme("colors.background");
+    color: theme("colors.on-background");
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-top: env(safe-area-inset-top)
+    }
+/* Ink wash texture overlay */
+.ink-texture::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuAIJ0a9NRcX7mtAxje7-VXFtHRB5RWpZEj7XDmmMkwTPM0x7gdSwaJDlU8voKDfFlC7b1z_7osEjVulE-GMZgC5TLIrljMFKwIRS65eIdSJmvnl4tKtEcUi26EdK9UsGjEyB1xRvBwvUb5ZQgt3I42nAqq1FTaoU5q914E0DiESE_UDGWkD9HFo0ze6bFgH0rPacshVfqIizhHPPHQ2hDz7zi0YHXpN6O3Z1iYQJg9cGaPBggrqHia2ZX3339gRcE1eElbecyYKZ60X);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.05;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    z-index: 0
+    }
+.scroll-hidden::-webkit-scrollbar {
+    display: none
+    }
+.scroll-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none
+    }
+.pb-safe {
+    padding-bottom: max(16px, env(safe-area-inset-bottom))
+    }</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="antialiased min-h-screen flex flex-col relative ink-texture overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="bg-surface dark:bg-on-background docked full-width top-0 z-40 border-b border-outline-variant/40 dark:border-outline/20 flat no shadows flex justify-between items-center px-container-margin h-touch-target-min w-full sticky">
+<button aria-label="Menu" class="w-touch-target-min h-touch-target-min flex items-center justify-center text-primary dark:text-inverse-primary hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors active:opacity-80 transition-all rounded-full">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<h1 class="font-headline-md text-headline-md-mobile tracking-tight text-primary dark:text-on-primary-fixed">Xingyin Shanhe</h1>
+<button aria-label="Search" class="w-touch-target-min h-touch-target-min flex items-center justify-center text-primary dark:text-inverse-primary hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-colors active:opacity-80 transition-all rounded-full">
+<span class="material-symbols-outlined">search</span>
+</button>
+</header>
+<!-- Navigation Drawer (Hidden on Mobile) -->
+<nav class="bg-surface dark:bg-on-background fixed left-0 top-0 h-full w-64 z-30 border-r border-outline-variant/40 dark:border-outline/20 flat no shadows hidden md:flex flex-col h-full py-stack-lg">
+<div class="px-6 mb-8">
+<h2 class="font-vertical-header text-vertical-header uppercase tracking-widest text-primary dark:text-on-primary-fixed [writing-mode:vertical-rl] h-48 ml-auto">Xingyin Shanhe</h2>
+</div>
+<div class="flex flex-col gap-2 mt-12">
+<a class="flex items-center gap-4 text-on-surface-variant dark:text-outline px-6 py-4 hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">home</span>
+<span class="font-label-caps text-label-caps tracking-widest">Home</span>
+</a>
+<a class="flex items-center gap-4 bg-secondary-container/10 dark:bg-secondary-fixed/10 text-primary dark:text-secondary-fixed font-bold border-r-4 border-primary dark:border-secondary-fixed px-6 py-4 hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">map</span>
+<span class="font-label-caps text-label-caps tracking-widest">Map</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant dark:text-outline px-6 py-4 hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">auto_stories</span>
+<span class="font-label-caps text-label-caps tracking-widest">Poems</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant dark:text-outline px-6 py-4 hover:bg-surface-container-low dark:hover:bg-surface-container-highest transition-all hover:translate-x-1 duration-300" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="font-label-caps text-label-caps tracking-widest">Me</span>
+</a>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 px-container-margin py-stack-md w-full max-w-4xl mx-auto md:pl-72 relative z-10 pb-32">
+<!-- Header Section -->
+<div class="mb-stack-md">
+<h2 class="font-display-lg-mobile text-display-lg-mobile text-on-background mb-unit">Cultural Routes</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Trace the footsteps of ancient masters through landscapes that inspired eternal verses.</p>
+</div>
+<!-- Filter Chips (Horizontal Scroll) -->
+<div class="flex gap-unit overflow-x-auto scroll-hidden pb-unit mb-stack-md -mx-container-margin px-container-margin">
+<button class="h-touch-target-min px-4 rounded-full bg-primary text-on-primary font-label-caps text-label-caps flex-shrink-0 transition-opacity active:opacity-80 flex items-center justify-center border border-primary">All Routes</button>
+<button class="h-touch-target-min px-4 rounded-full bg-transparent text-on-surface-variant border border-outline-variant font-label-caps text-label-caps flex-shrink-0 transition-colors active:bg-surface-container-high flex items-center justify-center">Exile Journeys</button>
+<button class="h-touch-target-min px-4 rounded-full bg-transparent text-on-surface-variant border border-outline-variant font-label-caps text-label-caps flex-shrink-0 transition-colors active:bg-surface-container-high flex items-center justify-center">Official Postings</button>
+<button class="h-touch-target-min px-4 rounded-full bg-transparent text-on-surface-variant border border-outline-variant font-label-caps text-label-caps flex-shrink-0 transition-colors active:bg-surface-container-high flex items-center justify-center">Leisure Travel</button>
+</div>
+<!-- Routes Feed (Bento-inspired Stack) -->
+<div class="flex flex-col gap-stack-sm">
+<!-- Route Card 1 -->
+<article class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl overflow-hidden relative active:bg-surface-container-low transition-colors duration-200">
+<div class="h-48 w-full relative bg-surface-variant">
+<img alt="Landscape" class="w-full h-full object-cover opacity-80 mix-blend-luminosity" data-alt="A serene, minimalist landscape featuring misty mountains and a calm river. Rendered in a light-mode contemporary style with calligraphic ink-wash influences. The palette relies on stark whites, soft parchment creams, and deep ink blacks, with a subtle texture resembling fine rice paper. The atmosphere is quiet, contemplative, and historically evocative." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBML63pC2ymfdTFdQ29qPnmVdxa7vYDZI23sf9uGhKahdQTEmxibZBqy0OKuQqzlAdo9RJnwMXrd65sr5mTNASmd8HMhNOWT1TAek2RlOK5QnAG_82WO5MucAJwf_TQtqxLNYSK7vPaN0aava-Db6DHkm-sd08OumNuRLO5Rcmek5pLjo0XIqrbwmnh2qdEA9bv6sjuTsdja9cHZahc9zsooigubn2bebe57pnIpPKBvmuU9nBxrocZIjkDezzcrScyc_ixskZTDlBb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center px-2 py-1 rounded-full bg-surface/80 backdrop-blur-sm text-primary font-label-caps text-[10px] uppercase tracking-widest border border-outline-variant/50">
+                            Exile
+                        </span>
+</div>
+</div>
+<div class="p-gutter relative -mt-8 bg-surface-container-lowest mx-4 rounded-t-xl border border-outline-variant/20 border-b-0 shadow-[0_-4px_20px_rgba(0,0,0,0.02)]">
+<div class="flex justify-between items-start mb-unit">
+<h3 class="font-headline-md text-headline-md-mobile text-on-background leading-tight w-4/5">Huangzhou Exile Route</h3>
+<span class="material-symbols-outlined text-outline">bookmark_border</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant font-label-caps text-label-caps mb-4">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Hubei</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">route</span> 8 Stops</span>
+</div>
+<div class="border-t border-outline-variant/40 pt-4 mt-2">
+<p class="font-vertical-header text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/40 pl-3">"Also wind, also rain, also clear."</p>
+<p class="text-[12px] text-outline mt-1 text-right">— Su Shi</p>
+</div>
+</div>
+</article>
+<!-- Route Card 2 -->
+<article class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl overflow-hidden relative active:bg-surface-container-low transition-colors duration-200">
+<div class="h-48 w-full relative bg-surface-variant">
+<img alt="Landscape" class="w-full h-full object-cover opacity-80 mix-blend-luminosity" data-alt="An ancient pathway winding through a bamboo forest under soft, diffused light. Rendered in a light-mode contemporary style with calligraphic ink-wash influences. The palette uses stark whites, parchment creams, deep ink blacks, and subtle touches of jade green. The texture mimics fine grain paper. The mood is solitary, scholarly, and peaceful." src="https://lh3.googleusercontent.com/aida-public/AB6AXuChDc9NfZ0oi2f9DzvweuhBE0MOEbpgOBzumZVK9cT0oCjyR2ww_uefS1o26pjiqwmiSaX1x29O8e1depOl8J664gcBBFWwYhjdk9JbnAtMl7x4gPKJQ_JnBY3kzf8w3bH89uI3MrzjxI5RGAL323WgT7hbNtoTW7Fk4gWGx66MWO9kHq06UKC2fM-hiEqNnpyXxmfrdBXytakn96ooxDAEhSTJCdERrML_ol2J6yrM2qOX4CszI29i_7PwnbaqhD3htzhPu4OdNrl4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center px-2 py-1 rounded-full bg-surface/80 backdrop-blur-sm text-primary font-label-caps text-[10px] uppercase tracking-widest border border-outline-variant/50">
+                            Travel
+                        </span>
+</div>
+</div>
+<div class="p-gutter relative -mt-8 bg-surface-container-lowest mx-4 rounded-t-xl border border-outline-variant/20 border-b-0 shadow-[0_-4px_20px_rgba(0,0,0,0.02)]">
+<div class="flex justify-between items-start mb-unit">
+<h3 class="font-headline-md text-headline-md-mobile text-on-background leading-tight w-4/5">Shudao Difficulty</h3>
+<span class="material-symbols-outlined text-outline">bookmark_border</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant font-label-caps text-label-caps mb-4">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Sichuan</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">route</span> 12 Stops</span>
+</div>
+<div class="border-t border-outline-variant/40 pt-4 mt-2">
+<p class="font-vertical-header text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/40 pl-3">"Harder than climbing the blue sky."</p>
+<p class="text-[12px] text-outline mt-1 text-right">— Li Bai</p>
+</div>
+</div>
+</article>
+<!-- Route Card 3 -->
+<article class="bg-surface-container-lowest border border-outline-variant/40 rounded-xl overflow-hidden relative active:bg-surface-container-low transition-colors duration-200">
+<div class="h-48 w-full relative bg-surface-variant">
+<img alt="Landscape" class="w-full h-full object-cover opacity-80 mix-blend-luminosity" data-alt="A tranquil river scene with a solitary boat drifting near a misty shore. Rendered in a light-mode contemporary style with calligraphic ink-wash influences. The color scheme is predominantly stark white, parchment cream, and deep ink black, suggesting a minimalist digital silk aesthetic. The feeling is melancholic, historical, and deeply artistic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBRys3bl2wALwGCYaPr0hOQbx_mcS3EcQokqyvRoiOk_-VNmF3Afu9y_YBceuFlZaWSYflmW71doDCVa1WZlb8b3y_NbsPRoGM3ZvMTf562XM3mRew3st1KUU7MuEMyKYkeTXy1qsHt1tus574UqrLfp_q1VHHvLo-3EmEgHNtO1cewzH69kJi-8Mh61l8-U7n5grPJ1vvGrX7daF6mQpfKl4NiBfC179RgeXmjhD0yaOXuLbw08kMArG96QyBP8vIw0XjiTLVjph0"/>
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute top-4 left-4">
+<span class="inline-flex items-center px-2 py-1 rounded-full bg-surface/80 backdrop-blur-sm text-primary font-label-caps text-[10px] uppercase tracking-widest border border-outline-variant/50">
+                            Official
+                        </span>
+</div>
+</div>
+<div class="p-gutter relative -mt-8 bg-surface-container-lowest mx-4 rounded-t-xl border border-outline-variant/20 border-b-0 shadow-[0_-4px_20px_rgba(0,0,0,0.02)]">
+<div class="flex justify-between items-start mb-unit">
+<h3 class="font-headline-md text-headline-md-mobile text-on-background leading-tight w-4/5">Jiangnan Inspection</h3>
+<span class="material-symbols-outlined text-outline">bookmark_border</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant font-label-caps text-label-caps mb-4">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">location_on</span> Zhejiang</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">route</span> 6 Stops</span>
+</div>
+<div class="border-t border-outline-variant/40 pt-4 mt-2">
+<p class="font-vertical-header text-body-md text-on-surface-variant italic border-l-2 border-outline-variant/40 pl-3">"Spring water is green like jade."</p>
+<p class="text-[12px] text-outline mt-1 text-right">— Bai Juyi</p>
+</div>
+</div>
+</article>
+</div>
+</main>
+<!-- BottomNavBar (Mobile Only) -->
+<nav class="bg-surface/90 dark:bg-on-background/90 backdrop-blur-md border-t border-outline-variant/40 dark:border-outline/20 shadow-sm docked full-width bottom-0 rounded-t-full z-50 fixed bottom-0 w-full flex justify-around items-center pt-2 pb-safe px-4 md:hidden">
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform touch-manipulation duration-200 w-16 h-12">
+<span class="material-symbols-outlined mb-1">home</span>
+<span class="font-label-caps text-[10px] tracking-widest uppercase">Home</span>
+</button>
+<!-- Active Tab: Map/Routes -->
+<button class="flex flex-col items-center justify-center text-primary dark:text-secondary-fixed relative after:content-[''] after:absolute after:-top-1 after:w-1 after:h-1 after:bg-error after:rounded-full active:scale-95 transition-transform touch-manipulation duration-200 w-16 h-12">
+<span class="material-symbols-outlined mb-1" style="font-variation-settings: 'FILL' 1;">map</span>
+<span class="font-label-caps text-[10px] tracking-widest uppercase font-bold">Map</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform touch-manipulation duration-200 w-16 h-12">
+<span class="material-symbols-outlined mb-1">auto_stories</span>
+<span class="font-label-caps text-[10px] tracking-widest uppercase">Poems</span>
+</button>
+<button class="flex flex-col items-center justify-center text-on-surface-variant dark:text-outline active:scale-95 transition-transform touch-manipulation duration-200 w-16 h-12">
+<span class="material-symbols-outlined mb-1">person</span>
+<span class="font-label-caps text-[10px] tracking-widest uppercase">Me</span>
+</button>
+</nav>
+<script>
+        // Simple script to handle chip selection visually
+        document.addEventListener('DOMContentLoaded', () => {
+            const chips = document.querySelectorAll('.overflow-x-auto button');
+            chips.forEach(chip => {
+                chip.addEventListener('click', () => {
+                    // Reset all chips
+                    chips.forEach(c => {
+                        c.className = 'h-touch-target-min px-4 rounded-full bg-transparent text-on-surface-variant border border-outline-variant font-label-caps text-label-caps flex-shrink-0 transition-colors active:bg-surface-container-high flex items-center justify-center';
+                    });
+                    // Set active chip
+                    chip.className = 'h-touch-target-min px-4 rounded-full bg-primary text-on-primary font-label-caps text-label-caps flex-shrink-0 transition-opacity active:opacity-80 flex items-center justify-center border border-primary';
+                });
+            });
+        });
+    </script>
+</body></html>
