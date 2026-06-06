@@ -32,21 +32,32 @@ const SIDENAV_ITEMS = [
 export default function HomeLanding() {
   return (
     <div className="ip-shell ip-shell-with-sidenav">
+      {/* v9.3.1 移动端顶部 brand bar（仅 <1024px 显示，PC 侧栏已展示 logo） */}
+      <div className="ip-mobile-brand" aria-hidden="true">
+        <img
+          src="/brand/logo-nav.png"
+          alt="行吟山河"
+          className="ip-mobile-brand-logo"
+        />
+        <span className="ip-mobile-brand-en">XINGYIN SHANHE</span>
+      </div>
+
       {/* ============ PC 左侧竖排导航（仅 lg+，移动端走 BottomNav） ============ */}
       <nav className="ip-sidenav" aria-label="主导航">
         <div className="ip-sidenav-header">
           <div className="ip-sidenav-seal" aria-hidden="true">
-            {/* v9.3 真 logo（替换 material icon account_balance） */}
+            {/* v9.3.1 logo 直接展示（去掉圆形容器边框，96×96 紧凑居中） */}
             <img
               src="/brand/logo.png"
               alt=""
-              width={56}
-              height={56}
-              style={{ width: 56, height: 56, objectFit: 'contain', display: 'block' }}
+              width={96}
+              height={96}
+              style={{ width: 96, height: 96, objectFit: 'contain', display: 'block' }}
             />
           </div>
+          {/* v9.3.1 横排小字 + 拼音都在 logo 下方 */}
           <h1 className="ip-sidenav-title">行吟山河</h1>
-          <p className="ip-sidenav-en">Xingyin Shanhe</p>
+          <p className="ip-sidenav-en">XINGYIN SHANHE</p>
         </div>
 
         <ul className="ip-sidenav-list">
