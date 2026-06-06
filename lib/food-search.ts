@@ -1,12 +1,14 @@
 /**
  * 美食搜索模块
- * 封装高德地图 PlaceSearch 接口，实现附近美食推荐功能
- * - 真接入 AMap.PlaceSearch（type=050000 餐饮服务）
- * - 1 分钟同地点缓存避免重复请求
- * - SDK 加载失败 / API 调用失败一律返回 []，不阻塞 UI
+ * v6.5 关键变更：附近美食搜索从 JSAPI `AMap.PlaceSearch` 切到服务端 Web Service
+ *   - 旧链路在浏览器侧因 key 权限/securityJsCode/JSAPI 配额波动经常 status!=='complete' 直接返回空，
+ *     用户只能看到「连高德也沉默了」的空状态，但其实是 API 调用失败而非"附近真没餐厅"
+ *   - 新链路走 /api/nearby-food（AMAP_WEB_SERVICE_KEY 服务端持有），schema 稳定且不暴露 key
+ * - 1 分钟同地点客户端缓存避免重复请求
+ * - 服务端再叠 60s 缓存（见 /api/nearby-food/route.ts）
+ * - 任何异常一律返回 []，不阻塞 UI
  */
 
-import { loadAMap } from './amap-loader';
 import { logger } from './logger';
 
 // 高德地图 POI 搜索结果类型（保持向后兼容，PlaceCard 已依赖此 schema）
@@ -43,12 +45,11 @@ function getCacheKey(lat: number, lng: number, radius: number): string {
   return `${lat.toFixed(4)}_${lng.toFixed(4)}_${radius}`;
 }
 
-// 高德 POI 餐饮服务大类编码
+// 高德 POI 餐饮服务大类编码（保留供未来扩展，当前由服务端写死）
 // 参考：https://lbs.amap.com/api/webservice/download
-const FOOD_POI_TYPE = '050000';
 
 /**
- * 搜索附近美食（真接入高德 PlaceSearch）
+ * 搜索附近美食（v6.5 改走服务端 /api/nearby-food，AMap Web Service v3）
  * @param lat 纬度
  * @param lng 经度
  * @param radius 搜索半径（米），默认 2000
@@ -76,107 +77,32 @@ export async function searchNearbyFood(
   }
 
   try {
-    const AMap = await loadAMap();
-    if (!AMap) {
+    const params = new URLSearchParams({
+      lat: String(lat),
+      lng: String(lng),
+      radius: String(Math.max(1, Math.round(radius))),
+    });
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 6000);
+    const resp = await fetch(`/api/nearby-food?${params.toString()}`, {
+      signal: ctrl.signal,
+      cache: 'no-store',
+    }).finally(() => clearTimeout(timer));
+
+    if (!resp.ok) {
+      logger.warn('[food-search] /api/nearby-food HTTP', resp.status);
+      foodCache.set(cacheKey, { timestamp: Date.now(), data: [] });
       return [];
     }
-
-    // 动态加载 PlaceSearch 插件（与基础 plugins 隔离，按需触发）
-    await new Promise<void>((resolve, reject) => {
-      AMap.plugin(['AMap.PlaceSearch'], () => resolve());
-      // 5 秒超时兜底
-      setTimeout(() => reject(new Error('AMap.PlaceSearch plugin load timeout')), 5000);
-    });
-
-    if (!AMap.PlaceSearch) {
-      logger.warn('[food-search] AMap.PlaceSearch 插件未注入，跳过附近美食搜索');
-      return [];
-    }
-
-    const placeSearch = new AMap.PlaceSearch({
-      type: FOOD_POI_TYPE,
-      pageSize: 20,
-      pageIndex: 1,
-      extensions: 'all',
-    });
-
-    const results = await new Promise<AMapPOIResult[]>((resolve) => {
-      const center: [number, number] = [lng, lat];
-      placeSearch.searchNearBy(
-        '',
-        center,
-        radius,
-        (status: string, result: { poiList?: { pois?: AMapPOIPoi[] } }) => {
-          if (status !== 'complete' || !result?.poiList?.pois) {
-            resolve([]);
-            return;
-          }
-          const pois: AMapPOIPoi[] = result.poiList.pois || [];
-          const mapped: AMapPOIResult[] = pois.map((p) => {
-            const typeStr = String(p.type || '');
-            // v6.2 修复：高德 type 字段格式如 "餐饮服务;粤菜;茶餐厅"，按 ; 拆出可用作菜系匹配的类目
-            // 之前未填 categories → PlaceCard 的 isCuisineMatch 永远返回 0 → 本地菜系维度（20%权重）形同虚设
-            const categories = typeStr
-              .split(/[;；]/)
-              .map((s) => s.trim())
-              .filter(Boolean);
-            // v6.2 修复：高德 PlaceSearch 不直接返回评论数，用 photos 数量作为热度代理
-            // 之前未填 comment_count → PlaceCard 中 parseInt(undefined||'0')=0 → 评论数维度（25%权重）形同虚设
-            // photos 数量虽不等于评论数，但与商家曝光度正相关，可作为 popularity proxy
-            const photosArr =
-              Array.isArray(p.photos) && p.photos.length > 0
-                ? p.photos.map((ph) => String(ph?.url || '')).filter(Boolean)
-                : undefined;
-            const photosCount = photosArr ? photosArr.length : 0;
-            return {
-              id: String(p.id || ''),
-              name: String(p.name || ''),
-              type: typeStr,
-              address: String(p.address || ''),
-              location: {
-                lat: typeof p.location?.lat === 'number' ? p.location.lat : lat,
-                lng: typeof p.location?.lng === 'number' ? p.location.lng : lng,
-              },
-              distance: typeof p.distance === 'number' ? Math.round(p.distance) : undefined,
-              tel: p.tel ? String(p.tel) : undefined,
-              photos: photosArr,
-              // 高德返回的 rating 多数为空字符串，做容错
-              rating: parseRating(p.biz_ext?.rating),
-              categories,
-              comment_count: String(photosCount),
-            };
-          });
-          resolve(mapped);
-        },
-      );
-    });
-
-    foodCache.set(cacheKey, { timestamp: Date.now(), data: results });
-    return results;
+    const data = (await resp.json()) as { pois?: AMapPOIResult[] };
+    const pois: AMapPOIResult[] = Array.isArray(data?.pois) ? data.pois : [];
+    foodCache.set(cacheKey, { timestamp: Date.now(), data: pois });
+    return pois;
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : String(e);
     logger.warn('[food-search] 附近美食搜索失败，返回空数组', msg);
     return [];
   }
-}
-
-// 高德 PlaceSearch POI 内部类型（仅本模块使用）
-interface AMapPOIPoi {
-  id?: string;
-  name?: string;
-  type?: string;
-  address?: string;
-  tel?: string;
-  distance?: number;
-  location?: { lat?: number; lng?: number };
-  photos?: { url?: string }[];
-  biz_ext?: { rating?: string | number };
-}
-
-function parseRating(raw: unknown): number | undefined {
-  if (raw === undefined || raw === null || raw === '') return undefined;
-  const n = typeof raw === 'number' ? raw : parseFloat(String(raw));
-  return Number.isFinite(n) && n > 0 ? n : undefined;
 }
 
 /**

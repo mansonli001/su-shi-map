@@ -4,6 +4,36 @@
 
 ---
 
+### 41. 「食在附近」从 JSAPI 切到服务端 Web Service（修复"连高德也沉默了"）
+
+**问题现象**：点开任意苏轼足迹点，「食在附近 · 古今同乐」一栏长期显示「连高德也沉默了」空状态。实际附近不缺餐厅（成都锦江点位 37m 内就有库迪咖啡），是接口拉不出来。
+
+**根因**：旧链路用浏览器侧 `AMap.PlaceSearch`（JSAPI 2.0 插件）。在 Vercel 海外线路 + `securityJsCode` 校验场景下，回调经常 `status !== 'complete'`，被 `lib/food-search.ts` 当作"真没数据"返回 `[]`，前端落到空状态。
+
+**改造**：前端调用从 JSAPI 插件迁到自建服务端代理。
+
+| 文件 | 变更 |
+|------|------|
+| `app/api/nearby-food/route.ts` | 🆕 新增。Next.js Route Handler，服务端 fetch 高德 Web Service v3 `/v3/place/around`，60s `Cache-Control: s-maxage`。持有 `AMAP_WEB_SERVICE_KEY`，不暴露给浏览器 |
+| `lib/food-search.ts` | 重写。删除 `loadAMap` + `AMap.PlaceSearch` 链路，改 `fetch('/api/nearby-food?lat=&lng=&radius=')`，保留 1 分钟客户端缓存与 `[]` 兜底 |
+
+**验证**：
+```bash
+curl "http://localhost:3000/api/nearby-food?lat=30.65&lng=104.07&radius=2000"
+# HTTP 200 → pois[0]=库迪咖啡(37m,4.3★) pois[1]=鱼游万家(40m) pois[2]=麦当劳…
+```
+
+**安全清单（按用户 V5 安全规则）**：
+- ✅ Key 只走服务端 `process.env`，不进 JS bundle
+- ✅ 入参 `lat/lng/radius` 全部 `Number.isFinite` + 范围校验（lat ∈ [-90,90]、lng ∈ [-180,180]、radius ∈ (0, 50000]），防 SSRF / 参数注入
+- ✅ URL 用 `URLSearchParams` 拼接，无字符串拼接
+- ✅ 上游域名固定 `restapi.amap.com`，不接受用户传入 URL
+- ✅ 异常路径统一 `{pois: []}`，不向前端泄漏内部错误细节
+
+**部署提醒**：Vercel 环境变量需新增 `AMAP_WEB_SERVICE_KEY`（与 JSAPI key 不是同一个，需在高德控制台「Web 服务」类型下单独申请）。
+
+---
+
 ### 40. 数据双源漂移全量根治（CHANGELOG 一致性核验）
 
 **触发动机**：用户要求「读 CHANGELOG 验证修正方案能否顺利实现 且无 bug」。逐项核验 #33-#39 改动落地情况时，扫到 4 处违反 v6.1 工程化加固铁律的数据漂移，其中 2 处是 P0 级线上事故。
