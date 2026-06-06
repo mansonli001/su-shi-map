@@ -87,43 +87,18 @@ export default function LeftSidebar() {
   // 边栏内容（米白宣纸版） - 桌面用
   const sidebarContent = (
     <>
-      {/* 标题区 */}
+      {/* 标题区 v9.3.3：仅横版 logo（不再重复「行吟山河」h2 + ROUTES 拼音） */}
       <div
         className="px-4 py-3"
         style={{ borderBottom: `1px solid ${INK.hairlineSoft}` }}
       >
-        {/* v9.3 横版 logo（800x160 → 渲染 130x26，5:1） */}
         <img
           src="/brand/logo-nav.png"
           alt="行吟山河"
-          width={130}
-          height={26}
-          style={{ width: 130, height: 26, objectFit: 'contain', display: 'block', marginBottom: 6 }}
+          width={160}
+          height={32}
+          style={{ width: 160, height: 32, objectFit: 'contain', display: 'block' }}
         />
-        <h2
-          className="font-wenkai"
-          style={{
-            fontSize: '18px',
-            fontWeight: 600,
-            color: INK.ink,
-            letterSpacing: '0.04em',
-            margin: 0,
-          }}
-        >
-          行吟山河
-        </h2>
-        <p
-          style={{
-            fontFamily: '"Source Sans 3", sans-serif',
-            fontSize: '10px',
-            color: INK.inkLite,
-            marginTop: '4px',
-            letterSpacing: '0.16em',
-            textTransform: 'uppercase',
-          }}
-        >
-          ROUTES · 苏轼一生
-        </p>
       </div>
 
       {/* 一生总览按钮 */}
@@ -309,36 +284,14 @@ export default function LeftSidebar() {
         <div className="w-10 h-1 rounded-full mb-3" style={{ background: INK.hairline }} />
         <div className="w-full flex items-center justify-between">
           <div>
-            {/* v9.3 横版 logo（移动版略大 150x30） */}
+            {/* v9.3.3 移动端：仅放大横版 logo，去掉重复的「行吟山河」h2 + 拼音 */}
             <img
               src="/brand/logo-nav.png"
               alt="行吟山河"
-              width={150}
-              height={30}
-              style={{ width: 150, height: 30, objectFit: 'contain', display: 'block', marginBottom: 4 }}
+              width={220}
+              height={44}
+              style={{ width: 220, height: 44, objectFit: 'contain', display: 'block' }}
             />
-            <h2
-              className="font-wenkai"
-              style={{
-                fontSize: '18px',
-                fontWeight: 600,
-                color: INK.ink,
-                margin: 0,
-                letterSpacing: '0.04em',
-              }}
-            >
-              行吟山河
-            </h2>
-            <p
-              style={{
-                fontSize: '10px',
-                color: INK.inkLite,
-                marginTop: '2px',
-                letterSpacing: '0.16em',
-              }}
-            >
-              ROUTES · 苏轼一生
-            </p>
           </div>
           <button
             onClick={() => setMobileOpen(false)}
