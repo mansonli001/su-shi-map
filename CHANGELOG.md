@@ -4,6 +4,48 @@
 
 ---
 
+### 44. v9.3.2 品牌位三处统一：仅大 logo，去文字、去描边、去圆形
+
+**触发**：用户反馈"导航/移动端 brand bar 文字喧宾夺主，profile 头像还在用「行」字"。继续 v9.3.1 的精简方向，把所有还残留品牌文字/占位符的位置全部替成纯 logo。
+
+**三处改动**：
+
+| 位置 | 之前 | 现在 |
+|------|------|------|
+| `components/Home/HomeLanding.tsx` PC 左侧竖排导航 header | 圆形 `ip-sidenav-seal`（96×96 logo）+ 横排「行吟山河」h1 + 「XINGYIN SHANHE」拼音 | **仅 128×128 logo 左上对齐**，删除 h1 和拼音 |
+| `components/Home/HomeLanding.tsx` 移动端顶部 brand bar | 横版 logo 36px + 「XINGYIN SHANHE」拼音两行居中 | **仅横版 logo 56px 左对齐**，删除拼音 |
+| `app/profile/page.tsx` 个人中心头像 | 72×72 墨黑实底圆 + 朱砂红描边 + 「行」字 | **96×96 主 logo `/brand/logo.png` 居中**，无底/无边 |
+
+**`app/ink-path.css` 同步清理**（共 -49 行 / +18 行）：
+- 删除：`.ip-sidenav-seal`（圆形容器规则）、`.ip-sidenav-title`（h1 横排样式）、`.ip-sidenav-en`（PC 拼音样式）、`.ip-mobile-brand-en`（移动端拼音样式）
+- 新增：`.ip-sidenav-logo`（128×128 直出）
+- 修改：`.ip-sidenav-header` 改为 flex-start 左对齐、padding 收紧 `8px 20px 28px`
+- 修改：`.ip-mobile-brand` 改为 flex-start 左对齐、单行高度，logo 从 36px → 56px
+
+**为什么这么改**：
+- v9.3.1 已把 logo 和文字放一起，但 PC 96px logo + 17px 标题 + 10px 拼音三层视觉重复，反而显得拥挤
+- "行吟山河"四个字本身就在 logo 图里画着，再用 CSS 重复一次属于冗余
+- profile 头像继续用「行」字 placeholder 与全站 logo 化方向冲突
+- 统一后视觉更干净，logo 单点突出更有冲击力
+
+**验证**：
+- `curl /profile` HTTP 200，logo 正常加载（同首页同款 `/brand/logo.png`）
+- PC 侧栏只剩大 logo，无文字
+- 移动端顶部 brand bar 只剩横版 logo，单行高度 56px
+
+**安全清单**：
+- ✅ 仅 frontend 静态资源/样式调整，无后端逻辑/API/secrets
+- ✅ logo 路径仍为本地 `public/brand/logo.png` 和 `/brand/logo-nav.png`，不引外链
+- ✅ `<img alt>` 保留语义（PC 侧栏 alt="行吟山河"，移动端同），无障碍不退步
+- ✅ React 自动转义，无 XSS
+
+**改动文件**（3 个）：
+- `app/ink-path.css`（-49 / +18）
+- `app/profile/page.tsx`（-22 / +14）
+- `components/Home/HomeLanding.tsx`（-14 / +6）
+
+---
+
 ### 43. 全站 logo 替换 v9.3「行吟山河」品牌可视化（Layer B 中庸版）
 
 **问题现状**：项目此前**没有任何 logo 图片**——所有"行吟山河"品牌位都是 CSS 渐变文字，浏览器 tab/PWA 应用图标用的是 v1 自制"山"字小图（`favicon.svg` 516B + `pwa-*.png` 同款位图）。

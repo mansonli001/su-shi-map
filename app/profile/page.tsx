@@ -84,26 +84,20 @@ export default function ProfilePage() {
           borderBottom: `1px solid ${INK.hairlineSoft}`,
         }}
       >
-        {/* 头像（墨黑实底 + 米白字） */}
-        <div
+        {/* v9.3.2 头像替换为品牌 logo（与首页一致），居中展示 */}
+        <img
+          src="/brand/logo.png"
+          alt="行吟山河"
+          width={96}
+          height={96}
           style={{
-            width: '72px',
-            height: '72px',
-            borderRadius: '50%',
-            background: INK.ink,
+            width: '96px',
+            height: '96px',
+            objectFit: 'contain',
+            display: 'block',
             margin: '0 auto 16px',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            fontSize: '28px',
-            color: INK.parchment,
-            fontWeight: 600,
-            border: `2px solid ${INK.cinnabar}`,
-            boxShadow: '0 2px 8px rgba(186, 26, 26, 0.18)',
           }}
-        >
-          行
-        </div>
+        />
         <h1
           style={{
             fontSize: '20px',
