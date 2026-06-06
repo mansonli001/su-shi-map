@@ -77,12 +77,15 @@ export default function StageTimelineBar() {
 
   return (
     <div
-      className="fixed bottom-0 left-0 md:left-[200px] right-0 z-30 select-none safe-bottom"
+      className="fixed left-0 md:left-[200px] right-0 z-[1010] select-none"
       style={{
+        // 关键：上抬到 BottomNav 之上（BottomNav z-1000 / 高 56px + safe-area）
+        bottom: 'calc(var(--bottom-nav-height, 56px) + env(safe-area-inset-bottom, 0px))',
         background: COLOR.surface,
         backdropFilter: 'blur(14px) saturate(140%)',
         WebkitBackdropFilter: 'blur(14px) saturate(140%)',
         borderTop: `1px solid ${COLOR.hairline}`,
+        boxShadow: '0 -1px 2px rgba(0,0,0,0.03)',
       }}
     >
       <div className="px-0 md:px-5 py-2 md:py-3">
