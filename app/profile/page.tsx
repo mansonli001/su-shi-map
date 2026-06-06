@@ -75,16 +75,19 @@ export default function ProfilePage() {
       {/* 成就解锁Toast */}
       <AchievementToast />
 
-      {/* ===== 顶部：身份区（米白 hairline 卡） ===== */}
+      {/* ===== 顶部：身份区（米白 hairline 卡）v9.3.5 改为横排：左 logo + 右文字 ===== */}
       <div
         style={{
           padding: '40px 16px 28px',
-          textAlign: 'center',
           background: INK.parchment,
           borderBottom: `1px solid ${INK.hairlineSoft}`,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          gap: '16px',
         }}
       >
-        {/* v9.3.2 头像替换为品牌 logo（与首页一致），居中展示 */}
+        {/* v9.3.2 头像替换为品牌 logo（与首页一致） */}
         <img
           src="/brand/logo.png"
           alt="行吟山河"
@@ -95,29 +98,31 @@ export default function ProfilePage() {
             height: '96px',
             objectFit: 'contain',
             display: 'block',
-            margin: '0 auto 16px',
+            flexShrink: 0,
           }}
         />
-        <h1
-          style={{
-            fontSize: '20px',
-            fontWeight: 600,
-            color: INK.ink,
-            marginBottom: '6px',
-            letterSpacing: '0.06em',
-          }}
-        >
-          行吟山河
-        </h1>
-        <p
-          style={{
-            fontSize: '12px',
-            color: INK.inkLite,
-            letterSpacing: '0.1em',
-          }}
-        >
-          追随苏轼足迹，品读千古诗词
-        </p>
+        <div style={{ textAlign: 'left' }}>
+          <h1
+            style={{
+              fontSize: '20px',
+              fontWeight: 600,
+              color: INK.ink,
+              marginBottom: '6px',
+              letterSpacing: '0.06em',
+            }}
+          >
+            行吟山河
+          </h1>
+          <p
+            style={{
+              fontSize: '12px',
+              color: INK.inkLite,
+              letterSpacing: '0.1em',
+            }}
+          >
+            追随苏轼足迹，品读千古诗词
+          </p>
+        </div>
       </div>
 
       {/* ===== 苏轼全局数据 4 卡（引导探索） ===== */}

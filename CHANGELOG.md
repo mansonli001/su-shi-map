@@ -4,6 +4,25 @@
 
 ---
 
+### 47. v9.3.5 /profile 顶部身份区改横排（左 logo + 右文字）
+
+**触发**：用户截图反馈 `/profile` 页顶部 logo 居中、「行吟山河」+「追随苏轼足迹，品读千古诗词」堆在 logo 下方，「文字应该在右侧」。
+
+**改动**：`app/profile/page.tsx` 顶部身份区容器从「`textAlign: center` + logo `margin: 0 auto`」垂直堆叠，改为 `display: flex / alignItems: center / justifyContent: center / gap: 16px` 横排，左 96×96 logo（`flexShrink: 0`）+ 右标题区（`textAlign: left`）。
+
+**为什么这样改**：
+- 横排后视觉密度更高，logo 与文字形成「图 + 名」的品牌头格式（类似 App 启动页 brand mark），不再是空旷的居中堆栈
+- 整体仍居中（`justifyContent: center`），保持 profile 页的对称感
+- 文字块 `textAlign: left`，标题与副标题左边自然对齐，比居中两行短文更有层次
+
+**验证**：lint 0 error，HMR 自动刷新
+
+**安全清单**：✅ 仅静态样式，无 API/secrets/依赖变化
+
+**改动文件**：`app/profile/page.tsx`（1 个）
+
+---
+
 ### 46. v9.3.4 logo 位置对齐微调（explore 左对齐 / 首页 sidenav 居中）
 
 **触发**：用户截图反馈 v9.3.3 改完后位置仍不对——
