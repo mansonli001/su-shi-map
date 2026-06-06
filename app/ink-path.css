@@ -341,12 +341,12 @@
 @media (min-width: 1024px) {
   .ip-sidenav { display: flex; }
 }
-/* v9.3.2：PC 侧栏 header — 仅大 logo 左上对齐，无文字 */
+/* v9.3.4：PC 侧栏 header — logo 居中（原 flex-start，与下方菜单视觉断裂） */
 .ip-sidenav-header {
   padding: 8px 20px 28px;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .ip-sidenav-logo {
   width: 128px;

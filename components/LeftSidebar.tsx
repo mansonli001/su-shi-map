@@ -87,9 +87,9 @@ export default function LeftSidebar() {
   // 边栏内容（米白宣纸版） - 桌面用
   const sidebarContent = (
     <>
-      {/* 标题区 v9.3.3：仅横版 logo（不再重复「行吟山河」h2 + ROUTES 拼音） */}
+      {/* 标题区 v9.3.4：logo 左 padding 改为 px-2，和下方「一生总览」按钮的黑色边框左侧对齐 */}
       <div
-        className="px-4 py-3"
+        className="px-2 py-3"
         style={{ borderBottom: `1px solid ${INK.hairlineSoft}` }}
       >
         <img

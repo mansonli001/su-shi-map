@@ -4,6 +4,40 @@
 
 ---
 
+### 46. v9.3.4 logo 位置对齐微调（explore 左对齐 / 首页 sidenav 居中）
+
+**触发**：用户截图反馈 v9.3.3 改完后位置仍不对——
+- 第一张图（`/explore` PC LeftSidebar）：logo 左缩进比下方「一生总览」按钮的黑色描边边框还要多 8px，"应该和左边一致行"
+- 第二张图（PC 首页 sidenav）：logo（山形 + 一蓑烟雨人物）整体偏左，"应该一致 居中"
+
+**改动对照**：
+
+| 位置 | 之前 | 现在 | 原因 |
+|------|------|------|------|
+| `LeftSidebar.tsx` 标题区 | `px-4 py-3`（左 16px） | `px-2 py-3`（左 8px） | 与下方「一生总览」按钮容器 `px-2` 一致，logo 左边对齐黑色描边 |
+| `app/ink-path.css` `.ip-sidenav-header` | `justify-content: flex-start` | `justify-content: center` | logo 在 sidenav 列表上方居中，与下方居中的菜单图标视觉重心一致 |
+
+**为什么这么改**：
+- `/explore` 页：sidebar 是窄列布局，logo 和按钮的左边缘必须对齐，否则会有「logo 缩在里面」的错位感
+- 首页 sidenav：logo 是大块视觉锚点（128×128），下方菜单本身是图标 + 文字组合，居中比左对齐更稳
+- 两处的判断标准是「视觉对齐目标不同」：explore 对齐按钮边框，首页对齐列表整体重心
+
+**验证**：
+- dev server 已在 :3000 运行，HMR 自动刷新
+- LeftSidebar lint 0 error
+- 不影响业务逻辑、点击行为、移动端抽屉
+
+**安全清单**：
+- ✅ 仅 frontend 静态样式调整，无后端 / API / secrets 变化
+- ✅ 无新依赖、无 npm install
+- ✅ 无 XSS 面（React 自动转义，无 dangerouslySetInnerHTML）
+
+**改动文件**（2 个）：
+- `components/LeftSidebar.tsx`（px-4 → px-2 + 注释）
+- `app/ink-path.css`（flex-start → center + 注释）
+
+---
+
 ### 45. v9.3.3 explore 页 LeftSidebar 去重「行吟山河」文字 + 移动端 logo 放大
 
 **触发**：用户截图反馈 `/explore` 页两处问题——
