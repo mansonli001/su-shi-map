@@ -69,8 +69,8 @@ export default function ProfilePage() {
         minHeight: '100vh',
         background: INK.parchment,
         paddingBottom: 'calc(80px + env(safe-area-inset-bottom))',
-        fontFamily: '"Noto Serif SC", serif',
       }}
+      className="font-wenkai"
     >
       {/* 成就解锁Toast */}
       <AchievementToast />
@@ -177,12 +177,12 @@ export default function ProfilePage() {
               }}
             >
               <div
+                className="font-wenkai"
                 style={{
                   fontSize: '24px',
                   fontWeight: 700,
                   color: INK.ink,
                   lineHeight: 1,
-                  fontFamily: '"Noto Serif SC", serif',
                 }}
               >
                 {c.value}
@@ -237,12 +237,12 @@ export default function ProfilePage() {
           ].map((c) => (
             <div key={c.label} style={{ textAlign: 'center' }}>
               <div
+                className="font-wenkai"
                 style={{
                   fontSize: '22px',
                   fontWeight: 600,
                   color: c.color,
                   lineHeight: 1,
-                  fontFamily: '"Noto Serif SC", serif',
                 }}
               >
                 {c.value}
@@ -347,9 +347,9 @@ export default function ProfilePage() {
                 letterSpacing: '0.08em',
                 cursor: 'pointer',
                 marginBottom: '-1px',
-                fontFamily: '"Noto Serif SC", serif',
                 transition: 'color 0.2s',
               }}
+              className="font-wenkai"
             >
               {t.label}
             </button>
@@ -532,8 +532,8 @@ function EmptyHint(props: {
             letterSpacing: '0.12em',
             fontWeight: 600,
             transition: 'background 0.2s',
-            fontFamily: '"Noto Serif SC", serif',
           }}
+          className="font-wenkai"
           onMouseEnter={(e) => (e.currentTarget.style.background = INK.cinnabar)}
           onMouseLeave={(e) => (e.currentTarget.style.background = INK.ink)}
         >

@@ -86,7 +86,7 @@ export default function HomeLanding() {
             一千年前，苏轼从眉山出发，走过了这片土地上的两百三十四个地方。他栖身的黄州，风骨依旧；他疏浚的西湖，清丽如初；他挥毫作赋的赤壁石，风华未改。
           </p>
 
-          <p className="ip-hero-em">在地图上，跟他走一遍。</p>
+          <p className="ip-hero-em">跟着苏轼，走遍神州</p>
 
           <div className="ip-hero-actions">
             <Link href="/explore" className="ip-btn-primary">
@@ -107,7 +107,7 @@ export default function HomeLanding() {
         <div className="ip-bento-grid">
           {[
             { n: '234', l: '个足迹点' },
-            { n: '64', l: '年人生' },
+            { n: '20', l: '条主题路线' },
             { n: '3000+', l: '首诗词' },
             { n: '14', l: '个省份' },
           ].map((s) => (
@@ -185,8 +185,8 @@ export default function HomeLanding() {
               VIEW ALL ROUTES
             </p>
             <p
+              className="font-wenkai"
               style={{
-                fontFamily: 'Noto Serif SC, serif',
                 fontSize: 18,
                 fontWeight: 700,
                 color: 'var(--ip-on-surface)',
@@ -305,7 +305,7 @@ export default function HomeLanding() {
       <section className="ip-quote">
         <div className="ip-quote-bar" />
         <p className="ip-quote-main">此心安处是吾乡</p>
-        <p className="ip-quote-src">苏轼《定风波·南海归赠王定国侍人寓娘》</p>
+        <p className="ip-quote-src">苏轼《定风波》</p>
         <p className="ip-quote-note">
           每一个他停留过的地方，都是他的家乡。
           <br />
@@ -326,8 +326,8 @@ export default function HomeLanding() {
         <div className="ip-grid-4">
           <div className="ip-card" style={{ textAlign: 'center' }}>
             <h3
+              className="font-wenkai"
               style={{
-                fontFamily: 'Noto Serif SC, serif',
                 fontSize: 22,
                 fontWeight: 700,
                 color: 'var(--ip-on-surface)',
@@ -339,6 +339,9 @@ export default function HomeLanding() {
             </h3>
             <p className="ip-label-caps" style={{ fontSize: 10, marginBottom: 12 }}>
               1037 — 1101
+            </p>
+            <p className="ip-label-caps" style={{ fontSize: 10, opacity: 0.7 }}>
+              64 年人生
             </p>
             <span className="ip-chip ip-chip-bronze">已上线 · 234 地</span>
           </div>
@@ -397,9 +400,8 @@ export default function HomeLanding() {
           ].map((a) => (
             <div key={a.poet} className="ip-card">
               <p
-                className="ip-vertical-header"
+                className="font-wenkai ip-vertical-header"
                 style={{
-                  fontFamily: 'Noto Serif SC, serif',
                   fontSize: 14,
                   fontWeight: 600,
                   letterSpacing: '0.18em',
@@ -411,8 +413,8 @@ export default function HomeLanding() {
                 {a.poet}
               </p>
               <h3
+                className="font-wenkai"
                 style={{
-                  fontFamily: 'Noto Serif SC, serif',
                   fontSize: 17,
                   lineHeight: '26px',
                   fontWeight: 600,
@@ -433,7 +435,7 @@ export default function HomeLanding() {
       {/* ============ Final CTA ============ */}
       <section className="ip-cta">
         <h2 className="ip-cta-title">在地图上，跟他走一遍</h2>
-        <p className="ip-cta-sub">234 足迹 · 20 路线 · 68 代表作 · 14 省山河</p>
+        <p className="ip-cta-sub">234 处足迹 · 20 条路线 · 328 篇诗词 · 14 省山河</p>
         <div className="ip-cta-btns">
           <Link href="/explore" className="ip-btn-primary">
             进入地图
@@ -456,7 +458,7 @@ export default function HomeLanding() {
         <div className="ip-footer-en">XINGYIN SHANHE</div>
         <p className="ip-footer-note">追随千古诗人步履　行走华夏山河之间</p>
         <p className="ip-footer-copy">
-          © 2026 · 一个慢慢做下去的项目 · 数据 v4 · 234 地点 · 68 篇代表作
+          © 2026 · 一个慢慢做下去的项目 · 数据 v4 · 234 地点 · 328 篇诗词
         </p>
       </footer>
     </div>

@@ -112,25 +112,29 @@
         "title": "题西林壁",
         "category": "哲理山水诗",
         "note": "庐山漫游巅峰名作，以山景悟道，成为千古观物处世格言",
-        "year_estimate": 1084
+        "year_estimate": 1084,
+        "poem_id": "S102"
       },
       {
         "title": "石钟山记",
         "category": "考据纪行散文",
         "note": "中国古代实地探险、实证求真游记的开山之作",
-        "year_estimate": 1084
+        "year_estimate": 1084,
+        "poem_id": "W010"
       },
       {
         "title": "庐山诸寺题咏诗",
         "category": "山水纪行诗",
         "note": "遍历庐山全域峰谷古刹，系列写景咏怀名篇",
-        "year_estimate": 1084
+        "year_estimate": 1084,
+        "poem_id": "S099"
       },
       {
         "title": "金陵怀古杂咏",
         "category": "怀古诗",
         "note": "凭吊秦淮六朝遗迹，格调清淡悠远、不刻意悲叹兴亡",
-        "year_estimate": 1084
+        "year_estimate": 1084,
+        "poem_id": "S100"
       }
     ],
     "style_features": "清逸疏朗、景理相融、实证求实、怀古冲淡、田园闲适；写景灵动不雕琢，说理通透不生硬，考据严谨不枯燥，怀古沉静不哀怨，自成区别于黄州文风的全新放逸格调。"

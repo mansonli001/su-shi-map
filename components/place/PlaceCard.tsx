@@ -16,8 +16,11 @@ import { motion, AnimatePresence, PanInfo } from 'framer-motion';
 import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
 import Link from 'next/link';
-import { searchNearbyFood, getSushiSpecialFoods, type AMapPOIResult, type FoodItem } from '@/lib/food-search';
+import { searchNearbyFood, getSushiFoodsByPlace, type AMapPOIResult, type FoodItem, type LocalFoodItem } from '@/lib/food-search';
 import SharePoster from '@/components/SharePoster';
+import FoodEmptyState from './FoodEmptyState';
+import EmptyState from './EmptyState';
+import { STORY_EMPTY, WORKS_EMPTY, TRAVEL_EMPTY } from '@/lib/empty-state-config';
 
 interface FamousLine {
   quote: string;
@@ -216,7 +219,6 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                   detail={detail}
                   works={works}
                   memorialSites={memorialSites}
-                  foods={foods}
                   initialTab={showDetail as 'story' | 'works' | 'travel'}
                   onBack={() => setShowDetail(false)}
                   place={place}
@@ -533,17 +535,16 @@ export default function PlaceCard({ place }: PlaceCardProps) {
 }
 
 // ═════ 详情视图（事迹 / 美食 / 作品 / 文旅 四 Tab） ═════
-// 调整顺序：美食前置到第二位（苏轼 = 吃货人设，美食是最有传播力的钩子）
+// v6.4 调整：美食Tab改为独立组件，附近推荐始终加载，东坡特供排在前面
 function DetailView(props: {
   detail: V4PlaceFull | null;
   works: any[];
   memorialSites: any[];
-  foods: any[];
   initialTab: 'story' | 'food' | 'works' | 'travel';
   onBack: () => void;
   place: PlaceCore;
 }) {
-  const { detail, works, memorialSites, foods, initialTab, onBack, place } = props;
+  const { detail, works, memorialSites, initialTab, onBack, place } = props;
   const [tab, setTab] = useState<'story' | 'food' | 'works' | 'travel'>(initialTab);
 
   const events = detail?.global_events || [];
@@ -588,15 +589,47 @@ function DetailView(props: {
   }
   const allEventsWithDedup = Array.from(_seen.values());
   
-  // 按年份排序
+  // 按完整时间排序（支持年份+月份+日期）
+  const getTimeValue = (item: any): number => {
+    const dateStr = String(item.date || item.year || item.year_estimate || '');
+    
+    // 提取年份
+    const yearMatch = dateStr.match(/(\d{4})/);
+    const year = yearMatch ? parseInt(yearMatch[1], 10) : 0;
+    
+    // 提取月份
+    let month = 0;
+    const monthMatch = dateStr.match(/(\d{1,2})月/);
+    if (monthMatch) {
+      month = parseInt(monthMatch[1], 10);
+    } else {
+      // 中文月份
+      const cnMonths: Record<string, number> = {
+        '正月': 1, '一月': 1, '二月': 2, '三月': 3, '四月': 4,
+        '五月': 5, '六月': 6, '七月': 7, '八月': 8, '九月': 9,
+        '十月': 10, '十一月': 11, '腊月': 12, '十二月': 12
+      };
+      for (const [cn, num] of Object.entries(cnMonths)) {
+        if (dateStr.includes(cn)) {
+          month = num;
+          break;
+        }
+      }
+    }
+    
+    // 提取日期
+    let day = 0;
+    const dayMatch = dateStr.match(/(\d{1,2})日/);
+    if (dayMatch) {
+      day = parseInt(dayMatch[1], 10);
+    }
+    
+    // 返回排序用的数值：年份 * 10000 + 月份 * 100 + 日期
+    return year * 10000 + month * 100 + day;
+  };
+
   const allEvents = allEventsWithDedup.sort((a, b) => {
-    const getYear = (item: any) => {
-      if (typeof item.year === 'number') return item.year;
-      const yearStr = String(item.year || item.year_estimate || item.date || '0');
-      const match = yearStr.match(/\d{4}/);
-      return match ? parseInt(match[0], 10) : 0;
-    };
-    return getYear(a) - getYear(b);
+    return getTimeValue(a) - getTimeValue(b);
   });
 
   return (
@@ -619,7 +652,7 @@ function DetailView(props: {
 
       {/* Tab 栏 */}
       <div className="flex border-b mb-4" style={{ borderColor: 'rgba(186,117,23,0.2)' }}>
-        {(['story', 'food', 'works', 'travel'] as const).map((t) => (
+        {(['story', 'works', 'travel', 'food'] as const).map((t) => (
             <button
               key={t}
               onClick={() => setTab(t)}
@@ -631,7 +664,7 @@ function DetailView(props: {
                 marginBottom: tab === t ? '-1px' : 0,
               }}
             >
-              {t === 'story' ? '事迹' : t === 'food' ? '美食' : t === 'works' ? '作品' : '文旅'}
+              {t === 'story' ? '事迹' : t === 'works' ? '作品' : t === 'travel' ? '文旅' : '美食'}
             </button>
           ))}
       </div>
@@ -670,15 +703,7 @@ function DetailView(props: {
               ))}
             </div>
           ) : !detail?.background ? (
-            <div className="text-center py-8">
-              <p className="text-[12px] text-ink-lt/60 italic mb-2">
-                此地暂无事迹细节记录
-              </p>
-              <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-                苏轼一生踪迹 234 地，史料完整度因人地而异<br />
-                此地或为路过留宿，未留下详细记述
-              </p>
-            </div>
+            <EmptyState config={STORY_EMPTY} icon="brush" />
           ) : null}
         </div>
       )}
@@ -695,15 +720,7 @@ function DetailView(props: {
               ))}
             </div>
           ) : (
-            <div className="text-center py-8">
-              <p className="text-[12px] text-ink-lt/60 italic mb-2">
-                此地暂未收录代表作
-              </p>
-              <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-                苏轼一生作品逾 3000 首，本系统收录 326 首代表作（全部含全文与赏析）<br />
-                此地或为途经停留，未留下传世名篇
-              </p>
-            </div>
+            <EmptyState config={WORKS_EMPTY} icon="book" />
           )}
         </div>
       )}
@@ -718,8 +735,7 @@ function DetailView(props: {
       {/* 美食 Tab（独立） */}
       {tab === 'food' && (
         <FoodTab 
-          localFoods={foods}
-          routeId={detail?.routeId || ''}
+          placeId={place.id}
           placeLat={detail?.lat || place.lat}
           placeLng={detail?.lng || place.lng}
           modernName={detail?.modern_name || (place as any).modernName || ''}
@@ -767,38 +783,27 @@ function TravelTab({
 
       {/* 空状态（无景点） */}
       {memorialSites.length === 0 && (
-        <div className="text-center py-8">
-          <p className="text-[12px] text-ink-lt/60 italic mb-2">
-            此地暂无景点记录
-          </p>
-          <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-            推荐景点 / 交通信息<br />
-            正在分批整理中
-          </p>
-        </div>
+        <EmptyState config={TRAVEL_EMPTY} icon="map" />
       )}
     </div>
   );
 }
 
-// ═════ Food Tab 组件（美食：全部/苏轼特供/附近推荐） ═════
-// 优化：美食前置为独立Tab，添加综合评分排序，优化空状态文案
-// v6.2 修复：从 modernName 推断 province → 让本地菜系匹配维度（20%权重）真正生效
+// ═════ Food Tab 组件（美食：总览/苏轼特供/附近推荐） ═════
+// v6.4 修复：恢复总览tab，附近推荐始终加载，东坡特供排在前面
 function FoodTab({ 
-  localFoods, 
-  routeId,
+  placeId,
   placeLat,
   placeLng,
   modernName,
 }: { 
-  localFoods: any[];
-  routeId: string;
+  placeId: string;
   placeLat: number | undefined;
   placeLng: number | undefined;
   modernName: string;
 }) {
   const [foodTab, setFoodTab] = useState<'all' | 'sushi' | 'nearby'>('all');
-  const [sushiFoods, setSushiFoods] = useState<FoodItem[]>([]);
+  const [sushiFoods, setSushiFoods] = useState<(LocalFoodItem | FoodItem)[]>([]);
   const [nearbyFoods, setNearbyFoods] = useState<AMapPOIResult[]>([]);
   const [nearbyLoading, setNearbyLoading] = useState(false);
 
@@ -919,17 +924,19 @@ function FoodTab({
     return score;
   };
 
-  // 加载苏轼特供美食
+  // 加载苏轼特供美食（按地点ID获取，无数据则显示空状态）
   useEffect(() => {
-    getSushiSpecialFoods(routeId).then(setSushiFoods);
-  }, [routeId]);
+    getSushiFoodsByPlace(placeId).then((foods) => {
+      setSushiFoods(foods);
+    });
+  }, [placeId]);
 
-  // 加载附近美食
+  // 加载附近美食（始终加载，不管在哪个tab）
   // v6.3 修复：高德 PlaceSearch 在中国大陆 90% 的 POI 不返回评分（biz_ext.rating 为空）
   // 旧逻辑 `rating >= 3.8` 把所有 rating===undefined 的 POI 都丢掉 → 列表永远空
   // 新逻辑：rating 缺失保留（按距离/菜系排），仅当 rating 存在且 <3.5 才剔除
   useEffect(() => {
-    if (foodTab === 'nearby' && placeLat && placeLng) {
+    if (placeLat && placeLng) {
       setNearbyLoading(true);
       searchNearbyFood(placeLat, placeLng, 2000)
         .then((foods) => {
@@ -947,20 +954,20 @@ function FoodTab({
         .finally(() => setNearbyLoading(false));
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [foodTab, placeLat, placeLng, province]);
+  }, [placeLat, placeLng, province]);
 
   // 获取当前显示的美食列表
   const getDisplayFoods = () => {
     if (foodTab === 'sushi') {
-      return sushiFoods;
+      return sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${(f as any).id}` }));
     }
     if (foodTab === 'nearby') {
       return nearbyFoods;
     }
-    // all: 合并本地美食和苏轼特供
-    const localItems = localFoods.map((f, i) => ({ ...f, source: 'local', uniqueId: `local-${i}` }));
-    const sushiItems = sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${f.id}` }));
-    return [...localItems, ...sushiItems];
+    // all: 苏轼特供（如果有）排在前面，后面是附近推荐
+    const sushiItems = sushiFoods.map((f) => ({ ...f, source: 'sushi', uniqueId: `sushi-${(f as any).id}` }));
+    const nearbyItems = nearbyFoods.map((f, i) => ({ ...f, source: 'nearby', uniqueId: `nearby-${i}` }));
+    return [...sushiItems, ...nearbyItems];
   };
 
   const displayFoods = getDisplayFoods();
@@ -980,7 +987,7 @@ function FoodTab({
             }`}
             style={{ letterSpacing: '0.02em', padding: '4px 6px' }}
           >
-            {t === 'all' ? '全部' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
+            {t === 'all' ? '总览' : t === 'sushi' ? '苏轼特供' : '附近推荐'}
           </button>
         ))}
       </div>
@@ -997,17 +1004,23 @@ function FoodTab({
         <div className="space-y-2">
           {displayFoods.map((f, index) => {
             const isTop3 = foodTab === 'nearby' && index < 3;
+            const isSushiItem = (f as any).source === 'sushi' || foodTab === 'sushi';
+            const item = f as any;
+            const localItem = item as LocalFoodItem;
+            const oldItem = item as FoodItem;
+            const poiItem = item as AMapPOIResult;
+            
             return (
               <div
-                key={(f as any).uniqueId || (f as any).id || Math.random()}
+                key={item.uniqueId || item.id || Math.random()}
                 className="border rounded-lg p-3 relative"
                 style={{ 
-                  borderColor: (f as any).source === 'sushi' 
+                  borderColor: isSushiItem 
                     ? 'rgba(186,117,23,0.35)' 
                     : isTop3 
                       ? 'rgba(8,80,65,0.3)'
                       : 'rgba(186,117,23,0.18)',
-                  background: (f as any).source === 'sushi' 
+                  background: isSushiItem 
                     ? 'rgba(186,117,23,0.05)' 
                     : isTop3
                       ? 'rgba(8,80,65,0.05)'
@@ -1022,31 +1035,58 @@ function FoodTab({
                 )}
                 <div className="flex justify-between items-start mb-1">
                   <div className="font-wenkai text-[13px] font-medium text-ink">
-                    {((f as any).name || (f as FoodItem).name) || ''}
-                    {((f as FoodItem).alias) && (
-                      <span className="text-ink-lt/50 ml-1">({(f as FoodItem).alias})</span>
+                    {item.name || ''}
+                    {(localItem.alias || oldItem.alias) && (
+                      <span className="text-ink-lt/50 ml-1">({localItem.alias || oldItem.alias})</span>
                     )}
                   </div>
-                  {(f as any).source === 'sushi' && (
-                    <span className="text-[9px] px-1.5 py-0.5 rounded text-white bg-gold-m">
-                      苏轼特供
-                    </span>
+                  {isSushiItem && (
+                    <div className="flex items-center gap-1">
+                      {/* 置信度标签 */}
+                      {localItem.confidence && (
+                        <span 
+                          className={`text-[8px] px-1.5 py-0.5 rounded ${
+                            localItem.confidence === 'A' 
+                              ? 'text-white bg-amber-500' 
+                              : localItem.confidence === 'B' 
+                                ? 'text-amber-700 bg-amber-100' 
+                                : 'text-gray-600 bg-gray-100'
+                          }`}
+                        >
+                          {localItem.confidence === 'A' ? '史料可考' : localItem.confidence === 'B' ? '文献记载' : '民间传说'}
+                        </span>
+                      )}
+                      {/* 苏轼特供标签 */}
+                      <span className="text-[9px] px-1.5 py-0.5 rounded text-white bg-gold-m">
+                        苏轼特供
+                      </span>
+                    </div>
                   )}
-                  {(f as AMapPOIResult).rating && (
-                    <span className="text-[10px] text-amber-500">★ {(f as AMapPOIResult).rating}</span>
+                  {poiItem.rating && (
+                    <span className="text-[10px] text-amber-500">★ {poiItem.rating}</span>
                   )}
                 </div>
                 <div className="font-wenkai text-[11.5px] text-ink/70 leading-[1.85] mb-2">
-                  {(f as any).description || (f as FoodItem).desc || (f as AMapPOIResult).address || ''}
+                  {item.description || localItem.desc || oldItem.desc || poiItem.address || ''}
                 </div>
-                {(f as FoodItem).relatedPoem && (
-                  <div className="text-[10px] text-gold-m/80 italic font-wenkai border-l-2 border-gold-m/30 pl-2">
-                    「{(f as FoodItem).relatedPoem}」
+                {/* 引用诗句/文献 */}
+                {(localItem.source_text || oldItem.relatedPoem) && (
+                  <div className="text-[10px] text-gold-m/80 italic font-wenkai border-l-2 border-gold-m/30 pl-2 mb-1">
+                    「{localItem.source_text || oldItem.relatedPoem}」
+                    {localItem.source_work && (
+                      <span className="text-ink-lt/50 ml-1">——{localItem.source_work}</span>
+                    )}
                   </div>
                 )}
-                {(f as AMapPOIResult).distance && (
+                {/* 故事/背景 */}
+                {localItem.story && (
+                  <div className="text-[10px] text-ink-lt/60 mb-1">
+                    {localItem.story}
+                  </div>
+                )}
+                {poiItem.distance && (
                   <div className="text-[10px] text-ink-lt/60 mt-1">
-                    📍 距离 {(f as AMapPOIResult).distance}m
+                    📍 距离 {poiItem.distance}m
                   </div>
                 )}
               </div>
@@ -1057,21 +1097,7 @@ function FoodTab({
 
       {/* 空状态 */}
       {!nearbyLoading && displayFoods.length === 0 && (
-        <div className="text-center py-8">
-          <div className="text-[32px] mb-3">🍽️</div>
-          <p className="text-[12px] text-ink-lt/60 italic mb-2">
-            {foodTab === 'sushi' 
-              ? '此处暂未收录东坡足迹美食' 
-              : '此处山水尚在，美食记录尚未抵达'
-            }
-          </p>
-          <p className="text-[11px] text-ink-lt/50 leading-relaxed">
-            {foodTab === 'sushi' 
-              ? '苏轼一生足迹所至，美食无数<br />期待你发现更多东坡美食' 
-              : '你若到访，不妨留下线索'
-            }
-          </p>
-        </div>
+        <FoodEmptyState foodTab={foodTab} onSwitchToNearby={() => setFoodTab('nearby')} />
       )}
     </div>
   );

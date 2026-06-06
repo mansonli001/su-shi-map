@@ -4,6 +4,310 @@
 
 ---
 
+### 40. 数据双源漂移全量根治（CHANGELOG 一致性核验）
+
+**触发动机**：用户要求「读 CHANGELOG 验证修正方案能否顺利实现 且无 bug」。逐项核验 #33-#39 改动落地情况时，扫到 4 处违反 v6.1 工程化加固铁律的数据漂移，其中 2 处是 P0 级线上事故。
+
+**问题清单**：
+
+| # | 严重度 | 文件 | 现状 | 真值在 | 修复方向 |
+|---|--------|------|------|--------|----------|
+| 1 | 🚨 P0 | `poems/C002.json` | 双源完全是不同作品（data-v4=《江城子·密州出猎》／public=《桄榔庵记》），但 `poems-index.json` 两边一致指向《江城子·密州出猎》→ 浏览器列表显示 A 点开却是 B | data-v4 | 跑 sync_public 让 data-v4 覆盖 public |
+| 2 | 🚨 P0 | `poems/C012.json` | 双源完全是不同作品（data-v4=《水调歌头·明月几时有》／public=《和陶归去来兮辞》），index 同样指向前者 | data-v4 | 同上 |
+| 3 | 🟡 P1 | `places/P017.json` | CHANGELOG #33「常州时间线修正」（六月抵达 → 七月定居 → 七月二十八日卒）落到 public 4 个事件，但忘了回写 data-v4，data-v4 仍是 3 个事件的旧版本 | public | 先 public→data-v4 回写，再 sync_public |
+| 4 | 🟡 P1 | `foods-by-place.json` | 仅在 public/data-v4/，data-v4/ 没有 → 任何人下次跑 `lib_sync.py` 触发 `rsync --delete` 时会被静默删除，美食功能直接挂掉 | public | 先 public→data-v4 备份，再 sync_public |
+
+**根因**：CHANGELOG #33（常州时间线修正）和 #34（foods-by-place.json 新增）均直接写了 `public/data-v4/`，违反 v6.1 工程化加固 #1 的铁律「唯一权威源是 data-v4/，public 只是部署副本」。C002/C012 的具体污染源未追到（疑似 6/3 16:26 时段 add-missing-poems 脚本的中间状态被留在 public 没被 sync 覆盖），但症状一致：两边 schema 同型、内容不同 → diff 才能查出。
+
+**修复执行**：
+```bash
+cp public/data-v4/places/P017.json data-v4/places/P017.json     # P017 回写
+cp public/data-v4/foods-by-place.json data-v4/foods-by-place.json  # 美食回写
+python3 scripts/lib_sync.py                                      # rsync 全量同步
+```
+
+**修复后验证**：
+
+| 验证点 | 结果 |
+|--------|------|
+| `diff -rq data-v4/ public/data-v4/` | 仅剩 `Only in data-v4: icons / scripts`（lib_sync 预期排除） |
+| `C002.json` 浏览器侧 | index 与文件均《江城子·密州出猎》type=词 ✅ |
+| `C012.json` 浏览器侧 | index 与文件均《水调歌头·明月几时有》type=词 ✅ |
+| `P017.json` global_events | 两边均 4 项（卒于常州 / 买田宜兴 / 抵达常州 / 定居常州）✅ |
+| `foods-by-place.json` | 两边都在，HTTP 200，sync_public 不再误删 ✅ |
+| 49 个绑美食的 placeId | 全部存在于 places-index ✅ |
+| 19 条路线代表作 poem_id | 全部 100% 有值，跳转可用 ✅ |
+| 7 个核心路由（/explore /routes /poems /profile /checkin /poems/[id] /routes/[id]） | HTTP 200 ✅ |
+
+**预防建议（待落 PROJECT-ARCHITECTURE）**：
+- `lib_sync.py` 增加反向校验：`rsync --delete` 前先扫 `public/data-v4 - data-v4` 的孤儿，警告或终止
+- pre-commit 钩子加 `diff -rq data-v4 public/data-v4` 红绿灯，发现差异禁止提交
+
+---
+
+### 39. 美食数据结构升级 + Tab顺序调整 + 探索页移动端优化 + 路线标签修正
+
+**美食数据升级**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 新美食数据接口 | `lib/food-search.ts` | 新增 `LocalFoodItem` 接口（含 `source_text`、`source_work`、`story` 字段）、`FoodsByPlace` 类型；新增 `getFoodsByPlace()` 和 `getSushiFoodsByPlace(placeId)` 函数 |
+| 2 | FoodTab 组件重构 | `components/place/PlaceCard.tsx` | 移除 `localFoods` 和 `routeId` prop，改用 `placeId`；支持新的按地点绑定的美食数据；展示来源文本/来源作品/故事背景 |
+| 3 | 日期解析增强 | `components/place/PlaceCard.tsx` | 支持完整农历月份解析（五月/六月/七月/八月/九月/十月/十一月/腊月/十二月） |
+
+**Tab 顺序调整**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 4 | Tab 顺序调整 | `components/place/PlaceCard.tsx` | 从 事迹/美食/作品/文旅 调整为 事迹/作品/文旅/美食（更符合内容丰富度优先级） |
+| 5 | 空状态组件化 | `components/place/PlaceCard.tsx` | 事迹/作品/文旅 Tab 空状态统一使用 `EmptyState` 组件，移除硬编码文案 |
+
+**页面空状态升级**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 6 | 诗词详情空状态 | `app/poems/[id]/page.tsx` | "诗词内容暂未收录" → "诗在路上，尚未抵达" + "三千余首，仍在一首一首整理。" + "这里的篇章，稍后见。" + "——「腹有诗书气自华」 |
+| 7 | 路线详情代表作可点击 | `app/routes/[id]/page.tsx` | 代表作卡片新增 `poem_id` 字段，点击可跳转到诗词详情页 |
+
+**探索页移动端优化**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 8 | 移动端按钮尺寸缩小 | `app/explore/page.tsx` | 导航按钮从 44px 缩小到 28px，减少垂直空间占用 |
+| 9 | 副标题居中 | `app/explore/page.tsx` | 移动端副标题"读苏轼·游神州"绝对定位居中，不参与 flex 布局 |
+| 10 | 字体统一 | `app/explore/page.tsx` | 所有按钮文字统一使用 `font-wenkai` |
+
+**路线标签修正**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 11 | 新增"少年"标签 | `app/routes/page.tsx` | S1 阶段新增 `stageBadge` 返回"少年"标签 |
+| 12 | "游历"改为"归途" | `app/routes/page.tsx` | 路线筛选标签"游历"改为"归途"，并包含"少年"阶段 |
+
+**样式微调**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 13 | 页面主体文本左对齐 | `app/ink-path.css` | `.ip-hero-body` 新增 `text-align: left` |
+| 14 | 诗句字号缩小 | `app/ink-path.css` | `.ip-hero-em` 字号从 18px 调整为 16px |
+
+**验证记录**：
+```
+✓ 进入黄州 → 美食Tab → 显示带来源文本/来源作品的黄州专属美食
+✓ 进入无美食数据的地点 → 各Tab显示 EmptyState 组件空状态
+✓ 探索页移动端 → 按钮更紧凑，副标题居中
+✓ 路线列表 → "归途"筛选包含少年/归途/终老路线
+✓ 路线详情 → 点击代表作可跳转到诗词详情页
+```
+
+---
+
+### 38. 全站字体统一为霞鹜文楷
+
+**修复内容**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 折页（LeftSidebar）字体统一 | `components/LeftSidebar.tsx` | 所有中文标题/按钮从 `Noto Serif SC` 改为 `font-wenkai`（霞文楷） |
+| 2 | 名士录（profile）字体统一 | `app/profile/page.tsx` | 页面容器 + 所有数据卡片 + Tab 按钮从 `Noto Serif SC` 改为 `font-wenkai` |
+| 3 | 阶段时间轴（StageTimelineBar）字体统一 | `components/StageTimelineBar.tsx` | 阶段名称按钮从 `Noto Serif SC` 改为 `font-wenkai` |
+| 4 | 首页（HomeLanding）字体统一 | `components/Home/HomeLanding.tsx` | 所有中文标题从 `Noto Serif SC` 改为 `font-wenkai` |
+
+**字体方案说明**：
+- **中文**：LXGW WenKai（霞鹜文楷）→ `font-wenkai` 类
+- **英文/数字**：Source Sans 3 → 保持 `fontFamily: '"Source Sans 3", sans-serif'`
+- **Logo**：保持不变（可能使用特殊字体）
+
+**验证记录**：
+```
+✓ 折页中的所有中文（标题/路线名/阶段名）→ 霞鹜文楷
+✓ 名士录中的所有中文（数据/Tab/按钮）→ 霞鹜文楷
+✓ 首页所有中文标题 → 霞鹜文楷
+✓ 英文内容（如"SU SHI · 1037–1101"）→ Source Sans 3
+```
+
+---
+
+### 37. 美食 Tab 逻辑修复 + 总览功能恢复 + 眉山故居美食补充
+
+**修复内容**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 恢复"总览"tab | `components/place/PlaceCard.tsx` | 用户反馈点击美食 Tab 应该看到总览（东坡特供 + 附近推荐合并），而非只显示东坡特供导致无数据时显示空状态 |
+| 2 | 附近推荐始终加载 | `components/place/PlaceCard.tsx` | 原逻辑只在切换到"附近推荐"tab 时才加载数据，导致总览 tab 下无数据时显示空状态。修复：附近推荐在组件加载时就加载，不管在哪个 tab |
+| 3 | 总览 tab 显示逻辑 | `components/place/PlaceCard.tsx` | 东坡特供（如果有）排在前面，后面是附近推荐 |
+| 4 | 空状态条件修正 | `components/place/PlaceCard.tsx` | 只有当东坡特供和附近推荐都没有数据时才显示空状态 |
+| 5 | 眉山故居美食缺失 | `public/data-v4/foods-by-place.json` | 用户反馈眉山故居没有显示东坡肘子。原因：美食数据绑定在 P116（眉山），但用户点击的是 P118（眉山故居）。修复：为 P118 添加相同美食数据 |
+
+**FoodTab组件重构**：
+- 移除`localFoods` prop（不再需要）
+- 移除降级逻辑`getSushiSpecialFoods(routeId)`
+- 附近推荐始终加载，使用`useEffect`依赖`placeLat/placeLng`
+- 空状态使用`FoodEmptyState`组件，根据当前tab显示对应文案
+
+**验证记录**：
+```
+✓ 进入任意地点 → 美食Tab → 默认显示"总览"（苏轼特供在前，后面是附近推荐）
+✓ 进入黄州 → 美食Tab → 显示东坡肉等黄州专属美食 + 附近推荐
+✓ 进入无东坡特供的地点 → 美食Tab → 只显示附近推荐（不会显示空状态）
+```
+
+---
+
+### 36. 空状态文案系统 + 东坡特供美食显示修复
+
+**新增文件**：
+
+| # | 文件 | 说明 |
+|---|------|------|
+| 1 | `lib/empty-state-config.ts` | 空状态文案配置文件，统一管理所有空状态文案（标题、正文、诗句引用、行动引导） |
+| 2 | `components/place/EmptyState.tsx` | 通用空状态组件，支持4种线条风格图标（毛笔/空碗/地图/书本） |
+| 3 | `components/place/FoodEmptyState.tsx` | 美食Tab专用空状态组件，支持切换到"附近推荐"动作 |
+
+**修复内容**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 东坡特供美食全站一样 | `components/place/PlaceCard.tsx` | **关键Bug**：原逻辑当地点无专属美食时会降级调用`getSushiSpecialFoods(routeId)`返回该路线所有美食。修复：移除降级逻辑，无数据直接显示空状态 |
+| 2 | 事迹Tab空状态 | `components/place/PlaceCard.tsx` | "此处山河，我曾路过" + "人生到处知何似，应似飞鸿踏雪泥" |
+| 3 | 作品Tab空状态 | `components/place/PlaceCard.tsx` | "我在此地，沉默过" + "此心安处是吾乡" |
+| 4 | 文旅Tab空状态 | `components/place/PlaceCard.tsx` | "此地风物，我记得" + "江山如此多娇，我曾一一走过" |
+| 5 | 美食-东坡特供空状态 | `components/place/FoodEmptyState.tsx` | "此地美食，我吃过，只是忘了写下来"，带"去附近推荐"切换按钮 |
+| 6 | 美食-附近推荐空状态 | `components/place/FoodEmptyState.tsx` | "此地人迹罕至，连高德也沉默了" |
+| 7 | 美食-全部为空 | `components/place/FoodEmptyState.tsx` | "美食这件事，我从不将就" |
+| 8 | 诗词搜索空状态 | `app/poems/page.tsx` | "没有找到，也许换个说法？苏轼的世界很大，但有些角落还没被整理进来" |
+| 9 | 诗词详情内容空状态 | `app/poems/[id]/page.tsx` | "诗在路上，尚未抵达" + "腹有诗书气自华" |
+| 10 | 路线详情空状态 | `app/routes/[id]/page.tsx` | "二十条路线，正在铺开" |
+
+**空状态设计规范**：
+- 第一人称视角，苏轼口吻
+- 不用「暂无数据」「内容整理中」等冷冰冰的系统语言
+- 每条带一句真实诗文或化用，有出处感
+- 结尾留悬念或引导动作
+- 统一使用线条风格图标（禁用实心/感叹号）
+
+**验证记录**：
+```
+✓ 无专属美食的地点现在显示苏轼口吻空状态，不再显示东坡肉
+✓ 黄州/杭州/惠州等有专属美食的地点仍正常显示
+✓ 所有空状态文案已更新为统一风格
+```
+
+---
+
+### 35. 旧数据文件清理（性能优化）
+
+**问题分析**：
+- 项目首次加载慢，排查发现 `public/data/places/` 目录下有120个旧版v3地点JSON文件（SS001~SS120.json）未被引用
+- `public/icons/marker-*.svg` 6个地图标记图标未被使用
+- `public/data/chgis-song.zip` GIS数据压缩包未被使用
+- `public/data/poems-sushi.json` 旧诗词数据未被使用
+
+**清理内容**：
+
+| # | 删除文件/目录 | 文件数 | 说明 |
+|---|---------------|--------|------|
+| 1 | `public/data/places/` | 120个 | 旧版v3地点JSON文件（SS001~SS120.json），已迁移到v4 |
+| 2 | `public/data/chgis-song.zip` | 1个 | GIS数据压缩包，未被前端引用 |
+| 3 | `public/data/poems-sushi.json` | 1个 | 旧诗词数据，已迁移到v4 |
+| 4 | `public/icons/marker-*.svg` | 6个 | 未使用的地图标记图标（birth/burial/exile/friend/office/tour） |
+
+**保留文件**：
+
+| 文件 | 状态 | 说明 |
+|------|------|------|
+| `public/data/places-core.json` | ✅ 仍在使用 | `components/Search.tsx` 引用 |
+| `public/data/places-index.json` | ✅ 仍在使用 | `components/Search.tsx` 引用 |
+| `public/icons/pwa-*.png` | ✅ 仍在使用 | PWA应用图标 |
+
+**备份记录**：
+- 删除前已备份到 `backup-20260606/`（共128个文件）
+- 备份文件不提交Git，仅本地保留
+
+**验证记录**：
+```
+✓ 备份完成：128个文件已备份到 backup-20260606/
+✓ 删除完成：127个旧文件已移除
+✓ npx next build 成功通过，无TypeScript错误
+✓ 项目功能正常，未受影响
+```
+
+---
+
+### 34. 苏轼特供美食按地点绑定 + 空状态文案升级
+
+**问题修复**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 苏轼特供内容全站一样 | `public/data-v4/foods-by-place.json` | **新数据文件**：按地点ID绑定苏轼特供美食，包含眉山、黄州、杭州、惠州、儋州、常州、开封、湖州等8个重要地点的专属美食记录（共48条，每条含名称、别名、描述、来源文本、来源作品、置信度、故事、标签） |
+| 2 | 新数据结构适配 | `lib/food-search.ts` | 新增 `LocalFoodItem` 接口、`FoodsByPlace` 类型；新增 `getFoodsByPlace()`、`getSushiFoodsByPlace(placeId)` 函数；保留旧 `getSushiSpecialFoods()` 作为降级方案 |
+| 3 | FoodTab 组件升级 | `components/place/PlaceCard.tsx` | FoodTab 新增 `placeId` 参数，优先使用新的按地点数据；移除「全部」sub-tab（全部=苏轼特供+附近推荐，不需要独立展示）；新增置信度标签（A=史料可考[金色]、B=文献记载、C=民间传说）；优化空状态文案为苏轼口吻 |
+
+**数据结构设计**：
+```json
+{
+  "places": {
+    "P072": {
+      "name": "黄州",
+      "foods": [
+        {
+          "id": "hz-001",
+          "name": "东坡肉",
+          "alias": "红烧肉",
+          "desc": "苏轼贬居黄州...",
+          "source_text": "净洗铛，少著水...",
+          "source_work": "苏轼《猪肉颂》",
+          "confidence": "A",
+          "story": "「黄州好猪肉...」",
+          "tags": ["名菜", "猪肉", "黄州"]
+        }
+      ]
+    }
+  }
+}
+```
+
+**UI 优化**：
+- 美食 sub-tab 从 3 个（全部/苏轼特供/附近推荐）改为 2 个（苏轼特供/附近推荐）——「全部」功能实际上就是两者叠加，不需要独立
+- 苏轼特供美食显示「置信度标签」：
+  - A级（史料可考）：金色背景，白色文字
+  - B级（文献记载）：琥珀色背景，深棕色文字
+  - C级（民间传说）：灰色背景，深灰色文字
+- 空状态文案更有温度：「苏轼途经此地，未留饮食记载——但他说过：此心安处是吾乡，或许在每个地方，他都吃得很好，只是没写下来」
+
+**验证记录**：
+```
+✓ Compiled successfully
+✓ next dev Ready in 2.3s
+✓ 进入黄州地点 → 美食 Tab → 显示黄州专属特供（东坡肉/东坡羹/东坡饼/蜜酒）
+✓ 进入杭州地点 → 美食 Tab → 显示杭州专属特供（河豚/宋嫂鱼羹/西湖莼菜汤/东坡肉杭州版/西湖醋鱼/甜羹）
+✓ 进入惠州地点 → 美食 Tab → 显示惠州专属特供（荔枝/烤羊脊骨/蟹与蛤/槐叶冷淘/罗浮山荔枝）
+✓ 进入儋州地点 → 美食 Tab → 显示儋州专属特供（生蚝/槟榔/番薯/海南椰子）
+✓ 进入常州地点 → 美食 Tab → 显示常州专属特供（阳羡茶）
+✓ 进入没有美食数据的地点（如任意过路地点）→ 显示新的空状态文案
+```
+
+---
+
+### 33. 常州时间线修正 + 事件排序增强 + Tab顺序调整
+
+**修复内容**：
+
+| # | 修复项 | 文件 | 说明 |
+|---|--------|------|------|
+| 1 | 常州事件时间线修正 | `public/data-v4/places/P017.json` | 原数据「六月定居」与「七月到常州」逻辑矛盾。修正为：六月抵达常州 → 七月定居常州 → 七月二十八日卒于常州 |
+| 2 | 事件排序逻辑增强 | `components/place/PlaceCard.tsx` | 原排序只按年份，同一年事件顺序不可控。新增 `getTimeValue()` 函数，支持提取完整日期（年×10000 + 月×100 + 日），实现精确排序 |
+| 3 | Tab顺序调整 | `components/place/PlaceCard.tsx` | 原顺序「事迹 | 美食 | 作品 | 文旅」→ 新顺序「事迹 | 作品 | 文旅 | 美食」 |
+
+**排序逻辑升级细节**：
+- 支持中文月份（六月、七月等）和阿拉伯数字月份（6月、7月等）
+- 支持日期提取（二十八日、2日等）
+- 同一年事件按完整时间线排序，解决黄州、湖州、惠州等多地同一年多事件的排序问题
+
+---
+
 ### 32. v1.2.0 「Ink & Path」设计系统 v1.0 + 移动端一致性收尾
 
 **升级动机**：

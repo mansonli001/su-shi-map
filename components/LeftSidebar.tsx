@@ -93,8 +93,8 @@ export default function LeftSidebar() {
         style={{ borderBottom: `1px solid ${INK.hairlineSoft}` }}
       >
         <h2
+          className="font-wenkai"
           style={{
-            fontFamily: '"Noto Serif SC", serif',
             fontSize: '18px',
             fontWeight: 600,
             color: INK.ink,
@@ -125,9 +125,8 @@ export default function LeftSidebar() {
       >
         <button
           onClick={() => handleRouteClick(null)}
-          className="w-full text-left px-3 py-2 rounded-md transition-all duration-200"
+          className="w-full text-left px-3 py-2 rounded-md transition-all duration-200 font-wenkai"
           style={{
-            fontFamily: '"Noto Serif SC", serif',
             fontSize: '13px',
             background: currentRoute === null ? INK.ink : 'transparent',
             color: currentRoute === null ? INK.parchment : INK.inkSoft,
@@ -164,9 +163,8 @@ export default function LeftSidebar() {
                     style={{ backgroundColor: stage.color, boxShadow: `0 0 0 1px ${INK.hairlineSoft}` }}
                   />
                   <span
-                    className="flex-1 text-left"
+                    className="flex-1 text-left font-wenkai"
                     style={{
-                      fontFamily: '"Noto Serif SC", serif',
                       fontSize: '12px',
                       fontWeight: 500,
                       color: INK.ink,
@@ -195,9 +193,8 @@ export default function LeftSidebar() {
                         <div key={r.id} className="relative group/route">
                           <button
                             onClick={() => handleRouteClick(r.id)}
-                            className="w-full text-left pl-3 pr-9 py-1.5 rounded-md transition-all duration-200"
+                            className="w-full text-left pl-3 pr-9 py-1.5 rounded-md transition-all duration-200 font-wenkai"
                             style={{
-                              fontFamily: '"Noto Serif SC", serif',
                               background: isActive ? 'rgba(186, 26, 26, 0.08)' : 'transparent',
                               color: isActive ? INK.cinnabar : INK.inkSoft,
                               fontWeight: isActive ? 600 : 400,
@@ -305,8 +302,8 @@ export default function LeftSidebar() {
         <div className="w-full flex items-center justify-between">
           <div>
             <h2
+              className="font-wenkai"
               style={{
-                fontFamily: '"Noto Serif SC", serif',
                 fontSize: '18px',
                 fontWeight: 600,
                 color: INK.ink,
@@ -342,9 +339,8 @@ export default function LeftSidebar() {
       <div className="px-3 pt-3 pb-2 flex-shrink-0">
         <button
           onClick={() => handleRouteClick(null)}
-          className="w-full text-left px-4 py-3 rounded-lg transition-all duration-200"
+          className="w-full text-left px-4 py-3 rounded-lg transition-all duration-200 font-wenkai"
           style={{
-            fontFamily: '"Noto Serif SC", serif',
             fontSize: '15px',
             background: currentRoute === null ? INK.ink : INK.parchmentSoft,
             color: currentRoute === null ? INK.parchment : INK.inkSoft,
@@ -379,9 +375,8 @@ export default function LeftSidebar() {
                     style={{ backgroundColor: stage.color, boxShadow: `0 0 0 1px ${INK.hairlineSoft}` }}
                   />
                   <span
-                    className="flex-1 text-left"
+                    className="flex-1 text-left font-wenkai"
                     style={{
-                      fontFamily: '"Noto Serif SC", serif',
                       fontSize: '14px',
                       fontWeight: 500,
                       color: INK.ink,
@@ -410,9 +405,8 @@ export default function LeftSidebar() {
                         <div key={r.id} className="relative">
                           <button
                             onClick={() => handleRouteClick(r.id)}
-                            className="w-full text-left pl-4 pr-12 py-2.5 rounded-md transition-all duration-200"
+                            className="w-full text-left pl-4 pr-12 py-2.5 rounded-md transition-all duration-200 font-wenkai"
                             style={{
-                              fontFamily: '"Noto Serif SC", serif',
                               background: isActive ? 'rgba(186, 26, 26, 0.08)' : 'transparent',
                               color: isActive ? INK.cinnabar : INK.inkSoft,
                               fontWeight: isActive ? 600 : 400,

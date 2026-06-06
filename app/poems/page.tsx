@@ -158,7 +158,29 @@ export default function PoemsListPage() {
 
         {filteredPoems.length === 0 && (
           <div className="poems-empty">
-            暂无匹配的诗词
+            <div className="text-center py-10 px-4">
+              <div className="mb-5 flex justify-center text-ink-lt/30">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 10H36C37 10 38 11 38 12V38C38 39 37 40 36 40H12C11 40 10 39 10 38V12C10 11 11 10 12 10Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                  <path d="M16 16H32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                  <path d="M16 22H28" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                  <path d="M16 28H30" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                  <path d="M16 34H24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+                </svg>
+              </div>
+              <h3 className="font-wenkai mb-3" style={{ fontSize: '17px', color: '#1a1410', fontWeight: 500 }}>
+                没有找到
+              </h3>
+              <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+                也许换个说法？
+              </p>
+              <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+                苏轼的世界很大，
+              </p>
+              <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+                但有些角落还没被整理进来。
+              </p>
+            </div>
           </div>
         )}
       </div>

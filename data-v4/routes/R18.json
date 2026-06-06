@@ -147,56 +147,65 @@
         "title": "食荔枝",
         "category": "岭南名篇",
         "note": "1096 惠州，\"日啖荔枝三百颗，不辞长作岭南人\"",
-        "year_estimate": 1096
+        "year_estimate": 1096,
+        "poem_id": "S132"
       },
       {
         "title": "荔枝叹",
         "category": "讽喻诗",
         "note": "1095 惠州，借荔枝讽喻宫廷奢侈、同情百姓疾苦",
-        "year_estimate": 1095
+        "year_estimate": 1095,
+        "poem_id": "S142"
       },
       {
         "title": "纵笔三首",
         "category": "惠州名篇",
         "note": "1097 惠州，\"白头萧散满霜风，小阁藤床寄病容\"，传至京城引发政敌不满",
-        "year_estimate": 1097
+        "year_estimate": 1097,
+        "poem_id": "S150"
       },
       {
         "title": "惠州一绝·梅花二首",
         "category": "咏物诗",
         "note": "1095-1096 惠州，罗浮山下咏梅",
-        "year_estimate": 1095
+        "year_estimate": 1095,
+        "poem_id": "S143"
       },
       {
         "title": "到惠州谢表",
         "category": "朝堂奏表",
         "note": "1094 惠州，宋代官员到任谢表",
-        "year_estimate": 1094
+        "year_estimate": 1094,
+        "poem_id": "Z004"
       },
       {
         "title": "和陶诗全集",
         "category": "古体组诗",
         "note": "1098-1100 儋州 120 余首，晚年思想文学最高成就",
-        "year_estimate": 1098
+        "year_estimate": 1098,
+        "poem_id": "S151"
       },
       {
         "title": "和陶时运四首",
         "category": "和陶系列",
         "note": "1098 儋州，表达随遇而安心境",
-        "year_estimate": 1098
+        "year_estimate": 1098,
+        "poem_id": "S148"
       },
       {
         "title": "桄榔庵记（铭）",
         "category": "小品散文",
         "note": "1098 儋州，记荒岛安居悟道（《东坡七集·文集》卷三十二《桄榔庵铭》）",
-        "year_estimate": 1098
+        "year_estimate": 1098,
+        "poem_id": "W014"
       },
       {
         "title": "赠王子直秀才",
         "category": "赠诗",
         "note": "1095 惠州（绍圣二年），赠虔州（江西赣州）处士王原（字子直，号鹤田处士），王子直专程访惠留七十日（《苏轼诗集》卷三十八）；元符三年苏轼北归途中复在虔州赣上重逢，证其为江西人。\"幅巾我欲作州民，君肯同耕谷口春\"，描绘惠州终老田园之愿。注：双专家最终一致采纳惠州说，驳回儋州说（儋州交往对象为王介石、黎子云等，无王子直踪迹）。",
         "year_estimate": 1095,
-        "verification_status": "dual_expert_confirmed"
+        "verification_status": "dual_expert_confirmed",
+        "poem_id": "S144"
       }
     ],
     "style_features": "冲淡朴素、返璞归真、语浅意深、沧桑内敛；无激昂豪放、无刻意雕琢，以平淡字句容纳万里行旅、半生荣辱、荒岛悟道，为宋诗晚年最高境界。（注：《载酒堂记》经专家一裁决证伪——苏轼无此作，元代徐智作品，已移除）"

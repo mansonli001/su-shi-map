@@ -99,37 +99,43 @@
         "title": "前赤壁赋",
         "category": "辞赋散文",
         "note": "黄州月夜泛舟赤壁，江山、历史、人生哲思融为一体的千古第一文赋",
-        "year_estimate": 1082
+        "year_estimate": 1082,
+        "poem_id": "F002"
       },
       {
         "title": "后赤壁赋",
         "category": "辞赋散文",
         "note": "冬夜重游赤壁，意境空灵缥缈，写入世出世之思",
-        "year_estimate": 1082
+        "year_estimate": 1082,
+        "poem_id": "F005"
       },
       {
         "title": "念奴娇·赤壁怀古",
         "category": "词作",
         "note": "豪放词压卷之作，大江东去道尽千古兴亡与人生感慨",
-        "year_estimate": 1082
+        "year_estimate": 1082,
+        "poem_id": "C036"
       },
       {
         "title": "定风波·莫听穿林打叶声",
         "category": "词作",
         "note": "沙湖道中遇雨有感，一生旷达人生态度的凝练写照",
-        "year_estimate": 1082
+        "year_estimate": 1082,
+        "poem_id": "C037"
       },
       {
         "title": "卜算子·黄州定慧院寓居作",
         "category": "词作",
         "note": "谪居初期孤寂清冷心境的寄托，孤高自守、不随世俗",
-        "year_estimate": 1080
+        "year_estimate": 1080,
+        "poem_id": "C074"
       },
       {
         "title": "浣溪沙·黄州春日田园杂兴",
         "category": "词作",
         "note": "躬耕东坡、贴近乡野民生的田园闲适之作",
-        "year_estimate": 1081
+        "year_estimate": 1081,
+        "poem_id": "C075"
       }
     ],
     "style_features": "气势雄浑而不失空灵，情怀沉郁而归于旷达，融江山风物、历史怀古、田园烟火、人生哲思于一身，儒释道思想自然圆融，为后世贬谪文学、山水文学树立最高范式"

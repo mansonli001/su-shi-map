@@ -317,6 +317,7 @@ export default function SharePoster({ type, achievement, placeName, onClose }: S
         style={{
           backgroundColor: isGenerating ? '#9CA3AF' : '#C9973A',
           color: '#fff',
+          fontSize: '12px',
         }}
       >
         {isGenerating ? (

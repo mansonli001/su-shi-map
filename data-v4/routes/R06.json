@@ -133,37 +133,43 @@
         "title": "陪欧阳公燕西湖",
         "category": "七言古诗",
         "note": "颍州陪欧阳修宴游传世名篇，记师生最后相会",
-        "year_estimate": 1071
+        "year_estimate": 1071,
+        "poem_id": "S123"
       },
       {
         "title": "游金山寺",
         "category": "古风诗",
         "note": "镇江金山寺登临怀古名作，\"江山如此不归山\"",
-        "year_estimate": 1071
+        "year_estimate": 1071,
+        "poem_id": "S014"
       },
       {
         "title": "六月二十七日望湖楼醉书",
         "category": "七言绝句",
         "note": "西湖暴雨千古名篇，\"黑云翻墨未遮山，白雨跳珠乱入船\"",
-        "year_estimate": 1072
+        "year_estimate": 1072,
+        "poem_id": "S022"
       },
       {
         "title": "饮湖上初晴后雨",
         "category": "七言绝句",
         "note": "西湖千古第一咏，\"水光潋滟晴方好，山色空蒙雨亦奇\"",
-        "year_estimate": 1073
+        "year_estimate": 1073,
+        "poem_id": "S038"
       },
       {
         "title": "有美堂暴雨",
         "category": "七言律诗",
         "note": "杭州登临名作，\"天外黑风吹海立\"",
-        "year_estimate": 1073
+        "year_estimate": 1073,
+        "poem_id": "S124"
       },
       {
         "title": "新城道中二首",
         "category": "七言律诗",
         "note": "杭州赴新城田园诗代表，\"野桃含笑竹篱短\"",
-        "year_estimate": 1073
+        "year_estimate": 1073,
+        "poem_id": "S037"
       }
     ],
     "style_features": "清丽灵动、旷达闲适，添师生离别沉厚感；山水与心境合一，写景寓怀、冲淡自然，东坡标志性诗风正式确立"

@@ -101,19 +101,22 @@
         "title": "齐鲁古道怀古系列",
         "category": "纪怀古诗",
         "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作",
-        "year_estimate": 1085
+        "year_estimate": 1085,
+        "poem_id": "S113"
       },
       {
         "title": "迩英阁经筵讲义",
         "category": "经世文",
         "note": "侍讲帝王、阐释儒道治世理念的典制文章",
-        "year_estimate": 1086
+        "year_estimate": 1086,
+        "poem_id": "W011"
       },
       {
         "title": "翰林院制诰序跋",
         "category": "台阁文",
         "note": "入职翰林院主持文史、草拟朝制的典雅官文",
-        "year_estimate": 1086
+        "year_estimate": 1086,
+        "poem_id": "W012"
       }
     ],
     "style_features": "沉厚古朴、典雅中正、立论醇正、文辞端雅；行路之作兼具齐鲁文脉厚重感，朝堂之作恪守儒家正统格局，无山林疏放之气，多济世经世之怀。"

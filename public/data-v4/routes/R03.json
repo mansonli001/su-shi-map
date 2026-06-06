@@ -109,13 +109,15 @@
         "title": "凤翔八观",
         "category": "怀古散文组诗",
         "note": "凤翔时期标志性组作，咏关中古迹风物",
-        "year_estimate": 1062
+        "year_estimate": 1062,
+        "poem_id": "W001"
       },
       {
         "title": "石鼓文跋",
         "category": "金石题跋",
         "note": "石鼓山研学考据代表作",
-        "year_estimate": 1063
+        "year_estimate": 1063,
+        "poem_id": "W002"
       }
     ],
     "style_features": "文风沉实厚重、史理交融，兼具政务务实感与山河怀古情怀"

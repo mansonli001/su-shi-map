@@ -127,12 +127,28 @@ function ExploreInner() {
             borderBottom: '1px solid rgba(209, 196, 188, 0.4)',
           }}
         >
-          <div className="relative flex items-center justify-between px-3 md:px-5 h-full gap-3">
+          <div className="relative flex items-center justify-between px-3 md:px-5 h-full gap-1 md:gap-3">
+            {/* 副标题（绝对定位居中，不参与flex布局） */}
+            <div className="absolute left-1/2 -translate-x-1/2 pointer-events-none">
+              <div
+                className="whitespace-nowrap font-wenkai"
+                style={{
+                  fontSize: '15px',
+                  fontWeight: 600,
+                  color: '#1a1410',
+                  letterSpacing: '0.18em',
+                  lineHeight: 1.2,
+                }}
+              >
+                读苏轼 · 游神州
+              </div>
+            </div>
+
             {/* 左侧：汉堡菜单按钮（移动端） */}
             <div className="flex-shrink-0 md:hidden">
               <button
                 onClick={() => (window.location.href = '/')}
-                className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 rounded transition-colors"
+                className="min-w-[32px] md:min-w-[44px] min-h-[32px] md:min-h-[44px] flex items-center justify-center px-0 md:px-2 rounded transition-colors"
                 style={{ fontSize: '14px', color: '#3d342e' }}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.color = '#ba1a1a';
@@ -148,12 +164,11 @@ function ExploreInner() {
               </button>
             </div>
 
-            {/* 副标题（移动端绝对定位居中 / 桌面端左对齐） */}
-            <div className="absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 md:left-0 md:mr-auto flex items-center gap-2 md:gap-4 min-w-0 pointer-events-none md:pointer-events-auto">
+            {/* 桌面端标题和副标题（移动端隐藏） */}
+            <div className="hidden md:flex items-center gap-4 md:mr-auto min-w-0">
               <div
-                className="whitespace-nowrap"
+                className="whitespace-nowrap font-wenkai"
                 style={{
-                  fontFamily: '"Noto Serif SC", serif',
                   fontSize: '15px',
                   fontWeight: 600,
                   color: '#1a1410',
@@ -163,19 +178,19 @@ function ExploreInner() {
               >
                 读苏轼 · 游神州
               </div>
-              <div className="hidden md:block w-px h-[18px]" style={{ background: 'rgba(209, 196, 188, 0.6)' }} />
-              <div className="hidden md:flex items-center gap-3">
+              <div className="w-px h-[18px]" style={{ background: 'rgba(209, 196, 188, 0.6)' }} />
+              <div className="flex items-center gap-3">
                 <span style={{ fontSize: '10px', color: '#6b5d54', letterSpacing: '0.18em', fontFamily: '"Source Sans 3", sans-serif' }}>
                   SU SHI · 1037–1101
                 </span>
-                <span style={{ fontSize: '10px', color: '#9b7a3a', letterSpacing: '0.1em', fontFamily: '"Noto Serif SC", serif' }}>
+                <span className="font-wenkai" style={{ fontSize: '10px', color: '#9b7a3a', letterSpacing: '0.1em' }}>
                   · 苏轼一生踪迹 · 数据 v4
                 </span>
               </div>
             </div>
 
             {/* 右侧图标组 */}
-            <div className="flex items-center gap-1 md:gap-2 flex-shrink-0">
+            <div className="flex items-center gap-0 md:gap-2 flex-shrink-0">
               {[
                 { label: '路线', mobileIcon: '📍', onClick: () => (window.location.href = '/routes'), aria: '路线列表' },
                 { label: '诗词', mobileIcon: '诗', onClick: () => (window.location.href = '/poems'), aria: '诗词' },
@@ -184,9 +199,8 @@ function ExploreInner() {
                 <button
                   key={b.label}
                   onClick={b.onClick}
-                  className="min-w-[44px] min-h-[44px] flex items-center justify-center px-2 md:px-3 py-1.5 rounded transition-colors"
+                  className="min-w-[28px] md:min-w-[44px] min-h-[28px] md:min-h-[44px] flex items-center justify-center px-0.5 md:px-3 py-0.5 md:py-1.5 rounded transition-colors font-wenkai"
                   style={{
-                    fontFamily: '"Noto Serif SC", serif',
                     fontSize: '12px',
                     color: '#3d342e',
                     letterSpacing: '0.08em',
@@ -209,9 +223,8 @@ function ExploreInner() {
               {/* 关于（仅桌面端） */}
               <button
                 onClick={() => (window.location.href = '/about')}
-                className="hidden md:inline-flex min-w-[44px] min-h-[44px] items-center justify-center px-3 py-1.5 rounded transition-colors"
+                className="hidden md:inline-flex min-w-[44px] min-h-[44px] items-center justify-center px-3 py-1.5 rounded transition-colors font-wenkai"
                 style={{
-                  fontFamily: '"Noto Serif SC", serif',
                   fontSize: '12px',
                   color: '#6b5d54',
                   letterSpacing: '0.08em',

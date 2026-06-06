@@ -97,19 +97,22 @@
         "title": "海市诗并序",
         "category": "山海哲理诗",
         "note": "登州观海市千古名篇，虚实相融、悟道人生",
-        "year_estimate": 1085
+        "year_estimate": 1085,
+        "poem_id": "S110"
       },
       {
         "title": "蓬莱阁记所见",
         "category": "纪行小品",
         "note": "登临蓬莱阁观海写实短文",
-        "year_estimate": 1085
+        "year_estimate": 1085,
+        "poem_id": "S111"
       },
       {
         "title": "望海",
         "category": "沧海山水诗",
         "note": "登州东海揽胜代表作",
-        "year_estimate": 1085
+        "year_estimate": 1085,
+        "poem_id": "S112"
       }
     ],
     "style_features": "雄浑苍阔、空灵仙逸、实景与幻境交织，写大海则气象万千，咏海市则缥缈空灵，论世事则淡然旷达，开创北宋海疆仙逸诗风独有范式。"

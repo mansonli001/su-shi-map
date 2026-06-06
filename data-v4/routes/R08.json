@@ -105,43 +105,50 @@
         "title": "济南龙洞山记",
         "category": "纪游散文",
         "note": "1077.1 齐州滞留月余期间，与李公择同游龙洞作（《东坡七集·文集》卷十二）",
-        "year_estimate": 1077
+        "year_estimate": 1077,
+        "poem_id": "W006"
       },
       {
         "title": "至济南李公择以诗相迎次其韵二首",
         "category": "次韵诗",
         "note": "1077.1 齐州，李公择以诗相迎，苏轼次其韵作（《苏轼诗集》卷十五）",
-        "year_estimate": 1077
+        "year_estimate": 1077,
+        "poem_id": "S050"
       },
       {
         "title": "澶濮道中见子由",
         "category": "纪事诗",
         "note": "1077.2 澶濮间与苏辙七年重逢作（《东坡七集·东坡诗集》卷十四）",
-        "year_estimate": 1077
+        "year_estimate": 1077,
+        "poem_id": "S052"
       },
       {
         "title": "陈桥驿",
         "category": "纪事诗",
         "note": "1077.2 陈桥驿接改命徐州诏，\"不得入国门\"，寓范镇东园作（《东坡七集·东坡诗集》卷十四）",
-        "year_estimate": 1077
+        "year_estimate": 1077,
+        "poem_id": "S053"
       },
       {
         "title": "宿州次韵刘泾",
         "category": "纪行诗",
         "note": "1077 沿汴河东下徐州途经宿州作（《苏轼诗集》卷十五）",
-        "year_estimate": 1077
+        "year_estimate": 1077,
+        "poem_id": "S054"
       },
       {
         "title": "黄楼赋",
         "category": "辞赋",
         "note": "1078 徐州抗洪后营建黄楼标志性名篇",
-        "year_estimate": 1078
+        "year_estimate": 1078,
+        "poem_id": "F001"
       },
       {
         "title": "放鹤亭记",
         "category": "散文",
         "note": "1078 云龙山交友隐逸寄怀千古散文",
-        "year_estimate": 1078
+        "year_estimate": 1078,
+        "poem_id": "W007"
       }
     ],
     "style_features": "沉雄写实、心怀民瘼，兼具行旅纪事曲折与亭台怀古之雅致；以兄弟重逢、抗洪安民、登临怀古三重叙事，构建北宋士大夫家国担当典范文风。"

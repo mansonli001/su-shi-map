@@ -1,0 +1,430 @@
+{
+  "matched": [
+    {
+      "routeId": "R01",
+      "routeName": "首次进京赶考·母丧返蜀",
+      "workTitle": "刑赏忠厚之至论",
+      "poemId": "Z001"
+    },
+    {
+      "routeId": "R02",
+      "routeName": "三苏父子·岷江长江出蜀南行",
+      "workTitle": "初发嘉州",
+      "poemId": "S002"
+    },
+    {
+      "routeId": "R03",
+      "routeName": "二次进京·赴凤翔签判",
+      "workTitle": "凤翔八观",
+      "poemId": "W001"
+    },
+    {
+      "routeId": "R03",
+      "routeName": "二次进京·赴凤翔签判",
+      "workTitle": "石鼓文跋",
+      "poemId": "W002"
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "workTitle": "陪欧阳公燕西湖",
+      "poemId": "S123"
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "workTitle": "游金山寺",
+      "poemId": "S014"
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "workTitle": "有美堂暴雨",
+      "poemId": "S124"
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "workTitle": "新城道中二首",
+      "poemId": "S037"
+    },
+    {
+      "routeId": "R07",
+      "routeName": "自杭州调任密州知州",
+      "workTitle": "超然台记",
+      "poemId": "W005"
+    },
+    {
+      "routeId": "R07",
+      "routeName": "自杭州调任密州知州",
+      "workTitle": "江城子·密州出猎",
+      "poemId": "C005"
+    },
+    {
+      "routeId": "R07",
+      "routeName": "自杭州调任密州知州",
+      "workTitle": "水调歌头·明月几时有",
+      "poemId": "C013"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "济南龙洞山记",
+      "poemId": "W006"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "至济南李公择以诗相迎次其韵二首",
+      "poemId": "S050"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "澶濮道中见子由",
+      "poemId": "S052"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "陈桥驿",
+      "poemId": "S053"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "宿州次韵刘泾",
+      "poemId": "S054"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "黄楼赋",
+      "poemId": "F001"
+    },
+    {
+      "routeId": "R08",
+      "routeName": "自密州调任徐州知州",
+      "workTitle": "放鹤亭记",
+      "poemId": "W007"
+    },
+    {
+      "routeId": "R09",
+      "routeName": "自湖州上任·乌台诗案押解进京",
+      "workTitle": "湖州谢上表",
+      "poemId": "W008"
+    },
+    {
+      "routeId": "R09",
+      "routeName": "自湖州上任·乌台诗案押解进京",
+      "workTitle": "狱中寄子由二首",
+      "poemId": "S069"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "前赤壁赋",
+      "poemId": "F002"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "后赤壁赋",
+      "poemId": "F005"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "念奴娇·赤壁怀古",
+      "poemId": "C036"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "定风波·莫听穿林打叶声",
+      "poemId": "C037"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "卜算子·黄州定慧院寓居作",
+      "poemId": "C074"
+    },
+    {
+      "routeId": "R10",
+      "routeName": "贬谪黄州·安置闲居",
+      "workTitle": "浣溪沙·黄州春日田园杂兴",
+      "poemId": "C075"
+    },
+    {
+      "routeId": "R11",
+      "routeName": "黄州量移·漫游庐山筠州金陵常州",
+      "workTitle": "题西林壁",
+      "poemId": "S102"
+    },
+    {
+      "routeId": "R11",
+      "routeName": "黄州量移·漫游庐山筠州金陵常州",
+      "workTitle": "石钟山记",
+      "poemId": "W010"
+    },
+    {
+      "routeId": "R11",
+      "routeName": "黄州量移·漫游庐山筠州金陵常州",
+      "workTitle": "庐山诸寺题咏诗",
+      "poemId": "S099"
+    },
+    {
+      "routeId": "R11",
+      "routeName": "黄州量移·漫游庐山筠州金陵常州",
+      "workTitle": "金陵怀古杂咏",
+      "poemId": "S100"
+    },
+    {
+      "routeId": "R12",
+      "routeName": "自宜兴赴任登州·五日太守",
+      "workTitle": "海市诗并序",
+      "poemId": "S110"
+    },
+    {
+      "routeId": "R12",
+      "routeName": "自宜兴赴任登州·五日太守",
+      "workTitle": "蓬莱阁记所见",
+      "poemId": "S111"
+    },
+    {
+      "routeId": "R12",
+      "routeName": "自宜兴赴任登州·五日太守",
+      "workTitle": "望海",
+      "poemId": "S112"
+    },
+    {
+      "routeId": "R13",
+      "routeName": "登州还朝·第六次进京·元祐入阁",
+      "workTitle": "齐鲁古道怀古系列",
+      "poemId": "S113"
+    },
+    {
+      "routeId": "R13",
+      "routeName": "登州还朝·第六次进京·元祐入阁",
+      "workTitle": "迩英阁经筵讲义",
+      "poemId": "W011"
+    },
+    {
+      "routeId": "R13",
+      "routeName": "登州还朝·第六次进京·元祐入阁",
+      "workTitle": "翰林院制诰序跋",
+      "poemId": "W012"
+    },
+    {
+      "routeId": "R14",
+      "routeName": "再知杭州·疏浚西湖筑苏堤",
+      "workTitle": "杭州乞度牒开西湖状",
+      "poemId": "Z003"
+    },
+    {
+      "routeId": "R14",
+      "routeName": "再知杭州·疏浚西湖筑苏堤",
+      "workTitle": "次韵刘景文",
+      "poemId": "S125"
+    },
+    {
+      "routeId": "R14",
+      "routeName": "再知杭州·疏浚西湖筑苏堤",
+      "workTitle": "与莫同年雨中饮湖上",
+      "poemId": "S128"
+    },
+    {
+      "routeId": "R14",
+      "routeName": "再知杭州·疏浚西湖筑苏堤",
+      "workTitle": "钱塘勤上人诗集叙",
+      "poemId": "S001"
+    },
+    {
+      "routeId": "R14",
+      "routeName": "再知杭州·疏浚西湖筑苏堤",
+      "workTitle": "苏堤纪事诗作",
+      "poemId": "S126"
+    },
+    {
+      "routeId": "R15",
+      "routeName": "杭州罢任·第七次短暂回京",
+      "workTitle": "临江仙·送钱穆父",
+      "poemId": "C110"
+    },
+    {
+      "routeId": "R15",
+      "routeName": "杭州罢任·第七次短暂回京",
+      "workTitle": "临江仙·昨夜扁舟京口",
+      "poemId": "C114"
+    },
+    {
+      "routeId": "R15",
+      "routeName": "杭州罢任·第七次短暂回京",
+      "workTitle": "临江仙·夜到扬州",
+      "poemId": "C115"
+    },
+    {
+      "routeId": "R15",
+      "routeName": "杭州罢任·第七次短暂回京",
+      "workTitle": "赴颍州过金陵呈王胜之",
+      "poemId": "S129"
+    },
+    {
+      "routeId": "R15",
+      "routeName": "杭州罢任·第七次短暂回京",
+      "workTitle": "泗州僧伽塔",
+      "poemId": "S101"
+    },
+    {
+      "routeId": "R16",
+      "routeName": "出京知颍州·再迁扬州",
+      "workTitle": "浣溪沙·颍州春月",
+      "poemId": "C116"
+    },
+    {
+      "routeId": "R16",
+      "routeName": "出京知颍州·再迁扬州",
+      "workTitle": "减字木兰花·颍州西湖",
+      "poemId": "C117"
+    },
+    {
+      "routeId": "R16",
+      "routeName": "出京知颍州·再迁扬州",
+      "workTitle": "王进叔所藏画跋尾·赵昌四季芍药",
+      "poemId": "T001"
+    },
+    {
+      "routeId": "R17",
+      "routeName": "第八次进京·外放河北定州",
+      "workTitle": "雪浪石",
+      "poemId": "S082"
+    },
+    {
+      "routeId": "R17",
+      "routeName": "第八次进京·外放河北定州",
+      "workTitle": "雪浪斋铭",
+      "poemId": "W013"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "食荔枝",
+      "poemId": "S132"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "荔枝叹",
+      "poemId": "S142"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "纵笔三首",
+      "poemId": "S150"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "惠州一绝·梅花二首",
+      "poemId": "S143"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "到惠州谢表",
+      "poemId": "Z004"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "和陶诗全集",
+      "poemId": "S151"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "和陶时运四首",
+      "poemId": "S148"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "桄榔庵记（铭）",
+      "poemId": "W014"
+    },
+    {
+      "routeId": "R18",
+      "routeName": "南迁远贬·定州→惠州→儋州",
+      "workTitle": "赠王子直秀才",
+      "poemId": "S144"
+    },
+    {
+      "routeId": "R19",
+      "routeName": "遇赦北归·常州终老",
+      "workTitle": "六月二十日夜渡海",
+      "poemId": "S156"
+    },
+    {
+      "routeId": "R19",
+      "routeName": "遇赦北归·常州终老",
+      "workTitle": "澄迈驿通潮阁二首",
+      "poemId": "S157"
+    },
+    {
+      "routeId": "R19",
+      "routeName": "遇赦北归·常州终老",
+      "workTitle": "自题金山画像",
+      "poemId": "S164"
+    },
+    {
+      "routeId": "R19",
+      "routeName": "遇赦北归·常州终老",
+      "workTitle": "伏波将军庙碑",
+      "poemId": "W018"
+    }
+  ],
+  "unmatched": [
+    {
+      "routeId": "R04",
+      "routeName": "三次进京·父丧扶柩归蜀",
+      "work": {
+        "title": "挽父诗文、江淮行旅杂咏",
+        "category": "哀辞/行旅诗",
+        "note": "丧亲南行途中感怀所作，情真意切",
+        "year_estimate": 1066
+      }
+    },
+    {
+      "routeId": "R05",
+      "routeName": "四次进京·重返朝堂卷入党争",
+      "work": {
+        "title": "上神宗皇帝书（前期酝酿）",
+        "category": "奏疏",
+        "note": "入朝后针对变法政见陈述己见的奠基之作",
+        "year_estimate": 1069
+      }
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "work": {
+        "title": "六月二十七日望湖楼醉书",
+        "category": "七言绝句",
+        "note": "西湖暴雨千古名篇，\"黑云翻墨未遮山，白雨跳珠乱入船\"",
+        "year_estimate": 1072
+      }
+    },
+    {
+      "routeId": "R06",
+      "routeName": "外放杭州通判·南下江南",
+      "work": {
+        "title": "饮湖上初晴后雨",
+        "category": "七言绝句",
+        "note": "西湖千古第一咏，\"水光潋滟晴方好，山色空蒙雨亦奇\"",
+        "year_estimate": 1073
+      }
+    }
+  ]
+}

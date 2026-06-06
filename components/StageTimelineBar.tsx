@@ -107,6 +107,7 @@ export default function StageTimelineBar() {
                 ref={isActive ? activeRef : null}
                 onClick={() => handleStageClick(s)}
                 className={`
+                  font-wenkai
                   flex flex-col items-center text-center flex-shrink-0
                   md:min-w-0 md:flex-1 md:px-1
                   px-3.5 py-2 md:py-1.5 rounded-md
@@ -117,7 +118,6 @@ export default function StageTimelineBar() {
                 style={{
                   scrollSnapAlign: 'center',
                   background: isActive ? COLOR.cinnabarTint : 'transparent',
-                  fontFamily: '"Noto Serif SC", serif',
                 }}
                 onMouseEnter={(e) => {
                   if (!isActive) e.currentTarget.style.background = COLOR.cinnabarTintHover;

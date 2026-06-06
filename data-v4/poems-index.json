@@ -1,7 +1,7 @@
 {
   "schema_version": "v4.1",
   "generated_at": "2026-06-03T12:57:33.122972",
-  "total": 328,
+  "total": 329,
   "has_full_text": 321,
   "pending_full_text": 0,
   "poems": [
@@ -2204,6 +2204,18 @@
       ],
       "has_full_text": true,
       "coreVerse": "奉诏押宴，字字珠玑。"
+    },
+    {
+      "id": "S181",
+      "title": "挽父诗文、江淮行旅杂咏",
+      "type": "诗",
+      "year": 1066,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "coreVerse": "情真意切，格调沉郁哀婉"
     },
     {
       "id": "W001",

@@ -536,6 +536,7 @@
   line-height: 28px;
   color: var(--ip-on-surface-variant);
   margin: 0 0 24px;
+  text-align: left;
 }
 @media (min-width: 768px) {
   .ip-hero-body {
@@ -545,7 +546,7 @@
 }
 .ip-hero-em {
   font-family: 'Noto Serif SC', serif;
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   color: var(--ip-secondary);
   margin: 0 0 32px;

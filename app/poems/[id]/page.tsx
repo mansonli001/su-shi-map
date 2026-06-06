@@ -116,7 +116,7 @@ export default function PoemDetailPage() {
           if (idxPoem) {
             processedPoem.title = idxPoem.title || '未知诗词';
             processedPoem.type = idxPoem.type || '诗';
-            processedPoem.paragraphs = ['诗词内容暂未收录，请期待后续更新'];
+            processedPoem.paragraphs = ['诗在路上，尚未抵达', '三千余首，仍在一首一首整理。', '这里的篇章，稍后见。', '', '——「腹有诗书气自华」'];
           }
         }
         

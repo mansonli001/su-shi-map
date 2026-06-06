@@ -57,6 +57,7 @@ type RouteDetail = {
       category?: string;
       year_estimate?: string | number;
       note?: string;
+      poem_id?: string;
     }>;
   };
   track_segments?: Array<{
@@ -112,10 +113,35 @@ export default function RouteDetailPage({ params }: { params: { id: string } }) 
     return (
       <div className="rd-root">
         <div className="rd-empty">
-          <p>未找到路线 {params.id}</p>
-          <Link href="/routes" className="rb-cta-btn">
-            ← 返回路线列表
-          </Link>
+          <div className="text-center py-10 px-4">
+            <div className="mb-5 flex justify-center text-ink-lt/30">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 12L8 16V36L16 32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M16 12L24 16V36L16 32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M32 12L24 16V36L32 32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M32 12L40 16V36L32 32" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="24" cy="24" r="2" stroke="currentColor" strokeWidth="1.5"/>
+              </svg>
+            </div>
+            <h3 className="font-wenkai mb-3" style={{ fontSize: '17px', color: '#1a1410', fontWeight: 500 }}>
+              二十条路线，正在铺开
+            </h3>
+            <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+              每条路线都是一段独立故事，
+            </p>
+            <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+              正在逐条整理史料与地点。
+            </p>
+            <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+              地图上的足迹已在，
+            </p>
+            <p className="font-wenkai" style={{ fontSize: '14px', color: '#6b5d54', lineHeight: 1.8 }}>
+              路线叙事稍后见。
+            </p>
+            <Link href="/routes" className="font-wenkai text-[13px] text-gold-m hover:text-gold-d underline underline-offset-4 transition-colors mt-4 inline-block">
+              ← 返回路线列表
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -280,7 +306,16 @@ export default function RouteDetailPage({ params }: { params: { id: string } }) 
               <div className="rd-works-lbl">代表作 · {route.literary_output.representative_works!.length} 篇</div>
               <div className="rd-works-list">
                 {route.literary_output.representative_works!.map((w, i) => (
-                  <div key={i} className="rd-work">
+                  <div 
+                    key={i} 
+                    className="rd-work"
+                    onClick={() => {
+                      if (w.poem_id) {
+                        router.push(`/poems/${w.poem_id}`);
+                      }
+                    }}
+                    style={{ cursor: w.poem_id ? 'pointer' : 'default' }}
+                  >
                     <div className="rd-work-title">《{w.title}》</div>
                     {w.category && <span className="rd-work-cat">{w.category}</span>}
                     {w.year_estimate && (

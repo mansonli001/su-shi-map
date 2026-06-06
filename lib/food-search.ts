@@ -180,7 +180,36 @@ function parseRating(raw: unknown): number | undefined {
 }
 
 /**
- * 苏轼特供美食 JSON 数据类型
+ * 新的按地点绑定的苏轼美食数据类型
+ */
+export interface LocalFoodItem {
+  id: string;
+  name: string;
+  alias?: string;
+  desc: string;
+  source_text: string;
+  source_work: string;
+  confidence: "A" | "B" | "C";
+  story?: string;
+  tags?: string[];
+}
+
+interface FoodsByPlace {
+  version: string;
+  updatedAt: string;
+  description: string;
+  places: Record<string, {
+    name: string;
+    foods: LocalFoodItem[];
+  }>;
+  shared_foods?: {
+    description: string;
+    items: any[];
+  };
+}
+
+/**
+ * 兼容性保留：旧的 FoodItem 接口
  */
 export interface FoodItem {
   id: string;
@@ -194,10 +223,41 @@ export interface FoodItem {
 }
 
 let _sushiFoodsPromise: Promise<FoodItem[]> | null = null;
+let _foodsByPlacePromise: Promise<FoodsByPlace | null> | null = null;
 
 /**
- * 获取苏轼特供美食列表（带模块级单 Promise 缓存）
- * @param routeId 可选，按路线筛选
+ * 获取按地点绑定的美食数据（新数据结构）
+ */
+export async function getFoodsByPlace(): Promise<FoodsByPlace | null> {
+  // 每次调用都重新加载，确保获取最新数据
+  try {
+    const response = await fetch('/data-v4/foods-by-place.json?' + Date.now());
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const data = await response.json();
+    return data as FoodsByPlace;
+  } catch (e: unknown) {
+    const msg = e instanceof Error ? e.message : String(e);
+    logger.warn('[food-search] foods-by-place.json 加载失败', msg);
+    return null;
+  }
+}
+
+/**
+ * 获取特定地点的苏轼特供美食
+ * @param placeId 地点ID
+ */
+export async function getSushiFoodsByPlace(placeId: string): Promise<LocalFoodItem[]> {
+  const foodsByPlace = await getFoodsByPlace();
+  if (!foodsByPlace) return [];
+  
+  const placeData = foodsByPlace.places[placeId];
+  if (!placeData) return [];
+  
+  return placeData.foods || [];
+}
+
+/**
+ * 兼容性保留：旧的 getSushiSpecialFoods 函数（返回旧格式数据）
  */
 export async function getSushiSpecialFoods(routeId?: string): Promise<FoodItem[]> {
   if (!_sushiFoodsPromise) {

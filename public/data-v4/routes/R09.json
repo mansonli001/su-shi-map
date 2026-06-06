@@ -115,13 +115,15 @@
         "title": "湖州谢上表",
         "category": "表文",
         "note": "触发乌台诗案的关键奏表",
-        "year_estimate": 1079
+        "year_estimate": 1079,
+        "poem_id": "W008"
       },
       {
         "title": "狱中寄子由二首",
         "category": "诗作",
         "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」",
-        "year_estimate": 1079
+        "year_estimate": 1079,
+        "poem_id": "S069"
       }
     ],
     "style_features": "前期清丽山水闲适，后期沉郁悲怆、自省内敛，开启贬谪文学心路先河"

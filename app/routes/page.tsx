@@ -38,6 +38,7 @@ type StageIdx = {
 function stageBadge(stageId?: string): { label: string; cls: string } {
   switch (stageId) {
     case 'S1':
+      return { label: '少年', cls: 'rb-badge-tour' };
     case 'S3':
       return { label: '蜕变', cls: 'rb-badge-exile' };
     case 'S5':
@@ -81,7 +82,7 @@ export default function RoutesListPage() {
           const b = stageBadge(r.stage_id).label;
           if (filter === 'office') return b === '仕途';
           if (filter === 'exile') return b === '贬谪' || b === '蜕变';
-          if (filter === 'tour') return b === '游历' || b === '终老';
+          if (filter === 'tour') return b === '归途' || b === '终老' || b === '少年';
           return true;
         })
         .sort((a, b) => a.index - b.index),
@@ -117,7 +118,7 @@ export default function RoutesListPage() {
             { k: 'all', label: `全部 ${total}` },
             { k: 'office', label: '仕途' },
             { k: 'exile', label: '贬谪' },
-            { k: 'tour', label: '游历' },
+            { k: 'tour', label: '归途' },
           ].map((c) => (
             <button
               key={c.k}
