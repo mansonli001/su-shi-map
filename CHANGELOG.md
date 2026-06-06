@@ -4,6 +4,62 @@
 
 ---
 
+### 43. 全站 logo 替换 v9.3「行吟山河」品牌可视化（Layer B 中庸版）
+
+**问题现状**：项目此前**没有任何 logo 图片**——所有"行吟山河"品牌位都是 CSS 渐变文字，浏览器 tab/PWA 应用图标用的是 v1 自制"山"字小图（`favicon.svg` 516B + `pwa-*.png` 同款位图）。
+
+**新资源**（`/Users/mansonlee/Downloads/苏轼行踪考/files.zip` → `xingyin_logo2_assets.zip`）：
+- `logo_1024_transparent.png` 主 logo · 透明底
+- `logo_1024_paper.png` 米白宣纸底版（备用）
+- `logo_nav_transparent.png` **800×160 横版**（5:1，专为导航位准备）
+- `pwa/icon-{72,96,128,144,152,192,384,512}.png` 全 8 尺寸
+- `favicon.ico` 新版
+
+**三层替换**：
+
+**Layer 1 · 浏览器/PWA 元数据**
+| 操作 | 位置 |
+|------|------|
+| 替换 | `public/favicon.ico` ← 新版 |
+| 替换 | `public/icons/pwa-{192,512}.png` ← 新版 |
+| 新增 | `public/icons/pwa-{72,96,128,144,152,384}.png` 全尺寸补齐 |
+| 重新生成 maskable | Python PIL：`logo_1024_transparent` 缩到 410×410（80% 安全区） + 米白宣纸底 #F5E6C8 padding 到 512×512 → `pwa-maskable-512.png` |
+| 删除 SVG | `public/favicon.svg` 移除（新版未提供 SVG，新位图 .ico 已足够） |
+| 更新 | `app/layout.tsx` `icons.icon` 改为多尺寸 PNG 数组，`apple` 升级为 152/192 双档 |
+| 更新 | `public/manifest.json` icons 数组扩展为 9 项（含 maskable） |
+
+**Layer 2 · brand 资产新增**
+- `public/brand/logo.png`（= 1024 透明，主图）
+- `public/brand/logo-paper.png`（米白宣纸底，备用）
+- `public/brand/logo-nav.png`（800×160 横版）
+
+**Layer 3 · UI 真正用上 logo（中庸版）**
+- `components/Home/HomeLanding.tsx`：左侧竖排导航 `ip-sidenav-seal` 圆形容器内 material icon `account_balance` → 真 logo 56×56 居中
+- `components/LeftSidebar.tsx` 桌面版（200px 米白边栏）：标题区 `<h2>行吟山河</h2>` 上方加横版 logo 130×26（5:1）
+- `components/LeftSidebar.tsx` 移动版（68vh 抽屉）：标题区同处理，logo 150×30
+- Hero 大标题、关于页、OG 分享卡仍保留 CSS 渐变文字（更轻、更糊不掉、与 OG 拼字一致）
+
+**为什么选 B 而不是 A/C**：
+- A 仅换浏览器 tab → 800×160 横版 logo 浪费
+- C 全量图片化 → 移动端不同字号下纯 CSS 文字更灵活，且 OG 分享卡用拼字更稳
+- B 导航/侧栏品牌位用图（5:1 横版正好），其余文字保留 → 视觉冲击中等、风险低
+
+**验证**（`./node_modules/.bin/next dev -p 3000`）：
+```
+200  /brand/logo.png        200  /brand/logo-nav.png       200  /brand/logo-paper.png
+200  /favicon.ico           200  /icons/pwa-72.png         200  /icons/pwa-192.png
+200  /icons/pwa-512.png     200  /icons/pwa-maskable-512.png   200  /manifest.json
+404  /favicon.svg（应 404 ✓）
+```
+
+**安全清单**：
+- ✅ 资源全部本地化到 `public/`，不引外链 → 无 SSRF/CSP 问题
+- ✅ `<img src="/brand/...">` 走 Next 静态路径 → React 自动转义无 XSS
+- ✅ 旧资源备份到 `backup-20260606/icons-old/`（5 个文件：favicon.ico/svg + pwa-192/512/maskable-512）
+- ✅ 仅 frontend 静态资源改动，无后端逻辑/API/secrets 涉及
+
+---
+
 ### 42. 234 个 place 全量补齐 lat/lng（修复 42 个无坐标地点）
 
 **问题现象**：扫库发现 `public/data-v4/places/` 下 42 个 place JSON 缺 `lat/lng`，分布在两类：

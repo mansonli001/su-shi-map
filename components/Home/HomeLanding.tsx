@@ -36,9 +36,14 @@ export default function HomeLanding() {
       <nav className="ip-sidenav" aria-label="主导航">
         <div className="ip-sidenav-header">
           <div className="ip-sidenav-seal" aria-hidden="true">
-            <span className="material-symbols-outlined" style={{ fontSize: 32 }}>
-              account_balance
-            </span>
+            {/* v9.3 真 logo（替换 material icon account_balance） */}
+            <img
+              src="/brand/logo.png"
+              alt=""
+              width={56}
+              height={56}
+              style={{ width: 56, height: 56, objectFit: 'contain', display: 'block' }}
+            />
           </div>
           <h1 className="ip-sidenav-title">行吟山河</h1>
           <p className="ip-sidenav-en">Xingyin Shanhe</p>

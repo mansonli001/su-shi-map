@@ -92,6 +92,14 @@ export default function LeftSidebar() {
         className="px-4 py-3"
         style={{ borderBottom: `1px solid ${INK.hairlineSoft}` }}
       >
+        {/* v9.3 横版 logo（800x160 → 渲染 130x26，5:1） */}
+        <img
+          src="/brand/logo-nav.png"
+          alt="行吟山河"
+          width={130}
+          height={26}
+          style={{ width: 130, height: 26, objectFit: 'contain', display: 'block', marginBottom: 6 }}
+        />
         <h2
           className="font-wenkai"
           style={{
@@ -301,6 +309,14 @@ export default function LeftSidebar() {
         <div className="w-10 h-1 rounded-full mb-3" style={{ background: INK.hairline }} />
         <div className="w-full flex items-center justify-between">
           <div>
+            {/* v9.3 横版 logo（移动版略大 150x30） */}
+            <img
+              src="/brand/logo-nav.png"
+              alt="行吟山河"
+              width={150}
+              height={30}
+              style={{ width: 150, height: 30, objectFit: 'contain', display: 'block', marginBottom: 4 }}
+            />
             <h2
               className="font-wenkai"
               style={{

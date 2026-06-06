@@ -33,10 +33,14 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   icons: {
     icon: [
-      { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico' },
+      { url: '/icons/pwa-192.png', type: 'image/png', sizes: '192x192' },
+      { url: '/icons/pwa-512.png', type: 'image/png', sizes: '512x512' },
     ],
-    apple: '/icons/pwa-192.png',
+    apple: [
+      { url: '/icons/pwa-152.png', sizes: '152x152' },
+      { url: '/icons/pwa-192.png', sizes: '192x192' },
+    ],
   },
   // Open Graph（微信分享卡片 / 朋友圈预览）
   openGraph: {
