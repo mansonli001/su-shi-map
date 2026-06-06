@@ -83,5 +83,8 @@
       "significance": "route05",
       "id": "p107-evt-001"
     }
-  ]
+  ],
+  "lat": 35.95,
+  "lng": 119.34,
+  "_latlng_source": "manual"
 }

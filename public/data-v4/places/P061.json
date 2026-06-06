@@ -73,5 +73,8 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:46.000Z"
+  "amap_updated_at": "2026-06-03T05:14:46.000Z",
+  "lat": 33.26,
+  "lng": 118.78,
+  "_latlng_source": "preset"
 }

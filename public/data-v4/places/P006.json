@@ -94,5 +94,8 @@
       "significance": "career",
       "id": "p006-evt-001"
     }
-  ]
+  ],
+  "lat": 34.79,
+  "lng": 114.34,
+  "_latlng_source": "preset"
 }

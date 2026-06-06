@@ -4,6 +4,36 @@
 
 ---
 
+### 42. 234 个 place 全量补齐 lat/lng（修复 42 个无坐标地点）
+
+**问题现象**：扫库发现 `public/data-v4/places/` 下 42 个 place JSON 缺 `lat/lng`，分布在两类：
+- 21 个**线性/区域地物**：长江/汴河/赣江/京杭大运河/茅山/巴蜀古道/北部湾海岸 等，本身没有"一个点"
+- 21 个**城市/具体足迹**：博白/海康/沂蒙/汉中/大庾岭/卢山 等，应该有具体坐标但漏录
+
+部分点 `places-index.json` 里残留 `core_curated` 兜底坐标（如 P004 北部湾海岸 21.5/109.5），但 per-place 文件留空，造成**双源漂移**——前端 store 拿到 index 占位坐标，详情页拿到 null，行为不一致。
+
+**修复方案**（脚本 `scripts/fix-missing-latlng.py`）：
+
+| 类别 | 数量 | 处理 | 标记 |
+|------|------|------|------|
+| 线性/区域地物 | 21 | 人工指定代表点（最贴近文中具体足迹的那个端点/中心） | `_latlng_source: "preset"` / `coordinate_source: "manual_preset"` |
+| 城市/具体足迹 | 19 | `modern_name + province + city` → 高德 Web Service `/v3/geocode/geo` | `_latlng_source: "amap"` / `coordinate_source: "amap_geocode"` |
+| geocode 失败手工补 | 2 | P107 诸城卢山、P193 汉中 | `_latlng_source: "manual"` |
+
+**双源同步**：脚本同时回写 `public/data-v4/places/PXXX.json`（per-place）和 `public/data-v4/places-index.json`（store 用），遵守 v6.1 工程化加固铁律。
+
+**结果**：234/234 全部就位，0 缺坐标。其中 4 个原有 `core_curated` 占位坐标被更精准的 amap 结果覆盖（如 P002 博白：22.2754/109.9758 → 22.2735/109.9759，<200m 偏移；P004 北部湾海岸：21.5/109.5 → 21.65/108.65，纠正到防城港代表点）。
+
+**安全清单**：
+- ✅ AMAP key 从 `.env.local` 读，不进脚本/不进 git（`.gitignore` 已覆盖）
+- ✅ 输入参数全部 URL encode，输出走 `urllib.parse.quote`
+- ✅ 上游域名固定 `restapi.amap.com`，无用户传入 URL
+- ✅ 失败 fallback 不爆错，仅打印警告，由人工二次补
+
+**遗留**：脚本是一次性工具，已留档 `scripts/fix-missing-latlng.py` 备复盘；后续如再有新 place，应在录入流程里强制 lat/lng 必填，而非依赖事后扫描。
+
+---
+
 ### 41. 「食在附近」从 JSAPI 切到服务端 Web Service（修复"连高德也沉默了"）
 
 **问题现象**：点开任意苏轼足迹点，「食在附近 · 古今同乐」一栏长期显示「连高德也沉默了」空状态。实际附近不缺餐厅（成都锦江点位 37m 内就有库迪咖啡），是接口拉不出来。

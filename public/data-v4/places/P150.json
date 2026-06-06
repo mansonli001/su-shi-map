@@ -100,5 +100,8 @@
       "significance": "literary",
       "id": "p150-evt-001"
     }
-  ]
+  ],
+  "lat": 30.45,
+  "lng": 115.27,
+  "_latlng_source": "preset"
 }

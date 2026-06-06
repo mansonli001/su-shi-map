@@ -258,5 +258,8 @@
       "significance": "route17",
       "id": "p039-026"
     }
-  ]
+  ],
+  "lat": 38.516746,
+  "lng": 114.990321,
+  "_latlng_source": "geocode"
 }
