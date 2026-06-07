@@ -87,37 +87,40 @@ export default function ProfilePage() {
           gap: '16px',
         }}
       >
-        {/* v9.3.2 头像替换为品牌 logo（与首页一致） */}
+        {/* v9.3.2 头像替换为品牌 logo（与首页一致）；v9.3.6 logo 缩到与右侧两行文字等高 */}
         <img
           src="/brand/logo.png"
           alt="行吟山河"
-          width={96}
-          height={96}
+          width={56}
+          height={56}
           style={{
-            width: '96px',
-            height: '96px',
+            width: '56px',
+            height: '56px',
             objectFit: 'contain',
             display: 'block',
             flexShrink: 0,
           }}
         />
-        <div style={{ textAlign: 'left' }}>
+        <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '56px' }}>
           <h1
             style={{
-              fontSize: '20px',
+              fontSize: '22px',
               fontWeight: 600,
               color: INK.ink,
-              marginBottom: '6px',
+              margin: 0,
               letterSpacing: '0.06em',
+              lineHeight: 1,
             }}
           >
             行吟山河
           </h1>
           <p
             style={{
-              fontSize: '12px',
+              fontSize: '13px',
               color: INK.inkLite,
               letterSpacing: '0.1em',
+              lineHeight: 1,
+              margin: 0,
             }}
           >
             追随苏轼足迹，品读千古诗词

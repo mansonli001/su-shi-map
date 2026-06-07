@@ -4,6 +4,28 @@
 
 ---
 
+### 48. v9.3.6 /profile 顶部 logo 缩到与右侧两行文字等高
+
+**触发**：用户截图反馈 v9.3.5 横排后 logo（96×96）远大于右侧两行文字，视觉失衡，要求「图片和 2 行文字等高」。
+
+**改动**：`app/profile/page.tsx` 顶部身份区：
+- logo 96×96 → 56×56
+- 文字块改为 `display: flex / flexDirection: column / justifyContent: space-between / height: 56px`，强制与 logo 等高
+- h1 fontSize 20→22，p fontSize 12→13，两者 `lineHeight: 1` + `margin: 0`，让两行文字精确撑满 56px 高度
+
+**为什么这样改**：
+- 用 `space-between` + 固定高度确保「文字块顶 = logo 顶 / 文字块底 = logo 底」，标题和副标题分别贴上下边缘，logo 边缘与之对齐
+- `lineHeight: 1` 去掉浏览器默认行高余量，避免文字看起来「漂在中间」
+- 字号略增（22/13）补偿 lineHeight 收紧后的视觉重量
+
+**验证**：lint 0 error
+
+**安全清单**：✅ 仅静态样式
+
+**改动文件**：`app/profile/page.tsx`（1 个）
+
+---
+
 ### 47. v9.3.5 /profile 顶部身份区改横排（左 logo + 右文字）
 
 **触发**：用户截图反馈 `/profile` 页顶部 logo 居中、「行吟山河」+「追随苏轼足迹，品读千古诗词」堆在 logo 下方，「文字应该在右侧」。
