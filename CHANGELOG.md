@@ -4,6 +4,70 @@
 
 ---
 
+### 66. BUG-NAV-002 v5 — 真·最终修复：抽屉抬到 BottomNav + 时间轴之上（v2/v3/v4 都漏的层级遮挡）
+
+**用户反馈**（18:39 三次反馈 + 截图实证）：v4 推上去后抽屉弹不起来更高，且滚动到底也看不全数据。
+
+**v4 漏掉的根本性问题** — **层级遮挡**：
+
+| 层级 | 元素 | z-index | 位置 |
+|---|---|---|---|
+| 1010 | StageTimelineBar | 高 | bottom: 56px+safe（在 BottomNav 上方，高约 88px） |
+| 1000 | BottomNav | 中 | bottom: 0，高 56px+safe |
+| **50** | **PlaceCard 抽屉** | **低** | **bottom: 0** |
+
+- 抽屉 z-50 比时间轴 z-1010 和 BottomNav z-1000 都低
+- 抽屉 anchor 在 `bottom: 0`，下方约 170px 一直被时间轴+导航栏盖住
+- 无论 collapsed/expanded、无论怎么滚，被遮挡的内容永远看不见
+- v2/v3/v4 全部在折腾 height/translateY/drag，**完全没有意识到层级遮挡才是 root cause**
+
+**额外问题**（"弹不起来更高"）：
+- v4 用 `dragControls.start(e)` 在手柄上 onPointerDown 启动 drag
+- 这会抢占指针事件，把 onClick 给吞了
+- 用户点手柄无法触发 setExpanded toggle → 看起来"弹不起来"
+
+**v5 改造**（一刀切）：
+1. `app/globals.css` 新增 CSS 变量 `--timeline-height: 88px`（与 StageTimelineBar 实测高度一致）
+2. PlaceCard 抽屉锚点上移：
+   - `bottom: calc(var(--bottom-nav-height) + var(--timeline-height) + env(safe-area-inset-bottom, 0px))`
+   - 整个抽屉完全位于障碍物上方，零遮挡
+3. 高度策略调整：
+   - collapsed: `min(58dvh, 480px)` — 短设备友好
+   - expanded: `calc(100dvh - 障碍物 - env(safe-area-inset-top) - 16px)` — 真正最大化可见区
+   - maxHeight: 同 expanded
+4. 去掉 drag/dragControls/onDragEnd（drag-to-close 是 nice-to-have，但一直在制造 bug）：
+   - 关闭依赖 overlay 点击（已实现）
+   - 手柄改为 `<button onClick={切换 expanded}>` —— 立即响应，零拦截
+5. 内容区 `overflow-y-auto flex-1 min-h-0` 不变，由于抽屉完全可见，scroll 到底就是真到底
+
+**v2/v3/v4/v5 四轮 root cause 演进**：
+
+| 版本 | 误判根因 | 实际现象 |
+|---|---|---|
+| v2 | 以为是 translateY 推下去导致溢出错算 | 内层 overflow 仍按 92dvh 算 |
+| v3 | 以为是 height 不变导致内层不溢出 | drag listener 拦截手势 |
+| v4 | 以为只是 drag 拦截了内容区滚动 | **完全没看到 z-50 抽屉被 z-1010 时间轴 + z-1000 BottomNav 盖住** |
+| v5 | **真因：层级遮挡 + onClick 被 drag 吞** | 抬到障碍物上方 + 去 drag |
+
+**改动**：
+- `app/globals.css`：+1 CSS 变量 `--timeline-height: 88px`
+- `components/place/PlaceCard.tsx`：
+  - 删除 `useDragControls` import + `dragControls` state + `handleDragEnd` 函数
+  - motion.div 删除 `drag/dragListener/dragControls/dragConstraints/dragElastic/onDragEnd`，新增 `bottom: calc(...)` style
+  - 高度调整为 `min(58dvh, 480px)` / `calc(100dvh - 障碍物 - 16px)`
+  - 拖拽手柄改 `<button onClick>`
+
+**健康检查**：
+- TypeScript ✅ 0 error
+- read_lints ✅ 0 error
+
+**教训**（写进 v5 复盘）：
+- 抽屉滚动/可见性问题，第一性排查顺序应该是：**层级遮挡 → drag 拦截 → height/overflow**
+- 不是反过来。v2/v3/v4 都把"看不见"和"滚不动"当成同一个问题，但前者是 z-index/positioning 的问题，后者才是 overflow/drag 的问题
+- 截图比文字描述强 100 倍。这次用户发了截图，"被时间轴盖住"一目了然，30 秒定位 root cause
+
+---
+
 ### 65. BUG-NAV-002 v4 — 终极修复：drag 拦截手势（v3 仍漏，"详情能滚概览不能滚"真凶）
 
 **用户反馈**（18:33 二次反馈）：v3 推上去后概览页仍然滚不动，但详情页可以。

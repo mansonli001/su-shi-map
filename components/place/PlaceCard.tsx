@@ -12,7 +12,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence, PanInfo, useDragControls } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
 import Link from 'next/link';
@@ -177,8 +177,6 @@ export default function PlaceCard({ place }: PlaceCardProps) {
   const [detailLoading, setDetailLoading] = useState(false);
   const [showCheckinSuccess, setShowCheckinSuccess] = useState(false);
   const [showUpgradeOptions, setShowUpgradeOptions] = useState(false);
-  // BUG-NAV-002 v4：drag 仅由拖拽手柄触发，内容区原生滚动
-  const dragControls = useDragControls();
 
   // 获取当前地点的打卡信息
   const currentCheckin = checkinPlaces.find(c => c.placeId === place.id);
@@ -208,10 +206,6 @@ export default function PlaceCard({ place }: PlaceCardProps) {
     return () => ctrl.abort();
   }, [place, isCardOpen]);
 
-  const handleDragEnd = (_event: any, info: PanInfo) => {
-    if (info.offset.y > 100) closeCard();
-  };
-
   // 优先使用 designType（v4 10类），与地图marker图标一致
   const displayType = (place as any).designType || place.type;
   const chip = TYPE_CHIP[displayType] || TYPE_CHIP.tour;
@@ -240,50 +234,51 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             onClick={closeCard}
           />
 
-          {/* 半屏卡片 — BUG-NAV-002 v4 终极修复：drag 仅绑定拖拽手柄，内容区交给原生滚动
-              v3 失效根因（用户 6/8 18:33 反馈，详情页能滚但概览页不能滚）：
-                v3 把 motion.div 的 drag="y" 加在整个抽屉上，framer-motion 会监听整个抽屉的
-                pointerdown/touchstart 事件，把它当作"准备拖动"截获。
-                - DetailView 内容长（>容器高度），浏览器 native scroll 抢先生效，drag 让位 → 能滚
-                - 概览页内容短（≈容器高度），drag listener 吞掉手势 → 滚不动
-                这就是"详情能滚、概览不能滚"的根本原因。
-              v4 改造（参考 framer-motion 官方 BottomSheet 写法）：
-                1) motion.div 上加 dragListener={false}，不在抽屉本体监听 pointer；
-                2) useDragControls() 创建受控 dragControls；
-                3) 仅在拖拽手柄上 onPointerDown={(e) => dragControls.start(e)} 主动启动；
-                4) 内容区彻底交给浏览器 native overflow scroll，零干扰；
-                5) 手柄 onClick 仍切换 expanded，drag/click 由 framer-motion 自动区分。 */}
+          {/* 半屏卡片 — BUG-NAV-002 v5 真·最终修复：抽屉抬到 BottomNav + StageTimelineBar 之上
+              v4 失效根因（用户 6/8 18:39 反馈 + 截图实证）：
+                v4 把 drag 限定到手柄虽然让内容区能滚，但漏掉了根本性的「层级遮挡」问题：
+                - PlaceCard 抽屉 z-50，bottom: 0
+                - StageTimelineBar z-1010，bottom: 56+safe（在 BottomNav 之上）
+                - BottomNav z-1000，bottom: 0，高 56+safe
+                结果：抽屉下方约 170px 一直被时间轴+导航栏盖住，再怎么 expanded 或滚动，
+                被遮挡的内容永远看不见 → 用户看不全数据。
+                同时 dragControls.start(e) 抢占 onPointerDown，把 onClick 给吞了 → 「弹不起来更高」。
+              v5 改造（一刀切）：
+                1) 抽屉 bottom = calc(timeline-height + bottom-nav-height + safe-area)，
+                   整个抽屉完全位于障碍物上方，不再被遮挡；
+                2) collapsed = min(58dvh, 480px)；expanded = 100dvh - 障碍物 - 16px，
+                   可见区域真正最大化；
+                3) 去掉 drag/dragControls/onDragEnd，简化为纯 onClick 切换 expanded —
+                   关闭依赖 overlay 点击（已实现），不再需要拖拽关；
+                4) 内容区原生 overflow scroll，零干扰，能滚到最后一个像素。 */}
           <motion.div
             initial={{ height: 0 }}
             animate={{
               height: expanded
-                ? 'calc(92dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))'
-                : 'calc(62dvh - env(safe-area-inset-bottom, 0px))',
+                ? 'calc(100dvh - var(--bottom-nav-height) - var(--timeline-height) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 16px)'
+                : 'min(58dvh, 480px)',
             }}
             exit={{ height: 0 }}
             transition={{ type: 'spring', damping: 30, stiffness: 280 }}
-            drag="y"
-            dragListener={false}
-            dragControls={dragControls}
-            dragConstraints={{ top: 0, bottom: 0 }}
-            dragElastic={{ top: 0, bottom: 0.3 }}
-            onDragEnd={handleDragEnd}
-            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto flex flex-col overflow-hidden"
+            className="fixed left-0 right-0 z-50 md:max-w-2xl md:mx-auto flex flex-col overflow-hidden"
             style={{
               background: 'var(--card)',
               borderRadius: '18px 18px 0 0',
               boxShadow: '0 -10px 40px rgba(26,16,8,0.18)',
-              maxHeight: 'calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
+              // 关键：抬到 BottomNav + StageTimelineBar + safe-area 之上，确保整个抽屉可见
+              bottom: 'calc(var(--bottom-nav-height) + var(--timeline-height) + env(safe-area-inset-bottom, 0px))',
+              maxHeight: 'calc(100dvh - var(--bottom-nav-height) - var(--timeline-height) - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px) - 16px)',
             }}
           >
-            {/* 拖拽手柄 — drag 触发器（v4：仅手柄启动 drag，内容区不被拦截） */}
-            <div
-              onPointerDown={(e) => dragControls.start(e)}
+            {/* 拖拽手柄 — 纯 onClick 切换 expanded（v5：去掉 drag 干扰，点击立即响应） */}
+            <button
+              type="button"
               onClick={() => setExpanded((v) => !v)}
-              className="cursor-grab active:cursor-grabbing pt-3 pb-2 shrink-0 touch-none"
+              aria-label={expanded ? '收起卡片' : '展开卡片'}
+              className="w-full pt-3 pb-2 shrink-0 cursor-pointer hover:bg-paper-2/30 transition-colors"
             >
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
-            </div>
+            </button>
 
             {/* 内容区：flex-1 撑满 + min-h-0 让 overflow 生效 + sheet-scroll iOS 顺滑滚动 */}
             <div

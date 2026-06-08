@@ -27,6 +27,8 @@
 :root {
   /* === 布局尺寸变量 === */
   --bottom-nav-height: 56px;
+  /* StageTimelineBar 实测高度（阶段名 + 进度条 + 年份行 + py-2 padding） */
+  --timeline-height: 88px;
   --safe-area-bottom: env(safe-area-inset-bottom);
   --header-height: 56px;
 
