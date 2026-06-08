@@ -12,7 +12,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { motion, AnimatePresence, PanInfo } from 'framer-motion';
+import { motion, AnimatePresence, PanInfo, useDragControls } from 'framer-motion';
 import { useSuShiStore } from '@/lib/store';
 import { PlaceCore } from '@/types';
 import Link from 'next/link';
@@ -177,6 +177,8 @@ export default function PlaceCard({ place }: PlaceCardProps) {
   const [detailLoading, setDetailLoading] = useState(false);
   const [showCheckinSuccess, setShowCheckinSuccess] = useState(false);
   const [showUpgradeOptions, setShowUpgradeOptions] = useState(false);
+  // BUG-NAV-002 v4：drag 仅由拖拽手柄触发，内容区原生滚动
+  const dragControls = useDragControls();
 
   // 获取当前地点的打卡信息
   const currentCheckin = checkinPlaces.find(c => c.placeId === place.id);
@@ -238,18 +240,19 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             onClick={closeCard}
           />
 
-          {/* 半屏卡片 — BUG-NAV-002 v3 真·真修复：collapsed/expanded 用 height 切换，不用 transform
-              v2 失效根因（用户 6/8 18:26 反馈）：
-                v2 用 translateY(38%) 让抽屉缩起来，但外层 height 仍 = 92dvh。
-                结果：内层 overflow-y-auto 按 92dvh 算溢出，但概览页内容（≈600px）< 92dvh →
-                浏览器判定"未溢出"→ 滚不动；而推下去的 38% 又被 BottomNav 遮住 → 看不全。
-                DetailView 能滚是因为内容 > 92dvh 触发原生溢出，掩盖了 collapsed 态的 bug。
-              v3 改造：
-                1) 抛弃 translateY，改用 animate height 让顶部上推/下拉；
-                2) bottom:0 固定 → 高度变化 = 自然吸底动画，spring 平滑过渡；
-                3) collapsed = 62dvh / expanded = 92dvh，滚动容器等于实际可见区；
-                4) 内层 flex-1 min-h-0 overflow-y-auto，无论哪态内容超出立即可滚；
-                5) 拖拽手柄保留，向下拖 >100px 关闭，点击仍切换 expanded。 */}
+          {/* 半屏卡片 — BUG-NAV-002 v4 终极修复：drag 仅绑定拖拽手柄，内容区交给原生滚动
+              v3 失效根因（用户 6/8 18:33 反馈，详情页能滚但概览页不能滚）：
+                v3 把 motion.div 的 drag="y" 加在整个抽屉上，framer-motion 会监听整个抽屉的
+                pointerdown/touchstart 事件，把它当作"准备拖动"截获。
+                - DetailView 内容长（>容器高度），浏览器 native scroll 抢先生效，drag 让位 → 能滚
+                - 概览页内容短（≈容器高度），drag listener 吞掉手势 → 滚不动
+                这就是"详情能滚、概览不能滚"的根本原因。
+              v4 改造（参考 framer-motion 官方 BottomSheet 写法）：
+                1) motion.div 上加 dragListener={false}，不在抽屉本体监听 pointer；
+                2) useDragControls() 创建受控 dragControls；
+                3) 仅在拖拽手柄上 onPointerDown={(e) => dragControls.start(e)} 主动启动；
+                4) 内容区彻底交给浏览器 native overflow scroll，零干扰；
+                5) 手柄 onClick 仍切换 expanded，drag/click 由 framer-motion 自动区分。 */}
           <motion.div
             initial={{ height: 0 }}
             animate={{
@@ -260,6 +263,8 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             exit={{ height: 0 }}
             transition={{ type: 'spring', damping: 30, stiffness: 280 }}
             drag="y"
+            dragListener={false}
+            dragControls={dragControls}
             dragConstraints={{ top: 0, bottom: 0 }}
             dragElastic={{ top: 0, bottom: 0.3 }}
             onDragEnd={handleDragEnd}
@@ -271,10 +276,11 @@ export default function PlaceCard({ place }: PlaceCardProps) {
               maxHeight: 'calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
             }}
           >
-            {/* 拖拽手柄（固定高度，不参与滚动） */}
+            {/* 拖拽手柄 — drag 触发器（v4：仅手柄启动 drag，内容区不被拦截） */}
             <div
-              onPointerDown={() => setExpanded((v) => !v)}
-              className="cursor-grab active:cursor-grabbing pt-3 pb-2 shrink-0"
+              onPointerDown={(e) => dragControls.start(e)}
+              onClick={() => setExpanded((v) => !v)}
+              className="cursor-grab active:cursor-grabbing pt-3 pb-2 shrink-0 touch-none"
             >
               <div className="w-10 h-1 rounded-full mx-auto" style={{ background: 'rgba(186,117,23,0.4)' }} />
             </div>

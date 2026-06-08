@@ -4,6 +4,42 @@
 
 ---
 
+### 65. BUG-NAV-002 v4 — 终极修复：drag 拦截手势（v3 仍漏，"详情能滚概览不能滚"真凶）
+
+**用户反馈**（18:33 二次反馈）：v3 推上去后概览页仍然滚不动，但详情页可以。
+
+**真正根因**（v3 没找对）：
+- v3 把 `drag="y"` 加在整个 `motion.div`（抽屉本体）上
+- framer-motion 会监听抽屉所有 `pointerdown / touchstart` 事件，准备发起拖动
+- **DetailView 内容长（>容器高度）→ 浏览器 native scroll 抢先生效，drag 让位 → 能滚**
+- **概览页内容刚好临界（≈容器高度）→ drag listener 吞掉手势 → 滚不动**
+- 这就是"详情能滚、概览不能滚"的真正原因 — 跟 height/translateY 都无关
+
+**v4 方案**（参考 framer-motion 官方 BottomSheet 写法）：
+- 引入 `useDragControls()`，drag 改为受控触发
+- `motion.div` 加 `dragListener={false}` — 抽屉本体不监听 pointer 事件
+- 仅在拖拽手柄上 `onPointerDown={(e) => dragControls.start(e)}` 主动启动
+- 内容区彻底交给浏览器 native overflow scroll，零干扰
+- 手柄上同时保留 `onClick={切换 expanded}`，drag/click 由 framer-motion 自动区分（移动距离阈值）
+
+**改动**：`components/place/PlaceCard.tsx`
+- import 增 `useDragControls`
+- 加 `const dragControls = useDragControls();`
+- motion.div：`drag="y"` + `dragListener={false}` + `dragControls={dragControls}`
+- 手柄：`onPointerDown={(e) => dragControls.start(e)}` + `onClick={() => setExpanded(v => !v)}` + `touch-none`
+
+**健康检查**：
+- TypeScript ✅ 0 error
+- read_lints ✅ 0 error
+- 改动 4 处，1 文件
+
+**v2/v3/v4 三轮 root cause 演进**：
+- v2 误判：以为是 translateY 偏移导致溢出判断错
+- v3 误判：以为是 height 不变导致内层不溢出
+- v4 真因：是 drag listener 拦截手势 — 跟 transform/height 都无关
+
+---
+
 ### 64. BUG-NAV-002 v3 — 抽屉概览页无法滚动（v2 失效彻底修复）
 
 **用户反馈**（18:26 黄州截图）：点击地点后抽屉弹出，内容超出可见区被 BottomNav 遮挡，但**页内无法滚动**。部分详情页能滚，部分不能。
