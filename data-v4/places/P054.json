@@ -3,13 +3,13 @@
   "ancient_name": "广州",
   "modern_name": "广东广州",
   "type": "main",
-  "lat": 23.1291,
-  "lng": 113.2644,
+  "lat": 23.137978,
+  "lng": 113.265624,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼贬惠州、儋州时途经广州",
-  "background": "广州是岭南重镇，苏轼南贬时多次途经此地",
+  "background": "广州岭南首府，苏轼北归时再次途经。此番非贬谪路过，而是赦还归途，珠江帆影依旧、心境已大不同。",
   "tags": [
     "广州",
     "岭南",
@@ -32,6 +32,13 @@
       "description": "苏轼北归途经广州",
       "significance": "route20",
       "id": "p054-001"
+    },
+    {
+      "id": "p054-002",
+      "date": "1094年",
+      "title": "经广州赴惠州",
+      "description": "苏轼南贬经广州，游白云山蒲涧寺",
+      "significance": "贬谪途经"
     }
   ],
   "global_works": [],
@@ -86,17 +93,81 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.137978,
+      "lng": 113.265624,
+      "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)"
+    },
+    {
+      "name": "广州六榕寺",
+      "description": "苏轼题'六榕'二字，原名净慧寺",
+      "type": "寺院"
+    },
+    {
+      "name": "六榕寺",
+      "description": "苏轼途经广州游此寺，题'六榕'二字，寺因之改名",
+      "type": "古迹"
+    },
+    {
+      "name": "南海神庙",
+      "description": "古代海上丝绸之路起点，苏轼或曾到访",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "广式早茶",
+      "description": "广州传统饮食文化",
+      "origin_story": "广州传统美食",
+      "tag": "广州必吃"
+    },
+    {
+      "name": "白切鸡",
+      "description": "广州名菜",
+      "origin_story": "粤菜经典",
+      "tag": "广州必吃"
+    },
+    {
+      "name": "广州煲仔饭",
+      "description": "广州传统美食，砂锅煲饭配腊味，锅巴焦香"
+    }
+  ],
   "transport": {
     "train": "广州站 / 广州南站",
     "bus": "广州市汽车站",
     "car": "京港澳高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "广陵官署",
+      "ancient_name": "广陵官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在广州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.137978,
+      "lng": 113.265624,
+      "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "镇海楼",
+      "ancient_name": "镇海楼",
+      "type": "building",
+      "period": "",
+      "description": "广州古城标志建筑",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.137978,
+      "lng": 113.265624,
+      "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS041",
     "pinyin_id": "guangzhou",
@@ -150,5 +221,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:41.000Z"
+  "amap_updated_at": "2026-06-03T05:14:41.000Z",
+  "coordinate_source": "amap_poi",
+  "sxzk_address": "镇海路9号(越秀公园地铁站A口步行250米)"
 }

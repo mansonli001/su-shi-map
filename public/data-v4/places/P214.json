@@ -9,7 +9,7 @@
     "R11"
   ],
   "summary": "苏轼量移汝州途中访好友",
-  "background": "高安是苏轼访好友的地方，苏轼元丰七年量移汝州途中经过此地",
+  "background": "筠州即今江西高安，苏轼访友之地。元丰七年量移汝州途中经过此地，与好友苏辙门生相聚，是贬途中的温暖驿站。",
   "tags": [
     "高安",
     "好友",
@@ -24,7 +24,14 @@
     }
   ],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "筠州",
+      "type": "诗",
+      "note": "途经筠州所作",
+      "year_estimate": 1086
+    }
+  ],
   "route_events": {
     "route12": [
       {
@@ -62,17 +69,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 28.448054,
+      "lng": 115.366863,
+      "modern_address": "江西省宜春市高安市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "高安腐竹",
+      "description": "筠州（高安）传统名产，薄如蝉翼，豆香浓郁"
+    }
+  ],
   "transport": {
     "train": "高安站",
     "bus": "高安汽车站",
     "car": "沪昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "筠州官署",
+      "ancient_name": "筠州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在筠州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.448054,
+      "lng": 115.366863,
+      "modern_address": "江西省宜春市高安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "大观楼",
+      "ancient_name": "大观楼",
+      "type": "building",
+      "period": "",
+      "description": "高安古城楼",
+      "works": [],
+      "importance": "secondary",
+      "lat": 28.448054,
+      "lng": 115.366863,
+      "modern_address": "江西省宜春市高安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS030",
     "pinyin_id": "gaoan",
@@ -88,7 +132,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.232Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_geocode",
   "amap_address": "江西省宜春市高安市",
   "coords_updated_at": "2026-06-01T10:17:04.329Z",
   "duration_summary": {
@@ -132,5 +176,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:43.000Z"
+  "amap_updated_at": "2026-06-03T05:16:43.000Z",
+  "sxzk_address": "江西省宜春市高安市"
 }

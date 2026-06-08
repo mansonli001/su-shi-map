@@ -1,0 +1,45 @@
+[
+  {
+    "location_id": "P106",
+    "location_name": "眉山",
+    "modern_name": "眉山苏轼相关景点",
+    "modern_address": "眉山地理位置與行政區域圖。",
+    "province": "四川省",
+    "city": "眉山",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "出生与成长",
+    "stay_duration": "",
+    "su_works": [
+      "跋中和院東坡帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "串串",
+      "腊肉",
+      "香肠"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "泉山",
+      "西山",
+      "泉寺",
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

@@ -3,13 +3,13 @@
   "ancient_name": "镇江金山寺",
   "modern_name": "江苏镇江金山寺",
   "type": "sight",
-  "lat": 32.2055,
-  "lng": 119.4036,
+  "lat": 32.2192,
+  "lng": 119.4145,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼多次途经镇江，游金山寺",
-  "background": "镇江古称润州，是苏轼从杭州北上或南下的重要中转地",
+  "background": "镇江金山寺，临江千年古刹。苏轼途经镇江常登金山，江天一色、梵音入耳，白蛇传说的发源地。",
   "tags": [
     "镇江",
     "润州",
@@ -48,6 +48,41 @@
       "fullText": "我家江水初发源，宦游直送江入海。\n闻道潮头一丈高，天寒尚有沙痕在。\n中泠南畔石盘陀，古来出没随涛波。\n试登绝顶望乡国，江南江北青山多。\n羁愁畏晚寻归楫，山僧苦留看落日。\n微风万顷靴文细，断霞半空鱼尾赤。\n是时江月初生魄，二更月落天深黑。\n江心似有炬火明，飞焰照山栖乌惊。\n怅然归卧心莫识，非鬼非人竟何物。\n江山如此不归山，江神见怪惊我顽。\n我谢江神岂得已，有田不归如江水。",
       "coreVerse": "我家江水初发源，宦游直送江入海。",
       "poem_id": "S014"
+    },
+    {
+      "title": "山村五绝",
+      "type": "诗",
+      "description": "竹篱茅屋趁溪斜，春入山村处处花。"
+    },
+    {
+      "title": "次韵杨公济奉议梅花十首",
+      "type": "诗",
+      "description": "玉骨那愁瘴雾，冰姿自有仙风。"
+    },
+    {
+      "title": "送文与可出守陵州",
+      "type": "诗",
+      "description": "壁上墨君不解语，见之尚可消百忧。"
+    },
+    {
+      "title": "次韵杨公济奉议梅花十首之二",
+      "type": "诗",
+      "description": "玉骨那愁瘴雾，冰姿自有仙风。"
+    },
+    {
+      "title": "次韵仲殊雪中游西湖",
+      "type": "诗",
+      "description": "西湖雪后，风景依稀。"
+    },
+    {
+      "title": "陪欧阳公燕西湖",
+      "type": "诗",
+      "description": "谓公方壮须似雪，谓公已老光浮颊。"
+    },
+    {
+      "title": "有美堂暴雨",
+      "type": "诗",
+      "description": "游人脚底一声雷，满座顽云拨不开。"
     }
   ],
   "route_events": {
@@ -101,17 +136,72 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "镇江锅盖面",
+      "description": "镇江传统面食",
+      "origin_story": "镇江传统美食",
+      "tag": "镇江必吃"
+    }
+  ],
   "transport": {
     "train": "镇江站 / 镇江南站",
     "bus": "镇江汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "镇江金山寺州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在镇江金山寺的居所",
+      "importance": "primary",
+      "ancient_name": "镇江金山寺州衙",
+      "lat": 32.2055,
+      "lng": 119.4036,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用镇江金山寺中心坐标作为参考"
+    },
+    {
+      "name": "金山寺",
+      "ancient_name": "金山寺",
+      "type": "temple",
+      "period": "",
+      "description": "金山寺是镇江名刹",
+      "works": [
+        "游金山寺"
+      ],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "焦山",
+      "ancient_name": "焦山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼常游焦山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "zhenjiang",
@@ -144,13 +234,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFIZOVVI",
-    "amap_name": "金山公园-念佛堂",
-    "address": "长江路与金山路交叉口北160米",
-    "location": "119.415840,32.214824",
+    "amap_name": "金山寺",
+    "address": "金山路",
+    "location": "119.4145,32.2192",
     "cityname": "镇江市",
     "adname": "润州区",
-    "type": "风景名胜;风景名胜相关;旅游景点",
-    "typecode": "110000",
+    "type": "风景名胜;风景名胜;寺庙",
+    "typecode": "110201",
     "tel": "0511-85512992",
     "rating": null,
     "cost": null,
@@ -173,5 +263,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:56.000Z"
+  "amap_updated_at": "2026-06-03T05:16:56.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "长江路与金山路交叉口北160米"
 }

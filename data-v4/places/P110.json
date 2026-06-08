@@ -6,7 +6,7 @@
   "related_routes": [
     "R06"
   ],
-  "background": "淮南腹地中心，江淮陆路交通枢纽。",
+  "background": "清远即今广东清远，北江下游。苏轼南贬途经此地，飞来峡险峻、北江水清，是入惠州前的最后一站。",
   "extended_story": "途经庐州休整，深入皖东腹地，渐近长江北岸。",
   "essence": "淮南中转重镇",
   "tags": [
@@ -72,5 +72,59 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:20.000Z"
+  "amap_updated_at": "2026-06-03T05:15:20.000Z",
+  "lat": 31.820567,
+  "lng": 117.227267,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "蜀山区",
+  "sub_places": [
+    {
+      "name": "庐州官署",
+      "ancient_name": "庐州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在庐州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.820567,
+      "lng": 117.227267,
+      "modern_address": "蜀山区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p110-001",
+      "date": "1071年",
+      "title": "经庐州赴杭州",
+      "description": "苏轼赴杭州通判任途经庐州",
+      "significance": "赴任中继"
+    }
+  ],
+  "foods": [
+    {
+      "name": "合肥李鸿章大杂烩",
+      "description": "庐州传统名菜，多种食材烩制，鲜香浓郁"
+    },
+    {
+      "name": "合肥四大名点",
+      "description": "庐州传统糕点：麻饼、烘糕、寸金、白切"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "包公祠",
+      "description": "纪念包拯的祠堂，合肥名胜",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "庐州",
+      "type": "诗",
+      "note": "途经庐州所作",
+      "year_estimate": 1071
+    }
+  ]
 }

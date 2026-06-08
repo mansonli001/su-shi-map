@@ -9,7 +9,7 @@
     "R08"
   ],
   "summary": "",
-  "background": "徐州城南名山，林壑幽深，苏轼筑放鹤亭于此，为千古名胜。",
+  "background": "云龙山，徐州名山。苏轼知徐州时常游云龙山，'放鹤亭记'即记此山，山人张天骥隐居于此。",
   "tags": [
     "visit",
     "literary"
@@ -70,10 +70,37 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "云龙山",
+      "description": "徐州名山，苏轼《放鹤亭记》所记",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "徐州地锅鸡",
+      "description": "徐州名菜，铁锅炖鸡贴饼，浓香四溢"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "英德官署",
+      "ancient_name": "英德官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在云龙山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.23803,
+      "lng": 117.175429,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用云龙山中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS081",
     "pinyin_id": null,

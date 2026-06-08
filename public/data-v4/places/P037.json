@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "豫西南古驿重镇，南北官道必经休憩节点。",
+  "background": "德安即今江西德安，赣北小城。苏轼南贬途经此地，鄱阳湖畔、修水清流，是赣北驿道的歇脚点。",
   "extended_story": "沿古驿道北行，在邓州短暂休整，\n渐入中原腹地地貌风貌。",
   "essence": "江汉入中原过渡驿点",
   "tags": [
@@ -75,5 +75,52 @@
   "amap_updated_at": "2026-06-03T05:14:31.000Z",
   "lat": 32.687732,
   "lng": 112.08745,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "邓州市",
+  "sub_places": [
+    {
+      "name": "邓州官署",
+      "ancient_name": "邓州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在邓州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.687732,
+      "lng": 112.08745,
+      "modern_address": "邓州市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p037-001",
+      "date": "1061年",
+      "title": "经邓州赴凤翔",
+      "description": "苏轼赴凤翔签判任途经邓州",
+      "significance": "赴任途经"
+    }
+  ],
+  "foods": [
+    {
+      "name": "邓州糊辣汤",
+      "description": "邓州传统早餐，浓稠麻辣，暖胃醒神"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "花洲书院",
+      "description": "范仲淹《岳阳楼记》写于此，苏轼或曾到访",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "邓州",
+      "type": "诗",
+      "note": "途经邓州所作",
+      "year_estimate": 1077
+    }
+  ]
 }

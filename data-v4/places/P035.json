@@ -3,13 +3,13 @@
   "ancient_name": "儋州桄榔庵",
   "modern_name": "海南儋州桄榔庵",
   "type": "around",
-  "lat": 19.524,
-  "lng": 109.581,
+  "lat": 19.740499,
+  "lng": 109.346135,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼贬谪海南儋州三年，在此讲学授徒",
-  "background": "儋州是苏轼最后一个贬谪地，在此三年讲学授徒，对海南文化影响深远",
+  "background": "儋州桄榔庵，苏轼谪居儋州的住所。竹篱茅舍、椰林环绕，虽居荒僻却著述不辍，是苏轼晚年最清苦也最旷达的居所。",
   "tags": [
     "儋州",
     "海南",
@@ -133,7 +133,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）"
     },
     {
       "id": "dz2-s003",
@@ -150,14 +153,46 @@
       "distance": ""
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "儋州烤生蚝",
+      "description": "海南特色，海蚝炭烤鲜嫩多汁",
+      "origin_story": "苏轼《食蚝》记载",
+      "tag": "儋州必吃"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "儋州汽车站",
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "桄榔庵",
+      "ancient_name": "桄榔庵",
+      "type": "residence",
+      "period": "1097年7月-1098年",
+      "description": "苏轼初到儋州的居所，当地百姓帮盖的茅屋",
+      "works": [
+        "桄榔庵铭"
+      ],
+      "importance": "primary",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "桄榔庵铭",
+          "type": "文",
+          "date": "绍圣四年（1097年）",
+          "note": "苏轼初到儋州居桄榔庵时所作"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS043",
     "pinyin_id": "danzhou",
@@ -216,5 +251,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:29.000Z"
+  "amap_updated_at": "2026-06-03T05:14:29.000Z",
+  "coordinate_source": "amap_poi",
+  "sxzk_address": "儋州市中和镇X513(解放街)"
 }

@@ -1,0 +1,46 @@
+{
+  "place_id": "P002",
+  "ancient_name": "白州",
+  "modern_name": "博白",
+  "city": "博白市",
+  "processed_at": "2026-06-07T23:25:27.385436",
+  "main_coords": {
+    "name": "白州官署",
+    "lat": 22.273539,
+    "lng": 109.975856,
+    "modern_address": "博白县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "白州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "白州官署",
+      "ancient_name": "白州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在白州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 22.273539,
+      "lng": 109.975856,
+      "modern_address": "博白县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P002",
+    "ancient_name": "白州",
+    "city": "博白市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "白州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:33.365721"
+}

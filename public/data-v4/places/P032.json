@@ -3,13 +3,13 @@
   "ancient_name": "大庾岭梅关",
   "modern_name": "江西大余梅关",
   "type": "sight",
-  "lat": 25.367996,
-  "lng": 114.352982,
+  "lat": 25.26,
+  "lng": 114.035,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼越过大庾岭南行入粤",
-  "background": "大庾岭即梅岭，是苏轼贬惠州南下的必经之路，越过此岭即进入广东",
+  "background": "丹阳即今江苏丹阳，运河沿岸古城。苏轼赴杭州途经此地，运河穿城、石拱桥连绵，是江南运河的典型水乡。",
   "tags": [
     "大庾岭",
     "梅岭",
@@ -20,7 +20,48 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "次韵惠循二守相见",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "荔枝叹",
+      "type": "诗",
+      "description": "宫中美人一破颜，惊尘溅血流千载。"
+    },
+    {
+      "title": "赠王子直秀才",
+      "type": "诗",
+      "description": "万里云山一破裘，杖端闲挂百钱游。"
+    },
+    {
+      "title": "再用前韵",
+      "type": "诗",
+      "description": "两年逐客沾恩地，万里归心欲暮天。"
+    },
+    {
+      "title": "白鹤峰再用前韵",
+      "type": "诗",
+      "description": "三晋云山殊阻修，半生投老得归休。"
+    },
+    {
+      "title": "白鹤峰三用前韵",
+      "type": "诗",
+      "description": "父老纷纷送往事，我心犹念当路穷。"
+    },
+    {
+      "title": "和陶时运四首",
+      "type": "诗",
+      "description": "我卜我居，居非一朝。"
+    },
+    {
+      "title": "白鹤峰四用前韵",
+      "type": "诗",
+      "description": "投荒忘归不计年，此生出处俱可怜。"
+    }
+  ],
   "route_events": {
     "route18": [
       {
@@ -56,17 +97,40 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 25.816581,
+      "lng": 114.944411,
+      "modern_address": "全南路39号智慧停车场内"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "梅关青梅酒",
+      "description": "梅关特产，以青梅酿造，酸甜适口"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "梅岭汽车站",
     "car": "赣韶高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "梅岭",
+      "ancient_name": "梅岭",
+      "type": "mountain",
+      "period": "",
+      "description": "大庾岭即梅岭",
+      "works": [],
+      "importance": "secondary",
+      "lat": 25.816581,
+      "lng": 114.944411,
+      "modern_address": "全南路39号智慧停车场内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS123",
     "pinyin_id": "dayuling",
@@ -79,7 +143,7 @@
   "essence": "南北分界第一雄关、南迁怀古核心地标",
   "last_updated": "2026-06-01T10:22:05.259Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江西省赣州市大余县梅关",
   "coords_updated_at": "2026-06-01T10:17:04.313Z",
   "duration_summary": {
@@ -94,13 +158,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFLB8EKO",
-    "amap_name": "大余县梅关景区",
-    "address": "梅岭登山步道大余县梅关景区",
-    "location": "114.345576,25.334608",
+    "amap_name": "梅关",
+    "address": "梅关古道",
+    "location": "114.035,25.26",
     "cityname": "赣州市",
     "adname": "大余县",
-    "type": "风景名胜;风景名胜相关;旅游景点",
-    "typecode": "110000",
+    "type": "风景名胜;风景名胜;关隘",
+    "typecode": "110201",
     "tel": "0797-2028891",
     "rating": null,
     "cost": null,
@@ -123,5 +187,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:27.000Z"
+  "amap_updated_at": "2026-06-03T05:14:27.000Z",
+  "sxzk_address": "全南路39号智慧停车场内"
 }

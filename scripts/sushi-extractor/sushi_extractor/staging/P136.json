@@ -1,0 +1,60 @@
+{
+  "place_id": "P136",
+  "ancient_name": "虔州",
+  "modern_name": "赣州",
+  "city": "赣州市",
+  "processed_at": "2026-06-07T23:22:35.934220",
+  "main_coords": {
+    "name": "彭泽县衙",
+    "lat": 25.831139,
+    "lng": 114.933494,
+    "modern_address": "江西省赣州市",
+    "coordinate_source": "amap_geocode",
+    "reason": "彭泽县衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "彭泽县衙",
+      "ancient_name": "彭泽县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在虔州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 25.831139,
+      "lng": 114.933494,
+      "modern_address": "江西省赣州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "郁孤台",
+      "ancient_name": "郁孤台",
+      "type": "台",
+      "period": "",
+      "description": "苏轼游郁孤台",
+      "works": [],
+      "importance": "secondary",
+      "lat": 25.831139,
+      "lng": 114.933494,
+      "modern_address": "江西省赣州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P136",
+    "ancient_name": "虔州",
+    "city": "赣州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "虔州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:22.988500"
+}

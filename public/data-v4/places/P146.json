@@ -3,8 +3,8 @@
   "ancient_name": "润州",
   "modern_name": "镇江",
   "type": "main",
-  "lat": 32.1885,
-  "lng": 119.4253,
+  "lat": 32.2192,
+  "lng": 119.4145,
   "related_routes": [
     "R06",
     "R09",
@@ -13,7 +13,7 @@
     "R19"
   ],
   "summary": "苏轼南下途经润州，游金山寺、北固山",
-  "background": "润州今江苏镇江，是长江南岸重要渡口，苏轼南下杭州途经此地",
+  "background": "润州即今江苏镇江，长江南岸渡口。苏轼北归途经此地，金山寺钟声、北固山雄峙，是归途接近终点的标志。",
   "tags": [
     "润州",
     "镇江",
@@ -137,7 +137,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.215473,
+      "lng": 119.415147,
+      "modern_address": "镇江市金山路62号金山公园内"
     },
     {
       "id": "rz-s002",
@@ -151,17 +154,78 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.198285,
+      "lng": 119.470186,
+      "modern_address": "江苏省镇江市京口区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "镇江锅盖面",
+      "description": "镇江传统面食",
+      "origin_story": "镇江传统美食",
+      "tag": "镇江必吃"
+    },
+    {
+      "name": "镇江肴肉",
+      "description": "镇江名菜",
+      "origin_story": "镇江传统名菜",
+      "tag": "镇江特色"
+    }
+  ],
   "transport": {
     "train": "镇江站/镇江南站",
     "bus": "镇江汽车站",
     "car": "京沪高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "润州府衙",
+      "ancient_name": "润州府衙",
+      "type": "residence",
+      "period": "多次途经",
+      "description": "苏轼多次途经润州暂居",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.198285,
+      "lng": 119.470186,
+      "modern_address": "江苏省镇江市京口区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "金山寺",
+      "ancient_name": "金山寺",
+      "type": "scenic",
+      "period": "多次途经",
+      "description": "苏轼《金山梦中作》所在地",
+      "works": [
+        "金山梦中作"
+      ],
+      "importance": "secondary",
+      "lat": 32.215473,
+      "lng": 119.415147,
+      "modern_address": "镇江市金山路62号金山公园内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "北固山",
+      "ancient_name": "北固山",
+      "type": "scenic",
+      "period": "多次途经",
+      "description": "刘备、孙权试剑地，甘露寺所在",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.198285,
+      "lng": 119.470186,
+      "modern_address": "江苏省镇江市京口区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS078",
     "pinyin_id": "runzhou",
@@ -226,5 +290,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:47.000Z"
+  "amap_updated_at": "2026-06-03T05:15:47.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省镇江市京口区"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "资善堂",
   "modern_name": "河南开封资善堂旧址",
   "type": "around",
-  "lat": 34.798083,
-  "lng": 114.314278,
+  "lat": 34.769842,
+  "lng": 114.364807,
   "related_routes": [
     "R13"
   ],
   "tags": [],
-  "background": "由登州经齐鲁古道还朝，元祐元年入阁任翰林学士知制诰。",
+  "background": "汴京宫中讲学之所，翰林学士侍读之处。苏轼元祐元年还朝入阁，于资善堂为哲宗讲读经史，是苏轼仕途最显赫时期的核心工作场所。",
   "route_events": {},
   "global_events": [
     {
@@ -27,12 +27,74 @@
       "id": "p231-evt-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "资善堂讲读",
+      "type": "诗",
+      "description": "苏轼在资善堂侍讲所作"
+    },
+    {
+      "title": "减字木兰花·春月",
+      "type": "词",
+      "description": "春庭月午，摇荡香醪光欲舞。"
+    },
+    {
+      "title": "虞美人·有美堂赠周嘉",
+      "type": "词",
+      "description": "使君能得几回来，便使尊前醉倒且徘徊。"
+    },
+    {
+      "title": "虞美人·波声拍枕长河晓",
+      "type": "词",
+      "description": "清风徐来，水光潋滟，山色空蒙雨亦奇。"
+    },
+    {
+      "title": "蝶恋花·昨夜秋风来万里",
+      "type": "词",
+      "description": "心似双丝网，中有千千结。"
+    },
+    {
+      "title": "南乡子·用韵和赵文",
+      "type": "词",
+      "description": "往事回头已隔年，故人相见尚青眸。"
+    },
+    {
+      "title": "醉落魄·轻云微月",
+      "type": "词",
+      "description": "轻云微月，淡烟流水声幽绝。"
+    },
+    {
+      "title": "水龙吟·次韵林楙于商于驿和季良韵",
+      "type": "词",
+      "description": "古来成败虚无尽，傍早方知我不疑。"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
+  "memorial_sites": [
+    {
+      "name": "资善堂遗址",
+      "description": "北宋皇子读书处，汴京宫城内",
+      "type": "古迹"
+    }
+  ],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "资善堂居所",
+      "ancient_name": "资善堂居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在资善堂的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.769842,
+      "lng": 114.364807,
+      "modern_address": "繁塔西街30号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -67,5 +129,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:17:00.000Z"
+  "amap_updated_at": "2026-06-03T05:17:00.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "繁塔西街30号"
 }

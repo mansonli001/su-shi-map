@@ -1,0 +1,47 @@
+{
+  "place_id": "P231",
+  "ancient_name": "资善堂",
+  "modern_name": "河南开封资善堂旧址",
+  "city": "开封市",
+  "processed_at": "2026-06-07T23:25:29.993313",
+  "main_coords": {
+    "name": "资善堂居所",
+    "lat": 34.769842,
+    "lng": 114.364807,
+    "modern_address": "繁塔西街30号",
+    "coordinate_source": "amap_poi_original",
+    "reason": "资善堂居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "资善堂居所",
+      "ancient_name": "资善堂居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在资善堂的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.769842,
+      "lng": 114.364807,
+      "modern_address": "繁塔西街30号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P231",
+    "ancient_name": "资善堂",
+    "city": "开封市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "资善堂居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:49.091447"
+}

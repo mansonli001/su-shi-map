@@ -3,8 +3,8 @@
   "ancient_name": "楚州",
   "modern_name": "江苏淮安",
   "type": "main",
-  "lat": 33.551495,
-  "lng": 119.113166,
+  "lat": 33.5025,
+  "lng": 119.013,
   "related_routes": [
     "R07",
     "R08",
@@ -15,7 +15,7 @@
     "R17"
   ],
   "summary": "苏轼多次途经淮安",
-  "background": "淮安古称楚州，苏轼从杭州北返或南下时多次途经此地",
+  "background": "恩施即今湖北恩施，武陵山区古城。苏轼南贬途经此地，山高谷深、溪涧纵横，是入岭南前的山地过渡。",
   "tags": [
     "淮安",
     "楚州",
@@ -32,6 +32,13 @@
       "title": "离京南下途经淮安",
       "description": "苏轼离京赴杭州倅，途经淮安",
       "significance": "途经淮安"
+    },
+    {
+      "id": "p027-002",
+      "date": "1071年",
+      "title": "经楚州赴杭州",
+      "description": "苏轼赴杭州通判任途经楚州",
+      "significance": "赴任途经"
     }
   ],
   "global_works": [],
@@ -159,17 +166,58 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 33.551495,
+      "lng": 119.113166,
+      "modern_address": "江苏省淮安市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "淮安茶馓",
+      "description": "楚州传统名点，油炸面食，酥脆金黄"
+    },
+    {
+      "name": "淮安软兜",
+      "description": "楚州传统名菜，鳝鱼烹制，鲜嫩滑爽"
+    }
+  ],
   "transport": {
     "train": "淮安站 / 淮安东站",
     "bus": "淮安汽车站",
     "car": "京沪高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "德清县衙",
+      "ancient_name": "德清县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在楚州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.551495,
+      "lng": 119.113166,
+      "modern_address": "江苏省淮安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "镇淮楼",
+      "ancient_name": "镇淮楼",
+      "type": "building",
+      "period": "",
+      "description": "淮安古城楼",
+      "works": [],
+      "importance": "secondary",
+      "lat": 33.551495,
+      "lng": 119.113166,
+      "modern_address": "江苏省淮安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS107",
     "pinyin_id": "huaian",
@@ -185,7 +233,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.252Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省淮安市",
   "coords_updated_at": "2026-06-01T10:17:04.313Z",
   "duration_summary": {
@@ -230,5 +278,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:17.000Z"
+  "amap_updated_at": "2026-06-03T05:14:17.000Z",
+  "sxzk_address": "江苏省淮安市"
 }

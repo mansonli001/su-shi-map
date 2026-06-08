@@ -1,0 +1,47 @@
+[
+  {
+    "location_id": "P810",
+    "location_name": "常州",
+    "modern_name": "常州苏轼相关景点",
+    "modern_address": "常州，葬於郟縣",
+    "province": "江苏省",
+    "city": "常州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1071,
+    "visit_period": "晚年",
+    "stay_duration": "",
+    "su_works": [
+      "晚香堂蘇帖",
+      "臞仙帖",
+      "桑疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "大麻糕",
+      "银丝面",
+      "加蟹小笼包",
+      "天目湖砂锅鱼头"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "终老地",
+      "逝世地"
+    ],
+    "nearby_sites": [
+      "南海",
+      "北江",
+      "西湖",
+      "西江"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

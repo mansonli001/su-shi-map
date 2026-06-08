@@ -3,14 +3,14 @@
   "ancient_name": "藤州",
   "modern_name": "广西藤县",
   "type": "main",
-  "lat": 23.3743,
-  "lng": 110.9203,
+  "lat": 23.375538,
+  "lng": 110.914606,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼贬儋州途经藤州，与苏辙相遇",
-  "background": "藤州今广西藤县，苏轼贬儋州时途经此地，与苏辙相遇",
+  "background": "藤州即今广西藤县，苏轼北归再经此地。来时与弟苏辙相遇，归时形单影只，西江落日依旧、兄弟天各一方。",
   "tags": [
     "藤州",
     "藤县",
@@ -81,17 +81,42 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.375538,
+      "lng": 110.914606,
+      "modern_address": "广西梧州市藤县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "藤县米粉",
+      "description": "藤州传统小吃",
+      "origin_story": "广西传统美食",
+      "tag": "藤州特色"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "藤县汽车站",
     "car": "包茂高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "藤州古城",
+      "ancient_name": "藤州古城",
+      "type": "residence",
+      "period": "1098年",
+      "description": "苏轼贬谪途中经藤州，与弟苏辙相遇",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.375538,
+      "lng": 110.914606,
+      "modern_address": "广西梧州市藤县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS165",
     "pinyin_id": "tengzhou",
@@ -156,5 +181,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:03.000Z"
+  "amap_updated_at": "2026-06-03T05:16:03.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "广西梧州市藤县"
 }

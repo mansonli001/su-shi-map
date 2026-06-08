@@ -3,13 +3,13 @@
   "ancient_name": "蟆颐山蟆颐观",
   "modern_name": "四川眉山蟆颐山",
   "type": "main",
-  "lat": 30.051142,
-  "lng": 103.876237,
+  "lat": 30.055,
+  "lng": 103.865,
   "related_routes": [
     "R00"
   ],
   "summary": "苏轼出生地，在此生活约32年直至进京科举",
-  "background": "眉山是苏轼的出生地和故乡，纱縠行是苏家老宅所在地",
+  "background": "蟆颐山蟆颐观，眉山道观。苏轼少年时常游蟆颐观，道家的清净与眉山的秀美相融，是苏辙诗中常提之地。",
   "tags": [
     "出生地",
     "故乡",
@@ -48,7 +48,13 @@
       "significance": "回乡守孝"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "游蟆颐山",
+      "type": "诗",
+      "description": "苏轼游眉山蟆颐山蟆颐观之作"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -92,7 +98,10 @@
       "photos": [],
       "url": "https://www.sscbwg.com/",
       "rating": "",
-      "distance": "市中心"
+      "distance": "市中心",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "纱縠行南段72号"
     },
     {
       "id": "ms-s002",
@@ -106,17 +115,101 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "通惠街13号"
+    },
+    {
+      "name": "蟆颐观",
+      "description": "眉山古道观，苏轼常游之地",
+      "type": "道观"
+    },
+    {
+      "name": "三苏纪念馆",
+      "description": "眉山纪念三苏的专题展馆",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "东坡肘子",
+      "description": "眉山名菜，传为苏轼之妻王弗创制，肘子炖至酥烂"
+    },
+    {
+      "name": "眉山泡菜",
+      "description": "眉山传统，蔬菜入坛发酵，酸辣爽口"
+    },
+    {
+      "name": "眉山龙眼酥",
+      "description": "眉山传统糕点，酥皮包馅形如龙眼，香甜酥脆"
+    }
+  ],
   "transport": {
     "train": "眉山站 / 眉山东站",
     "bus": "眉山客运中心",
     "car": "成乐高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "蟆颐山蟆颐观州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在蟆颐山蟆颐观的居所",
+      "importance": "primary",
+      "ancient_name": "蟆颐山蟆颐观州衙",
+      "lat": 30.051142,
+      "lng": 103.876237,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用蟆颐山蟆颐观中心坐标作为参考"
+    },
+    {
+      "name": "三苏祠",
+      "ancient_name": "三苏祠",
+      "type": "shrine",
+      "period": "",
+      "description": "三苏父子故居及祠堂，全国重点文物保护单位",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "纱縠行南段72号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "纱縠行",
+      "ancient_name": "纱縠行",
+      "type": "historic_street",
+      "period": "",
+      "description": "宋代苏家老宅所在地，丝绸布匹交易市场",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "通惠街13号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "。他在母亲和妻子坟前种下松树",
+      "ancient_name": "。他在母亲和妻子坟前种下松树",
+      "type": "residence",
+      "period": "1066-1068",
+      "description": "从丁忧归乡中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.051142,
+      "lng": 103.876237,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS001",
     "pinyin_id": "meishan",
@@ -125,7 +218,7 @@
     "v3_lat": 30.0818,
     "v3_lng": 103.7667
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "四川省眉山市东坡区蟆颐山",
   "coords_updated_at": "2026-06-01T10:17:04.319Z",
   "duration_summary": {
@@ -161,5 +254,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:24.000Z"
+  "amap_updated_at": "2026-06-03T05:15:24.000Z",
+  "sxzk_address": "崇礼镇十字口"
 }

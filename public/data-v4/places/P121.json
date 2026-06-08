@@ -7,7 +7,7 @@
     "R01",
     "R05"
   ],
-  "background": "川北古驿重镇，由川西平原过渡至川北丘陵的官道节点。",
+  "background": "绵州即今四川绵阳，川北古驿重镇。由川西平原过渡至川北丘陵的官道节点，涪江绕城、丘陵起伏，苏轼出蜀途经此地。",
   "extended_story": "一路向北渐入山地地貌，初次感受蜀道由平入险的地势变化。",
   "essence": "川西向川北地理过渡节点",
   "tags": [
@@ -88,5 +88,44 @@
   "amap_updated_at": "2026-06-03T05:15:28.000Z",
   "lat": 31.467673,
   "lng": 104.679127,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "涪城区",
+  "sub_places": [
+    {
+      "name": "绵州官署",
+      "ancient_name": "绵州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在绵州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.467673,
+      "lng": 104.679127,
+      "modern_address": "涪城区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p121-001",
+      "date": "1056年",
+      "title": "经绵州北上",
+      "description": "苏轼随父自眉山出发经绵州，沿蜀道北上赴京",
+      "significance": "出蜀中继"
+    }
+  ],
+  "foods": [
+    {
+      "name": "绵阳米粉",
+      "description": "绵州传统早餐，细米粉配红油汤底，麻辣鲜香"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "越王楼",
+      "description": "绵州名楼，苏轼出蜀途经或曾登临",
+      "type": "古迹"
+    }
+  ]
 }

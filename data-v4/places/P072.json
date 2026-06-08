@@ -3,14 +3,14 @@
   "ancient_name": "黄州",
   "modern_name": "湖北黄冈",
   "type": "stay",
-  "lat": 30.454,
-  "lng": 114.88,
+  "lat": 30.4544,
+  "lng": 114.873,
   "related_routes": [
     "R10",
     "R11"
   ],
   "summary": "苏轼贬谪地，在此躬耕自号东坡居士，创作千古名篇",
-  "background": "黄州是苏轼人生重要转折点，乌台诗案后被贬黄州四年多，在此完成文学创作高峰",
+  "background": "黄州（今湖北黄冈），苏轼因乌台诗案被贬至此。谪居五年间，他躬耕东坡、自号东坡居士，创作了《赤壁赋》《念奴娇·赤壁怀古》《定风波》等名篇。",
   "tags": [
     "贬谪地",
     "东坡居士",
@@ -58,6 +58,34 @@
       "title": "离开黄州",
       "description": "神宗手札，命苏轼移汝州团练副使，苏轼离开黄州",
       "significance": "结束黄州贬谪生活"
+    },
+    {
+      "id": "p072-010",
+      "date": "1082年",
+      "title": "作《念奴娇·赤壁怀古》",
+      "description": "苏轼游赤壁作'大江东去，浪淘尽千古风流人物'，豪放词巅峰",
+      "significance": "豪放词巅峰"
+    },
+    {
+      "id": "p072-011",
+      "date": "1082年",
+      "title": "作前后《赤壁赋》",
+      "description": "苏轼秋夜游赤壁作《前赤壁赋》《后赤壁赋》，文赋双璧",
+      "significance": "文赋巅峰"
+    },
+    {
+      "id": "p072-012",
+      "date": "1080年",
+      "title": "作《卜算子·黄州定慧院寓居作》",
+      "description": "苏轼初到黄州寓居定慧院作'缺月挂疏桐'，抒贬谪孤寂",
+      "significance": "贬谪词代表作"
+    },
+    {
+      "id": "p072-013",
+      "date": "1082年",
+      "title": "筑东坡雪堂",
+      "description": "苏轼在东坡开荒筑雪堂，自号'东坡居士'",
+      "significance": "东坡之名由来"
     }
   ],
   "global_works": [
@@ -152,6 +180,36 @@
       "excerpt": "不识庐山真面目，只缘身在此山中。",
       "background": "元丰七年（1084）四月，苏轼自黄州量移汝州途中漫游庐山，题于西林寺壁。短短四句二十八字成为中国哲理诗的巅峰，「不识庐山真面目」成为认知论的千古谚语。",
       "poem_id": "S102"
+    },
+    {
+      "title": "东坡",
+      "type": "诗",
+      "description": "雨洗东坡月色清，市人行尽野人行。"
+    },
+    {
+      "title": "雨晴后步至赤壁",
+      "type": "诗",
+      "description": "雨意既濡晴亦佳，水光浮到坐边拿。"
+    },
+    {
+      "title": "临江仙·夜饮东坡醒复醉",
+      "type": "词",
+      "description": "小舟从此逝，江海寄余生。"
+    },
+    {
+      "title": "水调歌头·黄州快哉亭",
+      "type": "词",
+      "description": "一点浩然气，千里快哉风。"
+    },
+    {
+      "title": "水调歌头·黄州快哉亭赠张偓佺",
+      "type": "词",
+      "description": "一点浩然气，千里快哉风。"
+    },
+    {
+      "title": "赤壁赋",
+      "type": "赋",
+      "description": "寄蜉蝣于天地，渺沧海之一粟。"
     }
   ],
   "route_events": {
@@ -198,7 +256,10 @@
       "photos": [],
       "url": "https://www.huanggang.gov.cn",
       "rating": "AAAA",
-      "distance": "距市区步行可达"
+      "distance": "距市区步行可达",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号"
     },
     {
       "id": "hz-s002",
@@ -212,7 +273,15 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.452846,
+      "lng": 114.897463,
+      "modern_address": "黄冈市黄州区遗爱湖公园-苏东坡纪念馆"
+    },
+    {
+      "name": "东坡雪堂遗址",
+      "description": "苏轼开荒筑雪堂处",
+      "type": "古迹"
     }
   ],
   "foods": [
@@ -227,6 +296,18 @@
       ],
       "price_range": "¥50-80",
       "tag": "黄州必吃"
+    },
+    {
+      "name": "东坡羹",
+      "description": "苏轼发明的菜羹，以蔓菁芦菔等煮成",
+      "origin_story": "苏轼作《东坡羹颂》",
+      "tag": "东坡发明"
+    },
+    {
+      "name": "东坡饼",
+      "description": "黄州传统面点，酥脆香甜",
+      "origin_story": "传为苏轼在黄州时所创",
+      "tag": "黄州特色"
     }
   ],
   "transport": {
@@ -235,7 +316,215 @@
     "car": "大广高速 / 沪渝高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "定慧院",
+      "ancient_name": "定慧院（一作定惠院）",
+      "type": "residence",
+      "period": "1080年2月-1080年冬",
+      "description": "苏轼初到黄州的居所，寓居定慧院东侧小屋，作《卜算子·缺月挂疏桐》",
+      "works": [
+        "卜算子·黄州定慧院寓居作"
+      ],
+      "importance": "primary",
+      "lat": 30.443917,
+      "lng": 114.879568,
+      "modern_address": "黄冈市黄州区青砖湖路西200米（定惠院遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "卜算子·黄州定慧院寓居作",
+          "type": "词",
+          "date": "元丰三年（1080年）",
+          "note": "缺月挂疏桐，漏断人初静。谁见幽人独往来，缥缈孤鸿影。"
+        }
+      ]
+    },
+    {
+      "name": "临皋亭",
+      "ancient_name": "临皋亭",
+      "type": "residence",
+      "period": "1080年冬-1084年",
+      "description": "苏轼从定慧院迁居临皋亭，在此居住时间最长，写下大量书信和诗文",
+      "works": [
+        "临皋闲题",
+        "与范子丰书"
+      ],
+      "importance": "secondary",
+      "lat": 30.452846,
+      "lng": 114.897463,
+      "modern_address": "黄冈市黄州区遗爱湖公园内（临皋亭遗址附近）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "临皋亭原址在黄冈城南长江边，现遗爱湖公园内有临皋亭复建，坐标为复建位置",
+      "works_detail": [
+        {
+          "title": "临皋闲题",
+          "type": "文",
+          "date": "元丰年间",
+          "note": "临皋亭下八十数步，便是大江"
+        },
+        {
+          "title": "与范子丰书",
+          "type": "文",
+          "date": "元丰年间",
+          "note": "临皋亭中所作书信"
+        }
+      ]
+    },
+    {
+      "name": "东坡雪堂",
+      "ancient_name": "东坡雪堂",
+      "type": "residence",
+      "period": "1082年后",
+      "description": "苏轼在东坡躬耕后所建，自号东坡居士，雪堂为其书房兼会客之所",
+      "works": [
+        "雪堂记"
+      ],
+      "importance": "secondary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区东坡赤壁景区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "东坡雪堂原址在东坡赤壁附近，现景区内有雪堂复建，坐标为景区位置",
+      "works_detail": [
+        {
+          "title": "雪堂记",
+          "type": "文",
+          "date": "元丰五年（1082年）",
+          "note": "苏轼筑雪堂后所作"
+        }
+      ]
+    },
+    {
+      "name": "东坡赤壁",
+      "ancient_name": "赤壁",
+      "type": "scenic",
+      "period": "1082年7月、1082年10月",
+      "description": "苏轼两次游赤壁，写下《念奴娇·赤壁怀古》和前后《赤壁赋》，文赤壁，全国重点文物保护单位",
+      "works": [
+        "念奴娇·赤壁怀古",
+        "前赤壁赋",
+        "后赤壁赋"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "念奴娇·赤壁怀古",
+          "type": "词",
+          "date": "元丰五年（1082年）",
+          "note": "大江东去，浪淘尽，千古风流人物"
+        },
+        {
+          "title": "前赤壁赋",
+          "type": "文",
+          "date": "元丰五年七月（1082年）",
+          "note": "壬戌之秋，七月既望"
+        },
+        {
+          "title": "后赤壁赋",
+          "type": "文",
+          "date": "元丰五年十月（1082年）",
+          "note": "步自雪堂，将归于临皋"
+        }
+      ]
+    },
+    {
+      "name": "安国寺",
+      "ancient_name": "安国寺",
+      "type": "temple",
+      "period": "1080-1084年",
+      "description": "苏轼常去安国寺沐浴参禅，与僧人交往，每月必往",
+      "works": [
+        "安国寺浴"
+      ],
+      "importance": "secondary",
+      "lat": 30.443917,
+      "lng": 114.879568,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用黄州中心坐标作为参考",
+      "works_detail": [
+        {
+          "title": "安国寺浴",
+          "type": "诗",
+          "date": "元丰三年（1080年）",
+          "note": "苏轼在黄州常往安国寺沐浴"
+        }
+      ]
+    },
+    {
+      "name": "承天寺",
+      "ancient_name": "承天寺",
+      "type": "temple",
+      "period": "1083年",
+      "description": "苏轼与张怀民夜游承天寺，写下《记承天寺夜游》",
+      "works": [
+        "记承天寺夜游"
+      ],
+      "importance": "primary",
+      "lat": 30.443917,
+      "lng": 114.879568,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用黄州中心坐标作为参考",
+      "works_detail": [
+        {
+          "title": "记承天寺夜游",
+          "type": "文",
+          "date": "元丰六年（1083年）",
+          "note": "庭下如积水空明，水中藻荇交横，盖竹柏影也"
+        }
+      ]
+    },
+    {
+      "name": "沙湖道中",
+      "ancient_name": "沙湖道中",
+      "type": "scenic",
+      "period": "1082年3月",
+      "description": "苏轼沙湖道中遇雨，写下《定风波·莫听穿林打叶声》",
+      "works": [
+        "定风波·莫听穿林打叶声"
+      ],
+      "importance": "secondary",
+      "lat": 30.509287,
+      "lng": 114.95749,
+      "modern_address": "黄冈市黄州区路口大道539号附近",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "定风波·莫听穿林打叶声",
+          "type": "词",
+          "date": "元丰五年三月（1082年）",
+          "note": "竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生"
+        }
+      ]
+    },
+    {
+      "name": "东坡纪念馆",
+      "ancient_name": "",
+      "type": "museum",
+      "period": "",
+      "description": "展示苏轼生平与黄州时期创作，现代纪念设施",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.452846,
+      "lng": 114.897463,
+      "modern_address": "黄冈市黄州区遗爱湖公园-苏东坡纪念馆",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS070",
     "pinyin_id": "huangzhou",
@@ -267,14 +556,14 @@
     "from": "global_works.excerpt"
   },
   "modern_visit": {
-    "amap_poi_id": "B0FFHYJVQ5",
-    "amap_name": "湖北省黄州中学(黄冈外校)",
-    "address": "新港大道106号",
-    "location": "114.913696,30.450244",
+    "amap_poi_id": "B019C0KMNP",
+    "amap_name": "东坡赤壁",
+    "address": "赤壁大道68号",
+    "location": "114.873,30.4544",
     "cityname": "黄冈市",
     "adname": "黄州区",
-    "type": "科教文化服务;学校;中学",
-    "typecode": "141202",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
     "tel": "0713-8393222",
     "rating": null,
     "cost": null,
@@ -293,5 +582,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:54.000Z"
+  "amap_updated_at": "2026-06-03T05:14:54.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "黄冈市黄州区青砖湖路西200米"
 }

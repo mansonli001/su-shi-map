@@ -3,11 +3,13 @@
   "ancient_name": "嘉州",
   "modern_name": "乐山",
   "type": "main",
+  "lat": 29.5521,
+  "lng": 103.7656,
   "related_routes": [
     "R02",
     "R04"
   ],
-  "background": "岷江中游重镇，乐山大佛所在地，\n宋代水路商旅、文人必经停靠之地。",
+  "background": "嘉州（今乐山），岷江、青衣江、大渡河三江汇流之地。苏轼出蜀途经嘉州，远眺乐山大佛，写下《初发嘉州》等名篇。",
   "extended_story": "舟至嘉州，远眺乐山大佛与三江汇流盛景，\n观山水人文相融之境，写下初发嘉州名篇，\n开启长江行旅诗文创作。",
   "essence": "岷江首座江景人文名城",
   "tags": [
@@ -118,6 +120,52 @@
       "description": "苏轼赴京途中观赏乐山大佛",
       "significance": "route01",
       "id": "p078-evt-002"
+    }
+  ],
+  "sub_places": [
+    {
+      "name": "吉水官署",
+      "ancient_name": "吉水官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在嘉州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    }
+  ],
+  "foods": [
+    {
+      "name": "乐山钵钵鸡",
+      "description": "乐山名小吃",
+      "origin_story": "嘉州传统美食",
+      "tag": "嘉州必吃"
+    },
+    {
+      "name": "乐山甜皮鸭",
+      "description": "乐山名菜",
+      "origin_story": "嘉州传统美食",
+      "tag": "嘉州特色"
+    },
+    {
+      "name": "乐山豆腐脑",
+      "description": "嘉州传统早餐，嫩豆腐配麻辣肉末"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "白鹭洲书院",
+      "description": "吉安古书院，苏轼南贬经此或曾到访",
+      "type": "古迹"
+    },
+    {
+      "name": "乐山大佛",
+      "description": "嘉州名景，世界文化遗产，苏轼少年时或曾游此",
+      "type": "景区"
     }
   ]
 }

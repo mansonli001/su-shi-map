@@ -67,7 +67,18 @@ interface V4PlaceFull extends PlaceCore {
 }
 
 const TYPE_LABEL: Record<string, string> = {
+  // v4 设计稿 10 类（优先）
+  main: '行经地',
+  sight: '观景地',
+  around: '寻访地',
+  visit: '游览地',
+  stay: '客居地',
+  study: '游学地',
   birth: '出生地',
+  official: '任职地',
+  death: '离世地',
+  tomb: '墓葬地',
+  // v3 旧 6 类（兜底）
   office: '任职地',
   exile: '贬谪地',
   tour: '游览地',
@@ -76,7 +87,18 @@ const TYPE_LABEL: Record<string, string> = {
 };
 
 const TYPE_CHIP: Record<string, { bg: string; fg: string; border: string }> = {
+  // v4 设计稿 10 类（优先）
+  main: { bg: 'rgba(139,90,43,0.12)', fg: '#8B5A2B', border: 'rgba(180,130,70,0.5)' },
+  sight: { bg: 'rgba(26,122,106,0.12)', fg: '#1A7A6A', border: 'rgba(80,180,160,0.5)' },
+  around: { bg: 'rgba(166,117,40,0.12)', fg: '#A67528', border: 'rgba(210,170,90,0.5)' },
+  visit: { bg: 'rgba(20,129,112,0.12)', fg: '#148170', border: 'rgba(70,180,160,0.5)' },
+  stay: { bg: 'rgba(106,70,138,0.12)', fg: '#6A468A', border: 'rgba(160,120,200,0.5)' },
+  study: { bg: 'rgba(93,64,55,0.12)', fg: '#5D4037', border: 'rgba(150,110,90,0.5)' },
   birth: { bg: 'rgba(8,80,65,0.15)', fg: '#085041', border: 'rgba(93,202,165,0.5)' },
+  official: { bg: 'rgba(158,42,30,0.12)', fg: '#9E2A1E', border: 'rgba(220,120,100,0.5)' },
+  death: { bg: 'rgba(69,90,100,0.12)', fg: '#455A64', border: 'rgba(130,160,180,0.5)' },
+  tomb: { bg: 'rgba(62,39,35,0.15)', fg: '#3E2723', border: 'rgba(120,80,60,0.5)' },
+  // v3 旧 6 类（兜底）
   office: { bg: 'rgba(12,68,124,0.12)', fg: '#0C447C', border: 'rgba(133,183,235,0.5)' },
   exile: { bg: 'rgba(113,43,19,0.13)', fg: '#712B13', border: 'rgba(240,153,123,0.5)' },
   tour: { bg: 'rgba(99,56,6,0.12)', fg: '#633806', border: 'rgba(201,151,90,0.5)' },
@@ -85,6 +107,47 @@ const TYPE_CHIP: Record<string, { bg: string; fg: string; border: string }> = {
 };
 
 // 七阶段中文名（PlaceCore.stage 映射）
+// 路线名映射（R00-R19，固定20条）
+const ROUTE_NAME: Record<string, string> = {
+  R00: '眉山故里·少年',
+  R01: '首次进京',
+  R02: '岷江长江出蜀',
+  R03: '二次进京·凤翔',
+  R04: '扶柩归蜀',
+  R05: '守丧毕再赴京',
+  R06: '杭州通判',
+  R07: '密州知州',
+  R08: '徐州知州',
+  R09: '湖州·乌台诗案',
+  R10: '贬谪黄州',
+  R11: '量移汝州',
+  R12: '登州',
+  R13: '元祐还朝',
+  R14: '再知杭州',
+  R15: '杭州还朝',
+  R16: '颍州·扬州',
+  R17: '定州',
+  R18: '南贬岭南',
+  R19: '北归·终老',
+};
+
+// 地点类型 → 苏东坡口吻标签
+const TYPE_POETIC: Record<string, string> = {
+  birth: '吾乡',
+  office: '宦游至此',
+  exile: '谪居于此',
+  tour: '曾游此地',
+  friend: '故人所在',
+  burial: '终老之地',
+  main: '行经此地',
+  sight: '驻足观景',
+  around: '近处寻访',
+  stay: '客居于此',
+  official: '官守此地',
+  death: '终老之地',
+  transit: '途经而过',
+};
+
 const STAGE_NAME: Record<string, string> = {
   youth: '眉山少年',
   early_career: '入京初仕',
@@ -147,8 +210,10 @@ export default function PlaceCard({ place }: PlaceCardProps) {
     if (info.offset.y > 100) closeCard();
   };
 
-  const chip = TYPE_CHIP[place.type] || TYPE_CHIP.tour;
-  const typeLabel = TYPE_LABEL[place.type] || '途经';
+  // 优先使用 designType（v4 10类），与地图marker图标一致
+  const displayType = (place as any).designType || place.type;
+  const chip = TYPE_CHIP[displayType] || TYPE_CHIP.tour;
+  const typeLabel = TYPE_LABEL[displayType] || '途经';
 
   // 字段优先用 detail（v4），兜底 place（v3 PlaceCore）
   const ancient = (detail?.ancient_name as any) || place.songName;
@@ -287,7 +352,7 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                     </div>
                   )}
 
-                  {/* 基础信息块（任何 place 都有，避免空白卡）*/}
+                  {/* 行迹信息块 —— 苏东坡口吻 */}
                   <div
                     className="rounded-lg p-3 mb-4 grid grid-cols-2 gap-2 text-[11px]"
                     style={{
@@ -296,34 +361,35 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                     }}
                   >
                     <div>
-                      <div className="text-ink-lt/60 tracking-wider mb-0.5">所属阶段</div>
+                      <div className="text-ink-lt/60 tracking-wider mb-0.5">人生阶段</div>
                       <div className="font-wenkai text-ink/85">
                         {STAGE_NAME[place.stage] || place.stage || '—'}
                       </div>
                     </div>
                     <div>
-                      <div className="text-ink-lt/60 tracking-wider mb-0.5">主路线</div>
+                      <div className="text-ink-lt/60 tracking-wider mb-0.5">行迹所系</div>
                       <div className="font-wenkai text-ink/85">
-                        {place.routeId || '—'}
-                        {place.routeOrder ? ` · 第 ${place.routeOrder} 站` : ''}
+                        {(() => {
+                          const rids = detail?.related_routes || place.relatedRoutes || (place.routeId ? [place.routeId] : []);
+                          if (rids.length === 0) return '—';
+                          return rids.map((rid: string) => ROUTE_NAME[rid] || rid).join('、');
+                        })()}
                       </div>
                     </div>
                     <div>
-                      <div className="text-ink-lt/60 tracking-wider mb-0.5">坐标</div>
-                      <div className="font-mono text-[10px] text-ink/75">
-                        {place.lat?.toFixed(3)}, {place.lng?.toFixed(3)}
+                      <div className="text-ink-lt/60 tracking-wider mb-0.5">与吾之缘</div>
+                      <div className="font-wenkai text-ink/85">
+                        {TYPE_POETIC[displayType] || TYPE_POETIC[detail?.type || ''] || '行经此地'}
                       </div>
                     </div>
                     <div>
-                      <div className="text-ink-lt/60 tracking-wider mb-0.5">数据</div>
+                      <div className="text-ink-lt/60 tracking-wider mb-0.5">诗文留痕</div>
                       <div className="font-wenkai text-ink/75">
-                        {detail?._auto_generated
-                          ? '骨架（待充实）'
-                          : works.length > 0
-                            ? `${works.length} 部作品`
-                            : detail
-                              ? '已收录'
-                              : '加载中…'}
+                        {works.length > 0
+                          ? `${works.length} 篇`
+                          : detail
+                            ? '尚待发掘'
+                            : '加载中…'}
                       </div>
                     </div>
                   </div>

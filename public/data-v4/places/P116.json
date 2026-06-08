@@ -3,8 +3,8 @@
   "ancient_name": "眉山",
   "modern_name": "四川眉山",
   "type": "birth",
-  "lat": 30.077113,
-  "lng": 103.848417,
+  "lat": 30.0755,
+  "lng": 103.8315,
   "related_routes": [
     "R01",
     "R02",
@@ -12,7 +12,7 @@
     "R05"
   ],
   "summary": "苏轼出生地，在此生活约32年直至进京科举",
-  "background": "眉山是苏轼的出生地和故乡，纱縠行是苏家老宅所在地",
+  "background": "剑门关，蜀道天险。苏轼父子出蜀经此，关楼耸峙、栈道凌空，是告别蜀中的最后一道天险。",
   "tags": [
     "出生地",
     "故乡",
@@ -80,6 +80,41 @@
       "route_id": "R05",
       "note": "入朝后针对变法政见陈述己见的奠基之作",
       "poem_id": "Z002"
+    },
+    {
+      "title": "刑赏忠厚之至论",
+      "type": "策",
+      "description": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。"
+    },
+    {
+      "title": "上神宗皇帝书",
+      "type": "策",
+      "description": "守法者，治之本也；持正者，义之门也。"
+    },
+    {
+      "title": "初发嘉州",
+      "type": "诗",
+      "description": "朝发鼓阗阗，西风猎画旃。"
+    },
+    {
+      "title": "留别廉守",
+      "type": "诗",
+      "description": "小饼如嚼月，中有酥与饴。"
+    },
+    {
+      "title": "次韵子由以诗致贺",
+      "type": "诗",
+      "description": "我生本是蓬莱客，偶向人间游一遭。"
+    },
+    {
+      "title": "江淮行旅杂咏",
+      "type": "诗",
+      "description": "北风吹雪花，日暮车马道。"
+    },
+    {
+      "title": "和子由渑池怀旧",
+      "type": "诗",
+      "description": "人生到处知何似，应似飞鸿踏雪泥。"
     }
   ],
   "route_events": {
@@ -175,7 +210,10 @@
       "photos": [],
       "url": "https://www.sscbwg.com/",
       "rating": "",
-      "distance": "市中心"
+      "distance": "市中心",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "眉山市东坡区纱縠行南段72号"
     },
     {
       "id": "ms-s002",
@@ -189,17 +227,89 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "眉山市东坡区通惠街13号"
+    },
+    {
+      "name": "眉山三苏纪念馆",
+      "description": "眉山市区三苏文化专题博物馆",
+      "type": "博物馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "东坡肉",
+      "description": "眉山传统名菜，五花肉慢火红烧，肥而不腻、酥烂香醇，传为苏轼所创"
+    },
+    {
+      "name": "眉山泡菜",
+      "description": "四川泡菜代表，酸辣爽脆、开胃下饭，眉山家家必备"
+    },
+    {
+      "name": "龙眼酥",
+      "description": "眉山传统糕点，酥皮层次分明、馅心甜糯，形似龙眼"
+    },
+    {
+      "name": "东坡肘子",
+      "description": "眉山名菜，传为苏轼之妻王弗创制，肘子炖至酥烂，酱香浓郁"
+    },
+    {
+      "name": "眉山龙眼酥",
+      "description": "眉山传统糕点，酥皮包馅形如龙眼，香甜酥脆"
+    }
+  ],
   "transport": {
     "train": "眉山站 / 眉山东站",
     "bus": "眉山客运中心",
     "car": "成乐高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "三苏祠",
+      "ancient_name": "苏家故居",
+      "type": "residence",
+      "period": "1037-1056年（少年及青年时期）",
+      "description": "苏轼出生地，苏家故居，现为三苏祠博物馆",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "眉山市东坡区纱縠行南段72号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "纱縠行",
+      "ancient_name": "纱縠行",
+      "type": "scenic",
+      "period": "1037-1056年",
+      "description": "宋代苏家老宅所在地，丝绸布匹交易市场",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "眉山市东坡区通惠街13号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "蟆颐山蟆颐观",
+      "ancient_name": "蟆颐山蟆颐观",
+      "type": "scenic",
+      "period": "1037-1056年",
+      "description": "苏轼少年时常游之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "眉山市东坡区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS001",
     "pinyin_id": "meishan",
@@ -215,7 +325,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.203Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "四川省眉山市",
   "coords_updated_at": "2026-06-01T10:17:04.319Z",
   "duration_summary": {
@@ -230,13 +340,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B07290N02W",
-    "amap_name": "眉山市",
-    "address": "东坡区",
-    "location": "103.848417,30.077113",
+    "amap_name": "三苏祠",
+    "address": "纱縠行南段",
+    "location": "103.8315,30.0755",
     "cityname": "眉山市",
     "adname": "东坡区",
-    "type": "地名地址信息;普通地名;地市级地名",
-    "typecode": "190104",
+    "type": "风景名胜;风景名胜;祠堂",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -259,5 +369,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:25.000Z"
+  "amap_updated_at": "2026-06-03T05:15:25.000Z",
+  "sxzk_address": "眉山市东坡区纱縠行南段72号"
 }

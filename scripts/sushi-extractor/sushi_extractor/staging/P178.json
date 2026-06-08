@@ -1,0 +1,60 @@
+{
+  "place_id": "P178",
+  "ancient_name": "梧州",
+  "modern_name": "广西梧州",
+  "city": "广西梧州市",
+  "processed_at": "2026-06-07T23:22:37.429605",
+  "main_coords": {
+    "name": "吴江官署",
+    "lat": 23.476733,
+    "lng": 111.279022,
+    "modern_address": "广西壮族自治区梧州市",
+    "coordinate_source": "amap_geocode",
+    "reason": "吴江官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "吴江官署",
+      "ancient_name": "吴江官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在梧州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.476733,
+      "lng": 111.279022,
+      "modern_address": "广西壮族自治区梧州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "白云山",
+      "ancient_name": "白云山",
+      "type": "山",
+      "period": "",
+      "description": "梧州白云山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.476733,
+      "lng": 111.279022,
+      "modern_address": "广西壮族自治区梧州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P178",
+    "ancient_name": "梧州",
+    "city": "广西梧州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "梧州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:23.925769"
+}

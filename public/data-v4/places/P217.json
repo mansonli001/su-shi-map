@@ -3,13 +3,13 @@
   "ancient_name": "载酒堂",
   "modern_name": "海南儋州载酒堂",
   "type": "around",
-  "lat": 19.5232,
-  "lng": 109.5754,
+  "lat": 19.5215,
+  "lng": 109.4768,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼贬谪海南儋州三年，在此讲学授徒",
-  "background": "儋州是苏轼最后一个贬谪地，在此三年讲学授徒，对海南文化影响深远",
+  "background": "载酒堂，儋州苏轼居所。苏轼谪居儋州时讲学之所，'载酒问字'传为佳话，海南文教由此开化。",
   "tags": [
     "儋州",
     "海南",
@@ -127,17 +127,43 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "儋州烤生蚝",
+      "description": "海南特色，海蚝炭烤鲜嫩多汁",
+      "origin_story": "苏轼《食蚝》记载",
+      "tag": "儋州必吃"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "儋州汽车站",
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "载酒堂",
+      "ancient_name": "载酒堂",
+      "type": "residence",
+      "period": "1098年后",
+      "description": "苏轼在儋州建载酒堂，以文会友、讲学授徒之所",
+      "works": [],
+      "importance": "primary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "载酒堂位于东坡书院内，坐标为书院位置"
+    }
+  ],
   "legacy": {
     "ss_id": "SS043",
     "pinyin_id": "danzhou",
@@ -163,13 +189,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFIT9SXG",
-    "amap_name": "海南火莲花地质景区",
-    "address": "兰洋镇万洋高速兰洋互通旁",
-    "location": "109.662536,19.427419",
+    "amap_name": "东坡书院(儋州)",
+    "address": "中和镇",
+    "location": "109.4768,19.5215",
     "cityname": "儋州市",
-    "adname": "儋州市",
-    "type": "风景名胜;风景名胜;风景名胜",
-    "typecode": "110200",
+    "adname": "中和镇",
+    "type": "风景名胜;风景名胜;书院",
+    "typecode": "110201",
     "tel": "0898-23324891",
     "rating": null,
     "cost": null,
@@ -192,5 +218,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:46.000Z"
+  "amap_updated_at": "2026-06-03T05:16:46.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "儋州市中和镇东坡书院内"
 }

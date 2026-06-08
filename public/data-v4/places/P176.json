@@ -9,7 +9,7 @@
     "R02"
   ],
   "summary": "",
-  "background": "",
+  "background": "巫峡十二峰之最，峰顶石柱如少女亭亭玉立。苏轼舟行巫峡，云雾缭绕间遥望神女峰，楚辞巫山神女的传说与眼前山水交融，峡江烟雨、峰峦隐现，是三峡中最富诗意的景观。",
   "tags": [],
   "periods": [
     {
@@ -20,11 +20,31 @@
     }
   ],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "巫山",
+      "type": "诗",
+      "note": "出蜀经巫峡所作",
+      "year_estimate": 1059
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "巫山神女峰",
+      "description": "巫山十二峰之一，'巫山神女'传说所在地",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "巫山烤鱼",
+      "description": "巫山名菜",
+      "origin_story": "巫山传统美食",
+      "tag": "巫山必吃"
+    }
+  ],
   "transport": {},
   "sub_places": [],
   "legacy": {
@@ -35,7 +55,7 @@
     "v3_lat": 31.03,
     "v3_lng": 110
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "重庆市巫山县巫山神女峰",
   "coords_updated_at": "2026-06-01T10:17:04.325Z",
   "duration_summary": {
@@ -79,5 +99,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:07.000Z"
+  "amap_updated_at": "2026-06-03T05:16:07.000Z",
+  "sxzk_address": "滨江路9码头"
 }

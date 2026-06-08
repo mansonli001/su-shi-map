@@ -3,21 +3,51 @@
   "ancient_name": "长江沿岸渡口",
   "modern_name": "长江中游渡口",
   "type": "around",
-  "lat": 30.5,
-  "lng": 113,
+  "lat": 30.60597,
+  "lng": 114.311035,
   "related_routes": [
     "R02"
   ],
   "tags": [],
-  "background": "守制毕，父子三人沿岷江入长江，三峡水路第二次出蜀。",
+  "background": "出三峡后长江中游沿岸渡口，江面渐宽、水流趋缓。苏轼舟行过荆楚，沿江渡口星罗棋布，商旅往来频繁，两岸沃野千里、水乡泽国，与蜀中三峡的险峻截然不同。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p225-001",
+      "date": "1059年",
+      "title": "经长江沿岸渡口",
+      "description": "苏轼沿长江东下，经沿岸各渡口",
+      "significance": "水路行旅"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "江上",
+      "type": "诗",
+      "note": "沿长江行舟所作",
+      "year_estimate": 1080
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "长江沿岸渡口附近驿馆",
+      "ancient_name": "长江沿岸渡口附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长江沿岸渡口的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.60597,
+      "lng": 114.311035,
+      "modern_address": "胜利街316号(黄浦路地铁站A口步行440米)",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -48,5 +78,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:54.000Z"
+  "amap_updated_at": "2026-06-03T05:16:54.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "胜利街316号(黄浦路地铁站A口步行440米)"
 }

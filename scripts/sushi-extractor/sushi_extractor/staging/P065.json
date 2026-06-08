@@ -1,0 +1,61 @@
+{
+  "place_id": "P065",
+  "ancient_name": "湖州",
+  "modern_name": "浙江湖州",
+  "city": "浙江湖州市",
+  "processed_at": "2026-06-07T23:22:31.961358",
+  "main_coords": {
+    "name": "嘉州官署",
+    "lat": 30.894178,
+    "lng": 120.086881,
+    "modern_address": "浙江省湖州市",
+    "coordinate_source": "amap_geocode",
+    "reason": "嘉州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "嘉州官署",
+      "ancient_name": "嘉州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在湖州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "modern_address": "浙江省湖州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "湖州苏湾",
+      "ancient_name": "湖州苏湾",
+      "type": "遗址",
+      "period": "",
+      "description": "苏轼在湖州时常至苏湾",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "modern_address": "浙江省湖州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P065",
+    "ancient_name": "湖州",
+    "city": "浙江湖州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "湖州附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.135672"
+}

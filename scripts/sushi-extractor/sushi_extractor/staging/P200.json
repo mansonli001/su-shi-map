@@ -1,0 +1,89 @@
+{
+  "place_id": "P200",
+  "ancient_name": "扬州瘦西湖旧址",
+  "modern_name": "江苏扬州瘦西湖（旧址）",
+  "city": "江苏扬州瘦西湖（旧址）市",
+  "processed_at": "2026-06-07T23:16:31.870664",
+  "main_coords": {
+    "name": "扬州瘦西湖旧址州衙",
+    "lat": 32.409,
+    "lng": 119.4197,
+    "modern_address": "大虹桥路28号",
+    "coordinate_source": "original",
+    "reason": "使用原始坐标，待精细化"
+  },
+  "sub_places": [
+    {
+      "name": "扬州瘦西湖旧址居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州瘦西湖旧址的居所",
+      "importance": "primary",
+      "ancient_name": "扬州瘦西湖旧址居所",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "扬州瘦西湖旧址州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州瘦西湖旧址的居所",
+      "importance": "primary",
+      "ancient_name": "扬州瘦西湖旧址州衙",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "平山堂",
+      "ancient_name": "平山堂",
+      "type": "建筑",
+      "period": "",
+      "description": "欧阳修所建，苏轼常来此凭吊",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.37741,
+      "lng": 119.397935,
+      "modern_address": "江苏省扬州市邗江区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瘦西湖",
+      "ancient_name": "瘦西湖",
+      "type": "湖泊",
+      "period": "",
+      "description": "扬州著名的湖泊风景区",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "江苏省扬州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P200",
+    "ancient_name": "扬州瘦西湖旧址",
+    "city": "江苏扬州瘦西湖（旧址）市",
+    "total_sub_places": 2,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "扬州瘦西湖旧址居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "parent_place": "P198",
+    "parent_place_name": "扬州",
+    "note": "瘦西湖旧址为扬州的子地点"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:22:01.512567"
+}

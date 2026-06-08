@@ -7,7 +7,7 @@
     "R00",
     "R01"
   ],
-  "background": "眉山北上成都必经水路官道渡口，宋代川西重要驿道中转节点。",
+  "background": "彭山，岷江中游古城。苏轼途经彭山，彭祖山长寿文化源远流长，岷江水润泽蜀地。",
   "extended_story": "离眉山首站休整，正式踏入跨省远行驿道，\n开启漫长川陕官道行程。",
   "essence": "出蜀首个水陆中转节点",
   "tags": [
@@ -55,31 +55,39 @@
       "poem_id": "Z001"
     }
   ],
-  "modern_visit": {
-    "amap_poi_id": "BZA3N30071",
-    "amap_name": "彭山收费站(G0512成乐高速出口)",
-    "address": "彭山区",
-    "location": "103.846019,30.214667",
-    "cityname": "眉山市",
-    "adname": "彭山区",
-    "type": "道路附属设施;收费站;收费站",
-    "typecode": "180200",
-    "tel": [],
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/1e45443600772133a582cf358e752811"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
+  "modern_visit": {},
   "amap_updated_at": "2026-06-03T05:15:34.000Z",
-  "lat": 30.193278,
-  "lng": 103.872852,
-  "_latlng_source": "geocode"
+  "lat": 30.214667,
+  "lng": 103.846019,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "彭山区",
+  "sub_places": [
+    {
+      "name": "彭山附近驿馆",
+      "ancient_name": "彭山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在彭山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.214667,
+      "lng": 103.846019,
+      "modern_address": "彭山区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "foods": [
+    {
+      "name": "彭山甜皮鸭",
+      "description": "彭山传统名菜，鸭皮刷糖色，甜香酥脆"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "彭祖山",
+      "description": "彭祖故里，长寿文化发源地",
+      "type": "景区"
+    }
+  ]
 }

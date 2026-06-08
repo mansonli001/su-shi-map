@@ -1,0 +1,92 @@
+{
+  "place_id": "P044",
+  "ancient_name": "凤翔",
+  "modern_name": "陕西宝鸡凤翔区",
+  "city": "凤翔区",
+  "main_coords": {
+    "name": "凤翔府衙",
+    "lat": 34.522167,
+    "lng": 107.401029,
+    "modern_address": "陕西省宝鸡市凤翔区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任凤翔府签判，居府衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "凤翔府衙",
+      "ancient_name": "凤翔府衙",
+      "type": "residence",
+      "period": "1061-1064年",
+      "description": "苏轼任凤翔府签判时的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤翔东湖",
+      "ancient_name": "凤翔东湖",
+      "type": "scenic",
+      "period": "1061-1064年",
+      "description": "苏轼疏浚凤翔东湖，建君子亭、宛在亭等",
+      "works": [
+        "凤翔东湖"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "仙游潭中兴寺",
+      "ancient_name": "仙游潭中兴寺",
+      "type": "scenic",
+      "period": "1062年3月",
+      "description": "苏轼《留题仙游潭中兴寺》，有玉女洞、马融读书石室",
+      "works": [
+        "留题仙游潭中兴寺"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤鸣驿",
+      "ancient_name": "凤鸣驿",
+      "type": "scenic",
+      "period": "1061-1064年",
+      "description": "苏轼《凤鸣驿记》记载的驿站",
+      "works": [
+        "凤鸣驿记"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P044",
+    "ancient_name": "凤翔",
+    "city": "凤翔区",
+    "total_sub_places": 4,
+    "residence_count": 1,
+    "scenic_count": 3,
+    "main_coords_source": "凤翔府衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 4,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:48.607398"
+}

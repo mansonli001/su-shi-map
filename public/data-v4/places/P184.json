@@ -3,13 +3,13 @@
   "ancient_name": "相国寺",
   "modern_name": "河南开封大相国寺",
   "type": "around",
-  "lat": 34.798,
-  "lng": 114.35,
+  "lat": 34.791769,
+  "lng": 114.354678,
   "related_routes": [
     "R05"
   ],
   "tags": [],
-  "background": "守父丧毕，再赴汴京任职，正值王安石变法，旋陷党争。",
+  "background": "汴京名刹，始建于北齐，为京城最繁华的寺庙集市。苏轼守孝期满还朝，常游相国寺，寺中商贾云集、百戏杂陈，是北宋都城最热闹的市井所在。",
   "route_events": {},
   "global_events": [
     {
@@ -27,12 +27,44 @@
       "id": "p184-evt-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "相国寺题壁",
+      "type": "诗",
+      "description": "苏轼经汴京大相国寺所作"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "大相国寺",
+      "description": "北宋皇家寺院，苏轼常游之地",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "开封灌汤包",
+      "description": "开封名点，皮薄汁多，鲜香不腻"
+    }
+  ],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "相国寺附近驿馆",
+      "ancient_name": "相国寺附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在相国寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.791769,
+      "lng": 114.354678,
+      "modern_address": "自由路西段36号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -67,5 +99,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:13.000Z"
+  "amap_updated_at": "2026-06-03T05:16:13.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "自由路西段36号"
 }

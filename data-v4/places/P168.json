@@ -61,5 +61,74 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:02.000Z"
+  "amap_updated_at": "2026-06-03T05:16:02.000Z",
+  "lat": 36.299228,
+  "lng": 117.142604,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "泰佛路与103省道交叉口北440米",
+  "sub_places": [],
+  "global_events": [
+    {
+      "id": "p168-001",
+      "date": "1086年",
+      "title": "经泰山余脉",
+      "description": "苏轼还朝途经泰山余脉，感受东岳气象",
+      "significance": "东岳余韵"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "次韵钱越州",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "迩英阁经筵讲义",
+      "type": "文",
+      "description": "《春秋》之义，莫大于正名分。"
+    },
+    {
+      "title": "翰林院制诰序跋",
+      "type": "文",
+      "description": "三代以前，文章与治化同出而异名者也。"
+    },
+    {
+      "title": "西江月·平山堂",
+      "type": "词",
+      "description": "三过平山堂上，半生弹指声中。"
+    },
+    {
+      "title": "南歌子·山与歌眉敛",
+      "type": "词",
+      "description": "山与歌眉敛，波同醉眼流。"
+    },
+    {
+      "title": "南乡子·霜降水痕收",
+      "type": "词",
+      "description": "万事到头都是梦，休休，明日黄花蝶也愁。"
+    },
+    {
+      "title": "少年游·去年相送",
+      "type": "词",
+      "description": "去年相送，余杭门外，飞雪似杨花。"
+    },
+    {
+      "title": "清平乐·春归何处",
+      "type": "词",
+      "description": "春归何处，寂寞无行路。"
+    }
+  ],
+  "foods": [
+    {
+      "name": "泰山煎饼",
+      "description": "泰山传统主食，薄如蝉翼，酥脆可口"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "泰山风景区",
+      "description": "五岳之首，苏轼途经山东或远眺",
+      "type": "景区"
+    }
+  ]
 }

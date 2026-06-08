@@ -1,0 +1,46 @@
+{
+  "place_id": "P059",
+  "ancient_name": "濠州",
+  "modern_name": "安徽凤阳",
+  "city": "安徽凤阳市",
+  "processed_at": "2026-06-07T23:25:28.352815",
+  "main_coords": {
+    "name": "濠州官署",
+    "lat": 32.875714,
+    "lng": 117.531791,
+    "modern_address": "凤阳县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "濠州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "濠州官署",
+      "ancient_name": "濠州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在濠州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.875714,
+      "lng": 117.531791,
+      "modern_address": "凤阳县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P059",
+    "ancient_name": "濠州",
+    "city": "安徽凤阳市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "濠州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:35.757408"
+}

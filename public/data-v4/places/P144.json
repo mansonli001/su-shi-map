@@ -10,7 +10,7 @@
     "R04"
   ],
   "summary": "",
-  "background": "岷江入长江交汇门户，锁江楼为地标名胜，\n川南水路交通核心枢纽。",
+  "background": "戎州即今四川宜宾，岷江入长江交汇门户。锁江楼为地标名胜，两江合流、水势壮阔，是川南水路交通核心枢纽，苏轼出蜀水路经此。",
   "tags": [
     "main",
     "visit"
@@ -32,7 +32,13 @@
       "id": "p144-evt-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过戎州",
+      "type": "诗",
+      "description": "苏轼经戎州所作"
+    }
+  ],
   "route_events": {
     "R02": {
       "duration": "1059年途经停靠",
@@ -60,10 +66,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "宜宾大观楼",
+      "description": "宜宾地标，登楼可览三江汇流",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宜宾燃面",
+      "description": "戎州传统名吃，干拌面条红油花生，麻辣鲜香"
+    },
+    {
+      "name": "五粮液",
+      "description": "戎州名酒，苏轼出蜀途经或饮此酒"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "戎州官署",
+      "ancient_name": "戎州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在戎州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.752354,
+      "lng": 104.642826,
+      "modern_address": "叙州区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS127",
     "pinyin_id": null,
@@ -79,7 +115,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.201Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "四川省宜宾市",
   "coords_updated_at": "2026-06-01T10:17:04.322Z",
   "duration_summary": {
@@ -123,5 +159,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:46.000Z"
+  "amap_updated_at": "2026-06-03T05:15:46.000Z",
+  "sxzk_address": "叙州区"
 }

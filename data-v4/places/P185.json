@@ -9,13 +9,21 @@
     "R17"
   ],
   "summary": "",
-  "background": "豫北古州，殷商故地，河北平原南部门户古驿。",
+  "background": "相州即今河南安阳，殷商故地。苏轼途经此地，洹水穿城、殷墟古远，是中原最厚重的历史名城。",
   "tags": [
     "main",
     "ancient"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p185-001",
+      "date": "1093年",
+      "title": "经相州赴定州",
+      "description": "苏轼外放定州途经相州安阳",
+      "significance": "殷墟故地"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R17": {
@@ -32,10 +40,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "殷墟",
+      "description": "世界文化遗产，商代都城遗址",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "安阳三熏",
+      "description": "相州传统名菜，熏鸡熏肉熏蛋，烟香浓郁"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "相州官署",
+      "ancient_name": "相州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在相州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.098779,
+      "lng": 114.39248,
+      "modern_address": "文峰区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS111",
     "pinyin_id": null,
@@ -51,7 +85,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.252Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河南省安阳市",
   "coords_updated_at": "2026-06-01T10:17:04.326Z",
   "duration_summary": {
@@ -95,5 +129,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:13.000Z"
+  "amap_updated_at": "2026-06-03T05:16:13.000Z",
+  "sxzk_address": "文峰区"
 }

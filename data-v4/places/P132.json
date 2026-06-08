@@ -74,5 +74,41 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:37.000Z"
+  "amap_updated_at": "2026-06-03T05:15:37.000Z",
+  "lat": 29.133105,
+  "lng": 116.680317,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "团林乡",
+  "sub_places": [
+    {
+      "name": "鄱阳湖",
+      "ancient_name": "鄱阳湖",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经鄱阳湖",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.133105,
+      "lng": 116.680317,
+      "modern_address": "团林乡",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "foods": [
+    {
+      "name": "鄱阳湖银鱼",
+      "description": "鄱阳湖特产",
+      "origin_story": "鄱阳湖传统美食",
+      "tag": "鄱阳特色"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "鄱阳湖",
+      "description": "中国最大淡水湖，苏轼南贬途经",
+      "type": "景区"
+    }
+  ]
 }

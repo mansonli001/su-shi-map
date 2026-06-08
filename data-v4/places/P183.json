@@ -3,21 +3,52 @@
   "ancient_name": "西江山水",
   "modern_name": "广东西江山水",
   "type": "sight",
-  "lat": 23.5,
-  "lng": 111.5,
+  "lat": 22.982151,
+  "lng": 112.85961,
   "related_routes": [
     "R18"
   ],
   "tags": [],
-  "background": "新党执政清算元祐党人，苏轼一贬再贬至岭南、海南。",
+  "background": "岭南西江两岸山水，喀斯特峰林倒映江面。苏轼贬谪岭南舟行西江，两岸青山如画、江水碧绿，虽是贬途却写下旷达诗句。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p183-001",
+      "date": "1094年",
+      "title": "经西江山水南下",
+      "description": "苏轼南贬经西江山水南下赴惠州",
+      "significance": "岭南山水"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "西江",
+      "type": "诗",
+      "note": "南贬途经西江所作",
+      "year_estimate": 1094
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "西江山水",
+      "ancient_name": "西江山水",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经西江山水",
+      "works": [],
+      "importance": "primary",
+      "lat": 22.982151,
+      "lng": 112.85961,
+      "modern_address": "三水区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -39,5 +70,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:12.000Z"
+  "amap_updated_at": "2026-06-03T05:16:12.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "三水区"
 }

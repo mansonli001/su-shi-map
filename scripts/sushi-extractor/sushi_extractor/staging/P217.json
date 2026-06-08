@@ -1,0 +1,43 @@
+{
+  "place_id": "P217",
+  "ancient_name": "载酒堂",
+  "modern_name": "海南儋州载酒堂",
+  "city": "儋州市",
+  "main_coords": {
+    "name": "载酒堂",
+    "lat": 19.737794,
+    "lng": 109.356283,
+    "modern_address": "儋州市中和镇东坡书院内",
+    "coordinate_source": "amap_poi",
+    "reason": "载酒堂为儋州子地点，位于东坡书院内"
+  },
+  "sub_places": [
+    {
+      "name": "载酒堂",
+      "ancient_name": "载酒堂",
+      "type": "residence",
+      "period": "1098年后",
+      "description": "苏轼在儋州建载酒堂，以文会友、讲学授徒之所",
+      "works": [],
+      "importance": "primary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "载酒堂位于东坡书院内，坐标为书院位置"
+    }
+  ],
+  "report": {
+    "place_id": "P217",
+    "parent_place": "P034",
+    "parent_place_name": "儋州",
+    "note": "载酒堂为儋州子地点，已合并到P034儋州的sub_places中",
+    "main_coords_source": "载酒堂（核心居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:37.708998"
+}

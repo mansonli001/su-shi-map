@@ -1,0 +1,47 @@
+{
+  "place_id": "P192",
+  "ancient_name": "兴廉村净行院",
+  "modern_name": "广东雷州兴廉村净行院",
+  "city": "广东雷州兴廉村净行院市",
+  "processed_at": "2026-06-07T23:25:28.944407",
+  "main_coords": {
+    "name": "兴廉村净行院居所",
+    "lat": 23.121935,
+    "lng": 113.328793,
+    "modern_address": "珠江新城兴盛路7号",
+    "coordinate_source": "amap_poi_original",
+    "reason": "兴廉村净行院居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "兴廉村净行院居所",
+      "ancient_name": "兴廉村净行院居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在兴廉村净行院的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.121935,
+      "lng": 113.328793,
+      "modern_address": "珠江新城兴盛路7号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P192",
+    "ancient_name": "兴廉村净行院",
+    "city": "广东雷州兴廉村净行院市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "兴廉村净行院居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:46.373217"
+}

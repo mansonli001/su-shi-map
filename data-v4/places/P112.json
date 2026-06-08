@@ -6,7 +6,7 @@
   "related_routes": [
     "R18"
   ],
-  "background": "岭南第一名山、道教仙山，岭南文脉胜境。",
+  "background": "罗浮山岭南第一名山，道教第七洞天。苏轼谪居惠州时常游罗浮，冲虚古观、洗药池畔，是苏轼岭南山水最爱的寻仙之地。",
   "extended_story": "登临罗浮山，吸纳仙山灵气，\n以山林清寂消解贬谪落寞。",
   "essence": "岭南仙山标志性点位",
   "tags": [
@@ -29,9 +29,9 @@
   },
   "last_updated": "2026-06-01T10:22:05.260Z",
   "schema_version": "v4.1",
-  "lng": 114.034674,
-  "lat": 23.269017,
-  "coordinate_source": "amap_corrected",
+  "lng": 114.0,
+  "lat": 23.283,
+  "coordinate_source": "manual_corrected",
   "amap_address": "广东省惠州市博罗县罗浮山",
   "coords_updated_at": "2026-06-01T10:17:04.318Z",
   "duration_summary": {
@@ -55,6 +55,41 @@
       "fullText": "春来幽谷水潺潺，的皪梅花草棘间。\n一夜东风吹石裂，半随飞雪度关山。",
       "excerpt": "春来幽谷水潺潺，的皪梅花草棘间。",
       "poem_id": "S143"
+    },
+    {
+      "title": "纵笔三首",
+      "type": "诗",
+      "description": "报道先生春睡美，道人轻打五更钟。"
+    },
+    {
+      "title": "和陶诗全集",
+      "type": "诗",
+      "description": "同是天涯沦落人，相逢何必曾相识。"
+    },
+    {
+      "title": "和陶答庞参军三首",
+      "type": "诗",
+      "description": "功名不足慕，还我疏散性。"
+    },
+    {
+      "title": "和陶读山海经",
+      "type": "诗",
+      "description": "神山既无根，潜穴不可究。"
+    },
+    {
+      "title": "次韵子由三首",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "次韵范纯父涵星砚",
+      "type": "诗",
+      "description": "涵星砚来，字字珠玑。"
+    },
+    {
+      "title": "桄榔庵记（铭）",
+      "type": "文",
+      "description": "桄榔为柱，直而不污。我作此庵，居之宴如。"
     }
   ],
   "modern_visit": {
@@ -96,6 +131,38 @@
       "description": "苏轼游览罗浮山",
       "significance": "route18",
       "id": "p112-evt-001"
+    }
+  ],
+  "sub_places": [
+    {
+      "name": "庐陵官署",
+      "ancient_name": "庐陵官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在罗浮山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.269017,
+      "lng": 114.034674,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用罗浮山中心坐标作为参考"
+    }
+  ],
+  "foods": [
+    {
+      "name": "客家酿豆腐",
+      "description": "惠州客家名菜",
+      "origin_story": "罗浮山地区传统美食",
+      "tag": "罗浮山特色"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "罗浮山",
+      "description": "岭南名山，苏轼贬惠州游此，'罗浮山下四时春'",
+      "type": "景区"
     }
   ]
 }

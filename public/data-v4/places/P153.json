@@ -3,13 +3,13 @@
   "ancient_name": "韶州",
   "modern_name": "广东韶关",
   "type": "main",
-  "lat": 24.8108,
-  "lng": 113.5972,
+  "lat": 24.810977,
+  "lng": 113.597324,
   "related_routes": [
     "R19"
   ],
   "summary": "苏轼贬惠州途经韶州",
-  "background": "韶州今广东韶关，苏轼贬惠州时途经此地",
+  "background": "韶州即今广东韶关，苏轼北归再经此地。丹霞依旧、北江奔流，来时凄凉、归时欣慰，同一片山水两种心境。",
   "tags": [
     "韶州",
     "韶关",
@@ -25,7 +25,13 @@
       "id": "p153-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "韶州月华寺",
+      "type": "诗",
+      "description": "苏轼北归经韶州所作"
+    }
+  ],
   "route_events": {
     "route18": [
       {
@@ -48,15 +54,41 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "南华寺",
+      "description": "韶州禅宗祖庭，六祖惠能道场",
+      "type": "寺院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "韶关铜勺饼",
+      "description": "韶州传统小吃，米浆铜勺炸制，酥脆可口"
+    }
+  ],
   "transport": {
     "train": "韶关站",
     "bus": "韶关汽车站",
     "car": "京港澳高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "韶州官署",
+      "ancient_name": "韶州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在韶州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 24.810977,
+      "lng": 113.597324,
+      "modern_address": "浈江区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS088",
     "pinyin_id": "shaozhou",
@@ -110,5 +142,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:52.000Z"
+  "amap_updated_at": "2026-06-03T05:15:52.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "浈江区"
 }

@@ -91,35 +91,35 @@ export default function ProfilePage() {
         <img
           src="/brand/logo.png"
           alt="行吟山河"
-          width={56}
-          height={56}
+          width={40}
+          height={40}
           style={{
-            width: '56px',
-            height: '56px',
+            width: '40px',
+            height: '40px',
             objectFit: 'contain',
             display: 'block',
             flexShrink: 0,
           }}
         />
-        <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', height: '56px' }}>
+        <div style={{ textAlign: 'left', display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '4px' }}>
           <h1
             style={{
-              fontSize: '22px',
+              fontSize: '20px',
               fontWeight: 600,
               color: INK.ink,
               margin: 0,
               letterSpacing: '0.06em',
-              lineHeight: 1,
+              lineHeight: 1.2,
             }}
           >
             行吟山河
           </h1>
           <p
             style={{
-              fontSize: '13px',
+              fontSize: '12px',
               color: INK.inkLite,
               letterSpacing: '0.1em',
-              lineHeight: 1,
+              lineHeight: 1.2,
               margin: 0,
             }}
           >

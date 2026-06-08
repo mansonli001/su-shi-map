@@ -3,21 +3,57 @@
   "ancient_name": "彭山江口",
   "modern_name": "四川彭山江口",
   "type": "sight",
-  "lat": 30.245716,
-  "lng": 103.91945,
+  "lat": 30.221296,
+  "lng": 103.933213,
   "related_routes": [
     "R00"
   ],
   "tags": [],
-  "background": "未出蜀的二十年，眉山-青神-成都之间游学。",
+  "background": "彭山江口，岷江与府河交汇处。苏轼途经江口，两江汇流、商贾云集，水运要津。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p130-001",
+      "date": "1056年",
+      "title": "出蜀北上经江口",
+      "description": "苏轼随父苏洵携弟苏辙自眉山出发，经彭山江口入岷江主流，开启首次进京赶考之旅",
+      "significance": "出蜀起点"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "初发彭山",
+      "type": "诗",
+      "description": "苏轼出蜀经彭山江口所作"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
+  "memorial_sites": [
+    {
+      "name": "江口沉银遗址",
+      "description": "张献忠沉银地，岷江重要渡口",
+      "type": "古迹"
+    }
+  ],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "彭山江口",
+      "ancient_name": "彭山江口",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经彭山江口",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.221296,
+      "lng": 103.933213,
+      "modern_address": "江口街道茶场社区彭祖山景区西山门游客中心",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +88,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:35.000Z"
+  "amap_updated_at": "2026-06-03T05:15:35.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "江口街道茶场社区彭祖山景区西山门游客中心"
 }

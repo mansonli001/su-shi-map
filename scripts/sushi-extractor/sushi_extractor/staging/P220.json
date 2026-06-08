@@ -1,0 +1,61 @@
+{
+  "place_id": "P220",
+  "ancient_name": "长安曲江",
+  "modern_name": "陕西西安曲江",
+  "city": "陕西西安曲江市",
+  "processed_at": "2026-06-07T23:22:39.313657",
+  "main_coords": {
+    "name": "岳州官署",
+    "lat": 34.343207,
+    "lng": 108.939645,
+    "modern_address": "陕西省西安市",
+    "coordinate_source": "amap_geocode",
+    "reason": "岳州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "岳州官署",
+      "ancient_name": "岳州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长安曲江的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.343207,
+      "lng": 108.939645,
+      "modern_address": "陕西省西安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西安碑林",
+      "ancient_name": "西安碑林",
+      "type": "博物馆",
+      "period": "",
+      "description": "全国最大石质书库，有苏轼书法碑刻",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.343207,
+      "lng": 108.939645,
+      "modern_address": "陕西省西安市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P220",
+    "ancient_name": "长安曲江",
+    "city": "陕西西安曲江市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "长安曲江附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:24.959897"
+}

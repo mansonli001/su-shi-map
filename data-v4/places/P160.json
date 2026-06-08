@@ -3,21 +3,52 @@
   "ancient_name": "苏北沿海驿道",
   "modern_name": "江苏苏北沿海",
   "type": "sight",
-  "lat": 33,
-  "lng": 119.5,
+  "lat": 32.747633,
+  "lng": 120.848204,
   "related_routes": [
     "R12"
   ],
   "tags": [],
-  "background": "神宗崩、哲宗立，起复登州知州，自宜兴北上，到任仅五日复召还朝。",
+  "background": "淮河以北的沿海驿道，盐碱滩涂、芦苇丛生。苏轼自宜兴北上赴登州，经苏北沿海驿道，一路黄海滩涂、海风腥咸，与江南水乡的温润截然不同，是苏轼北上途中最荒凉的一段。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p160-001",
+      "date": "1085年",
+      "title": "经苏北沿海赴登州",
+      "description": "苏轼经苏北沿海驿道赴登州",
+      "significance": "沿海通道"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "发洪泽",
+      "type": "诗",
+      "note": "经苏北驿道所作",
+      "year_estimate": 1084
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "苏北沿海驿道",
+      "ancient_name": "苏北沿海驿道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经苏北沿海驿道",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.747633,
+      "lng": 120.848204,
+      "modern_address": "港城大道一号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -44,5 +75,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:56.000Z"
+  "amap_updated_at": "2026-06-03T05:15:56.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "港城大道一号"
 }

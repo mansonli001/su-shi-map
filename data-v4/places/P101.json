@@ -3,13 +3,13 @@
   "ancient_name": "廉州白石镇",
   "modern_name": "广西合浦白石镇",
   "type": "around",
-  "lat": 21.66132,
-  "lng": 109.207236,
+  "lat": 21.662,
+  "lng": 109.198,
   "related_routes": [
     "R19"
   ],
   "summary": "苏轼北归途经廉州",
-  "background": "廉州今广西合浦，苏轼北归时途经此地并任知州",
+  "background": "廉州白石镇，苏轼北归途经的沿海小镇。白沙滩涂、渔火点点，是归途中重拾人间温暖的第一缕烟火。",
   "tags": [
     "廉州",
     "合浦",
@@ -47,7 +47,13 @@
       "id": "p101-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "白石镇题诗",
+      "type": "诗",
+      "description": "苏轼北归经廉州白石镇所作"
+    }
+  ],
   "route_events": {
     "route19": [
       {
@@ -83,17 +89,70 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "广西壮族自治区北海市合浦县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "合浦月饼",
+      "description": "合浦传统糕点",
+      "origin_story": "廉州传统美食",
+      "tag": "廉州特色"
+    }
+  ],
   "transport": {
     "train": "合浦站",
     "bus": "合浦汽车站",
     "car": "兰海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "廉州白石镇居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在廉州白石镇的居所",
+      "importance": "primary",
+      "ancient_name": "廉州白石镇居所",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用廉州白石镇中心坐标作为参考"
+    },
+    {
+      "name": "廉州白石镇州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在廉州白石镇的居所",
+      "importance": "primary",
+      "ancient_name": "廉州白石镇州衙",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用廉州白石镇中心坐标作为参考"
+    },
+    {
+      "name": "海角亭",
+      "ancient_name": "海角亭",
+      "type": "pavilion",
+      "period": "",
+      "description": "苏轼曾至此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "广西壮族自治区北海市合浦县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS045",
     "pinyin_id": "lianzhou",
@@ -106,7 +165,7 @@
   "essence": "北部湾滨海人文古镇",
   "last_updated": "2026-06-01T10:22:05.268Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "广西壮族自治区北海市合浦县",
   "coords_updated_at": "2026-06-01T10:17:04.318Z",
   "duration_summary": {
@@ -142,5 +201,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:14.000Z"
+  "amap_updated_at": "2026-06-03T05:15:14.000Z",
+  "sxzk_address": "金沙大道123号"
 }

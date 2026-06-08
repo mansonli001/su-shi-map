@@ -3,14 +3,14 @@
   "ancient_name": "高邮",
   "modern_name": "江苏高邮",
   "type": "main",
-  "lat": 32.7811,
-  "lng": 119.4584,
+  "lat": 32.781606,
+  "lng": 119.45892,
   "related_routes": [
     "R04",
     "R09"
   ],
   "summary": "苏轼北行途经高邮",
-  "background": "高邮今江苏高邮，苏轼北行赴密州途经此地",
+  "background": "高邮，淮左名都，运河重镇。苏轼途经高邮，秦观故里在此，'高邮鸭蛋'闻名天下，运河两岸烟柳如画。",
   "tags": [
     "高邮",
     "文游台",
@@ -25,6 +25,13 @@
       "title": "过高邮",
       "description": "苏轼北行途经高邮",
       "significance": "途经高邮"
+    },
+    {
+      "id": "p048-002",
+      "date": "1084年",
+      "title": "过高邮访秦观",
+      "description": "苏轼量移汝州途中过高邮访门生秦观",
+      "significance": "师生情谊"
     }
   ],
   "global_works": [],
@@ -68,17 +75,58 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.781606,
+      "lng": 119.45892,
+      "modern_address": "江苏省扬州市高邮市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "高邮咸鸭蛋",
+      "description": "高邮名产，蛋黄流油，苏轼途经或品此味"
+    },
+    {
+      "name": "高邮蒲包肉",
+      "description": "高邮传统小吃，蒲叶包肉蒸制，鲜嫩清香"
+    }
+  ],
   "transport": {
     "train": "高邮站",
     "bus": "高邮汽车站",
     "car": "京沪高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "高邮军衙",
+      "ancient_name": "高邮军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在高邮的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.781606,
+      "lng": 119.45892,
+      "modern_address": "江苏省扬州市高邮市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "文游台",
+      "ancient_name": "文游台",
+      "type": "ruins",
+      "period": "",
+      "description": "苏轼过高邮时曾游此地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.781606,
+      "lng": 119.45892,
+      "modern_address": "江苏省扬州市高邮市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS145",
     "pinyin_id": "gaoyou",
@@ -135,5 +183,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:37.000Z"
+  "amap_updated_at": "2026-06-03T05:14:37.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "江苏省扬州市高邮市"
 }

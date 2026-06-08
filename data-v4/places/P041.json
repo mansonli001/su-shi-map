@@ -3,13 +3,13 @@
   "ancient_name": "飞来峰",
   "modern_name": "浙江杭州飞来峰",
   "type": "around",
-  "lat": 30.2454,
-  "lng": 120.1003,
+  "lat": 30.2426,
+  "lng": 120.102,
   "related_routes": [
     "R06"
   ],
   "summary": "",
-  "background": "",
+  "background": "灵隐寺前石灰岩孤峰，传自天竺飞来，故名。峰上遍布五代至宋元石窟造像，苏轼任杭州通判时常游灵隐一带，飞来峰石佛庄严、古木参天，是西湖山水与佛教艺术交融的胜景。",
   "tags": [],
   "periods": [
     {
@@ -37,15 +37,88 @@
       "description": "苏轼游览飞来峰，作《游灵隐寺戏赠开轩李居士》",
       "significance": "route04",
       "id": "p041-evt-002"
+    },
+    {
+      "id": "p041-003",
+      "date": "1072年",
+      "title": "游飞来峰",
+      "description": "苏轼游飞来峰作'不畏浮云遮望眼，自缘身在最高层'",
+      "significance": "名句出处"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "祭欧阳文忠公文",
+      "type": "文",
+      "description": "民有父母，国有蓍龟，斯文有传，学者有师。"
+    },
+    {
+      "title": "范文正公文集序",
+      "type": "文",
+      "description": "韩、范、富、欧阳，此四人者，人杰也。"
+    },
+    {
+      "title": "点绛唇·红杏飘香",
+      "type": "词",
+      "description": "红杏飘香，柳含烟翠拖轻缕。"
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "飞来峰造像",
+      "description": "杭州灵隐寺前飞来峰，苏轼游此作诗",
+      "type": "古迹"
+    },
+    {
+      "name": "苏堤",
+      "description": "苏轼疏浚西湖所筑，'苏堤春晓'为西湖十景之首",
+      "type": "景区"
+    },
+    {
+      "name": "三潭印月",
+      "description": "西湖标志性景观，苏轼疏浚西湖时设三塔为界",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "杭州片儿川",
+      "description": "杭州传统面食",
+      "origin_story": "杭州传统美食",
+      "tag": "杭州特色"
+    },
+    {
+      "name": "东坡肉",
+      "description": "苏轼知杭州时疏浚西湖慰民工以酒肉，'慢着火少着水，火候足时它自美'"
+    },
+    {
+      "name": "西湖醋鱼",
+      "description": "杭州名菜，草鱼糖醋烹制，鲜嫩酸甜"
+    },
+    {
+      "name": "龙井虾仁",
+      "description": "杭州名菜，龙井茶配鲜虾仁，清香鲜嫩"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "封州官署",
+      "ancient_name": "封州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在飞来峰的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.2419,
+      "lng": 120.1018,
+      "modern_address": "浙江省杭州市西湖区飞来峰",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": null,
@@ -95,5 +168,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:33.000Z"
+  "amap_updated_at": "2026-06-03T05:14:33.000Z",
+  "coordinate_source": "manual_corrected"
 }

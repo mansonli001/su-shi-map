@@ -3,13 +3,13 @@
   "ancient_name": "汝州",
   "modern_name": "河南汝州",
   "type": "main",
-  "lat": 34.1611,
-  "lng": 112.8443,
+  "lat": 34.16717,
+  "lng": 112.844696,
   "related_routes": [
     "R18"
   ],
   "summary": "",
-  "background": "中原南下古道重镇，定州入汴河长江必经驿点。",
+  "background": "汝州即今河南汝州，中原古州。苏轼量移汝州途经此地，汝水清澈、温泉氤氲，是黄州谪居后重返中原的第一站。",
   "tags": [
     "main"
   ],
@@ -20,7 +20,15 @@
       "description": "元丰七年（1084年）四月，苏轼从黄州贬所'量移'汝州团练副使。\n\n'量移'是宋代对贬谪官员的优待，即转移到离京城近一点的地方。但苏轼在赴汝州途中，游庐山、访苏辙于高安、访王安石于金陵，还没到汝州，朝廷就改诏召他回朝任礼部郎中。\n\n所以苏轼实际上并未到任汝州。这是一个'未到即被召回'的特殊地点。"
     }
   ],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p145-001",
+      "date": "1084年",
+      "title": "量移汝州",
+      "description": "苏轼自黄州量移汝州团练副使",
+      "significance": "量移驻地"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R18": {
@@ -35,10 +43,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "风穴寺",
+      "description": "汝州古刹，苏轼量移汝州或曾到访",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "汝州粉皮",
+      "description": "汝州传统名吃，绿豆粉皮凉拌，爽滑筋道"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "汝州官署",
+      "ancient_name": "汝州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在汝州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.16717,
+      "lng": 112.844696,
+      "modern_address": "汝州市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS028",
     "pinyin_id": null,
@@ -92,5 +126,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:47.000Z"
+  "amap_updated_at": "2026-06-03T05:15:47.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "汝州市"
 }

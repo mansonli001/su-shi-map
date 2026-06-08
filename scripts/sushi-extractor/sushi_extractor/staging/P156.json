@@ -1,0 +1,60 @@
+{
+  "place_id": "P156",
+  "ancient_name": "寿州",
+  "modern_name": "安徽寿县",
+  "city": "安徽寿县市",
+  "processed_at": "2026-06-07T23:22:36.486512",
+  "main_coords": {
+    "name": "蜀山",
+    "lat": 32.545027,
+    "lng": 116.798203,
+    "modern_address": "安徽省淮南市寿县",
+    "coordinate_source": "amap_geocode",
+    "reason": "蜀山为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "蜀山",
+      "ancient_name": "蜀山",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在寿州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "modern_address": "安徽省淮南市寿县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "八公山",
+      "ancient_name": "八公山",
+      "type": "山",
+      "period": "",
+      "description": "著名的道教圣地，豆腐发源地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "modern_address": "安徽省淮南市寿县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P156",
+    "ancient_name": "寿州",
+    "city": "安徽寿县市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "寿州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:23.448460"
+}

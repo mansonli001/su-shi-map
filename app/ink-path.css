@@ -363,6 +363,7 @@
   padding: 14px 20px;
   background: var(--ip-surface-container-low);
   border-bottom: 1px solid color-mix(in srgb, var(--ip-outline-variant) 30%, transparent);
+  gap: 8px;
 }
 .ip-mobile-brand-logo {
   height: 56px;
@@ -477,8 +478,8 @@
     background: linear-gradient(
       90deg,
       rgba(254, 248, 246, 0.92) 0%,
-      rgba(254, 248, 246, 0.5) 50%,
-      rgba(254, 248, 246, 0.3) 100%
+      rgba(254, 248, 246, 0.75) 50%,
+      rgba(254, 248, 246, 0.40) 100%
     );
   }
 }
@@ -488,6 +489,7 @@
   width: 100%;
   position: relative;
   z-index: 2;
+  padding: 0 20px;
 }
 .ip-hero-eyebrow {
   font-family: 'Source Sans 3', sans-serif;
@@ -796,16 +798,33 @@
   font-family: 'Source Sans 3', sans-serif;
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--ip-on-surface-variant);
   margin-bottom: 32px;
 }
 .ip-cta-btns {
   display: flex;
-  gap: 12px;
+  gap: 8px;
   justify-content: center;
   flex-wrap: wrap;
+}
+/* 三个按钮等宽横排 */
+.ip-cta-btns > * {
+  flex: 1 1 0;
+  min-width: 120px;
+  max-width: 220px;
+}
+@media (max-width: 640px) {
+  .ip-cta-btns {
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  .ip-cta-btns > * {
+    max-width: none;
+  }
 }
 
 .ip-footer {

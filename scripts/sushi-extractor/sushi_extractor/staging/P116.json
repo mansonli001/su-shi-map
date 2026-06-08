@@ -1,0 +1,72 @@
+{
+  "place_id": "P116",
+  "ancient_name": "眉山",
+  "modern_name": "四川眉山",
+  "city": "眉山市",
+  "main_coords": {
+    "name": "三苏祠",
+    "lat": 30.040704,
+    "lng": 103.830863,
+    "modern_address": "眉山市东坡区纱縠行南段72号",
+    "coordinate_source": "amap_poi",
+    "reason": "三苏祠为苏家故居，苏轼出生和成长之地，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "三苏祠",
+      "ancient_name": "苏家故居",
+      "type": "residence",
+      "period": "1037-1056年（少年及青年时期）",
+      "description": "苏轼出生地，苏家故居，现为三苏祠博物馆",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "眉山市东坡区纱縠行南段72号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "纱縠行",
+      "ancient_name": "纱縠行",
+      "type": "scenic",
+      "period": "1037-1056年",
+      "description": "宋代苏家老宅所在地，丝绸布匹交易市场",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "眉山市东坡区通惠街13号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "蟆颐山蟆颐观",
+      "ancient_name": "蟆颐山蟆颐观",
+      "type": "scenic",
+      "period": "1037-1056年",
+      "description": "苏轼少年时常游之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "眉山市东坡区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P116",
+    "ancient_name": "眉山",
+    "city": "眉山市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "三苏祠（第一个居住地/出生地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 3,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:48.984076"
+}

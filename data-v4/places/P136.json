@@ -3,14 +3,14 @@
   "ancient_name": "虔州",
   "modern_name": "赣州",
   "type": "main",
-  "lat": 25.8298,
-  "lng": 114.9335,
+  "lat": 25.831139,
+  "lng": 114.933494,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼贬惠州及北归均途经赣州",
-  "background": "赣州古称虔州，苏轼贬惠州南行及北归时均途经此地",
+  "background": "虔州（今赣州），赣江上游重镇。苏轼北归途经虔州，赣江十八滩险峻，'七里濑'的江景壮丽。",
   "tags": [
     "赣州",
     "虔州",
@@ -94,17 +94,68 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 25.831139,
+      "lng": 114.933494,
+      "modern_address": "江西省赣州市"
+    },
+    {
+      "name": "赣州古城墙",
+      "description": "宋代古城墙，苏轼南贬经此",
+      "type": "古迹"
+    },
+    {
+      "name": "八境台",
+      "description": "赣州地标，苏轼曾为八境台题诗",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "赣南小炒鱼",
+      "description": "赣州传统名菜，鲜鱼切块小炒，麻辣鲜香"
+    },
+    {
+      "name": "赣南脐橙",
+      "description": "赣州名产，果大皮薄汁多味甜"
+    }
+  ],
   "transport": {
     "train": "赣州站",
     "bus": "赣州汽车站",
     "car": "大广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "彭泽县衙",
+      "ancient_name": "彭泽县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在虔州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 25.831139,
+      "lng": 114.933494,
+      "modern_address": "江西省赣州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "郁孤台",
+      "ancient_name": "郁孤台",
+      "type": "building",
+      "period": "",
+      "description": "苏轼游郁孤台",
+      "works": [],
+      "importance": "secondary",
+      "lat": 25.831139,
+      "lng": 114.933494,
+      "modern_address": "江西省赣州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS102",
     "pinyin_id": "ganzhou",
@@ -159,5 +210,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:39.000Z"
+  "amap_updated_at": "2026-06-03T05:15:39.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "江西省赣州市"
 }

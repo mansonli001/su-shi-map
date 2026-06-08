@@ -1,0 +1,3563 @@
+[
+  {
+    "id": "SS001",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "birth",
+    "stage": "youth",
+    "importance": 1,
+    "songName": "眉山",
+    "modernName": "四川眉山",
+    "routeId": "route06",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "苏轼故乡，嘉祐元年（1056）随父苏洵、弟苏辙进京应试前在此成长",
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "串串",
+      "腊肉",
+      "东坡肉"
+    ],
+    "cultural_tags": [
+      "故乡",
+      "出生地"
+    ]
+  },
+  {
+    "id": "SS002",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "friend",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "眉山纱縠行",
+    "modernName": "四川眉山",
+    "routeId": "route01",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "苏轼故乡，嘉祐元年（1056）随父苏洵、弟苏辙进京应试前在此成长",
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "串串",
+      "腊肉",
+      "东坡肉"
+    ],
+    "cultural_tags": [
+      "故乡",
+      "出生地"
+    ]
+  },
+  {
+    "id": "SS003",
+    "lat": 29.57,
+    "lng": 103.8,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "青神",
+    "modernName": "四川青神",
+    "routeId": "route01",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "苏轼青年时期曾游历青神",
+    "local_foods": [
+      "川菜",
+      "泡菜",
+      "腊肉"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS004",
+    "lat": 30.5728,
+    "lng": 104.0661,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "成都",
+    "modernName": "四川成都",
+    "routeId": "route06",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "嘉祐元年随父入京途经，后多次往返蜀道",
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "麻婆豆腐",
+      "夫妻肺片"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS005",
+    "lat": 31.8,
+    "lng": 104.45,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "绵阳",
+    "modernName": "四川绵阳",
+    "routeId": "route07",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "出蜀途中经过",
+    "local_foods": [
+      "绵阳米粉",
+      "梓州片粉"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS006",
+    "lat": 32.04,
+    "lng": 105.17,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "剑阁",
+    "modernName": "四川剑阁",
+    "routeId": "route01",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "蜀道要隘，苏轼多次途经",
+    "local_foods": [
+      "剑门豆腐",
+      "核桃饼"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS007",
+    "lat": 33.15,
+    "lng": 106,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "汉中",
+    "modernName": "陕西汉中",
+    "routeId": "route01",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "蜀道途中经过",
+    "local_foods": [
+      "汉中面皮",
+      "菜豆腐"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS008",
+    "lat": 34.3416,
+    "lng": 108.9398,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "凤翔",
+    "modernName": "陕西凤翔",
+    "routeId": "route05",
+    "routeOrder": 1,
+    "su_works": [
+      "喜雨亭记",
+      "凌虚台记",
+      "凤翔八观"
+    ],
+    "su_quote": "",
+    "author_note": "嘉祐六年（1061）任凤翔府签判，建喜雨亭、凌虚台，修东湖",
+    "local_foods": [
+      "西凤酒",
+      "腊驴肉",
+      "臊子面",
+      "豆花泡馍"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS009",
+    "lat": 34.26,
+    "lng": 108.95,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "长安",
+    "modernName": "陕西西安",
+    "routeId": "route04",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "多次往返京城途中经过",
+    "local_foods": [
+      "肉夹馍",
+      "羊肉泡馍",
+      "凉皮"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS010",
+    "lat": 34.52,
+    "lng": 109.5,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "华阴",
+    "modernName": "陕西华阴",
+    "routeId": "route01",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "华山所在地，苏轼有诗记游",
+    "local_foods": [
+      "华山菜",
+      "擀面皮"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS011",
+    "lat": 34.5578,
+    "lng": 110.9788,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "潼关",
+    "modernName": "陕西潼关",
+    "routeId": "route01",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "出陕入豫要道",
+    "local_foods": [
+      "潼关肉夹馍",
+      "鸭片汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS012",
+    "lat": 34.7667,
+    "lng": 113.65,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "郑州",
+    "modernName": "河南郑州",
+    "routeId": "route06",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "往返京城途中经过",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS013",
+    "lat": 34.7977,
+    "lng": 113.66,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "开封",
+    "modernName": "河南开封",
+    "routeId": "route07",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "北宋京城，苏轼多次在此任职、应试",
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面",
+      "花生糕"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "京城"
+    ]
+  },
+  {
+    "id": "SS014",
+    "lat": 30.0818,
+    "lng": 103.7667,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "眉山",
+    "modernName": "四川眉山",
+    "routeId": "route03",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "苏轼故乡，嘉祐元年（1056）随父苏洵、弟苏辙进京应试前在此成长",
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "串串",
+      "腊肉",
+      "东坡肉"
+    ],
+    "cultural_tags": [
+      "故乡",
+      "出生地"
+    ]
+  },
+  {
+    "id": "SS015",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "杭州",
+    "modernName": "浙江杭州",
+    "routeId": "route03",
+    "routeOrder": 5,
+    "su_works": [
+      "饮湖上初晴后雨",
+      "六月二十七日望湖楼醉书",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁四年（1071）任杭州通判，元祐四年（1089）任知州",
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS016",
+    "lat": 29.86,
+    "lng": 121.55,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "舟山",
+    "modernName": "浙江舟山",
+    "routeId": "route03",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "海上航行经过",
+    "local_foods": [
+      "海鲜",
+      "舟山带鱼",
+      "嵊泗贻贝"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS017",
+    "lat": 30.23,
+    "lng": 120.1,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "富阳",
+    "modernName": "浙江富阳",
+    "routeId": "route03",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "富春江畔，苏轼多次往返",
+    "local_foods": [
+      "富春江鱼",
+      "东坞山豆腐皮"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS018",
+    "lat": 30,
+    "lng": 119.65,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "桐庐",
+    "modernName": "浙江桐庐",
+    "routeId": "route03",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "严子陵钓台所在地，苏轼有诗",
+    "local_foods": [
+      "桐庐板栗",
+      "富春江鲜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS019",
+    "lat": 36.0671,
+    "lng": 120.3826,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "密州",
+    "modernName": "山东诸城",
+    "routeId": "route03",
+    "routeOrder": 10,
+    "su_works": [
+      "江城子·密州出猎",
+      "水调歌头·明月几时有"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁七年（1074）知密州，留下《密州出猎》等名篇",
+    "local_foods": [
+      "德州扒鸡",
+      "保店驴肉",
+      "大柳面"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS021",
+    "lat": 34.2611,
+    "lng": 117.1845,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "徐州",
+    "modernName": "江苏徐州",
+    "routeId": "route07",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "熙宁十年（1077）知徐州，抗洪保城",
+    "local_foods": [
+      "地锅鸡",
+      "羊汤",
+      "烙馍",
+      "彭城鱼丸"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS022",
+    "lat": 34.05,
+    "lng": 116.5,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "泗州",
+    "modernName": "安徽泗县",
+    "routeId": "route07",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "淮河要冲，苏轼有诗",
+    "local_foods": [
+      "符离集烧鸡",
+      "宿州sa汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS023",
+    "lat": 30.8706,
+    "lng": 120.0933,
+    "type": "office",
+    "stage": "early_career",
+    "importance": 1,
+    "songName": "湖州",
+    "modernName": "浙江湖州",
+    "routeId": "route07",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS024",
+    "lat": 34.7977,
+    "lng": 113.66,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "开封",
+    "modernName": "河南开封",
+    "routeId": "route07",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "北宋京城，苏轼多次在此任职、应试",
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面",
+      "花生糕"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "京城"
+    ]
+  },
+  {
+    "id": "SS025",
+    "lat": 30.5928,
+    "lng": 114.3055,
+    "type": "exile",
+    "stage": "first_exile",
+    "importance": 1,
+    "songName": "黄州",
+    "modernName": "湖北黄冈",
+    "routeId": "route15",
+    "routeOrder": 1,
+    "su_works": [
+      "念奴娇·赤壁怀古",
+      "赤壁赋",
+      "前赤壁赋",
+      "后赤壁赋",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "元丰三年（1080）贬黄州，创作《赤壁赋》《念奴娇》等",
+    "local_foods": [
+      "东坡肉",
+      "东坡羹",
+      "东坡饼",
+      "黄州豆腐"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS026",
+    "lat": 30.5,
+    "lng": 114.4,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "赤壁",
+    "modernName": "湖北黄冈赤壁",
+    "routeId": "route16",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS027",
+    "lat": 31,
+    "lng": 114.5,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "麻城",
+    "modernName": "湖北麻城",
+    "routeId": "route17",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS028",
+    "lat": 34.17,
+    "lng": 112.83,
+    "type": "exile",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "汝州",
+    "modernName": "河南临汝",
+    "routeId": "route08",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS029",
+    "lat": 29.68,
+    "lng": 115.98,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "庐山",
+    "modernName": "江西庐山",
+    "routeId": "route09",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS030",
+    "lat": 28.66,
+    "lng": 115.53,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "高安",
+    "modernName": "江西高安",
+    "routeId": "route09",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS031",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 2,
+    "songName": "金陵",
+    "modernName": "江苏南京",
+    "routeId": "route17",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS032",
+    "lat": 34.26,
+    "lng": 115.48,
+    "type": "friend",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "商丘",
+    "modernName": "河南商丘",
+    "routeId": "route10",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS033",
+    "lat": 34.7977,
+    "lng": 113.66,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 1,
+    "songName": "开封",
+    "modernName": "河南开封",
+    "routeId": "route10",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "北宋京城，苏轼多次在此任职、应试",
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面",
+      "花生糕"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "京城"
+    ]
+  },
+  {
+    "id": "SS034",
+    "lat": 30.2741,
+    "lng": 120.1551,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 1,
+    "songName": "杭州",
+    "modernName": "浙江杭州",
+    "routeId": "route11",
+    "routeOrder": 1,
+    "su_works": [
+      "饮湖上初晴后雨",
+      "六月二十七日望湖楼醉书",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁四年（1071）任杭州通判，元祐四年（1089）任知州",
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS035",
+    "lat": 30.25,
+    "lng": 120.1,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "西湖",
+    "modernName": "浙江杭州西湖",
+    "routeId": "route11",
+    "routeOrder": 2,
+    "su_works": [
+      "饮湖上初晴后雨",
+      "六月二十七日望湖楼醉书",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁四年（1071）任杭州通判，元祐四年（1089）任知州",
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS036",
+    "lat": 32.91,
+    "lng": 115.8,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "颍州",
+    "modernName": "安徽阜阳",
+    "routeId": "route12",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "元祐六年（1091）知颍州",
+    "local_foods": [
+      "格拉条",
+      "卷尖",
+      "太和板面"
+    ],
+    "cultural_tags": [
+      "为官地"
+    ]
+  },
+  {
+    "id": "SS037",
+    "lat": 32.3932,
+    "lng": 119.4124,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "扬州",
+    "modernName": "江苏扬州",
+    "routeId": "route12",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "元祐七年（1092）知扬州",
+    "local_foods": [
+      "扬州炒饭",
+      "大煮干丝",
+      "狮子头"
+    ],
+    "cultural_tags": [
+      "为官地"
+    ]
+  },
+  {
+    "id": "SS038",
+    "lat": 38.8966,
+    "lng": 114.492,
+    "type": "office",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "定州",
+    "modernName": "河北定州",
+    "routeId": "route12",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "绍圣元年（1094）知定州，修复雪浪石",
+    "local_foods": [
+      "定州焖子",
+      "驴肉火烧"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS039",
+    "lat": 37.45,
+    "lng": 121.39,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "登州",
+    "modernName": "山东蓬莱",
+    "routeId": "route19",
+    "routeOrder": 10,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "元丰八年（1085）任登州知州，仅五日",
+    "local_foods": [
+      "蓬莱小面",
+      "鲅鱼饺子"
+    ],
+    "cultural_tags": [
+      "为官地"
+    ]
+  },
+  {
+    "id": "SS040",
+    "lat": 23.1291,
+    "lng": 114.2644,
+    "type": "exile",
+    "stage": "second_exile",
+    "importance": 1,
+    "songName": "惠州",
+    "modernName": "广东惠州",
+    "routeId": "route19",
+    "routeOrder": 11,
+    "su_works": [
+      "食荔枝",
+      "蝶恋花·春景"
+    ],
+    "su_quote": "",
+    "author_note": "绍圣元年（1094）贬惠州，留下\"日啖荔枝三百颗\"名句",
+    "local_foods": [
+      "梅菜扣肉",
+      "酿豆腐",
+      "盐焗鸡",
+      "东江菜"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS041",
+    "lat": 23.1,
+    "lng": 113.3,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 2,
+    "songName": "广州",
+    "modernName": "广东广州",
+    "routeId": "route13",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "岭南重镇，苏轼曾过境",
+    "local_foods": [
+      "粤菜",
+      "早茶",
+      "肠粉",
+      "烧鹅"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS042",
+    "lat": 20.02,
+    "lng": 110.33,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "雷州",
+    "modernName": "广东雷州",
+    "routeId": "route14",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS043",
+    "lat": 19.5211,
+    "lng": 109.513,
+    "type": "exile",
+    "stage": "third_exile",
+    "importance": 1,
+    "songName": "儋州",
+    "modernName": "海南儋州",
+    "routeId": "route14",
+    "routeOrder": 2,
+    "su_works": [
+      "桄榔庵铭",
+      "儋耳",
+      "纵笔"
+    ],
+    "su_quote": "",
+    "author_note": "绍圣四年（1097）贬儋州，建桄榔庵、载酒堂",
+    "local_foods": [
+      "儋州米烂",
+      "长坡米烂",
+      "红鱼粽",
+      "椰子鸡"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS044",
+    "lat": 20.02,
+    "lng": 110.33,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 2,
+    "songName": "琼州",
+    "modernName": "海南海口",
+    "routeId": "route15",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "海鲜",
+      "椰子"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS045",
+    "lat": 21.48,
+    "lng": 109.18,
+    "type": "exile",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "廉州",
+    "modernName": "广西合浦",
+    "routeId": "route16",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS046",
+    "lat": 23.1291,
+    "lng": 114.2644,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "惠州",
+    "modernName": "广东惠州",
+    "routeId": "route18",
+    "routeOrder": 1,
+    "su_works": [
+      "食荔枝",
+      "蝶恋花·春景"
+    ],
+    "su_quote": "",
+    "author_note": "绍圣元年（1094）贬惠州，留下\"日啖荔枝三百颗\"名句",
+    "local_foods": [
+      "梅菜扣肉",
+      "酿豆腐",
+      "盐焗鸡",
+      "东江菜"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS050",
+    "lat": 27.81,
+    "lng": 120.92,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "温州",
+    "modernName": "浙江温州",
+    "routeId": "route19",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS051",
+    "lat": 30.75,
+    "lng": 120.75,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴",
+    "routeId": "route19",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS052",
+    "lat": 31.2988,
+    "lng": 121.4802,
+    "type": "burial",
+    "stage": "final_journey",
+    "importance": 1,
+    "songName": "常州",
+    "modernName": "江苏常州",
+    "routeId": "route19",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "建中靖国元年（1101）北归，病逝于常州藤花旧馆",
+    "local_foods": [
+      "大麻糕",
+      "银丝面",
+      "加蟹小笼包",
+      "天目湖砂锅鱼头"
+    ],
+    "cultural_tags": [
+      "终老地",
+      "逝世地"
+    ]
+  },
+  {
+    "id": "SS053",
+    "lat": 30.92,
+    "lng": 104.46,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "乐山",
+    "modernName": "四川乐山",
+    "routeId": "route19",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "川菜",
+      "火锅"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS054",
+    "lat": 31.05,
+    "lng": 107.87,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "忠州",
+    "modernName": "重庆忠县",
+    "routeId": "route19",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS055",
+    "lat": 31.15,
+    "lng": 108.2,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "万州",
+    "modernName": "重庆万州",
+    "routeId": "route19",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS056",
+    "lat": 31.07,
+    "lng": 109.45,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "云阳",
+    "modernName": "重庆云阳",
+    "routeId": "route03",
+    "routeOrder": 12,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS057",
+    "lat": 31.04,
+    "lng": 109.65,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "奉节",
+    "modernName": "重庆奉节",
+    "routeId": "route03",
+    "routeOrder": 13,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS058",
+    "lat": 31.03,
+    "lng": 110,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "巫山",
+    "modernName": "重庆巫山",
+    "routeId": "route03",
+    "routeOrder": 14,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS059",
+    "lat": 30.72,
+    "lng": 111.3,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "宜昌",
+    "modernName": "湖北宜昌",
+    "routeId": "route03",
+    "routeOrder": 15,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS060",
+    "lat": 30.35,
+    "lng": 111.78,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "荆州",
+    "modernName": "湖北荆州",
+    "routeId": "route03",
+    "routeOrder": 16,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS061",
+    "lat": 34.52,
+    "lng": 113,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "许州",
+    "modernName": "河南许昌",
+    "routeId": "route07",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS062",
+    "lat": 34.8,
+    "lng": 114.3,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "陈州",
+    "modernName": "河南淮阳",
+    "routeId": "route07",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS063",
+    "lat": 33.78,
+    "lng": 114.52,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "陈州",
+    "modernName": "河南淮阳",
+    "routeId": "route14",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS064",
+    "lat": 30.23,
+    "lng": 120.15,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "临安",
+    "modernName": "浙江临安",
+    "routeId": "route14",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS065",
+    "lat": 29.48,
+    "lng": 119.85,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "衢州",
+    "modernName": "浙江衢州",
+    "routeId": "route14",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS066",
+    "lat": 29.15,
+    "lng": 119.65,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "婺州",
+    "modernName": "浙江金华",
+    "routeId": "route14",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS067",
+    "lat": 36.18,
+    "lng": 116.35,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "齐州",
+    "modernName": "山东济南",
+    "routeId": "route07",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鲁菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS068",
+    "lat": 34.26,
+    "lng": 117.18,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "徐州",
+    "modernName": "江苏徐州",
+    "routeId": "route07",
+    "routeOrder": 10,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "熙宁十年（1077）知徐州，抗洪保城",
+    "local_foods": [
+      "地锅鸡",
+      "羊汤",
+      "烙馍",
+      "彭城鱼丸"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS069",
+    "lat": 30.35,
+    "lng": 114.88,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "鄂州",
+    "modernName": "湖北鄂州",
+    "routeId": "route11",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS070",
+    "lat": 30.58,
+    "lng": 114.31,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "黄州",
+    "modernName": "湖北黄冈",
+    "routeId": "route11",
+    "routeOrder": 4,
+    "su_works": [
+      "念奴娇·赤壁怀古",
+      "赤壁赋",
+      "前赤壁赋",
+      "后赤壁赋",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "元丰三年（1080）贬黄州，创作《赤壁赋》《念奴娇》等",
+    "local_foods": [
+      "东坡肉",
+      "东坡羹",
+      "东坡饼",
+      "黄州豆腐"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS071",
+    "lat": 23.55,
+    "lng": 114.38,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "博罗",
+    "modernName": "广东博罗",
+    "routeId": "route18",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS072",
+    "lat": 24.48,
+    "lng": 113.59,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "韶州",
+    "modernName": "广东韶关",
+    "routeId": "route18",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS073",
+    "lat": 28.66,
+    "lng": 115.53,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌",
+    "routeId": "route19",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS074",
+    "lat": 29.68,
+    "lng": 115.98,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "江州",
+    "modernName": "江西九江",
+    "routeId": "route19",
+    "routeOrder": 12,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "庐山所在地，苏轼多次游览",
+    "local_foods": [
+      "九江茶饼",
+      "庐山石鸡"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS075",
+    "lat": 30.58,
+    "lng": 114.31,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "蕲州",
+    "modernName": "湖北蕲春",
+    "routeId": "route19",
+    "routeOrder": 13,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS076",
+    "lat": 26.23,
+    "lng": 111.61,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "永州",
+    "modernName": "湖南永州",
+    "routeId": "route19",
+    "routeOrder": 14,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS077",
+    "lat": 34.26,
+    "lng": 115.48,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "睢阳",
+    "modernName": "河南商丘",
+    "routeId": "route14",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS078",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "润州",
+    "modernName": "江苏镇江",
+    "routeId": "route14",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "金山寺所在地，苏轼多次游览",
+    "local_foods": [
+      "锅盖面",
+      "蟹黄汤包"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS079",
+    "lat": 31.32,
+    "lng": 120.61,
+    "type": "friend",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "苏州",
+    "modernName": "江苏苏州",
+    "routeId": "route14",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS080",
+    "lat": 30.02,
+    "lng": 120.58,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 2,
+    "songName": "余杭",
+    "modernName": "浙江杭州",
+    "routeId": "route14",
+    "routeOrder": 10,
+    "su_works": [
+      "饮湖上初晴后雨",
+      "六月二十七日望湖楼醉书",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁四年（1071）任杭州通判，元祐四年（1089）任知州",
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS081",
+    "lat": 34.26,
+    "lng": 117.1845,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "彭城",
+    "modernName": "江苏徐州",
+    "routeId": "route07",
+    "routeOrder": 11,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "熙宁十年（1077）知徐州，抗洪保城",
+    "local_foods": [
+      "地锅鸡",
+      "羊汤",
+      "烙馍",
+      "彭城鱼丸"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS082",
+    "lat": 30.75,
+    "lng": 120.75,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴",
+    "routeId": "route14",
+    "routeOrder": 11,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS083",
+    "lat": 29.87,
+    "lng": 121.55,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "明州",
+    "modernName": "浙江宁波",
+    "routeId": "route14",
+    "routeOrder": 12,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS084",
+    "lat": 27.7,
+    "lng": 120.6,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "温州",
+    "modernName": "浙江温州",
+    "routeId": "route19",
+    "routeOrder": 15,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS088",
+    "lat": 25.05,
+    "lng": 113.59,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "韶州",
+    "modernName": "广东韶关",
+    "routeId": "route18",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS089",
+    "lat": 23.55,
+    "lng": 116.68,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "潮州",
+    "modernName": "广东潮州",
+    "routeId": "route18",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS090",
+    "lat": 22.54,
+    "lng": 114.05,
+    "type": "tour",
+    "stage": "second_exile",
+    "importance": 3,
+    "songName": "惠州",
+    "modernName": "广东惠州",
+    "routeId": "route18",
+    "routeOrder": 9,
+    "su_works": [
+      "食荔枝",
+      "蝶恋花·春景"
+    ],
+    "su_quote": "",
+    "author_note": "绍圣元年（1094）贬惠州，留下\"日啖荔枝三百颗\"名句",
+    "local_foods": [
+      "梅菜扣肉",
+      "酿豆腐",
+      "盐焗鸡",
+      "东江菜"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS091",
+    "lat": 20.02,
+    "lng": 110.33,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "雷州",
+    "modernName": "广东雷州",
+    "routeId": "route19",
+    "routeOrder": 19,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "粤菜",
+      "早茶"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS092",
+    "lat": 19.52,
+    "lng": 110.33,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "琼州",
+    "modernName": "海南海口",
+    "routeId": "route19",
+    "routeOrder": 20,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "海鲜",
+      "椰子"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS093",
+    "lat": 19.52,
+    "lng": 109.51,
+    "type": "tour",
+    "stage": "third_exile",
+    "importance": 3,
+    "songName": "儋州",
+    "modernName": "海南儋州",
+    "routeId": "route19",
+    "routeOrder": 21,
+    "su_works": [
+      "桄榔庵铭",
+      "儋耳",
+      "纵笔"
+    ],
+    "su_quote": "",
+    "author_note": "绍圣四年（1097）贬儋州，建桄榔庵、载酒堂",
+    "local_foods": [
+      "儋州米烂",
+      "长坡米烂",
+      "红鱼粽",
+      "椰子鸡"
+    ],
+    "cultural_tags": [
+      "贬谪地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS094",
+    "lat": 21.48,
+    "lng": 109.18,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "廉州",
+    "modernName": "广西合浦",
+    "routeId": "route19",
+    "routeOrder": 22,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS095",
+    "lat": 22.82,
+    "lng": 108.36,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "邕州",
+    "modernName": "广西南宁",
+    "routeId": "route19",
+    "routeOrder": 23,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS096",
+    "lat": 25.28,
+    "lng": 110.18,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "静江",
+    "modernName": "广西桂林",
+    "routeId": "route19",
+    "routeOrder": 24,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS097",
+    "lat": 27.81,
+    "lng": 112.93,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "潭州",
+    "modernName": "湖南长沙",
+    "routeId": "route19",
+    "routeOrder": 25,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS098",
+    "lat": 28.23,
+    "lng": 112.93,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "衡州",
+    "modernName": "湖南衡阳",
+    "routeId": "route19",
+    "routeOrder": 26,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS099",
+    "lat": 29.68,
+    "lng": 115.98,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "江州",
+    "modernName": "江西九江",
+    "routeId": "route19",
+    "routeOrder": 27,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "庐山所在地，苏轼多次游览",
+    "local_foods": [
+      "九江茶饼",
+      "庐山石鸡"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS100",
+    "lat": 28.66,
+    "lng": 115.89,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌",
+    "routeId": "route19",
+    "routeOrder": 28,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS101",
+    "lat": 27.79,
+    "lng": 114.93,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "吉州",
+    "modernName": "江西吉安",
+    "routeId": "route19",
+    "routeOrder": 29,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS102",
+    "lat": 27.8,
+    "lng": 114.91,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "虔州",
+    "modernName": "江西赣州",
+    "routeId": "route18",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS103",
+    "lat": 30.35,
+    "lng": 111.78,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "荆州",
+    "modernName": "湖北荆州",
+    "routeId": "route19",
+    "routeOrder": 30,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS104",
+    "lat": 31.2988,
+    "lng": 121.4802,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 2,
+    "songName": "常州",
+    "modernName": "江苏常州",
+    "routeId": "route19",
+    "routeOrder": 31,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "建中靖国元年（1101）北归，病逝于常州藤花旧馆",
+    "local_foods": [
+      "大麻糕",
+      "银丝面",
+      "加蟹小笼包",
+      "天目湖砂锅鱼头"
+    ],
+    "cultural_tags": [
+      "终老地",
+      "逝世地"
+    ]
+  },
+  {
+    "id": "SS105",
+    "lat": 32.0603,
+    "lng": 119.01,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "真州",
+    "modernName": "江苏仪征",
+    "routeId": "route14",
+    "routeOrder": 13,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS106",
+    "lat": 32.39,
+    "lng": 119.41,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "扬州",
+    "modernName": "江苏扬州",
+    "routeId": "route14",
+    "routeOrder": 14,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "元祐七年（1092）知扬州",
+    "local_foods": [
+      "扬州炒饭",
+      "大煮干丝",
+      "狮子头"
+    ],
+    "cultural_tags": [
+      "为官地"
+    ]
+  },
+  {
+    "id": "SS107",
+    "lat": 33.6,
+    "lng": 119.02,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "楚州",
+    "modernName": "江苏淮安",
+    "routeId": "route14",
+    "routeOrder": 15,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS108",
+    "lat": 34.26,
+    "lng": 117.18,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "徐州",
+    "modernName": "江苏徐州",
+    "routeId": "route07",
+    "routeOrder": 12,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "熙宁十年（1077）知徐州，抗洪保城",
+    "local_foods": [
+      "地锅鸡",
+      "羊汤",
+      "烙馍",
+      "彭城鱼丸"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS109",
+    "lat": 34.7977,
+    "lng": 113.66,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "开封",
+    "modernName": "河南开封",
+    "routeId": "route07",
+    "routeOrder": 13,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "北宋京城，苏轼多次在此任职、应试",
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面",
+      "花生糕"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "京城"
+    ]
+  },
+  {
+    "id": "SS110",
+    "lat": 35.75,
+    "lng": 113.65,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "滑州",
+    "modernName": "河南滑县",
+    "routeId": "route14",
+    "routeOrder": 16,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS111",
+    "lat": 36.1,
+    "lng": 114.5,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "相州",
+    "modernName": "河南安阳",
+    "routeId": "route14",
+    "routeOrder": 17,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS112",
+    "lat": 35.05,
+    "lng": 113.25,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "怀州",
+    "modernName": "河南沁阳",
+    "routeId": "route14",
+    "routeOrder": 18,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS113",
+    "lat": 34.52,
+    "lng": 112.45,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "河南府",
+    "modernName": "河南洛阳",
+    "routeId": "route11",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS114",
+    "lat": 33.8,
+    "lng": 112.6,
+    "type": "tour",
+    "stage": "first_exile",
+    "importance": 3,
+    "songName": "嵩山",
+    "modernName": "河南登封",
+    "routeId": "route11",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS115",
+    "lat": 32.0603,
+    "lng": 118.7969,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "升州",
+    "modernName": "江苏南京",
+    "routeId": "route14",
+    "routeOrder": 19,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS116",
+    "lat": 31.32,
+    "lng": 120.61,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "苏州",
+    "modernName": "江苏苏州",
+    "routeId": "route14",
+    "routeOrder": 20,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS117",
+    "lat": 30.75,
+    "lng": 120.75,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "秀州",
+    "modernName": "浙江嘉兴",
+    "routeId": "route14",
+    "routeOrder": 21,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS118",
+    "lat": 29.15,
+    "lng": 119.65,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "婺州",
+    "modernName": "浙江金华",
+    "routeId": "route14",
+    "routeOrder": 22,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "浙菜",
+      "杭帮菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS119",
+    "lat": 30.02,
+    "lng": 120.58,
+    "type": "tour",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "杭州",
+    "modernName": "浙江杭州",
+    "routeId": "route14",
+    "routeOrder": 23,
+    "su_works": [
+      "饮湖上初晴后雨",
+      "六月二十七日望湖楼醉书",
+      "定风波"
+    ],
+    "su_quote": "",
+    "author_note": "熙宁四年（1071）任杭州通判，元祐四年（1089）任知州",
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ]
+  },
+  {
+    "id": "SS120",
+    "lat": 28.66,
+    "lng": 115.89,
+    "type": "tour",
+    "stage": "final_journey",
+    "importance": 3,
+    "songName": "洪州",
+    "modernName": "江西南昌",
+    "routeId": "route19",
+    "routeOrder": 32,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS121",
+    "lat": 30.3495,
+    "lng": 112.187,
+    "type": "tour",
+    "stage": "early_career",
+    "importance": 2,
+    "songName": "江陵",
+    "modernName": "湖北荆州",
+    "routeId": "route01",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS122",
+    "lat": 32.295,
+    "lng": 105.485,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 2,
+    "songName": "剑门关",
+    "modernName": "四川剑阁",
+    "routeId": "route01",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "蜀道要隘，苏轼多次途经",
+    "local_foods": [
+      "剑门豆腐",
+      "核桃饼"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS123",
+    "lat": 25.383,
+    "lng": 114.317,
+    "type": "tour",
+    "stage": "late_exile",
+    "importance": 2,
+    "songName": "大庾岭",
+    "modernName": "江西大余",
+    "routeId": "route18",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "赣菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS124",
+    "lat": 30.829,
+    "lng": 111.003,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 2,
+    "songName": "三峡",
+    "modernName": "湖北宜昌三峡",
+    "routeId": "route03",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS125",
+    "lat": 31.019,
+    "lng": 109.513,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 2,
+    "songName": "夔州",
+    "modernName": "重庆奉节",
+    "routeId": "route03",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS126",
+    "lat": 28.864,
+    "lng": 105.443,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 2,
+    "songName": "泸州",
+    "modernName": "四川泸州",
+    "routeId": "route03",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "川菜",
+      "火锅"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS127",
+    "lat": 28.752,
+    "lng": 104.643,
+    "type": "tour",
+    "stage": "youth",
+    "importance": 2,
+    "songName": "戎州",
+    "modernName": "四川宜宾",
+    "routeId": "route03",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "川菜",
+      "火锅"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS128",
+    "lat": 31.6445,
+    "lng": 105.1719,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "梓潼",
+    "modernName": "四川梓潼",
+    "routeId": "route02",
+    "routeOrder": 1,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "川菜",
+      "火锅"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS129",
+    "lat": 32.8478,
+    "lng": 106.2335,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "金牛",
+    "modernName": "陕西宁强",
+    "routeId": "route02",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS130",
+    "lat": 33.1553,
+    "lng": 106.6872,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "沔州",
+    "modernName": "陕西勉县",
+    "routeId": "route02",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS131",
+    "lat": 33.9328,
+    "lng": 106.5084,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "凤州",
+    "modernName": "陕西凤县",
+    "routeId": "route02",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS132",
+    "lat": 34.3712,
+    "lng": 107.2377,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "陈仓",
+    "modernName": "陕西宝鸡",
+    "routeId": "route02",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS133",
+    "lat": 34.3665,
+    "lng": 107.9047,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "扶风",
+    "modernName": "陕西扶风",
+    "routeId": "route05",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS134",
+    "lat": 34.4995,
+    "lng": 109.516,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "华州",
+    "modernName": "陕西华县",
+    "routeId": "route05",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS135",
+    "lat": 34.7778,
+    "lng": 111.1982,
+    "type": "passing",
+    "stage": "youth",
+    "importance": 3,
+    "songName": "陕州",
+    "modernName": "河南三门峡",
+    "routeId": "route05",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS136",
+    "lat": 31.05,
+    "lng": 107.87,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "恭州",
+    "modernName": "重庆",
+    "routeId": "route06",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS137",
+    "lat": 31.0354,
+    "lng": 112.1989,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "荆门",
+    "modernName": "湖北荆门",
+    "routeId": "route03",
+    "routeOrder": 11,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS138",
+    "lat": 32.0114,
+    "lng": 112.1141,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "襄州",
+    "modernName": "湖北襄阳",
+    "routeId": "route03",
+    "routeOrder": 12,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鄂菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS139",
+    "lat": 32.9993,
+    "lng": 112.5296,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "南阳",
+    "modernName": "河南南阳",
+    "routeId": "route03",
+    "routeOrder": 13,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS140",
+    "lat": 34.7633,
+    "lng": 111.6225,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "渑池",
+    "modernName": "河南渑池",
+    "routeId": "route05",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS141",
+    "lat": 34.4995,
+    "lng": 109.516,
+    "type": "passing",
+    "stage": "early_career",
+    "importance": 3,
+    "songName": "渭南",
+    "modernName": "陕西渭南",
+    "routeId": "route05",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "面食",
+      "羊肉泡馍"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS142",
+    "lat": 33.6402,
+    "lng": 116.9657,
+    "type": "passing",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "宿州",
+    "modernName": "安徽宿州",
+    "routeId": "route13",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS143",
+    "lat": 31.6577,
+    "lng": 118.5067,
+    "type": "passing",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "采石矶",
+    "modernName": "安徽马鞍山",
+    "routeId": "route06",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS144",
+    "lat": 32.6256,
+    "lng": 116.9968,
+    "type": "passing",
+    "stage": "middle_career",
+    "importance": 3,
+    "songName": "寿州",
+    "modernName": "安徽淮南",
+    "routeId": "route08",
+    "routeOrder": 2,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS145",
+    "lat": 32.7833,
+    "lng": 119.4419,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "高邮",
+    "modernName": "江苏高邮",
+    "routeId": "route09",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS146",
+    "lat": 34.5967,
+    "lng": 119.1782,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "海州",
+    "modernName": "江苏连云港",
+    "routeId": "route15",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS147",
+    "lat": 36.7073,
+    "lng": 119.1525,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "潍州",
+    "modernName": "山东潍坊",
+    "routeId": "route10",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "往返山东途中经过",
+    "local_foods": [
+      "潍坊朝天锅",
+      "和乐"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS148",
+    "lat": 36.6818,
+    "lng": 118.4797,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "青州",
+    "modernName": "山东青州",
+    "routeId": "route16",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鲁菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS149",
+    "lat": 35.9136,
+    "lng": 116.3139,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "郓州",
+    "modernName": "山东东平",
+    "routeId": "route16",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鲁菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS150",
+    "lat": 35.7642,
+    "lng": 115.032,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "澶州",
+    "modernName": "河南濮阳",
+    "routeId": "route10",
+    "routeOrder": 4,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS151",
+    "lat": 33.8765,
+    "lng": 115.7782,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "亳州",
+    "modernName": "安徽亳州",
+    "routeId": "route11",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS152",
+    "lat": 33.4908,
+    "lng": 116.2289,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "涡阳",
+    "modernName": "安徽涡阳",
+    "routeId": "route11",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS153",
+    "lat": 32.9564,
+    "lng": 117.1897,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "怀远",
+    "modernName": "安徽怀远",
+    "routeId": "route11",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS154",
+    "lat": 33.0078,
+    "lng": 114.3647,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "蔡州",
+    "modernName": "河南汝南",
+    "routeId": "route14",
+    "routeOrder": 24,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS155",
+    "lat": 32.3465,
+    "lng": 114.7186,
+    "type": "passing",
+    "stage": "exile",
+    "importance": 3,
+    "songName": "息县",
+    "modernName": "河南息县",
+    "routeId": "route14",
+    "routeOrder": 25,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS156",
+    "lat": 31.5553,
+    "lng": 118.4972,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "当涂",
+    "modernName": "安徽当涂",
+    "routeId": "route15",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "徽菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS157",
+    "lat": 31.3597,
+    "lng": 119.8227,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "宜兴",
+    "modernName": "江苏宜兴",
+    "routeId": "route18",
+    "routeOrder": 3,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "淮扬菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS158",
+    "lat": 37.1778,
+    "lng": 119.9397,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "莱州",
+    "modernName": "山东莱州",
+    "routeId": "route16",
+    "routeOrder": 5,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鲁菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS159",
+    "lat": 36.3513,
+    "lng": 114.3772,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "磁州",
+    "modernName": "河北磁县",
+    "routeId": "route19",
+    "routeOrder": 6,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "冀菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS160",
+    "lat": 36.6078,
+    "lng": 114.4929,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "邯郸",
+    "modernName": "河北邯郸",
+    "routeId": "route19",
+    "routeOrder": 7,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "冀菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS161",
+    "lat": 37.0695,
+    "lng": 114.4913,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "邢州",
+    "modernName": "河北邢台",
+    "routeId": "route19",
+    "routeOrder": 8,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "冀菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS162",
+    "lat": 37.7475,
+    "lng": 114.7803,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "赵州",
+    "modernName": "河北赵县",
+    "routeId": "route19",
+    "routeOrder": 9,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "冀菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS163",
+    "lat": 34.4526,
+    "lng": 115.0787,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "襄邑",
+    "modernName": "河南睢县",
+    "routeId": "route19",
+    "routeOrder": 16,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "烩面",
+      "胡辣汤"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  },
+  {
+    "id": "SS164",
+    "lat": 34.7977,
+    "lng": 114.3667,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "陈留",
+    "modernName": "河南开封陈留",
+    "routeId": "route19",
+    "routeOrder": 17,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "北宋京城，苏轼多次在此任职、应试",
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面",
+      "花生糕"
+    ],
+    "cultural_tags": [
+      "为官地",
+      "京城"
+    ]
+  },
+  {
+    "id": "SS165",
+    "lat": 23.4832,
+    "lng": 110.9403,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "藤州",
+    "modernName": "广西藤县",
+    "routeId": "route19",
+    "routeOrder": 18,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS166",
+    "lat": 22.8542,
+    "lng": 110.5289,
+    "type": "passing",
+    "stage": "return",
+    "importance": 3,
+    "songName": "容州",
+    "modernName": "广西容县",
+    "routeId": "route19",
+    "routeOrder": 33,
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [],
+    "cultural_tags": []
+  },
+  {
+    "id": "SS020",
+    "name": "胶西",
+    "songName": "胶西",
+    "modernName": "山东胶州",
+    "lat": 36.2667,
+    "lng": 120.0333,
+    "dynasty": "北宋",
+    "currentProvince": "山东",
+    "tags": [
+      "密州",
+      "登州",
+      "板桥镇"
+    ],
+    "routeId": "route15",
+    "routeOrder": 3,
+    "note": "苏轼从此地板桥镇上船赴登州",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "local_foods": [
+      "鲁菜"
+    ],
+    "cultural_tags": [
+      "游历地"
+    ]
+  }
+]

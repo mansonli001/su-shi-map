@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "中原官道要道，通往京畿的必经中转。",
+  "background": "襄城即今河南襄城，中原官道要冲。苏轼进京途经此地，驿道通畅、汝水绕城，是通往京畿的必经中转。",
   "extended_story": "北上途中在此休整，\n距离京师愈发临近。",
   "essence": "趋近京畿的中转驿点",
   "tags": [
@@ -31,9 +31,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.193Z",
   "schema_version": "v4.1",
-  "lng": 113.506904,
-  "lat": 33.851609,
-  "coordinate_source": "amap_corrected",
+  "lng": 113.575115,
+  "lat": 33.846305,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河南省许昌市襄城县",
   "coords_updated_at": "2026-06-01T10:17:04.326Z",
   "duration_summary": {
@@ -46,36 +46,53 @@
       "S2"
     ]
   },
-  "modern_visit": {
-    "amap_poi_id": "B0FFH3Q67I",
-    "amap_name": "襄城收费站(G0421许广高速入口)",
-    "address": "襄城县",
-    "location": "113.575115,33.846305",
-    "cityname": "许昌市",
-    "adname": "襄城县",
-    "type": "道路附属设施;收费站;收费站",
-    "typecode": "180200",
-    "tel": [],
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/e4b8d656fbadfdf2135583e86f7e67b8"
-      },
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/8d9c25b95cfb6e17ab7cb0eb567060e3"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFH3Q67I/comment/content_media_external_file_100003557_1751419712086_62605362.jpg"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
-  "amap_updated_at": "2026-06-03T05:16:14.000Z"
+  "modern_visit": {},
+  "amap_updated_at": "2026-06-03T05:16:14.000Z",
+  "sxzk_address": "襄城县",
+  "sub_places": [
+    {
+      "name": "襄城官署",
+      "ancient_name": "襄城官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在襄城的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.846305,
+      "lng": 113.575115,
+      "modern_address": "襄城县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p186-001",
+      "date": "1061年",
+      "title": "经襄城西行",
+      "description": "苏轼经襄城西行赴凤翔",
+      "significance": "西行中继"
+    }
+  ],
+  "foods": [
+    {
+      "name": "襄城焖面",
+      "description": "襄城传统面食，面条与菜肉同焖，浓香入味"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "紫云山",
+      "description": "襄城名胜，苏轼途经或游览",
+      "type": "景区"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "襄城",
+      "type": "诗",
+      "note": "途经襄城所作",
+      "year_estimate": 1077
+    }
+  ]
 }

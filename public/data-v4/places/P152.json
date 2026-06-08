@@ -3,19 +3,34 @@
   "ancient_name": "陕州硖石",
   "modern_name": "河南三门峡硖石",
   "type": "main",
-  "lat": 34.732,
-  "lng": 111.2854,
+  "lat": 34.716667,
+  "lng": 111.477516,
   "related_routes": [
     "R01"
   ],
   "summary": "",
-  "background": "崤函古道核心地段，东西交通咽喉。",
+  "background": "巫峡，三峡中段最幽深之处。苏轼舟行巫峡，云雨朦胧、峰峦如屏，楚辞神女之韵与峡江奇景交融。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p152-001",
+      "date": "1056年",
+      "title": "过硖石险隘",
+      "description": "苏轼经陕州硖石峡谷，穿越崤函古道险段",
+      "significance": "崤函险隘"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "硖石",
+      "type": "诗",
+      "note": "经陕州硖石所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年崤函古道行经",
@@ -43,10 +58,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "硖石古驿",
+      "description": "陕州硖石古驿站，苏轼途经作诗",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "陕州糟蛋",
+      "description": "陕州传统名吃，酒糟腌制，醇香独特"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "陕州硖石居所",
+      "ancient_name": "陕州硖石居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在陕州硖石的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.716667,
+      "lng": 111.477516,
+      "modern_address": "观音堂-西站",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS135",
     "pinyin_id": null,
@@ -90,5 +131,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:51.000Z"
+  "amap_updated_at": "2026-06-03T05:15:51.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "观音堂-西站"
 }

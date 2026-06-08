@@ -25,7 +25,13 @@
       "id": "p206-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "宜兴田园",
+      "type": "诗",
+      "description": "苏轼游宜兴田园所作"
+    }
+  ],
   "route_events": {
     "R11": {
       "duration": "1084年闲游流连",
@@ -41,10 +47,39 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "宜兴东坡书院",
+      "description": "苏轼买田宜兴处，后建书院纪念",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宜兴乌饭",
+      "description": "宜兴传统美食",
+      "origin_story": "宜兴传统美食",
+      "tag": "宜兴特色"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "兴国军衙",
+      "ancient_name": "兴国军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在宜兴田园的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.338429,
+      "lng": 119.821873,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用宜兴田园中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS157",
     "pinyin_id": null,

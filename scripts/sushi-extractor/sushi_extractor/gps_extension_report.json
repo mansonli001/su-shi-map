@@ -1,0 +1,151 @@
+{
+  "total_places": 12,
+  "updated_at": "2026-06-07",
+  "source": "《苏轼行踪考》- 扩展挖掘",
+  "updates": [
+    {
+      "place_id": "P008",
+      "ancient_name": "汴京",
+      "modern_name": "开封",
+      "extracted_address": "河南省开封市祥符区",
+      "original_address": "河南省开封市祥符区",
+      "source_chapter": "05 第二篇  眉山苏轼",
+      "lat": 34.757546,
+      "lng": 114.441406,
+      "formatted_address": "河南省开封市祥符区",
+      "level": "区县"
+    },
+    {
+      "place_id": "P094",
+      "ancient_name": "夔州",
+      "modern_name": "奉节",
+      "extracted_address": "重庆市奉节县",
+      "original_address": "属重庆市奉节县",
+      "source_chapter": "07 第四篇  第二次出蜀与三苏《南行集》",
+      "lat": 31.018505,
+      "lng": 109.401056,
+      "formatted_address": "重庆市奉节县",
+      "level": "区县"
+    },
+    {
+      "place_id": "P121",
+      "ancient_name": "绵州",
+      "modern_name": "四川绵阳",
+      "extracted_address": "四川绵阳市盐亭县",
+      "original_address": "属四川绵阳市盐亭县",
+      "source_chapter": "08 第五篇  第二次进京与凤翔府签判任",
+      "lat": 31.208362,
+      "lng": 105.389453,
+      "formatted_address": "四川省绵阳市盐亭县",
+      "level": "区县"
+    },
+    {
+      "place_id": "P116",
+      "ancient_name": "眉山",
+      "modern_name": "四川眉山",
+      "extracted_address": "眉山市彭城区",
+      "original_address": "为眉山市彭城区",
+      "source_chapter": "09 第六篇  第三次入京与父丧返乡",
+      "lat": 30.077113,
+      "lng": 103.848417,
+      "formatted_address": "四川省眉山市",
+      "level": "市"
+    },
+    {
+      "place_id": "P121",
+      "ancient_name": "绵州",
+      "modern_name": "四川绵阳",
+      "extracted_address": "四川绵阳市盐亭县",
+      "original_address": "属四川绵阳市盐亭县",
+      "source_chapter": "10 第七篇  第四次入京",
+      "lat": 31.208362,
+      "lng": 105.389453,
+      "formatted_address": "四川省绵阳市盐亭县",
+      "level": "区县"
+    },
+    {
+      "place_id": "P058",
+      "ancient_name": "杭州",
+      "modern_name": "浙江杭州",
+      "extracted_address": "杭州市余杭区",
+      "original_address": "为杭州市余杭区",
+      "source_chapter": "11 第八篇  任杭州倅",
+      "lat": 30.273705,
+      "lng": 119.978742,
+      "formatted_address": "浙江省杭州市余杭区",
+      "level": "区县"
+    },
+    {
+      "place_id": "P116",
+      "ancient_name": "眉山",
+      "modern_name": "四川眉山",
+      "extracted_address": "四川省中部地区眉山市所辖的一个县",
+      "original_address": "是四川省中部地区眉山市所辖的一个县",
+      "source_chapter": "12 第九篇 山东知密",
+      "lat": 30.077113,
+      "lng": 103.848417,
+      "formatted_address": "四川省眉山市",
+      "level": "市"
+    },
+    {
+      "place_id": "P021",
+      "ancient_name": "成都",
+      "modern_name": "四川成都",
+      "extracted_address": "成都市郫都区",
+      "original_address": "为成都市郫都区",
+      "source_chapter": "12 第九篇 山东知密",
+      "lat": 30.795113,
+      "lng": 103.900486,
+      "formatted_address": "四川省成都市郫都区",
+      "level": "区县"
+    },
+    {
+      "place_id": "P125",
+      "ancient_name": "南都",
+      "modern_name": "商丘",
+      "extracted_address": "河南省商丘市下属的一个县",
+      "original_address": "河南省商丘市下属的一个县",
+      "source_chapter": "23 第二十篇  贬谪惠州",
+      "lat": 34.415165,
+      "lng": 115.656358,
+      "formatted_address": "河南省商丘市",
+      "level": "市"
+    },
+    {
+      "place_id": "P089",
+      "ancient_name": "金陵",
+      "modern_name": "南京",
+      "extracted_address": "在南京市六合区",
+      "original_address": "在南京市六合区",
+      "source_chapter": "23 第二十篇  贬谪惠州",
+      "lat": 32.323235,
+      "lng": 118.822241,
+      "formatted_address": "江苏省南京市六合区",
+      "level": "区县"
+    },
+    {
+      "place_id": "P054",
+      "ancient_name": "广州",
+      "modern_name": "广东广州",
+      "extracted_address": "位于广州市黄埔区",
+      "original_address": "位于广州市黄埔区",
+      "source_chapter": "23 第二十篇  贬谪惠州",
+      "lat": 23.181355,
+      "lng": 113.480613,
+      "formatted_address": "广东省广州市黄埔区",
+      "level": "区县"
+    },
+    {
+      "place_id": "P136",
+      "ancient_name": "虔州",
+      "modern_name": "赣州",
+      "extracted_address": "赣州市南康区",
+      "original_address": "赣州市南康区",
+      "source_chapter": "25 第二十二篇   北归常州，葬于郏县",
+      "lat": 25.661369,
+      "lng": 114.765044,
+      "formatted_address": "江西省赣州市南康区",
+      "level": "区县"
+    }
+  ]
+}

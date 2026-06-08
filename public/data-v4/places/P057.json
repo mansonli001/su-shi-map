@@ -3,21 +3,52 @@
   "ancient_name": "汉中栈道",
   "modern_name": "陕西汉中古栈道",
   "type": "sight",
-  "lat": 33.0667,
-  "lng": 107.0228,
+  "lat": 33.21087,
+  "lng": 106.96447,
   "related_routes": [
     "R05"
   ],
   "tags": [],
-  "background": "守父丧毕，再赴汴京任职，正值王安石变法，旋陷党争。",
+  "background": "秦岭褒斜古道上的栈道遗迹，悬崖凿孔、架木为道。苏轼守孝期满再赴京师，经汉中翻秦岭，栈道凌空、下临深涧，是蜀道最惊险的路段，也是他告别故土、重返朝堂的必经之路。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p057-001",
+      "date": "1069年",
+      "title": "经汉中栈道出蜀",
+      "description": "苏轼守丧毕经汉中栈道出蜀赴京",
+      "significance": "蜀道险段"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "入峡",
+      "type": "诗",
+      "note": "入蜀经栈道所作",
+      "year_estimate": 1059
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "汉中栈道",
+      "ancient_name": "汉中栈道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经汉中栈道",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.21087,
+      "lng": 106.96447,
+      "modern_address": "河东店镇汉中石门栈道风景区内(南侧)",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +83,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:43.000Z"
+  "amap_updated_at": "2026-06-03T05:14:43.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "河东店镇汉中石门栈道风景区内(南侧)"
 }

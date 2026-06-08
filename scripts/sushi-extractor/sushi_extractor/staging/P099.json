@@ -1,0 +1,60 @@
+{
+  "place_id": "P099",
+  "ancient_name": "利州",
+  "modern_name": "广元",
+  "city": "广元市",
+  "processed_at": "2026-06-07T23:22:35.198215",
+  "main_coords": {
+    "name": "康州官署",
+    "lat": 32.336267,
+    "lng": 105.719853,
+    "modern_address": "昭化镇城关村桔柏渡街144号",
+    "coordinate_source": "amap_poi",
+    "reason": "康州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "康州官署",
+      "ancient_name": "康州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在利州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.336267,
+      "lng": 105.719853,
+      "modern_address": "昭化镇城关村桔柏渡街144号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "昭化古城",
+      "ancient_name": "昭化古城",
+      "type": "古城",
+      "period": "",
+      "description": "蜀道重要节点，有2000多年历史",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.336267,
+      "lng": 105.719853,
+      "modern_address": "昭化镇城关村桔柏渡街144号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P099",
+    "ancient_name": "利州",
+    "city": "广元市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "利州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:22.386726"
+}

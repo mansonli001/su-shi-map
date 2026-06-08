@@ -3,14 +3,14 @@
   "ancient_name": "定州",
   "modern_name": "河北定州",
   "type": "official",
-  "lat": 38.516,
-  "lng": 114.9897,
+  "lat": 38.3792,
+  "lng": 114.9902,
   "related_routes": [
     "R17",
     "R18"
   ],
   "summary": "苏轼知定州",
-  "background": "定州今河北定州，苏轼元祐八年知定州",
+  "background": "定州即今河北定州，北宋边防重镇。苏轼元祐八年知定州，整饬军纪、修城练兵，北望契丹、风沙漫天，是苏轼仕途最后一任实职。",
   "tags": [
     "定州",
     "中山",
@@ -103,6 +103,16 @@
       "fullText": "仿佛曾游岂梦中，欣然鸡犬识新丰。\n吏民惊怪坐何事，父老相携迎此翁。\n苏武岂知还漠北，管宁自欲老辽东。\n岭南万户皆春色，会有幽人客寓公。",
       "excerpt": "仿佛曾游岂梦中，欣然鸡犬识新丰。",
       "poem_id": "Z004"
+    },
+    {
+      "title": "白鹤峰",
+      "type": "诗",
+      "description": "白鹤峰头望故乡，白云深处是归航。"
+    },
+    {
+      "title": "白鹤新居",
+      "type": "诗",
+      "description": "白鹤峰前景物殊，我来仍值夏初交。"
     }
   ],
   "route_events": {
@@ -152,17 +162,84 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 38.528521,
+      "lng": 114.973909,
+      "modern_address": "河北省保定市定州市定州(公交站)"
+    },
+    {
+      "name": "定州开元寺塔",
+      "description": "全国重点文物保护单位，北宋古塔，苏轼知定州时常登临",
+      "type": "古迹"
+    },
+    {
+      "name": "定州贡院",
+      "description": "清代科举考场，定州历史文化遗产",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "定州焖子",
+      "description": "定州名吃",
+      "origin_story": "定州传统美食",
+      "tag": "定州必吃"
+    },
+    {
+      "name": "定州手掰肠",
+      "description": "定州特色肉肠，手掰成段，肉质紧实"
+    }
+  ],
   "transport": {
     "train": "定州站",
     "bus": "定州汽车站",
     "car": "京港澳高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "定州州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任定州官职时的居所",
+      "importance": "primary",
+      "ancient_name": "定州州衙",
+      "lat": 38.5142,
+      "lng": 114.9903,
+      "modern_address": "河北省定州市中山中路（定州署）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "定州古塔",
+      "ancient_name": "定州古塔",
+      "type": "pagoda",
+      "period": "",
+      "description": "苏轼在定州时所建或相关",
+      "works": [],
+      "importance": "secondary",
+      "lat": 38.528521,
+      "lng": 114.973909,
+      "modern_address": "河北省保定市定州市定州(公交站)",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "后，严明军纪；第二，写《乞罢定州不作乐》——请求不要在边境重地大搞音乐庆典。定州",
+      "ancient_name": "后，严明军纪；第二，写《乞罢定州不作乐》——请求不要在边境重地大搞音乐庆典。定州",
+      "type": "office",
+      "period": "1093-1094",
+      "description": "从定州知州·整顿军纪中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 38.516,
+      "lng": 114.9897,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS038",
     "pinyin_id": "dingzhou",
@@ -196,13 +273,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B027B02OMR",
-    "amap_name": "定州市",
-    "address": "定州市",
-    "location": "114.990321,38.516746",
-    "cityname": "保定市",
+    "amap_name": "定州开元寺塔",
+    "address": "中兴东路",
+    "location": "114.9902,38.3792",
+    "cityname": "定州市",
     "adname": "定州市",
-    "type": "地名地址信息;普通地名;区县级地名",
-    "typecode": "190105",
+    "type": "风景名胜;风景名胜;古塔",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -225,5 +302,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:31.000Z"
+  "amap_updated_at": "2026-06-03T05:14:31.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "定州市"
 }

@@ -3,21 +3,42 @@
   "ancient_name": "夔州",
   "modern_name": "奉节",
   "type": "main",
-  "lat": 31.018505,
-  "lng": 109.401056,
+  "lat": 31.018494,
+  "lng": 109.464001,
   "related_routes": [
     "R02",
     "R04"
   ],
   "summary": "",
-  "background": "夔门为三峡西大门，天下雄江关，\n自古文人怀古必到之地。",
+  "background": "定州即今河北定州，北宋边防重镇。苏轼知定州整饬军纪、修城练兵，北望契丹、风沙漫天，是仕途最后一站。",
   "tags": [
     "main",
     "visit"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p094-001",
+      "date": "1059年",
+      "title": "经夔州入三峡",
+      "description": "苏轼经夔州白帝城，入瞿塘峡顺流东下",
+      "significance": "三峡起点"
+    },
+    {
+      "id": "p094-002",
+      "date": "1066年",
+      "title": "扶柩返蜀经夔州",
+      "description": "苏轼扶父丧自汴京溯江而上经夔州返蜀",
+      "significance": "扶柩归途"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "白帝庙",
+      "type": "诗",
+      "description": "苏轼经夔州白帝城所作"
+    }
+  ],
   "route_events": {
     "R02": {
       "duration": "1059年驶入夔门三峡",
@@ -45,10 +66,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "白帝城",
+      "description": "夔州古城，刘备托孤之地",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "奉节脐橙",
+      "description": "夔州名产，果大汁多味甜，苏轼出蜀或品此果"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "夔州官署",
+      "ancient_name": "夔州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在夔州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.018494,
+      "lng": 109.464001,
+      "modern_address": "少陵支路与少陵路交叉口西200米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS125",
     "pinyin_id": null,
@@ -64,7 +111,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.201Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "重庆市奉节县",
   "coords_updated_at": "2026-06-01T10:17:04.317Z",
   "duration_summary": {
@@ -100,5 +147,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:10.000Z"
+  "amap_updated_at": "2026-06-03T05:15:10.000Z",
+  "sxzk_address": "少陵支路与少陵路交叉口西200米"
 }

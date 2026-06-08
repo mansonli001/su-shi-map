@@ -91,7 +91,44 @@
       "id": "p131-evt-002"
     }
   ],
-  "lat": 37.819201,
-  "lng": 120.760462,
-  "_latlng_source": "geocode"
+  "lat": 37.824795,
+  "lng": 120.752923,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "北关路1号",
+  "sub_places": [
+    {
+      "name": "蓬莱阁附近驿馆",
+      "ancient_name": "蓬莱阁附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在蓬莱阁的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.824795,
+      "lng": 120.752923,
+      "modern_address": "北关路1号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "蓬莱阁观海",
+      "type": "诗",
+      "description": "苏轼登蓬莱阁观海之作"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "蓬莱阁",
+      "description": "四大名楼之一，苏轼登临观海",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "蓬莱小面",
+      "description": "蓬莱传统面食，海鲜浇头，鲜香爽滑"
+    }
+  ]
 }

@@ -3,13 +3,13 @@
   "ancient_name": "徐州黄楼",
   "modern_name": "江苏徐州",
   "type": "official",
-  "lat": 34.2614,
-  "lng": 117.1849,
+  "lat": 34.267,
+  "lng": 117.186,
   "related_routes": [
     "R08"
   ],
   "summary": "苏轼任徐州知州一年十个月，抗洪建黄楼，留下众多名篇",
-  "background": "徐州今江苏徐州，苏轼于熙宁十年任知州，期间率民抗洪，建黄楼，创作众多诗文",
+  "background": "黄楼，徐州城东门楼。苏轼抗洪后所建，取'土能克水'之意，作《黄楼赋》记其事，是徐州抗洪的纪念碑。",
   "tags": [
     "徐州",
     "彭城",
@@ -33,6 +33,13 @@
       "title": "任徐州知州",
       "description": "苏轼到徐州任知州",
       "significance": "徐州仕途"
+    },
+    {
+      "id": "p196-003",
+      "date": "1077年",
+      "title": "抗洪筑黄楼",
+      "description": "苏轼率民抗洪保城，筑黄楼以纪念",
+      "significance": "抗洪功绩"
     }
   ],
   "global_works": [
@@ -67,6 +74,31 @@
       "coreVerse": "我在黄楼上，欲作黄楼诗。",
       "excerpt": "我在黄楼上，欲作黄楼诗。",
       "poem_id": "F001"
+    },
+    {
+      "title": "九日黄楼",
+      "type": "诗",
+      "description": "水声激怒山云乱，万壑松声卷怒涛。"
+    },
+    {
+      "title": "百步洪",
+      "type": "诗",
+      "description": "长洪斗落生跳波，轻舟南下如投梭。"
+    },
+    {
+      "title": "次韵刘贡父见和",
+      "type": "诗",
+      "description": "故人年少已峥嵘，他日声名公并声。"
+    },
+    {
+      "title": "次韵刘贡父西省见寄",
+      "type": "诗",
+      "description": "惆怅南朝事，清狂似旧时。"
+    },
+    {
+      "title": "石苍舒醉墨堂",
+      "type": "诗",
+      "description": "人生识字忧患始，姓名粗记可以休。"
     }
   ],
   "route_events": {
@@ -150,7 +182,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.246666,
+      "lng": 117.184577,
+      "modern_address": "云龙山内一节山平台处"
     },
     {
       "id": "xz-s003",
@@ -164,17 +199,167 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.204224,
+      "lng": 117.283752,
+      "modern_address": "江苏省徐州市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "徐州地锅鸡",
+      "description": "徐州名菜，铁锅炖鸡贴饼，鸡肉鲜嫩、饼吸汤汁"
+    },
+    {
+      "name": "把子肉",
+      "description": "徐州传统肉食，五花肉捆扎卤制，肥瘦相间、入口即化"
+    },
+    {
+      "name": "辣汤",
+      "description": "徐州早餐名品，胡椒辣味浓郁、面筋鸡蛋花，暖胃驱寒"
+    }
+  ],
   "transport": {
     "train": "徐州站/徐州东站",
     "bus": "徐州汽车站",
     "car": "京沪高速/连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "徐州黄楼州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任徐州黄楼官职时的居所",
+      "importance": "primary",
+      "ancient_name": "徐州黄楼州衙",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用徐州黄楼中心坐标作为参考"
+    },
+    {
+      "name": "徐州燕子楼",
+      "ancient_name": "徐州燕子楼",
+      "type": "scenic",
+      "period": "元丰元年（1078年）",
+      "description": "创作《永遇乐·彭城夜宿燕子楼》处",
+      "works": [
+        "永遇乐·彭城夜宿燕子楼"
+      ],
+      "importance": "secondary",
+      "lat": 34.204224,
+      "lng": 117.283752,
+      "modern_address": "江苏省徐州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "徐州云龙山",
+      "ancient_name": "徐州云龙山",
+      "type": "scenic",
+      "period": "元丰元年（1078年）",
+      "description": "创作《放鹤亭记》处",
+      "works": [
+        "放鹤亭记"
+      ],
+      "importance": "secondary",
+      "lat": 34.237675,
+      "lng": 117.176845,
+      "modern_address": "中山南路云龙山隧道",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "黄楼",
+      "ancient_name": "黄楼",
+      "type": "building",
+      "period": "",
+      "description": "苏轼在徐州抗洪后建黄楼纪念",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.253638,
+      "lng": 117.251515,
+      "modern_address": "江苏省徐州市云龙区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "云龙山放鹤亭",
+      "ancient_name": "云龙山放鹤亭",
+      "type": "pavilion",
+      "period": "",
+      "description": "苏轼常在此与客会饮",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.246666,
+      "lng": 117.184577,
+      "modern_address": "云龙山内一节山平台处",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "燕子楼",
+      "ancient_name": "燕子楼",
+      "type": "building",
+      "period": "",
+      "description": "苏轼梦入燕子楼，作《永遇乐》",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.253638,
+      "lng": 117.251515,
+      "modern_address": "江苏省徐州市云龙区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "知州任徐州",
+      "ancient_name": "知州任徐州",
+      "type": "office",
+      "period": "熙宁十年（1077年）四月二十一日",
+      "description": "从任徐州知州中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "徐州",
+      "ancient_name": "徐州",
+      "type": "office",
+      "period": "熙宁十年（1077年）四月二十一日",
+      "description": "从任徐州知州中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "在城楼上",
+      "ancient_name": "在城楼上",
+      "type": "residence",
+      "period": "1076-1079",
+      "description": "从知徐州·抗洪筑楼中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS021",
     "pinyin_id": "xuzhou",
@@ -236,5 +421,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:23.000Z"
+  "amap_updated_at": "2026-06-03T05:16:23.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "云龙区"
 }

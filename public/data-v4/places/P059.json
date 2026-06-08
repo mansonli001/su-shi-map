@@ -6,7 +6,7 @@
   "related_routes": [
     "R09"
   ],
-  "background": "淮河南岸古州，运河沿岸传统驿道重镇。",
+  "background": "濠州（今凤阳），淮河中游古城。苏轼途经濠州，庄子'濠梁之辩'在此发生，淮水悠悠、古风犹存。",
   "extended_story": "舟行运河途经濠州，览淮上风物，\n一路平稳南行向扬州靠拢。",
   "essence": "淮河南岸运河途经古邑",
   "tags": [
@@ -33,7 +33,7 @@
   "schema_version": "v4.1",
   "lng": 117.531791,
   "lat": 32.875714,
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "安徽省滁州市凤阳县",
   "coords_updated_at": "2026-06-01T10:17:04.315Z",
   "duration_summary": {
@@ -77,5 +77,44 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:45.000Z"
+  "amap_updated_at": "2026-06-03T05:14:45.000Z",
+  "sxzk_address": "凤阳县",
+  "sub_places": [
+    {
+      "name": "濠州官署",
+      "ancient_name": "濠州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在濠州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.875714,
+      "lng": 117.531791,
+      "modern_address": "凤阳县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p059-001",
+      "date": "1079年",
+      "title": "押解经濠州",
+      "description": "苏轼因乌台诗案被押解进京途经濠州",
+      "significance": "押解途中"
+    }
+  ],
+  "foods": [
+    {
+      "name": "凤阳豆腐",
+      "description": "濠州传统名菜，豆腐烹制花样繁多"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "明皇陵",
+      "description": "凤阳明皇陵，朱元璋父母陵墓",
+      "type": "古迹"
+    }
+  ]
 }

@@ -1,0 +1,47 @@
+{
+  "place_id": "P226",
+  "ancient_name": "真定",
+  "modern_name": "正定",
+  "city": "正定市",
+  "processed_at": "2026-06-07T23:25:29.992355",
+  "main_coords": {
+    "name": "真定居所",
+    "lat": 38.144749,
+    "lng": 114.574037,
+    "modern_address": "镇州南街与常山东路交叉口西南约140米",
+    "coordinate_source": "amap_poi_original",
+    "reason": "真定居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "真定居所",
+      "ancient_name": "真定居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在真定的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 38.144749,
+      "lng": 114.574037,
+      "modern_address": "镇州南街与常山东路交叉口西南约140米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P226",
+    "ancient_name": "真定",
+    "city": "正定市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "真定居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:48.715947"
+}

@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "岭南西向古道必经驿点。",
+  "background": "白州即今广西博白，岭南西向古道驿站。苏轼北归途经此地，山间驿道、溪桥古渡，是归途中岭南腹地的歇脚点。",
   "extended_story": "缓步西行，穿行岭南乡野，\n随遇而安，不问前路。",
   "essence": "岭南古道常规驿点",
   "tags": [
@@ -67,5 +67,42 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:00.000Z"
+  "amap_updated_at": "2026-06-03T05:14:00.000Z",
+  "lat": 22.273539,
+  "lng": 109.975856,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "博白县",
+  "sub_places": [
+    {
+      "name": "白州官署",
+      "ancient_name": "白州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在白州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 22.273539,
+      "lng": 109.975856,
+      "modern_address": "博白县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p002-001",
+      "date": "1100年",
+      "title": "经白州北归",
+      "description": "苏轼遇赦北归途经白州",
+      "significance": "北归途经"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "白州",
+      "type": "诗",
+      "note": "南贬途经白州所作",
+      "year_estimate": 1094
+    }
+  ]
 }

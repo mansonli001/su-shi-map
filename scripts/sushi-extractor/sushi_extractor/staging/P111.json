@@ -1,0 +1,46 @@
+{
+  "place_id": "P111",
+  "ancient_name": "泸州",
+  "modern_name": "四川泸州",
+  "city": "四川泸州市",
+  "processed_at": "2026-06-07T23:25:28.561155",
+  "main_coords": {
+    "name": "泸州官署",
+    "lat": 28.87098,
+    "lng": 105.441866,
+    "modern_address": "江阳区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "泸州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "泸州官署",
+      "ancient_name": "泸州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在泸州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.87098,
+      "lng": 105.441866,
+      "modern_address": "江阳区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P111",
+    "ancient_name": "泸州",
+    "city": "四川泸州市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "泸州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:39.194374"
+}

@@ -3,8 +3,8 @@
   "ancient_name": "杭州",
   "modern_name": "浙江杭州",
   "type": "official",
-  "lat": 30.246566,
-  "lng": 120.209903,
+  "lat": 30.25,
+  "lng": 120.15,
   "related_routes": [
     "R06",
     "R07",
@@ -12,7 +12,7 @@
     "R15"
   ],
   "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
-  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "background": "乌台即汴京御史台监狱。苏轼在此关押百余日，生死一线，是人生最黑暗的牢狱之灾，也是'苏东坡'诞生的前夜。",
   "tags": [
     "杭州",
     "西湖",
@@ -250,7 +250,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.222692,
+      "lng": 120.121358,
+      "modern_address": "杭州市西湖区龙井路1号"
     },
     {
       "id": "hz-s002",
@@ -278,17 +281,158 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.248234,
+      "lng": 120.123246,
+      "modern_address": "杭州市西湖区灵隐路"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "西湖醋鱼",
+      "description": "杭州名菜，草鱼糖醋烹制酸甜适口",
+      "origin_story": "杭州传统名菜，苏轼治湖后流传",
+      "tag": "杭州必吃"
+    },
+    {
+      "name": "东坡肉",
+      "description": "杭州东坡肉，酥烂不碎油而不腻",
+      "origin_story": "传为苏轼疏浚西湖时慰民所创",
+      "tag": "杭州必吃"
+    },
+    {
+      "name": "龙井虾仁",
+      "description": "杭州名菜，龙井茶香配鲜虾仁",
+      "origin_story": "杭州传统名菜",
+      "tag": "杭州名菜"
+    },
+    {
+      "name": "叫化鸡",
+      "description": "杭州传统名菜，泥裹烤鸡酥烂鲜香",
+      "origin_story": "杭州传统美食",
+      "tag": "杭州特色"
+    },
+    {
+      "name": "片儿川",
+      "description": "杭州传统面食，笋片雪菜肉丝面",
+      "origin_story": "杭州传统早餐",
+      "tag": "杭州特色"
+    }
+  ],
   "transport": {
     "train": "杭州站/杭州东站",
     "bus": "杭州汽车站",
     "car": "沪杭高速/杭宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "凤凰山州衙",
+      "ancient_name": "凤凰山州衙",
+      "type": "residence",
+      "period": "1071-1074年（通判时期）、1089-1091年（知州时期）",
+      "description": "苏轼任杭州通判时寓居凤凰山，两次在杭均居于此",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.234,
+      "lng": 120.168,
+      "modern_address": "杭州市上城区凤凰山脚路",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "凤凰山州衙原址在今凤凰山脚路附近，南宋皇城遗址区域"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "scenic",
+      "period": "1071-1074年、1089-1091年",
+      "description": "苏轼常游西湖，写下《饮湖上初晴后雨》等名篇",
+      "works": [
+        "饮湖上初晴后雨"
+      ],
+      "importance": "primary",
+      "lat": 30.222692,
+      "lng": 120.121358,
+      "modern_address": "杭州市西湖区龙井路1号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "饮湖上初晴后雨二首",
+          "type": "诗",
+          "date": "熙宁六年（1073年）",
+          "note": "水光潋滟晴方好，山色空蒙雨亦奇。欲把西湖比西子，淡妆浓抹总相宜。"
+        }
+      ]
+    },
+    {
+      "name": "苏堤",
+      "ancient_name": "苏堤",
+      "type": "scenic",
+      "period": "1089-1091年",
+      "description": "苏轼疏浚西湖，用淤泥筑成南北长堤，上有六桥",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.240338,
+      "lng": 120.139291,
+      "modern_address": "杭州市西湖风景名胜区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "孤山",
+      "ancient_name": "孤山",
+      "type": "scenic",
+      "period": "1071-1074年",
+      "description": "苏轼常游孤山，六一泉在此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "杭州市西湖区孤山路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "灵隐寺",
+      "ancient_name": "灵隐寺",
+      "type": "temple",
+      "period": "1071-1074年",
+      "description": "苏轼常游灵隐寺，留下诗文",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.248234,
+      "lng": 120.123246,
+      "modern_address": "杭州市西湖区灵隐路",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "望湖楼",
+      "ancient_name": "望湖楼",
+      "type": "scenic",
+      "period": "1071-1074年",
+      "description": "苏轼在望湖楼写下《六月二十七日望湖楼醉书》",
+      "works": [
+        "六月二十七日望湖楼醉书"
+      ],
+      "importance": "secondary",
+      "lat": 30.234,
+      "lng": 120.168,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用杭州中心坐标作为参考",
+      "works_detail": [
+        {
+          "title": "六月二十七日望湖楼醉书",
+          "type": "诗",
+          "date": "熙宁五年（1072年）",
+          "note": "黑云翻墨未遮山，白雨跳珠乱入船"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": "hangzhou",
@@ -304,7 +448,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.245Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "浙江省杭州市",
   "coords_updated_at": "2026-06-01T10:17:04.315Z",
   "duration_summary": {
@@ -354,5 +498,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:44.000Z"
+  "amap_updated_at": "2026-06-03T05:14:44.000Z",
+  "sxzk_address": "杭州市上城区凤凰山脚路"
 }

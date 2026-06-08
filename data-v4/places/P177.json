@@ -7,7 +7,7 @@
     "R07",
     "R09"
   ],
-  "background": "太湖北岸运河驿道节点，山水清幽江南古邑。",
+  "background": "无锡即今江苏无锡，太湖北岸运河驿道节点。苏轼赴杭州途经此地，惠山泉清冽、太湖烟波，是江南最清幽的山水古邑。",
   "extended_story": "沿太湖西岸行舟途经，观湖光山色，\n短暂休整后继续沿运河北上。",
   "essence": "太湖北岸水陆途经点位",
   "tags": [
@@ -86,5 +86,58 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:08.000Z"
+  "amap_updated_at": "2026-06-03T05:16:08.000Z",
+  "lat": 31.491064,
+  "lng": 120.311889,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "滨湖区",
+  "sub_places": [
+    {
+      "name": "无锡居所",
+      "ancient_name": "无锡居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在无锡的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.491064,
+      "lng": 120.311889,
+      "modern_address": "滨湖区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p177-001",
+      "date": "1074年",
+      "title": "经无锡品惠山泉",
+      "description": "苏轼途经无锡，品惠山天下第二泉",
+      "significance": "品茗胜地"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "惠山泉",
+      "type": "诗",
+      "description": "苏轼品无锡惠山泉所作"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "惠山古镇",
+      "description": "无锡惠山泉所在，天下第二泉",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "无锡酱排骨",
+      "description": "无锡传统名菜，排骨浓酱炖煮，甜香酥烂"
+    },
+    {
+      "name": "无锡小笼包",
+      "description": "无锡名点，皮薄汁多馅鲜，微甜口味"
+    }
+  ]
 }

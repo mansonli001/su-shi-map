@@ -1,0 +1,46 @@
+{
+  "place_id": "P043",
+  "ancient_name": "凤县",
+  "modern_name": "陕西凤县",
+  "city": "陕西凤县市",
+  "processed_at": "2026-06-07T23:25:28.350682",
+  "main_coords": {
+    "name": "凤县官署",
+    "lat": 33.910797,
+    "lng": 106.515841,
+    "modern_address": "凤县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "凤县官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "凤县官署",
+      "ancient_name": "凤县官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在凤县的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.910797,
+      "lng": 106.515841,
+      "modern_address": "凤县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P043",
+    "ancient_name": "凤县",
+    "city": "陕西凤县市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "凤县官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:35.267401"
+}

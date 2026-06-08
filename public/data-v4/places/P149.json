@@ -11,16 +11,315 @@
   "tags": [
     "坐标待考"
   ],
-  "background": "凤翔任满还朝判官诰院；父苏洵卒于汴京，扶柩水路归葬眉山。",
+  "background": "苏轼扶父柩归蜀，再走三峡水路。与出蜀时的意气风发不同，此番满载哀伤，舟行峡江、两岸猿声，更添悲凉。三峡全程逆水西行，风急浪高，是苏轼人生中最沉重的一段水路。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p149-001",
+      "date": "1066年",
+      "title": "溯江过三峡归蜀",
+      "description": "苏轼扶柩溯长江过三峡全段归蜀，逆水行舟艰辛异常",
+      "significance": "归蜀险途"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "刑赏忠厚之至论",
+      "type": "策",
+      "description": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。..."
+    },
+    {
+      "title": "上神宗皇帝书",
+      "type": "策",
+      "description": "守法者，治之本也；持正者，义之门也。..."
+    },
+    {
+      "title": "杭州乞度牒开西湖状",
+      "type": "策",
+      "description": "西湖有不可废者五。..."
+    },
+    {
+      "title": "到惠州谢表",
+      "type": "策",
+      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。..."
+    },
+    {
+      "title": "钱塘勤上人诗集叙",
+      "type": "诗",
+      "description": "勤上人学诗如学佛，要在妙悟自心。..."
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "三峡",
+      "description": "长江三峡，苏轼出蜀经此作'入峡'诗，壮丽山水千古传诵",
+      "type": "景区"
+    },
+    {
+      "name": "白帝城",
+      "description": "三峡起点，全国重点文物保护单位",
+      "type": "景区"
+    },
+    {
+      "name": "颍州西湖",
+      "description": "苏轼知颍州时常游之地，'大千起灭一尘里'即咏此湖",
+      "type": "景区"
+    },
+    {
+      "name": "欧阳修纪念馆",
+      "description": "欧阳修终老颍州，苏轼为其文集作序",
+      "type": "纪念馆"
+    },
+    {
+      "name": "襄阳古城",
+      "description": "千年古城，苏轼途经襄阳或登城远眺",
+      "type": "古迹"
+    },
+    {
+      "name": "古隆中",
+      "description": "诸葛亮隐居地，苏轼或曾凭吊",
+      "type": "景区"
+    },
+    {
+      "name": "大雁塔",
+      "description": "唐代名塔，苏轼途经长安或曾登临",
+      "type": "古迹"
+    },
+    {
+      "name": "曲江池",
+      "description": "唐代名园，苏轼游长安或访此迹",
+      "type": "景区"
+    },
+    {
+      "name": "春秋楼",
+      "description": "许州古建筑，关羽夜读春秋处",
+      "type": "古迹"
+    },
+    {
+      "name": "陕州地坑院",
+      "description": "独特地下民居，全国重点文物保护单位",
+      "type": "古迹"
+    },
+    {
+      "name": "屈原祠",
+      "description": "屈原故里纪念祠，苏轼出蜀途经或曾凭吊",
+      "type": "古迹"
+    },
+    {
+      "name": "七曲山大庙",
+      "description": "梓潼文昌帝君祖庭，苏轼出蜀途经或曾拜谒",
+      "type": "古迹"
+    },
+    {
+      "name": "潼关古城",
+      "description": "关中门户，苏轼进京出蜀必经",
+      "type": "古迹"
+    },
+    {
+      "name": "西湖",
+      "description": "苏轼疏浚西湖筑苏堤，'欲把西湖比西子'传诵千古",
+      "type": "景区"
+    },
+    {
+      "name": "石钟山",
+      "description": "苏轼作'石钟山记'，千古名篇",
+      "type": "景区"
+    },
+    {
+      "name": "云龙山",
+      "description": "苏轼知徐州时常游，放鹤亭为其所建",
+      "type": "景区"
+    },
+    {
+      "name": "沙湖",
+      "description": "黄州附近湖泊，苏轼游此遇雨作'定风波'",
+      "type": "景区"
+    },
+    {
+      "name": "武昌西山",
+      "description": "苏轼贬黄州时常游，'武昌西山'诗传诵",
+      "type": "景区"
+    },
+    {
+      "name": "太白山",
+      "description": "秦岭主峰，苏轼赴凤翔途经，'太白山下早行'诗传诵",
+      "type": "景区"
+    },
+    {
+      "name": "五丈原",
+      "description": "诸葛亮病逝之地，苏轼途经或曾凭吊",
+      "type": "古迹"
+    },
+    {
+      "name": "宜兴东坡书院",
+      "description": "苏轼买田宜兴处，后建书院纪念",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "阜阳格拉条",
+      "description": "颍州传统面食，粗面条拌芝麻酱，筋道浓香"
+    },
+    {
+      "name": "阜阳枕头馍",
+      "description": "颍州名点，形如枕头，外酥内软"
+    },
+    {
+      "name": "颍州西湖鱼",
+      "description": "颍州西湖鲜鱼，苏轼知颍州时常泛舟湖上品此鱼"
+    },
+    {
+      "name": "襄阳牛肉面",
+      "description": "襄阳传统早餐，碱面配牛肉牛杂，麻辣鲜香"
+    },
+    {
+      "name": "襄阳黄酒",
+      "description": "襄阳传统米酒，微甜爽口，苏轼或饮此酒"
+    },
+    {
+      "name": "长安羊肉泡馍",
+      "description": "长安传统名食，掰馍泡羊汤，浓香暖胃"
+    },
+    {
+      "name": "长安肉夹馍",
+      "description": "长安名小吃，白吉馍夹腊汁肉，酥香满口"
+    },
+    {
+      "name": "许昌腐竹",
+      "description": "许州传统名产，豆香浓郁，口感筋道"
+    },
+    {
+      "name": "陕州糟蛋",
+      "description": "陕州传统名吃，鸡蛋酒糟腌制，风味独特"
+    },
+    {
+      "name": "宿州sa汤",
+      "description": "宿州传统早餐，麦仁鸡汤熬制，浓香暖胃"
+    },
+    {
+      "name": "符离集烧鸡",
+      "description": "宿州名菜，卤制烧鸡色香味俱佳"
+    },
+    {
+      "name": "唐河凉粉",
+      "description": "唐州传统小吃，豌豆凉粉凉拌，爽滑解暑"
+    },
+    {
+      "name": "襄城焖面",
+      "description": "襄城传统面食，面条与菜肉同焖，浓香入味"
+    },
+    {
+      "name": "安阳三熏",
+      "description": "相州传统名菜，熏鸡熏肉熏蛋，烟香浓郁"
+    },
+    {
+      "name": "邢台道口烧鸡",
+      "description": "邢州传统名吃，卤制烧鸡，皮酥肉嫩"
+    },
+    {
+      "name": "正定八大碗",
+      "description": "真定传统宴席，八碗荤素搭配，实惠丰盛"
+    },
+    {
+      "name": "淄博周村烧饼",
+      "description": "淄州传统名点，薄脆芝麻饼，酥香可口"
+    },
+    {
+      "name": "重庆火锅",
+      "description": "渝州名食，麻辣锅底涮毛肚鸭肠，鲜辣过瘾"
+    },
+    {
+      "name": "重庆小面",
+      "description": "渝州传统早餐，麻辣素面，筋道爽口"
+    },
+    {
+      "name": "忠州豆腐乳",
+      "description": "忠州传统名产，腐乳醇香，佐餐佳品"
+    },
+    {
+      "name": "巫山烤鱼",
+      "description": "巫山传统名菜，鲜鱼炭烤配蔬菜，麻辣鲜香"
+    },
+    {
+      "name": "秭归脐橙",
+      "description": "秭归名产，屈原故里特产，汁多味甜"
+    },
+    {
+      "name": "梓潼酥饼",
+      "description": "梓潼传统名点，酥脆层多，芝麻香浓"
+    },
+    {
+      "name": "汉中面皮",
+      "description": "兴元传统名吃，米皮配辣油，爽滑麻辣"
+    },
+    {
+      "name": "汉中菜豆腐",
+      "description": "兴元传统小吃，豆浆点豆腐配酸菜，清淡爽口"
+    },
+    {
+      "name": "潼关肉夹馍",
+      "description": "潼关名吃，千层酥馍夹腊汁肉，酥脆鲜香"
+    },
+    {
+      "name": "韶关铜勺饼",
+      "description": "韶州传统小吃，米浆铜勺炸制，酥脆可口"
+    },
+    {
+      "name": "梧州龟苓膏",
+      "description": "梧州传统名吃，龟板土茯苓熬制，清凉解暑"
+    },
+    {
+      "name": "梧州纸包鸡",
+      "description": "梧州传统名菜，鸡肉纸包油炸，鲜嫩多汁"
+    },
+    {
+      "name": "玉林牛巴",
+      "description": "郁林传统名吃，牛肉腌制烘干，香韧耐嚼"
+    },
+    {
+      "name": "无锡酱排骨",
+      "description": "无锡传统名菜，排骨浓酱炖煮，甜香酥烂"
+    },
+    {
+      "name": "无锡小笼包",
+      "description": "无锡名点，皮薄汁多馅鲜，微甜口味"
+    },
+    {
+      "name": "沂州糁汤",
+      "description": "沂州传统早餐，麦仁肉汤浓稠，暖胃解乏"
+    },
+    {
+      "name": "尉氏烩面",
+      "description": "尉氏传统面食，宽面条配羊肉汤，浓香暖胃"
+    },
+    {
+      "name": "叶县烩面",
+      "description": "叶县传统面食，面条配羊汤，鲜香暖胃"
+    }
+  ],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "三峡全程",
+      "ancient_name": "三峡全程",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经三峡全程",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.009,
+      "lng": 112.987,
+      "modern_address": "",
+      "coordinate_source": "original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
-  "_source": "b9-fill-missing-detail"
+  "_source": "b9-fill-missing-detail",
+  "coordinate_source": "original",
+  "sxzk_address": ""
 }

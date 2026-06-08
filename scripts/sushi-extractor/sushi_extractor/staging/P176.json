@@ -1,0 +1,47 @@
+{
+  "place_id": "P176",
+  "ancient_name": "巫山神女峰",
+  "modern_name": "重庆巫山神女峰",
+  "city": "重庆巫山神女峰市",
+  "processed_at": "2026-06-07T23:25:28.939004",
+  "main_coords": {
+    "name": "巫山神女峰附近驿馆",
+    "lat": 31.032123,
+    "lng": 110.014172,
+    "modern_address": "滨江路9码头",
+    "coordinate_source": "amap_poi_original",
+    "reason": "巫山神女峰附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "巫山神女峰附近驿馆",
+      "ancient_name": "巫山神女峰附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在巫山神女峰的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.032123,
+      "lng": 110.014172,
+      "modern_address": "滨江路9码头",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P176",
+    "ancient_name": "巫山神女峰",
+    "city": "重庆巫山神女峰市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "巫山神女峰附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:44.788695"
+}

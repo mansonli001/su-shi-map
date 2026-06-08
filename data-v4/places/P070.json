@@ -3,21 +3,86 @@
   "ancient_name": "淮河南岸古驿",
   "modern_name": "淮河南岸驿道",
   "type": "sight",
-  "lat": 32.5,
-  "lng": 116.5,
+  "lat": 32.577177,
+  "lng": 115.892242,
   "related_routes": [
     "R10"
   ],
   "tags": [],
-  "background": "由汴京沿淮河南岸古道抵黄州团练副使任，开荒东坡，自号东坡居士。",
+  "background": "淮河南岸千年古驿道，古驿连绵、阡陌纵横。苏轼贬谪南下经此，沿途河湖错落、村落烟树，长亭古道随处可见，尽览淮上田园风物，是中原入江汉的必经之路。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p070-001",
+      "date": "1080年",
+      "title": "经淮河南岸古驿赴黄州",
+      "description": "苏轼贬谪黄州途经淮河南岸古驿道",
+      "significance": "贬谪途中"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "南堂五首",
+      "type": "诗",
+      "description": "南堂独每日多幽事，漫速抽簪白昼长。"
+    },
+    {
+      "title": "琴操",
+      "type": "诗",
+      "description": "归去来兮归去来，故乡无此好山色。"
+    },
+    {
+      "title": "琴诗",
+      "type": "诗",
+      "description": "若言琴上有琴声，放在匣中何不鸣？"
+    },
+    {
+      "title": "次韵孔毅父集古人句见赠五首",
+      "type": "诗",
+      "description": "集古人句，字字珠玑。"
+    },
+    {
+      "title": "次韵米黻二王书跋尾二首",
+      "type": "诗",
+      "description": "二王书跋，字字珠玑。"
+    },
+    {
+      "title": "次韵王定国南迁回见寄",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "答秦太虚",
+      "type": "诗",
+      "description": "扁舟又截平湖去，社燕归来细雨中。"
+    },
+    {
+      "title": "答李康年",
+      "type": "诗",
+      "description": "江空不可视，日暮坐洞萧。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "淮河南岸古驿",
+      "ancient_name": "淮河南岸古驿",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经淮河南岸古驿",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.577177,
+      "lng": 115.892242,
+      "modern_address": "阜南县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -39,5 +104,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:53.000Z"
+  "amap_updated_at": "2026-06-03T05:14:53.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "阜南县"
 }

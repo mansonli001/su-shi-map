@@ -9,7 +9,7 @@
     "R01"
   ],
   "summary": "",
-  "background": "古陈仓故地，关中西部门户，历史底蕴厚重。",
+  "background": "陈仓（今宝鸡），关中西端重镇，'明修栈道暗渡陈仓'之地。苏轼赴凤翔任职途经此地，关中平原的雄浑气象尽收眼底。",
   "tags": [
     "main",
     "visit"
@@ -22,9 +22,23 @@
       "description": "苏轼任凤翔签判时巡行宝鸡",
       "significance": "route02",
       "id": "p019-evt-001"
+    },
+    {
+      "id": "p019-002",
+      "date": "1061年",
+      "title": "经陈仓赴凤翔",
+      "description": "苏轼赴凤翔签判任途经陈仓",
+      "significance": "赴任途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "陈仓",
+      "type": "诗",
+      "note": "途经陈仓所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年进入关中平原",
@@ -40,10 +54,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "大散关",
+      "description": "关中四关之一，'铁马秋风大散关'",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宝鸡擀面皮",
+      "description": "陈仓传统名吃，面皮筋道配辣油，酸辣爽口"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "陈仓居所",
+      "ancient_name": "陈仓居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在陈仓的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.362862,
+      "lng": 107.237682,
+      "modern_address": "金台区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS132",
     "pinyin_id": null,
@@ -59,7 +99,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.182Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "陕西省宝鸡市",
   "coords_updated_at": "2026-06-01T10:17:04.311Z",
   "duration_summary": {
@@ -103,5 +143,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:11.000Z"
+  "amap_updated_at": "2026-06-03T05:14:11.000Z",
+  "sxzk_address": "金台区"
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R07"
   ],
-  "background": "江南第一大湖，连通杭、湖、苏、锡、常运河水系。",
+  "background": "太湖沿岸，江南第一大湖。连通杭、湖、苏、锡、常运河水系，苏轼两度在杭，太湖烟波、渔帆点点，是江南水乡最壮阔的湖光山色。",
   "extended_story": "一路沿太湖西岸、北岸行舟，饱览湖山烟雨，\n是北上途中最核心的水景游览带。",
   "essence": "江南行旅标志性滨湖水景",
   "tags": [
@@ -73,7 +73,34 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:00.000Z",
-  "lat": 31.2,
-  "lng": 120.22,
-  "_latlng_source": "preset"
+  "lat": 31.031809,
+  "lng": 120.526364,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "体育路1000号东太湖国家级生态旅游度假区(西南角)",
+  "sub_places": [
+    {
+      "name": "太湖沿岸",
+      "ancient_name": "太湖沿岸",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经太湖沿岸",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.031809,
+      "lng": 120.526364,
+      "modern_address": "体育路1000号东太湖国家级生态旅游度假区(西南角)",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p165-001",
+      "date": "1074年",
+      "title": "经太湖沿岸北上",
+      "description": "苏轼自杭州调密州途经太湖沿岸",
+      "significance": "江南水路"
+    }
+  ]
 }

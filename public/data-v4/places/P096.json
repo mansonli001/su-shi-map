@@ -3,13 +3,13 @@
   "ancient_name": "乐山大佛",
   "modern_name": "四川乐山大佛",
   "type": "sight",
-  "lat": 29.545,
-  "lng": 103.7752,
+  "lat": 29.544099,
+  "lng": 103.771388,
   "related_routes": [
     "R02"
   ],
   "tags": [],
-  "background": "守制毕，父子三人沿岷江入长江，三峡水路第二次出蜀。",
+  "background": "岷江与青衣江交汇处的凌云山麓，唐代依山凿成弥勒大佛。苏轼出蜀顺岷江而下，舟经嘉州，仰望大佛临江端坐，山佛一体、气象庄严，是蜀中水路出发时最壮观的告别。",
   "route_events": {},
   "global_events": [
     {
@@ -20,10 +20,29 @@
       "id": "p096-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "初发嘉州",
+      "type": "诗",
+      "description": "苏轼出蜀经乐山大佛所作"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "乐山大佛",
+      "description": "世界文化遗产，唐代摩崖石刻大佛",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "乐山钵钵鸡",
+      "description": "乐山名小吃",
+      "origin_story": "嘉州传统美食",
+      "tag": "乐山必吃"
+    }
+  ],
   "transport": [],
   "sub_places": [],
   "periods": [],
@@ -60,5 +79,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:11.000Z"
+  "amap_updated_at": "2026-06-03T05:15:11.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "凌云路2435号"
 }

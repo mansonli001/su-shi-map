@@ -3,21 +3,92 @@
   "ancient_name": "大别山边缘古道",
   "modern_name": "大别山北缘古道",
   "type": "sight",
-  "lat": 31.5,
-  "lng": 115.5,
+  "lat": 31.123533,
+  "lng": 116.190905,
   "related_routes": [
     "R10"
   ],
   "tags": [],
-  "background": "由汴京沿淮河南岸古道抵黄州团练副使任，开荒东坡，自号东坡居士。",
+  "background": "大别山北麓古道，层峦叠嶂、林壑幽深。苏轼贬谪黄州途经此道，山道蜿蜒、远离平原，渐入深山幽谷，一路独行静观山水，以山野清气涤荡牢狱惊魂。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p029-001",
+      "date": "1080年初",
+      "title": "贬谪途经大别山古道",
+      "description": "苏轼自汴京出发赴黄州贬所，途经大别山北麓古道，山道蜿蜒、远离平原，一路独行静观山水，以山野清气涤荡牢狱惊魂",
+      "significance": "贬谪途中"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "寓居定慧院",
+      "type": "诗",
+      "description": "独立高楼明月夜，起来独自绕阶行。"
+    },
+    {
+      "title": "海棠",
+      "type": "诗",
+      "description": "只恐夜深花睡去，故烧高烛照红妆。"
+    },
+    {
+      "title": "春宵",
+      "type": "诗",
+      "description": "春宵一刻值千金，花有清香月有阴。"
+    },
+    {
+      "title": "过江州岸回望庐山",
+      "type": "诗",
+      "description": "不知眼界窄于此，青山当户难再得。"
+    },
+    {
+      "title": "书王定国所藏王晋卿画",
+      "type": "诗",
+      "description": "此身非我有，动辄怀归田。"
+    },
+    {
+      "title": "书李世南所画秋景二首",
+      "type": "诗",
+      "description": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "title": "和秦太虚梅花",
+      "type": "诗",
+      "description": "东风吹暖不胜花，十日雪消残雪消。"
+    },
+    {
+      "title": "次韵秦太虚见戏",
+      "type": "诗",
+      "description": "青春不觉老来侵，白发从他绕鬓深。"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
+  "memorial_sites": [
+    {
+      "name": "大别山主峰景区",
+      "description": "大别山北麓自然风光区，山道蜿蜒林壑幽深，可感受苏轼贬谪途中山行意境",
+      "type": "景区"
+    }
+  ],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "大别山边缘古道",
+      "ancient_name": "大别山边缘古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经大别山边缘古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.123533,
+      "lng": 116.190905,
+      "modern_address": [],
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +123,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:18.000Z"
+  "amap_updated_at": "2026-06-03T05:14:18.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": []
 }

@@ -1,0 +1,42 @@
+{
+  "place_id": "P042",
+  "ancient_name": "凤凰山",
+  "modern_name": "杭州凤凰山",
+  "city": "杭州市",
+  "main_coords": {
+    "name": "凤凰山州衙",
+    "lat": 30.241947,
+    "lng": 120.171375,
+    "modern_address": "浙江省杭州市上城区凤凰山脚路",
+    "coordinate_source": "amap_poi",
+    "reason": "凤凰山为杭州子地点，州衙为苏轼居住地"
+  },
+  "sub_places": [
+    {
+      "name": "凤凰山州衙",
+      "ancient_name": "凤凰山州衙",
+      "type": "residence",
+      "period": "1071-1074年",
+      "description": "苏轼任杭州通判时寓居凤凰山州衙",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.241947,
+      "lng": 120.171375,
+      "modern_address": "浙江省杭州市上城区凤凰山脚路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P042",
+    "parent_place": "P058",
+    "parent_place_name": "杭州",
+    "note": "凤凰山为杭州子地点，已合并到P058杭州的sub_places中",
+    "main_coords_source": "凤凰山州衙（核心居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.816377"
+}

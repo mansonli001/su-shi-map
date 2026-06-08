@@ -3,13 +3,13 @@
   "ancient_name": "江陵荆州古城",
   "modern_name": "湖北荆州古城",
   "type": "around",
-  "lat": 30.346194,
-  "lng": 112.214557,
+  "lat": 30.353,
+  "lng": 112.238,
   "related_routes": [
     "R02"
   ],
   "summary": "苏轼父丧回乡途经江陵",
-  "background": "江陵即今荆州，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "background": "江陵荆州古城，楚文化核心。苏轼途经荆州古城，城墙巍峨、护城河深，三国故事在此流传。",
   "tags": [
     "江陵",
     "荆州"
@@ -24,7 +24,13 @@
       "significance": "route03回程"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "荆州十首",
+      "type": "诗",
+      "description": "苏轼经荆州所作组诗"
+    }
+  ],
   "route_events": {},
   "route_works": {},
   "memorial_sites": [
@@ -40,17 +46,66 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区"
+    },
+    {
+      "name": "金山寺",
+      "description": "镇江名刹，苏轼多次游访，'金山寺'诗传诵",
+      "type": "古迹"
+    },
+    {
+      "name": "北固山",
+      "description": "镇江三山之一，苏轼登临赋诗",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "荆州鱼糕",
+      "description": "荆州名菜",
+      "origin_story": "江陵传统名菜",
+      "tag": "荆州必吃"
+    }
+  ],
   "transport": {
     "train": "荆州站",
     "bus": "荆州汽车站",
     "car": "沪渝高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "建康府衙",
+      "ancient_name": "建康府衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在江陵荆州古城的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "荆州古城",
+      "ancient_name": "荆州古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "古代兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS121",
     "pinyin_id": "jiangling",
@@ -59,7 +114,7 @@
     "v3_lat": 30.3495,
     "v3_lng": 112.187
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_geocode",
   "amap_address": "湖北省荆州市荆州区荆州古城(公交站)",
   "coords_updated_at": "2026-06-01T10:17:04.316Z",
   "duration_summary": {
@@ -103,5 +158,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:03.000Z"
+  "amap_updated_at": "2026-06-03T05:15:03.000Z",
+  "sxzk_address": "湖北省荆州市荆州区"
 }

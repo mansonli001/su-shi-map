@@ -1,0 +1,61 @@
+{
+  "place_id": "P083",
+  "ancient_name": "江陵",
+  "modern_name": "湖北荆州江陵",
+  "city": "湖北荆州江陵市",
+  "processed_at": "2026-06-07T23:22:33.359630",
+  "main_coords": {
+    "name": "嘉禾官署",
+    "lat": 30.352984,
+    "lng": 112.190282,
+    "modern_address": "湖北省荆州市荆州区",
+    "coordinate_source": "amap_geocode",
+    "reason": "嘉禾官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "嘉禾官署",
+      "ancient_name": "嘉禾官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在江陵的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "荆州古城",
+      "ancient_name": "荆州古城",
+      "type": "古城",
+      "period": "",
+      "description": "古代兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P083",
+    "ancient_name": "江陵",
+    "city": "湖北荆州江陵市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "江陵附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.702348"
+}

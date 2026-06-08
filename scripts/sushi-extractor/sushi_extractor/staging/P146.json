@@ -1,0 +1,74 @@
+{
+  "place_id": "P146",
+  "ancient_name": "润州",
+  "modern_name": "镇江",
+  "city": "镇江市",
+  "main_coords": {
+    "name": "润州府衙",
+    "lat": 32.198285,
+    "lng": 119.470186,
+    "modern_address": "江苏省镇江市京口区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼途经润州，暂居府衙附近"
+  },
+  "sub_places": [
+    {
+      "name": "润州府衙",
+      "ancient_name": "润州府衙",
+      "type": "residence",
+      "period": "多次途经",
+      "description": "苏轼多次途经润州暂居",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.198285,
+      "lng": 119.470186,
+      "modern_address": "江苏省镇江市京口区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "金山寺",
+      "ancient_name": "金山寺",
+      "type": "scenic",
+      "period": "多次途经",
+      "description": "苏轼《金山梦中作》所在地",
+      "works": [
+        "金山梦中作"
+      ],
+      "importance": "secondary",
+      "lat": 32.215473,
+      "lng": 119.415147,
+      "modern_address": "镇江市金山路62号金山公园内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "北固山",
+      "ancient_name": "北固山",
+      "type": "scenic",
+      "period": "多次途经",
+      "description": "刘备、孙权试剑地，甘露寺所在",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.198285,
+      "lng": 119.470186,
+      "modern_address": "江苏省镇江市京口区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P146",
+    "ancient_name": "润州",
+    "city": "镇江市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "润州府衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 3,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.575486"
+}

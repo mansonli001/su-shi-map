@@ -1,0 +1,50 @@
+{
+  "place_id": "P003",
+  "ancient_name": "百步洪",
+  "modern_name": "江苏徐州百步洪",
+  "city": "江苏徐州百步洪市",
+  "processed_at": "2026-06-07T23:22:28.224789",
+  "main_coords": {
+    "name": "百步洪居所",
+    "lat": 34.249838,
+    "lng": 117.199681,
+    "modern_address": "黄河西路与和平路交叉口南120米",
+    "coordinate_source": "amap_poi_original",
+    "reason": "百步洪居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "白鹤峰新居",
+      "ancient_name": "白鹤峰新居",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在百步洪的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.249838,
+      "lng": 117.199681,
+      "modern_address": "黄河西路与和平路交叉口南120米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "no_coordinates"
+    }
+  ],
+  "report": {
+    "place_id": "P003",
+    "ancient_name": "百步洪",
+    "city": "江苏徐州百步洪市",
+    "total_sub_places": 0,
+    "verified_count": 0,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "百步洪居所",
+    "rejected_details": [],
+    "parent_place": "P075",
+    "parent_place_name": "惠州合江楼",
+    "note": "百步洪为惠州合江楼的子地点",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:19.311401"
+}

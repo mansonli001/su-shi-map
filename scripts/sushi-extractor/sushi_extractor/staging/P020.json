@@ -1,0 +1,74 @@
+{
+  "place_id": "P020",
+  "ancient_name": "陈州",
+  "modern_name": "河南淮阳",
+  "city": "淮阳区",
+  "main_coords": {
+    "name": "陈州府衙",
+    "lat": 33.838116,
+    "lng": 114.785567,
+    "modern_address": "河南省周口市淮阳区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼在陈州时居府衙附近，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "陈州府衙",
+      "ancient_name": "陈州府衙",
+      "type": "residence",
+      "period": "1071年",
+      "description": "苏轼在陈州时的居所，苏辙任陈州教授",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "柳湖",
+      "ancient_name": "柳湖",
+      "type": "scenic",
+      "period": "1071年",
+      "description": "苏轼在陈州时常游柳湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "铁墓",
+      "ancient_name": "铁墓",
+      "type": "scenic",
+      "period": "1071年",
+      "description": "陈胡公墓，苏轼《记铁墓厄台》记载",
+      "works": [
+        "记铁墓厄台"
+      ],
+      "importance": "secondary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P020",
+    "ancient_name": "陈州",
+    "city": "淮阳区",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "陈州府衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 3,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:48.731920"
+}

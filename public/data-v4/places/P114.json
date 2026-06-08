@@ -3,21 +3,41 @@
   "ancient_name": "洛阳龙门",
   "modern_name": "河南洛阳龙门石窟",
   "type": "sight",
-  "lat": 34.567215,
-  "lng": 112.477141,
+  "lat": 34.558782,
+  "lng": 112.477463,
   "related_routes": [
     "R01"
   ],
   "summary": "",
-  "background": "",
+  "background": "洛阳龙门，伊水两岸佛教石窟群。苏轼进京途经洛阳，或曾驻足龙门，观伊阙山势与石窟造像。",
   "tags": [],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "游龙门奉先寺",
+      "type": "诗",
+      "note": "途经洛阳游龙门所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "龙门石窟",
+      "description": "世界文化遗产，苏轼途经洛阳或曾游览",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "洛阳水席",
+      "description": "洛阳传统宴席",
+      "origin_story": "洛阳传统名菜",
+      "tag": "洛阳必吃"
+    }
+  ],
   "transport": {},
   "sub_places": [],
   "legacy": {
@@ -28,7 +48,7 @@
     "v3_lat": 34.52,
     "v3_lng": 112.45
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河南省洛阳市洛龙区龙门村石窟街道",
   "coords_updated_at": "2026-06-01T10:17:04.319Z",
   "duration_summary": {
@@ -72,5 +92,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:23.000Z"
+  "amap_updated_at": "2026-06-03T05:15:23.000Z",
+  "sxzk_address": "龙门中街13号"
 }

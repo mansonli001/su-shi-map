@@ -3,13 +3,13 @@
   "ancient_name": "青神平羌江",
   "modern_name": "四川青神平羌江",
   "type": "sight",
-  "lat": 29.8323,
-  "lng": 103.8475,
+  "lat": 29.99253,
+  "lng": 103.029805,
   "related_routes": [
     "R00"
   ],
   "summary": "",
-  "background": "",
+  "background": "青神境内岷江支流，江水清缓、两岸翠竹连绵。苏轼少年往来眉山青神，常经平羌江道，江面渔舟点点、山影倒映，蜀中水乡的宁静景致深印少年心间。后作《送运判朱朝奉入蜀》追忆蜀江风物。",
   "tags": [],
   "periods": [
     {
@@ -19,13 +19,49 @@
     }
   ],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "平羌江",
+      "type": "诗",
+      "note": "少年时游平羌江所作",
+      "year_estimate": 1050
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "平羌小三峡",
+      "description": "岷江平羌峡，苏轼少年游玩地",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "青神竹编宴",
+      "description": "青神特色",
+      "origin_story": "青神传统美食",
+      "tag": "青神特色"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "青神平羌江",
+      "ancient_name": "青神平羌江",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经青神平羌江",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.99253,
+      "lng": 103.029805,
+      "modern_address": "雅东路与清风桥交叉口北160米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "legacy": {
     "ss_id": "SS003",
     "pinyin_id": null,
@@ -75,5 +111,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:43.000Z"
+  "amap_updated_at": "2026-06-03T05:15:43.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "雅东路与清风桥交叉口北160米"
 }

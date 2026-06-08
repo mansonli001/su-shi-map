@@ -3,13 +3,13 @@
   "ancient_name": "泗水亭",
   "modern_name": "江苏徐州泗水亭",
   "type": "around",
-  "lat": 34.2632,
-  "lng": 117.1786,
+  "lat": 34.261,
+  "lng": 117.185,
   "related_routes": [
     "R08"
   ],
   "summary": "",
-  "background": "徐州境内泗水文脉古亭，历史遗迹厚重，自古怀古胜地。",
+  "background": "泗水亭，沛县古亭。刘邦发迹之地，苏轼途经泗水，'大风起兮云飞扬'的汉风犹存。",
   "tags": [
     "visit",
     "historical"
@@ -38,7 +38,13 @@
       "id": "p158-evt-003"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "泗水亭怀古",
+      "type": "诗",
+      "description": "苏轼游徐州泗水亭怀刘邦之作"
+    }
+  ],
   "route_events": {
     "R08": {
       "duration": "1077-1078年凭吊怀古",
@@ -55,10 +61,37 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "泗水亭",
+      "description": "刘邦起兵处，徐州古迹",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "沛县狗肉",
+      "description": "沛县传统名菜，樊哙后人传承"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "遂昌官署",
+      "ancient_name": "遂昌官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在泗水亭的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.2632,
+      "lng": 117.1786,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用泗水亭中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS068",
     "pinyin_id": null,
@@ -115,5 +148,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:55.000Z"
+  "amap_updated_at": "2026-06-03T05:15:55.000Z",
+  "coordinate_source": "manual_corrected"
 }

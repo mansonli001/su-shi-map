@@ -3,13 +3,13 @@
   "ancient_name": "南都",
   "modern_name": "商丘",
   "type": "main",
-  "lat": 34.4148,
-  "lng": 115.65,
+  "lat": 34.383,
+  "lng": 115.654,
   "related_routes": [
     "R10"
   ],
   "summary": "苏轼起知登州时在南都接诰命",
-  "background": "南都即今河南商丘，宋代为应天府，苏轼元丰八年在此接诰命起知登州",
+  "background": "南都即今河南商丘，宋代应天府。苏轼元丰八年在此接诰命起知登州，归德古城、应天书院，是北宋文化重镇与政治转折点。",
   "tags": [
     "南都",
     "商丘",
@@ -38,7 +38,13 @@
       "significance": "起知登州"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过南都",
+      "type": "诗",
+      "description": "苏轼贬谪途中经南都所作"
+    }
+  ],
   "route_events": {
     "R10": {
       "duration": "1080年淮西古道休整",
@@ -67,17 +73,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.370673,
+      "lng": 115.620104,
+      "modern_address": "环城南路"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "商丘水激豆片",
+      "description": "商丘传统小吃",
+      "origin_story": "南都传统美食",
+      "tag": "商丘特色"
+    }
+  ],
   "transport": {
     "train": "商丘站/商丘东站",
     "bus": "商丘汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "南康军衙",
+      "ancient_name": "南康军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在南都的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.370673,
+      "lng": 115.620104,
+      "modern_address": "环城南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "应天府书院",
+      "ancient_name": "应天府书院",
+      "type": "academy",
+      "period": "",
+      "description": "宋代四大书院之一",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.370673,
+      "lng": 115.620104,
+      "modern_address": "环城南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS032",
     "pinyin_id": "nandu",
@@ -134,5 +179,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:31.000Z"
+  "amap_updated_at": "2026-06-03T05:15:31.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "环城南路"
 }

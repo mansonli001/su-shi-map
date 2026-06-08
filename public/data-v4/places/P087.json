@@ -3,14 +3,14 @@
   "ancient_name": "江州",
   "modern_name": "九江",
   "type": "main",
-  "lat": 29.66116,
-  "lng": 115.95356,
+  "lat": 29.7268,
+  "lng": 116.0028,
   "related_routes": [
     "R11",
     "R19"
   ],
   "summary": "苏轼贬惠州途经江州",
-  "background": "江州即今九江，是苏轼贬惠州南下的重要中转地",
+  "background": "江州即今江西九江，长江与鄱阳湖交汇处。苏轼北归途经此地，庐山云雾、浔阳江头，是归途中追忆白居易的文学圣地。",
   "tags": [
     "江州",
     "九江",
@@ -68,17 +68,63 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 29.741953,
+      "lng": 116.025154,
+      "modern_address": "白水湖街道长江大桥东侧"
+    },
+    {
+      "name": "浔阳楼",
+      "description": "江州名楼，苏轼途经或曾登临",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "九江茶饼",
+      "description": "江州传统名点，酥脆香甜，佐茶佳品"
+    },
+    {
+      "name": "九江萝卜饼",
+      "description": "江州传统小吃，外酥内嫩，萝卜鲜香"
+    }
+  ],
   "transport": {
     "train": "九江站",
     "bus": "九江汽车站",
     "car": "福银高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "江州附近驿馆",
+      "ancient_name": "江州附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在江州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.741953,
+      "lng": 116.025154,
+      "modern_address": "白水湖街道长江大桥东侧",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "琵琶亭",
+      "ancient_name": "琵琶亭",
+      "type": "pavilion",
+      "period": "",
+      "description": "白居易《琵琶行》所在地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 29.741953,
+      "lng": 116.025154,
+      "modern_address": "白水湖街道长江大桥东侧",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS074",
     "pinyin_id": "jiangzhou",
@@ -94,7 +140,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.266Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江西省九江市",
   "coords_updated_at": "2026-06-01T10:17:04.317Z",
   "duration_summary": {
@@ -139,5 +185,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:05.000Z"
+  "amap_updated_at": "2026-06-03T05:15:05.000Z",
+  "sxzk_address": "白水湖街道长江大桥东侧"
 }

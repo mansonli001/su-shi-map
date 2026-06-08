@@ -3,13 +3,13 @@
   "ancient_name": "灵隐天竺",
   "modern_name": "浙江杭州灵隐天竺",
   "type": "around",
-  "lat": 30.274832,
-  "lng": 120.129683,
+  "lat": 30.2405,
+  "lng": 120.102,
   "related_routes": [
     "R14"
   ],
   "summary": "",
-  "background": "西湖南山灵隐、天竺连片古刹山林群落，\n峰峦叠翠、林壑幽深、古刹藏山、禅韵悠远，\n是江南佛禅文化核心地，也是西湖周边最清幽的山林秘境。",
+  "background": "南华寺，六祖慧能道场。苏轼南贬途经拜谒，古刹庄严、菩提荫荫，是贬途中的精神慰藉。",
   "tags": [
     "visit",
     "religion",
@@ -70,10 +70,39 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "三天竺法镜寺",
+      "description": "天竺三寺之一，苏轼常游",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "西湖醋鱼",
+      "description": "杭州名菜",
+      "origin_story": "杭州传统名菜",
+      "tag": "杭州必吃"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "临川官署",
+      "ancient_name": "临川官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在灵隐天竺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.274832,
+      "lng": 120.129683,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用灵隐天竺中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": null,
@@ -89,7 +118,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.244Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "浙江省杭州市西湖区灵隐街道天竺(网商银行)",
   "coords_updated_at": "2026-06-01T10:17:04.318Z",
   "duration_summary": {
@@ -109,13 +138,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFI12EPE",
-    "amap_name": "隐天竺",
-    "address": "天竺路359号",
-    "location": "120.096814,30.225964",
+    "amap_name": "灵隐寺",
+    "address": "灵隐路",
+    "location": "120.102,30.2405",
     "cityname": "杭州市",
     "adname": "西湖区",
-    "type": "风景名胜;风景名胜;风景名胜",
-    "typecode": "110200",
+    "type": "风景名胜;风景名胜;寺庙",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,

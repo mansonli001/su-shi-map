@@ -3,13 +3,13 @@
   "ancient_name": "西湖苏堤",
   "modern_name": "浙江杭州西湖",
   "type": "around",
-  "lat": 30.259242,
-  "lng": 120.130396,
+  "lat": 30.24,
+  "lng": 120.138,
   "related_routes": [
     "R14"
   ],
   "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
-  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "background": "西湖苏堤，苏轼再知杭州时疏浚西湖所筑长堤。六桥烟柳、桃红柳绿，'苏堤春晓'成西湖十景之首，是苏轼留给杭州最珍贵的遗产。",
   "tags": [
     "杭州",
     "西湖",
@@ -119,7 +119,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "孤山路俞楼东侧"
     },
     {
       "id": "hz-s003",
@@ -133,17 +136,128 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.248234,
+      "lng": 120.123246,
+      "modern_address": "浙江省杭州市西湖区灵隐路"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "东坡肉",
+      "description": "杭州名菜，相传苏轼发明，肥而不腻酥烂香醇"
+    }
+  ],
   "transport": {
     "train": "杭州站/杭州东站",
     "bus": "杭州汽车站",
     "car": "沪杭高速/杭宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "西湖苏堤州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在西湖苏堤的居所",
+      "importance": "primary",
+      "ancient_name": "西湖苏堤州衙",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用西湖苏堤中心坐标作为参考"
+    },
+    {
+      "name": "杭州西湖",
+      "ancient_name": "杭州西湖",
+      "type": "scenic",
+      "period": "熙宁四年（1071年）",
+      "description": "创作《饮湖上初晴后雨》处",
+      "works": [
+        "饮湖上初晴后雨"
+      ],
+      "importance": "secondary",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "浙江省杭州市西湖区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖苏堤",
+      "ancient_name": "西湖苏堤",
+      "type": "dam",
+      "period": "",
+      "description": "苏轼任杭州通判时疏浚西湖，堆筑苏堤",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.240338,
+      "lng": 120.139291,
+      "modern_address": "龙井路1号杭州西湖风景名胜区内(东侧)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "六一泉",
+      "ancient_name": "六一泉",
+      "type": "spring",
+      "period": "",
+      "description": "苏轼命名纪念欧阳修",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "孤山路俞楼东侧",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "灵隐寺",
+      "ancient_name": "灵隐寺",
+      "type": "temple",
+      "period": "",
+      "description": "杭州最著名的寺庙之一，苏轼常游此地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.248234,
+      "lng": 120.123246,
+      "modern_address": "浙江省杭州市西湖区灵隐路",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "通判，寓居凤凰山任杭州",
+      "ancient_name": "通判，寓居凤凰山任杭州",
+      "type": "office",
+      "period": "熙宁四年（1071年）十一月二十八日",
+      "description": "从任杭州通判中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "杭州",
+      "ancient_name": "杭州",
+      "type": "office",
+      "period": "熙宁四年（1071年）十一月二十八日",
+      "description": "从任杭州通判中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS035",
     "pinyin_id": "hangzhou",
@@ -159,7 +273,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.244Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "浙江省杭州市西湖区",
   "coords_updated_at": "2026-06-01T10:17:04.325Z",
   "duration_summary": {
@@ -179,12 +293,12 @@
   },
   "modern_visit": {
     "amap_poi_id": "B023B13L9M",
-    "amap_name": "杭州西湖风景名胜区",
-    "address": "西湖街道龙井路1号",
-    "location": "120.121358,30.222692",
+    "amap_name": "苏堤春晓",
+    "address": "西湖苏堤",
+    "location": "120.138,30.24",
     "cityname": "杭州市",
     "adname": "西湖区",
-    "type": "风景名胜;风景名胜;国家级景点",
+    "type": "风景名胜;风景名胜;5A景区",
     "typecode": "110202",
     "tel": "0571-87179617",
     "rating": null,
@@ -208,5 +322,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:11.000Z"
+  "amap_updated_at": "2026-06-03T05:16:11.000Z",
+  "sxzk_address": "西湖街道龙井路1号"
 }

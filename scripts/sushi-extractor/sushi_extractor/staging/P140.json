@@ -1,0 +1,46 @@
+{
+  "place_id": "P140",
+  "ancient_name": "青州",
+  "modern_name": "山东青州",
+  "city": "山东青州市",
+  "processed_at": "2026-06-07T23:25:28.574628",
+  "main_coords": {
+    "name": "青州官署",
+    "lat": 36.685178,
+    "lng": 118.479637,
+    "modern_address": "青州市",
+    "coordinate_source": "amap_poi_original",
+    "reason": "青州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "青州官署",
+      "ancient_name": "青州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在青州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.685178,
+      "lng": 118.479637,
+      "modern_address": "青州市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P140",
+    "ancient_name": "青州",
+    "city": "山东青州市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "青州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:41.415651"
+}

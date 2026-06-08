@@ -3,20 +3,28 @@
   "ancient_name": "陕州",
   "modern_name": "河南三门峡",
   "type": "main",
-  "lat": 34.7706,
-  "lng": 111.199,
+  "lat": 34.773196,
+  "lng": 111.200482,
   "related_routes": [
     "R01",
     "R03",
     "R04"
   ],
   "summary": "",
-  "background": "崤山古道核心地段，东西交通咽喉。",
+  "background": "陕州即今河南三门峡，崤山古道核心地段。函谷关所在、黄河渡口，苏轼进京途经此地，东西交通咽喉、山河形胜险要。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p151-001",
+      "date": "1056年",
+      "title": "经陕州入中原",
+      "description": "苏轼出关中经陕州函谷关，进入中原大地",
+      "significance": "入中原门户"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R03": {
@@ -33,10 +41,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "陕州地坑院",
+      "description": "独特地下民居，全国重点文物保护单位",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "陕州糟蛋",
+      "description": "陕州传统名吃，鸡蛋酒糟腌制，风味独特"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "陕州官署",
+      "ancient_name": "陕州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在陕州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.773196,
+      "lng": 111.200482,
+      "modern_address": "湖滨区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS135",
     "pinyin_id": null,
@@ -93,5 +127,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:50.000Z"
+  "amap_updated_at": "2026-06-03T05:15:50.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "湖滨区"
 }

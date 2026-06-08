@@ -3,20 +3,27 @@
   "ancient_name": "襄阳古隆中",
   "modern_name": "湖北襄阳古隆中",
   "type": "sight",
-  "lat": 32.011263,
-  "lng": 112.036777,
+  "lat": 32.012011,
+  "lng": 112.035372,
   "related_routes": [
     "R03"
   ],
   "summary": "",
-  "background": "三国诸葛隐居圣地，中原人文名迹。",
+  "background": "古隆中，襄阳城西名山。诸葛亮隐居之地，刘备三顾茅庐处，是千古人文名胜，苏轼途经襄阳必访之地。",
   "tags": [
     "study",
     "visit"
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "隆中",
+      "type": "诗",
+      "note": "游襄阳古隆中凭吊诸葛亮",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {
     "R03": {
       "duration": "1060年 途经访古",
@@ -32,8 +39,21 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "古隆中",
+      "description": "诸葛亮隐居地，三顾茅庐发生地",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "襄阳牛肉面",
+      "description": "襄阳名吃",
+      "origin_story": "襄阳传统美食",
+      "tag": "襄阳必吃"
+    }
+  ],
   "transport": {},
   "sub_places": [],
   "legacy": {
@@ -51,7 +71,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.195Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "湖北省襄阳市襄城区古隆中(东1门)",
   "coords_updated_at": "2026-06-01T10:17:04.326Z",
   "duration_summary": {
@@ -95,5 +115,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:15.000Z"
+  "amap_updated_at": "2026-06-03T05:16:15.000Z",
+  "sxzk_address": "303省道隆中路461-1号"
 }

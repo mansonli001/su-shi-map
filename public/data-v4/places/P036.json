@@ -3,14 +3,14 @@
   "ancient_name": "登州",
   "modern_name": "蓬莱",
   "type": "official",
-  "lat": 37.795697,
-  "lng": 120.829141,
+  "lat": 37.4316,
+  "lng": 120.7606,
   "related_routes": [
     "R12",
     "R13"
   ],
   "summary": "苏轼知登州仅五日即被召回",
-  "background": "登州今山东蓬莱，苏轼元丰八年任知州，仅五日即被召回汴京",
+  "background": "登州即今山东蓬莱，苏轼元丰八年到任仅五日即被召还。蓬莱阁临海、海市蜃楼奇观，苏轼上《登州召还议水军状》，五日知州却留下千年政声。",
   "tags": [
     "登州",
     "蓬莱",
@@ -35,6 +35,20 @@
       "title": "任登州知州",
       "description": "苏轼任登州知州",
       "significance": "登州仕途"
+    },
+    {
+      "id": "p036-006",
+      "date": "1089年",
+      "title": "疏浚西湖筑苏堤",
+      "description": "苏轼再知杭州疏浚西湖，以淤泥筑长堤，后人称苏堤",
+      "significance": "苏堤春晓"
+    },
+    {
+      "id": "p036-007",
+      "date": "1089年",
+      "title": "设安乐坊济民",
+      "description": "苏轼在杭州设安乐坊，为中国最早的公立医院之一",
+      "significance": "惠民医政"
     }
   ],
   "global_works": [
@@ -91,6 +105,16 @@
       "route_id": "R12",
       "note": "登州东海揽胜代表作",
       "poem_id": "S112"
+    },
+    {
+      "title": "齐鲁古道怀古系列",
+      "type": "诗",
+      "description": "我来千载下，吊古增悲捣。"
+    },
+    {
+      "title": "惠崇春江晚景二首",
+      "type": "诗",
+      "description": "竹外桃花三两枝，春江水暖鸭先知。"
     }
   ],
   "route_events": {
@@ -142,17 +166,78 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "modern_address": "山东省烟台市蓬莱区"
+    },
+    {
+      "name": "苏堤",
+      "description": "苏轼疏浚西湖所筑，'苏堤春晓'为西湖十景之首",
+      "type": "景区"
+    },
+    {
+      "name": "三潭印月",
+      "description": "西湖标志性景观，苏轼疏浚西湖时设三塔为界",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "蓬莱小面",
+      "description": "蓬莱传统面食",
+      "origin_story": "登州传统美食",
+      "tag": "登州特色"
+    },
+    {
+      "name": "鲅鱼水饺",
+      "description": "胶东特色水饺",
+      "origin_story": "山东沿海传统美食",
+      "tag": "登州必吃"
+    },
+    {
+      "name": "蓬莱海鲜",
+      "description": "登州临海，鲍鱼海参扇贝丰富"
+    }
+  ],
   "transport": {
     "train": "蓬莱站",
     "bus": "蓬莱汽车站",
     "car": "荣乌高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "登州州衙",
+      "ancient_name": "登州州衙",
+      "type": "residence",
+      "period": "1085年10月",
+      "description": "苏轼任登州知州仅五日即被召还",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "modern_address": "山东省烟台市蓬莱区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "蓬莱阁",
+      "ancient_name": "蓬莱阁",
+      "type": "scenic",
+      "period": "1085年10月",
+      "description": "苏轼在登州游蓬莱阁，作《海市诗》",
+      "works": [
+        "海市诗"
+      ],
+      "importance": "secondary",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "modern_address": "山东省烟台市蓬莱区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS039",
     "pinyin_id": "dengzhou",
@@ -168,7 +253,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.238Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "山东省烟台市蓬莱区",
   "coords_updated_at": "2026-06-01T10:17:04.313Z",
   "duration_summary": {
@@ -217,5 +302,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:30.000Z"
+  "amap_updated_at": "2026-06-03T05:14:30.000Z",
+  "sxzk_address": "山东省烟台市蓬莱区"
 }

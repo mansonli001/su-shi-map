@@ -52,6 +52,41 @@
       "route_id": "R13",
       "note": "行经泰山余脉、齐鲁古道所作圣贤怀古、山川纪行诗作",
       "poem_id": "S113"
+    },
+    {
+      "title": "次韵曹辅寄壑源试焙新芽",
+      "type": "诗",
+      "description": "从来佳茗似佳人。"
+    },
+    {
+      "title": "书鄢陵王主簿所画折枝",
+      "type": "诗",
+      "description": "论画以形似，见与儿童邻。"
+    },
+    {
+      "title": "书王主簿所画折枝",
+      "type": "诗",
+      "description": "瘦竹如佳人，幽花如秀士。"
+    },
+    {
+      "title": "次韵黄鲁直画马试院中作",
+      "type": "诗",
+      "description": "画马试院，字字珠玑。"
+    },
+    {
+      "title": "次韵黄鲁直见赠古风二首",
+      "type": "诗",
+      "description": "见赠古风，字字珠玑。"
+    },
+    {
+      "title": "次韵秦少游章孟君见赠",
+      "type": "诗",
+      "description": "秦少游才，风流才子。"
+    },
+    {
+      "title": "次韵陈海州书怀",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
     }
   ],
   "modern_visit": {
@@ -86,7 +121,25 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:15:37.000Z",
-  "lat": 35.38,
-  "lng": 118.1,
-  "_latlng_source": "preset"
+  "lat": 36.55103,
+  "lng": 117.312775,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": [],
+  "sub_places": [
+    {
+      "name": "齐鲁古道",
+      "ancient_name": "齐鲁古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经齐鲁古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.55103,
+      "lng": 117.312775,
+      "modern_address": [],
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ]
 }

@@ -32,9 +32,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.236Z",
   "schema_version": "v4.1",
-  "lng": 120.727034,
-  "lat": 37.928274,
-  "coordinate_source": "amap_corrected",
+  "lng": 120.69382,
+  "lat": 37.989476,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "山东省烟台市蓬莱区长岛(轮渡站)",
   "coords_updated_at": "2026-06-01T10:17:04.329Z",
   "duration_summary": {
@@ -78,5 +78,31 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:50.000Z"
+  "amap_updated_at": "2026-06-03T05:16:50.000Z",
+  "sxzk_address": "海滨路",
+  "sub_places": [
+    {
+      "name": "长岛渡口居所",
+      "ancient_name": "长岛渡口居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长岛渡口的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.989476,
+      "lng": 120.69382,
+      "modern_address": "海滨路",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p221-001",
+      "date": "1085年",
+      "title": "渡海经长岛赴登州",
+      "description": "苏轼经长岛渡口渡海赴登州",
+      "significance": "海上通道"
+    }
+  ]
 }

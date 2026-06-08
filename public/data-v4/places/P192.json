@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "北部湾海岸清幽古院，适宜暮年休憩静养。",
+  "background": "兴廉村净行院，北部湾海岸古寺。苏轼北归途经此地，海风椰影、梵音清幽，是归途中最宁静的歇脚处。",
   "extended_story": "驻足净行院避世闲居，\n远离尘嚣，安享归途清静。",
   "essence": "暮年归途静养圣地",
   "tags": [
@@ -69,7 +69,48 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:19.000Z",
-  "lat": 20.914548,
-  "lng": 110.097011,
-  "_latlng_source": "geocode"
+  "lat": 23.121935,
+  "lng": 113.328793,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "珠江新城兴盛路7号",
+  "sub_places": [
+    {
+      "name": "兴廉村净行院居所",
+      "ancient_name": "兴廉村净行院居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在兴廉村净行院的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.121935,
+      "lng": 113.328793,
+      "modern_address": "珠江新城兴盛路7号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p192-001",
+      "date": "1100年",
+      "title": "驻留兴廉村净行院",
+      "description": "苏轼北归途中驻留兴廉村净行院",
+      "significance": "北归歇脚"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "净行院遗址",
+      "description": "苏轼南贬途中借宿的寺院",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "净行院",
+      "type": "诗",
+      "note": "南贬途中宿净行院所作",
+      "year_estimate": 1094
+    }
+  ]
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "岭南水陆转换枢纽，西江水路入口。",
+  "background": "郁林即今广西玉林，苏轼北归再经此地。水陆转换枢纽，归途的驿道不再漫长，每一步都靠近故土。",
   "extended_story": "自此转入西江水路，\n告别海岸，驶入岭南江川画廊。",
   "essence": "海岸转水路关键枢纽",
   "tags": [
@@ -29,7 +29,7 @@
   "schema_version": "v4.1",
   "lng": 110.18097,
   "lat": 22.654001,
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "广西壮族自治区玉林市",
   "coords_updated_at": "2026-06-01T10:17:04.328Z",
   "duration_summary": {
@@ -73,5 +73,52 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:41.000Z"
+  "amap_updated_at": "2026-06-03T05:16:41.000Z",
+  "sxzk_address": "玉州区",
+  "sub_places": [
+    {
+      "name": "郁林居所",
+      "ancient_name": "郁林居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在郁林的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 22.654001,
+      "lng": 110.18097,
+      "modern_address": "玉州区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p212-001",
+      "date": "1100年",
+      "title": "经郁林北归",
+      "description": "苏轼北归途经郁林玉林",
+      "significance": "归途中转"
+    }
+  ],
+  "foods": [
+    {
+      "name": "玉林牛巴",
+      "description": "郁林传统名吃，牛肉腌制烘干，香韧耐嚼"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "真武阁",
+      "description": "容县古建筑，四大名阁之一",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "郁林",
+      "type": "诗",
+      "note": "南贬途经郁林所作",
+      "year_estimate": 1094
+    }
+  ]
 }

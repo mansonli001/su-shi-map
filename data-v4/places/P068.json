@@ -3,15 +3,15 @@
   "ancient_name": "华州",
   "modern_name": "陕西华州",
   "type": "main",
-  "lat": 34.497019,
-  "lng": 109.775765,
+  "lat": 34.516,
+  "lng": 109.773,
   "related_routes": [
     "R01",
     "R03",
     "R04"
   ],
   "summary": "苏轼第三次入京途经华州，登华山",
-  "background": "华州即今华阴，苏轼第三次入京途经此地，登游华山",
+  "background": "华州（今华县），关中东部重镇。苏轼途经华州，西岳华山在望，关中平原在此收束入秦岭。",
   "tags": [
     "华州",
     "华山",
@@ -25,6 +25,13 @@
       "title": "第三次入京过华州",
       "description": "苏轼第三次入京，途经华州，登游华山",
       "significance": "route03途经"
+    },
+    {
+      "id": "p068-002",
+      "date": "1061年",
+      "title": "经华州入关中",
+      "description": "苏轼赴凤翔途经华州",
+      "significance": "赴任途经"
     }
   ],
   "global_works": [],
@@ -80,17 +87,54 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.566552,
+      "lng": 110.092286,
+      "modern_address": "陕西省渭南市华阴市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "华州面花",
+      "description": "华州传统面食艺术，面团捏花蒸制，美观可口"
+    }
+  ],
   "transport": {
     "train": "华山站 / 华山北站",
     "bus": "华阴汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "建安官署",
+      "ancient_name": "建安官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在华州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.566552,
+      "lng": 110.092286,
+      "modern_address": "陕西省渭南市华阴市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "华山",
+      "ancient_name": "华山",
+      "type": "mountain",
+      "period": "",
+      "description": "五岳之一，以险著称",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.566552,
+      "lng": 110.092286,
+      "modern_address": "陕西省渭南市华阴市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS134",
     "pinyin_id": "huazhou",
@@ -106,7 +150,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.198Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "陕西省渭南市华州区",
   "coords_updated_at": "2026-06-01T10:17:04.316Z",
   "duration_summary": {
@@ -121,13 +165,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFGQSTX2",
-    "amap_name": "华州西收费站(G30连霍高速出口)",
-    "address": "华州区",
-    "location": "109.692335,34.493469",
+    "amap_name": "少华山国家森林公园",
+    "address": "莲花寺镇",
+    "location": "109.773,34.516",
     "cityname": "渭南市",
     "adname": "华州区",
-    "type": "道路附属设施;收费站;收费站",
-    "typecode": "180200",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -150,5 +194,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:51.000Z"
+  "amap_updated_at": "2026-06-03T05:14:51.000Z",
+  "sxzk_address": "陕西省渭南市华阴市"
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R07"
   ],
-  "background": "密州近郊名山，林壑清幽，为州人游赏胜地。",
+  "background": "韶州即今广东韶关，岭南交通枢纽。苏轼南贬途经此地，丹霞山赤壁、北江清流，是岭南山水的第一印象。",
   "extended_story": "政务闲暇常游卢山，山林散心、避俗抒怀，\n安放宦旅疲惫心境。",
   "essence": "密州近郊山林休憩名胜",
   "tags": [
@@ -82,6 +82,40 @@
       "description": "苏轼任密州知州，治所在诸城",
       "significance": "route05",
       "id": "p107-evt-001"
+    }
+  ],
+  "lat": 35.93751,
+  "lng": 119.530352,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "诸城市",
+  "sub_places": [
+    {
+      "name": "卢山附近驿馆",
+      "ancient_name": "卢山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在卢山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.93751,
+      "lng": 119.530352,
+      "modern_address": "诸城市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "次韵卢山五咏",
+      "type": "诗",
+      "description": "苏轼游密州卢山所作组诗"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "卢山",
+      "description": "密州名山，苏轼常游之地",
+      "type": "景区"
     }
   ]
 }

@@ -3,54 +3,118 @@
   "ancient_name": "赣江古道",
   "modern_name": "江西赣江古道",
   "type": "sight",
-  "lat": 25.8298,
-  "lng": 114.9335,
+  "lat": 25.85,
+  "lng": 114.93,
   "related_routes": [
     "R19"
   ],
   "tags": [],
-  "background": "徽宗赦还，自儋州北归常州孙氏馆，旋卒。",
+  "background": "赣江古道，苏轼北归时顺赣江南下。两岸青山、江流清碧，与南贬时的凄凉截然不同，归途的赣江是喜悦的。",
   "route_events": {},
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "自题金山画像",
+      "type": "诗",
+      "description": "问汝平生功业，黄州惠州儋州。"
+    },
+    {
+      "title": "过金山寺",
+      "type": "诗",
+      "description": "枕中云气千峰近，床底松声万壑纷。"
+    },
+    {
+      "title": "题金山寺",
+      "type": "诗",
+      "description": "不知天上宫阙，今夕是何年。"
+    },
+    {
+      "title": "题金山寺二首",
+      "type": "诗",
+      "description": "龙从天监下楼台，涌地潮声入海回。"
+    },
+    {
+      "title": "书晁补之所藏与可画竹一首",
+      "type": "诗",
+      "description": "开户满堆案，谁人与裁量。"
+    },
+    {
+      "title": "书李世南所画秋景二首",
+      "type": "诗",
+      "description": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "title": "答王巩",
+      "type": "诗",
+      "description": "平生不解杯中物，老去犹思海外归。"
+    },
+    {
+      "title": "再过常山和见怀",
+      "type": "诗",
+      "description": "三十年前路，孤灯此夜心。"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "瘦西湖",
+      "description": "扬州名湖，苏轼知扬州时或常游",
+      "type": "景区"
+    },
+    {
+      "name": "大明寺",
+      "description": "扬州古刹，苏轼或曾到访",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "南昌拌粉",
+      "description": "南昌传统早餐",
+      "origin_story": "江西传统美食",
+      "tag": "南昌必吃"
+    }
+  ],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "赣江古道",
+      "ancient_name": "赣江古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经赣江古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.168875,
+      "lng": 121.047414,
+      "modern_address": "赤城街道赤城街道和合街1号天台山国家级风景名胜区内(南侧)",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
   "modern_visit": {
-    "amap_poi_id": "B0FFJ4JAB3",
-    "amap_name": "霞客古道",
-    "address": "赤城街道赤城街道和合街1号天台山国家级风景名胜区内(南侧)",
-    "location": "121.047414,29.168875",
-    "cityname": "台州市",
-    "adname": "天台县",
-    "type": "风景名胜;风景名胜相关;旅游景点",
-    "typecode": "110000",
-    "tel": "0576-83958610",
+    "amap_poi_id": "B0FFJ4JAB4",
+    "amap_name": "赣江",
+    "address": "江西省赣州市章贡区赣江沿岸",
+    "location": "114.93,25.85",
+    "cityname": "赣州市",
+    "adname": "章贡区",
+    "type": "风景名胜;水域;河流",
+    "typecode": "110301",
+    "tel": [],
     "rating": null,
     "cost": null,
     "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFJ4JAB3/comment/content_media_external_file_100020336_1770444286894_13076108.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFJ4JAB3/comment/content_media_external_file_100020338_1770444286900_95126777.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFJ4JAB3/comment/content_media_external_images_media_80715_ss_2_1705737813607_d16069b8.jpg"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
+    "photos": [],
+    "recommendation": "赣江古道赣州段，苏轼南迁经此",
+    "best_time_to_visit": "四季",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:36.000Z"
+  "amap_updated_at": "2026-06-08T00:00:00.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江西省赣州市章贡区赣江沿岸"
 }

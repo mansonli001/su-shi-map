@@ -1,0 +1,60 @@
+{
+  "place_id": "P039",
+  "ancient_name": "定州中山故都",
+  "modern_name": "河北定州中山故都",
+  "city": "定州市",
+  "main_coords": {
+    "name": "定州州衙",
+    "lat": 38.513739,
+    "lng": 115.004721,
+    "modern_address": "河北省保定市定州市南城区兴华东路",
+    "coordinate_source": "amap_poi",
+    "reason": "苏轼任定州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "定州州衙",
+      "ancient_name": "定州州衙",
+      "type": "residence",
+      "period": "1093-1094年",
+      "description": "苏轼任定州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 38.513739,
+      "lng": 115.004721,
+      "modern_address": "河北省保定市定州市南城区兴华东路（定州署）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "中山故都",
+      "ancient_name": "中山故都",
+      "type": "scenic",
+      "period": "1093-1094年",
+      "description": "苏轼寻访中山故都遗迹，凭吊古国兴衰",
+      "works": [],
+      "importance": "secondary",
+      "lat": 38.513739,
+      "lng": 115.004721,
+      "modern_address": "河北省保定市定州市",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "中山故都遗址在定州市区附近"
+    }
+  ],
+  "report": {
+    "place_id": "P039",
+    "ancient_name": "定州中山故都",
+    "city": "定州市",
+    "total_sub_places": 2,
+    "residence_count": 1,
+    "scenic_count": 1,
+    "main_coords_source": "定州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "global_events有大量重复数据（26个相同事件），需清理",
+    "verified_count": 2,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:37.109073"
+}

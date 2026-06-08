@@ -3,15 +3,15 @@
   "ancient_name": "成都",
   "modern_name": "四川成都",
   "type": "main",
-  "lat": 30.572961,
-  "lng": 104.066301,
+  "lat": 30.6598,
+  "lng": 104.0633,
   "related_routes": [
     "R00",
     "R01",
     "R05"
   ],
   "summary": "三苏出蜀途经成都，拜访亲友",
-  "background": "成都是四川首府，三苏从眉州出蜀必经过成都",
+  "background": "成都，蜀地首府，锦官城外柏森森。苏轼少年时随父苏洵入成都，蜀地的繁华与雅致深植其心。",
   "tags": [
     "游历地",
     "途经",
@@ -112,17 +112,62 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "麻婆豆腐",
+      "description": "成都名菜",
+      "origin_story": "成都传统名菜",
+      "tag": "成都必吃"
+    },
+    {
+      "name": "担担面",
+      "description": "成都传统面食",
+      "origin_story": "成都传统小吃",
+      "tag": "成都特色"
+    }
+  ],
   "transport": {
     "train": "成都站 / 成都东站",
     "bus": "成都新南门汽车站",
     "car": "成渝高速 / 京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "池州官署",
+      "ancient_name": "池州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在成都的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "三苏纪念馆",
+      "ancient_name": "三苏纪念馆",
+      "type": "museum",
+      "period": "",
+      "description": "展示三苏生平",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS004",
     "pinyin_id": "chengdu",
@@ -138,7 +183,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.203Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi",
   "amap_address": "四川省成都市",
   "coords_updated_at": "2026-06-01T10:17:04.311Z",
   "duration_summary": {
@@ -183,5 +228,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:13.000Z"
+  "amap_updated_at": "2026-06-03T05:14:13.000Z",
+  "sxzk_address": "煎茶镇沿溪村3组"
 }

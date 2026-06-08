@@ -31,9 +31,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.223Z",
   "schema_version": "v4.1",
-  "lng": 120.418244,
-  "lat": 30.850835,
-  "coordinate_source": "amap_corrected",
+  "lng": 120.439896,
+  "lat": 30.88091,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "浙江省湖州市南浔区",
   "coords_updated_at": "2026-06-01T10:17:04.321Z",
   "duration_summary": {
@@ -85,6 +85,58 @@
       "description": "苏轼调任湖州知州，仅三月即因乌台诗案被捕",
       "significance": "political",
       "id": "p127-evt-001"
+    }
+  ],
+  "sxzk_address": "南浔镇东塘路古镇东大门",
+  "sub_places": [],
+  "foods": [
+    {
+      "name": "南浔蹄髈",
+      "description": "南浔传统名菜",
+      "origin_story": "南浔传统美食",
+      "tag": "南浔特色"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "南浔驿中",
+      "type": "诗",
+      "description": "苏轼押解经南浔古驿所作"
+    },
+    {
+      "title": "狱中寄子由二首",
+      "type": "诗",
+      "description": "与君世世为兄弟，更结来生未了因。"
+    },
+    {
+      "title": "予以事系御史台狱二首",
+      "type": "诗",
+      "description": "魂飞汤火命如鸡。"
+    },
+    {
+      "title": "予以事系御史台狱三首",
+      "type": "诗",
+      "description": "与君今世为兄弟，更结来生未了因。"
+    },
+    {
+      "title": "予以事系御史台狱四首",
+      "type": "诗",
+      "description": "平生不解杨朱泣，到此谁怜老莱衣。"
+    },
+    {
+      "title": "答晁以道索书",
+      "type": "诗",
+      "description": "欲问维摩病，还依李翰林。"
+    },
+    {
+      "title": "月夜与客饮酒杏花下",
+      "type": "诗",
+      "description": "杏花飞帘散余春，明月入户寻幽人。"
+    },
+    {
+      "title": "湖州谢上表",
+      "type": "文",
+      "description": "陛下知其愚不适时，难以追陪新进。"
     }
   ]
 }

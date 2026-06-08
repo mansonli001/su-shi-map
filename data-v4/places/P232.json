@@ -6,7 +6,7 @@
   "related_routes": [
     "R13"
   ],
-  "background": "鲁中古邑，地处齐鲁古道中段，山水平野相间。",
+  "background": "淄州即今山东淄博，鲁中古邑。临淄齐国故都、淄水穿城，苏轼赴任途经此地，齐文化遗存丰厚、山水平野相间。",
   "extended_story": "沿古道继续西行，穿行鲁中乡野，\n观阡陌古驿，体味齐鲁乡土民风。",
   "essence": "齐鲁古道中段常规驿点",
   "tags": [
@@ -33,7 +33,7 @@
   "schema_version": "v4.1",
   "lng": 118.054994,
   "lat": 36.813787,
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "山东省淄博市",
   "coords_updated_at": "2026-06-01T10:17:04.329Z",
   "duration_summary": {
@@ -77,5 +77,52 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:17:01.000Z"
+  "amap_updated_at": "2026-06-03T05:17:01.000Z",
+  "sxzk_address": "张店区",
+  "sub_places": [
+    {
+      "name": "淄州官署",
+      "ancient_name": "淄州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在淄州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.813787,
+      "lng": 118.054994,
+      "modern_address": "张店区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p232-001",
+      "date": "1086年",
+      "title": "经淄州还朝",
+      "description": "苏轼自登州还朝途经淄州",
+      "significance": "齐文化故地"
+    }
+  ],
+  "foods": [
+    {
+      "name": "淄博周村烧饼",
+      "description": "淄州传统名点，薄脆芝麻饼，酥香可口"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "蒲松龄故居",
+      "description": "淄川名胜，聊斋文化发源地",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "淄州",
+      "type": "诗",
+      "note": "途经淄州所作",
+      "year_estimate": 1077
+    }
+  ]
 }

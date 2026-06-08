@@ -1,0 +1,47 @@
+{
+  "place_id": "P069",
+  "ancient_name": "淮河",
+  "modern_name": "淮河南岸驿道",
+  "city": "淮河南岸驿道市",
+  "processed_at": "2026-06-07T23:25:28.355929",
+  "main_coords": {
+    "name": "淮河附近驿馆",
+    "lat": 32.577177,
+    "lng": 115.892242,
+    "modern_address": "阜南县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "淮河附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "淮河附近驿馆",
+      "ancient_name": "淮河附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在淮河的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.577177,
+      "lng": 115.892242,
+      "modern_address": "阜南县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P069",
+    "ancient_name": "淮河",
+    "city": "淮河南岸驿道市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "淮河附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:36.819266"
+}

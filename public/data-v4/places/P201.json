@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "中原古县，昆阳古战场所在地，驿道通畅。",
+  "background": "叶县即今河南叶县，中原古县。昆阳古战场所在地，刘秀以少胜多之地，驿道通畅，苏轼赴京途经此地，古战场苍茫、历史厚重。",
   "extended_story": "途经叶县怀古昆阳旧事，\n于行路间沉淀史论思辨。",
   "essence": "中原历史古驿节点",
   "tags": [
@@ -33,7 +33,7 @@
   "schema_version": "v4.1",
   "lng": 113.357476,
   "lat": 33.627437,
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河南省平顶山市叶县",
   "coords_updated_at": "2026-06-01T10:17:04.327Z",
   "duration_summary": {
@@ -77,5 +77,52 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:29.000Z"
+  "amap_updated_at": "2026-06-03T05:16:29.000Z",
+  "sxzk_address": "叶县",
+  "sub_places": [
+    {
+      "name": "叶县官署",
+      "ancient_name": "叶县官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在叶县的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.627437,
+      "lng": 113.357476,
+      "modern_address": "叶县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p201-001",
+      "date": "1061年",
+      "title": "经叶县南下",
+      "description": "苏轼经叶县南下赴凤翔",
+      "significance": "赴任途经"
+    }
+  ],
+  "foods": [
+    {
+      "name": "叶县烩面",
+      "description": "叶县传统面食，面条配羊汤，鲜香暖胃"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "叶县县衙",
+      "description": "中国现存最完整的明代县衙",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "叶县",
+      "type": "诗",
+      "note": "途经叶县所作",
+      "year_estimate": 1077
+    }
+  ]
 }

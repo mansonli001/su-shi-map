@@ -1,0 +1,47 @@
+{
+  "place_id": "P113",
+  "ancient_name": "洛阳",
+  "modern_name": "河南洛阳",
+  "city": "河南洛阳市",
+  "processed_at": "2026-06-07T23:25:28.562302",
+  "main_coords": {
+    "name": "洛阳居所",
+    "lat": 34.619702,
+    "lng": 112.453895,
+    "modern_address": "洛龙区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "洛阳居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "洛阳居所",
+      "ancient_name": "洛阳居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在洛阳的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.619702,
+      "lng": 112.453895,
+      "modern_address": "洛龙区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P113",
+    "ancient_name": "洛阳",
+    "city": "河南洛阳市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "洛阳居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:39.318831"
+}

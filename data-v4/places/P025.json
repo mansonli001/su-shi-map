@@ -3,13 +3,13 @@
   "ancient_name": "滁州",
   "modern_name": "安徽滁州",
   "type": "main",
-  "lat": 32.255904,
-  "lng": 118.333439,
+  "lat": 32.305,
+  "lng": 118.312,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼移知扬州途经滁州，游琅琊山",
-  "background": "滁州是欧阳修《醉翁亭记》所在地，苏轼元祐七年移知扬州时途经此地",
+  "background": "洞庭湖，长江南岸巨泽。苏轼途经此地，烟波浩渺、君山如螺，是天下第一淡水湖的壮阔景致。",
   "tags": [
     "滁州",
     "醉翁亭",
@@ -57,7 +57,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "modern_address": "琅琊区"
     },
     {
       "id": "cz-s002",
@@ -71,17 +74,70 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.283433,
+      "lng": 118.288017,
+      "modern_address": "琅琊山半山腰琅琊古道旁"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "滁州烧鸡",
+      "description": "滁州传统名吃",
+      "origin_story": "滁州传统美食",
+      "tag": "滁州特色"
+    }
+  ],
   "transport": {
     "train": "滁州站",
     "bus": "滁州汽车站",
     "car": "宁洛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "大庾岭驿站",
+      "ancient_name": "大庾岭驿站",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在滁州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "modern_address": "琅琊区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "琅琊山",
+      "ancient_name": "琅琊山",
+      "type": "mountain",
+      "period": "",
+      "description": "欧阳修《醉翁亭记》所在地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "modern_address": "琅琊区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "醉翁亭",
+      "ancient_name": "醉翁亭",
+      "type": "pavilion",
+      "period": "",
+      "description": "欧阳修《醉翁亭记》",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.283433,
+      "lng": 118.288017,
+      "modern_address": "琅琊山半山腰琅琊古道旁",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "chuzhou",
@@ -97,7 +153,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.208Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "安徽省滁州市",
   "coords_updated_at": "2026-06-01T10:17:04.311Z",
   "duration_summary": {
@@ -141,5 +197,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:15.000Z"
+  "amap_updated_at": "2026-06-03T05:14:15.000Z",
+  "sxzk_address": "琅琊区"
 }

@@ -3,14 +3,14 @@
   "ancient_name": "寿州",
   "modern_name": "安徽寿县",
   "type": "main",
-  "lat": 32.545027,
-  "lng": 116.798203,
+  "lat": 32.573,
+  "lng": 116.782,
   "related_routes": [
     "R06",
     "R14"
   ],
   "summary": "苏轼南下途经寿州",
-  "background": "寿州今安徽寿县，苏轼南下杭州途经此地",
+  "background": "宜昌即今湖北宜昌，三峡东口。苏轼舟出三峡至此，江面豁然开朗、平原铺展，如出天地之门。",
   "tags": [
     "寿州",
     "八公山",
@@ -27,7 +27,13 @@
       "significance": "途经寿州"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过寿州",
+      "type": "诗",
+      "description": "苏轼经寿州所作"
+    }
+  ],
   "route_events": {
     "R06": {
       "duration": "1071年 官道途经",
@@ -68,17 +74,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "modern_address": "安徽省淮南市寿县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "寿州大救驾",
+      "description": "寿县名点",
+      "origin_story": "寿州传统名点",
+      "tag": "寿州必吃"
+    }
+  ],
   "transport": {
     "train": "寿县站",
     "bus": "寿县汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "蜀山",
+      "ancient_name": "蜀山",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在寿州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "modern_address": "安徽省淮南市寿县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "八公山",
+      "ancient_name": "八公山",
+      "type": "mountain",
+      "period": "",
+      "description": "著名的道教圣地，豆腐发源地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.545027,
+      "lng": 116.798203,
+      "modern_address": "安徽省淮南市寿县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS144",
     "pinyin_id": "shouzhou",
@@ -94,7 +139,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.242Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "安徽省淮南市寿县",
   "coords_updated_at": "2026-06-01T10:17:04.323Z",
   "duration_summary": {
@@ -110,13 +155,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "BZAPQ0001U",
-    "amap_name": "寿州大道",
-    "address": "寿县",
-    "location": "116.881629,32.011425",
+    "amap_name": "寿县古城墙",
+    "address": "寿春镇",
+    "location": "116.782,32.573",
     "cityname": "淮南市",
     "adname": "寿县",
-    "type": "地名地址信息;交通地名;道路名",
-    "typecode": "190301",
+    "type": "风景名胜;风景名胜;古城",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -126,5 +171,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:54.000Z"
+  "amap_updated_at": "2026-06-03T05:15:54.000Z",
+  "sxzk_address": "安徽省淮南市寿县"
 }

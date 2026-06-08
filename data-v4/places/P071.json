@@ -6,7 +6,7 @@
   "related_routes": [
     "R04"
   ],
-  "background": "南北地理分界，宋代漕运重要水系。",
+  "background": "翰林院，汴京宫中苏轼办公之所。草拟诏令、侍讲经筵，权倾一时的背后是新旧党争的暗流。",
   "extended_story": "转入淮水行进，\n南北风物渐变，哀思愈重。",
   "essence": "江淮水路中转节点",
   "tags": [
@@ -72,5 +72,42 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:53.000Z"
+  "amap_updated_at": "2026-06-03T05:14:53.000Z",
+  "lat": 32.650498,
+  "lng": 116.989747,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "广场北路淮河新城西北侧约200米",
+  "sub_places": [
+    {
+      "name": "淮水居所",
+      "ancient_name": "淮水居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在淮水的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.650498,
+      "lng": 116.989747,
+      "modern_address": "广场北路淮河新城西北侧约200米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p071-001",
+      "date": "1066年",
+      "title": "渡淮水南行",
+      "description": "苏轼扶柩渡淮水沿长江溯流归蜀",
+      "significance": "南北水路中转"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "淮水",
+      "type": "诗",
+      "note": "经淮水所作",
+      "year_estimate": 1071
+    }
+  ]
 }

@@ -3,19 +3,39 @@
   "ancient_name": "崤山二陵",
   "modern_name": "河南三门峡崤山二陵",
   "type": "sight",
-  "lat": 34.5,
-  "lng": 111,
+  "lat": 34.773196,
+  "lng": 111.200482,
   "related_routes": [
     "R01"
   ],
   "tags": [],
-  "background": "父子三人首次出蜀进京，应礼部考试一鸣惊人；母程氏卒于眉山，原路返蜀守孝。",
+  "background": "崤山古道险隘，东西交通必经之地。二陵为夏后皋与周文王之墓，古道穿行其间，山势陡峭、道路狭窄。苏轼父子出蜀赴京途经此段，行路艰险，是中原古道最险峻的一段。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p189-001",
+      "date": "1056年",
+      "title": "过崤山二陵",
+      "description": "苏轼穿越崤山二陵天险，感受古道之险",
+      "significance": "崤函天险"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "崤陵",
+      "type": "诗",
+      "note": "经崤山二陵所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
-  "foods": [],
+  "foods": [
+    {
+      "name": "渑池坻坞小米",
+      "description": "渑池特产，金黄粘稠，苏轼途经或品尝"
+    }
+  ],
   "transport": [],
   "sub_places": [],
   "periods": [],
@@ -52,5 +72,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:16.000Z"
+  "amap_updated_at": "2026-06-03T05:16:16.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "湖滨区"
 }

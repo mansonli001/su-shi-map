@@ -3,13 +3,13 @@
   "ancient_name": "莱州",
   "modern_name": "山东莱州",
   "type": "main",
-  "lat": 37.1771,
-  "lng": 119.9333,
+  "lat": 37.178187,
+  "lng": 119.942057,
   "related_routes": [
     "R13"
   ],
   "summary": "苏轼知登州时途经莱州",
-  "background": "莱州今山东莱州，苏轼元丰八年北上知登州时途经此地",
+  "background": "中山古城遗址，定州城北。苏轼知定州时常游此地，残垣断壁、荒草萋萋，是边关苍凉与历史兴亡的见证。",
   "tags": [
     "莱州",
     "掖县",
@@ -25,7 +25,13 @@
       "significance": "途经莱州"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过莱州",
+      "type": "诗",
+      "description": "苏轼还朝途经莱州所作"
+    }
+  ],
   "route_events": {
     "R13": {
       "duration": "1085年齐鲁古道途经",
@@ -54,17 +60,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 37.178187,
+      "lng": 119.942057,
+      "modern_address": "山东省烟台市莱州市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "莱州梭子蟹",
+      "description": "莱州特产",
+      "origin_story": "莱州海鲜特产",
+      "tag": "莱州特色"
+    }
+  ],
   "transport": {
     "train": "莱州站",
     "bus": "莱州汽车站",
     "car": "荣乌高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "九江官署",
+      "ancient_name": "九江官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在莱州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.178187,
+      "lng": 119.942057,
+      "modern_address": "山东省烟台市莱州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "云峰山",
+      "ancient_name": "云峰山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼曾至此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 37.178187,
+      "lng": 119.942057,
+      "modern_address": "山东省烟台市莱州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS158",
     "pinyin_id": "laizhou",
@@ -121,5 +166,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:10.000Z"
+  "amap_updated_at": "2026-06-03T05:15:10.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "山东省烟台市莱州市"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "雷州伏波庙",
   "modern_name": "广东雷州伏波庙",
   "type": "around",
-  "lat": 20.9143,
-  "lng": 110.0905,
+  "lat": 20.897,
+  "lng": 110.098,
   "related_routes": [
     "R19"
   ],
   "summary": "苏轼贬儋州途经雷州半岛",
-  "background": "雷州今广东雷州市，苏轼贬儋州时途经此地",
+  "background": "雷州伏波庙，苏轼北归再经此庙。来时祈祷渡海平安，归时还愿感恩，是贬途与归途的精神交汇点。",
   "tags": [
     "雷州",
     "半岛",
@@ -68,17 +68,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "雷州大粽",
+      "description": "雷州传统小吃",
+      "origin_story": "雷州传统美食",
+      "tag": "雷州特色"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "雷州汽车站",
     "car": "沈海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "开化官署",
+      "ancient_name": "开化官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在雷州伏波庙的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "雷州古城",
+      "ancient_name": "雷州古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "雷州古城",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS042",
     "pinyin_id": "leizhou",
@@ -103,13 +142,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0HG0501T1",
-    "amap_name": "伏波庙",
-    "address": "平城村",
-    "location": "110.592155,21.389768",
-    "cityname": "湛江市",
-    "adname": "吴川市",
-    "type": "风景名胜;风景名胜;寺庙道观",
-    "typecode": "110205",
+    "amap_name": "雷州伏波祠",
+    "address": "雷城镇",
+    "location": "110.098,20.897",
+    "cityname": "雷州市",
+    "adname": "雷城镇",
+    "type": "风景名胜;风景名胜;祠堂",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -119,5 +158,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:12.000Z"
+  "amap_updated_at": "2026-06-03T05:15:12.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "广东省湛江市雷州市"
 }

@@ -1,0 +1,87 @@
+{
+  "place_id": "P034",
+  "ancient_name": "儋州",
+  "modern_name": "海南儋州",
+  "city": "儋州市",
+  "processed_at": "2026-06-07T23:06:17.967500",
+  "main_coords": {
+    "name": "桄榔庵",
+    "lat": 19.740499,
+    "lng": 109.346135,
+    "modern_address": "儋州市中和镇X513(解放街)",
+    "coordinate_source": "amap_poi",
+    "reason": "苏轼初到儋州的第一个居住地，按方法论以第一个居住地为主坐标"
+  },
+  "sub_places": [
+    {
+      "name": "桄榔庵",
+      "ancient_name": "桄榔庵",
+      "type": "residence",
+      "period": "1097年7月-1098年",
+      "description": "苏轼初到儋州的居所，当地百姓帮盖的茅屋，用桄榔树叶搭建",
+      "works": [
+        "桄榔庵铭"
+      ],
+      "importance": "primary",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "载酒堂",
+      "ancient_name": "载酒堂",
+      "type": "residence",
+      "period": "1098年后",
+      "description": "苏轼在儋州建载酒堂，以文会友、讲学授徒之所",
+      "works": [],
+      "importance": "secondary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "载酒堂位于东坡书院内，坐标为书院位置"
+    },
+    {
+      "name": "东坡书院",
+      "ancient_name": "东坡书院",
+      "type": "scenic",
+      "period": "1098-1100年",
+      "description": "苏轼在儋州讲学授徒处，海南文化教育发源地，后建为书院",
+      "works": [],
+      "importance": "primary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P034",
+    "ancient_name": "儋州",
+    "city": "儋州市",
+    "total_sub_places": 3,
+    "residence_count": 2,
+    "scenic_count": 1,
+    "verified_count": 3,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "桄榔庵（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verification_checklist": {
+      "main_coords_from_first_residence": true,
+      "main_coords_in_city_range": true,
+      "all_coords_in_city_range": true,
+      "no_same_name_different_city_errors": true,
+      "all_coords_have_source": true,
+      "all_coords_have_verification_status": true,
+      "memorial_sites_updated": false
+    }
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.259284"
+}

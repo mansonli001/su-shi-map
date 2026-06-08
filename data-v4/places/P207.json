@@ -3,13 +3,13 @@
   "ancient_name": "益州官署",
   "modern_name": "拜谒张方平",
   "type": "around",
-  "lat": 30.6589,
+  "lat": 30.6598,
   "lng": 104.0633,
   "related_routes": [
     "R00"
   ],
   "summary": "三苏出蜀途经成都，拜访亲友",
-  "background": "成都是四川首府，三苏从眉州出蜀必经过成都",
+  "background": "益州官署，成都府治所。苏轼少年时或随父入益州官署，蜀地政风的清正与繁华深植其心。",
   "tags": [
     "游历地",
     "途经"
@@ -24,7 +24,13 @@
       "significance": "途经成都"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "益州官署怀古",
+      "type": "诗",
+      "description": "苏轼忆益州官署旧事"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -59,17 +65,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.674583,
+      "lng": 104.062415,
+      "modern_address": "四川省成都市青羊区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "成都小吃",
+      "description": "成都传统小吃",
+      "origin_story": "益州传统美食",
+      "tag": "成都特色"
+    }
+  ],
   "transport": {
     "train": "成都站 / 成都东站",
     "bus": "成都新南门汽车站",
     "car": "成渝高速 / 京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "秀州官署",
+      "ancient_name": "秀州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在益州官署的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.674583,
+      "lng": 104.062415,
+      "modern_address": "四川省成都市青羊区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "三苏纪念馆",
+      "ancient_name": "三苏纪念馆",
+      "type": "museum",
+      "period": "",
+      "description": "展示三苏生平",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.674583,
+      "lng": 104.062415,
+      "modern_address": "四川省成都市青羊区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "chengdu",
@@ -119,5 +164,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:36.000Z"
+  "amap_updated_at": "2026-06-03T05:16:36.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "四川省成都市青羊区"
 }

@@ -1,0 +1,45 @@
+{
+  "place_id": "P170",
+  "ancient_name": "藤州",
+  "modern_name": "广西藤县",
+  "city": "藤县",
+  "main_coords": {
+    "name": "藤州古城",
+    "lat": 23.375538,
+    "lng": 110.914606,
+    "modern_address": "广西梧州市藤县",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼途经藤州，暂居古城附近"
+  },
+  "sub_places": [
+    {
+      "name": "藤州古城",
+      "ancient_name": "藤州古城",
+      "type": "residence",
+      "period": "1098年",
+      "description": "苏轼贬谪途中经藤州，与弟苏辙相遇",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.375538,
+      "lng": 110.914606,
+      "modern_address": "广西梧州市藤县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P170",
+    "ancient_name": "藤州",
+    "city": "藤县",
+    "total_sub_places": 1,
+    "residence_count": 1,
+    "scenic_count": 0,
+    "main_coords_source": "藤州古城（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "note": "苏轼贬谪途中经藤州与苏辙相遇，是重要情感节点",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.690536"
+}

@@ -9,7 +9,7 @@
     "R07"
   ],
   "summary": "苏轼任密州知州两年，期间创作《水调歌头》《江城子》等名篇",
-  "background": "密州今山东诸城，苏轼于熙宁七年任知州，在此两年期间创作大量诗文",
+  "background": "密州超然台，苏轼修筑并命名的高台。登台远眺、对月赋词，'明月几时有，把酒问青天'即在此台上所作，是豪放词最酣畅的诞生地。",
   "tags": [
     "密州",
     "诸城",
@@ -129,7 +129,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "modern_address": "山东省潍坊市诸城市"
     },
     {
       "id": "mz-s003",
@@ -143,17 +146,113 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "modern_address": "山东省潍坊市诸城市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "诸城烧肉",
+      "description": "诸城传统名菜，皮脆肉嫩，肥而不腻"
+    }
+  ],
   "transport": {
     "train": "诸城站",
     "bus": "诸城汽车站",
     "car": "青兰高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "密州超然台州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在密州超然台的居所",
+      "importance": "primary",
+      "ancient_name": "密州超然台州衙",
+      "lat": 35.9942,
+      "lng": 119.4039,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用密州超然台中心坐标作为参考"
+    },
+    {
+      "name": "密州",
+      "ancient_name": "密州",
+      "type": "scenic",
+      "period": "熙宁七年（1074年）",
+      "description": "创作《江城子·密州出猎》处",
+      "works": [
+        "江城子·密州出猎"
+      ],
+      "importance": "secondary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市超然台",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "超然台",
+      "ancient_name": "超然台",
+      "type": "building",
+      "period": "",
+      "description": "苏轼在密州时命名超然台，作《超然台记》",
+      "works": [],
+      "importance": "secondary",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "modern_address": "山东省潍坊市诸城市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "常山",
+      "ancient_name": "常山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼在密州时常祭常山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "modern_address": "山东省潍坊市诸城市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "黄茅岗",
+      "ancient_name": "黄茅岗",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼《江城子·密州出猎》提及",
+      "works": [],
+      "importance": "secondary",
+      "lat": 36.009273,
+      "lng": 119.412992,
+      "modern_address": "山东省潍坊市诸城市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "知州任密州",
+      "ancient_name": "知州任密州",
+      "type": "office",
+      "period": "熙宁七年（1074年）十一月三日",
+      "description": "从任密州知州中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 35.9942,
+      "lng": 119.4039,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS019",
     "pinyin_id": "mizhou",
@@ -177,36 +276,8 @@
     "source": "水调歌头·明月几时有",
     "from": "global_works.excerpt"
   },
-  "modern_visit": {
-    "amap_poi_id": "B0G2Z7HGW7",
-    "amap_name": "密州东坡糕点(超然台旗舰店)",
-    "address": "超然台路58号",
-    "location": "119.408357,35.997988",
-    "cityname": "潍坊市",
-    "adname": "诸城市",
-    "type": "餐饮服务;糕饼店;糕饼店",
-    "typecode": "050800",
-    "tel": "18266607788",
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/content_media_external_images_media_1000027420_ss__1764119644464_46251645.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/d1af401462ddff05459d7d11532a2fb1_2048_2048_80.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0G2Z7HGW7/comment/content_media_external_file_1000012996_ss__1764122011652_14916678.jpg"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
-  "amap_updated_at": "2026-06-03T05:15:27.000Z"
+  "modern_visit": {},
+  "amap_updated_at": "2026-06-03T05:15:27.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "超然台路58号"
 }

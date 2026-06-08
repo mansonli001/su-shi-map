@@ -7,27 +7,46 @@
 import type { PlaceType, DesignPlaceType } from '@/types';
 
 /**
- * 类型颜色映射（朱印风格）
+ * 类型颜色映射（朱印风格 + v4 10类）
  */
-const TYPE_COLORS: Record<PlaceType, string> = {
-  birth: '#4CAF50',    // 竹芽绿
+const TYPE_COLORS: Record<string, string> = {
+  birth: '#388E3C',    // 竹芽绿
   office: '#37474F',    // 黛青
   exile: '#C62828',     // 朱砂
   tour: '#6D4C41',      // 赭石
   friend: '#F9A825',     // 藤黄
   burial: '#424242',     // 墨灰
+  // v4 新增类型
+  main: '#8B5A2B',      // 棕色（行经）
+  sight: '#1A7A6A',     // 青绿（观景）
+  around: '#A67528',    // 藤黄棕（寻访）
+  official: '#9E2A1E',  // 朱砂红（官守）
+  stay: '#6A468A',      // 紫色（客居）
+  visit: '#148170',     // 深青绿（游览）
+  study: '#5D4037',     // 赭褐（游学）
+  death: '#455A64',     // 铁灰（离世）
+  tomb: '#3E2723',      // 深褐（墓葬）
 };
 
 /**
  * 类型标签映射
  */
-const TYPE_LABELS: Record<PlaceType, string> = {
+const TYPE_LABELS: Record<string, string> = {
   birth: '生',
   office: '官',
   exile: '谪',
   tour: '游',
   friend: '友',
   burial: '眠',
+  main: '行',
+  sight: '景',
+  around: '访',
+  official: '官',
+  stay: '居',
+  visit: '游',
+  study: '学',
+  death: '逝',
+  tomb: '墓',
 };
 
 /**
@@ -135,23 +154,30 @@ export function makeMarkerHtml(
 
   // 老 PlaceType 兜底映射 → 新 DesignPlaceType
   const mappedType: DesignPlaceType = ([
-    'main', 'visit', 'stay', 'study', 'birth', 'official', 'death', 'tomb',
+    'main', 'visit', 'stay', 'study', 'birth', 'official', 'death', 'tomb', 'sight', 'around',
   ] as const).includes(t as DesignPlaceType)
     ? (t as DesignPlaceType)
     : t === 'office'
       ? 'official'
       : t === 'burial'
         ? 'tomb'
-        : t === 'exile' || t === 'tour' || t === 'friend'
-          ? 'visit'
-          : 'visit';
+        : t === 'exile'
+          ? 'sight'
+          : t === 'tour' || t === 'friend'
+            ? 'visit'
+            : 'visit';
 
-  // §2.4 尺寸规则（v2026-06-02 调整：visit 游览类降到默认 24px，避免数量多互相遮挡）
-  // 关键节点（当官 official / 居住 stay）保留 30px 突出
+  // §2.4 尺寸规则
+  // 关键节点（当官 official / 居住 stay）30px 突出
+  // 途经景观 sight 26px（比普通大一点，突出观景属性）
+  // 周边寻访 around 22px（最小，辅助信息）
+  // 主线行进 main 22px
   let size = 24;
   if (mappedType === 'official' || mappedType === 'stay') size = 30;  // 关键节点
-  else if (mappedType === 'main') size = 22;                            // 主线行进
-  else size = 24;                                                       // visit/birth/study/death/tomb 统一 24px
+  else if (mappedType === 'sight') size = 26;                          // 途经景观
+  else if (mappedType === 'main') size = 22;                           // 主线行进
+  else if (mappedType === 'around') size = 22;                         // 周边寻访
+  else size = 24;                                                       // visit/birth/study/death/tomb
 
   // 重要度微调（importance=1 主推 +2px / 3=灰度 -2px）
   if (importance === 1) size += 2;

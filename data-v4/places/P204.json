@@ -3,23 +3,59 @@
   "ancient_name": "宜宾锁江楼",
   "modern_name": "四川宜宾锁江楼",
   "type": "sight",
-  "lat": 28.752354,
-  "lng": 104.642826,
+  "lat": 28.769,
+  "lng": 104.623,
   "related_routes": [
     "R02"
   ],
   "summary": "",
-  "background": "",
+  "background": "岷江入长江交汇处，锁江楼扼守江面。苏轼出蜀水路经此，两江合流、水势渐壮，自此告别岷江、驶入长江干流，是蜀中水路出川的重要节点。",
   "tags": [],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p204-001",
+      "date": "1059年",
+      "title": "经宜宾入长江",
+      "description": "苏轼自眉山顺岷江至宜宾，转入长江东下",
+      "significance": "岷江入长江口"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "锁江楼",
+      "type": "诗",
+      "note": "途经宜宾锁江楼所作",
+      "year_estimate": 1086
+    }
+  ],
   "route_events": {},
   "route_works": {},
   "memorial_sites": [],
-  "foods": [],
+  "foods": [
+    {
+      "name": "宜宾燃面",
+      "description": "宜宾名吃，麻辣鲜香，油重无水可点燃"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "宜宾锁江楼",
+      "ancient_name": "宜宾锁江楼",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经宜宾锁江楼",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.736878,
+      "lng": 116.00788,
+      "modern_address": "滨江路1464-1750号附近",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "legacy": {
     "ss_id": "SS127",
     "pinyin_id": null,
@@ -28,7 +64,7 @@
     "v3_lat": 28.752,
     "v3_lng": 104.643
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "四川省宜宾市",
   "coords_updated_at": "2026-06-01T10:17:04.327Z",
   "duration_summary": {
@@ -72,5 +108,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:32.000Z"
+  "amap_updated_at": "2026-06-03T05:16:32.000Z",
+  "sxzk_address": "滨江路1464-1750号附近"
 }

@@ -1,0 +1,862 @@
+[
+  {
+    "location_id": "P106",
+    "location_name": "眉山",
+    "modern_name": "眉山苏轼相关景点",
+    "modern_address": "眉山地理位置與行政區域圖。",
+    "province": "四川省",
+    "city": "眉山",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "出生与成长",
+    "stay_duration": "",
+    "su_works": [
+      "跋中和院東坡帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "川菜",
+      "火锅",
+      "串串",
+      "腊肉",
+      "香肠"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "泉山",
+      "西山",
+      "泉寺",
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P583",
+    "location_name": "眉山-汴京",
+    "modern_name": "眉山-汴京苏轼相关景点",
+    "modern_address": "眉山-汴京",
+    "province": "四川省",
+    "city": "眉山-汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "早期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "南海",
+      "山河",
+      "中寺",
+      "溪山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P240",
+    "location_name": "出蜀途中",
+    "modern_name": "出蜀途中苏轼相关景点",
+    "modern_address": "出蜀途中",
+    "province": "",
+    "city": "出蜀途中",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "早期",
+    "stay_duration": "",
+    "su_works": [
+      "三遊洞序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "溪寺",
+      "泉寺",
+      "西湖"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P842",
+    "location_name": "凤翔",
+    "modern_name": "凤翔苏轼相关景点",
+    "modern_address": "陕西省凤翔",
+    "province": "陕西省",
+    "city": "凤翔",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1060,
+    "visit_period": "初仕时期",
+    "stay_duration": "",
+    "su_works": [
+      "九成宫醴泉铭",
+      "牟氏陵陽集‧卷十七‧跋周卿所藏坡帖",
+      "晚香堂書帖",
+      "跋東坡拔豕帖",
+      "薦蘇子容功德疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "西凤酒",
+      "腊驴肉",
+      "臊子面",
+      "豆花泡馍"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "河寺",
+      "西山",
+      "北寺",
+      "中寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P583",
+    "location_name": "眉山-汴京",
+    "modern_name": "眉山-汴京苏轼相关景点",
+    "modern_address": "眉山-汴京",
+    "province": "四川省",
+    "city": "眉山-汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1061,
+    "visit_period": "丁忧",
+    "stay_duration": "",
+    "su_works": [
+      "東瑩老翁井齋僧疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "返乡"
+    ],
+    "nearby_sites": [
+      "河河",
+      "西山",
+      "泉寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P916",
+    "location_name": "汴京",
+    "modern_name": "汴京苏轼相关景点",
+    "modern_address": "汴京城郭與開封市疊加圖。",
+    "province": "河南省",
+    "city": "汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1058,
+    "visit_period": "早期",
+    "stay_duration": "",
+    "su_works": [
+      "正蒙序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "南山",
+      "山亭"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P106",
+    "location_name": "杭州",
+    "modern_name": "杭州苏轼相关景点",
+    "modern_address": "杭州行政區域圖。",
+    "province": "浙江省",
+    "city": "杭州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "通判时期",
+    "stay_duration": "",
+    "su_works": [
+      "題蔡君謨帖",
+      "蘇州請通長老疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地"
+    ],
+    "nearby_sites": [
+      "西湖",
+      "山寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P036",
+    "location_name": "密州",
+    "modern_name": "密州苏轼相关景点",
+    "modern_address": "密州行政區域地圖。",
+    "province": "山东省",
+    "city": "密州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "六客詩序",
+      "太倉稊米集‧富川同僚記序",
+      "山谷外集‧薄薄酒二章并序",
+      "送錢藻州詩序",
+      "密州請皋長老疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "德州扒鸡",
+      "保店驴肉"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西湖",
+      "南山",
+      "北海",
+      "山山",
+      "泉亭"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P721",
+    "location_name": "徐州",
+    "modern_name": "徐州苏轼相关景点",
+    "modern_address": "徐州區域圖。",
+    "province": "江苏省",
+    "city": "徐州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1061,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "蘇軾於徐州撰文‧秦少游字序",
+      "獵會詩序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "地锅鸡",
+      "羊汤",
+      "烙馍"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "泉山",
+      "河河",
+      "泉亭"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P709",
+    "location_name": "湖州",
+    "modern_name": "湖州苏轼相关景点",
+    "modern_address": "湖州概略行政區域圖。",
+    "province": "浙江省",
+    "city": "湖州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "湖州馄饨",
+      "千张包",
+      "丁莲芳"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "山泉",
+      "山寺",
+      "溪山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P936",
+    "location_name": "黄州",
+    "modern_name": "黄州苏轼相关景点",
+    "modern_address": "黄州西湖一路，青磚湖東側黃州區審計局至黃州供電所一帶。黃州承天寺遺址概略位置，見圖12099。然此說",
+    "province": "湖北省",
+    "city": "黄州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "贬谪时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "东坡肉",
+      "东坡羹",
+      "东坡饼"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西山",
+      "泉寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P294",
+    "location_name": "登州",
+    "modern_name": "登州苏轼相关景点",
+    "modern_address": "登州行政區域圖。",
+    "province": "山东省",
+    "city": "登州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1061,
+    "visit_period": "短期任职",
+    "stay_duration": "",
+    "su_works": [
+      "蘇文忠公書簡帖",
+      "楚頌帖",
+      "題陸柬之臨摹帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "蓬莱小面",
+      "鲅鱼饺子"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "北亭",
+      "南湖",
+      "西江",
+      "山寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P916",
+    "location_name": "汴京",
+    "modern_name": "汴京苏轼相关景点",
+    "modern_address": "汴京道者院可能範圍區。",
+    "province": "河南省",
+    "city": "汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "元祐时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "北海",
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P106",
+    "location_name": "杭州",
+    "modern_name": "杭州苏轼相关景点",
+    "modern_address": "杭州主要風景區概略分佈圖。",
+    "province": "浙江省",
+    "city": "杭州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1071,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "聖散子後序",
+      "晚香堂蘇帖",
+      "土母帖",
+      "同年帖",
+      "貴宅帖",
+      "晚香堂書帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "西湖醋鱼",
+      "东坡肉",
+      "龙井虾仁",
+      "叫化鸡",
+      "片儿川"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "溪亭",
+      "西湖"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P916",
+    "location_name": "汴京",
+    "modern_name": "汴京苏轼相关景点",
+    "modern_address": "河南省汴京",
+    "province": "河南省",
+    "city": "汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1079,
+    "visit_period": "元祐时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "江湖",
+      "西江",
+      "山寺",
+      "湖山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P159",
+    "location_name": "颍州-扬州",
+    "modern_name": "颍州-扬州苏轼相关景点",
+    "modern_address": "颍州-扬州",
+    "province": "安徽省",
+    "city": "颍州-扬州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "渭南文集‧跋坡谷帖",
+      "重請戒長老住石塔疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西湖"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P916",
+    "location_name": "汴京",
+    "modern_name": "汴京苏轼相关景点",
+    "modern_address": "河南省汴京",
+    "province": "河南省",
+    "city": "汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1072,
+    "visit_period": "元祐时期",
+    "stay_duration": "",
+    "su_works": [
+      "石門文字禪‧跋三學士帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "北海",
+      "南海",
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P994",
+    "location_name": "定州",
+    "modern_name": "定州苏轼相关景点",
+    "modern_address": "定州行政區域圖。",
+    "province": "河北省",
+    "city": "定州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "河朔访古记",
+      "張耒集‧送李端叔赴定州序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "定州焖子",
+      "驴肉火烧"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P433",
+    "location_name": "惠州",
+    "modern_name": "惠州苏轼相关景点",
+    "modern_address": "惠州行政區域圖 。",
+    "province": "广东省",
+    "city": "惠州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1074,
+    "visit_period": "贬谪时期",
+    "stay_duration": "",
+    "su_works": [
+      "蘭亭序",
+      "跋沈智甫所藏東坡帖",
+      "晚香堂蘇帖",
+      "晚香堂書帖",
+      "和陶詠二疏",
+      "惠州薦朝雲疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "梅菜扣肉",
+      "酿豆腐",
+      "盐焗鸡",
+      "东江菜"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "江山",
+      "湖亭",
+      "山寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P076",
+    "location_name": "儋州",
+    "modern_name": "儋州苏轼相关景点",
+    "modern_address": "儋州市行政區域圖。",
+    "province": "海南省",
+    "city": "儋州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "贬谪时期",
+    "stay_duration": "",
+    "su_works": [
+      "無盡集‧送羽士蹇拱辰往廬山序",
+      "晚香堂蘇帖",
+      "蘇文忠藥方帖",
+      "墨莊漫錄‧東坡與黎子雲帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "儋州米烂",
+      "长坡米烂",
+      "红鱼粽",
+      "椰子鸡"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "台寺",
+      "西江",
+      "南海",
+      "台山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P810",
+    "location_name": "常州",
+    "modern_name": "常州苏轼相关景点",
+    "modern_address": "常州，葬於郟縣",
+    "province": "江苏省",
+    "city": "常州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1071,
+    "visit_period": "晚年",
+    "stay_duration": "",
+    "su_works": [
+      "晚香堂蘇帖",
+      "臞仙帖",
+      "桑疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "大麻糕",
+      "银丝面",
+      "加蟹小笼包",
+      "天目湖砂锅鱼头"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "终老地",
+      "逝世地"
+    ],
+    "nearby_sites": [
+      "南海",
+      "北江",
+      "西湖",
+      "西江"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

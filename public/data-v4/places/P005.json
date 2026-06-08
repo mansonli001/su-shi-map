@@ -6,7 +6,7 @@
   "related_routes": [
     "R18"
   ],
-  "background": "粤北南下核心水系，直通广州航道。",
+  "background": "夔门即瞿塘峡口，三峡西端门户。赤甲白盐二山夹江耸立、江流奔腾，是入蜀出蜀的天然关隘。",
   "extended_story": "沿北江南下，岭南山水温润奇秀，\n渐安贬途心境。",
   "essence": "岭南南下主干水系",
   "tags": [
@@ -56,7 +56,41 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:14:02.000Z",
-  "lat": 23.05,
-  "lng": 113.59,
-  "_latlng_source": "preset"
+  "lat": 22.895054,
+  "lng": 113.277637,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "番禺区",
+  "sub_places": [
+    {
+      "name": "北江附近驿馆",
+      "ancient_name": "北江附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在北江的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 22.895054,
+      "lng": 113.277637,
+      "modern_address": "番禺区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p005-001",
+      "date": "1094年",
+      "title": "沿北江南下",
+      "description": "苏轼南贬沿北江南下赴惠州",
+      "significance": "岭南水路"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "北江",
+      "type": "诗",
+      "note": "南贬经北江所作",
+      "year_estimate": 1094
+    }
+  ]
 }

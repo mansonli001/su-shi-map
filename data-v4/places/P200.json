@@ -9,7 +9,7 @@
     "R04"
   ],
   "summary": "苏轼南下途经扬州，凭吊欧阳修所建平山堂",
-  "background": "扬州是北宋重要商业城市，苏轼南下杭州途经此地，曾凭吊欧阳修所建平山堂",
+  "background": "瘦西湖旧址，扬州城西水道。苏轼途经扬州时或曾游此，水道蜿蜒、垂柳依依，是扬州最柔美的水乡景致。",
   "tags": [
     "扬州",
     "广陵",
@@ -41,7 +41,13 @@
       "id": "p200-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "扬州竹西寺",
+      "type": "诗",
+      "description": "苏轼扶柩途经扬州所作"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -79,7 +85,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.37741,
+      "lng": 119.397935,
+      "modern_address": "江苏省扬州市邗江区"
     },
     {
       "id": "yy-s002",
@@ -96,14 +105,78 @@
       "distance": ""
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "扬州炒饭",
+      "description": "扬州名菜",
+      "origin_story": "扬州传统名菜",
+      "tag": "扬州必吃"
+    }
+  ],
   "transport": {
     "train": "扬州站/扬州东站",
     "bus": "扬州汽车站",
     "car": "京沪高速/沪陕高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "扬州瘦西湖旧址居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州瘦西湖旧址的居所",
+      "importance": "primary",
+      "ancient_name": "扬州瘦西湖旧址居所",
+      "lat": 32.409,
+      "lng": 119.4197,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用扬州瘦西湖旧址中心坐标作为参考"
+    },
+    {
+      "name": "扬州瘦西湖旧址州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州瘦西湖旧址的居所",
+      "importance": "primary",
+      "ancient_name": "扬州瘦西湖旧址州衙",
+      "lat": 32.409,
+      "lng": 119.4197,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用扬州瘦西湖旧址中心坐标作为参考"
+    },
+    {
+      "name": "平山堂",
+      "ancient_name": "平山堂",
+      "type": "building",
+      "period": "",
+      "description": "欧阳修所建，苏轼常来此凭吊",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.37741,
+      "lng": 119.397935,
+      "modern_address": "江苏省扬州市邗江区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瘦西湖",
+      "ancient_name": "瘦西湖",
+      "type": "lake",
+      "period": "",
+      "description": "扬州著名的湖泊风景区",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "江苏省扬州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS037",
     "pinyin_id": "yangzhou",
@@ -160,5 +233,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:28.000Z"
+  "amap_updated_at": "2026-06-03T05:16:28.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "大虹桥路28号"
 }

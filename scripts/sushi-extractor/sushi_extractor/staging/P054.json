@@ -1,0 +1,63 @@
+{
+  "place_id": "P054",
+  "ancient_name": "广州",
+  "modern_name": "广东广州",
+  "city": "广州市",
+  "processed_at": "2026-06-07T23:22:31.237871",
+  "main_coords": {
+    "name": "广陵官署",
+    "lat": 23.137978,
+    "lng": 113.265624,
+    "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)",
+    "coordinate_source": "amap_poi",
+    "reason": "广陵官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "广陵官署",
+      "ancient_name": "广陵官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在广州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.137978,
+      "lng": 113.265624,
+      "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "镇海楼",
+      "ancient_name": "镇海楼",
+      "type": "楼",
+      "period": "",
+      "description": "广州古城标志建筑",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.137978,
+      "lng": 113.265624,
+      "modern_address": "镇海路9号(越秀公园地铁站A口步行250米)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P054",
+    "ancient_name": "广州",
+    "city": "广州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "广州官署",
+    "rejected_details": [],
+    "parent_place": "P198",
+    "parent_place_name": "扬州",
+    "note": "广州为扬州的子地点",
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:20.791215"
+}

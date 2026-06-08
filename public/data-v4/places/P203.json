@@ -3,13 +3,13 @@
   "ancient_name": "沂州",
   "modern_name": "山东临沂",
   "type": "main",
-  "lat": 35.1042,
-  "lng": 118.3564,
+  "lat": 35.103771,
+  "lng": 118.356464,
   "related_routes": [
     "R08"
   ],
   "summary": "苏轼移知徐州途经沂州",
-  "background": "沂州今山东临沂，苏轼从密州移知徐州时途经此地",
+  "background": "沂州（今临沂），沂蒙山区。苏轼途经沂州，琅琊山色秀美，王羲之故里的文脉绵延。",
   "tags": [
     "沂州",
     "临沂"
@@ -42,17 +42,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 35.103771,
+      "lng": 118.356464,
+      "modern_address": "山东省临沂市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "沂州糁汤",
+      "description": "沂州传统早餐，麦仁肉汤浓稠，暖胃解乏"
+    }
+  ],
   "transport": {
     "train": "临沂站",
     "bus": "临沂汽车站",
     "car": "京沪高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "沂州官署",
+      "ancient_name": "沂州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在沂州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.103771,
+      "lng": 118.356464,
+      "modern_address": "山东省临沂市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "沂州古城",
+      "ancient_name": "沂州古城",
+      "type": "ruins",
+      "period": "",
+      "description": "苏轼途经沂州",
+      "works": [],
+      "importance": "secondary",
+      "lat": 35.103771,
+      "lng": 118.356464,
+      "modern_address": "山东省临沂市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "yizhou",
@@ -102,5 +139,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:31.000Z"
+  "amap_updated_at": "2026-06-03T05:16:31.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "山东省临沂市"
 }

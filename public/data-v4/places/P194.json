@@ -3,14 +3,14 @@
   "ancient_name": "徐闻递角场",
   "modern_name": "广东徐闻递角场（古址）",
   "type": "main",
-  "lat": 20.325969,
-  "lng": 110.17595,
+  "lat": 20.326,
+  "lng": 110.152,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼渡琼州海峡的出发地",
-  "background": "徐闻是苏轼渡琼州海峡前往海南的出发地",
+  "background": "徐闻递角场，苏轼北归由此渡海离琼。来时天风海雨、归时风平浪静，同一片海峡，渡的是截然不同的人生境遇。",
   "tags": [
     "徐闻",
     "渡海",
@@ -21,7 +21,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "递角场",
+      "type": "诗",
+      "note": "南贬至徐闻递角场所作",
+      "year_estimate": 1094
+    }
+  ],
   "route_events": {
     "route19": [
       {
@@ -74,17 +81,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 20.325969,
+      "lng": 110.17595,
+      "modern_address": "广东省湛江市徐闻县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "徐闻菠萝",
+      "description": "徐闻特产，香甜多汁，中国菠萝之乡"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "徐闻汽车站",
     "car": "沈海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "徐闻递角场居所",
+      "ancient_name": "徐闻递角场居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在徐闻递角场的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.325969,
+      "lng": 110.17595,
+      "modern_address": "广东省湛江市徐闻县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "徐闻古城",
+      "ancient_name": "徐闻古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "苏轼渡海出发地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.325969,
+      "lng": 110.17595,
+      "modern_address": "广东省湛江市徐闻县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "xuwen",
@@ -97,7 +141,7 @@
   "essence": "跨海启程古渡口、苏辙兄弟徐闻诀别地",
   "last_updated": "2026-06-01T10:22:05.264Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "广东省湛江市徐闻县",
   "coords_updated_at": "2026-06-01T10:17:04.326Z",
   "duration_summary": {
@@ -113,13 +157,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0LA4R9UOU",
-    "amap_name": "草潭角头沙风景区(暂停开放)",
-    "address": "角头沙·风情民宿东北侧120米",
-    "location": "109.770916,21.335610",
+    "amap_name": "大汉三墩旅游区",
+    "address": "南山镇",
+    "location": "110.152,20.326",
     "cityname": "湛江市",
-    "adname": "遂溪县",
-    "type": "风景名胜;风景名胜;风景名胜",
-    "typecode": "110200",
+    "adname": "徐闻县",
+    "type": "风景名胜;风景名胜;古迹",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -142,5 +186,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:21.000Z"
+  "amap_updated_at": "2026-06-03T05:16:21.000Z",
+  "sxzk_address": "广东省湛江市徐闻县"
 }

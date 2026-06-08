@@ -6,7 +6,7 @@
   "related_routes": [
     "R13"
   ],
-  "background": "鲁西南门户，接壤中原腹地，西进汴京最后陆路中转。",
+  "background": "陕州即今河南三门峡，崤函古道要冲。苏轼进京途经此地，黄河浊浪、函谷险关，是中原西部的门户。",
   "extended_story": "抵达曹州做最后行旅休整，\n踏出齐鲁地界，即将步入京师京畿范围。",
   "essence": "齐鲁入汴京最后前沿中转",
   "tags": [
@@ -75,5 +75,52 @@
   "amap_updated_at": "2026-06-03T05:14:09.000Z",
   "lat": 35.234309,
   "lng": 115.479646,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "牡丹区",
+  "sub_places": [
+    {
+      "name": "曹州官署",
+      "ancient_name": "曹州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在曹州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.234309,
+      "lng": 115.479646,
+      "modern_address": "牡丹区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p015-001",
+      "date": "1086年",
+      "title": "经曹州还朝",
+      "description": "苏轼自登州还朝途经曹州",
+      "significance": "还朝途经"
+    }
+  ],
+  "foods": [
+    {
+      "name": "菏泽牡丹宴",
+      "description": "曹州传统名宴，以牡丹入菜，风雅别致"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "曹州牡丹园",
+      "description": "菏泽牡丹甲天下，苏轼途经或观赏",
+      "type": "景区"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "曹州",
+      "type": "诗",
+      "note": "途经曹州所作",
+      "year_estimate": 1077
+    }
+  ]
 }

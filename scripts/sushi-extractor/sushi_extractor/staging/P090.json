@@ -1,0 +1,106 @@
+{
+  "place_id": "P090",
+  "ancient_name": "金陵秦淮",
+  "modern_name": "江苏南京秦淮河",
+  "city": "南京市",
+  "processed_at": "2026-06-07T23:16:17.188903",
+  "main_coords": {
+    "name": "金陵秦淮州衙",
+    "lat": 32.022,
+    "lng": 118.78,
+    "modern_address": "钞库街",
+    "coordinate_source": "original",
+    "reason": "使用原始坐标，待精细化"
+  },
+  "sub_places": [
+    {
+      "name": "金陵秦淮州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在金陵秦淮的居所",
+      "importance": "primary",
+      "ancient_name": "金陵秦淮州衙",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "金陵/江宁",
+      "ancient_name": "金陵/江宁",
+      "type": "scenic",
+      "period": "元丰七年（1084年）",
+      "description": "创作《泊船瓜洲》处",
+      "works": [
+        "泊船瓜洲"
+      ],
+      "importance": "secondary",
+      "lat": 31.903949,
+      "lng": 118.899789,
+      "modern_address": "弘景大道99号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "钟山",
+      "ancient_name": "钟山",
+      "type": "山",
+      "period": "",
+      "description": "钟山即紫金山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "清凉寺",
+      "ancient_name": "清凉寺",
+      "type": "寺庙",
+      "period": "",
+      "description": "苏轼曾游清凉寺",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.049228,
+      "lng": 118.76072,
+      "modern_address": "清凉山83号清凉山公园内(南侧)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "谪",
+      "ancient_name": "谪",
+      "type": "office",
+      "period": "1084",
+      "description": "从金陵访王安石·冰释前嫌中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    }
+  ],
+  "report": {
+    "place_id": "P090",
+    "ancient_name": "金陵秦淮",
+    "city": "南京市",
+    "total_sub_places": 3,
+    "verified_count": 3,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "谪",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "parent_place": "P089",
+    "parent_place_name": "金陵",
+    "note": "秦淮河为金陵的子地点"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:22:01.158027"
+}

@@ -3,13 +3,13 @@
   "ancient_name": "大庾岭",
   "modern_name": "梅岭",
   "type": "main",
-  "lat": 25.4162,
-  "lng": 114.3105,
+  "lat": 25.258,
+  "lng": 114.031,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼越过大庾岭南行入粤",
-  "background": "大庾岭即梅岭，是苏轼贬惠州南下的必经之路，越过此岭即进入广东",
+  "background": "丹徒即今江苏镇江丹徒，长江南岸古县。苏轼南下北上常经此地，运河入江口、渡船繁忙，是水陆交通的枢纽。",
   "tags": [
     "大庾岭",
     "梅岭",
@@ -55,17 +55,59 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 25.401968,
+      "lng": 114.362306,
+      "modern_address": "江西省赣州市大余县"
+    },
+    {
+      "name": "梅关古道",
+      "description": "大庾岭古驿道，苏轼南贬过岭作'大庾岭上梅'诗",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "梅岭腊肉",
+      "description": "大庾岭山区传统腊肉，烟熏风味独特"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "梅岭汽车站",
     "car": "赣韶高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "大庾岭附近驿馆",
+      "ancient_name": "大庾岭附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在大庾岭的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 25.401968,
+      "lng": 114.362306,
+      "modern_address": "江西省赣州市大余县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "梅岭",
+      "ancient_name": "梅岭",
+      "type": "mountain",
+      "period": "",
+      "description": "大庾岭即梅岭",
+      "works": [],
+      "importance": "secondary",
+      "lat": 25.401968,
+      "lng": 114.362306,
+      "modern_address": "江西省赣州市大余县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS123",
     "pinyin_id": "dayuling",
@@ -90,11 +132,11 @@
   },
   "modern_visit": {
     "amap_poi_id": "B031704Z7O",
-    "amap_name": "梅岭生态旅游度假区",
-    "address": "052县道",
-    "location": "115.720587,28.810114",
-    "cityname": "南昌市",
-    "adname": "新建区",
+    "amap_name": "梅关古道景区",
+    "address": "梅岭镇",
+    "location": "114.031,25.258",
+    "cityname": "赣州市",
+    "adname": "大余县",
     "type": "风景名胜;风景名胜;国家级景点",
     "typecode": "110202",
     "tel": "0791-83760263;0791-83796003",
@@ -119,5 +161,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:27.000Z"
+  "amap_updated_at": "2026-06-03T05:14:27.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江西省赣州市大余县"
 }

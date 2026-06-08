@@ -9,13 +9,28 @@
     "R01"
   ],
   "summary": "",
-  "background": "关中腹地古县，长安西侧平直官道节点。",
+  "background": "扶风，关中腹地，周原故土。苏轼赴凤翔途经扶风，法门寺佛指舍利在此供奉，关中平原沃野千里。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p046-001",
+      "date": "1056年",
+      "title": "经扶风入关中",
+      "description": "苏轼出秦岭后经扶风，初见关中平原广袤气象",
+      "significance": "初入中原"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "扶风",
+      "type": "诗",
+      "note": "途经扶风所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年关中官道途经",
@@ -31,10 +46,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "法门寺",
+      "description": "唐代皇家寺院，佛指舍利所在地",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "扶风鹿糕馍",
+      "description": "扶风传统名点，馍面印鹿纹，酥香可口"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "扶风居所",
+      "ancient_name": "扶风居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扶风的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.375636,
+      "lng": 107.900157,
+      "modern_address": "扶风县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS133",
     "pinyin_id": null,
@@ -50,7 +91,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.183Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "陕西省宝鸡市扶风县",
   "coords_updated_at": "2026-06-01T10:17:04.314Z",
   "duration_summary": {
@@ -94,5 +135,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:36.000Z"
+  "amap_updated_at": "2026-06-03T05:14:36.000Z",
+  "sxzk_address": "扶风县"
 }

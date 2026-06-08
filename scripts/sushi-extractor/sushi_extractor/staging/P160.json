@@ -1,0 +1,47 @@
+{
+  "place_id": "P160",
+  "ancient_name": "苏北沿海驿道",
+  "modern_name": "江苏苏北沿海",
+  "city": "江苏苏北沿海市",
+  "processed_at": "2026-06-07T23:25:28.931632",
+  "main_coords": {
+    "name": "苏北沿海驿道居所",
+    "lat": 32.747633,
+    "lng": 120.848204,
+    "modern_address": "港城大道一号",
+    "coordinate_source": "amap_poi_original",
+    "reason": "苏北沿海驿道居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "苏北沿海驿道居所",
+      "ancient_name": "苏北沿海驿道居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在苏北沿海驿道的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.747633,
+      "lng": 120.848204,
+      "modern_address": "港城大道一号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P160",
+    "ancient_name": "苏北沿海驿道",
+    "city": "江苏苏北沿海市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "苏北沿海驿道居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:43.009097"
+}

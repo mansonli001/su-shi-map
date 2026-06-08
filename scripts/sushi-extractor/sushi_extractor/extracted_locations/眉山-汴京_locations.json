@@ -1,0 +1,38 @@
+[
+  {
+    "location_id": "P583",
+    "location_name": "眉山-汴京",
+    "modern_name": "眉山-汴京苏轼相关景点",
+    "modern_address": "眉山-汴京",
+    "province": "四川省",
+    "city": "眉山-汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1061,
+    "visit_period": "丁忧",
+    "stay_duration": "",
+    "su_works": [
+      "東瑩老翁井齋僧疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "返乡"
+    ],
+    "nearby_sites": [
+      "河河",
+      "西山",
+      "泉寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

@@ -3,13 +3,13 @@
   "ancient_name": "中岩寺",
   "modern_name": "四川青神中岩寺",
   "type": "study",
-  "lat": 29.831302,
-  "lng": 103.846596,
+  "lat": 29.760916,
+  "lng": 103.840117,
   "related_routes": [
     "R00"
   ],
   "summary": "",
-  "background": "",
+  "background": "青神城南名刹，依山临江，有上中下三岩。苏轼少年时在此读书，寺中至今存'唤鱼池'石刻，传为苏轼手书。在此求学期间，苏轼与王弗相识相恋，中岩寺成为他少年才情与爱情交织的起点。",
   "tags": [],
   "periods": [
     {
@@ -34,13 +34,45 @@
       "id": "p229-evt-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "中岩寺题诗",
+      "type": "诗",
+      "description": "苏轼少年游学中岩寺时题诗"
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "中岩寺",
+      "description": "苏轼少年读书处，有苏轼手书石刻",
+      "type": "寺院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "青神竹编宴",
+      "description": "青神传统竹文化美食，竹筒饭竹笋宴"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "中岩寺附近驿馆",
+      "ancient_name": "中岩寺附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在中岩寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.760916,
+      "lng": 103.840117,
+      "modern_address": "瑞峰镇中岩寺",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS003",
     "pinyin_id": null,
@@ -49,7 +81,7 @@
     "v3_lat": 29.57,
     "v3_lng": 103.8
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "四川省眉山市青神县",
   "coords_updated_at": "2026-06-01T10:17:04.329Z",
   "duration_summary": {
@@ -93,5 +125,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:58.000Z"
+  "amap_updated_at": "2026-06-03T05:16:58.000Z",
+  "sxzk_address": "瑞峰镇中岩寺"
 }

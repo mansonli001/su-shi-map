@@ -3,21 +3,86 @@
   "ancient_name": "江淮水乡驿道",
   "modern_name": "江淮水乡古驿",
   "type": "sight",
-  "lat": 32.5,
-  "lng": 118.5,
+  "lat": 32.235131,
+  "lng": 118.541228,
   "related_routes": [
     "R14"
   ],
   "tags": [],
-  "background": "请外再知杭州，疏浚西湖筑长堤，杭人立祠以祀。",
+  "background": "江淮之间水网密布，河汊纵横、舟楫如织。苏轼再知杭州，经江淮水乡驿道南下，沿途水田荷塘、小桥人家，是江南水乡最典型的驿路风光。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p082-001",
+      "date": "1089年",
+      "title": "经江淮水乡赴杭州",
+      "description": "苏轼再知杭州途经江淮水乡驿道",
+      "significance": "水乡通道"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "青玉案·和贺方回韵送伯固归吴中",
+      "type": "词",
+      "description": "三年枕上吴中路，遣黄耳，随君去。"
+    },
+    {
+      "title": "八声甘州·寄参寥子",
+      "type": "词",
+      "description": "有情风万里卷潮来，无情送潮归。"
+    },
+    {
+      "title": "木兰花令·次欧公西湖韵",
+      "type": "词",
+      "description": "与余同是识翁人，惟有西湖波底月。"
+    },
+    {
+      "title": "浣溪沙·细雨斜风作晓寒",
+      "type": "词",
+      "description": "人间有味是清欢。"
+    },
+    {
+      "title": "减字木兰花·送赵令",
+      "type": "词",
+      "description": "岁月如梭。白首相看拟奈何。"
+    },
+    {
+      "title": "六幺令·天中节",
+      "type": "词",
+      "description": "汨罗江渚，湘累已逝，惟有万千断肠句。"
+    },
+    {
+      "title": "南歌子·游赏",
+      "type": "词",
+      "description": "山与歌眉敛，波同醉眼流。"
+    },
+    {
+      "title": "菩萨蛮·画檐初挂弯弯月",
+      "type": "词",
+      "description": "画檐初挂弯弯月，孤光未满先离别。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "江淮水乡驿道",
+      "ancient_name": "江淮水乡驿道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经江淮水乡驿道",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.235131,
+      "lng": 118.541228,
+      "modern_address": "兴茂金陵北辰东北侧60米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +117,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:02.000Z"
+  "amap_updated_at": "2026-06-03T05:15:02.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "兴茂金陵北辰东北侧60米"
 }

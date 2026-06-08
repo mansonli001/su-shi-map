@@ -3,21 +3,52 @@
   "ancient_name": "漳河渡口",
   "modern_name": "河北漳河渡口",
   "type": "sight",
-  "lat": 36.3744,
-  "lng": 114.3776,
+  "lat": 36.195938,
+  "lng": 114.731302,
   "related_routes": [
     "R17"
   ],
   "tags": [],
-  "background": "高太后崩，新党再起，苏轼外放定州抵御契丹。",
+  "background": "河北南部漳河渡口，是中原通往河北的必经之地。苏轼外放定州途经此渡，河水湍急、北风凛冽，渡口荒凉，预示着即将面对的边关苦寒。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p218-001",
+      "date": "1093年",
+      "title": "渡漳河赴定州",
+      "description": "苏轼渡漳河赴定州",
+      "significance": "河北渡口"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "漳河",
+      "type": "诗",
+      "note": "途经漳河所作",
+      "year_estimate": 1077
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "漳河渡口",
+      "ancient_name": "漳河渡口",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经漳河渡口",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.195938,
+      "lng": 114.731302,
+      "modern_address": "临漳县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -39,5 +70,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:47.000Z"
+  "amap_updated_at": "2026-06-03T05:16:47.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "临漳县"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "庐山全山",
   "modern_name": "江西庐山",
   "type": "sight",
-  "lat": 29.5644,
-  "lng": 115.9933,
+  "lat": 29.563,
+  "lng": 115.9868,
   "related_routes": [
     "R11"
   ],
   "summary": "苏轼游庐山，留下'不识庐山真面目'千古名句",
-  "background": "庐山是苏轼元丰七年游历地，在此留下多篇诗作",
+  "background": "英德即今广东英德，北江中游。苏轼南贬途经此地，南山摩崖石刻、北江碧水，是岭南文化驿站。",
   "tags": [
     "庐山",
     "山",
@@ -112,17 +112,88 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 29.549505,
+      "lng": 115.992044,
+      "modern_address": "江西省九江市庐山市庐山"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "庐山石鱼",
+      "description": "庐山特色山珍",
+      "origin_story": "庐山传统美食",
+      "tag": "庐山特色"
+    }
+  ],
   "transport": {
     "train": "九江站",
     "bus": "庐山汽车站",
     "car": "福银高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "庐山全山州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在庐山全山的居所",
+      "importance": "primary",
+      "ancient_name": "庐山全山州衙",
+      "lat": 29.5644,
+      "lng": 115.9933,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用庐山全山中心坐标作为参考"
+    },
+    {
+      "name": "庐山西林寺",
+      "ancient_name": "庐山西林寺",
+      "type": "scenic",
+      "period": "元丰七年（1084年）五月",
+      "description": "创作《题西林壁》处",
+      "works": [
+        "题西林壁"
+      ],
+      "importance": "secondary",
+      "lat": 29.549505,
+      "lng": 115.992044,
+      "modern_address": "江西省九江市庐山市庐山",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "庐山",
+      "ancient_name": "庐山",
+      "type": "scenic",
+      "period": "元丰七年（1084年）五月",
+      "description": "创作《初入庐山》处",
+      "works": [
+        "初入庐山"
+      ],
+      "importance": "secondary",
+      "lat": 29.448225,
+      "lng": 116.045118,
+      "modern_address": "江西省九江市庐山市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西林寺",
+      "ancient_name": "西林寺",
+      "type": "temple",
+      "period": "",
+      "description": "苏轼题诗处",
+      "works": [],
+      "importance": "secondary",
+      "lat": 29.448225,
+      "lng": 116.045118,
+      "modern_address": "江西省九江市庐山市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS029",
     "pinyin_id": "lushan",
@@ -155,12 +226,12 @@
   },
   "modern_visit": {
     "amap_poi_id": "B031803HUW",
-    "amap_name": "庐山国家级旅游风景名胜区",
-    "address": "牯岭镇河西路48号",
-    "location": "115.973108,29.522059",
+    "amap_name": "庐山风景名胜区",
+    "address": "牯岭镇",
+    "location": "115.9868,29.563",
     "cityname": "九江市",
     "adname": "庐山市",
-    "type": "风景名胜;风景名胜;国家级景点",
+    "type": "风景名胜;风景名胜;5A景区",
     "typecode": "110202",
     "tel": "4009006162",
     "rating": null,
@@ -184,5 +255,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:20.000Z"
+  "amap_updated_at": "2026-06-03T05:15:20.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "牯岭镇河西路48号"
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "汴京南郊门户，入京前最后官道驿站。",
+  "background": "尉氏即今河南尉氏，汴京南郊门户。苏轼进京途经此地，驿道通畅、柳荫夹道，是入京前最后的官道驿站，京师在望。",
   "extended_story": "抵达尉氏，即将进入京畿地界，\n心境静待铨选授官。",
   "essence": "汴京南部门户节点",
   "tags": [
@@ -41,36 +41,56 @@
       "S2"
     ]
   },
-  "modern_visit": {
-    "amap_poi_id": "B0FFGQPFYP",
-    "amap_name": "尉氏收费站(S83兰南高速出口)",
-    "address": "尉氏县",
-    "location": "114.282227,34.429908",
-    "cityname": "开封市",
-    "adname": "尉氏县",
-    "type": "道路附属设施;收费站;收费站",
-    "typecode": "180200",
-    "tel": [],
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFGQPFYP/comment/content_media_external_images_media_100019074_1739095222760_01744616.jpg"
-      },
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/1ec77853a244f77fb708aaa6347c87b9"
-      },
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/224d9e1353712a5718c20a5077a405d3"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
-  "amap_updated_at": "2026-06-03T05:16:06.000Z"
+  "modern_visit": {},
+  "amap_updated_at": "2026-06-03T05:16:06.000Z",
+  "lat": 34.429908,
+  "lng": 114.282227,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "尉氏县",
+  "sub_places": [
+    {
+      "name": "尉氏居所",
+      "ancient_name": "尉氏居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在尉氏的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.429908,
+      "lng": 114.282227,
+      "modern_address": "尉氏县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p174-001",
+      "date": "1061年",
+      "title": "经尉氏西行",
+      "description": "苏轼自汴京出发经尉氏西行赴凤翔",
+      "significance": "京西首站"
+    }
+  ],
+  "foods": [
+    {
+      "name": "尉氏烩面",
+      "description": "尉氏传统面食，宽面条配羊肉汤，浓香暖胃"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "阮籍啸台",
+      "description": "竹林七贤阮籍遗迹，尉氏名胜",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "尉氏",
+      "type": "诗",
+      "note": "途经尉氏所作",
+      "year_estimate": 1071
+    }
+  ]
 }

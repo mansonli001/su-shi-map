@@ -3,14 +3,14 @@
   "ancient_name": "宜兴",
   "modern_name": "江苏宜兴",
   "type": "main",
-  "lat": 31.338429,
-  "lng": 119.821873,
+  "lat": 31.358,
+  "lng": 119.823,
   "related_routes": [
     "R11",
     "R12"
   ],
   "summary": "",
-  "background": "太湖西岸山水田园胜地，溪山环抱、村落连片，兼具湖光与乡野之美。",
+  "background": "宜兴即今江苏宜兴，太湖西岸山水胜地。苏轼曾在此置田产，溪山环抱、村落连片，是苏轼最向往的归隐之地。",
   "tags": [
     "main",
     "pastoral",
@@ -27,7 +27,13 @@
       "id": "p205-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "菩萨蛮·买田阳羡吾将老",
+      "type": "词",
+      "description": "苏轼宜兴买田归隐之作"
+    }
+  ],
   "route_events": {
     "R11": {
       "duration": "1084年太湖田园流连闲居",
@@ -55,10 +61,45 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "宜兴东坡书院",
+      "description": "苏轼买田阳羡纪念地",
+      "type": "书院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宜兴乌饭",
+      "description": "宜兴传统美食",
+      "origin_story": "宜兴传统美食",
+      "tag": "宜兴特色"
+    },
+    {
+      "name": "宜兴百合",
+      "description": "宜兴特产",
+      "origin_story": "宜兴特产",
+      "tag": "宜兴特色"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "信州官署",
+      "ancient_name": "信州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在宜兴的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.338429,
+      "lng": 119.821873,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用宜兴中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS157",
     "pinyin_id": null,
@@ -74,7 +115,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.235Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省无锡市宜兴市",
   "coords_updated_at": "2026-06-01T10:17:04.327Z",
   "duration_summary": {
@@ -90,13 +131,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFFA55WB",
-    "amap_name": "宜兴阳羡生态旅游度假区",
-    "address": [],
-    "location": "119.753368,31.203544",
-    "cityname": "无锡市",
-    "adname": "宜兴市",
-    "type": "风景名胜;风景名胜;国家级景点",
-    "typecode": "110202",
+    "amap_name": "东坡书院(宜兴)",
+    "address": "丁蜀镇",
+    "location": "119.823,31.358",
+    "cityname": "宜兴市",
+    "adname": "丁蜀镇",
+    "type": "风景名胜;风景名胜;书院",
+    "typecode": "110201",
     "tel": "0510-87980908",
     "rating": null,
     "cost": null,

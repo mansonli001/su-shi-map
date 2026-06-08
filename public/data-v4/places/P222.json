@@ -7,7 +7,7 @@
     "R04",
     "R18"
   ],
-  "background": "南北交通大动脉，万里南迁主干航道。",
+  "background": "长江万里，苏轼一生多次往返的大动脉。出蜀、归丧、南贬、北归，长江见证了苏轼人生的每一次重大转折。",
   "extended_story": "顺长江千里东下，江天辽阔，\n身世浮沉尽付大江流水。",
   "essence": "万里南迁主干大江航道",
   "tags": [
@@ -58,7 +58,41 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:51.000Z",
-  "lat": 30.6,
-  "lng": 114.3,
-  "_latlng_source": "preset"
+  "lat": 30.418464,
+  "lng": 114.88482,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "黄州区",
+  "sub_places": [
+    {
+      "name": "长江附近驿馆",
+      "ancient_name": "长江附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长江的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.418464,
+      "lng": 114.88482,
+      "modern_address": "黄州区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p222-001",
+      "date": "1066年",
+      "title": "溯长江中游西行",
+      "description": "苏轼扶柩溯长江中游西行归蜀",
+      "significance": "归蜀水路中段"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "长江",
+      "type": "诗",
+      "note": "沿长江行舟所作",
+      "year_estimate": 1080
+    }
+  ]
 }

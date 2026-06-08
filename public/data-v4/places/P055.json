@@ -3,15 +3,15 @@
   "ancient_name": "海州",
   "modern_name": "江苏连云港",
   "type": "main",
-  "lat": 34.5973,
-  "lng": 119.2225,
+  "lat": 34.5965,
+  "lng": 119.2215,
   "related_routes": [
     "R07",
     "R08",
     "R12"
   ],
   "summary": "苏轼北行途经海州，游孔望山",
-  "background": "海州今江苏连云港，苏轼北行赴密州途经此地",
+  "background": "海州（今连云港），东海之滨。苏轼途经海州，花果山云雾缭绕，黄海波涛壮阔。",
   "tags": [
     "海州",
     "孔望山",
@@ -28,6 +28,13 @@
       "title": "过海州",
       "description": "苏轼北行途经海州",
       "significance": "途经海州"
+    },
+    {
+      "id": "p055-002",
+      "date": "1074年",
+      "title": "经海州赴密州",
+      "description": "苏轼自杭州调密州途经海州",
+      "significance": "赴任途经"
     }
   ],
   "global_works": [],
@@ -89,17 +96,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.567054,
+      "lng": 119.174729,
+      "modern_address": "盐河南路"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "连云港海鲜",
+      "description": "海州临海，鱼虾贝蟹丰富，苏轼或品此鲜"
+    }
+  ],
   "transport": {
     "train": "连云港站",
     "bus": "连云港汽车站",
     "car": "沈海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "广信军衙",
+      "ancient_name": "广信军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在海州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.567054,
+      "lng": 119.174729,
+      "modern_address": "盐河南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "孔望山",
+      "ancient_name": "孔望山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼北行途经海州，曾游孔望山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.567054,
+      "lng": 119.174729,
+      "modern_address": "盐河南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS146",
     "pinyin_id": "haizhou",
@@ -144,5 +188,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:42.000Z"
+  "amap_updated_at": "2026-06-03T05:14:42.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "盐河南路"
 }

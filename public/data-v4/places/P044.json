@@ -3,14 +3,14 @@
   "ancient_name": "凤翔",
   "modern_name": "陕西宝鸡凤翔区",
   "type": "official",
-  "lat": 34.5234,
-  "lng": 107.3962,
+  "lat": 34.522167,
+  "lng": 107.401029,
   "related_routes": [
     "R03",
     "R04"
   ],
   "summary": "苏轼任凤翔府签判两年，这是他正式仕途起点",
-  "background": "凤翔府是关中重要城市，苏轼嘉祐六年任大理评事签书凤翔府判官，在此期间创作多篇诗文",
+  "background": "凤翔（今属宝鸡），关中西府重镇。苏轼初仕任凤翔签判，'和子由渑池怀旧'即作于赴凤翔途中，'人生到处知何似'由此发问。",
   "tags": [
     "凤翔",
     "仕途起点",
@@ -65,6 +65,31 @@
       "route_id": "R04",
       "note": "丧亲南行途中感怀所作，情真意切",
       "poem_id": "S012"
+    },
+    {
+      "title": "和子由踏青",
+      "type": "诗",
+      "description": "人闲正好路旁饮，麦寒未许桃争春。"
+    },
+    {
+      "title": "和子由寒食",
+      "type": "诗",
+      "description": "花开花落各有时，此花不比他花短。"
+    },
+    {
+      "title": "次韵子由除日元日省宿",
+      "type": "诗",
+      "description": "努力尽今夕，少年犹可夸。"
+    },
+    {
+      "title": "守岁",
+      "type": "诗",
+      "description": "努力尽今夕，少年犹可夸。"
+    },
+    {
+      "title": "次韵子由除日见寄",
+      "type": "诗",
+      "description": "薄薄酒，胜茶汤；粗粗布，胜无裳。"
     }
   ],
   "route_events": {
@@ -114,7 +139,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区"
     },
     {
       "id": "fx-s002",
@@ -128,7 +156,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区"
     },
     {
       "id": "fx-s003",
@@ -142,17 +173,117 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区"
+    },
+    {
+      "name": "颍州西湖",
+      "description": "苏轼知颍州时常游之地，'大千起灭一尘里'即咏此湖",
+      "type": "景区"
+    },
+    {
+      "name": "欧阳修纪念馆",
+      "description": "欧阳修终老颍州，苏轼为其文集作序",
+      "type": "纪念馆"
+    },
+    {
+      "name": "凤翔苏轼纪念馆",
+      "description": "纪念苏轼在凤翔事迹的专题展馆",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "凤翔豆花泡馍",
+      "description": "凤翔传统早餐",
+      "origin_story": "凤翔传统美食",
+      "tag": "凤翔必吃"
+    },
+    {
+      "name": "西凤酒",
+      "description": "凤翔名酒，中国四大名酒之一",
+      "origin_story": "苏轼在凤翔时常饮西凤酒",
+      "tag": "凤翔必喝"
+    },
+    {
+      "name": "凤翔腊驴肉",
+      "description": "凤翔名产，驴肉腊制后肉质紧实，佐酒佳品"
+    }
+  ],
   "transport": {
     "train": "凤翔站 / 宝鸡站",
     "bus": "凤翔汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "凤翔府衙",
+      "ancient_name": "凤翔府衙",
+      "type": "residence",
+      "period": "1061-1064年",
+      "description": "苏轼任凤翔府签判时的居所",
+      "works": [
+        "凤翔八观诗"
+      ],
+      "importance": "primary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤翔东湖",
+      "ancient_name": "凤翔东湖",
+      "type": "scenic",
+      "period": "1061-1064年",
+      "description": "苏轼疏浚凤翔东湖，建君子亭、宛在亭等",
+      "works": [
+        "凤翔东湖"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "仙游潭中兴寺",
+      "ancient_name": "仙游潭中兴寺",
+      "type": "scenic",
+      "period": "1062年3月",
+      "description": "苏轼《留题仙游潭中兴寺》，有玉女洞、马融读书石室",
+      "works": [
+        "留题仙游潭中兴寺"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤鸣驿",
+      "ancient_name": "凤鸣驿",
+      "type": "scenic",
+      "period": "1061-1064年",
+      "description": "苏轼《凤鸣驿记》记载的驿站",
+      "works": [
+        "凤鸣驿记"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS008",
     "pinyin_id": "fengxiang",
@@ -214,5 +345,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:35.000Z"
+  "amap_updated_at": "2026-06-03T05:14:35.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "陕西省宝鸡市凤翔区"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "凤凰山",
   "modern_name": "浙江杭州凤凰山",
   "type": "around",
-  "lat": 30.233,
-  "lng": 120.1646,
+  "lat": 30.246,
+  "lng": 120.14,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
-  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "background": "凤凰山，杭州城南名山。苏轼再知杭州时常游此地，山势如凤、古木参天，俯瞰西湖与钱塘江。",
   "tags": [
     "杭州",
     "西湖",
@@ -122,16 +122,51 @@
       "url": "",
       "rating": "",
       "distance": ""
+    },
+    {
+      "name": "飞英塔",
+      "description": "湖州标志性古塔，塔中塔奇观，苏轼或曾登临",
+      "type": "古迹"
+    },
+    {
+      "name": "铁佛寺",
+      "description": "湖州古刹，宋代铁铸观音像，苏轼在湖时常访",
+      "type": "古迹"
+    },
+    {
+      "name": "凤凰山遗址",
+      "description": "南宋皇城遗址，苏轼时代为州治所在",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "杭州片儿川",
+      "description": "杭州传统面食，笋片雪菜肉丝，苏轼或曾品尝"
+    }
+  ],
   "transport": {
     "train": "杭州站/杭州东站",
     "bus": "杭州汽车站",
     "car": "沪杭高速/杭宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "凤凰山州衙",
+      "ancient_name": "凤凰山州衙",
+      "type": "residence",
+      "period": "1071-1074年",
+      "description": "苏轼任杭州通判时寓居凤凰山州衙",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.241947,
+      "lng": 120.171375,
+      "modern_address": "浙江省杭州市上城区凤凰山脚路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": "hangzhou",
@@ -173,5 +208,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:34.000Z"
+  "amap_updated_at": "2026-06-03T05:14:34.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "浙江省杭州市上城区凤凰山脚路"
 }

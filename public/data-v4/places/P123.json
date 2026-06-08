@@ -3,13 +3,13 @@
   "ancient_name": "渑池",
   "modern_name": "河南渑池",
   "type": "main",
-  "lat": 34.767,
-  "lng": 111.77,
+  "lat": 34.767937,
+  "lng": 111.761753,
   "related_routes": [
     "R01"
   ],
   "summary": "苏轼两次经过渑池，留下名篇《和子由渑池怀旧》",
-  "background": "'人生到处知何似，应似飞鸿踏雪泥' - 苏轼在渑池写下这篇千古名篇",
+  "background": "渑池，苏轼与弟苏辙唱和之地。'人生到处知何似，应似飞鸿踏雪泥'，渑池古寺、墙壁旧题，是苏轼对人生无常最深刻的哲思凝练。",
   "tags": [
     "怀旧",
     "名篇",
@@ -86,17 +86,59 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县"
+    },
+    {
+      "name": "渑池会盟台",
+      "description": "秦赵会盟之地，苏轼途经渑池作'和子由渑池怀旧'",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "渑池仰韶酒",
+      "description": "渑池传统名酒，仰韶文化发源地，苏轼或饮此酒"
+    }
+  ],
   "transport": {
     "train": "渑池站 / 渑池南站",
     "bus": "渑池汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "南安军衙",
+      "ancient_name": "南安军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在渑池的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "秦赵会盟台",
+      "ancient_name": "秦赵会盟台",
+      "type": "ruins",
+      "period": "",
+      "description": "战国时期秦赵会盟之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS140",
     "pinyin_id": "mianchi",
@@ -158,5 +200,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:29.000Z"
+  "amap_updated_at": "2026-06-03T05:15:29.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "河南省三门峡市渑池县"
 }

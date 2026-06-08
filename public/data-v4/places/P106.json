@@ -3,13 +3,13 @@
   "ancient_name": "六井遗迹",
   "modern_name": "浙江杭州六井",
   "type": "around",
-  "lat": 30.2586,
-  "lng": 120.162,
+  "lat": 30.249,
+  "lng": 120.15,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼任杭州通判期间疏浚西湖、堆筑苏堤，留下千古名篇",
-  "background": "杭州是北宋重要商业城市，西湖风景秀丽，苏轼任杭州通判两年期间创作大量诗文",
+  "background": "南雄即今广东南雄，梅岭以南第一城。苏轼贬惠州翻梅岭后经此，珠玑巷古驿犹存，是入粤的门户。",
   "tags": [
     "杭州",
     "西湖",
@@ -93,7 +93,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "浙江省杭州市西湖区"
     },
     {
       "id": "hz-s002",
@@ -107,7 +110,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "孤山路俞楼东侧"
     },
     {
       "id": "hz-s003",
@@ -121,17 +127,128 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.240826,
+      "lng": 120.101406,
+      "modern_address": "法云弄1号"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "西湖醋鱼",
+      "description": "杭州名菜，以西湖草鱼烹制，酸甜鲜嫩"
+    }
+  ],
   "transport": {
     "train": "杭州站/杭州东站",
     "bus": "杭州汽车站",
     "car": "沪杭高速/杭宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "六井遗迹州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在六井遗迹的居所",
+      "importance": "primary",
+      "ancient_name": "六井遗迹州衙",
+      "lat": 30.2586,
+      "lng": 120.162,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用六井遗迹中心坐标作为参考"
+    },
+    {
+      "name": "杭州西湖",
+      "ancient_name": "杭州西湖",
+      "type": "scenic",
+      "period": "熙宁四年（1071年）",
+      "description": "创作《饮湖上初晴后雨》处",
+      "works": [
+        "饮湖上初晴后雨"
+      ],
+      "importance": "secondary",
+      "lat": 30.222692,
+      "lng": 120.121358,
+      "modern_address": "西湖街道龙井路1号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖苏堤",
+      "ancient_name": "西湖苏堤",
+      "type": "dam",
+      "period": "",
+      "description": "苏轼任杭州通判时疏浚西湖，堆筑苏堤",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.259242,
+      "lng": 120.130396,
+      "modern_address": "浙江省杭州市西湖区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "六一泉",
+      "ancient_name": "六一泉",
+      "type": "spring",
+      "period": "",
+      "description": "苏轼命名纪念欧阳修",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "孤山路俞楼东侧",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "灵隐寺",
+      "ancient_name": "灵隐寺",
+      "type": "temple",
+      "period": "",
+      "description": "杭州最著名的寺庙之一，苏轼常游此地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.240826,
+      "lng": 120.101406,
+      "modern_address": "法云弄1号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "通判，寓居凤凰山任杭州",
+      "ancient_name": "通判，寓居凤凰山任杭州",
+      "type": "office",
+      "period": "熙宁四年（1071年）十一月二十八日",
+      "description": "从任杭州通判中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.2586,
+      "lng": 120.162,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "杭州",
+      "ancient_name": "杭州",
+      "type": "office",
+      "period": "熙宁四年（1071年）十一月二十八日",
+      "description": "从任杭州通判中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.2586,
+      "lng": 120.162,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": "hangzhou",
@@ -186,5 +303,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:18.000Z"
+  "amap_updated_at": "2026-06-03T05:15:18.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "西湖街道龙井路1号"
 }

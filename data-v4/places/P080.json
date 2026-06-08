@@ -3,14 +3,14 @@
   "ancient_name": "剑门关",
   "modern_name": "四川剑阁剑门关",
   "type": "main",
-  "lat": 32.2857,
-  "lng": 105.5247,
+  "lat": 32.1485,
+  "lng": 105.8949,
   "related_routes": [
     "R01",
     "R05"
   ],
   "summary": "蜀道第一关，三苏出蜀必经之地",
-  "background": "剑门关是蜀道第一关，自古兵家必争之地，三苏出蜀必过剑门",
+  "background": "剑门关，蜀道天险。'剑阁峥嵘而崔嵬'，苏轼出蜀经剑门关，一夫当关万夫莫开的雄关气势。",
   "tags": [
     "蜀道",
     "剑门",
@@ -25,6 +25,13 @@
       "title": "第一次过剑门关",
       "description": "三苏出蜀途经剑门关，这是蜀道第一关",
       "significance": "蜀道第一关"
+    },
+    {
+      "id": "p080-002",
+      "date": "1056年",
+      "title": "过剑门关出蜀",
+      "description": "苏轼首次出蜀过剑门关，'剑阁峥嵘而崔嵬'",
+      "significance": "蜀道天险"
     }
   ],
   "global_works": [],
@@ -87,17 +94,70 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县"
+    },
+    {
+      "name": "剑门关景区",
+      "description": "蜀道天险，5A级景区",
+      "type": "景区"
+    },
+    {
+      "name": "剑门蜀道",
+      "description": "全国重点文物保护单位，古蜀道精华段",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "剑门豆腐宴",
+      "description": "剑门关名菜",
+      "origin_story": "剑门关传统美食",
+      "tag": "剑门必吃"
+    },
+    {
+      "name": "剑门关土鸡",
+      "description": "剑门山区散养土鸡，肉质紧实，炖汤鲜美"
+    }
+  ],
   "transport": {
     "train": "剑门关站",
     "bus": "剑阁汽车站",
     "car": "京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "济州官署",
+      "ancient_name": "济州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在剑门关的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "剑门关",
+      "ancient_name": "剑门关",
+      "type": "pass",
+      "period": "",
+      "description": "蜀道第一关，自古兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS122",
     "pinyin_id": "jianmen",
@@ -154,5 +214,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:00.000Z"
+  "amap_updated_at": "2026-06-03T05:15:00.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "四川省广元市剑阁县"
 }

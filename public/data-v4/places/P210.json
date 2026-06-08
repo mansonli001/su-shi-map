@@ -3,13 +3,13 @@
   "ancient_name": "颍州颍水",
   "modern_name": "安徽阜阳颍水",
   "type": "sight",
-  "lat": 32.8898,
-  "lng": 115.8146,
+  "lat": 32.91,
+  "lng": 115.76,
   "related_routes": [
     "R16"
   ],
   "summary": "苏轼南下途经颍州，拜访退隐的欧阳修",
-  "background": "颍州今安徽阜阳，欧阳修晚年退隐于此，苏轼南下任杭州通判时绕道拜访",
+  "background": "颍水，颍州境内河流。苏轼拜访欧阳修时或曾泛舟颍水，水清岸绿、荷香四溢，是颍州最秀美的水路。",
   "tags": [
     "颍州",
     "欧阳修"
@@ -38,7 +38,13 @@
       "id": "p210-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "颍州颍水",
+      "type": "诗",
+      "description": "苏轼知颍州时咏颍水之作"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -64,17 +70,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "颍州枕头馍",
+      "description": "阜阳传统面食，形如枕头，酥软可口"
+    }
+  ],
   "transport": {
     "train": "阜阳站",
     "bus": "阜阳汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "盐官县衙",
+      "ancient_name": "盐官县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在颍州颍水的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "lake",
+      "period": "",
+      "description": "欧阳修退隐颍州，常游西湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS036",
     "pinyin_id": "yingzhou",
@@ -124,5 +167,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:39.000Z"
+  "amap_updated_at": "2026-06-03T05:16:39.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "安徽省阜阳市颍州区"
 }

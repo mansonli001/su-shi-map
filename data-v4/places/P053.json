@@ -3,13 +3,13 @@
   "ancient_name": "光州",
   "modern_name": "河南潢川",
   "type": "main",
-  "lat": 32.1335,
-  "lng": 115.0468,
+  "lat": 32.131426,
+  "lng": 115.051683,
   "related_routes": [
     "R10"
   ],
   "summary": "苏轼被贬黄州途经光州",
-  "background": "光州今河南潢川，苏轼从汴京被贬往黄州时途经此地",
+  "background": "光州（今潢川），淮河南岸古城。苏轼途经光州，淮水为界、南北分野，中原与荆楚在此交汇。",
   "tags": [
     "光州",
     "潢川",
@@ -23,6 +23,13 @@
       "title": "过光州赴黄州",
       "description": "苏轼被贬黄州，途经光州",
       "significance": "途经光州"
+    },
+    {
+      "id": "p053-002",
+      "date": "1080年",
+      "title": "贬谪经光州",
+      "description": "苏轼贬谪黄州途经光州",
+      "significance": "贬谪途经"
     }
   ],
   "global_works": [],
@@ -54,17 +61,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.131426,
+      "lng": 115.051683,
+      "modern_address": "河南省信阳市潢川县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "潢川贡面",
+      "description": "光州传统名产，细如发丝的面条，爽滑筋道"
+    }
+  ],
   "transport": {
     "train": "潢川站",
     "bus": "潢川汽车站",
     "car": "沪陕高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "光州官署",
+      "ancient_name": "光州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在光州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.131426,
+      "lng": 115.051683,
+      "modern_address": "河南省信阳市潢川县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "光州古城",
+      "ancient_name": "光州古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "苏轼被贬黄州途经光州",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.131426,
+      "lng": 115.051683,
+      "modern_address": "河南省信阳市潢川县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "guangzhou_henan",
@@ -121,5 +165,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:40.000Z"
+  "amap_updated_at": "2026-06-03T05:14:40.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "河南省信阳市潢川县"
 }

@@ -1,0 +1,79 @@
+{
+  "place_id": "P119",
+  "ancient_name": "密州",
+  "modern_name": "诸城",
+  "city": "诸城市",
+  "main_coords": {
+    "name": "密州州衙",
+    "lat": 35.998708,
+    "lng": 119.410242,
+    "modern_address": "山东省潍坊市诸城市",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任密州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "密州州衙",
+      "ancient_name": "密州州衙",
+      "type": "residence",
+      "period": "1074-1076年",
+      "description": "苏轼任密州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "密州州衙原址已无存，坐标为诸城市区参考位置"
+    },
+    {
+      "name": "超然台",
+      "ancient_name": "超然台",
+      "type": "scenic",
+      "period": "1075-1076年",
+      "description": "苏轼在州署后园筑台，取'超然物外'之意，写下《水调歌头·明月几时有》《超然台记》",
+      "works": [
+        "水调歌头·明月几时有",
+        "超然台记"
+      ],
+      "importance": "primary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市超然台",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "常山",
+      "ancient_name": "常山",
+      "type": "scenic",
+      "period": "1075-1076年",
+      "description": "苏轼常山祭雨、出猎，写下《江城子·密州出猎》",
+      "works": [
+        "江城子·密州出猎"
+      ],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "常山在诸城市南，需进一步确认现代位置"
+    }
+  ],
+  "report": {
+    "place_id": "P119",
+    "ancient_name": "密州",
+    "city": "诸城市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "密州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 2,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.750698"
+}

@@ -3,8 +3,8 @@
   "ancient_name": "陈州",
   "modern_name": "河南淮阳",
   "type": "main",
-  "lat": 33.731543,
-  "lng": 114.852604,
+  "lat": 33.7322,
+  "lng": 114.6525,
   "related_routes": [
     "R06",
     "R10",
@@ -12,7 +12,7 @@
     "R16"
   ],
   "summary": "苏轼赴杭州途经陈州，拜访张方平、会见苏辙",
-  "background": "陈州今河南淮阳，苏轼南下任杭州通判时途经此地，拜访致仕的张方平，并与在此任教授的苏辙相见",
+  "background": "陈州（今淮阳），中原古城，太昊伏羲氏之都。苏轼早年曾游陈州，与弟弟苏辙在此相聚。",
   "tags": [
     "陈州",
     "淮阳",
@@ -36,6 +36,13 @@
       "description": "苏轼赴陈州探访张方平",
       "significance": "personal",
       "id": "p020-002"
+    },
+    {
+      "id": "p020-003",
+      "date": "1071年",
+      "title": "过陈州访苏辙",
+      "description": "苏轼赴杭州途中过陈州访弟苏辙",
+      "significance": "兄弟情深"
     }
   ],
   "global_works": [],
@@ -119,7 +126,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区"
     },
     {
       "id": "cz-s002",
@@ -133,17 +143,72 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "陈州胡辣汤",
+      "description": "河南传统早餐",
+      "origin_story": "陈州传统美食",
+      "tag": "陈州特色"
+    }
+  ],
   "transport": {
     "train": "淮阳站",
     "bus": "淮阳汽车站",
     "car": "商周高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "陈州府衙",
+      "ancient_name": "陈州府衙",
+      "type": "residence",
+      "period": "1071年",
+      "description": "苏轼在陈州时的居所，苏辙任陈州教授",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "柳湖",
+      "ancient_name": "柳湖",
+      "type": "scenic",
+      "period": "1071年",
+      "description": "苏轼在陈州时常游柳湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "铁墓",
+      "ancient_name": "铁墓",
+      "type": "scenic",
+      "period": "1071年",
+      "description": "陈胡公墓，苏轼《记铁墓厄台》记载",
+      "works": [
+        "记铁墓厄台"
+      ],
+      "importance": "secondary",
+      "lat": 33.838116,
+      "lng": 114.785567,
+      "modern_address": "河南省周口市淮阳区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS063",
     "pinyin_id": "chengzhou",
@@ -159,7 +224,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.249Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "河南省周口市淮阳区",
   "coords_updated_at": "2026-06-01T10:17:04.311Z",
   "duration_summary": {
@@ -205,5 +270,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:12.000Z"
+  "amap_updated_at": "2026-06-03T05:14:12.000Z",
+  "sxzk_address": "河南省周口市淮阳区"
 }

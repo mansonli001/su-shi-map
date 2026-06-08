@@ -1,0 +1,47 @@
+{
+  "place_id": "P174",
+  "ancient_name": "尉氏",
+  "modern_name": "河南尉氏",
+  "city": "河南尉氏市",
+  "processed_at": "2026-06-07T23:25:28.938093",
+  "main_coords": {
+    "name": "尉氏居所",
+    "lat": 34.429908,
+    "lng": 114.282227,
+    "modern_address": "尉氏县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "尉氏居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "尉氏居所",
+      "ancient_name": "尉氏居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在尉氏的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.429908,
+      "lng": 114.282227,
+      "modern_address": "尉氏县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P174",
+    "ancient_name": "尉氏",
+    "city": "河南尉氏市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "尉氏居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:44.542522"
+}

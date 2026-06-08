@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "西江百里画廊，碧水蜿蜒、两岸峰林叠翠，\n山水相依、一步一景，岭南最美内河航道。",
+  "background": "西江百里画廊，碧水蜿蜒、两岸峰林叠翠。苏轼南贬舟行西江，山水如画、一步一景，是岭南最美内河航道。",
   "extended_story": "泛舟西江逆流北行，\n重看当年贬途山水，如今只作闲游观览，\n苦难已成过往，只剩山河清宁。",
   "essence": "归途怀旧标志性山水画廊",
   "tags": [
@@ -60,5 +60,77 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:17.000Z"
+  "amap_updated_at": "2026-06-03T05:15:17.000Z",
+  "lat": 23.229601,
+  "lng": 113.201483,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "鸦岗南大道沙场路自编1号",
+  "sub_places": [
+    {
+      "name": "岭南西江水路",
+      "ancient_name": "岭南西江水路",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经岭南西江水路",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.229601,
+      "lng": 113.201483,
+      "modern_address": "鸦岗南大道沙场路自编1号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p105-001",
+      "date": "1100年",
+      "title": "沿西江水路北归",
+      "description": "苏轼沿岭南西江水路北归",
+      "significance": "北归水路"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "答陈述古二首",
+      "type": "诗",
+      "description": "能使人间风浪静，一时天下颂清平。"
+    },
+    {
+      "title": "次韵秦太虚见戏",
+      "type": "诗",
+      "description": "青春不觉老来侵，白发从他绕鬓深。"
+    },
+    {
+      "title": "次韵陈述古",
+      "type": "诗",
+      "description": "年来诗券压还醉，检点尤惊老更宜。"
+    },
+    {
+      "title": "自用前韵",
+      "type": "诗",
+      "description": "平生到处自知游，晚节都行的小低头。"
+    },
+    {
+      "title": "金山题像",
+      "type": "诗",
+      "description": "心似已灰之木，身如不系之舟。"
+    },
+    {
+      "title": "次韵法芝举旧诗",
+      "type": "诗",
+      "description": "春来何处归，春去何所之。"
+    },
+    {
+      "title": "次韵林子中王彦祖",
+      "type": "诗",
+      "description": "我本世间飘荡客，此心安处是吾乡。"
+    },
+    {
+      "title": "次韵林子中见寄",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    }
+  ]
 }

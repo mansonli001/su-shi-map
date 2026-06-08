@@ -3,14 +3,14 @@
   "ancient_name": "颍州西湖",
   "modern_name": "安徽阜阳颍州西湖",
   "type": "sight",
-  "lat": 32.8951,
-  "lng": 115.786,
+  "lat": 32.902,
+  "lng": 115.755,
   "related_routes": [
     "R06",
     "R16"
   ],
   "summary": "苏轼南下途经颍州，拜访退隐的欧阳修",
-  "background": "颍州今安徽阜阳，欧阳修晚年退隐于此，苏轼南下任杭州通判时绕道拜访",
+  "background": "颍州西湖，欧阳修退隐时常游之地。苏轼绕道拜访恩师，湖上荷风、亭台掩映，是两代文宗的精神传承。",
   "tags": [
     "颍州",
     "欧阳修",
@@ -44,7 +44,48 @@
       "id": "p209-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "颍州西湖",
+      "type": "诗",
+      "description": "苏轼经颍州西湖所作"
+    },
+    {
+      "title": "饮湖上初晴后雨二首（其二）",
+      "type": "诗",
+      "description": "欲把西湖比西子，淡妆浓抹总相宜。"
+    },
+    {
+      "title": "法惠寺横翠阁",
+      "type": "诗",
+      "description": "此生飘荡何时定，一缕游丝不可缰。"
+    },
+    {
+      "title": "梵天寺见僧守诜小饮漫成",
+      "type": "诗",
+      "description": "一盂春饭淡茶苦，半夜秋灯韦杜红。"
+    },
+    {
+      "title": "东园",
+      "type": "诗",
+      "description": "东园春风花乱飞，满园红紫已成蹊。"
+    },
+    {
+      "title": "书李世南所画秋景",
+      "type": "诗",
+      "description": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "title": "于潜僧绿筠轩",
+      "type": "诗",
+      "description": "可使食无肉，不可居无竹。"
+    },
+    {
+      "title": "新城道中",
+      "type": "诗",
+      "description": "东风知我欲山行，吹断檐间积雨声。"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -96,17 +137,59 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区"
+    },
+    {
+      "name": "颍州西湖",
+      "description": "苏轼知颍州时常游之地",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "阜阳格拉条",
+      "description": "阜阳传统面食，筋道爽滑配芝麻酱"
+    }
+  ],
   "transport": {
     "train": "阜阳站",
     "bus": "阜阳汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "宣州官署",
+      "ancient_name": "宣州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在颍州西湖的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "lake",
+      "period": "",
+      "description": "欧阳修退隐颍州，常游西湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS036",
     "pinyin_id": "yingzhou",
@@ -164,5 +247,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:38.000Z"
+  "amap_updated_at": "2026-06-03T05:16:38.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "安徽省阜阳市颍州区"
 }

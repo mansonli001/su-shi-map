@@ -1,0 +1,46 @@
+{
+  "place_id": "P201",
+  "ancient_name": "叶县",
+  "modern_name": "河南叶县",
+  "city": "河南叶县市",
+  "processed_at": "2026-06-07T23:25:29.287413",
+  "main_coords": {
+    "name": "叶县官署",
+    "lat": 33.627437,
+    "lng": 113.357476,
+    "modern_address": "叶县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "叶县官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "叶县官署",
+      "ancient_name": "叶县官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在叶县的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.627437,
+      "lng": 113.357476,
+      "modern_address": "叶县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P201",
+    "ancient_name": "叶县",
+    "city": "河南叶县市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "叶县官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:46.867585"
+}

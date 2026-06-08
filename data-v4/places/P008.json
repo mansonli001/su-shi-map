@@ -3,8 +3,8 @@
   "ancient_name": "汴京",
   "modern_name": "开封",
   "type": "main",
-  "lat": 34.798083,
-  "lng": 114.314278,
+  "lat": 34.7972,
+  "lng": 114.3496,
   "related_routes": [
     "R01",
     "R03",
@@ -20,7 +20,7 @@
     "R17"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "汴京是北宋都城，今河南开封，三苏在此科举及第，名动京师",
+  "background": "荆州即今湖北江陵，长江中游重镇。苏轼顺江出蜀至此舍舟登陆，江汉平原沃野千里、城郭巍峨，是水路出蜀的终点。",
   "tags": [
     "都城",
     "科举",
@@ -92,6 +92,11 @@
       "note": "元祐朝堂台阁雅文集成",
       "source_route": "R13",
       "poem_id": "W012"
+    },
+    {
+      "title": "渔父四首",
+      "type": "词",
+      "description": "向来枉费推移力，此日中流自在行。"
     }
   ],
   "route_events": {
@@ -312,16 +317,119 @@
       "url": "",
       "rating": "AAAA",
       "distance": ""
+    },
+    {
+      "name": "大相国寺",
+      "description": "汴京名刹，苏轼常游访品茶",
+      "type": "古迹"
+    },
+    {
+      "name": "铁塔",
+      "description": "北宋古塔，汴京地标",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "开封灌汤包",
+      "description": "北宋都城传统美食，皮薄馅大汤汁鲜美",
+      "origin_story": "汴京为北宋都城，苏轼在朝期间品尝京城美食",
+      "tag": "汴京必吃"
+    },
+    {
+      "name": "桶子鸡",
+      "description": "开封传统名菜，色泽金黄肥而不腻",
+      "origin_story": "北宋宫廷菜流传民间",
+      "tag": "汴京特色"
+    },
+    {
+      "name": "鲤鱼焙面",
+      "description": "开封名菜，糖醋鲤鱼配细如发丝的焙面",
+      "origin_story": "北宋名菜，苏轼在汴京时或有所品",
+      "tag": "汴京名菜"
+    },
+    {
+      "name": "开封桶子鸡",
+      "description": "汴京名菜，整鸡去骨填馅蒸制，鲜嫩多汁"
+    },
+    {
+      "name": "汴京烤鸭",
+      "description": "北宋宫廷名菜，汴京烤鸭为北京烤鸭前身"
+    }
+  ],
   "transport": {
     "train": "开封站 / 开封北站",
     "bus": "开封汽车中心站",
     "car": "连霍高速 / 大广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "兴国寺浴室院",
+      "ancient_name": "兴国寺浴室院",
+      "type": "residence",
+      "period": "1056年五六月间",
+      "description": "三苏初到汴京寓居之处，京师遇大雨，蔡河中夜决",
+      "works": [
+        "兴国寺浴室院六祖画赞"
+      ],
+      "importance": "primary",
+      "lat": 34.798,
+      "lng": 114.314,
+      "modern_address": "开封市龙亭区（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "兴国寺浴室院原址已无存，坐标为开封老城区参考位置",
+      "works_detail": [
+        {
+          "title": "兴国寺浴室院六祖画赞",
+          "type": "文",
+          "date": "嘉祐元年（1056年）",
+          "note": "三苏初到汴京寓居兴国寺浴室院时所作"
+        }
+      ]
+    },
+    {
+      "name": "文德殿",
+      "ancient_name": "文德殿",
+      "type": "office",
+      "period": "1086-1089年、1093年",
+      "description": "苏轼在朝任职时的办公场所",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.7981,
+      "lng": 114.3493,
+      "modern_address": "河南省开封市龙亭区文德街",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "北宋皇宫遗址在今开封龙亭公园一带"
+    },
+    {
+      "name": "御史台",
+      "ancient_name": "御史台",
+      "type": "office",
+      "period": "1079年",
+      "description": "乌台诗案苏轼被关押之处",
+      "works": [
+        "狱中寄子由二首"
+      ],
+      "importance": "primary",
+      "lat": 34.7975,
+      "lng": 114.3485,
+      "modern_address": "河南省开封市龙亭区（北宋御史台原址）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "御史台原址待考证",
+      "works_detail": [
+        {
+          "title": "狱中寄子由二首",
+          "type": "诗",
+          "date": "元丰二年（1079年）",
+          "note": "乌台诗案狱中绝笔，'圣主如天万物春，小臣愚暗自亡身'"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS164",
     "pinyin_id": "bianjing",
@@ -337,7 +445,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.252Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.307Z",
   "duration_summary": {
@@ -388,5 +496,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:04.000Z"
+  "amap_updated_at": "2026-06-03T05:14:04.000Z",
+  "sxzk_address": "开封市龙亭区"
 }

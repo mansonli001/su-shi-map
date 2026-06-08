@@ -3,19 +3,73 @@
   "ancient_name": "沂蒙山",
   "modern_name": "山东沂蒙山",
   "type": "sight",
-  "lat": 35.55,
-  "lng": 118.19,
+  "lat": 35.559735,
+  "lng": 117.977193,
   "related_routes": [
     "R08"
   ],
   "tags": [],
-  "background": "密州任满改知徐州，黄河决口任内组织抗洪。",
+  "background": "鲁中南群山，蒙山巍峨、沂水蜿蜒。苏轼任密州知州时常游沂蒙山区，狩猎于山野之间，写下《江城子·密州出猎》'老夫聊发少年狂'，是豪放词的开山之作。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p202-001",
+      "date": "1077年",
+      "title": "经沂蒙山赴徐州",
+      "description": "苏轼经沂蒙山区赴徐州任",
+      "significance": "齐鲁山岳"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "浣溪沙·徐门石潭谢雨",
+      "type": "词",
+      "description": "簌簌衣巾落枣花。"
+    },
+    {
+      "title": "浣溪沙·徐州石潭谢雨",
+      "type": "词",
+      "description": "照日深红暖见鱼，连村绿暗晚藏乌。"
+    },
+    {
+      "title": "浣溪沙·人间有味是清欢",
+      "type": "词",
+      "description": "人间有味是清欢。"
+    },
+    {
+      "title": "浣溪沙·风压轻云贴水飞",
+      "type": "词",
+      "description": "沙上不闻鸿雁信，竹间时有鹧鸪啼。"
+    },
+    {
+      "title": "浣溪沙·覆块青青麦未苏",
+      "type": "词",
+      "description": "雨后春容清更丽。"
+    },
+    {
+      "title": "点绛唇·醉漾轻舟",
+      "type": "词",
+      "description": "烟水茫茫，回首斜阳暮。"
+    },
+    {
+      "title": "减字木兰花·双囊倩女",
+      "type": "词",
+      "description": "风流太守，为爱青山能驻客。"
+    },
+    {
+      "title": "减字木兰花·晓来风细",
+      "type": "词",
+      "description": "却将旧恨，付与新诗。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
-  "foods": [],
+  "foods": [
+    {
+      "name": "沂蒙煎饼",
+      "description": "沂蒙山区传统主食，粗粮细作，酥脆筋道"
+    }
+  ],
   "transport": [],
   "sub_places": [],
   "periods": [],
@@ -52,5 +106,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:30.000Z"
+  "amap_updated_at": "2026-06-03T05:16:30.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "桃墟镇花果庄十字路口南50米路西"
 }

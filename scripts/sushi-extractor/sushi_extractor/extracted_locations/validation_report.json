@@ -1,0 +1,157 @@
+{
+  "total_count": 34,
+  "grade_distribution": {
+    "A": 15,
+    "B": 19,
+    "C": 0
+  },
+  "coord_distribution": {
+    "precise": 16,
+    "district": 18
+  },
+  "validation_summary": {
+    "valid_count": 34,
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "sample_rate": {
+    "A": 0.1,
+    "B": 0.3,
+    "C": 1.0
+  },
+  "samples": [
+    {
+      "location_id": "P023-07",
+      "location_name": "九成宫醴泉铭碑",
+      "modern_name": "九成宫醴泉铭碑",
+      "modern_address": "陕西省宝鸡市麟游县",
+      "province": "陕西省",
+      "city": "宝鸡市",
+      "district": "麟游县",
+      "coord_quality": "precise",
+      "visit_year": 1062,
+      "su_works": [
+        "凤翔八观·九成宫"
+      ],
+      "author_note": "苏轼《凤翔八观》之一",
+      "current_status": "有遗址可参观",
+      "has_memorial": false,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "游历地",
+        "古迹"
+      ],
+      "source": "李常生《苏轼行踪考》第五篇",
+      "data_quality": "A"
+    },
+    {
+      "location_id": "P000-靈隱寺",
+      "location_name": "靈隱寺",
+      "modern_name": "靈隱寺",
+      "modern_address": "浙江省杭州市",
+      "province": "浙江省",
+      "city": "杭州",
+      "coord_quality": "district",
+      "visit_year": null,
+      "stay_duration": "",
+      "su_works": [],
+      "su_quote": "",
+      "author_note": "",
+      "current_status": "有遗址可参观",
+      "has_memorial": true,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "关联地点"
+      ],
+      "source": "李常生《苏轼行踪考》",
+      "data_quality": "B"
+    },
+    {
+      "location_id": "P000-西湖",
+      "location_name": "西湖",
+      "modern_name": "西湖",
+      "modern_address": "浙江省杭州市",
+      "province": "浙江省",
+      "city": "杭州",
+      "coord_quality": "district",
+      "visit_year": null,
+      "stay_duration": "",
+      "su_works": [],
+      "su_quote": "",
+      "author_note": "",
+      "current_status": "遗址已不存",
+      "has_memorial": true,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "关联地点"
+      ],
+      "source": "李常生《苏轼行踪考》",
+      "data_quality": "B"
+    },
+    {
+      "location_id": "P023-05",
+      "location_name": "大像寺",
+      "modern_name": "大像寺",
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "province": "陕西省",
+      "city": "宝鸡市",
+      "district": "凤翔区",
+      "coord_quality": "district",
+      "visit_year": 1062,
+      "su_works": [],
+      "author_note": "苏轼曾游览",
+      "current_status": "有遗址可参观",
+      "has_memorial": false,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "游历地"
+      ],
+      "source": "李常生《苏轼行踪考》第五篇",
+      "data_quality": "B"
+    },
+    {
+      "location_id": "P000-東坡書院",
+      "location_name": "東坡書院",
+      "modern_name": "東坡書院",
+      "modern_address": "海南省儋州市",
+      "province": "海南省",
+      "city": "儋州",
+      "coord_quality": "district",
+      "visit_year": null,
+      "stay_duration": "",
+      "su_works": [],
+      "su_quote": "",
+      "author_note": "",
+      "current_status": "遗址已不存",
+      "has_memorial": true,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "关联地点"
+      ],
+      "source": "李常生《苏轼行踪考》",
+      "data_quality": "B"
+    },
+    {
+      "location_id": "P000-孤山",
+      "location_name": "孤山",
+      "modern_name": "孤山",
+      "modern_address": "浙江省杭州市",
+      "province": "浙江省",
+      "city": "杭州",
+      "coord_quality": "district",
+      "visit_year": null,
+      "stay_duration": "",
+      "su_works": [],
+      "su_quote": "",
+      "author_note": "",
+      "current_status": "遗址已不存",
+      "has_memorial": true,
+      "has_photo_in_book": true,
+      "cultural_tags": [
+        "关联地点"
+      ],
+      "source": "李常生《苏轼行踪考》",
+      "data_quality": "B"
+    }
+  ]
+}

@@ -3,21 +3,86 @@
   "ancient_name": "泗水古道",
   "modern_name": "山东泗水古道",
   "type": "sight",
-  "lat": 34,
-  "lng": 117.46,
+  "lat": 35.650638,
+  "lng": 117.238868,
   "related_routes": [
     "R08"
   ],
   "tags": [],
-  "background": "密州任满改知徐州，黄河决口任内组织抗洪。",
+  "background": "泗水流经鲁中南的古道，孔子'逝者如斯夫'即发于此。苏轼自密州赴徐州，沿泗水古道南行，河岸杨柳、古渡石桥，是齐鲁大地最有人文底蕴的水路。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p157-001",
+      "date": "1077年",
+      "title": "经泗水古道",
+      "description": "苏轼经泗水古道赴徐州",
+      "significance": "儒学故地"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "书韩魏公诗后",
+      "type": "诗",
+      "description": "苍生望霖雨，劲骨横高旌。"
+    },
+    {
+      "title": "花影",
+      "type": "诗",
+      "description": "重重叠叠上瑶台，几度呼童扫不开。"
+    },
+    {
+      "title": "花影二首",
+      "type": "诗",
+      "description": "重重叠叠上瑶台，几度呼童扫不开。"
+    },
+    {
+      "title": "次韵王定国得颖叔书",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "次韵王巩六首",
+      "type": "诗",
+      "description": "王巩才子，风流太守。"
+    },
+    {
+      "title": "济南龙洞山记",
+      "type": "文",
+      "description": "登山之路，皆石壁削立，无阶而升。"
+    },
+    {
+      "title": "放鹤亭记",
+      "type": "文",
+      "description": "清远闲放，超然于尘埃之外。"
+    },
+    {
+      "title": "永遇乐·彭城夜宿燕子楼",
+      "type": "词",
+      "description": "燕子楼空，佳人何在，空锁楼中燕。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "泗水古道",
+      "ancient_name": "泗水古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经泗水古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.650638,
+      "lng": 117.238868,
+      "modern_address": "327国道",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +117,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:54.000Z"
+  "amap_updated_at": "2026-06-03T05:15:54.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "327国道"
 }

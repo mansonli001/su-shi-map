@@ -1,0 +1,177 @@
+{
+  "place_id": "P072",
+  "ancient_name": "黄州",
+  "modern_name": "湖北黄冈",
+  "city": "黄冈市",
+  "processed_at": "2026-06-07T22:59:03.561794",
+  "main_coords": {
+    "name": "定慧院",
+    "lat": 30.443917,
+    "lng": 114.879568,
+    "modern_address": "黄冈市黄州区青砖湖路西200米",
+    "coordinate_source": "amap_poi",
+    "reason": "苏轼初到黄州的第一个居住地，按方法论以第一个居住地为主坐标"
+  },
+  "sub_places": [
+    {
+      "name": "定慧院",
+      "ancient_name": "定慧院（一作定惠院）",
+      "type": "residence",
+      "period": "1080年2月-1080年冬",
+      "description": "苏轼初到黄州的居所，寓居定慧院东侧小屋，作《卜算子·缺月挂疏桐》",
+      "works": [
+        "卜算子·黄州定慧院寓居作"
+      ],
+      "importance": "primary",
+      "lat": 30.443917,
+      "lng": 114.879568,
+      "modern_address": "黄冈市黄州区青砖湖路西200米（定惠院遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "临皋亭",
+      "ancient_name": "临皋亭",
+      "type": "residence",
+      "period": "1080年冬-1084年",
+      "description": "苏轼从定慧院迁居临皋亭，在此居住时间最长，写下大量书信和诗文",
+      "works": [
+        "临皋闲题",
+        "与范子丰书"
+      ],
+      "importance": "secondary",
+      "lat": 30.452846,
+      "lng": 114.897463,
+      "modern_address": "黄冈市黄州区遗爱湖公园内（临皋亭遗址附近）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "临皋亭原址在黄冈城南长江边，现遗爱湖公园内有临皋亭复建，坐标为复建位置"
+    },
+    {
+      "name": "东坡雪堂",
+      "ancient_name": "东坡雪堂",
+      "type": "residence",
+      "period": "1082年后",
+      "description": "苏轼在东坡躬耕后所建，自号东坡居士，雪堂为其书房兼会客之所",
+      "works": [
+        "雪堂记"
+      ],
+      "importance": "secondary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区东坡赤壁景区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "东坡雪堂原址在东坡赤壁附近，现景区内有雪堂复建，坐标为景区位置"
+    },
+    {
+      "name": "东坡赤壁",
+      "ancient_name": "赤壁",
+      "type": "scenic",
+      "period": "1082年7月、1082年10月",
+      "description": "苏轼两次游赤壁，写下《念奴娇·赤壁怀古》和前后《赤壁赋》，文赤壁，全国重点文物保护单位",
+      "works": [
+        "念奴娇·赤壁怀古",
+        "前赤壁赋",
+        "后赤壁赋"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "安国寺",
+      "ancient_name": "安国寺",
+      "type": "temple",
+      "period": "1080-1084年",
+      "description": "苏轼常去安国寺沐浴参禅，与僧人交往，每月必往",
+      "works": [
+        "安国寺浴"
+      ],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "安国寺在黄州城南，需进一步确认现代位置"
+    },
+    {
+      "name": "承天寺",
+      "ancient_name": "承天寺",
+      "type": "temple",
+      "period": "1083年",
+      "description": "苏轼与张怀民夜游承天寺，写下《记承天寺夜游》",
+      "works": [
+        "记承天寺夜游"
+      ],
+      "importance": "primary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "承天寺原址待考证，黄冈市内可能已无遗存"
+    },
+    {
+      "name": "沙湖道中",
+      "ancient_name": "沙湖道中",
+      "type": "scenic",
+      "period": "1082年3月",
+      "description": "苏轼沙湖道中遇雨，写下《定风波·莫听穿林打叶声》",
+      "works": [
+        "定风波·莫听穿林打叶声"
+      ],
+      "importance": "secondary",
+      "lat": 30.509287,
+      "lng": 114.95749,
+      "modern_address": "黄冈市黄州区路口大道539号附近",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "东坡纪念馆",
+      "ancient_name": "",
+      "type": "museum",
+      "period": "",
+      "description": "展示苏轼生平与黄州时期创作，现代纪念设施",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.452846,
+      "lng": 114.897463,
+      "modern_address": "黄冈市黄州区遗爱湖公园-苏东坡纪念馆",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P072",
+    "ancient_name": "黄州",
+    "city": "黄冈市",
+    "total_sub_places": 8,
+    "residence_count": 3,
+    "scenic_count": 2,
+    "temple_count": 2,
+    "museum_count": 1,
+    "verified_count": 6,
+    "rejected_count": 0,
+    "pending_count": 3,
+    "no_coords_count": 2,
+    "main_coords_source": "定慧院（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verification_checklist": {
+      "main_coords_from_first_residence": true,
+      "main_coords_in_city_range": true,
+      "all_coords_in_city_range": true,
+      "no_same_name_different_city_errors": true,
+      "all_coords_have_source": false,
+      "all_coords_have_verification_status": true,
+      "memorial_sites_updated": false
+    }
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:00:14.219069"
+}

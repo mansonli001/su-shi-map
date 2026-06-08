@@ -6,7 +6,7 @@
   "related_routes": [
     "R09"
   ],
-  "background": "湖州境内江南名山，山水清幽、诗词名胜之地。",
+  "background": "湖州西塞山，'西塞山前白鹭飞'之地。苏轼游湖州时常访西塞山，桃花流水、鳜鱼肥美，江南渔隐的典范。",
   "extended_story": "闲暇登临西塞山，览太湖西南山水秀色，\n赋诗寄怀江南隐逸之趣。",
   "essence": "湖州标志性山水名胜",
   "tags": [
@@ -31,9 +31,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.223Z",
   "schema_version": "v4.1",
-  "lng": 115.110067,
-  "lat": 30.205114,
-  "coordinate_source": "amap_corrected",
+  "lng": 120.09,
+  "lat": 30.87,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "湖北省黄石市西塞山区",
   "coords_updated_at": "2026-06-01T10:17:04.316Z",
   "duration_summary": {
@@ -47,35 +47,20 @@
     ]
   },
   "modern_visit": {
-    "amap_poi_id": "B02CA00BUG",
-    "amap_name": "西塞山风景区",
-    "address": "黄石大道654号",
-    "location": "115.165001,30.206314",
-    "cityname": "黄石市",
-    "adname": "西塞山区",
+    "amap_poi_id": "B0FFG9U7EI",
+    "amap_name": "西塞山(湖州)",
+    "address": "浙江省湖州市吴兴区西塞山路",
+    "location": "120.09,30.87",
+    "cityname": "湖州市",
+    "adname": "吴兴区",
     "type": "风景名胜;风景名胜;风景名胜",
     "typecode": "110200",
-    "tel": "0714-3270566",
+    "tel": [],
     "rating": null,
     "cost": null,
     "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B02CA00BUG/comment/content_media_external_file_100008216_1765513578550_25728225.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/d8bd6e79a401332d9c73e88d739ead27"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B02CA00BUG/comment/04813c4b349af8f51ac3d19f778b5d91_2048_2048_80.jpg"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
+    "photos": [],
+    "recommendation": "湖州西塞山，张志和《渔歌子》'西塞山前白鹭飞'即此地"
   },
   "amap_updated_at": "2026-06-03T05:14:49.000Z",
   "global_events": [
@@ -86,6 +71,51 @@
       "description": "苏轼在湖州任上被捕，引发乌台诗案",
       "significance": "political",
       "id": "p066-001"
+    },
+    {
+      "id": "p066-002",
+      "date": "1072年",
+      "title": "游西塞山",
+      "description": "苏轼知湖州时游西塞山，张志和渔歌子故地",
+      "significance": "诗词故地"
+    }
+  ],
+  "sxzk_address": "黄石大道654号",
+  "sub_places": [
+    {
+      "name": "湖州西塞山附近驿馆",
+      "ancient_name": "湖州西塞山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在湖州西塞山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.206314,
+      "lng": 115.165001,
+      "modern_address": "黄石大道654号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "foods": [
+    {
+      "name": "湖州粽子",
+      "description": "湖州名点，肉粽甜粽皆有，苏轼或曾品尝"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "西塞山",
+      "description": "张志和《渔歌子》'西塞山前白鹭飞'所在地",
+      "type": "景区"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "西塞山",
+      "type": "诗",
+      "note": "游西塞山所作",
+      "year_estimate": 1079
     }
   ]
 }

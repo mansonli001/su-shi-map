@@ -3,13 +3,13 @@
   "ancient_name": "白鹤峰",
   "modern_name": "广东惠州白鹤峰",
   "type": "around",
-  "lat": 23.112368,
-  "lng": 114.415587,
+  "lat": 23.0896,
+  "lng": 114.4168,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼贬惠州两年多，作《食荔枝》等诗",
-  "background": "惠州今广东惠州，苏轼于绍圣元年贬惠州安置两年多",
+  "background": "白鹤峰，惠州城东名山。苏轼谪居惠州时居于此，'日啖荔枝三百颗，不辞长作岭南人'即作于此地。",
   "tags": [
     "惠州",
     "岭南"
@@ -96,17 +96,149 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.090256,
+      "lng": 114.394446,
+      "modern_address": "环城西路2号"
+    },
+    {
+      "name": "惠州西湖",
+      "description": "苏轼贬惠州时常游之地，'一更山吐月'即咏此",
+      "type": "景区"
+    },
+    {
+      "name": "东坡祠",
+      "description": "惠州纪念苏轼的祠堂，位于白鹤峰苏轼故居旧址",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "梅菜扣肉",
+      "description": "惠州名菜",
+      "origin_story": "惠州传统名菜",
+      "tag": "惠州必吃"
+    },
+    {
+      "name": "东坡荔枝",
+      "description": "惠州荔枝名扬天下，苏轼'日啖荔枝三百颗，不辞长作岭南人'"
+    },
+    {
+      "name": "惠州盐焗鸡",
+      "description": "客家名菜，盐焗工艺使鸡肉鲜嫩多汁"
+    }
+  ],
   "transport": {
     "train": "惠州站",
     "bus": "惠州汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "白鹤峰州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在白鹤峰的居所",
+      "importance": "primary",
+      "ancient_name": "白鹤峰州衙",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用白鹤峰中心坐标作为参考"
+    },
+    {
+      "name": "惠州",
+      "ancient_name": "惠州",
+      "type": "scenic",
+      "period": "绍圣二年（1095年）",
+      "description": "创作《食荔枝》处",
+      "works": [
+        "食荔枝"
+      ],
+      "importance": "secondary",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "惠城区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "白鹤峰",
+      "ancient_name": "白鹤峰",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼在惠州时居于此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.089608,
+      "lng": 114.419182,
+      "modern_address": "滨江东路45-2号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "lake",
+      "period": "",
+      "description": "苏轼常游惠州西湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.090256,
+      "lng": 114.394446,
+      "modern_address": "环城西路2号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "到'蛮荒之地'",
+      "ancient_name": "到'蛮荒之地'",
+      "type": "office",
+      "period": "1094-1095",
+      "description": "从初到惠州·荔枝三百颗中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "惯了",
+      "ancient_name": "惯了",
+      "type": "residence",
+      "period": "1095-1097",
+      "description": "从惠州三年·推广秧马中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "儋州",
+      "ancient_name": "儋州",
+      "type": "office",
+      "period": "1095-1097",
+      "description": "从惠州三年·推广秧马中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS040",
     "pinyin_id": "huizhou",
@@ -115,7 +247,7 @@
     "v3_lat": 23.1291,
     "v3_lng": 114.2644
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "广东省惠州市",
   "coords_updated_at": "2026-06-01T10:17:04.306Z",
   "duration_summary": {
@@ -164,5 +296,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:13:59.000Z"
+  "amap_updated_at": "2026-06-03T05:13:59.000Z",
+  "sxzk_address": "滨江东路45-2号"
 }

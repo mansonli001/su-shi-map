@@ -1,0 +1,64 @@
+{
+  "place_id": "P084",
+  "ancient_name": "江陵荆州古城",
+  "modern_name": "湖北荆州古城",
+  "city": "湖北荆州古城市",
+  "processed_at": "2026-06-07T23:22:33.722526",
+  "main_coords": {
+    "name": "建康府衙",
+    "lat": 30.352984,
+    "lng": 112.190282,
+    "modern_address": "湖北省荆州市荆州区",
+    "coordinate_source": "amap_geocode",
+    "reason": "建康府衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "建康府衙",
+      "ancient_name": "建康府衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在江陵荆州古城的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "荆州古城",
+      "ancient_name": "荆州古城",
+      "type": "古城",
+      "period": "",
+      "description": "古代兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.352984,
+      "lng": 112.190282,
+      "modern_address": "湖北省荆州市荆州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P084",
+    "ancient_name": "江陵荆州古城",
+    "city": "湖北荆州古城市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "江陵荆州古城附近驿馆",
+    "rejected_details": [],
+    "parent_place": "P089",
+    "parent_place_name": "金陵",
+    "note": "江陵荆州古城为金陵的子地点",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.813248"
+}

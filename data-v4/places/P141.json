@@ -3,14 +3,14 @@
   "ancient_name": "琼州",
   "modern_name": "海口",
   "type": "main",
-  "lat": 20.0444,
-  "lng": 110.1992,
+  "lat": 20.017,
+  "lng": 110.349,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼渡海后在琼州停留",
-  "background": "琼州即今海口，苏轼渡海后在此停留，然后前往儋州",
+  "background": "琼州即今海南海口，苏轼渡海后在此短暂停留。天涯海角、椰风海韵，是苏轼踏上海南岛的第一站。",
   "tags": [
     "琼州",
     "海口",
@@ -72,17 +72,62 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 20.007686,
+      "lng": 110.359595,
+      "modern_address": "海府路169号五公祠内"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "海南鸡饭",
+      "description": "海南名菜",
+      "origin_story": "琼州传统美食",
+      "tag": "琼州必吃"
+    },
+    {
+      "name": "清补凉",
+      "description": "海南传统甜品",
+      "origin_story": "琼州传统美食",
+      "tag": "琼州特色"
+    }
+  ],
   "transport": {
     "train": "海口站",
     "bus": "海口汽车站",
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "蕲州官署",
+      "ancient_name": "蕲州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在琼州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.007686,
+      "lng": 110.359595,
+      "modern_address": "海府路169号五公祠内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "五公祠",
+      "ancient_name": "五公祠",
+      "type": "shrine",
+      "period": "",
+      "description": "纪念苏轼五公",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.007686,
+      "lng": 110.359595,
+      "modern_address": "海府路169号五公祠内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS044",
     "pinyin_id": "qiongzhou",
@@ -137,5 +182,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:44.000Z"
+  "amap_updated_at": "2026-06-03T05:15:44.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "海府路169号五公祠内"
 }

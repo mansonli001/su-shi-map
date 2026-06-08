@@ -3,19 +3,54 @@
   "ancient_name": "夔门三峡",
   "modern_name": "长江三峡（瞿塘峡）",
   "type": "sight",
-  "lat": 31.05,
-  "lng": 109.7,
+  "lat": 31.061206,
+  "lng": 109.915597,
   "related_routes": [
     "R02"
   ],
   "tags": [],
-  "background": "守制毕，父子三人沿岷江入长江，三峡水路第二次出蜀。",
+  "background": "三峡入口，瞿塘峡两岸绝壁对峙，江面骤窄、水势汹涌。苏轼顺江东下出蜀，舟行至此，但见赤甲白盐二山夹江耸立，江流奔腾如雷，是三峡最险峻的门户。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p093-001",
+      "date": "1059年",
+      "title": "出蜀过夔门",
+      "description": "苏轼随父携弟顺岷江入长江，经夔门三峡出蜀，感受长江雄险",
+      "significance": "出蜀水路门户"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "入峡",
+      "type": "诗",
+      "description": "苏轼入夔门三峡所作"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "白帝城·瞿塘峡景区",
+      "description": "三峡西入口，5A级景区",
+      "type": "景区"
+    },
+    {
+      "name": "三峡",
+      "description": "长江三峡，苏轼出蜀经此作'入峡'诗",
+      "type": "景区"
+    },
+    {
+      "name": "夔门",
+      "description": "三峡入口，'夔门天下雄'，苏轼出蜀途经",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "三峡鱼",
+      "description": "长江三峡鲜鱼，清蒸红烧皆美"
+    }
+  ],
   "transport": [],
   "sub_places": [],
   "periods": [],
@@ -52,5 +87,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:09.000Z"
+  "amap_updated_at": "2026-06-03T05:15:09.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "龙门街道龙门街道长江三峡"
 }

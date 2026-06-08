@@ -6,7 +6,7 @@
   "related_routes": [
     "R16"
   ],
-  "background": "洪泽湖沿岸千年古驿渡口，依湖而立、烟水苍茫，\n古驿临湖、渡埠错落，自带淮东古渡沧桑清寂气韵。",
+  "background": "洪泽湖古渡口，淮河水运要津。苏轼经洪泽湖渡口，南船北马在此交汇，运河与淮河的枢纽。",
   "extended_story": "驻足古渡临风望湖，烟波漫远、古驿静立，\n远离宦途奔忙，独享湖渡清寂，\n生发世事悠悠、功名皆淡的旷达之思。",
   "essence": "淮东古驿与湖景相融的标志性水景",
   "tags": [
@@ -73,5 +73,62 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:47.000Z"
+  "amap_updated_at": "2026-06-03T05:14:47.000Z",
+  "lat": 33.288749,
+  "lng": 118.840109,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "南环路33号",
+  "sub_places": [
+    {
+      "name": "洪泽湖古渡口",
+      "ancient_name": "洪泽湖古渡口",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经洪泽湖古渡口",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.288749,
+      "lng": 118.840109,
+      "modern_address": "南环路33号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p062-001",
+      "date": "1091年",
+      "title": "渡洪泽湖古渡口",
+      "description": "苏轼渡洪泽湖古渡口赴颍州",
+      "significance": "淮河渡口"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "平山堂怀古",
+      "type": "诗",
+      "description": "平山栏槛倚晴空，山色有无中。"
+    },
+    {
+      "title": "浣溪沙·颍州春月",
+      "type": "词",
+      "description": "风卷珠帘自上钩。"
+    },
+    {
+      "title": "减字木兰花·颍州西湖",
+      "type": "词",
+      "description": "郑庄好客。"
+    },
+    {
+      "title": "西江月·重九",
+      "type": "词",
+      "description": "世事一场大梦，人生几度秋凉。"
+    },
+    {
+      "title": "定风波·雨洗娟娟嫩叶光",
+      "type": "词",
+      "description": "雨洗娟娟嫩叶光，风吹细细龙脑香。"
+    }
+  ]
 }

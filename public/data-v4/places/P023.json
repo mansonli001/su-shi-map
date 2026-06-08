@@ -10,7 +10,7 @@
     "R19"
   ],
   "summary": "苏轼北归途经澄迈",
-  "background": "澄迈今海南澄迈，苏轼北归时途经此地渡海",
+  "background": "澄迈即今海南澄迈，苏轼北归时由此渡海。告别海南、重渡海峡，天风海雨中再见大陆，是苏轼最欣慰的归途起点。",
   "tags": [
     "澄迈",
     "渡海",
@@ -65,15 +65,43 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "澄迈老城",
+      "description": "苏轼贬儋州途经澄迈，'澄迈驿通潮阁'诗传诵",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "澄迈瑞溪牛肉",
+      "description": "澄迈特产",
+      "origin_story": "澄迈传统美食",
+      "tag": "澄迈特色"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "澄迈汽车站",
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "崇德县衙",
+      "ancient_name": "崇德县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在澄迈的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 19.7385,
+      "lng": 110.0065,
+      "modern_address": "海南省澄迈县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "chengmai",

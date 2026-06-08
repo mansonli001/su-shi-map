@@ -6,7 +6,7 @@
   "related_routes": [
     "R04"
   ],
-  "background": "北宋国家核心漕运水道，官旅灵柩南行主干道。",
+  "background": "汴河漕运古道，贯通南北的水上命脉。苏轼一生多次乘汴河船往返京师与地方，粮船穿梭、两岸市镇相连，是北宋最繁忙的漕运航道。",
   "extended_story": "沿汴河缓缓南行，\n看漕舟往来，心生世事沧桑之感。",
   "essence": "宋代漕运代表性水景",
   "tags": [
@@ -65,7 +65,41 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:14:03.000Z",
-  "lat": 34.79,
-  "lng": 114.34,
-  "_latlng_source": "preset"
+  "lat": 34.807794,
+  "lng": 114.34105,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "龙亭西路5号",
+  "sub_places": [
+    {
+      "name": "汴河漕运古道",
+      "ancient_name": "汴河漕运古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经汴河漕运古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.807794,
+      "lng": 114.34105,
+      "modern_address": "龙亭西路5号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p007-001",
+      "date": "1066年",
+      "title": "沿汴河南下",
+      "description": "苏轼扶父丧自汴京沿汴河水路南下归蜀",
+      "significance": "扶柩水路起点"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "挽父诗文、江淮行旅杂咏",
+      "type": "诗",
+      "description": "情真意切，格调沉郁哀婉"
+    }
+  ]
 }

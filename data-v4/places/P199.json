@@ -3,13 +3,13 @@
   "ancient_name": "扬州平山堂",
   "modern_name": "江苏扬州平山堂",
   "type": "around",
-  "lat": 32.394404,
-  "lng": 119.412834,
+  "lat": 32.4158,
+  "lng": 119.421,
   "related_routes": [
     "R16"
   ],
   "summary": "苏轼南下途经扬州，凭吊欧阳修所建平山堂",
-  "background": "扬州是北宋重要商业城市，苏轼南下杭州途经此地，曾凭吊欧阳修所建平山堂",
+  "background": "平山堂，扬州大明寺旁。欧阳修任扬州知州时所建，苏轼登堂凭吊恩师，堂前远山平阔、蜀冈松风。",
   "tags": [
     "扬州",
     "广陵",
@@ -42,7 +42,13 @@
       "id": "p199-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "平山堂次韵",
+      "type": "诗",
+      "description": "苏轼游扬州平山堂怀欧阳修之作"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -94,17 +100,86 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "江苏省扬州市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "扬州炒饭",
+      "description": "扬州名菜",
+      "origin_story": "扬州传统名菜",
+      "tag": "扬州必吃"
+    }
+  ],
   "transport": {
     "train": "扬州站/扬州东站",
     "bus": "扬州汽车站",
     "car": "京沪高速/沪陕高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "扬州平山堂居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州平山堂的居所",
+      "importance": "primary",
+      "ancient_name": "扬州平山堂居所",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用扬州平山堂中心坐标作为参考"
+    },
+    {
+      "name": "扬州平山堂州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在扬州平山堂的居所",
+      "importance": "primary",
+      "ancient_name": "扬州平山堂州衙",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用扬州平山堂中心坐标作为参考"
+    },
+    {
+      "name": "平山堂",
+      "ancient_name": "平山堂",
+      "type": "building",
+      "period": "",
+      "description": "欧阳修所建，苏轼常来此凭吊",
+      "works": [
+        "西江月·平山堂"
+      ],
+      "importance": "secondary",
+      "lat": 32.37741,
+      "lng": 119.397935,
+      "modern_address": "江苏省扬州市邗江区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瘦西湖",
+      "ancient_name": "瘦西湖",
+      "type": "lake",
+      "period": "",
+      "description": "扬州著名的湖泊风景区",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.394404,
+      "lng": 119.412834,
+      "modern_address": "江苏省扬州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS037",
     "pinyin_id": "yangzhou",
@@ -120,7 +195,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.251Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省扬州市",
   "coords_updated_at": "2026-06-01T10:17:04.327Z",
   "duration_summary": {
@@ -135,13 +210,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B020218FOD",
-    "amap_name": "平山堂(扬州大运河文化旅游度假区)",
-    "address": "蜀冈中峰平山堂东路8号大明寺(扬州大运河文化旅游度假区)",
-    "location": "119.412486,32.419789",
+    "amap_name": "平山堂",
+    "address": "大明寺内",
+    "location": "119.421,32.4158",
     "cityname": "扬州市",
     "adname": "邗江区",
-    "type": "风景名胜;风景名胜;风景名胜",
-    "typecode": "110200",
+    "type": "风景名胜;风景名胜;古迹",
+    "typecode": "110201",
     "tel": "0514-87346328",
     "rating": null,
     "cost": null,
@@ -164,5 +239,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:27.000Z"
+  "amap_updated_at": "2026-06-03T05:16:27.000Z",
+  "sxzk_address": "蜀冈中峰平山堂东路8号大明寺(扬州大运河文化旅游度假区)"
 }

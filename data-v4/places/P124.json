@@ -9,7 +9,7 @@
     "R01"
   ],
   "summary": "苏轼两次经过渑池，留下名篇《和子由渑池怀旧》",
-  "background": "'人生到处知何似，应似飞鸿踏雪泥' - 苏轼在渑池写下这篇千古名篇",
+  "background": "渑池僧舍，苏轼与弟苏辙唱和之地。兄弟二人曾宿渑池僧舍，壁上旧题犹在，'人生到处知何似，应似飞鸿踏雪泥'即由此生发。",
   "tags": [
     "怀旧",
     "名篇",
@@ -31,6 +31,20 @@
       "description": "苏轼赴凤翔任途经渑池，作《和子由渑池怀旧》",
       "significance": "route02",
       "id": "p124-002"
+    },
+    {
+      "id": "p124-003",
+      "date": "1075年",
+      "title": "作《江城子·密州出猎》",
+      "description": "苏轼在密州作'老夫聊发少年狂'，开豪放词先河",
+      "significance": "豪放词开篇"
+    },
+    {
+      "id": "p124-004",
+      "date": "1076年",
+      "title": "中秋作《水调歌头》",
+      "description": "苏轼在密州中秋夜作'明月几时有'，思念弟弟苏辙",
+      "significance": "中秋千古名篇"
     }
   ],
   "global_works": [
@@ -71,17 +85,96 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县"
+    },
+    {
+      "name": "超然台",
+      "description": "苏轼知密州时修葺，'超然台记'传诵千古",
+      "type": "古迹"
+    },
+    {
+      "name": "密州常山",
+      "description": "苏轼常猎之地，'江城子·密州出猎'即咏此",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "渑池仰韶酒",
+      "description": "渑池名酒",
+      "origin_story": "仰韶文化发源地",
+      "tag": "渑池特色"
+    }
+  ],
   "transport": {
     "train": "渑池站 / 渑池南站",
     "bus": "渑池汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "渑池僧舍居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在渑池僧舍的居所",
+      "importance": "primary",
+      "ancient_name": "渑池僧舍居所",
+      "lat": 34.767,
+      "lng": 111.77,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用渑池僧舍中心坐标作为参考"
+    },
+    {
+      "name": "渑池僧舍州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在渑池僧舍的居所",
+      "importance": "primary",
+      "ancient_name": "渑池僧舍州衙",
+      "lat": 34.767,
+      "lng": 111.77,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用渑池僧舍中心坐标作为参考"
+    },
+    {
+      "name": "渑池",
+      "ancient_name": "渑池",
+      "type": "scenic",
+      "period": "嘉祐六年（1061年）十一月",
+      "description": "创作《和子由渑池怀旧》处",
+      "works": [
+        "和子由渑池怀旧"
+      ],
+      "importance": "secondary",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "秦赵会盟台",
+      "ancient_name": "秦赵会盟台",
+      "type": "ruins",
+      "period": "",
+      "description": "战国时期秦赵会盟之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.767937,
+      "lng": 111.761753,
+      "modern_address": "河南省三门峡市渑池县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS140",
     "pinyin_id": "mianchi",
@@ -136,5 +229,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:30.000Z"
+  "amap_updated_at": "2026-06-03T05:15:30.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "渑池县"
 }

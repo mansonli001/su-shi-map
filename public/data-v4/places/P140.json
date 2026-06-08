@@ -9,13 +9,21 @@
     "R13"
   ],
   "summary": "",
-  "background": "齐鲁历史重镇，千年古道枢纽，儒家文脉浸染深厚。",
+  "background": "青州即今山东青州，齐鲁历史重镇。千年古道枢纽、儒家文脉浸染深厚，苏轼自密州赴徐州途经此地，云门山摩崖、古州城郭雄伟。",
   "tags": [
     "main",
     "hub"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p140-001",
+      "date": "1086年",
+      "title": "经青州还朝",
+      "description": "苏轼自登州还朝途经青州",
+      "significance": "古州途经"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R13": {
@@ -32,10 +40,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "青州古城",
+      "description": "古九州之一，5A级景区",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "青州蜜桃",
+      "description": "青州名产，桃肉细腻汁多味甜"
+    },
+    {
+      "name": "青州煎包",
+      "description": "青州传统小吃，皮薄馅足底焦香"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "青州官署",
+      "ancient_name": "青州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在青州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.685178,
+      "lng": 118.479637,
+      "modern_address": "青州市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS148",
     "pinyin_id": null,
@@ -51,7 +89,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.238Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "山东省潍坊市青州市",
   "coords_updated_at": "2026-06-01T10:17:04.321Z",
   "duration_summary": {
@@ -95,5 +133,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:43.000Z"
+  "amap_updated_at": "2026-06-03T05:15:43.000Z",
+  "sxzk_address": "青州市"
 }

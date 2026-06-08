@@ -9,7 +9,7 @@
     "R03"
   ],
   "summary": "苏轼任凤翔府签判两年，这是他正式仕途起点",
-  "background": "凤翔府是关中重要城市，苏轼嘉祐六年任大理评事签书凤翔府判官，在此期间创作多篇诗文",
+  "background": "凤翔东湖，关中名湖。苏轼任凤翔签判时疏浚东湖、建亭植柳，'东湖'之名由此远扬，是苏轼最早的政绩之一。",
   "tags": [
     "凤翔",
     "仕途起点",
@@ -38,6 +38,21 @@
       "location": "凤翔府仙游潭中兴寺",
       "background": "游仙游潭中兴寺作",
       "poem_id": "S011"
+    },
+    {
+      "title": "薄薄酒二首",
+      "type": "诗",
+      "description": "薄薄酒，胜茶汤。"
+    },
+    {
+      "title": "凤翔八观",
+      "type": "文",
+      "description": "冬十二月岁辛丑，我初从政见鲁叟。"
+    },
+    {
+      "title": "石鼓文跋",
+      "type": "文",
+      "description": "物之显晦，各有有时，不可强也。"
     }
   ],
   "route_events": {
@@ -101,7 +116,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区"
     },
     {
       "id": "fx-s003",
@@ -115,17 +133,118 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区"
+    },
+    {
+      "name": "凤翔苏轼纪念馆",
+      "description": "纪念苏轼在凤翔事迹的专题展馆",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "豆花泡馍",
+      "description": "凤翔传统早餐",
+      "origin_story": "凤翔传统美食",
+      "tag": "凤翔必吃"
+    }
+  ],
   "transport": {
     "train": "凤翔站 / 宝鸡站",
     "bus": "凤翔汽车站",
     "car": "连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "凤翔东湖官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任凤翔东湖官职时的居所",
+      "importance": "primary",
+      "ancient_name": "凤翔东湖官署",
+      "lat": 34.5245,
+      "lng": 107.3978,
+      "modern_address": "陕西省宝鸡市凤翔区东湖",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤翔东湖州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任凤翔东湖官职时的居所",
+      "importance": "primary",
+      "ancient_name": "凤翔东湖州衙",
+      "lat": 34.5234,
+      "lng": 107.3962,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用凤翔东湖中心坐标作为参考"
+    },
+    {
+      "name": "凤翔府仙游潭中兴寺",
+      "ancient_name": "凤翔府仙游潭中兴寺",
+      "type": "scenic",
+      "period": "嘉祐七年（1062年）三月",
+      "description": "创作《留题仙游潭中兴寺》处",
+      "works": [
+        "留题仙游潭中兴寺"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤翔东湖",
+      "ancient_name": "凤翔东湖",
+      "type": "park",
+      "period": "",
+      "description": "苏轼在凤翔时疏浚的湖，纪念苏轼",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤鸣驿",
+      "ancient_name": "凤鸣驿",
+      "type": "post_station",
+      "period": "",
+      "description": "苏轼《凤鸣驿记》记载的驿站",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "仙游潭中兴寺",
+      "ancient_name": "仙游潭中兴寺",
+      "type": "temple",
+      "period": "",
+      "description": "苏轼《留题仙游潭中兴寺》，有玉女洞、马融读书石室",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS132",
     "pinyin_id": "fengxiang",
@@ -187,5 +306,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:35.000Z"
+  "amap_updated_at": "2026-06-03T05:14:35.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "凤翔区"
 }

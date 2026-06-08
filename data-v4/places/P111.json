@@ -3,20 +3,34 @@
   "ancient_name": "泸州",
   "modern_name": "四川泸州",
   "type": "main",
-  "lat": 28.8717,
-  "lng": 105.4422,
+  "lat": 28.87098,
+  "lng": 105.441866,
   "related_routes": [
     "R02",
     "R04"
   ],
   "summary": "",
-  "background": "长江上游重要港埠，商旅云集，\n为川南东下必经水路节点。",
+  "background": "泸州，沱江与长江交汇处。苏轼途经泸州，酒香四溢、江风习习，'泸州老窖'的酿造传统可追溯至宋代。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p111-001",
+      "date": "1059年",
+      "title": "经泸州顺流东下",
+      "description": "苏轼出蜀经泸州，沿长江东下赴京",
+      "significance": "长江中继"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "过泸州",
+      "type": "诗",
+      "description": "苏轼经泸州所作"
+    }
+  ],
   "route_events": {
     "R02": {
       "duration": "1059年长江水路途经",
@@ -44,10 +58,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "泸州老窖窖池",
+      "description": "明代古窖池群，全国重点文保",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "泸州老窖",
+      "description": "泸州名酒，浓香型白酒代表，苏轼出蜀或饮此酒"
+    },
+    {
+      "name": "泸州黄粑",
+      "description": "泸州传统名点，糯米红糖蒸制，软糯香甜"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "泸州官署",
+      "ancient_name": "泸州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在泸州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.87098,
+      "lng": 105.441866,
+      "modern_address": "江阳区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS126",
     "pinyin_id": null,
@@ -104,5 +148,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:21.000Z"
+  "amap_updated_at": "2026-06-03T05:15:21.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "江阳区"
 }

@@ -1,0 +1,61 @@
+{
+  "place_id": "P125",
+  "ancient_name": "南都",
+  "modern_name": "商丘",
+  "city": "商丘市",
+  "processed_at": "2026-06-07T23:22:35.708750",
+  "main_coords": {
+    "name": "南康军衙",
+    "lat": 34.370673,
+    "lng": 115.620104,
+    "modern_address": "环城南路",
+    "coordinate_source": "amap_poi",
+    "reason": "南康军衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "南康军衙",
+      "ancient_name": "南康军衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在南都的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.370673,
+      "lng": 115.620104,
+      "modern_address": "环城南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "应天府书院",
+      "ancient_name": "应天府书院",
+      "type": "书院",
+      "period": "",
+      "description": "宋代四大书院之一",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.370673,
+      "lng": 115.620104,
+      "modern_address": "环城南路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P125",
+    "ancient_name": "南都",
+    "city": "商丘市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "南都居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:22.857075"
+}

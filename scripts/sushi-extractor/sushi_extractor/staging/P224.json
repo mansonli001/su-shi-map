@@ -1,0 +1,47 @@
+{
+  "place_id": "P224",
+  "ancient_name": "长江下游全线",
+  "modern_name": "长江下游",
+  "city": "长江下游市",
+  "processed_at": "2026-06-07T23:25:29.991729",
+  "main_coords": {
+    "name": "长江下游全线附近驿馆",
+    "lat": 31.70394,
+    "lng": 118.446476,
+    "modern_address": "花山区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "长江下游全线附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "长江下游全线附近驿馆",
+      "ancient_name": "长江下游全线附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长江下游全线的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.70394,
+      "lng": 118.446476,
+      "modern_address": "花山区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P224",
+    "ancient_name": "长江下游全线",
+    "city": "长江下游市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "长江下游全线附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:48.462379"
+}

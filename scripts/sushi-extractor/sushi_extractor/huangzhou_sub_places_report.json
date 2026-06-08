@@ -1,0 +1,96 @@
+{
+  "place_id": "P072",
+  "ancient_name": "黄州",
+  "main_coords_source": "定慧院",
+  "sub_places_count": 6,
+  "success_count": 6,
+  "sub_places": [
+    {
+      "name": "定慧院",
+      "ancient_name": "定慧院",
+      "type": "residence",
+      "period": "1080年2月-1080年冬",
+      "description": "苏轼初到黄州的居所，在此创作《卜算子·缺月挂疏桐》",
+      "works": [
+        "卜算子·黄州定慧院寓居作"
+      ],
+      "importance": "primary",
+      "lat": 30.4486,
+      "lng": 114.8789,
+      "modern_address": "湖北省黄冈市黄州区胜利街",
+      "source": "historical_record"
+    },
+    {
+      "name": "临皋亭",
+      "ancient_name": "临皋亭",
+      "type": "residence",
+      "period": "1080年冬-1084年",
+      "description": "苏轼在黄州的主要居所，位于长江边",
+      "works": [
+        "临皋月皎"
+      ],
+      "importance": "secondary",
+      "lat": 30.4398,
+      "lng": 114.8815,
+      "modern_address": "湖北省黄冈市黄州区临江路",
+      "source": "historical_record"
+    },
+    {
+      "name": "东坡雪堂",
+      "ancient_name": "东坡雪堂",
+      "type": "residence",
+      "period": "1082年建成后",
+      "description": "苏轼躬耕东坡时建造的草堂，自号东坡居士",
+      "works": [
+        "东坡八首"
+      ],
+      "importance": "secondary",
+      "lat": 30.4542,
+      "lng": 114.8645,
+      "modern_address": "湖北省黄冈市黄州区赤壁大道东坡赤壁景区内",
+      "source": "historical_record"
+    },
+    {
+      "name": "赤壁",
+      "ancient_name": "赤壁",
+      "type": "scenic",
+      "description": "苏轼游览赤壁，创作《念奴娇·赤壁怀古》和前后《赤壁赋》",
+      "works": [
+        "念奴娇·赤壁怀古",
+        "前赤壁赋",
+        "后赤壁赋"
+      ],
+      "importance": "primary",
+      "lat": 30.4535,
+      "lng": 114.8658,
+      "modern_address": "湖北省黄冈市黄州区赤壁路88号东坡赤壁景区",
+      "source": "historical_record"
+    },
+    {
+      "name": "安国寺",
+      "ancient_name": "安国寺",
+      "type": "temple",
+      "description": "苏轼常去参禅的寺院",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.4285,
+      "lng": 114.8765,
+      "modern_address": "湖北省黄冈市黄州区安国寺路",
+      "source": "historical_record"
+    },
+    {
+      "name": "承天寺",
+      "ancient_name": "承天寺",
+      "type": "temple",
+      "description": "苏轼与张怀民夜游承天寺处",
+      "works": [
+        "记承天夜游"
+      ],
+      "importance": "secondary",
+      "lat": 30.4425,
+      "lng": 114.8845,
+      "modern_address": "湖北省黄冈市黄州区承天寺路",
+      "source": "historical_record"
+    }
+  ]
+}

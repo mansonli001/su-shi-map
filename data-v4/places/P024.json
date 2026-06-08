@@ -3,13 +3,13 @@
   "ancient_name": "赤壁",
   "modern_name": "赤鼻矶",
   "type": "sight",
-  "lat": 30.463,
-  "lng": 114.8869,
+  "lat": 30.4592,
+  "lng": 114.865,
   "related_routes": [
     "R10"
   ],
   "summary": "苏轼贬谪地，在此躬耕自号东坡居士，创作千古名篇",
-  "background": "黄州是苏轼人生重要转折点，乌台诗案后被贬黄州四年多，在此完成文学创作高峰",
+  "background": "赤壁（赤鼻矶），黄州城外长江北岸。苏轼谪居黄州时，常游赤壁，在此写下前后《赤壁赋》与《念奴娇·赤壁怀古》等千古名篇。",
   "tags": [
     "贬谪地",
     "东坡居士",
@@ -116,6 +116,26 @@
       "fullText": "三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉，已而遂晴，故作此词。\n\n莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。\n料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。",
       "coreVerse": "回首向来萧瑟处，归去，也无风雨也无晴。",
       "poem_id": "C037"
+    },
+    {
+      "title": "东栏梨花",
+      "type": "诗",
+      "description": "惆怅东栏一株雪，人生看得几清明。"
+    },
+    {
+      "title": "正月二十日往岐亭",
+      "type": "诗",
+      "description": "我本山中一野夫，年来三十仍迂痴。"
+    },
+    {
+      "title": "岐亭五首",
+      "type": "诗",
+      "description": "古来流水一杯酒，我量未足濡吾口。"
+    },
+    {
+      "title": "洗儿",
+      "type": "诗",
+      "description": "人皆养子望聪明，我被聪明误一生。"
     }
   ],
   "route_events": {
@@ -146,7 +166,10 @@
       "photos": [],
       "url": "https://www.huanggang.gov.cn",
       "rating": "AAAA",
-      "distance": "距市区步行可达"
+      "distance": "距市区步行可达",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号"
     },
     {
       "id": "hz-s002",
@@ -175,6 +198,26 @@
       ],
       "price_range": "¥50-80",
       "tag": "黄州必吃"
+    },
+    {
+      "name": "东坡羹",
+      "description": "苏轼发明的菜羹，以蔓菁芦菔等煮成",
+      "origin_story": "苏轼在黄州作《东坡羹颂》",
+      "tag": "东坡发明"
+    },
+    {
+      "name": "东坡饼",
+      "description": "黄州传统面点，酥脆香甜",
+      "origin_story": "传为苏轼在黄州时所创",
+      "tag": "黄州特色"
+    },
+    {
+      "name": "赤壁鱼糕",
+      "description": "赤壁传统名菜，鱼肉制糕蒸制，鲜嫩滑爽"
+    },
+    {
+      "name": "赤壁青砖茶",
+      "description": "赤壁名产，砖茶紧压发酵，汤色红浓"
     }
   ],
   "transport": {
@@ -183,7 +226,46 @@
     "car": "大广高速 / 沪渝高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "东坡赤壁",
+      "ancient_name": "赤壁（赤鼻矶）",
+      "type": "scenic",
+      "period": "1082年7月、1082年10月",
+      "description": "苏轼两次游赤壁，写下《念奴娇·赤壁怀古》和前后《赤壁赋》，文赤壁，全国重点文物保护单位",
+      "works": [
+        "念奴娇·赤壁怀古",
+        "前赤壁赋",
+        "后赤壁赋"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "念奴娇·赤壁怀古",
+          "type": "词",
+          "date": "元丰五年（1082年）",
+          "note": "大江东去，浪淘尽，千古风流人物"
+        },
+        {
+          "title": "前赤壁赋",
+          "type": "文",
+          "date": "元丰五年七月（1082年）",
+          "note": "壬戌之秋，七月既望，苏子与客泛舟赤壁之下"
+        },
+        {
+          "title": "后赤壁赋",
+          "type": "文",
+          "date": "元丰五年十月（1082年）",
+          "note": "是岁十月之望，步自雪堂，将归于临皋"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS026",
     "pinyin_id": "huangzhou",
@@ -215,14 +297,14 @@
     "from": "global_works.excerpt"
   },
   "modern_visit": {
-    "amap_poi_id": "B0LKBOVED5",
-    "amap_name": "舒达床垫(赤壁红星美凯龙店)",
+    "amap_poi_id": "B019C0KMNP",
+    "amap_name": "东坡赤壁",
     "address": "赤马港街道红星美凯龙三楼",
-    "location": "113.934463,29.731746",
-    "cityname": "咸宁市",
-    "adname": "赤壁市",
-    "type": "购物服务;家居建材市场;家具城",
-    "typecode": "060602",
+    "location": "114.873,30.4544",
+    "cityname": "黄冈市",
+    "adname": "黄州区",
+    "type": "风景名胜;风景名胜;国家级景点",
+    "typecode": "110202",
     "tel": "4009933231",
     "rating": null,
     "cost": null,
@@ -232,5 +314,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:15.000Z"
+  "amap_updated_at": "2026-06-03T05:14:15.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "黄冈市黄州区公园路11号"
 }

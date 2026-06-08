@@ -1,0 +1,44 @@
+{
+  "place_id": "P035",
+  "ancient_name": "儋州桄榔庵",
+  "modern_name": "海南儋州桄榔庵",
+  "city": "儋州市",
+  "main_coords": {
+    "name": "桄榔庵",
+    "lat": 19.740499,
+    "lng": 109.346135,
+    "modern_address": "儋州市中和镇X513(解放街)",
+    "coordinate_source": "amap_poi",
+    "reason": "桄榔庵为儋州子地点，主坐标为桄榔庵遗址"
+  },
+  "sub_places": [
+    {
+      "name": "桄榔庵",
+      "ancient_name": "桄榔庵",
+      "type": "residence",
+      "period": "1097年7月-1098年",
+      "description": "苏轼初到儋州的居所，当地百姓帮盖的茅屋",
+      "works": [
+        "桄榔庵铭"
+      ],
+      "importance": "primary",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P035",
+    "parent_place": "P034",
+    "parent_place_name": "儋州",
+    "note": "桄榔庵为儋州子地点，已合并到P034儋州的sub_places中",
+    "main_coords_source": "桄榔庵（核心居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:37.486427"
+}

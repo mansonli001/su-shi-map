@@ -3,13 +3,13 @@
   "ancient_name": "渡琼州海峡",
   "modern_name": "琼州海峡",
   "type": "main",
-  "lat": 20.2,
-  "lng": 110.3,
+  "lat": 20.05,
+  "lng": 110.2,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼渡海后在琼州停留",
-  "background": "琼州即今海口，苏轼渡海后在此停留，然后前往儋州",
+  "background": "渡琼州海峡，苏轼从雷州半岛渡海赴儋州。碧波万顷、海天一线，'九死南荒吾不恨'的旷达始于这片海域。",
   "tags": [
     "琼州",
     "海口",
@@ -17,7 +17,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "渡海",
+      "type": "诗",
+      "note": "渡琼州海峡所作",
+      "year_estimate": 1097
+    }
+  ],
   "route_events": {
     "route19": [
       {
@@ -50,7 +57,20 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 20.046316,
+      "lng": 110.200162,
+      "modern_address": "海南省海口市"
+    },
+    {
+      "name": "徐州黄楼",
+      "description": "苏轼知徐州时抗洪所建，为徐州地标，现重建于故黄河畔",
+      "type": "古迹"
+    },
+    {
+      "name": "云龙山",
+      "description": "苏轼常游之地，放鹤亭为其所建，'放鹤亭记'传诵千古",
+      "type": "景区"
     }
   ],
   "foods": [],
@@ -60,7 +80,36 @@
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "渡琼州海峡附近驿馆",
+      "ancient_name": "渡琼州海峡附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在渡琼州海峡的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.046316,
+      "lng": 110.200162,
+      "modern_address": "海南省海口市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "五公祠",
+      "ancient_name": "五公祠",
+      "type": "shrine",
+      "period": "",
+      "description": "纪念苏轼五公",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.046316,
+      "lng": 110.200162,
+      "modern_address": "海南省海口市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS044",
     "pinyin_id": "qiongzhou",
@@ -110,5 +159,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:32.000Z"
+  "amap_updated_at": "2026-06-03T05:14:32.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "海南省海口市"
 }

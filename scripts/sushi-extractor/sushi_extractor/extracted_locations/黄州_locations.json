@@ -1,0 +1,40 @@
+[
+  {
+    "location_id": "P936",
+    "location_name": "黄州",
+    "modern_name": "黄州苏轼相关景点",
+    "modern_address": "黄州西湖一路，青磚湖東側黃州區審計局至黃州供電所一帶。黃州承天寺遺址概略位置，見圖12099。然此說",
+    "province": "湖北省",
+    "city": "黄州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "贬谪时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "东坡肉",
+      "东坡羹",
+      "东坡饼"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西山",
+      "泉寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

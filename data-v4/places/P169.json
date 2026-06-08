@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "豫南古州，地处中原官道支线要道。",
+  "background": "唐州即今河南唐河，豫南古州。地处中原官道支线要道，桐柏山北麓、唐河绕城，苏轼赴京或外放途经此地。",
   "extended_story": "穿行唐州乡野驿道，\n感受中原乡土民风地貌。",
   "essence": "中原腹地常规驿道节点",
   "tags": [
@@ -33,7 +33,7 @@
   "schema_version": "v4.1",
   "lng": 112.80829,
   "lat": 32.682464,
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河南省南阳市唐河县",
   "coords_updated_at": "2026-06-01T10:17:04.324Z",
   "duration_summary": {
@@ -77,5 +77,52 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:03.000Z"
+  "amap_updated_at": "2026-06-03T05:16:03.000Z",
+  "sxzk_address": "唐河县",
+  "sub_places": [
+    {
+      "name": "唐州官署",
+      "ancient_name": "唐州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在唐州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.682464,
+      "lng": 112.80829,
+      "modern_address": "唐河县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p169-001",
+      "date": "1061年",
+      "title": "经唐州赴任",
+      "description": "苏轼赴凤翔途经唐州",
+      "significance": "赴任途经"
+    }
+  ],
+  "foods": [
+    {
+      "name": "唐河凉粉",
+      "description": "唐州传统小吃，豌豆凉粉凉拌，爽滑解暑"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "泌阳白云山",
+      "description": "唐州名山，风景秀丽",
+      "type": "景区"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "唐州",
+      "type": "诗",
+      "note": "途经唐州所作",
+      "year_estimate": 1077
+    }
+  ]
 }

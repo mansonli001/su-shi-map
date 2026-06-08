@@ -3,19 +3,34 @@
   "ancient_name": "邢州",
   "modern_name": "河北邢台",
   "type": "main",
-  "lat": 37.060227,
-  "lng": 114.49742,
+  "lat": 37.066525,
+  "lng": 114.507874,
   "related_routes": [
     "R17"
   ],
   "summary": "",
-  "background": "冀南腹地古州，河北古道中段枢纽。",
+  "background": "邢州即今河北邢台，冀南古州。苏轼外放定州途经此地，太行山东麓、滏阳河畔，是河北平原南部门户。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p191-001",
+      "date": "1093年",
+      "title": "经邢州赴定州",
+      "description": "苏轼外放定州途经邢州",
+      "significance": "河北中继"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "邢州",
+      "type": "诗",
+      "note": "途经邢州所作",
+      "year_estimate": 1077
+    }
+  ],
   "route_events": {
     "R17": {
       "duration": "1094年北行途经",
@@ -31,10 +46,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "开元寺",
+      "description": "邢州古刹，唐代名寺",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "邢台道口烧鸡",
+      "description": "邢州传统名吃，卤制烧鸡，皮酥肉嫩"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "邢州官署",
+      "ancient_name": "邢州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在邢州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.066525,
+      "lng": 114.507874,
+      "modern_address": "东门里街",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS161",
     "pinyin_id": null,
@@ -50,7 +91,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.253Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "河北省邢台市",
   "coords_updated_at": "2026-06-01T10:17:04.326Z",
   "duration_summary": {
@@ -94,5 +135,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:18.000Z"
+  "amap_updated_at": "2026-06-03T05:16:18.000Z",
+  "sxzk_address": "东门里街"
 }

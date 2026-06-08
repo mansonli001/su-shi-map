@@ -3,8 +3,8 @@
   "ancient_name": "扬州",
   "modern_name": "江苏扬州",
   "type": "official",
-  "lat": 32.3947,
-  "lng": 119.4143,
+  "lat": 32.396737,
+  "lng": 119.412918,
   "related_routes": [
     "R04",
     "R06",
@@ -16,7 +16,7 @@
     "R17"
   ],
   "summary": "苏轼南下途经扬州，凭吊欧阳修所建平山堂",
-  "background": "扬州是北宋重要商业城市，苏轼南下杭州途经此地，曾凭吊欧阳修所建平山堂",
+  "background": "扬州，淮左名都。苏轼途经扬州，瘦西湖如画、二十四桥月明，'天下三分明月夜，二分无赖是扬州'。",
   "tags": [
     "扬州",
     "广陵",
@@ -73,6 +73,36 @@
       "fullText": "细马远驮双侍女，青巾玉带红靴。\n溪山好处便为家。\n谁知巴峡路，却见洛城花。\n面旋落英飞玉蕊，人间春日初斜。\n十年不见紫云车。\n龙丘新洞府，铅鼎养丹砂。",
       "excerpt": "细马远驮双侍女，青巾玉带红靴。",
       "poem_id": "C115"
+    },
+    {
+      "title": "杭州乞度牒开西湖状",
+      "type": "策",
+      "description": "西湖有不可废者五。"
+    },
+    {
+      "title": "钱塘勤上人诗集叙",
+      "type": "诗",
+      "description": "勤上人学诗如学佛，要在妙悟自心。"
+    },
+    {
+      "title": "次韵刘景文",
+      "type": "诗",
+      "description": "絮飞春减不成年，老境同乘下濑船。"
+    },
+    {
+      "title": "苏堤纪事诗作",
+      "type": "诗",
+      "description": "我在钱塘拓湖渌，泥深芍药铜驼麓。"
+    },
+    {
+      "title": "赠刘景文",
+      "type": "诗",
+      "description": "一年好景君须记，最是橙黄橘绿时。"
+    },
+    {
+      "title": "与莫同年雨中饮湖上",
+      "type": "诗",
+      "description": "到处相逢是偶然，梦中相对各华颠。"
     }
   ],
   "route_events": {
@@ -196,7 +226,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.419789,
+      "lng": 119.412486,
+      "modern_address": "扬州市蜀冈中峰平山堂东路8号大明寺内"
     },
     {
       "id": "yy-s002",
@@ -210,17 +243,84 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.409631,
+      "lng": 119.420197,
+      "modern_address": "扬州市大虹桥路28号"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "扬州炒饭",
+      "description": "扬州名菜，粒粒分明",
+      "origin_story": "扬州传统名菜",
+      "tag": "扬州必吃"
+    },
+    {
+      "name": "扬州狮子头",
+      "description": "扬州名菜，肥瘦相间",
+      "origin_story": "淮扬菜经典",
+      "tag": "扬州必吃"
+    },
+    {
+      "name": "扬州干丝",
+      "description": "扬州传统名菜",
+      "origin_story": "淮扬菜经典",
+      "tag": "扬州特色"
+    }
+  ],
   "transport": {
     "train": "扬州站/扬州东站",
     "bus": "扬州汽车站",
     "car": "京沪高速/沪陕高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "扬州州衙",
+      "ancient_name": "扬州州衙",
+      "type": "residence",
+      "period": "1092年",
+      "description": "苏轼任扬州知州时的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.396737,
+      "lng": 119.412918,
+      "modern_address": "江苏省扬州市广陵区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "平山堂",
+      "ancient_name": "平山堂",
+      "type": "scenic",
+      "period": "1092年",
+      "description": "欧阳修所建，苏轼常来此凭吊恩师",
+      "works": [
+        "西江月·平山堂"
+      ],
+      "importance": "secondary",
+      "lat": 32.419789,
+      "lng": 119.412486,
+      "modern_address": "扬州市蜀冈中峰平山堂东路8号大明寺内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瘦西湖",
+      "ancient_name": "瘦西湖",
+      "type": "scenic",
+      "period": "1092年",
+      "description": "扬州著名的湖泊风景区",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.409631,
+      "lng": 119.420197,
+      "modern_address": "扬州市大虹桥路28号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS037",
     "pinyin_id": "yangzhou",
@@ -284,5 +384,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:26.000Z"
+  "amap_updated_at": "2026-06-03T05:16:26.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "江苏省扬州市广陵区"
 }

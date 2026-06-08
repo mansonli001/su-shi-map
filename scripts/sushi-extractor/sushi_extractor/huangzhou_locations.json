@@ -1,0 +1,146 @@
+[
+  {
+    "location_id": "P072",
+    "location_name": "黄州",
+    "modern_name": "黄州赤壁景区",
+    "modern_address": "湖北省黄冈市黄州区赤壁路88号",
+    "province": "湖北省",
+    "city": "黄冈市",
+    "district": "黄州区",
+    "coord_quality": "precise",
+    "visit_year": 1080,
+    "visit_period": "元丰三年",
+    "stay_duration": "约四年",
+    "su_works": [
+      "赤壁賦",
+      "寒食雨",
+      "定風波",
+      "念奴嬌"
+    ],
+    "su_quote": "大江東去，浪淘盡，千古風流人物",
+    "author_note": "作者曾实地勘查; 访问当地耆老学者; 文献资料推敲考证",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 3,
+    "photo_captions": [
+      "赤壁矶远景",
+      "二赋堂",
+      "东坡雕像"
+    ],
+    "local_foods": [
+      "东坡肉",
+      "东坡羹",
+      "东坡饼"
+    ],
+    "su_foods": [
+      "东坡肉",
+      "东坡羹"
+    ],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "定惠院",
+      "临皋亭",
+      "雪堂",
+      "安国寺"
+    ],
+    "source": "李常生《苏轼行踪考》第十二篇",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P072-01",
+    "location_name": "定惠院",
+    "modern_name": "定惠院遗址",
+    "modern_address": "湖北省黄冈市黄州区",
+    "province": "湖北省",
+    "city": "黄冈市",
+    "district": "黄州区",
+    "coord_quality": "district",
+    "visit_year": 1080,
+    "stay_duration": "约一年",
+    "su_works": [
+      "海棠诗"
+    ],
+    "current_status": "遗址已不存",
+    "has_memorial": false,
+    "has_photo_in_book": true,
+    "cultural_tags": [
+      "谪居地"
+    ],
+    "source": "李常生《苏轼行踪考》第十二篇",
+    "data_quality": "B"
+  },
+  {
+    "location_id": "P072-02",
+    "location_name": "临皋亭",
+    "modern_name": "临皋亭故址",
+    "modern_address": "湖北省黄冈市黄州区长江边",
+    "province": "湖北省",
+    "city": "黄冈市",
+    "district": "黄州区",
+    "coord_quality": "district",
+    "visit_year": 1081,
+    "stay_duration": "约两年",
+    "su_works": [
+      "前赤壁赋",
+      "后赤壁赋"
+    ],
+    "current_status": "遗址已不存",
+    "has_memorial": false,
+    "has_photo_in_book": true,
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "source": "李常生《苏轼行踪考》第十二篇",
+    "data_quality": "B"
+  },
+  {
+    "location_id": "P072-03",
+    "location_name": "东坡雪堂",
+    "modern_name": "东坡书院",
+    "modern_address": "湖北省黄冈市黄州区",
+    "province": "湖北省",
+    "city": "黄冈市",
+    "district": "黄州区",
+    "coord_quality": "precise",
+    "visit_year": 1082,
+    "stay_duration": "约两年",
+    "su_works": [
+      "雪堂记"
+    ],
+    "current_status": "有纪念建筑",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "cultural_tags": [
+      "躬耕地",
+      "创作地"
+    ],
+    "source": "李常生《苏轼行踪考》第十二篇",
+    "data_quality": "A"
+  },
+  {
+    "location_id": "P072-04",
+    "location_name": "安国寺",
+    "modern_name": "安国寺",
+    "modern_address": "湖北省黄冈市黄州区",
+    "province": "湖北省",
+    "city": "黄冈市",
+    "district": "黄州区",
+    "coord_quality": "precise",
+    "visit_year": 1080,
+    "su_works": [],
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "cultural_tags": [
+      "游历地"
+    ],
+    "source": "李常生《苏轼行踪考》第十二篇",
+    "data_quality": "A"
+  }
+]

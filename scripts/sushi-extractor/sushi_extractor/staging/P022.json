@@ -1,0 +1,64 @@
+{
+  "place_id": "P022",
+  "ancient_name": "成都青羊宫",
+  "modern_name": "四川成都青羊宫",
+  "city": "成都市",
+  "processed_at": "2026-06-07T23:22:28.726539",
+  "main_coords": {
+    "name": "赤壁矶",
+    "lat": 30.3594,
+    "lng": 104.024638,
+    "modern_address": "煎茶镇沿溪村3组",
+    "coordinate_source": "amap_poi",
+    "reason": "赤壁矶为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "赤壁矶",
+      "ancient_name": "赤壁矶",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在成都青羊宫的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "三苏纪念馆",
+      "ancient_name": "三苏纪念馆",
+      "type": "博物馆",
+      "period": "",
+      "description": "展示三苏生平",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P022",
+    "ancient_name": "成都青羊宫",
+    "city": "成都市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "成都青羊宫居所",
+    "rejected_details": [],
+    "parent_place": "P072",
+    "parent_place_name": "黄州",
+    "note": "成都青羊宫为黄州的子地点",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:19.551468"
+}

@@ -6,7 +6,7 @@
   "related_routes": [
     "R07"
   ],
-  "background": "潍水两岸楚汉古战场，历史底蕴厚重的怀古胜地。",
+  "background": "潍水古战场，楚汉相争关键战役之地。韩信潍水破龙且，苏轼知密州时常游潍水两岸，古战场苍茫、潍水依旧东流。",
   "extended_story": "凭吊古战场遗迹，感兴亡变迁、叹世事沉浮，\n催生大量怀古咏史情思。",
   "essence": "密州境内核心历史怀古点位",
   "tags": [
@@ -33,9 +33,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.216Z",
   "schema_version": "v4.1",
-  "lng": 119.412992,
-  "lat": 36.009273,
-  "coordinate_source": "amap_corrected",
+  "lng": 119.407348,
+  "lat": 35.985301,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "山东省潍坊市诸城市",
   "coords_updated_at": "2026-06-01T10:17:04.324Z",
   "duration_summary": {
@@ -87,6 +87,36 @@
       "description": "苏轼任密州知州，治所在诸城",
       "significance": "route05",
       "id": "p173-evt-001"
+    }
+  ],
+  "sxzk_address": "中天如意花园北门",
+  "sub_places": [
+    {
+      "name": "潍水古战场居所",
+      "ancient_name": "潍水古战场居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在潍水古战场的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.985301,
+      "lng": 119.407348,
+      "modern_address": "中天如意花园北门",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "潍水怀古",
+      "type": "诗",
+      "description": "苏轼经潍水古战场怀古之作"
+    }
+  ],
+  "foods": [
+    {
+      "name": "潍县萝卜",
+      "description": "潍县名产，脆甜多汁，'烟台苹果莱阳梨不如潍县萝卜皮'"
     }
   ]
 }

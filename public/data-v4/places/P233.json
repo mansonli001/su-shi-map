@@ -6,7 +6,7 @@
   "related_routes": [
     "R02"
   ],
-  "background": "三峡东出口古县，屈子故里，\n人文底蕴深厚，江行情怀浓郁。",
+  "background": "秭归即今湖北秭归，三峡东出口古县。屈原故里，江行情怀浓郁，苏轼舟出三峡经此，人文底蕴深厚。",
   "extended_story": "行至秭归，出三峡进入平缓江面，\n感念先贤风骨，江行思绪沉静悠远。",
   "essence": "三峡终点人文古邑",
   "tags": [
@@ -73,7 +73,53 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:17:03.000Z",
-  "lat": 30.825882,
-  "lng": 110.97793,
-  "_latlng_source": "geocode"
+  "lat": 30.826058,
+  "lng": 110.988428,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "平湖大道",
+  "sub_places": [
+    {
+      "name": "秭归居所",
+      "ancient_name": "秭归居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在秭归的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.826058,
+      "lng": 110.988428,
+      "modern_address": "平湖大道",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p233-001",
+      "date": "1059年",
+      "title": "经秭归出三峡",
+      "description": "苏轼经秭归屈原故里，出西陵峡入江汉平原",
+      "significance": "出三峡门户"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "屈原塔",
+      "type": "诗",
+      "description": "苏轼经秭归屈原故里所作"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "屈原祠",
+      "description": "屈原故里纪念祠",
+      "type": "祠堂"
+    }
+  ],
+  "foods": [
+    {
+      "name": "秭归脐橙",
+      "description": "秭归名产，屈原故里特产，汁多味甜"
+    }
+  ]
 }

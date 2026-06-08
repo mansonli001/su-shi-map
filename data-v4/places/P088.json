@@ -3,21 +3,52 @@
   "ancient_name": "胶东半岛古道",
   "modern_name": "山东胶东半岛古道",
   "type": "sight",
-  "lat": 36.8,
-  "lng": 120.5,
+  "lat": 37.483984,
+  "lng": 121.653041,
   "related_routes": [
     "R12"
   ],
   "tags": [],
-  "background": "神宗崩、哲宗立，起复登州知州，自宜兴北上，到任仅五日复召还朝。",
+  "background": "胶东半岛古道，山东半岛沿海驿道。苏轼知密州时或沿此道东行，黄海之滨、齐鲁遗风。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p088-001",
+      "date": "1085年",
+      "title": "经胶东半岛赴登州",
+      "description": "苏轼赴登州任途经胶东半岛沿海古道",
+      "significance": "沿海驿道"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "海上道人传",
+      "type": "文",
+      "note": "知密州期间所作",
+      "year_estimate": 1076
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "胶东半岛古道",
+      "ancient_name": "胶东半岛古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经胶东半岛古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.483984,
+      "lng": 121.653041,
+      "modern_address": "环岛路12号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +83,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:06.000Z"
+  "amap_updated_at": "2026-06-03T05:15:06.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "环岛路12号"
 }

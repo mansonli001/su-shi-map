@@ -3,13 +3,13 @@
   "ancient_name": "滁州琅琊山",
   "modern_name": "安徽滁州琅琊山",
   "type": "sight",
-  "lat": 32.276983,
-  "lng": 118.281902,
+  "lat": 32.295,
+  "lng": 118.298,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼移知扬州途经滁州，游琅琊山",
-  "background": "滁州是欧阳修《醉翁亭记》所在地，苏轼元祐七年移知扬州时途经此地",
+  "background": "鄂州即今武汉武昌，长江中游重镇。苏轼南贬途经此地，黄鹤楼高耸、鹦鹉洲芳草，是荆楚文化的核心。",
   "tags": [
     "滁州",
     "醉翁亭",
@@ -19,7 +19,48 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "六月二十七日望湖楼醉书五首",
+      "type": "诗",
+      "description": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "title": "望湖楼醉书",
+      "type": "诗",
+      "description": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "title": "次韵子由送赵㞦",
+      "type": "诗",
+      "description": "若见故人问消息，为言春色在湖边。"
+    },
+    {
+      "title": "吉祥寺赏牡丹",
+      "type": "诗",
+      "description": "人老簪花不自羞，花应羞上老人头。"
+    },
+    {
+      "title": "吉祥寺僧求阁名",
+      "type": "诗",
+      "description": "尚有清欢那可负，此生端合老烟波。"
+    },
+    {
+      "title": "冬至日独游吉祥寺",
+      "type": "诗",
+      "description": "何人更似苏夫子，不是花时肯独来。"
+    },
+    {
+      "title": "吉祥寺题壁",
+      "type": "诗",
+      "description": "寂寞吉祥寺，风流老东坡。"
+    },
+    {
+      "title": "雨中游天竺灵感观音院",
+      "type": "诗",
+      "description": "蚕欲老，麦半黄，前山后山雨浪浪。"
+    }
+  ],
   "route_events": {
     "route17": [
       {
@@ -57,7 +98,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.255904,
+      "lng": 118.333439,
+      "modern_address": "安徽省滁州市"
     },
     {
       "id": "cz-s002",
@@ -71,17 +115,70 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "modern_address": "安徽省滁州市琅琊区琅琊山"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "滁州烧鸡",
+      "description": "滁州传统名吃",
+      "origin_story": "滁州传统美食",
+      "tag": "滁州特色"
+    }
+  ],
   "transport": {
     "train": "滁州站",
     "bus": "滁州汽车站",
     "car": "宁洛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "当涂官署",
+      "ancient_name": "当涂官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在滁州琅琊山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.255904,
+      "lng": 118.333439,
+      "modern_address": "安徽省滁州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "琅琊山",
+      "ancient_name": "琅琊山",
+      "type": "mountain",
+      "period": "",
+      "description": "欧阳修《醉翁亭记》所在地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.255904,
+      "lng": 118.333439,
+      "modern_address": "安徽省滁州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "醉翁亭",
+      "ancient_name": "醉翁亭",
+      "type": "pavilion",
+      "period": "",
+      "description": "欧阳修《醉翁亭记》",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.276983,
+      "lng": 118.281902,
+      "modern_address": "安徽省滁州市琅琊区琅琊山",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "chuzhou",
@@ -97,7 +194,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.210Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "安徽省滁州市琅琊区琅琊山",
   "coords_updated_at": "2026-06-01T10:17:04.312Z",
   "duration_summary": {
@@ -133,5 +230,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:16.000Z"
+  "amap_updated_at": "2026-06-03T05:14:16.000Z",
+  "sxzk_address": "安徽省滁州市"
 }

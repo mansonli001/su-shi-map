@@ -9,7 +9,7 @@
     "R11"
   ],
   "summary": "苏轼拜访王安石于金陵",
-  "background": "金陵即今南京，苏轼元丰七年量移汝州途中拜访退隐的王安石",
+  "background": "金陵钟山即紫金山，王安石退隐之所。苏轼拜访王安石于此，山中松风、溪涧清幽，两位文坛巨匠的会面成千古佳话。",
   "tags": [
     "金陵",
     "江宁",
@@ -45,6 +45,46 @@
       "location": "金陵/江宁",
       "background": "泊船瓜洲",
       "poem_id": "S109"
+    },
+    {
+      "title": "题西林壁",
+      "type": "诗",
+      "description": "不识庐山真面目，只缘身在此山中。"
+    },
+    {
+      "title": "庐山诸寺题咏诗",
+      "type": "诗",
+      "description": "山行不用借藤梯，瀑布声中到麻溪。"
+    },
+    {
+      "title": "金陵怀古杂咏",
+      "type": "诗",
+      "description": "千古兴亡一梦中，江山满目泪无穷。"
+    },
+    {
+      "title": "题西林壁二首",
+      "type": "诗",
+      "description": "不识庐山真面目，只缘身在此山中。"
+    },
+    {
+      "title": "庐山二胜",
+      "type": "诗",
+      "description": "乱石散霜雪，古寺伴青松。"
+    },
+    {
+      "title": "开先漱玉亭",
+      "type": "诗",
+      "description": "乱石散霜雪，古寺伴青松。"
+    },
+    {
+      "title": "栖贤三峡桥",
+      "type": "诗",
+      "description": "吾闻三峡桥，天下称奇绝。"
+    },
+    {
+      "title": "初入庐山",
+      "type": "诗",
+      "description": "要识庐山面，他年是故人。"
     }
   ],
   "route_events": {
@@ -93,7 +133,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市"
     },
     {
       "id": "jl-s002",
@@ -107,17 +150,111 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.049228,
+      "lng": 118.76072,
+      "modern_address": "清凉山83号清凉山公园内(南侧)"
+    },
+    {
+      "name": "庐山",
+      "description": "苏轼游庐山作'不识庐山真面目'，千古名句",
+      "type": "景区"
+    },
+    {
+      "name": "白鹿洞书院",
+      "description": "中国古代四大书院之一，苏轼或曾到访",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "南京盐水鸭",
+      "description": "南京名菜",
+      "origin_story": "金陵传统名菜",
+      "tag": "金陵必吃"
+    }
+  ],
   "transport": {
     "train": "南京站 / 南京南站",
     "bus": "南京汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "金陵秦淮州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在金陵秦淮的居所",
+      "importance": "primary",
+      "ancient_name": "金陵秦淮州衙",
+      "lat": 32.022,
+      "lng": 118.78,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用金陵秦淮中心坐标作为参考"
+    },
+    {
+      "name": "金陵/江宁",
+      "ancient_name": "金陵/江宁",
+      "type": "scenic",
+      "period": "元丰七年（1084年）",
+      "description": "创作《泊船瓜洲》处",
+      "works": [
+        "泊船瓜洲"
+      ],
+      "importance": "secondary",
+      "lat": 31.903949,
+      "lng": 118.899789,
+      "modern_address": "弘景大道99号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "钟山",
+      "ancient_name": "钟山",
+      "type": "mountain",
+      "period": "",
+      "description": "钟山即紫金山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "清凉寺",
+      "ancient_name": "清凉寺",
+      "type": "temple",
+      "period": "",
+      "description": "苏轼曾游清凉寺",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.049228,
+      "lng": 118.76072,
+      "modern_address": "清凉山83号清凉山公园内(南侧)",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "谪",
+      "ancient_name": "谪",
+      "type": "office",
+      "period": "1084",
+      "description": "从金陵访王安石·冰释前嫌中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.022,
+      "lng": 118.78,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS031",
     "pinyin_id": "jinling",
@@ -179,5 +316,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:07.000Z"
+  "amap_updated_at": "2026-06-03T05:15:07.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "钞库街"
 }

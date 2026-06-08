@@ -3,13 +3,13 @@
   "ancient_name": "汴京太学",
   "modern_name": "河南开封太学旧址",
   "type": "around",
-  "lat": 34.798083,
-  "lng": 114.314278,
+  "lat": 34.7972,
+  "lng": 114.3496,
   "related_routes": [
     "R01"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "汴京是北宋都城，今河南开封，三苏在此科举及第，名动京师",
+  "background": "褒城即今陕西汉中褒城，褒斜道南端出口。苏轼出蜀经此，褒水清澈、栈道遗迹犹存，是蜀道文明的重要节点。",
   "tags": [
     "都城",
     "科举",
@@ -128,7 +128,10 @@
       "photos": [],
       "url": "",
       "rating": "AAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.791769,
+      "lng": 114.354678,
+      "modern_address": "自由路西段36号"
     },
     {
       "id": "bj-s002",
@@ -142,17 +145,106 @@
       "photos": [],
       "url": "",
       "rating": "AAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "河南省开封市"
+    },
+    {
+      "name": "白帝城",
+      "description": "三峡起点，全国重点文物保护单位，苏轼出蜀经此",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "开封灌汤包",
+      "description": "北宋都城传统美食",
+      "origin_story": "汴京为北宋都城",
+      "tag": "汴京必吃"
+    }
+  ],
   "transport": {
     "train": "开封站 / 开封北站",
     "bus": "开封汽车中心站",
     "car": "连霍高速 / 大广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "汴京太学州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在汴京太学的居所",
+      "importance": "primary",
+      "ancient_name": "汴京太学州衙",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用汴京太学中心坐标作为参考"
+    },
+    {
+      "name": "汴京兴国寺浴室院",
+      "ancient_name": "汴京兴国寺浴室院",
+      "type": "scenic",
+      "period": "嘉祐元年（1056年）十一月",
+      "description": "创作《兴国寺浴室院六祖画赞》处",
+      "works": [
+        "兴国寺浴室院六祖画赞"
+      ],
+      "importance": "secondary",
+      "lat": 34.772577,
+      "lng": 114.590904,
+      "modern_address": "后果园村",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封相国寺",
+      "ancient_name": "开封相国寺",
+      "type": "temple",
+      "period": "",
+      "description": "中国十大名寺之一，北宋皇家寺院",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.791769,
+      "lng": 114.354678,
+      "modern_address": "自由路西段36号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封府",
+      "ancient_name": "开封府",
+      "type": "ruins",
+      "period": "",
+      "description": "北宋开封府衙，包拯曾在此任知府",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "河南省开封市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "兴国寺浴室院",
+      "ancient_name": "兴国寺浴室院",
+      "type": "residence",
+      "period": "嘉祐元年（1056年）五六月间",
+      "description": "从初到汴京中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS164",
     "pinyin_id": "bianjing",
@@ -168,7 +260,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.248Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.308Z",
   "duration_summary": {
@@ -217,5 +309,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:05.000Z"
+  "amap_updated_at": "2026-06-03T05:14:05.000Z",
+  "sxzk_address": "州桥街道延庆街7号"
 }

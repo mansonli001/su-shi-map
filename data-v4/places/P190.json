@@ -3,21 +3,52 @@
   "ancient_name": "崤山古道",
   "modern_name": "河南三门峡崤山古道",
   "type": "sight",
-  "lat": 34.5,
-  "lng": 111,
+  "lat": 34.773196,
+  "lng": 111.200482,
   "related_routes": [
     "R03"
   ],
   "tags": [],
-  "background": "由荆州陆行赴汴京，授官凤翔府签判，初入仕途。",
+  "background": "崤山古道连接关中与中原，山势险峻、道路崎岖。苏轼二次进京再经此道，与首次出蜀时心境不同——此番已授官凤翔，虽仍是险途，却多了几分仕途新人的期待。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p190-001",
+      "date": "1061年",
+      "title": "过崤山古道",
+      "description": "苏轼穿越崤山古道入关中赴凤翔",
+      "significance": "崤函天险"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "硖石",
+      "type": "诗",
+      "note": "经崤山古道所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "崤山古道",
+      "ancient_name": "崤山古道",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经崤山古道",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.773196,
+      "lng": 111.200482,
+      "modern_address": "湖滨区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +83,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:17.000Z"
+  "amap_updated_at": "2026-06-03T05:16:17.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "湖滨区"
 }

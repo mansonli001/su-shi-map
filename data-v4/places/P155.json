@@ -6,7 +6,7 @@
   "related_routes": [
     "R11"
   ],
-  "background": "长江与鄱阳湖交汇绝壁名山，以风水相激、山石鸣响闻名，自古众说纷纭。",
+  "background": "石钟山，鄱阳湖入长江处。苏轼夜泊石钟山下，探究山石发声之理，作《石钟山记》，是苏轼实证精神的最佳体现，也是千古名篇的诞生地。",
   "extended_story": "不盲从前人附会之说，夜乘小舟亲临绝壁之下，\n实地勘察水声石响成因，以亲身游历求证事理。",
   "essence": "山水纪行考据文学发源地",
   "tags": [
@@ -108,6 +108,38 @@
       "description": "苏轼夜探石钟山，作《石钟山记》",
       "significance": "route10",
       "id": "p155-evt-002"
+    }
+  ],
+  "sub_places": [
+    {
+      "name": "舒州官署",
+      "ancient_name": "舒州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在石钟山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.743224,
+      "lng": 116.223424,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用石钟山中心坐标作为参考"
+    }
+  ],
+  "foods": [
+    {
+      "name": "湖口糟鱼",
+      "description": "湖口传统名菜",
+      "origin_story": "石钟山所在地传统美食",
+      "tag": "湖口特色"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "石钟山",
+      "description": "苏轼作'石钟山记'，千古名篇",
+      "type": "景区"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "place_id": "P169",
+  "ancient_name": "唐州",
+  "modern_name": "河南唐河",
+  "city": "河南唐河市",
+  "processed_at": "2026-06-07T23:25:28.936244",
+  "main_coords": {
+    "name": "唐州官署",
+    "lat": 32.682464,
+    "lng": 112.80829,
+    "modern_address": "唐河县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "唐州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "唐州官署",
+      "ancient_name": "唐州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在唐州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.682464,
+      "lng": 112.80829,
+      "modern_address": "唐河县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P169",
+    "ancient_name": "唐州",
+    "city": "河南唐河市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "唐州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:43.993183"
+}

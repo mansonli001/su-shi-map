@@ -3,21 +3,52 @@
   "ancient_name": "潼关渡口",
   "modern_name": "陕西潼关渡口",
   "type": "sight",
-  "lat": 34.606776,
-  "lng": 110.29004,
+  "lat": 34.604275,
+  "lng": 110.30516,
   "related_routes": [
     "R01"
   ],
   "tags": [],
-  "background": "父子三人首次出蜀进京，应礼部考试一鸣惊人；母程氏卒于眉山，原路返蜀守孝。",
+  "background": "关中与中原的咽喉要冲，黄河渡口。苏轼父子出蜀进京经此渡河，东望中原、西顾关中，山河形胜尽收眼底。潼关自古为兵家必争之地，黄河自北而来、渭水汇入，水势浩荡。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p172-001",
+      "date": "1056年",
+      "title": "渡黄河潼关渡口",
+      "description": "苏轼在潼关渡口渡黄河，感受大河奔涌之势",
+      "significance": "渡河要津"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "潼关",
+      "type": "诗",
+      "note": "途经潼关所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "潼关渡口",
+      "ancient_name": "潼关渡口",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经潼关渡口",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.604275,
+      "lng": 110.30516,
+      "modern_address": "抽黄工程管理中心港口站东侧",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -39,5 +70,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:05.000Z"
+  "amap_updated_at": "2026-06-03T05:16:05.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "抽黄工程管理中心港口站东侧"
 }

@@ -1,0 +1,63 @@
+{
+  "place_id": "P097",
+  "ancient_name": "雷州",
+  "modern_name": "广东雷州",
+  "city": "广东雷州市",
+  "processed_at": "2026-06-07T23:22:34.671396",
+  "main_coords": {
+    "name": "开封府衙",
+    "lat": 20.914548,
+    "lng": 110.097011,
+    "modern_address": "广东省湛江市雷州市",
+    "coordinate_source": "amap_geocode",
+    "reason": "开封府衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "开封府衙",
+      "ancient_name": "开封府衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在雷州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "雷州古城",
+      "ancient_name": "雷州古城",
+      "type": "城",
+      "period": "",
+      "description": "雷州古城",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P097",
+    "ancient_name": "雷州",
+    "city": "广东雷州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "雷州官署",
+    "rejected_details": [],
+    "parent_place": "P008",
+    "parent_place_name": "汴京",
+    "note": "雷州为汴京的子地点",
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:22.159457"
+}

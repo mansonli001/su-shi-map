@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "长江下游江面开阔、沿岸名都相连，\n是苏轼一生多次往返的熟悉航道。",
+  "background": "长江下游全线，江面开阔、沿岸名都相连。苏轼一生多次往返此段航道，出蜀、南贬、北归，长江是苏轼人生最忠实的见证者。",
   "extended_story": "顺长江东下，重览沿江旧游，\n江山依旧、岁月已晚，\n满心皆是人生释然与归乡之安。",
   "essence": "人生回望收官核心大江",
   "tags": [
@@ -56,7 +56,46 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:53.000Z",
-  "lat": 32.05,
-  "lng": 118.78,
-  "_latlng_source": "preset"
+  "lat": 31.70394,
+  "lng": 118.446476,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "花山区",
+  "sub_places": [
+    {
+      "name": "长江下游全线",
+      "ancient_name": "长江下游全线",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经长江下游全线",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.70394,
+      "lng": 118.446476,
+      "modern_address": "花山区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p224-001",
+      "date": "1100年",
+      "title": "沿长江下游北归",
+      "description": "苏轼沿长江下游全线东下北归",
+      "significance": "归途水路"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "次韵王晋卿奉诏押高丽宴射",
+      "type": "诗",
+      "description": "奉诏押宴，字字珠玑。"
+    },
+    {
+      "title": "伏波将军庙碑",
+      "type": "文",
+      "description": "伏波将军之神，予能无感乎？"
+    }
+  ]
 }

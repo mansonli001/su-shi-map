@@ -1,0 +1,47 @@
+{
+  "place_id": "P180",
+  "ancient_name": "武昌樊山",
+  "modern_name": "湖北鄂州（北宋武昌）",
+  "city": "湖北鄂州（北宋武昌）市",
+  "processed_at": "2026-06-07T23:25:28.940296",
+  "main_coords": {
+    "name": "武昌樊山附近驿馆",
+    "lat": 30.391461,
+    "lng": 114.894909,
+    "modern_address": "鄂城区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "武昌樊山附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "武昌樊山附近驿馆",
+      "ancient_name": "武昌樊山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在武昌樊山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.391461,
+      "lng": 114.894909,
+      "modern_address": "鄂城区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P180",
+    "ancient_name": "武昌樊山",
+    "city": "湖北鄂州（北宋武昌）市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "武昌樊山附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:45.152226"
+}

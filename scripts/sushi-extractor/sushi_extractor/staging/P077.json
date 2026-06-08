@@ -1,0 +1,47 @@
+{
+  "place_id": "P077",
+  "ancient_name": "济南",
+  "modern_name": "山东济南",
+  "city": "济南市",
+  "processed_at": "2026-06-07T23:25:28.357651",
+  "main_coords": {
+    "name": "济南居所",
+    "lat": 36.652069,
+    "lng": 117.120128,
+    "modern_address": "历下区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "济南居所为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "济南居所",
+      "ancient_name": "济南居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在济南的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.652069,
+      "lng": 117.120128,
+      "modern_address": "历下区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P077",
+    "ancient_name": "济南",
+    "city": "济南市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "济南居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:37.300877"
+}

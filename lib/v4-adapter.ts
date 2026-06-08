@@ -126,19 +126,21 @@ function mapType(p: V4PlaceIdx): PlaceCore["type"] {
   return "tour";
 }
 
-// ─── v4 type → 设计稿 8 类 DesignPlaceType ─────────────
+// ─── v4 type → 设计稿 10 类 DesignPlaceType ─────────────
 function mapDesignType(p: V4PlaceIdx): DesignPlaceType {
   const t = (p.type || "").toLowerCase();
   // 直接映射
   if (t === "main") return "main";
+  if (t === "sight") return "sight";
+  if (t === "around") return "around";
   if (t === "stay") return "stay";
   if (t === "study") return "study";
   if (t === "birth") return "birth";
   if (t === "official") return "official";
   if (t === "death") return "death";
   if (t === "tomb") return "tomb";
-  // around / sight 归到 visit（沿途游览）
-  if (t === "around" || t === "sight" || t === "visit") return "visit";
+  // visit 保留
+  if (t === "visit") return "visit";
   // 兜底
   return "visit";
 }

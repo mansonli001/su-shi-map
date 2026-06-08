@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "秦岭主峰，关中第一名山。",
+  "background": "太白山，秦岭主峰，海拔三千余米。苏轼赴凤翔途经太白山麓，雪峰巍峨、云海翻涌，是关中第一名山，也是秦岭最壮丽的自然奇观。",
   "extended_story": "凤翔任内远游太白山，\n观秦岭巍峨，拓宽山河格局。",
   "essence": "秦岭名山游学点位",
   "tags": [
@@ -29,9 +29,9 @@
   },
   "last_updated": "2026-06-01T10:22:05.195Z",
   "schema_version": "v4.1",
-  "lng": 107.7701,
-  "lat": 33.953718,
-  "coordinate_source": "amap_corrected",
+  "lng": 107.878659,
+  "lat": 34.048156,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "陕西省宝鸡市太白县太白山",
   "coords_updated_at": "2026-06-01T10:17:04.324Z",
   "duration_summary": {
@@ -75,5 +75,52 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:58.000Z"
+  "amap_updated_at": "2026-06-03T05:15:58.000Z",
+  "sxzk_address": "汤峪镇中心大道与迎宾大道交叉口",
+  "sub_places": [
+    {
+      "name": "太白山附近驿馆",
+      "ancient_name": "太白山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在太白山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.048156,
+      "lng": 107.878659,
+      "modern_address": "汤峪镇中心大道与迎宾大道交叉口",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p163-001",
+      "date": "1061年",
+      "title": "经太白山麓",
+      "description": "苏轼赴凤翔途经太白山麓，远望秦岭主峰",
+      "significance": "秦岭主峰"
+    }
+  ],
+  "foods": [
+    {
+      "name": "太白山野菜",
+      "description": "太白山特产山珍，清鲜爽口"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "太白山国家森林公园",
+      "description": "秦岭主峰，苏轼途经关中或远眺",
+      "type": "景区"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "太白山",
+      "type": "诗",
+      "note": "远眺太白山所作",
+      "year_estimate": 1061
+    }
+  ]
 }

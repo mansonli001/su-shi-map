@@ -3,21 +3,66 @@
   "ancient_name": "临沂",
   "modern_name": "山东临沂",
   "type": "main",
-  "lat": 35.1042,
-  "lng": 118.3564,
+  "lat": 35.103771,
+  "lng": 118.356464,
   "related_routes": [
     "R08"
   ],
   "tags": [],
-  "background": "密州任满改知徐州，黄河决口任内组织抗洪。",
+  "background": "临沂，沂蒙山区重镇。苏轼途经沂州，琅琊山色、沂水长流，王羲之故里的文脉悠长。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p102-001",
+      "date": "1077年",
+      "title": "经临沂赴徐州",
+      "description": "苏轼自密州调徐州途经临沂",
+      "significance": "赴任途经"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "临沂道上",
+      "type": "诗",
+      "note": "途经沂州所作",
+      "year_estimate": 1077
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "王羲之故居",
+      "description": "书圣王羲之故里，苏轼或曾凭吊",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "临沂糁汤",
+      "description": "临沂传统早餐，麦仁肉汤熬制，浓香暖胃"
+    },
+    {
+      "name": "临沂煎饼",
+      "description": "沂蒙传统主食，薄如纸的杂粮煎饼"
+    }
+  ],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "临沂居所",
+      "ancient_name": "临沂居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在临沂的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.103771,
+      "lng": 118.356464,
+      "modern_address": "兰山区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +97,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:15.000Z"
+  "amap_updated_at": "2026-06-03T05:15:15.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "兰山区"
 }

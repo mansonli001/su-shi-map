@@ -3,21 +3,46 @@
   "ancient_name": "华山远眺",
   "modern_name": "陕西华阴华山",
   "type": "sight",
-  "lat": 34.477861,
-  "lng": 110.084789,
+  "lat": 34.493336,
+  "lng": 110.070978,
   "related_routes": [
     "R03"
   ],
   "tags": [
     "坐标推断"
   ],
-  "background": "由荆州陆行赴汴京，授官凤翔府签判，初入仕途。",
+  "background": "西岳华山，五岳之最险。苏轼赴凤翔任职途经关中，远望华山三峰插天、壁立千仞，虽未登临，但华山雄姿已令初入仕途的青年心生壮阔。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p067-001",
+      "date": "1061年",
+      "title": "远眺华山",
+      "description": "苏轼经华阴远眺西岳华山，叹其雄险",
+      "significance": "西岳远眺"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "华阴寄子由",
+      "type": "诗",
+      "description": "苏轼远眺华山寄弟之作"
+    }
+  ],
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "华山风景名胜区",
+      "description": "五岳之西岳，苏轼途经关中或远眺",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "华阴大刀面",
+      "description": "华山脚下传统面食，宽如腰带，筋道爽滑"
+    }
+  ],
   "transport": [],
   "sub_places": [],
   "periods": [],
@@ -54,5 +79,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:50.000Z"
+  "amap_updated_at": "2026-06-03T05:14:50.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "集灵路"
 }

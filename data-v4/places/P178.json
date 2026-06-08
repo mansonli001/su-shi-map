@@ -3,14 +3,14 @@
   "ancient_name": "梧州",
   "modern_name": "广西梧州",
   "type": "main",
-  "lat": 23.4775,
-  "lng": 111.2727,
+  "lat": 23.476733,
+  "lng": 111.279022,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼贬儋州途经梧州",
-  "background": "梧州是岭南重镇，苏轼贬儋州时途经此地",
+  "background": "梧州即今广西梧州，苏轼北归再经此地。两江合流依旧，归途的西江水路不再凄凉，而是北归的欢欣。",
   "tags": [
     "梧州",
     "桂江",
@@ -26,7 +26,13 @@
       "id": "p178-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过梧州",
+      "type": "诗",
+      "description": "苏轼南贬经梧州所作"
+    }
+  ],
   "route_events": {
     "route19": [
       {
@@ -72,17 +78,63 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.476733,
+      "lng": 111.279022,
+      "modern_address": "广西壮族自治区梧州市"
+    },
+    {
+      "name": "梧州骑楼城",
+      "description": "岭南骑楼建筑群",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "梧州龟苓膏",
+      "description": "梧州传统名吃，龟板土茯苓熬制，清凉解暑"
+    },
+    {
+      "name": "梧州纸包鸡",
+      "description": "梧州传统名菜，鸡肉纸包油炸，鲜嫩多汁"
+    }
+  ],
   "transport": {
     "train": "梧州站",
     "bus": "梧州汽车站",
     "car": "包茂高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "吴江官署",
+      "ancient_name": "吴江官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在梧州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.476733,
+      "lng": 111.279022,
+      "modern_address": "广西壮族自治区梧州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "白云山",
+      "ancient_name": "白云山",
+      "type": "mountain",
+      "period": "",
+      "description": "梧州白云山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.476733,
+      "lng": 111.279022,
+      "modern_address": "广西壮族自治区梧州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "wuzhou",
@@ -137,5 +189,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:09.000Z"
+  "amap_updated_at": "2026-06-03T05:16:09.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "广西壮族自治区梧州市"
 }

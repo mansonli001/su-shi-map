@@ -6,7 +6,7 @@
   "related_routes": [
     "R17"
   ],
-  "background": "河北军政重镇，北通边关、南接中原的咽喉要地。",
+  "background": "真定即今河北正定，河北军政重镇。苏轼外放定州途经此地，滹沱河绕城、隆兴寺古刹庄严，是北通边关的咽喉。",
   "extended_story": "驻足真定休整，渐近太行东麓，\n已近北疆定州地界，前路愈显荒远。",
   "essence": "河北腹地通往北疆核心枢纽",
   "tags": [
@@ -73,5 +73,47 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:55.000Z"
+  "amap_updated_at": "2026-06-03T05:16:55.000Z",
+  "lat": 38.144749,
+  "lng": 114.574037,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "镇州南街与常山东路交叉口西南约140米",
+  "sub_places": [
+    {
+      "name": "真定居所",
+      "ancient_name": "真定居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在真定的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 38.144749,
+      "lng": 114.574037,
+      "modern_address": "镇州南街与常山东路交叉口西南约140米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p226-001",
+      "date": "1093年",
+      "title": "经真定赴定州",
+      "description": "苏轼外放定州途经真定正定",
+      "significance": "河北文化中心"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "隆兴寺",
+      "description": "正定古刹，中国十大名寺之一",
+      "type": "寺院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "正定八大碗",
+      "description": "真定传统宴席，八碗荤素搭配，实惠丰盛"
+    }
+  ]
 }

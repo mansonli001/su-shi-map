@@ -3,19 +3,34 @@
   "ancient_name": "宁强",
   "modern_name": "陕西宁强",
   "type": "main",
-  "lat": 32.8294,
-  "lng": 106.258,
+  "lat": 32.821946,
+  "lng": 106.261536,
   "related_routes": [
     "R01"
   ],
   "summary": "",
-  "background": "秦岭东段山地古驿道，川入陕艰险路段。",
+  "background": "宁强即今陕西宁强，秦岭东段山地古驿道。由川入陕的艰险路段，山高谷深、栈道蜿蜒，是蜀道最险峻的路段之一。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p128-001",
+      "date": "1056年",
+      "title": "经宁强穿越秦岭",
+      "description": "苏轼经宁强入秦岭深处，栈道险峻",
+      "significance": "蜀道险段"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "宁强",
+      "type": "诗",
+      "note": "途经宁强所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年秦岭驿道途经",
@@ -31,10 +46,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "青木川古镇",
+      "description": "陕甘川交界古镇，入蜀古道驿站",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宁强核桃馍",
+      "description": "宁强传统名点，核桃仁碎入馍，酥香可口"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "宁强居所",
+      "ancient_name": "宁强居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在宁强的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.821946,
+      "lng": 106.261536,
+      "modern_address": "宁强县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS129",
     "pinyin_id": null,
@@ -60,36 +101,8 @@
       "S2"
     ]
   },
-  "modern_visit": {
-    "amap_poi_id": "B0FFGQS8C1",
-    "amap_name": "宁强收费站(G5京昆高速出口)",
-    "address": "宁强县",
-    "location": "106.261536,32.821946",
-    "cityname": "汉中市",
-    "adname": "宁强县",
-    "type": "道路附属设施;收费站;收费站",
-    "typecode": "180200",
-    "tel": [],
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFGQS8C1/comment/content_media_external_file_100000660_1759204658933_02733538.jpg"
-      },
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/0631ba076fd563f54da511a30b18c0cf"
-      },
-      {
-        "title": [],
-        "url": "https://aos-comment.amap.com/B0FFGQS8C1/comment/content_media_external_file_100000660_1759204658973_52415287.jpg"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
-  "amap_updated_at": "2026-06-03T05:15:33.000Z"
+  "modern_visit": {},
+  "amap_updated_at": "2026-06-03T05:15:33.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "宁强县"
 }

@@ -12,7 +12,7 @@
     "R17"
   ],
   "summary": "苏轼父丧回乡途经泗州",
-  "background": "泗州位于洪泽湖畔，是古代南北交通要道，苏轼父丧回乡途经此地",
+  "background": "泗州即今江苏盱眙，洪泽湖畔古城。汴河入淮处，南北水陆要冲，苏轼扶柩归蜀及多次往返途经此地，淮水浩荡、城郭临湖，是运河与淮河的交汇枢纽。",
   "tags": [
     "泗州",
     "古城",
@@ -100,17 +100,54 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "modern_address": "江苏省淮安市盱眙县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "泗州大饼",
+      "description": "泗州传统面食，厚实筋道"
+    }
+  ],
   "transport": {
     "train": "盱眙站",
     "bus": "盱眙汽车站",
     "car": "宁连高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "太平州衙",
+      "ancient_name": "太平州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在泗州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "modern_address": "江苏省淮安市盱眙县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "泗州城遗址",
+      "ancient_name": "泗州城遗址",
+      "type": "ruins",
+      "period": "",
+      "description": "淹没于洪泽湖下的千年古城",
+      "works": [],
+      "importance": "secondary",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "modern_address": "江苏省淮安市盱眙县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS022",
     "pinyin_id": "sizhou",
@@ -126,7 +163,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.252Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_geocode",
   "amap_address": "江苏省淮安市盱眙县",
   "coords_updated_at": "2026-06-01T10:17:04.323Z",
   "duration_summary": {
@@ -171,5 +208,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:56.000Z"
+  "amap_updated_at": "2026-06-03T05:15:56.000Z",
+  "sxzk_address": "江苏省淮安市盱眙县"
 }

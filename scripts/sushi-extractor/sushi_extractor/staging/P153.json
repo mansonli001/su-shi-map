@@ -1,0 +1,46 @@
+{
+  "place_id": "P153",
+  "ancient_name": "韶州",
+  "modern_name": "广东韶关",
+  "city": "广东韶关市",
+  "processed_at": "2026-06-07T23:25:28.930253",
+  "main_coords": {
+    "name": "韶州官署",
+    "lat": 24.810977,
+    "lng": 113.597324,
+    "modern_address": "浈江区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "韶州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "韶州官署",
+      "ancient_name": "韶州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在韶州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 24.810977,
+      "lng": 113.597324,
+      "modern_address": "浈江区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P153",
+    "ancient_name": "韶州",
+    "city": "广东韶关市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "韶州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:42.615624"
+}

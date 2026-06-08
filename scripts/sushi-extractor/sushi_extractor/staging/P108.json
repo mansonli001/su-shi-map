@@ -1,0 +1,88 @@
+{
+  "place_id": "P108",
+  "ancient_name": "庐山",
+  "modern_name": "江西庐山",
+  "city": "江西庐山市",
+  "processed_at": "2026-06-07T23:16:20.115390",
+  "main_coords": {
+    "name": "庐山州衙",
+    "lat": 29.5644,
+    "lng": 115.9933,
+    "modern_address": "牯岭镇河西路48号",
+    "coordinate_source": "original",
+    "reason": "使用原始坐标，待精细化"
+  },
+  "sub_places": [
+    {
+      "name": "庐山居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在庐山的居所",
+      "importance": "primary",
+      "ancient_name": "庐山居所",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "庐山州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在庐山的居所",
+      "importance": "primary",
+      "ancient_name": "庐山州衙",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "西林寺",
+      "ancient_name": "西林寺",
+      "type": "scenic",
+      "period": "元丰七年（1084年）五月",
+      "description": "创作《题西林壁》处",
+      "works": [
+        "题西林壁"
+      ],
+      "importance": "secondary",
+      "lat": 29.448225,
+      "lng": 116.045118,
+      "modern_address": "江西省九江市庐山市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "庐山",
+      "ancient_name": "庐山",
+      "type": "山",
+      "period": "",
+      "description": "苏轼游庐山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 29.66116,
+      "lng": 115.95356,
+      "modern_address": "江西省九江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P108",
+    "ancient_name": "庐山",
+    "city": "江西庐山市",
+    "total_sub_places": 2,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "庐山居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:22:02.552962"
+}

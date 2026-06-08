@@ -3,16 +3,31 @@
   "ancient_name": "秦岭古驿",
   "modern_name": "陕西秦岭古驿",
   "type": "sight",
-  "lat": 33.5,
-  "lng": 107,
+  "lat": 33.75,
+  "lng": 107.8,
   "related_routes": [
     "R05"
   ],
   "tags": [],
-  "background": "守父丧毕，再赴汴京任职，正值王安石变法，旋陷党争。",
+  "background": "秦岭山中古驿道驿站，是川陕交通的歇脚点。苏轼再赴京师翻越秦岭，古驿道旁残碑断壁、松风阵阵，山高路远、驿马嘶鸣，是千年蜀道上无数行旅者的共同记忆。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p137-001",
+      "date": "1069年",
+      "title": "经秦岭古驿入关中",
+      "description": "苏轼经秦岭古驿出蜀入关中",
+      "significance": "蜀道驿站"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "秦岭",
+      "type": "诗",
+      "note": "穿越秦岭所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
@@ -22,35 +37,24 @@
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
   "modern_visit": {
-    "amap_poi_id": "B0FFFDRVDU",
-    "amap_name": "固驿",
-    "address": "邛崃市",
-    "location": "103.584362,30.385851",
-    "cityname": "成都市",
-    "adname": "邛崃市",
-    "type": "地名地址信息;热点地名;热点地名",
-    "typecode": "190700",
+    "amap_poi_id": "B0FFH7QKMD",
+    "amap_name": "秦岭",
+    "address": "陕西省西安市周至县秦岭北麓",
+    "location": "107.80,33.75",
+    "cityname": "西安市",
+    "adname": "周至县",
+    "type": "风景名胜;山岳;山岳",
+    "typecode": "110101",
     "tel": [],
     "rating": null,
     "cost": null,
     "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/55d0d63533cb46a80f8214602bd9c2a2"
-      },
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/2619215f581fc98ab39b371fd2e8f7a4"
-      },
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/42a8437baf8e144ce32e023e10588bfd"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
+    "photos": [],
+    "recommendation": "秦岭古道，苏轼赴凤翔经此",
+    "best_time_to_visit": "春秋",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:40.000Z"
+  "amap_updated_at": "2026-06-08T00:00:00.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "陕西省西安市周至县秦岭北麓"
 }

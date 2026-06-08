@@ -3,13 +3,13 @@
   "ancient_name": "汴京翰林院",
   "modern_name": "河南开封翰林院旧址",
   "type": "around",
-  "lat": 34.798083,
-  "lng": 114.314278,
+  "lat": 34.7972,
+  "lng": 114.3496,
   "related_routes": [
     "R13"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "汴京是北宋都城，今河南开封，三苏在此科举及第，名动京师",
+  "background": "大散关即今陕西宝鸡西南，秦岭西段险隘。苏轼父子出蜀翻越秦岭经此，关城险峻、陈仓古道蜿蜒，是蜀道天险的北端出口。",
   "tags": [
     "都城",
     "科举",
@@ -45,6 +45,41 @@
       "date": "嘉祐元年（1056年）十一月",
       "location": "汴京兴国寺浴室院",
       "background": "在兴国寺浴室院观六祖画像作"
+    },
+    {
+      "title": "行香子·过七里濑",
+      "type": "词",
+      "description": "但远山长，云山乱，晓山青。"
+    },
+    {
+      "title": "如梦令·有寄",
+      "type": "词",
+      "description": "为向东坡传语，人在玉堂深处。"
+    },
+    {
+      "title": "沁园春·孤馆灯青",
+      "type": "词",
+      "description": "用舍由时，行藏在我，袖手何妨闲处看。"
+    },
+    {
+      "title": "西江月·坐客见和",
+      "type": "词",
+      "description": "归来仍是布衣身，富贵于予何有。"
+    },
+    {
+      "title": "行香子·清夜无尘",
+      "type": "词",
+      "description": "几时归去，作个闲人。"
+    },
+    {
+      "title": "洞仙歌·江南腊尽",
+      "type": "词",
+      "description": "细腰肢自有入格风流。"
+    },
+    {
+      "title": "西江月·夜行黄沙道中",
+      "type": "词",
+      "description": "稻花香里说丰年，听取蛙声一片。"
     }
   ],
   "route_events": {
@@ -116,7 +151,10 @@
       "photos": [],
       "url": "",
       "rating": "AAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.790478,
+      "lng": 114.35266,
+      "modern_address": "河南省开封市鼓楼区自由路西段"
     },
     {
       "id": "bj-s002",
@@ -130,17 +168,101 @@
       "photos": [],
       "url": "",
       "rating": "AAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.789726,
+      "lng": 114.3465,
+      "modern_address": "州桥街道延庆街7号"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "开封灌汤包",
+      "description": "北宋都城传统美食",
+      "origin_story": "汴京为北宋都城",
+      "tag": "汴京必吃"
+    }
+  ],
   "transport": {
     "train": "开封站 / 开封北站",
     "bus": "开封汽车中心站",
     "car": "连霍高速 / 大广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "汴京翰林院州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在汴京翰林院的居所",
+      "importance": "primary",
+      "ancient_name": "汴京翰林院州衙",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用汴京翰林院中心坐标作为参考"
+    },
+    {
+      "name": "汴京兴国寺浴室院",
+      "ancient_name": "汴京兴国寺浴室院",
+      "type": "scenic",
+      "period": "嘉祐元年（1056年）十一月",
+      "description": "创作《兴国寺浴室院六祖画赞》处",
+      "works": [
+        "兴国寺浴室院六祖画赞"
+      ],
+      "importance": "secondary",
+      "lat": 34.772577,
+      "lng": 114.590904,
+      "modern_address": "后果园村",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封相国寺",
+      "ancient_name": "开封相国寺",
+      "type": "temple",
+      "period": "",
+      "description": "中国十大名寺之一，北宋皇家寺院",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.790478,
+      "lng": 114.35266,
+      "modern_address": "河南省开封市鼓楼区自由路西段",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封府",
+      "ancient_name": "开封府",
+      "type": "ruins",
+      "period": "",
+      "description": "北宋开封府衙，包拯曾在此任知府",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.789726,
+      "lng": 114.3465,
+      "modern_address": "州桥街道延庆街7号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "兴国寺浴室院",
+      "ancient_name": "兴国寺浴室院",
+      "type": "residence",
+      "period": "嘉祐元年（1056年）五六月间",
+      "description": "从初到汴京中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS164",
     "pinyin_id": "bianjing",
@@ -156,7 +278,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.240Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.308Z",
   "duration_summary": {
@@ -176,13 +298,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0L3XU1F3Y",
-    "amap_name": "馄饨小栈",
-    "address": "枫杨街道金梭路与石楠路交叉口西南角",
-    "location": "113.551025,34.824613",
-    "cityname": "郑州市",
-    "adname": "中原区",
-    "type": "餐饮服务;中餐厅;中餐厅",
-    "typecode": "050100",
+    "amap_name": "开封府",
+    "address": "包公湖湖北路",
+    "location": "114.3496,34.7972",
+    "cityname": "开封市",
+    "adname": "龙亭区",
+    "type": "风景名胜;风景名胜;历史建筑",
+    "typecode": "110201",
     "tel": "18403928800;19339497771",
     "rating": null,
     "cost": null,
@@ -205,5 +327,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:04.000Z"
+  "amap_updated_at": "2026-06-03T05:14:04.000Z",
+  "sxzk_address": "枫杨街道金梭路与石楠路交叉口西南角"
 }

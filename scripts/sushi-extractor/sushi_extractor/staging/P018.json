@@ -1,0 +1,44 @@
+{
+  "place_id": "P018",
+  "ancient_name": "常州终老故居",
+  "modern_name": "江苏常州孙氏馆",
+  "city": "常州市",
+  "main_coords": {
+    "name": "孙氏馆",
+    "lat": 31.771947,
+    "lng": 119.974375,
+    "modern_address": "江苏省常州市天宁区前后北岸",
+    "coordinate_source": "amap_poi",
+    "reason": "苏轼终老之地，孙氏馆为最后居住地"
+  },
+  "sub_places": [
+    {
+      "name": "孙氏馆",
+      "ancient_name": "孙氏馆",
+      "type": "residence",
+      "period": "1101年",
+      "description": "苏轼北归途中病逝于常州孙氏馆",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.771947,
+      "lng": 119.974375,
+      "modern_address": "江苏省常州市天宁区前后北岸",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P018",
+    "ancient_name": "常州终老故居",
+    "city": "常州市",
+    "total_sub_places": 1,
+    "residence_count": 1,
+    "scenic_count": 0,
+    "main_coords_source": "孙氏馆（终老之地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.949776"
+}

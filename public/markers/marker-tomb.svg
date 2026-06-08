@@ -1,13 +1,22 @@
 <svg width="48" height="60" viewBox="0 0 48 60" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="tbG" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7A746E"/>
-      <stop offset="1" stop-color="#4F4A44"/>
+      <stop offset="0" stop-color="#6D4C41"/>
+      <stop offset="1" stop-color="#3E2723"/>
     </linearGradient>
   </defs>
+  <!-- 水滴形底 -->
   <path d="M24 58C24 58 7 36 7 22a17 17 0 1 1 34 0C41 36 24 58 24 58Z" fill="url(#tbG)"/>
-  <circle cx="24" cy="22" r="12.2" fill="#F4EEDD"/>
-  <path d="M19 28.2V19Q19 15 24 15Q29 15 29 19V28.2Z" fill="#4F4A44"/>
-  <path d="M19.8 19.8h8.4M22 22.5h4M22 24.6h4" stroke="#F4EEDD" stroke-width="1" stroke-linecap="round" stroke-opacity="0.85"/>
-  <path d="M16.5 28.2h15M18 28.2v2.4h12v-2.4Z" fill="#4F4A44"/>
+  <!-- 内圆 -->
+  <circle cx="24" cy="22" r="12.2" fill="#33211A"/>
+  <!-- 碑身 -->
+  <path d="M19 28V17Q19 14 24 14Q29 14 29 17V28Z" fill="#F4EEDD" fill-opacity="0.9"/>
+  <!-- 碑额弧线 -->
+  <path d="M19 17Q19 14 24 14Q29 14 29 17" fill="none" stroke="#F4EEDD" stroke-width="1.5" stroke-opacity="0.95"/>
+  <!-- 碑文（简笔"东坡"） -->
+  <line x1="22" y1="19" x2="26" y2="19" stroke="#33211A" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="22.5" y1="21.5" x2="25.5" y2="21.5" stroke="#33211A" stroke-width="0.8" stroke-opacity="0.6"/>
+  <line x1="23" y1="24" x2="25" y2="24" stroke="#33211A" stroke-width="0.8" stroke-opacity="0.6"/>
+  <!-- 碑座 -->
+  <rect x="17" y="28" width="14" height="2.5" rx="0.5" fill="#F4EEDD" fill-opacity="0.75"/>
 </svg>

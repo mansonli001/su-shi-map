@@ -3,13 +3,13 @@
   "ancient_name": "瓜州古渡",
   "modern_name": "江苏扬州瓜洲镇",
   "type": "sight",
-  "lat": 32.254619,
-  "lng": 119.384787,
+  "lat": 32.2082,
+  "lng": 119.4278,
   "related_routes": [
     "R04"
   ],
   "summary": "苏轼多次途经镇江，游金山寺",
-  "background": "镇江古称润州，是苏轼从杭州北上或南下的重要中转地",
+  "background": "瓜州古渡，运河与长江交汇处。苏轼途经瓜州，大江东去、运河北上，南北交通的咽喉要道。",
   "tags": [
     "镇江",
     "润州",
@@ -65,7 +65,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.254619,
+      "lng": 119.384787,
+      "modern_address": "江苏省扬州市邗江区瓜洲镇"
     },
     {
       "id": "zj-s002",
@@ -79,17 +82,96 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市"
+    },
+    {
+      "name": "赣州古城墙",
+      "description": "宋代古城墙，苏轼南贬经此",
+      "type": "古迹"
+    },
+    {
+      "name": "八境台",
+      "description": "赣州地标，苏轼曾为八境台题诗",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "镇江锅盖面",
+      "description": "镇江传统面食",
+      "origin_story": "镇江传统美食",
+      "tag": "镇江必吃"
+    }
+  ],
   "transport": {
     "train": "镇江站 / 镇江南站",
     "bus": "镇江汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "瓜州古渡州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在瓜州古渡的居所",
+      "importance": "primary",
+      "ancient_name": "瓜州古渡州衙",
+      "lat": 32.254619,
+      "lng": 119.384787,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用瓜州古渡中心坐标作为参考"
+    },
+    {
+      "name": "镇江金山寺",
+      "ancient_name": "镇江金山寺",
+      "type": "scenic",
+      "period": "熙宁四年（1071年）",
+      "description": "创作《游金山寺》处",
+      "works": [
+        "游金山寺"
+      ],
+      "importance": "secondary",
+      "lat": 32.254619,
+      "lng": 119.384787,
+      "modern_address": "江苏省扬州市邗江区瓜洲镇",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "金山寺",
+      "ancient_name": "金山寺",
+      "type": "temple",
+      "period": "",
+      "description": "金山寺是镇江名刹",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "焦山",
+      "ancient_name": "焦山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼常游焦山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS106",
     "pinyin_id": "zhenjiang",
@@ -98,7 +180,7 @@
     "v3_lat": 32.39,
     "v3_lng": 119.41
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "original",
   "amap_address": "江苏省扬州市邗江区瓜洲镇",
   "coords_updated_at": "2026-06-01T10:17:04.314Z",
   "duration_summary": {
@@ -139,5 +221,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:40.000Z"
+  "amap_updated_at": "2026-06-03T05:14:40.000Z",
+  "sxzk_address": "迎江路105号"
 }

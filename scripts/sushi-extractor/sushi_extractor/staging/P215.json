@@ -1,0 +1,47 @@
+{
+  "place_id": "P215",
+  "ancient_name": "运河全线风光",
+  "modern_name": "京杭大运河",
+  "city": "京杭大运河市",
+  "processed_at": "2026-06-07T23:25:29.989932",
+  "main_coords": {
+    "name": "运河全线风光附近驿馆",
+    "lat": 30.302955,
+    "lng": 120.141908,
+    "modern_address": "环城北路226号武林门码头",
+    "coordinate_source": "amap_poi_original",
+    "reason": "运河全线风光附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "运河全线风光附近驿馆",
+      "ancient_name": "运河全线风光附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在运河全线风光的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.302955,
+      "lng": 120.141908,
+      "modern_address": "环城北路226号武林门码头",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P215",
+    "ancient_name": "运河全线风光",
+    "city": "京杭大运河市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "运河全线风光附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:47.846187"
+}

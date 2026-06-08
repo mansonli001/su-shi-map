@@ -10,7 +10,7 @@
     "R09"
   ],
   "summary": "苏轼知湖州三月，因乌台诗案被捕",
-  "background": "湖州是苏轼元丰二年任知州地，仅三月即因乌台诗案被捕",
+  "background": "庐山东林寺，慧远大师道场。苏轼量移途中游庐山宿此，'溪声尽是广长舌，山色无非清净身'即作于此。",
   "tags": [
     "湖州",
     "知州",
@@ -50,6 +50,41 @@
       "note": "乌台诗案导火索",
       "source_route": "R09",
       "poem_id": "W008"
+    },
+    {
+      "title": "次韵黄鲁直见赠",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "中秋月",
+      "type": "诗",
+      "description": "此生此夜不长好，明月明年何处看。"
+    },
+    {
+      "title": "超然台记",
+      "type": "文",
+      "description": "我公厌富贵，常苦勋业寻。"
+    },
+    {
+      "title": "江城子·密州出猎",
+      "type": "词",
+      "description": "会挽雕弓如满月，西北望，射天狼。"
+    },
+    {
+      "title": "江城子·乙卯正月二十日夜记梦",
+      "type": "词",
+      "description": "十年生死两茫茫，不思量，自难忘。"
+    },
+    {
+      "title": "江城子·十年生死两茫茫",
+      "type": "词",
+      "description": "十年生死两茫茫，不思量，自难忘。"
+    },
+    {
+      "title": "蝶恋花·花褪残红青杏小",
+      "type": "词",
+      "description": "天涯何处无芳草。"
     }
   ],
   "route_events": {
@@ -118,17 +153,80 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "modern_address": "浙江省湖州市"
+    },
+    {
+      "name": "飞英塔",
+      "description": "湖州标志性古塔，塔中塔奇观",
+      "type": "古迹"
+    },
+    {
+      "name": "铁佛寺",
+      "description": "湖州古刹，宋代铁铸观音像",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "湖州粽子",
+      "description": "湖州名点，糯米裹粽叶蒸制，甜咸皆宜，苏轼知湖州时品此味"
+    },
+    {
+      "name": "太湖银鱼",
+      "description": "太湖特产银鱼，色白如银、鲜嫩爽滑，湖州宴席必备"
+    },
+    {
+      "name": "千张包子",
+      "description": "湖州传统小吃，千张皮裹肉馅蒸煮，汤鲜味美"
+    },
+    {
+      "name": "湖州千张包",
+      "description": "湖州传统小吃，百叶包裹肉馅煮制，鲜嫩爽滑"
+    },
+    {
+      "name": "安吉白茶",
+      "description": "湖州安吉特产，茶汤清亮，苏轼嗜茶必品"
+    }
+  ],
   "transport": {
     "train": "湖州站",
     "bus": "湖州汽车站",
     "car": "申嘉湖高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "嘉州官署",
+      "ancient_name": "嘉州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在湖州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "modern_address": "浙江省湖州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "湖州苏湾",
+      "ancient_name": "湖州苏湾",
+      "type": "ruins",
+      "period": "",
+      "description": "苏轼在湖州时常至苏湾",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.894178,
+      "lng": 120.086881,
+      "modern_address": "浙江省湖州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS023",
     "pinyin_id": "huzhou",
@@ -144,7 +242,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.222Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_geocode",
   "amap_address": "浙江省湖州市",
   "coords_updated_at": "2026-06-01T10:17:04.315Z",
   "duration_summary": {
@@ -193,5 +291,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:49.000Z"
+  "amap_updated_at": "2026-06-03T05:14:49.000Z",
+  "sxzk_address": "浙江省湖州市"
 }

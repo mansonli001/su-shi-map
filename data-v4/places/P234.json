@@ -3,19 +3,27 @@
   "ancient_name": "梓潼",
   "modern_name": "四川梓潼",
   "type": "main",
-  "lat": 31.6357,
-  "lng": 105.1664,
+  "lat": 31.642635,
+  "lng": 105.170746,
   "related_routes": [
     "R01",
     "R05"
   ],
   "summary": "",
-  "background": "金牛古蜀道核心路段，宋代官方驿道必经之地。",
+  "background": "梓潼即今四川梓潼，金牛古蜀道核心路段。七曲山大庙、古柏森森，是宋代官方驿道必经之地。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p234-001",
+      "date": "1056年",
+      "title": "经梓潼翠云廊",
+      "description": "苏轼经梓潼七曲山，观古柏长廊",
+      "significance": "蜀道文化"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R01": {
@@ -44,10 +52,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "七曲山大庙",
+      "description": "梓潼文昌帝君祖庭，苏轼出蜀途经或曾拜谒",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "梓潼酥饼",
+      "description": "梓潼传统名点，酥脆层多，芝麻香浓"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "梓潼居所",
+      "ancient_name": "梓潼居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在梓潼的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.642635,
+      "lng": 105.170746,
+      "modern_address": "梓潼县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS128",
     "pinyin_id": null,
@@ -104,5 +138,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:17:03.000Z"
+  "amap_updated_at": "2026-06-03T05:17:03.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "梓潼县"
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R10"
   ],
-  "background": "长江南北天然古渡口，江面开阔、渡舟往来，连通黄州江北与鄂州江南，\n是古时商旅、文人游赏渡江必经要津，江岸风石错落、江雾氤氲，极具江行诗意。",
+  "background": "长江南岸渡口，大江南岸的千年渡口。苏轼沿长江行旅，南岸渡口连接南北，'大江东去'的豪情与离愁。",
   "extended_story": "每每自此登舟渡江，任江风拂面、江雾漫舟，\n暂离黄州小城谪居拘束，去往江南樊山寻幽揽胜、避世闲游；\n一渡江水，便隔开官场尘嚣与山林清趣，成为苏轼安放谪居孤怀的心灵渡口。",
   "essence": "串联江北谪居与江南览胜、兼具交通与精神寄怀双重意义的古渡口",
   "tags": [
@@ -71,7 +71,75 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:52.000Z",
-  "lat": 30.45,
-  "lng": 114.88,
-  "_latlng_source": "preset"
+  "lat": 30.415295,
+  "lng": 114.926163,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "明珠大道8号",
+  "sub_places": [
+    {
+      "name": "长江南岸渡口附近驿馆",
+      "ancient_name": "长江南岸渡口附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长江南岸渡口的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.415295,
+      "lng": 114.926163,
+      "modern_address": "明珠大道8号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p223-001",
+      "date": "1080-1084年",
+      "title": "渡江往来",
+      "description": "苏轼在黄州时常从长江南岸渡口渡江往来武昌",
+      "significance": "日常渡口"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "水调歌头·落日绣帘卷",
+      "type": "词",
+      "description": "一点浩然气，千里快哉风。"
+    },
+    {
+      "title": "鹧鸪天·翻空白鸟时时见",
+      "type": "词",
+      "description": "翻空白鸟时时见，照水红蕖细细香。"
+    },
+    {
+      "title": "西江月·照野弥弥浅浪",
+      "type": "词",
+      "description": "可惜一溪风月，莫教踏碎琼瑶。"
+    },
+    {
+      "title": "西江月·春夜蕲水中",
+      "type": "词",
+      "description": "解鞍欹枕绿杨桥，杜宇一声春晓。"
+    },
+    {
+      "title": "南歌子·带酒冲山雨",
+      "type": "词",
+      "description": "梦里栩然蝴蝶一身轻。"
+    },
+    {
+      "title": "南歌子·雨暗初疑夜",
+      "type": "词",
+      "description": "梦里栩然蝴蝶一身轻。"
+    },
+    {
+      "title": "南歌子·日出西山雨",
+      "type": "词",
+      "description": "乱山深处过清明。"
+    },
+    {
+      "title": "满庭芳·归去来兮",
+      "type": "词",
+      "description": "悟已往之不谏，知来者之可追。"
+    }
+  ]
 }

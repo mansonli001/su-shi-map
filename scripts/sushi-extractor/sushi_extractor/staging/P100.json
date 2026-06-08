@@ -1,0 +1,58 @@
+{
+  "place_id": "P100",
+  "ancient_name": "廉州",
+  "modern_name": "合浦",
+  "city": "合浦县",
+  "main_coords": {
+    "name": "廉州府衙",
+    "lat": 21.66132,
+    "lng": 109.207236,
+    "modern_address": "广西北海市合浦县",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼从儋州北归途经廉州，暂居府衙附近"
+  },
+  "sub_places": [
+    {
+      "name": "廉州府衙",
+      "ancient_name": "廉州府衙",
+      "type": "residence",
+      "period": "1100年",
+      "description": "苏轼从儋州北归途经廉州暂居",
+      "works": [],
+      "importance": "primary",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "广西北海市合浦县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "海角亭",
+      "ancient_name": "海角亭",
+      "type": "scenic",
+      "period": "1100年",
+      "description": "苏轼曾至此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 21.66132,
+      "lng": 109.207236,
+      "modern_address": "广西北海市合浦县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P100",
+    "ancient_name": "廉州",
+    "city": "合浦县",
+    "total_sub_places": 2,
+    "residence_count": 1,
+    "scenic_count": 1,
+    "main_coords_source": "廉州府衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 2,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.462961"
+}

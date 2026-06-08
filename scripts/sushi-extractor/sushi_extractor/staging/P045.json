@@ -1,0 +1,119 @@
+{
+  "place_id": "P045",
+  "ancient_name": "凤翔东湖",
+  "modern_name": "陕西宝鸡凤翔区",
+  "city": "凤翔区",
+  "processed_at": "2026-06-07T23:16:12.002798",
+  "main_coords": {
+    "name": "凤翔东湖州衙",
+    "lat": 34.5234,
+    "lng": 107.3962,
+    "modern_address": "凤翔区",
+    "coordinate_source": "original",
+    "reason": "使用原始坐标，待精细化"
+  },
+  "sub_places": [
+    {
+      "name": "凤翔东湖官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任凤翔东湖官职时的居所",
+      "importance": "primary",
+      "ancient_name": "凤翔东湖官署",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "凤翔东湖州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼任凤翔东湖官职时的居所",
+      "importance": "primary",
+      "ancient_name": "凤翔东湖州衙",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "凤翔府仙游潭中兴寺",
+      "ancient_name": "凤翔府仙游潭中兴寺",
+      "type": "scenic",
+      "period": "嘉祐七年（1062年）三月",
+      "description": "创作《留题仙游潭中兴寺》处",
+      "works": [
+        "留题仙游潭中兴寺"
+      ],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤翔东湖",
+      "ancient_name": "凤翔东湖",
+      "type": "公园",
+      "period": "",
+      "description": "苏轼在凤翔时疏浚的湖，纪念苏轼",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "凤鸣驿",
+      "ancient_name": "凤鸣驿",
+      "type": "驿站",
+      "period": "",
+      "description": "苏轼《凤鸣驿记》记载的驿站",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "仙游潭中兴寺",
+      "ancient_name": "仙游潭中兴寺",
+      "type": "寺庙",
+      "period": "",
+      "description": "苏轼《留题仙游潭中兴寺》，有玉女洞、马融读书石室",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.522167,
+      "lng": 107.401029,
+      "modern_address": "陕西省宝鸡市凤翔区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P045",
+    "ancient_name": "凤翔东湖",
+    "city": "凤翔区",
+    "total_sub_places": 4,
+    "verified_count": 4,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "凤翔东湖官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "parent_place": "P044",
+    "parent_place_name": "凤翔",
+    "note": "东湖为凤翔的子地点"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:22:02.437994"
+}

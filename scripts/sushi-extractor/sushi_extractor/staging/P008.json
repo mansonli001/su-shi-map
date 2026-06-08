@@ -1,0 +1,80 @@
+{
+  "place_id": "P008",
+  "ancient_name": "汴京",
+  "modern_name": "开封",
+  "city": "开封市",
+  "processed_at": "2026-06-07T23:06:18.871925",
+  "main_coords": {
+    "name": "兴国寺浴室院",
+    "lat": 34.798,
+    "lng": 114.314,
+    "modern_address": "开封市龙亭区",
+    "coordinate_source": "amap_geocode",
+    "reason": "三苏初到汴京寓居兴国寺浴室院，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "兴国寺浴室院",
+      "ancient_name": "兴国寺浴室院",
+      "type": "residence",
+      "period": "1056年五六月间",
+      "description": "三苏初到汴京寓居之处，京师遇大雨，蔡河中夜决",
+      "works": [
+        "兴国寺浴室院六祖画赞"
+      ],
+      "importance": "primary",
+      "lat": 34.798,
+      "lng": 114.314,
+      "modern_address": "开封市龙亭区（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "兴国寺浴室院原址已无存，坐标为开封老城区参考位置"
+    },
+    {
+      "name": "文德殿",
+      "ancient_name": "文德殿",
+      "type": "office",
+      "period": "1086-1089年、1093年",
+      "description": "苏轼在朝任职时的办公场所",
+      "works": [],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "北宋皇宫遗址在今开封龙亭公园一带"
+    },
+    {
+      "name": "御史台",
+      "ancient_name": "御史台",
+      "type": "office",
+      "period": "1079年",
+      "description": "乌台诗案苏轼被关押之处",
+      "works": [],
+      "importance": "primary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "御史台原址待考证"
+    }
+  ],
+  "report": {
+    "place_id": "P008",
+    "ancient_name": "汴京",
+    "city": "开封市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "office_count": 2,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 3,
+    "no_coords_count": 2,
+    "main_coords_source": "兴国寺浴室院（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.517649"
+}

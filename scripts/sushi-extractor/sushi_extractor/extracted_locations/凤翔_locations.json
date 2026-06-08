@@ -1,0 +1,48 @@
+[
+  {
+    "location_id": "P842",
+    "location_name": "凤翔",
+    "modern_name": "凤翔苏轼相关景点",
+    "modern_address": "陕西省凤翔",
+    "province": "陕西省",
+    "city": "凤翔",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1060,
+    "visit_period": "初仕时期",
+    "stay_duration": "",
+    "su_works": [
+      "九成宫醴泉铭",
+      "牟氏陵陽集‧卷十七‧跋周卿所藏坡帖",
+      "晚香堂書帖",
+      "跋東坡拔豕帖",
+      "薦蘇子容功德疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "西凤酒",
+      "腊驴肉",
+      "臊子面",
+      "豆花泡馍"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "河寺",
+      "西山",
+      "北寺",
+      "中寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

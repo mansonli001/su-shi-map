@@ -3,13 +3,13 @@
   "ancient_name": "中和古镇",
   "modern_name": "海南儋州中和古镇",
   "type": "around",
-  "lat": 19.681,
-  "lng": 109.561,
+  "lat": 19.5215,
+  "lng": 109.4768,
   "related_routes": [
     "R18"
   ],
   "summary": "",
-  "background": "儋州千年古镇，海南人文古核，\n苏轼日常往来、市井烟火依托之地。",
+  "background": "中和古镇，儋州古城。苏轼谪居儋州时居于此，'九死南荒吾不恨'的旷达在此生根，海南文化的起点。",
   "tags": [
     "ancient_town",
     "life"
@@ -56,7 +56,13 @@
       "id": "p228-evt-004"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "中和古镇题壁",
+      "type": "诗",
+      "description": "苏轼贬儋州经中和古镇所作"
+    }
+  ],
   "route_events": {
     "R18": {
       "duration": "",
@@ -70,10 +76,98 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "东坡书院",
+      "description": "儋州苏轼讲学处，全国重点文保",
+      "type": "书院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "儋州烤生蚝",
+      "description": "海南特色",
+      "origin_story": "苏轼《食蚝》记载",
+      "tag": "儋州必吃"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "中和古镇州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在中和古镇的居所",
+      "importance": "primary",
+      "ancient_name": "中和古镇州衙",
+      "lat": 19.681,
+      "lng": 109.561,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用中和古镇中心坐标作为参考"
+    },
+    {
+      "name": "儋州安置",
+      "ancient_name": "儋州安置",
+      "type": "office",
+      "period": "绍圣四年（1097年）",
+      "description": "从贬谪儋州中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 19.681,
+      "lng": 109.561,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "、没有像样的食物吃、没有像样的医生看病、没有像样的书读",
+      "ancient_name": "、没有像样的食物吃、没有像样的医生看病、没有像样的书读",
+      "type": "residence",
+      "period": "1097-1098",
+      "description": "从渡海抵琼·昌化军安置中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 19.681,
+      "lng": 109.561,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "为'琼州别驾、昌化军安置'",
+      "ancient_name": "为'琼州别驾、昌化军安置'",
+      "type": "office",
+      "period": "1097-1098",
+      "description": "从渡海抵琼·昌化军安置中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 19.681,
+      "lng": 109.561,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "在'桄榔庵'（用桄榔树叶搭的棚屋）",
+      "ancient_name": "在'桄榔庵'（用桄榔树叶搭的棚屋）",
+      "type": "residence",
+      "period": "1098-1100",
+      "description": "从桄榔庵·讲学明道中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 19.681,
+      "lng": 109.561,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS043",
     "pinyin_id": null,
@@ -127,5 +221,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:57.000Z"
+  "amap_updated_at": "2026-06-03T05:16:57.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "中和镇"
 }

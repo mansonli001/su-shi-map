@@ -6,7 +6,7 @@
   "related_routes": [
     "R13"
   ],
-  "background": "齐鲁泉城腹地，泰山余脉北麓山水名都，南北古道要冲。",
+  "background": "济南，泉城名都。苏轼途经济南，趵突泉喷涌、大明湖如镜，'四面荷花三面柳'的泉城风韵。",
   "extended_story": "途经济南暂作停留，览泉城山水、观鲁中山川，\n休憩行旅，沉淀心绪，静待入京前路。",
   "essence": "泰山余脉沿线核心驻足名城",
   "tags": [
@@ -77,5 +77,53 @@
   "amap_updated_at": "2026-06-03T05:14:58.000Z",
   "lat": 36.652069,
   "lng": 117.120128,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "历下区",
+  "sub_places": [
+    {
+      "name": "济南居所",
+      "ancient_name": "济南居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在济南的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.652069,
+      "lng": 117.120128,
+      "modern_address": "历下区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p077-001",
+      "date": "1086年",
+      "title": "经济南还朝",
+      "description": "苏轼自登州还朝途经济南，观趵突泉",
+      "significance": "泉城途经"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "趵突泉",
+      "description": "济南七十二泉之首，天下第一泉",
+      "type": "景区"
+    },
+    {
+      "name": "大明湖",
+      "description": "济南名湖，苏轼途经或曾游览",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "济南把子肉",
+      "description": "济南传统名菜，五花肉蒲草捆扎卤制，浓香软糯"
+    },
+    {
+      "name": "济南甜沫",
+      "description": "济南传统早餐，小米粥加花生豆腐丝，咸甜适口"
+    }
+  ]
 }

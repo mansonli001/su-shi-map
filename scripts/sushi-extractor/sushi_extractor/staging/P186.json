@@ -1,0 +1,46 @@
+{
+  "place_id": "P186",
+  "ancient_name": "襄城",
+  "modern_name": "河南襄城",
+  "city": "河南襄城市",
+  "processed_at": "2026-06-07T23:25:28.942081",
+  "main_coords": {
+    "name": "襄城官署",
+    "lat": 33.846305,
+    "lng": 113.575115,
+    "modern_address": "襄城县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "襄城官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "襄城官署",
+      "ancient_name": "襄城官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在襄城的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.846305,
+      "lng": 113.575115,
+      "modern_address": "襄城县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P186",
+    "ancient_name": "襄城",
+    "city": "河南襄城市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "襄城官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:45.637251"
+}

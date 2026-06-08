@@ -6,7 +6,7 @@
   "related_routes": [
     "R10"
   ],
-  "background": "黄州西北山野古镇，深藏大别山东南余脉幽谷之间，远离州城尘嚣，\n山林清幽、民风淳朴、隐士云集，是宋代江汉文人隐居避世的优选之地。",
+  "background": "岐亭，黄州附近小镇。苏轼谪居黄州时常访岐亭，与陈慥（方山子）交游，'方山子传'即记此间情谊。",
   "extended_story": "挚友陈季常隐居岐亭山林，苏轼数度翻山越岭前往探访，\n二人对酒当歌、论诗谈禅、闲话世事，远离朝堂党争、脱离世俗功名；\n在山野友情与山林清趣中消解谪居孤寂，安放落魄失意之心，\n布衣之交、山林之乐，成为黄州灰暗岁月里难得的精神慰藉。",
   "essence": "苏轼谪居时期交友避世、安放孤怀的山林隐逸重镇",
   "tags": [
@@ -37,9 +37,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.228Z",
   "schema_version": "v4.1",
-  "lng": 114.754592,
-  "lat": 31.022195,
-  "coordinate_source": "amap_corrected",
+  "lng": 114.753637,
+  "lat": 31.01754,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "湖北省黄冈市麻城市岐亭镇",
   "coords_updated_at": "2026-06-01T10:17:04.321Z",
   "duration_summary": {
@@ -75,5 +75,76 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:38.000Z"
+  "amap_updated_at": "2026-06-03T05:15:38.000Z",
+  "sxzk_address": "歧亭镇车站街",
+  "sub_places": [],
+  "global_events": [
+    {
+      "id": "p134-001",
+      "date": "1080年",
+      "title": "访陈季常于岐亭",
+      "description": "苏轼贬谪黄州后常访陈季常于岐亭，作《方山子传》",
+      "significance": "黄州至交"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "方山子传",
+      "type": "文",
+      "description": "苏轼为岐亭陈季常作传，'方山子'之名传诵千古"
+    },
+    {
+      "title": "定风波·莫听穿林打叶声",
+      "type": "词",
+      "description": "回首向来萧瑟处，归去，也无风雨也无晴。"
+    },
+    {
+      "title": "浣溪沙·游蕲水清泉寺",
+      "type": "词",
+      "description": "谁道人生无再少？门前流水尚能西！"
+    },
+    {
+      "title": "浣溪沙·簌簌衣巾落枣花",
+      "type": "词",
+      "description": "簌簌衣巾落枣花，村南村北响缲车。"
+    },
+    {
+      "title": "鹧鸪天·林断山明竹隐墙",
+      "type": "词",
+      "description": "殷勤昨夜三更雨，又得浮生一日凉。"
+    },
+    {
+      "title": "醉翁操·琅然",
+      "type": "词",
+      "description": "醉翁啸咏，声和流泉。"
+    },
+    {
+      "title": "满庭芳·蜗角虚名",
+      "type": "词",
+      "description": "蜗角虚名，蝇头微利，算来着甚干忙。"
+    },
+    {
+      "title": "永遇乐·明月如霜",
+      "type": "词",
+      "description": "明月如霜，好风如水，清景无限。"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "岐亭古镇",
+      "description": "陈季常隐居地，方山子故事发生地",
+      "type": "古镇"
+    },
+    {
+      "name": "岐亭",
+      "description": "苏轼贬黄州途中访陈季常处，'方山子传'即写此人",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "岐亭烧饼",
+      "description": "岐亭传统小吃，酥脆多层"
+    }
+  ]
 }

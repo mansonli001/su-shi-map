@@ -10,7 +10,7 @@
     "R09"
   ],
   "summary": "",
-  "background": "汴河东下徐州必经古道节点，皖北苏北交界重镇。\n（注：宿州在 1077 年苏轼路线中是**陈桥驿东下徐州**的途经点，\n而非传统订正版认为的\"密州南下徐州\"路径，详见专家裁决）",
+  "background": "宿州，皖北古城。苏轼途经宿州，汴河水畔、中原通衢，皇藏峪的传说在此流传。",
   "tags": [
     "main",
     "transit"
@@ -56,10 +56,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "皇藏峪",
+      "description": "宿州名胜，传说刘邦避难处",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "宿州sa汤",
+      "description": "宿州传统早餐，麦仁鸡汤熬制，浓香暖胃"
+    },
+    {
+      "name": "符离集烧鸡",
+      "description": "宿州名菜，卤制烧鸡色香味俱佳"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "宿州官署",
+      "ancient_name": "宿州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在宿州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.647726,
+      "lng": 116.96419,
+      "modern_address": "埇桥区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS142",
     "pinyin_id": null,
@@ -76,7 +106,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.221Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "安徽省宿州市",
   "coords_updated_at": "2026-06-01T10:17:04.323Z",
   "duration_summary": {
@@ -125,5 +155,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:58.000Z"
+  "amap_updated_at": "2026-06-03T05:15:58.000Z",
+  "sxzk_address": "埇桥区"
 }

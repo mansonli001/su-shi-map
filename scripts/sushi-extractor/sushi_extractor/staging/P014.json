@@ -1,0 +1,106 @@
+{
+  "place_id": "P014",
+  "ancient_name": "汴京政事堂",
+  "modern_name": "河南开封政事堂旧址",
+  "city": "开封市",
+  "processed_at": "2026-06-07T23:16:05.962944",
+  "main_coords": {
+    "name": "汴京政事堂州衙",
+    "lat": 34.798083,
+    "lng": 114.314278,
+    "modern_address": "州桥街道延庆街7号",
+    "coordinate_source": "original",
+    "reason": "使用原始坐标，待精细化"
+  },
+  "sub_places": [
+    {
+      "name": "汴京政事堂州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在汴京政事堂的居所",
+      "importance": "primary",
+      "ancient_name": "汴京政事堂州衙",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "汴京兴国寺浴室院",
+      "ancient_name": "汴京兴国寺浴室院",
+      "type": "scenic",
+      "period": "嘉祐元年（1056年）十一月",
+      "description": "创作《兴国寺浴室院六祖画赞》处",
+      "works": [
+        "兴国寺浴室院六祖画赞"
+      ],
+      "importance": "secondary",
+      "lat": 34.772577,
+      "lng": 114.590904,
+      "modern_address": "后果园村",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封相国寺",
+      "ancient_name": "开封相国寺",
+      "type": "寺庙",
+      "period": "",
+      "description": "中国十大名寺之一，北宋皇家寺院",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.791769,
+      "lng": 114.354678,
+      "modern_address": "自由路西段36号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "开封府",
+      "ancient_name": "开封府",
+      "type": "遗址",
+      "period": "",
+      "description": "北宋开封府衙，包拯曾在此任知府",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.798083,
+      "lng": 114.314278,
+      "modern_address": "河南省开封市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "兴国寺浴室院",
+      "ancient_name": "兴国寺浴室院",
+      "type": "residence",
+      "period": "嘉祐元年（1056年）五六月间",
+      "description": "从初到汴京中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    }
+  ],
+  "report": {
+    "place_id": "P014",
+    "ancient_name": "汴京政事堂",
+    "city": "开封市",
+    "total_sub_places": 3,
+    "verified_count": 3,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "兴国寺浴室院",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "parent_place": "P008",
+    "parent_place_name": "汴京",
+    "note": "政事堂为汴京的子地点"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:21:59.916898"
+}

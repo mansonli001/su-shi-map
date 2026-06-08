@@ -3,8 +3,8 @@
   "ancient_name": "常州",
   "modern_name": "江苏常州",
   "type": "death",
-  "lat": 31.811313,
-  "lng": 119.974092,
+  "lat": 31.7744,
+  "lng": 119.974,
   "related_routes": [
     "R06",
     "R07",
@@ -14,7 +14,7 @@
     "R19"
   ],
   "summary": "苏轼北归卒于常州",
-  "background": "常州今江苏常州，苏轼建中靖国元年卒于此",
+  "background": "常州即今江苏常州，苏轼北归后终老之地。建中靖国元年七月二十八日，苏轼卒于常州孙氏馆，享年六十六岁，一代文豪在此画上句号。",
   "tags": [
     "常州",
     "毗陵",
@@ -69,9 +69,57 @@
       "title": "定居常州",
       "description": "苏轼在常州租屋居住，计划在此养老终老。",
       "significance": "人生最后居所"
+    },
+    {
+      "id": "p017-005",
+      "date": "1101年",
+      "title": "病逝常州",
+      "description": "苏轼遇赦北归途中病逝于常州，享年六十六岁",
+      "significance": "人生终点"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "游金山寺",
+      "type": "诗",
+      "description": "我家江水初发源，宦游直送江入海。"
+    },
+    {
+      "title": "赠别",
+      "type": "诗",
+      "description": "青鸟衔来双鲤鱼，自缄红泪开锦书。"
+    },
+    {
+      "title": "次韵代留别",
+      "type": "诗",
+      "description": "他年一醉若为欢，预恐飘零不能归。"
+    },
+    {
+      "title": "六月二十七日望湖楼醉书五首",
+      "type": "诗",
+      "description": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "title": "望海楼晚景",
+      "type": "诗",
+      "description": "海上涛头一线红，楼台紫翠出云中。"
+    },
+    {
+      "title": "书双竹湛师房",
+      "type": "诗",
+      "description": "落日官河带浅沙，禅房深竹护年华。"
+    },
+    {
+      "title": "夜泛西湖",
+      "type": "诗",
+      "description": "月明三十里，空山闻鹧鸪。"
+    },
+    {
+      "title": "饮湖上初晴后雨二首",
+      "type": "诗",
+      "description": "水光潋滟晴方好，山色空蒙雨亦奇。"
+    }
+  ],
   "route_events": {
     "route19": [
       {
@@ -189,16 +237,70 @@
       "url": "",
       "rating": "",
       "distance": ""
+    },
+    {
+      "name": "常州苏轼纪念馆",
+      "description": "常州孙氏馆旧址，苏轼终老之地",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "常州大麻糕",
+      "description": "常州传统糕点，酥香松脆",
+      "origin_story": "常州地方传统美食",
+      "tag": "常州必吃"
+    },
+    {
+      "name": "银丝面",
+      "description": "常州特色面食，面条细如银丝",
+      "origin_story": "常州传统早餐",
+      "tag": "常州特色"
+    },
+    {
+      "name": "加蟹小笼包",
+      "description": "常州名点，皮薄汁多蟹香浓郁",
+      "origin_story": "常州传统点心",
+      "tag": "常州名点"
+    },
+    {
+      "name": "常州银丝面",
+      "description": "常州名点，细如银丝的面条配鲜汤"
+    }
+  ],
   "transport": {
     "train": "常州站/常州北站",
     "bus": "常州汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "孙氏馆",
+      "ancient_name": "孙氏馆",
+      "type": "residence",
+      "period": "1101年6月-7月",
+      "description": "苏轼在常州租住之所，在此病逝，享年六十五岁",
+      "works": [
+        "答径山琳长老"
+      ],
+      "importance": "primary",
+      "lat": 31.811313,
+      "lng": 119.974092,
+      "modern_address": "常州市天宁区前北岸（藤花旧馆遗址）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "孙氏馆旧址在今常州前北岸，又称藤花旧馆",
+      "works_detail": [
+        {
+          "title": "答径山琳长老",
+          "type": "诗",
+          "date": "建中靖国元年（1101年）",
+          "note": "苏轼临终前在常州所作，'与君皆丙子，各已三万日'"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS052",
     "pinyin_id": "changzhou",
@@ -215,7 +317,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.267Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省常州市",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {
@@ -262,5 +364,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:10.000Z"
+  "amap_updated_at": "2026-06-03T05:14:10.000Z",
+  "sxzk_address": "常州市天宁区前北岸"
 }

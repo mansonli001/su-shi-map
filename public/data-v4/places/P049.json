@@ -3,13 +3,13 @@
   "ancient_name": "姑苏寒山寺",
   "modern_name": "江苏苏州寒山寺",
   "type": "sight",
-  "lat": 31.310469,
-  "lng": 120.568391,
+  "lat": 31.3116,
+  "lng": 120.572,
   "related_routes": [
     "R06"
   ],
   "summary": "苏轼南下途经苏州，游虎丘",
-  "background": "苏州是北宋重要商业城市，风景秀丽，苏轼南下杭州途经此地",
+  "background": "姑苏寒山寺，'月落乌啼霜满天'之地。苏轼游苏州时访寒山寺，枫桥夜泊的诗意千年未改。",
   "tags": [
     "苏州",
     "虎丘",
@@ -24,9 +24,57 @@
       "title": "过苏州",
       "description": "苏轼南下途经苏州",
       "significance": "途经苏州"
+    },
+    {
+      "id": "p049-002",
+      "date": "1071年",
+      "title": "游寒山寺",
+      "description": "苏轼游苏州寒山寺题诗",
+      "significance": "名寺题咏"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "赠杭州僧道潜",
+      "type": "诗",
+      "description": "道人胸中水镜清，万象起灭无逃形。"
+    },
+    {
+      "title": "次韵道潜见赠",
+      "type": "诗",
+      "description": "羡君飘荡一虚舟，来往江湖不系留。"
+    },
+    {
+      "title": "次韵僧潜见赠",
+      "type": "诗",
+      "description": "道人胸中水镜清。"
+    },
+    {
+      "title": "次韵参寥师见赠",
+      "type": "诗",
+      "description": "羡君飘荡一虚舟。"
+    },
+    {
+      "title": "次韵林子中蒜山小诗",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "次韵刘贡父李公择见寄二首",
+      "type": "诗",
+      "description": "白发相望两寂寞，故人相见尚青眸。"
+    },
+    {
+      "title": "饮湖上初晴后雨二首",
+      "type": "诗",
+      "description": "朝曦迎客艳重冈，晚雨留人入醉乡。"
+    },
+    {
+      "title": "新城道中二首",
+      "type": "诗",
+      "description": "东风知我欲山行，吹断檐间积雨声。"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -64,17 +112,67 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区"
+    },
+    {
+      "name": "寒山寺",
+      "description": "苏州名刹，张继'枫桥夜泊'传诵千古，苏轼或曾到访",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "苏州松鼠桂鱼",
+      "description": "苏州名菜，外酥里嫩",
+      "origin_story": "苏州传统名菜",
+      "tag": "苏州必吃"
+    },
+    {
+      "name": "苏式月饼",
+      "description": "苏州传统糕点",
+      "origin_story": "苏州传统美食",
+      "tag": "苏州特色"
+    }
+  ],
   "transport": {
     "train": "苏州站/苏州北站",
     "bus": "苏州汽车站",
     "car": "京沪高速/沪常高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "高邮新开湖",
+      "ancient_name": "高邮新开湖",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在姑苏寒山寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "虎丘",
+      "ancient_name": "虎丘",
+      "type": "scenic",
+      "period": "",
+      "description": "苏州著名风景名胜，有云岩寺塔",
+      "works": [],
+      "importance": "secondary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS079",
     "pinyin_id": "suzhou",
@@ -87,7 +185,7 @@
   "essence": "江南人文名刹",
   "last_updated": "2026-06-01T10:22:05.211Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省苏州市姑苏区寒山寺",
   "coords_updated_at": "2026-06-01T10:17:04.314Z",
   "duration_summary": {
@@ -131,5 +229,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:38.000Z"
+  "amap_updated_at": "2026-06-03T05:14:38.000Z",
+  "sxzk_address": "江苏省苏州市姑苏区"
 }

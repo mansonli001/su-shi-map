@@ -1,0 +1,46 @@
+{
+  "place_id": "P024",
+  "ancient_name": "赤壁",
+  "modern_name": "赤鼻矶",
+  "city": "黄冈市",
+  "main_coords": {
+    "name": "东坡赤壁",
+    "lat": 30.452494,
+    "lng": 114.867135,
+    "modern_address": "黄冈市黄州区公园路11号",
+    "coordinate_source": "amap_poi",
+    "reason": "赤壁为黄州子地点，主坐标为东坡赤壁景区"
+  },
+  "sub_places": [
+    {
+      "name": "东坡赤壁",
+      "ancient_name": "赤壁（赤鼻矶）",
+      "type": "scenic",
+      "period": "1082年7月、1082年10月",
+      "description": "苏轼两次游赤壁，写下《念奴娇·赤壁怀古》和前后《赤壁赋》，文赤壁，全国重点文物保护单位",
+      "works": [
+        "念奴娇·赤壁怀古",
+        "前赤壁赋",
+        "后赤壁赋"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区公园路11号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P024",
+    "parent_place": "P072",
+    "parent_place_name": "黄州",
+    "note": "赤壁为黄州子地点，已合并到P072黄州的sub_places中",
+    "main_coords_source": "东坡赤壁（核心景点）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:37.227595"
+}

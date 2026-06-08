@@ -1,0 +1,46 @@
+{
+  "place_id": "P094",
+  "ancient_name": "夔州",
+  "modern_name": "奉节",
+  "city": "奉节县",
+  "processed_at": "2026-06-07T23:25:28.554582",
+  "main_coords": {
+    "name": "夔州官署",
+    "lat": 31.018494,
+    "lng": 109.464001,
+    "modern_address": "少陵支路与少陵路交叉口西200米",
+    "coordinate_source": "amap_poi_original",
+    "reason": "夔州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "夔州官署",
+      "ancient_name": "夔州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在夔州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.018494,
+      "lng": 109.464001,
+      "modern_address": "少陵支路与少陵路交叉口西200米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P094",
+    "ancient_name": "夔州",
+    "city": "奉节县",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "夔州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:38.282315"
+}

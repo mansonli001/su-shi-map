@@ -9,7 +9,7 @@
     "R08"
   ],
   "summary": "",
-  "background": "徐州近郊黄河激流险滩，水势湍急、风景奇绝。",
+  "background": "三峡东段西陵峡，滩多水急、暗礁密布。苏轼舟行至此险象环生，是三峡全程最惊心动魄的航段。",
   "tags": [
     "visit"
   ],
@@ -43,7 +43,48 @@
       "id": "p003-evt-003"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "南歌子·寓意",
+      "type": "词",
+      "description": "总是人间好时节。"
+    },
+    {
+      "title": "南歌子·感旧",
+      "type": "词",
+      "description": "十年春色旧池台，风景依稀似去年。"
+    },
+    {
+      "title": "南歌子·别润守许仲涂",
+      "type": "词",
+      "description": "酒阑人散月侵廊。"
+    },
+    {
+      "title": "如梦令·水垢何曾相受",
+      "type": "词",
+      "description": "居士本来无垢。"
+    },
+    {
+      "title": "如梦令·自净方能净彼",
+      "type": "词",
+      "description": "自净方能净彼。"
+    },
+    {
+      "title": "阮郎归·初夏",
+      "type": "词",
+      "description": "微雨过，小荷翻，榴花开欲然。"
+    },
+    {
+      "title": "阮郎归·梅雨细",
+      "type": "词",
+      "description": "梅雨细，晓风微。"
+    },
+    {
+      "title": "黄楼赋",
+      "type": "赋",
+      "description": "我在黄楼上，欲作黄楼诗。"
+    }
+  ],
   "route_events": {
     "R08": {
       "duration": "1077-1078年闲暇游赏",
@@ -60,10 +101,50 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "徐州黄楼",
+      "description": "苏轼知徐州时抗洪所建，现重建于故黄河畔",
+      "type": "古迹"
+    },
+    {
+      "name": "云龙山",
+      "description": "苏轼常游之地，放鹤亭为其所建，'放鹤亭记'传诵千古",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "东坡肉",
+      "description": "苏轼知徐州时创制，五花肉慢火炖煮，肥而不腻，'慢着火少着水'之法传世"
+    },
+    {
+      "name": "徐州把子肉",
+      "description": "徐州传统名菜，大块五花肉以蒲草捆扎卤制，浓油赤酱"
+    },
+    {
+      "name": "徐州地锅鸡",
+      "description": "徐州农家菜，铁锅炖鸡贴面饼，鸡香饼软"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "白鹤峰新居",
+      "ancient_name": "白鹤峰新居",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在百步洪的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.249838,
+      "lng": 117.199681,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS021",
     "pinyin_id": null,

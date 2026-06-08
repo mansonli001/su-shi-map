@@ -1,0 +1,63 @@
+{
+  "place_id": "P216",
+  "ancient_name": "郓州",
+  "modern_name": "山东东平",
+  "city": "山东东平市",
+  "processed_at": "2026-06-07T23:22:38.764141",
+  "main_coords": {
+    "name": "余杭县衙",
+    "lat": 35.575276,
+    "lng": 115.938939,
+    "modern_address": "山东省菏泽市郓城县",
+    "coordinate_source": "amap_geocode",
+    "reason": "余杭县衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "余杭县衙",
+      "ancient_name": "余杭县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在郓州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.575276,
+      "lng": 115.938939,
+      "modern_address": "山东省菏泽市郓城县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "郓州古城",
+      "ancient_name": "郓州古城",
+      "type": "古城",
+      "period": "",
+      "description": "苏轼北上途经郓州",
+      "works": [],
+      "importance": "secondary",
+      "lat": 35.575276,
+      "lng": 115.938939,
+      "modern_address": "山东省菏泽市郓城县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P216",
+    "ancient_name": "郓州",
+    "city": "山东东平市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "郓州官署",
+    "rejected_details": [],
+    "parent_place": "P058",
+    "parent_place_name": "杭州",
+    "note": "郓州为杭州的子地点",
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:24.738219"
+}

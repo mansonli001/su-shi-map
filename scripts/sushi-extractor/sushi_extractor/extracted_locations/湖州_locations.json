@@ -1,0 +1,41 @@
+[
+  {
+    "location_id": "P709",
+    "location_name": "湖州",
+    "modern_name": "湖州苏轼相关景点",
+    "modern_address": "湖州概略行政區域圖。",
+    "province": "浙江省",
+    "city": "湖州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "湖州馄饨",
+      "千张包",
+      "丁莲芳"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "山泉",
+      "山寺",
+      "溪山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

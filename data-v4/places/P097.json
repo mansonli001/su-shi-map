@@ -3,14 +3,14 @@
   "ancient_name": "雷州",
   "modern_name": "广东雷州",
   "type": "main",
-  "lat": 20.9143,
-  "lng": 110.0905,
+  "lat": 20.914548,
+  "lng": 110.097011,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼贬儋州途经雷州半岛",
-  "background": "雷州今广东雷州市，苏轼贬儋州时途经此地",
+  "background": "雷州，岭南古郡。苏轼南贬途经雷州，与弟弟苏辙在此相会，兄弟情深、岭南风物异于中原。",
   "tags": [
     "雷州",
     "半岛",
@@ -81,17 +81,62 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "雷州白切狗",
+      "description": "雷州传统美食",
+      "origin_story": "雷州传统美食",
+      "tag": "雷州特色"
+    },
+    {
+      "name": "雷州大粽",
+      "description": "雷州传统小吃",
+      "origin_story": "雷州传统美食",
+      "tag": "雷州特色"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "雷州汽车站",
     "car": "沈海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "开封府衙",
+      "ancient_name": "开封府衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在雷州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "雷州古城",
+      "ancient_name": "雷州古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "雷州古城",
+      "works": [],
+      "importance": "secondary",
+      "lat": 20.914548,
+      "lng": 110.097011,
+      "modern_address": "广东省湛江市雷州市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS042",
     "pinyin_id": "leizhou",
@@ -146,5 +191,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:12.000Z"
+  "amap_updated_at": "2026-06-03T05:15:12.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "广东省湛江市雷州市"
 }

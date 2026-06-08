@@ -6,7 +6,7 @@
   "related_routes": [
     "R07"
   ],
-  "background": "密州近郊祀典名山，宋代地方官祭祀祈雨之所。",
+  "background": "中牟即今河南中牟，汴京西郊驿站。苏轼进京前的最后一站，驿道平坦、柳荫夹道，京师在望。",
   "extended_story": "逢时节赴常山祭祀祈福，公务之余登山望远，\n观密州全境平野山川。",
   "essence": "密州祭祀与登临双重名山",
   "tags": [
@@ -34,9 +34,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.216Z",
   "schema_version": "v4.1",
-  "lng": 119.405251,
-  "lat": 35.894203,
-  "coordinate_source": "amap_corrected",
+  "lng": 118.502,
+  "lat": 28.903,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "山东省潍坊市诸城市常山",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {
@@ -88,6 +88,44 @@
       "description": "苏轼任密州知州，治所在诸城",
       "significance": "route05",
       "id": "p016-evt-001"
+    },
+    {
+      "id": "p016-002",
+      "date": "1075年",
+      "title": "常山祭神祈雨",
+      "description": "苏轼在密州常山祈雨，作祭文",
+      "significance": "祈雨"
+    }
+  ],
+  "sxzk_address": "诸城市",
+  "sub_places": [
+    {
+      "name": "常山附近驿馆",
+      "ancient_name": "常山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在常山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.894203,
+      "lng": 119.405251,
+      "modern_address": "诸城市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "foods": [
+    {
+      "name": "常山胡柚",
+      "description": "常山特产，酸甜适口，维C丰富"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "常山",
+      "type": "诗",
+      "note": "知密州时常游常山",
+      "year_estimate": 1076
     }
   ]
 }

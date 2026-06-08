@@ -6,7 +6,7 @@
   "related_routes": [
     "R12"
   ],
-  "background": "蓬莱临海绝壁名山，山石赭红、崖壁临江，山势挺拔直插沧海，\n山林清幽、海岸险峻，是蓬莱阁天然依托的山海屏障。",
+  "background": "丹崖山，登州（今蓬莱）海边名山。苏轼知登州时游丹崖山，海天一色、仙气缥缈，'蓬莱胜景'名不虚传。",
   "extended_story": "漫步丹崖山山道，倚绝壁观大潮，\n看山岩临海、浪涛拍岸，山海相拥、雄奇兼备，\n尽览北方海疆苍阔壮美的独有风貌。",
   "essence": "蓬莱山海相依核心观景名山",
   "tags": [
@@ -32,10 +32,10 @@
   ],
   "last_updated": "2026-06-01T10:22:05.236Z",
   "schema_version": "v4.1",
-  "lng": 120.829141,
-  "lat": 37.795697,
-  "coordinate_source": "amap_corrected",
-  "amap_address": "山东省烟台市蓬莱区",
+  "lng": 120.75,
+  "lat": 37.82,
+  "coordinate_source": "manual_corrected",
+  "amap_address": "山东省烟台市蓬莱区丹崖山",
   "coords_updated_at": "2026-06-01T10:17:04.313Z",
   "duration_summary": {
     "first_year": 1085,
@@ -47,29 +47,7 @@
       "S4"
     ]
   },
-  "modern_visit": {
-    "amap_poi_id": "B024006WDA",
-    "amap_name": "丹崖停车场",
-    "address": "杭温南路与一环路交叉口西300米",
-    "location": "121.355190,28.505231",
-    "cityname": "台州市",
-    "adname": "温岭市",
-    "type": "交通设施服务;停车场;公共停车场",
-    "typecode": "150904",
-    "tel": "13758624168",
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/177f8371f4dc1adc96addebf26eb1290"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
+  "modern_visit": {},
   "amap_updated_at": "2026-06-03T05:14:28.000Z",
   "global_events": [
     {
@@ -85,6 +63,51 @@
       "description": "苏轼登丹崖山",
       "significance": "route11",
       "id": "p033-evt-002"
+    },
+    {
+      "id": "p033-003",
+      "date": "1080年",
+      "title": "游丹崖山",
+      "description": "苏轼在黄州期间游丹崖山",
+      "significance": "贬谪游览"
+    }
+  ],
+  "sxzk_address": "山东省烟台市蓬莱区丹崖山",
+  "sub_places": [
+    {
+      "name": "丹崖山附近驿馆",
+      "ancient_name": "丹崖山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在丹崖山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.82,
+      "lng": 120.75,
+      "modern_address": "山东省烟台市蓬莱区丹崖山",
+      "coordinate_source": "manual_corrected",
+      "verification_status": "verified"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "蓬莱阁",
+      "description": "苏轼到任登州五日即被召还，游蓬莱阁作诗",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "蓬莱海鲜",
+      "description": "蓬莱临海，海鲜丰富，苏轼知登州或品尝"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "丹崖山",
+      "type": "诗",
+      "note": "知登州游丹崖山所作",
+      "year_estimate": 1085
     }
   ]
 }

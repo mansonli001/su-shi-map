@@ -1,0 +1,72 @@
+{
+  "place_id": "P089",
+  "ancient_name": "金陵",
+  "modern_name": "南京",
+  "city": "南京市",
+  "main_coords": {
+    "name": "江宁府",
+    "lat": 32.040647,
+    "lng": 118.796783,
+    "modern_address": "江苏省南京市秦淮区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼途经金陵，停留江宁府，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "江宁府",
+      "ancient_name": "江宁府",
+      "type": "residence",
+      "period": "1084年",
+      "description": "苏轼途经金陵时停留江宁府，拜访王安石",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.040647,
+      "lng": 118.796783,
+      "modern_address": "江苏省南京市秦淮区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "钟山",
+      "ancient_name": "钟山",
+      "type": "scenic",
+      "period": "1084年",
+      "description": "钟山即紫金山，苏轼拜访退隐的王安石",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "江苏省南京市玄武区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "清凉寺",
+      "ancient_name": "清凉寺",
+      "type": "scenic",
+      "period": "1084年",
+      "description": "苏轼曾游清凉寺",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P089",
+    "ancient_name": "金陵",
+    "city": "南京市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "江宁府（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 3,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:48.853884"
+}

@@ -1,0 +1,64 @@
+{
+  "place_id": "P056",
+  "ancient_name": "海州花果山古址",
+  "modern_name": "江苏连云港花果山",
+  "city": "江苏连云港花果山市",
+  "processed_at": "2026-06-07T23:22:31.740779",
+  "main_coords": {
+    "name": "归善县衙",
+    "lat": 34.572506,
+    "lng": 119.163492,
+    "modern_address": "江苏省连云港市海州区",
+    "coordinate_source": "amap_geocode",
+    "reason": "归善县衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "归善县衙",
+      "ancient_name": "归善县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在海州花果山古址的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.572506,
+      "lng": 119.163492,
+      "modern_address": "江苏省连云港市海州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "孔望山",
+      "ancient_name": "孔望山",
+      "type": "山",
+      "period": "",
+      "description": "苏轼北行途经海州，曾游孔望山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.572506,
+      "lng": 119.163492,
+      "modern_address": "江苏省连云港市海州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P056",
+    "ancient_name": "海州花果山古址",
+    "city": "江苏连云港花果山市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "海州花果山古址附近驿馆",
+    "rejected_details": [],
+    "parent_place": "P075",
+    "parent_place_name": "惠州合江楼",
+    "note": "海州花果山古址为惠州合江楼的子地点",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.024655"
+}

@@ -6,7 +6,7 @@
   "related_routes": [
     "R03"
   ],
-  "background": "三国诸葛北伐故地，怀古圣地。",
+  "background": "五丈原，三国诸葛亮北伐病逝之地。苏轼赴凤翔途经此地，渭水北岸、秋风萧瑟，是千古忠臣最悲壮的落幕处，也是文人最常怀古的圣地。",
   "extended_story": "凭吊五丈原遗迹，\n感先贤壮志未酬，\n生发史论感慨。",
   "essence": "三国历史凭吊点位",
   "tags": [
@@ -29,9 +29,9 @@
   },
   "last_updated": "2026-06-01T10:22:05.195Z",
   "schema_version": "v4.1",
-  "lng": 107.618984,
-  "lat": 34.276745,
-  "coordinate_source": "amap_corrected",
+  "lng": 107.625946,
+  "lat": 34.261335,
+  "coordinate_source": "amap_poi_original",
   "amap_address": "陕西省宝鸡市岐山县五丈原镇",
   "coords_updated_at": "2026-06-01T10:17:04.325Z",
   "duration_summary": {
@@ -83,6 +83,43 @@
       "description": "苏轼任凤翔签判时巡行宝鸡",
       "significance": "route02",
       "id": "p179-evt-001"
+    }
+  ],
+  "sxzk_address": "五丈原村五丈原诸葛亮庙西南",
+  "sub_places": [
+    {
+      "name": "五丈原居所",
+      "ancient_name": "五丈原居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在五丈原的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.261335,
+      "lng": 107.625946,
+      "modern_address": "五丈原村五丈原诸葛亮庙西南",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "五丈原",
+      "type": "诗",
+      "description": "苏轼经五丈原怀诸葛亮之作"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "五丈原诸葛亮庙",
+      "description": "诸葛亮病逝之地，苏轼途经或曾凭吊",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "岐山臊子面",
+      "description": "岐山传统名吃，酸辣鲜香，薄筋光煎稀汪"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "place_id": "P073",
+  "ancient_name": "黄州东坡雪堂",
+  "modern_name": "湖北黄冈东坡雪堂",
+  "city": "黄冈市",
+  "main_coords": {
+    "name": "东坡雪堂",
+    "lat": 30.452494,
+    "lng": 114.867135,
+    "modern_address": "黄冈市黄州区东坡赤壁景区内",
+    "coordinate_source": "amap_poi",
+    "reason": "东坡雪堂为黄州子地点，主坐标为东坡赤壁景区位置"
+  },
+  "sub_places": [
+    {
+      "name": "东坡雪堂",
+      "ancient_name": "东坡雪堂",
+      "type": "residence",
+      "period": "1082年后",
+      "description": "苏轼在东坡躬耕后所建，自号东坡居士，雪堂为其书房兼会客之所",
+      "works": [
+        "雪堂记"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区东坡赤壁景区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "东坡雪堂原址在东坡赤壁附近，现景区内有雪堂复建"
+    }
+  ],
+  "report": {
+    "place_id": "P073",
+    "parent_place": "P072",
+    "parent_place_name": "黄州",
+    "note": "东坡雪堂为黄州子地点，已合并到P072黄州的sub_places中",
+    "main_coords_source": "东坡雪堂（核心居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:37.359823"
+}

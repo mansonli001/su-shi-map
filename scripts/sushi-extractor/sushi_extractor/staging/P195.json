@@ -1,0 +1,110 @@
+{
+  "place_id": "P195",
+  "ancient_name": "徐州",
+  "modern_name": "江苏徐州",
+  "city": "徐州市",
+  "main_coords": {
+    "name": "徐州州衙",
+    "lat": 34.2614,
+    "lng": 117.1849,
+    "modern_address": "江苏省徐州市区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任徐州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "徐州州衙",
+      "ancient_name": "徐州州衙",
+      "type": "residence",
+      "period": "1076-1079年",
+      "description": "苏轼任徐州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "江苏省徐州市区（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "徐州州衙原址已无存，坐标为徐州市区参考位置"
+    },
+    {
+      "name": "黄楼",
+      "ancient_name": "黄楼",
+      "type": "scenic",
+      "period": "1077年",
+      "description": "苏轼率民抗洪后建黄楼，取'土实胜水'之意，重阳节大宴宾客庆祝落成",
+      "works": [
+        "黄楼赋"
+      ],
+      "importance": "primary",
+      "lat": 34.253638,
+      "lng": 117.251515,
+      "modern_address": "江苏省徐州市云龙区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "云龙山",
+      "ancient_name": "云龙山",
+      "type": "scenic",
+      "period": "1077-1079年",
+      "description": "苏轼常游云龙山，为张天骥作《放鹤亭记》",
+      "works": [
+        "放鹤亭记"
+      ],
+      "importance": "primary",
+      "lat": 34.237675,
+      "lng": 117.176845,
+      "modern_address": "江苏省徐州市云龙湖旅游景区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "放鹤亭",
+      "ancient_name": "放鹤亭",
+      "type": "scenic",
+      "period": "1078年",
+      "description": "云龙山人张天骥养鹤处，苏轼作《放鹤亭记》",
+      "works": [
+        "放鹤亭记"
+      ],
+      "importance": "secondary",
+      "lat": 34.246666,
+      "lng": 117.184577,
+      "modern_address": "江苏省徐州市云龙山",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "燕子楼",
+      "ancient_name": "燕子楼",
+      "type": "scenic",
+      "period": "1078年",
+      "description": "苏轼夜宿燕子楼，梦入此楼，作《永遇乐·彭城夜宿燕子楼》",
+      "works": [
+        "永遇乐·彭城夜宿燕子楼"
+      ],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "燕子楼原址待考证，现徐州有燕子楼公园"
+    }
+  ],
+  "report": {
+    "place_id": "P195",
+    "ancient_name": "徐州",
+    "city": "徐州市",
+    "total_sub_places": 5,
+    "residence_count": 1,
+    "scenic_count": 4,
+    "main_coords_source": "徐州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 4,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.873312"
+}

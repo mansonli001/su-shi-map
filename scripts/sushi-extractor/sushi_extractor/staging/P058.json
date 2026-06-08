@@ -1,0 +1,133 @@
+{
+  "place_id": "P058",
+  "ancient_name": "杭州",
+  "modern_name": "浙江杭州",
+  "city": "杭州市",
+  "processed_at": "2026-06-07T23:06:18.871925",
+  "main_coords": {
+    "name": "凤凰山州衙",
+    "lat": 30.234,
+    "lng": 120.168,
+    "modern_address": "杭州市上城区凤凰山脚路",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任杭州通判时寓居凤凰山州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "凤凰山州衙",
+      "ancient_name": "凤凰山州衙",
+      "type": "residence",
+      "period": "1071-1074年（通判时期）、1089-1091年（知州时期）",
+      "description": "苏轼任杭州通判时寓居凤凰山，两次在杭均居于此",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.234,
+      "lng": 120.168,
+      "modern_address": "杭州市上城区凤凰山脚路",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "凤凰山州衙原址在今凤凰山脚路附近，南宋皇城遗址区域"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "scenic",
+      "period": "1071-1074年、1089-1091年",
+      "description": "苏轼常游西湖，写下《饮湖上初晴后雨》等名篇",
+      "works": [
+        "饮湖上初晴后雨"
+      ],
+      "importance": "primary",
+      "lat": 30.222692,
+      "lng": 120.121358,
+      "modern_address": "杭州市西湖区龙井路1号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "苏堤",
+      "ancient_name": "苏堤",
+      "type": "scenic",
+      "period": "1089-1091年",
+      "description": "苏轼疏浚西湖，用淤泥筑成南北长堤，上有六桥",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.240338,
+      "lng": 120.139291,
+      "modern_address": "杭州市西湖风景名胜区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "孤山",
+      "ancient_name": "孤山",
+      "type": "scenic",
+      "period": "1071-1074年",
+      "description": "苏轼常游孤山，六一泉在此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.250676,
+      "lng": 120.139607,
+      "modern_address": "杭州市西湖区孤山路",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "灵隐寺",
+      "ancient_name": "灵隐寺",
+      "type": "temple",
+      "period": "1071-1074年",
+      "description": "苏轼常游灵隐寺，留下诗文",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.248234,
+      "lng": 120.123246,
+      "modern_address": "杭州市西湖区灵隐路",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "望湖楼",
+      "ancient_name": "望湖楼",
+      "type": "scenic",
+      "period": "1071-1074年",
+      "description": "苏轼在望湖楼写下《六月二十七日望湖楼醉书》",
+      "works": [
+        "六月二十七日望湖楼醉书"
+      ],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "望湖楼在西湖边，需进一步确认现代位置"
+    }
+  ],
+  "report": {
+    "place_id": "P058",
+    "ancient_name": "杭州",
+    "city": "杭州市",
+    "total_sub_places": 6,
+    "residence_count": 1,
+    "scenic_count": 4,
+    "temple_count": 1,
+    "verified_count": 5,
+    "rejected_count": 0,
+    "pending_count": 2,
+    "no_coords_count": 1,
+    "main_coords_source": "凤凰山州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verification_checklist": {
+      "main_coords_from_first_residence": true,
+      "main_coords_in_city_range": true,
+      "all_coords_in_city_range": true,
+      "no_same_name_different_city_errors": true,
+      "all_coords_have_source": false,
+      "all_coords_have_verification_status": true,
+      "memorial_sites_updated": false
+    }
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.390590"
+}

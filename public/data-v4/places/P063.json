@@ -3,21 +3,86 @@
   "ancient_name": "洪泽湖沿岸",
   "modern_name": "江苏洪泽湖沿岸",
   "type": "sight",
-  "lat": 33.25,
-  "lng": 118.63,
+  "lat": 33.288749,
+  "lng": 118.840109,
   "related_routes": [
     "R15"
   ],
   "tags": [],
-  "background": "杭州任满还朝任翰林学士承旨。",
+  "background": "淮河下游巨泽，烟波浩渺、芦苇无边。苏轼自杭州还朝，经洪泽湖北上，湖面风急浪高、渔帆点点，是江淮水系最壮阔的水路。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p063-001",
+      "date": "1091年",
+      "title": "经洪泽湖还朝",
+      "description": "苏轼自杭州还朝途经洪泽湖沿岸",
+      "significance": "水路中转"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "泗州僧伽塔",
+      "type": "诗",
+      "description": "我昔南行舟系汴，逆风三日沙吹面。"
+    },
+    {
+      "title": "赴颍州过金陵呈王胜之",
+      "type": "诗",
+      "description": "使君德量如天宽，十年兵革常苦寒。"
+    },
+    {
+      "title": "临江仙·送钱穆父",
+      "type": "词",
+      "description": "细马远驮双侍女，青巾玉带红靴。"
+    },
+    {
+      "title": "蝶恋花·雨后春容清更丽",
+      "type": "词",
+      "description": "雨后春容清更丽，别后重逢，已恨经年意。"
+    },
+    {
+      "title": "木兰花令·用前韵赠周嘉",
+      "type": "词",
+      "description": "春光不管人去后，桃花依旧笑春风。"
+    },
+    {
+      "title": "南乡子·用韵和秦少游",
+      "type": "词",
+      "description": "天高清远横波际，远山眉样有心知。"
+    },
+    {
+      "title": "临江仙·昨夜扁舟京口",
+      "type": "词",
+      "description": "细马远驮双侍女，青巾玉带红靴。"
+    },
+    {
+      "title": "临江仙·夜到扬州",
+      "type": "词",
+      "description": "细马远驮双侍女，青巾玉带红靴。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "洪泽湖沿岸",
+      "ancient_name": "洪泽湖沿岸",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经洪泽湖沿岸",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.288749,
+      "lng": 118.840109,
+      "modern_address": "南环路33号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -52,5 +117,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:47.000Z"
+  "amap_updated_at": "2026-06-03T05:14:47.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "南环路33号"
 }

@@ -6,7 +6,7 @@
   "related_routes": [
     "R09"
   ],
-  "background": "贯通南北水上官道，宋代官员南北调任核心航道。",
+  "background": "运河全线，贯通南北的水上官道。苏轼一生多次乘运河船往返南北，粮船穿梭、两岸市镇相连，是宋代官员调任的核心航道。",
   "extended_story": "赴任时泛舟赏运河两岸风物，闲适悠然；\n押解北上时同一条运河，心境却悲戚惶恐、物是人非。",
   "essence": "本路线全程依托核心水系",
   "tags": [
@@ -74,5 +74,35 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:44.000Z"
+  "amap_updated_at": "2026-06-03T05:16:44.000Z",
+  "lat": 30.302955,
+  "lng": 120.141908,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "环城北路226号武林门码头",
+  "sub_places": [
+    {
+      "name": "运河全线风光",
+      "ancient_name": "运河全线风光",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经运河全线风光",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.302955,
+      "lng": 120.141908,
+      "modern_address": "环城北路226号武林门码头",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p215-001",
+      "date": "1079年",
+      "title": "沿运河押解北上",
+      "description": "苏轼沿京杭大运河被押解北上进京",
+      "significance": "押解水路"
+    }
+  ]
 }

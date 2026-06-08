@@ -44,31 +44,65 @@
     ]
   },
   "modern_visit": {
-    "amap_poi_id": "B0MGBASZUZ",
-    "amap_name": "河西太湖里办公区西岸跨境产业园",
-    "address": "大沽南路880号河西太湖里办公区西岸跨境产业园",
-    "location": "117.237255,39.086649",
-    "cityname": "天津市",
-    "adname": "河西区",
-    "type": "商务住宅;产业园区;产业园区",
-    "typecode": "120100",
+    "amap_poi_id": "B0I2BQBJXX",
+    "amap_name": "太湖风景区",
+    "address": "江苏省无锡市滨湖区太湖沿岸",
+    "location": "119.913,31.421",
+    "cityname": "无锡市",
+    "adname": "滨湖区",
+    "type": "风景名胜;风景名胜;风景名胜",
+    "typecode": "110100",
     "tel": [],
-    "rating": null,
+    "rating": "5.0",
     "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/89037177ca6818b000f5a56bcc8e756a"
-      },
-      {
-        "title": [],
-        "url": "https://store.is.autonavi.com/showpic/3515f5232931ee138b870f9269c90a1d"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
+    "open_time": "全天",
+    "photos": [],
+    "recommendation": "太湖西岸宜兴段，古村落保存完好",
+    "best_time_to_visit": "春秋",
+    "transportation": "宜兴市区公交可达"
   },
-  "amap_updated_at": "2026-06-03T05:15:59.000Z"
+  "amap_updated_at": "2026-06-08T00:00:00.000Z",
+  "lat": 31.421,
+  "lng": 119.913,
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省无锡市宜兴太湖西岸",
+  "sub_places": [
+    {
+      "name": "太湖西岸古村落附近驿馆",
+      "ancient_name": "太湖西岸古村落附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在太湖西岸古村落的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.421,
+      "lng": 119.913,
+      "modern_address": "江苏省无锡市宜兴太湖西岸",
+      "coordinate_source": "manual_corrected",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p164-001",
+      "date": "1084年",
+      "title": "经太湖西岸",
+      "description": "苏轼量移汝州途中经太湖西岸古村落",
+      "significance": "江南水乡"
+    }
+  ],
+  "foods": [
+    {
+      "name": "太湖银鱼",
+      "description": "太湖三白之一，鲜嫩无骨，苏轼或曾品尝"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "太湖",
+      "type": "诗",
+      "note": "游太湖所作",
+      "year_estimate": 1079
+    }
+  ]
 }

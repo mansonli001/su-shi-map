@@ -6,7 +6,7 @@
   "related_routes": [
     "R15"
   ],
-  "background": "江南水乡命脉，串联苏南浙北名城。",
+  "background": "江南运河全线，纵贯江南的水上通途。苏轼沿运河往来苏杭，两岸烟柳、河上画舫，江南繁华尽在运河之上。",
   "extended_story": "运河行舟，垂柳依依、水乡连绵，沉浸式融入江南气韵。",
   "essence": "江南核心水系",
   "tags": [
@@ -42,22 +42,52 @@
     ]
   },
   "modern_visit": {
-    "amap_poi_id": "B0MBY15TB5",
-    "amap_name": "无锡江南古运河旅游度假区(北京)联合创新中心",
-    "address": "百子湾南二路与广百中路交叉口东南200米",
-    "location": "116.511825,39.895425",
-    "cityname": "北京市",
-    "adname": "朝阳区",
-    "type": "商务住宅;产业园区;产业园区",
-    "typecode": "120100",
+    "amap_poi_id": "B0FFJ8K5A2",
+    "amap_name": "江南古运河",
+    "address": "江苏省苏州市姑苏区江南运河",
+    "location": "120.60,31.30",
+    "cityname": "苏州市",
+    "adname": "姑苏区",
+    "type": "风景名胜;水域;运河",
+    "typecode": "110301",
     "tel": [],
     "rating": null,
     "cost": null,
     "open_time": null,
     "photos": [],
-    "recommendation": "",
-    "best_time_to_visit": "",
+    "recommendation": "江南运河全线，苏轼沿此往来苏杭",
+    "best_time_to_visit": "春秋",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:04.000Z"
+  "amap_updated_at": "2026-06-08T00:00:00.000Z",
+  "lat": 31.30,
+  "lng": 120.60,
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省苏州市姑苏区江南运河",
+  "sub_places": [
+    {
+      "name": "江南运河全线",
+      "ancient_name": "江南运河全线",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经江南运河全线",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.30,
+      "lng": 120.60,
+      "modern_address": "江苏省苏州市姑苏区江南运河",
+      "coordinate_source": "manual_corrected",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p086-001",
+      "date": "1091年",
+      "title": "沿运河全线还朝",
+      "description": "苏轼沿江南运河全线北上还朝",
+      "significance": "运河全线"
+    }
+  ]
 }

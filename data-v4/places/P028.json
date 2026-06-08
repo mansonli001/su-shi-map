@@ -3,19 +3,34 @@
   "ancient_name": "磁州",
   "modern_name": "河北磁县",
   "type": "main",
-  "lat": 36.3744,
-  "lng": 114.3776,
+  "lat": 36.37507,
+  "lng": 114.373965,
   "related_routes": [
     "R17"
   ],
   "summary": "",
-  "background": "冀南古驿重镇，河北平原南北通行要道。",
+  "background": "抚州即今江西抚州，赣东文化名城。苏轼南贬途经此地，临川才子之乡、汝水清流，是赣东驿道的文化驿站。",
   "tags": [
     "main"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p028-001",
+      "date": "1093年",
+      "title": "经磁州赴定州",
+      "description": "苏轼外放定州途经磁州",
+      "significance": "赴任途经"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "磁州",
+      "type": "诗",
+      "note": "途经磁州所作",
+      "year_estimate": 1077
+    }
+  ],
   "route_events": {
     "R17": {
       "duration": "1094年河北古驿途经",
@@ -31,10 +46,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "磁州窑遗址",
+      "description": "中国古代著名民窑，苏轼途经或参观",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "磁州焖子",
+      "description": "磁州传统名吃，淀粉肉末蒸制，切片蘸汁"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "磁州官署",
+      "ancient_name": "磁州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在磁州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.37507,
+      "lng": 114.373965,
+      "modern_address": "磁县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS159",
     "pinyin_id": null,
@@ -91,5 +132,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:17.000Z"
+  "amap_updated_at": "2026-06-03T05:14:17.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "磁县"
 }

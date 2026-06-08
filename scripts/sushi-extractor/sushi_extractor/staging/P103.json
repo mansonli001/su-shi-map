@@ -1,0 +1,47 @@
+{
+  "place_id": "P103",
+  "ancient_name": "灵隐寺",
+  "modern_name": "浙江杭州灵隐寺",
+  "city": "杭州市",
+  "processed_at": "2026-06-07T23:25:28.557914",
+  "main_coords": {
+    "name": "灵隐寺附近驿馆",
+    "lat": 30.240826,
+    "lng": 120.101406,
+    "modern_address": "法云弄1号",
+    "coordinate_source": "amap_poi_original",
+    "reason": "灵隐寺附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "灵隐寺附近驿馆",
+      "ancient_name": "灵隐寺附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在灵隐寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.240826,
+      "lng": 120.101406,
+      "modern_address": "法云弄1号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P103",
+    "ancient_name": "灵隐寺",
+    "city": "杭州市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "灵隐寺附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:38.643736"
+}

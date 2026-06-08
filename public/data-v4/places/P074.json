@@ -9,7 +9,7 @@
     "R18"
   ],
   "summary": "苏轼贬惠州两年多，作《食荔枝》等诗",
-  "background": "惠州今广东惠州，苏轼于绍圣元年贬惠州安置两年多",
+  "background": "惠州西湖畔，苏轼谪居时常游之地。湖光山色、孤塔倒影，虽非杭州西湖，却有同样的诗意与慰藉。",
   "tags": [
     "惠州",
     "岭南"
@@ -41,6 +41,20 @@
       "description": "苏轼在惠州白鹤峰建新居",
       "significance": "route18",
       "id": "p074-002"
+    },
+    {
+      "id": "p074-005",
+      "date": "1095年",
+      "title": "作《食荔枝》",
+      "description": "苏轼在惠州作'日啖荔枝三百颗，不辞长作岭南人'",
+      "significance": "岭南名篇"
+    },
+    {
+      "id": "p074-006",
+      "date": "1095年",
+      "title": "修东新桥西新桥",
+      "description": "苏轼在惠州捐资修桥，方便百姓往来",
+      "significance": "惠民工程"
     }
   ],
   "global_works": [
@@ -56,6 +70,46 @@
       "fullText": "罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。",
       "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。",
       "poem_id": "S132"
+    },
+    {
+      "title": "到惠州谢表",
+      "type": "策",
+      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。"
+    },
+    {
+      "title": "食荔枝二首",
+      "type": "诗",
+      "description": "日啖荔枝三百颗，不辞长作岭南人。"
+    },
+    {
+      "title": "惠州一绝",
+      "type": "诗",
+      "description": "日啖荔枝三百颗，不辞长作岭南人。"
+    },
+    {
+      "title": "试茶",
+      "type": "诗",
+      "description": "从来佳茗似佳人。"
+    },
+    {
+      "title": "和陶归园田居六首",
+      "type": "诗",
+      "description": "环州多白水，际海皆青山。"
+    },
+    {
+      "title": "和陶饮酒二十首",
+      "type": "诗",
+      "description": "人生如朝露，日夜消枯萎。"
+    },
+    {
+      "title": "次韵定慧钦长老见寄八首",
+      "type": "诗",
+      "description": "此心安处，便是吾乡。"
+    },
+    {
+      "title": "惠州一绝·梅花二首",
+      "type": "诗",
+      "description": "春来幽谷水潺潺，的皪梅花草棘间。"
     }
   ],
   "route_events": {
@@ -90,7 +144,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.089608,
+      "lng": 114.419182,
+      "modern_address": "滨江东路45-2号"
     },
     {
       "id": "hzh-s002",
@@ -104,17 +161,132 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 23.090256,
+      "lng": 114.394446,
+      "modern_address": "环城西路2号"
+    },
+    {
+      "name": "惠州西湖",
+      "description": "苏轼贬惠州时常游之地，'一更山吐月'即咏此",
+      "type": "景区"
+    },
+    {
+      "name": "东坡祠",
+      "description": "惠州纪念苏轼的祠堂，位于白鹤峰苏轼故居旧址",
+      "type": "纪念馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "东坡荔枝",
+      "description": "惠州荔枝名扬天下，苏轼'日啖荔枝三百颗，不辞长作岭南人'传诵千古"
+    },
+    {
+      "name": "梅菜扣肉",
+      "description": "惠州传统名菜，梅菜与五花肉同蒸，咸香软糯"
+    },
+    {
+      "name": "惠州盐焗鸡",
+      "description": "客家名菜，盐焗工艺使鸡肉鲜嫩多汁，惠州饮食代表"
+    }
+  ],
   "transport": {
     "train": "惠州站",
     "bus": "惠州汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "到'蛮荒之地'",
+      "type": "residence",
+      "period": "1094-1095",
+      "description": "苏轼在惠州\n惠州再贬：惠州的居住地",
+      "importance": "primary",
+      "ancient_name": "到'蛮荒之地'",
+      "lat": 23.1115,
+      "lng": 114.4153,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "惠州",
+      "ancient_name": "惠州",
+      "type": "scenic",
+      "period": "绍圣二年（1095年）",
+      "description": "创作《食荔枝》处",
+      "works": [
+        "食荔枝"
+      ],
+      "importance": "secondary",
+      "lat": 23.112368,
+      "lng": 114.415587,
+      "modern_address": "惠城区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "白鹤峰",
+      "ancient_name": "白鹤峰",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼在惠州时居于此",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.089608,
+      "lng": 114.419182,
+      "modern_address": "滨江东路45-2号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "lake",
+      "period": "",
+      "description": "苏轼常游惠州西湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.090256,
+      "lng": 114.394446,
+      "modern_address": "环城西路2号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "惯了",
+      "ancient_name": "惯了",
+      "type": "residence",
+      "period": "1095-1097",
+      "description": "从惠州三年·推广秧马中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.1115,
+      "lng": 114.4153,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    },
+    {
+      "name": "儋州",
+      "ancient_name": "儋州",
+      "type": "office",
+      "period": "1095-1097",
+      "description": "从惠州三年·推广秧马中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 23.1115,
+      "lng": 114.4153,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS040",
     "pinyin_id": "huizhou",
@@ -169,5 +341,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:56.000Z"
+  "amap_updated_at": "2026-06-03T05:14:56.000Z",
+  "coordinate_source": "original",
+  "sxzk_address": "惠城区"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "忠州",
   "modern_name": "重庆忠县",
   "type": "main",
-  "lat": 30.2912,
-  "lng": 108.0386,
+  "lat": 30.299817,
+  "lng": 108.038073,
   "related_routes": [
     "R02"
   ],
   "summary": "",
-  "background": "长江三峡西入口沿江古郡，\n为入三峡前过渡驿埠。",
+  "background": "忠州即今重庆忠县，长江三峡西入口沿江古郡。苏轼出蜀或归蜀途经此地，石宝寨孤峰、江流湍急，是入三峡前的过渡驿埠。",
   "tags": [
     "main"
   ],
@@ -21,8 +21,22 @@
       "narrative": "苏轼从海南北归，途经润州（今江苏镇江）。润州是长江南岸的重要港口，苏轼在这里停留数日，游览了金山寺等景点。他在金山寺看到自己的画像，感慨『这是我吗？我怎么老了这么多？』"
     }
   ],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p230-001",
+      "date": "1059年",
+      "title": "经忠州东下",
+      "description": "苏轼经忠州沿长江东下",
+      "significance": "三峡中继"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "过忠州",
+      "type": "诗",
+      "description": "苏轼经忠州所作"
+    }
+  ],
   "route_events": {
     "R02": {
       "duration": "1059年三峡水路途经",
@@ -38,10 +52,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "石宝寨",
+      "description": "长江边孤峰古寨，'江上明珠'",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "忠州豆腐乳",
+      "description": "忠州传统名产，腐乳醇香，佐餐佳品"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "忠州官署",
+      "ancient_name": "忠州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在忠州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.299817,
+      "lng": 108.038073,
+      "modern_address": "忠县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS054",
     "pinyin_id": null,
@@ -98,5 +138,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:59.000Z"
+  "amap_updated_at": "2026-06-03T05:16:59.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "忠县"
 }

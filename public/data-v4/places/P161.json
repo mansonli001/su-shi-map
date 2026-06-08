@@ -3,8 +3,8 @@
   "ancient_name": "苏州",
   "modern_name": "江苏苏州",
   "type": "main",
-  "lat": 31.2989,
-  "lng": 120.5853,
+  "lat": 31.299,
+  "lng": 120.585,
   "related_routes": [
     "R06",
     "R07",
@@ -13,7 +13,7 @@
     "R15"
   ],
   "summary": "苏轼南下途经苏州，游虎丘",
-  "background": "苏州是北宋重要商业城市，风景秀丽，苏轼南下杭州途经此地",
+  "background": "苏州，江南水乡名都。苏轼游苏州，虎丘塔影、寒山钟声，'姑苏城外寒山寺'的诗意绵长。",
   "tags": [
     "苏州",
     "虎丘",
@@ -35,7 +35,13 @@
       "significance": "途经苏州"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "次韵苏州王太守",
+      "type": "诗",
+      "description": "苏轼经苏州所作"
+    }
+  ],
   "route_events": {
     "route05": [
       {
@@ -121,17 +127,67 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区"
+    },
+    {
+      "name": "苏州园林",
+      "description": "世界文化遗产，江南园林代表",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "松鼠桂鱼",
+      "description": "苏州名菜",
+      "origin_story": "苏州传统名菜",
+      "tag": "苏州必吃"
+    },
+    {
+      "name": "苏式汤面",
+      "description": "苏州传统面食",
+      "origin_story": "苏州传统美食",
+      "tag": "苏州特色"
+    }
+  ],
   "transport": {
     "train": "苏州站/苏州北站",
     "bus": "苏州汽车站",
     "car": "京沪高速/沪常高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "泰州官署",
+      "ancient_name": "泰州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在苏州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "虎丘",
+      "ancient_name": "虎丘",
+      "type": "scenic",
+      "period": "",
+      "description": "苏州著名风景名胜，有云岩寺塔",
+      "works": [],
+      "importance": "secondary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS079",
     "pinyin_id": "suzhou",
@@ -189,5 +245,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:57.000Z"
+  "amap_updated_at": "2026-06-03T05:15:57.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省苏州市姑苏区"
 }

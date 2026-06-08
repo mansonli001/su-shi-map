@@ -1,0 +1,38 @@
+[
+  {
+    "location_id": "P240",
+    "location_name": "出蜀途中",
+    "modern_name": "出蜀途中苏轼相关景点",
+    "modern_address": "出蜀途中",
+    "province": "",
+    "city": "出蜀途中",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "早期",
+    "stay_duration": "",
+    "su_works": [
+      "三遊洞序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "溪寺",
+      "泉寺",
+      "西湖"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

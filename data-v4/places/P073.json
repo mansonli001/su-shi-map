@@ -3,13 +3,13 @@
   "ancient_name": "黄州东坡雪堂",
   "modern_name": "湖北黄冈东坡雪堂",
   "type": "around",
-  "lat": 30.453722,
-  "lng": 114.872425,
+  "lat": 30.452494,
+  "lng": 114.867135,
   "related_routes": [
     "R10"
   ],
   "summary": "苏轼贬谪地，在此躬耕自号东坡居士，创作千古名篇",
-  "background": "黄州是苏轼人生重要转折点，乌台诗案后被贬黄州四年多，在此完成文学创作高峰",
+  "background": "黄州西北长江渡口，苏轼常渡江游武昌。江面宽阔、渡船摇曳，对岸樊山古胜在望，是苏轼谪居时最频繁的水上出行。",
   "tags": [
     "贬谪地",
     "东坡居士",
@@ -55,6 +55,20 @@
       "title": "离开黄州",
       "description": "神宗手札，命苏轼移汝州团练副使，苏轼离开黄州",
       "significance": "结束黄州贬谪生活"
+    },
+    {
+      "id": "p073-005",
+      "date": "1097年",
+      "title": "开儋州学风",
+      "description": "苏轼在儋州讲学授业，开创海南文化教育先河",
+      "significance": "海南文教始祖"
+    },
+    {
+      "id": "p073-006",
+      "date": "1098年",
+      "title": "作《别海南黎民表》",
+      "description": "苏轼在儋州与当地百姓结下深厚情谊",
+      "significance": "黎汉情深"
     }
   ],
   "global_works": [
@@ -105,6 +119,26 @@
       "fullText": "三月七日，沙湖道中遇雨。雨具先去，同行皆狼狈，余独不觉，已而遂晴，故作此词。\n\n莫听穿林打叶声，何妨吟啸且徐行。竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。\n料峭春风吹酒醒，微冷，山头斜照却相迎。回首向来萧瑟处，归去，也无风雨也无晴。",
       "coreVerse": "回首向来萧瑟处，归去，也无风雨也无晴。",
       "poem_id": "C037"
+    },
+    {
+      "title": "记承天寺夜游",
+      "type": "文",
+      "description": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。"
+    },
+    {
+      "title": "蝶恋花·春景",
+      "type": "词",
+      "description": "枝上柳绵吹又少，天涯何处无芳草！"
+    },
+    {
+      "title": "满庭芳·三十三年",
+      "type": "词",
+      "description": "三十三年，今谁存者？算只君与长江。"
+    },
+    {
+      "title": "西江月·世事一场大梦",
+      "type": "词",
+      "description": "世事一场大梦，人生几度秋凉？"
     }
   ],
   "route_events": {
@@ -153,6 +187,16 @@
       "url": "",
       "rating": "",
       "distance": ""
+    },
+    {
+      "name": "东坡书院",
+      "description": "苏轼在儋州讲学处，全国重点文物保护单位",
+      "type": "古迹"
+    },
+    {
+      "name": "载酒堂",
+      "description": "苏轼在儋州讲学授业之所，'载酒堂'匾额传为苏轼手书",
+      "type": "古迹"
     }
   ],
   "foods": [
@@ -175,7 +219,33 @@
     "car": "大广高速 / 沪渝高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "东坡雪堂",
+      "ancient_name": "东坡雪堂",
+      "type": "residence",
+      "period": "1082年后",
+      "description": "苏轼在东坡躬耕后所建，自号东坡居士，雪堂为其书房兼会客之所",
+      "works": [
+        "雪堂记"
+      ],
+      "importance": "primary",
+      "lat": 30.452494,
+      "lng": 114.867135,
+      "modern_address": "黄冈市黄州区东坡赤壁景区内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "东坡雪堂原址在东坡赤壁附近，现景区内有雪堂复建",
+      "works_detail": [
+        {
+          "title": "雪堂记",
+          "type": "文",
+          "date": "元丰五年（1082年）",
+          "note": "苏轼筑雪堂后所作"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS070",
     "pinyin_id": "huangzhou",
@@ -191,7 +261,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.227Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi",
   "amap_address": "湖北省黄冈市",
   "coords_updated_at": "2026-06-01T10:17:04.316Z",
   "duration_summary": {
@@ -240,5 +310,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:55.000Z"
+  "amap_updated_at": "2026-06-03T05:14:55.000Z",
+  "sxzk_address": "黄冈市黄州区东坡赤壁景区内"
 }

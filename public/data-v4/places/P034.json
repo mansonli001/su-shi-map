@@ -3,14 +3,14 @@
   "ancient_name": "儋州",
   "modern_name": "海南儋州",
   "type": "stay",
-  "lat": 19.5176,
-  "lng": 109.581,
+  "lat": 19.5215,
+  "lng": 109.4768,
   "related_routes": [
     "R18",
     "R19"
   ],
   "summary": "苏轼贬谪海南儋州三年，在此讲学授徒",
-  "background": "儋州是苏轼最后一个贬谪地，在此三年讲学授徒，对海南文化影响深远",
+  "background": "儋州即今海南儋州，苏轼最后一个贬谪地。三年讲学授徒、载酒堂中论文，开海南文教之先，'九死南荒吾不恨'是最深情的告别。",
   "tags": [
     "儋州",
     "海南",
@@ -207,7 +207,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院"
     },
     {
       "id": "dz2-s002",
@@ -221,7 +224,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）"
     },
     {
       "id": "dz2-s003",
@@ -235,17 +241,116 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内"
+    },
+    {
+      "name": "梅关古道",
+      "description": "大庾岭古驿道，苏轼南贬过岭作'大庾岭上梅'诗",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "儋州烤生蚝",
+      "description": "海南特色，海蚝炭烤鲜嫩多汁",
+      "origin_story": "苏轼《食蚝》：'无令中朝士大夫知，恐争谋南徙，以分此味'",
+      "tag": "儋州必吃"
+    },
+    {
+      "name": "儋州米烂",
+      "description": "儋州传统小吃，米粉配多种佐料",
+      "origin_story": "儋州地方传统美食",
+      "tag": "儋州特色"
+    },
+    {
+      "name": "椰子鸡",
+      "description": "海南名菜，椰汁炖鸡清甜鲜美",
+      "origin_story": "海南传统美食",
+      "tag": "海南名菜"
+    },
+    {
+      "name": "儋州粽子",
+      "description": "儋州名点，火山岩糯米裹咸蛋黄猪肉"
+    },
+    {
+      "name": "海南椰子鸡",
+      "description": "海南名菜，椰子水炖鸡，清甜鲜美"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "儋州汽车站",
     "car": "海南环岛高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "桄榔庵",
+      "ancient_name": "桄榔庵",
+      "type": "residence",
+      "period": "1097年7月-1098年",
+      "description": "苏轼初到儋州的居所，当地百姓帮盖的茅屋，用桄榔树叶搭建",
+      "works": [
+        "桄榔庵铭"
+      ],
+      "importance": "primary",
+      "lat": 19.740499,
+      "lng": 109.346135,
+      "modern_address": "儋州市中和镇X513(解放街)（桄榔庵遗址）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "桄榔庵铭",
+          "type": "文",
+          "date": "绍圣四年（1097年）",
+          "note": "苏轼初到儋州居桄榔庵时所作"
+        }
+      ]
+    },
+    {
+      "name": "载酒堂",
+      "ancient_name": "载酒堂",
+      "type": "residence",
+      "period": "1098年后",
+      "description": "苏轼在儋州建载酒堂，以文会友、讲学授徒之所",
+      "works": [
+        "载酒堂记"
+      ],
+      "importance": "secondary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "载酒堂位于东坡书院内，坐标为书院位置",
+      "works_detail": [
+        {
+          "title": "载酒堂记（或相关诗作）",
+          "type": "文",
+          "date": "绍圣年间",
+          "note": "儋州讲学之所"
+        }
+      ]
+    },
+    {
+      "name": "东坡书院",
+      "ancient_name": "东坡书院",
+      "type": "scenic",
+      "period": "1098-1100年",
+      "description": "苏轼在儋州讲学授徒处，海南文化教育发源地，后建为书院",
+      "works": [],
+      "importance": "primary",
+      "lat": 19.737794,
+      "lng": 109.356283,
+      "modern_address": "儋州市中和镇东坡书院",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS043",
     "pinyin_id": "danzhou",
@@ -279,13 +384,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0325004B8",
-    "amap_name": "儋州市",
-    "address": "儋州市",
-    "location": "109.580812,19.520948",
+    "amap_name": "东坡书院",
+    "address": "中和镇",
+    "location": "109.4768,19.5215",
     "cityname": "儋州市",
-    "adname": "儋州市",
-    "type": "地名地址信息;普通地名;地市级地名",
-    "typecode": "190104",
+    "adname": "中和镇",
+    "type": "风景名胜;风景名胜;书院",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -308,5 +413,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:29.000Z"
+  "amap_updated_at": "2026-06-03T05:14:29.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "儋州市中和镇X513(解放街)"
 }

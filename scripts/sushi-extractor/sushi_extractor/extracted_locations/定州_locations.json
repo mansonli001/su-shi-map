@@ -1,0 +1,41 @@
+[
+  {
+    "location_id": "P994",
+    "location_name": "定州",
+    "modern_name": "定州苏轼相关景点",
+    "modern_address": "定州行政區域圖。",
+    "province": "河北省",
+    "city": "定州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "河朔访古记",
+      "張耒集‧送李端叔赴定州序"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "定州焖子",
+      "驴肉火烧"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

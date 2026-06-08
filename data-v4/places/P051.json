@@ -3,14 +3,14 @@
   "ancient_name": "瓜州渡",
   "modern_name": "江苏扬州瓜洲渡",
   "type": "main",
-  "lat": 32.2497,
-  "lng": 119.4361,
+  "lat": 32.2082,
+  "lng": 119.4278,
   "related_routes": [
     "R04",
     "R06"
   ],
   "summary": "苏轼多次途经镇江，游金山寺",
-  "background": "镇江古称润州，是苏轼从杭州北上或南下的重要中转地",
+  "background": "瓜州渡，长江古渡口，扬州与镇江之间。苏轼多次经瓜州渡往返南北，'京口瓜洲一水间'写尽渡口风光。",
   "tags": [
     "镇江",
     "润州",
@@ -94,7 +94,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 31.797806,
+      "lng": 119.126046,
+      "modern_address": "江苏省镇江市句容市金山寺"
     },
     {
       "id": "zj-s002",
@@ -108,17 +111,127 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市"
+    },
+    {
+      "name": "瘦西湖",
+      "description": "扬州名湖，苏轼知扬州时或常游",
+      "type": "景区"
+    },
+    {
+      "name": "大明寺",
+      "description": "扬州古刹，苏轼或曾到访",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "镇江锅盖面",
+      "description": "镇江传统面食",
+      "origin_story": "镇江传统美食",
+      "tag": "镇江必吃"
+    },
+    {
+      "name": "镇江肴肉",
+      "description": "镇江名菜，水晶肴蹄",
+      "origin_story": "镇江传统名菜",
+      "tag": "镇江特色"
+    },
+    {
+      "name": "扬州炒饭",
+      "description": "扬州名食，米饭配蛋虾仁火腿丁翻炒，粒粒分明"
+    },
+    {
+      "name": "扬州狮子头",
+      "description": "扬州名菜，大肉丸炖煮，肥瘦相间，入口即化"
+    },
+    {
+      "name": "扬州干丝",
+      "description": "扬州传统，豆腐干切丝烫煮，配鸡汁"
+    }
+  ],
   "transport": {
     "train": "镇江站 / 镇江南站",
     "bus": "镇江汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "瓜州渡居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在瓜州渡的居所",
+      "importance": "primary",
+      "ancient_name": "瓜州渡居所",
+      "lat": 32.2038,
+      "lng": 119.4245,
+      "modern_address": "江苏省扬州市邗江区瓜洲镇",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瓜州渡州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在瓜州渡的居所",
+      "importance": "primary",
+      "ancient_name": "瓜州渡州衙",
+      "lat": 32.2497,
+      "lng": 119.4361,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用瓜州渡中心坐标作为参考"
+    },
+    {
+      "name": "镇江金山寺",
+      "ancient_name": "镇江金山寺",
+      "type": "scenic",
+      "period": "熙宁四年（1071年）",
+      "description": "创作《游金山寺》处",
+      "works": [
+        "游金山寺"
+      ],
+      "importance": "secondary",
+      "lat": 31.797806,
+      "lng": 119.126046,
+      "modern_address": "江苏省镇江市句容市金山寺",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "金山寺",
+      "ancient_name": "金山寺",
+      "type": "temple",
+      "period": "",
+      "description": "金山寺是镇江名刹",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "焦山",
+      "ancient_name": "焦山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼常游焦山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.188141,
+      "lng": 119.424441,
+      "modern_address": "江苏省镇江市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS106",
     "pinyin_id": "zhenjiang",
@@ -180,5 +293,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:39.000Z"
+  "amap_updated_at": "2026-06-03T05:14:39.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "瓜洲镇古运河下游与长江交汇处"
 }

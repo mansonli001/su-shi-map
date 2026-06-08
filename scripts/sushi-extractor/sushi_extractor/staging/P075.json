@@ -1,0 +1,89 @@
+{
+  "place_id": "P075",
+  "ancient_name": "惠州合江楼",
+  "modern_name": "广东惠州合江楼",
+  "city": "惠州市",
+  "main_coords": {
+    "name": "合江楼",
+    "lat": 23.086,
+    "lng": 114.4131,
+    "modern_address": "广东省惠州市惠城区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼初到惠州寓居合江楼，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "合江楼",
+      "ancient_name": "合江楼",
+      "type": "residence",
+      "period": "1094年10月-1095年",
+      "description": "苏轼初到惠州寓居合江楼，东江和西江交汇处",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "modern_address": "广东省惠州市惠城区合江楼",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "白鹤峰新居",
+      "ancient_name": "白鹤峰新居",
+      "type": "residence",
+      "period": "1095-1097年",
+      "description": "苏轼在惠州自建居所，打算终老于此",
+      "works": [],
+      "importance": "secondary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates",
+      "note": "白鹤峰在惠州市区，需进一步确认现代位置"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "惠州西湖",
+      "type": "scenic",
+      "period": "1094-1097年",
+      "description": "苏轼常游惠州西湖，修筑苏堤",
+      "works": [],
+      "importance": "primary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    },
+    {
+      "name": "罗浮山",
+      "ancient_name": "罗浮山",
+      "type": "scenic",
+      "period": "1094-1097年",
+      "description": "苏轼游罗浮山，写下《食荔枝》",
+      "works": [
+        "食荔枝"
+      ],
+      "importance": "primary",
+      "lat": null,
+      "lng": null,
+      "modern_address": "",
+      "coordinate_source": "",
+      "verification_status": "no_coordinates"
+    }
+  ],
+  "report": {
+    "place_id": "P075",
+    "ancient_name": "惠州合江楼",
+    "city": "惠州市",
+    "total_sub_places": 4,
+    "residence_count": 2,
+    "scenic_count": 2,
+    "main_coords_source": "合江楼（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.989695"
+}

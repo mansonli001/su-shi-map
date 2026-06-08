@@ -1,0 +1,60 @@
+{
+  "place_id": "P161",
+  "ancient_name": "苏州",
+  "modern_name": "江苏苏州",
+  "city": "江苏苏州市",
+  "processed_at": "2026-06-07T23:22:37.053641",
+  "main_coords": {
+    "name": "泰州官署",
+    "lat": 31.335648,
+    "lng": 120.617367,
+    "modern_address": "江苏省苏州市姑苏区",
+    "coordinate_source": "amap_geocode",
+    "reason": "泰州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "泰州官署",
+      "ancient_name": "泰州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在苏州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "虎丘",
+      "ancient_name": "虎丘",
+      "type": "风景",
+      "period": "",
+      "description": "苏州著名风景名胜，有云岩寺塔",
+      "works": [],
+      "importance": "secondary",
+      "lat": 31.335648,
+      "lng": 120.617367,
+      "modern_address": "江苏省苏州市姑苏区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P161",
+    "ancient_name": "苏州",
+    "city": "江苏苏州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "苏州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:23.813122"
+}

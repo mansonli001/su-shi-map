@@ -9,7 +9,7 @@
     "R00"
   ],
   "summary": "",
-  "background": "",
+  "background": "大慈寺，成都名刹，'震旦第一丛林'。苏轼游成都时曾访大慈寺，观壁画题诗，留下文墨印记。",
   "tags": [],
   "periods": [
     {
@@ -39,15 +39,57 @@
       "description": "苏轼赴京途中游览成都大慈寺",
       "significance": "route01",
       "id": "p030-evt-003"
+    },
+    {
+      "id": "p030-004",
+      "date": "1055年",
+      "title": "游大慈寺观壁画",
+      "description": "苏轼游成都大慈寺观赏壁画，留下题咏",
+      "significance": "艺术鉴赏"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "大慈寺",
+      "type": "诗",
+      "note": "游成都大慈寺所作",
+      "year_estimate": 1055
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "大慈寺",
+      "description": "成都名刹，苏轼少年时常游",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "成都小吃",
+      "description": "成都传统小吃集合",
+      "origin_story": "成都传统美食",
+      "tag": "成都特色"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "东林寺",
+      "ancient_name": "东林寺",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在大慈寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.6382,
+      "lng": 104.0845,
+      "modern_address": "四川省成都市锦江区大慈寺",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS004",
     "pinyin_id": null,

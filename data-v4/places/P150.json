@@ -6,7 +6,7 @@
   "related_routes": [
     "R10"
   ],
-  "background": "黄州近郊湖泽乡野之地，湖田交错、小道蜿蜒、林木疏朗，\n郊野气象冲淡平和，无市井喧嚣、无山水奇险，尽是乡野平淡烟火气息，\n是苏轼闲居郊游、随性漫步的天然山野步道。",
+  "background": "沙湖，黄州城外湖泊。苏轼游沙湖遇雨，'莫听穿林打叶声，何妨吟啸且徐行'，《定风波》由此诞生。",
   "extended_story": "苏轼去往沙湖途中突遇风雨，同行之人皆狼狈避雨，\n唯独苏轼竹杖芒鞋、缓步徐行，不以风雨为扰、不以晴雨为喜；\n在平凡乡野风雨中顿悟人生真谛：仕途荣辱、人生得失，皆如途中风雨，\n只需内心从容、宠辱不惊，便可行稳世间万事，由此诞生《定风波》旷达千古的人生宣言。",
   "essence": "苏轼从山水赏玩上升到人生哲思、铸就旷达人格的顿悟圣地",
   "tags": [
@@ -38,6 +38,41 @@
       "coreVerse": "回首向来萧瑟处，归去，也无风雨也无晴。",
       "excerpt": "回首向来萧瑟处，归去，也无风雨也无晴。",
       "poem_id": "C037"
+    },
+    {
+      "title": "浣溪沙·麻叶层层苘叶光",
+      "type": "词",
+      "description": "谁家煮茧一村香？隔篱娇语络丝娘。"
+    },
+    {
+      "title": "浣溪沙·软草平莎过雨新",
+      "type": "词",
+      "description": "日暖桑麻光似泼，风来蒿艾气如薰。"
+    },
+    {
+      "title": "南歌子·晚春",
+      "type": "词",
+      "description": "日薄花房绽，风和麦浪轻。"
+    },
+    {
+      "title": "定风波·常羡人间琢玉郎",
+      "type": "词",
+      "description": "此心安处是吾乡。"
+    },
+    {
+      "title": "哨遍·为米折腰",
+      "type": "词",
+      "description": "而浮生若梦，为欢几何。"
+    },
+    {
+      "title": "念奴娇·大江东去",
+      "type": "词",
+      "description": "大江东去，浪淘尽，千古风流人物。"
+    },
+    {
+      "title": "定风波·一蓑烟雨任平生",
+      "type": "词",
+      "description": "一蓑烟雨任平生。"
     }
   ],
   "source": [
@@ -99,6 +134,39 @@
       "description": "苏轼赴沙湖买田途中遇雨，作《定风波》",
       "significance": "literary",
       "id": "p150-evt-001"
+    }
+  ],
+  "lat": 30.523855,
+  "lng": 114.972468,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "合力叉车黄冈办事处东侧390米",
+  "sub_places": [
+    {
+      "name": "沙湖附近驿馆",
+      "ancient_name": "沙湖附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在沙湖的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.523855,
+      "lng": 114.972468,
+      "modern_address": "合力叉车黄冈办事处东侧390米",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "沙湖",
+      "description": "黄州附近湖泊，苏轼游此遇雨作'定风波'",
+      "type": "景区"
+    }
+  ],
+  "foods": [
+    {
+      "name": "黄州豆腐",
+      "description": "黄州名产，苏轼谪居时常食"
     }
   ]
 }

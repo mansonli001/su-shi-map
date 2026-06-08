@@ -3,14 +3,14 @@
   "ancient_name": "利州",
   "modern_name": "广元",
   "type": "main",
-  "lat": 32.4356,
-  "lng": 105.8395,
+  "lat": 32.4353,
+  "lng": 105.844,
   "related_routes": [
     "R01",
     "R05"
   ],
   "summary": "蜀道重要节点，三苏出蜀必经之地",
-  "background": "利州（今昭化）是蜀道重要节点，自古交通要道",
+  "background": "利州（今广元），蜀道北端重镇。苏轼入蜀经利州，嘉陵江畔、剑门在望，入蜀的门户。",
   "tags": [
     "蜀道",
     "利州",
@@ -27,7 +27,13 @@
       "significance": "蜀道节点"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过利州",
+      "type": "诗",
+      "description": "苏轼经利州所作"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -86,17 +92,56 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.336267,
+      "lng": 105.719853,
+      "modern_address": "昭化镇城关村桔柏渡街144号"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "广元蒸凉面",
+      "description": "广元传统小吃",
+      "origin_story": "利州传统美食",
+      "tag": "广元特色"
+    }
+  ],
   "transport": {
     "train": "广元站",
     "bus": "昭化客运中心",
     "car": "京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "康州官署",
+      "ancient_name": "康州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在利州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.336267,
+      "lng": 105.719853,
+      "modern_address": "昭化镇城关村桔柏渡街144号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "昭化古城",
+      "ancient_name": "昭化古城",
+      "type": "ancient_city",
+      "period": "",
+      "description": "蜀道重要节点，有2000多年历史",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.336267,
+      "lng": 105.719853,
+      "modern_address": "昭化镇城关村桔柏渡街144号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "lizhou",
@@ -153,5 +198,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:13.000Z"
+  "amap_updated_at": "2026-06-03T05:15:13.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "昭化镇城关村桔柏渡街144号"
 }

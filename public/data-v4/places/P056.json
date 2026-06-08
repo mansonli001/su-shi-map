@@ -3,13 +3,13 @@
   "ancient_name": "海州花果山古址",
   "modern_name": "江苏连云港花果山",
   "type": "sight",
-  "lat": 34.596639,
-  "lng": 119.221487,
+  "lat": 34.6265,
+  "lng": 119.2185,
   "related_routes": [
     "R07"
   ],
   "summary": "苏轼北行途经海州，游孔望山",
-  "background": "海州今江苏连云港，苏轼北行赴密州途经此地",
+  "background": "海州花果山古址，传说中水帘洞所在地。苏轼途经海州，或闻花果山传说，云雾茶香飘山间。",
   "tags": [
     "海州",
     "孔望山"
@@ -22,9 +22,57 @@
       "title": "过海州",
       "description": "苏轼北行途经海州",
       "significance": "途经海州"
+    },
+    {
+      "id": "p056-002",
+      "date": "1074年",
+      "title": "经海州花果山",
+      "description": "苏轼自杭州调密州途经海州",
+      "significance": "赴任途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "次韵章质夫杨花词",
+      "type": "词",
+      "description": "似花还似非花，也无人惜从教坠。"
+    },
+    {
+      "title": "水龙吟·似花还似非花",
+      "type": "词",
+      "description": "细看来，不是杨花，点点是离人泪。"
+    },
+    {
+      "title": "蝶恋花·记得画屏初会遇",
+      "type": "词",
+      "description": "燕子双飞来又去，纱窗几度春光暮。"
+    },
+    {
+      "title": "减字木兰花·双龙对起",
+      "type": "词",
+      "description": "双龙对起，白甲苍髯烟雨里。"
+    },
+    {
+      "title": "水调歌头·明月几时有",
+      "type": "词",
+      "description": "但愿人长久，千里共婵娟。"
+    },
+    {
+      "title": "阳关曲·中秋月",
+      "type": "词",
+      "description": "此生此夜不长好，明月明年何处看。"
+    },
+    {
+      "title": "水调歌头·丙辰中秋",
+      "type": "词",
+      "description": "明月几时有，把酒问青天。"
+    },
+    {
+      "title": "阳关曲·答李公择",
+      "type": "词",
+      "description": "济南春好雪初晴，才到龙山马足轻。"
+    }
+  ],
   "route_events": {
     "route06": [
       {
@@ -59,17 +107,59 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.572506,
+      "lng": 119.163492,
+      "modern_address": "江苏省连云港市海州区"
+    },
+    {
+      "name": "花果山风景区",
+      "description": "连云港名山，传说中花果山水帘洞所在地",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "花果山云雾茶",
+      "description": "连云港花果山特产绿茶，清香回甘"
+    }
+  ],
   "transport": {
     "train": "连云港站",
     "bus": "连云港汽车站",
     "car": "沈海高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "归善县衙",
+      "ancient_name": "归善县衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在海州花果山古址的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.572506,
+      "lng": 119.163492,
+      "modern_address": "江苏省连云港市海州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "孔望山",
+      "ancient_name": "孔望山",
+      "type": "mountain",
+      "period": "",
+      "description": "苏轼北行途经海州，曾游孔望山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.572506,
+      "lng": 119.163492,
+      "modern_address": "江苏省连云港市海州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS146",
     "pinyin_id": "haizhou",
@@ -78,7 +168,7 @@
     "v3_lat": 34.5967,
     "v3_lng": 119.1782
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省连云港市",
   "coords_updated_at": "2026-06-01T10:17:04.314Z",
   "duration_summary": {
@@ -122,5 +212,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:43.000Z"
+  "amap_updated_at": "2026-06-03T05:14:43.000Z",
+  "sxzk_address": "江苏省连云港市海州区"
 }

@@ -3,41 +3,93 @@
   "ancient_name": "江南运河",
   "modern_name": "江南运河（苏州段）",
   "type": "sight",
-  "lat": 31.2989,
-  "lng": 120.5853,
+  "lat": 31.30,
+  "lng": 120.60,
   "related_routes": [
     "R14"
   ],
   "tags": [],
-  "background": "请外再知杭州，疏浚西湖筑长堤，杭人立祠以祀。",
+  "background": "江南运河，连接杭州与镇江的大运河段。苏轼多次经运河往返，'烟笼寒水月笼沙'的江南水道。",
   "route_events": {},
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p085-001",
+      "date": "1089年",
+      "title": "经江南运河赴杭州",
+      "description": "苏轼经江南运河苏州段赴杭州",
+      "significance": "运河精华段"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "临江仙·惠州改过",
+      "type": "词",
+      "description": "惠州改过已前非，身世悠悠何可期。"
+    },
+    {
+      "title": "如梦令·题淮山楼",
+      "type": "词",
+      "description": "楼上清风生，消得几番吟。"
+    },
+    {
+      "title": "谒金门·今夜雨",
+      "type": "词",
+      "description": "今夜雨，打窗稿磗有谁闻。"
+    },
+    {
+      "title": "减字木兰花·凭窗摸翠",
+      "type": "词",
+      "description": "凭窗摸翠，风定池莲自在香。"
+    },
+    {
+      "title": "王进叔所藏画跋尾·赵昌四季芍药",
+      "type": "文",
+      "description": "江左风流王谢家，尽携书画到天涯。"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
   "foods": [],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "江南运河",
+      "ancient_name": "江南运河",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经江南运河",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.30,
+      "lng": 120.60,
+      "modern_address": "江苏省苏州市姑苏区江南运河",
+      "coordinate_source": "manual_corrected",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
   "modern_visit": {
-    "amap_poi_id": "B0MBY15TB5",
-    "amap_name": "无锡江南古运河旅游度假区(北京)联合创新中心",
-    "address": "百子湾南二路与广百中路交叉口东南200米",
-    "location": "116.511825,39.895425",
-    "cityname": "北京市",
-    "adname": "朝阳区",
-    "type": "商务住宅;产业园区;产业园区",
-    "typecode": "120100",
+    "amap_poi_id": "B0FFJ8K5A1",
+    "amap_name": "江南古运河",
+    "address": "江苏省苏州市姑苏区江南运河",
+    "location": "120.60,31.30",
+    "cityname": "苏州市",
+    "adname": "姑苏区",
+    "type": "风景名胜;水域;运河",
+    "typecode": "110301",
     "tel": [],
     "rating": null,
     "cost": null,
     "open_time": null,
     "photos": [],
-    "recommendation": "",
-    "best_time_to_visit": "",
+    "recommendation": "江南运河苏州段，苏轼多次经此往返",
+    "best_time_to_visit": "春秋",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:04.000Z"
+  "amap_updated_at": "2026-06-08T00:00:00.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省苏州市姑苏区江南运河"
 }

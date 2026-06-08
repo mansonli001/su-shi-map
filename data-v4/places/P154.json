@@ -3,13 +3,13 @@
   "ancient_name": "石鼓山",
   "modern_name": "陕西宝鸡石鼓山",
   "type": "around",
-  "lat": 34.350822,
-  "lng": 107.195044,
+  "lat": 34.347428,
+  "lng": 107.191615,
   "related_routes": [
     "R03"
   ],
   "summary": "",
-  "background": "先秦石鼓出土地，金石文化圣地。",
+  "background": "石鼓山，宝鸡先秦石鼓出土地。苏轼赴凤翔途经此地，渭水之滨、石鼓文古拙，是金石文化的圣地，也是周秦文明的核心遗存。",
   "tags": [
     "study",
     "visit"
@@ -48,10 +48,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "石鼓书院",
+      "description": "中国古代四大书院之一",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "衡阳鱼粉",
+      "description": "衡阳传统早餐，鱼汤浓郁米粉爽滑"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "石鼓山附近驿馆",
+      "ancient_name": "石鼓山附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在石鼓山的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.347428,
+      "lng": 107.191615,
+      "modern_address": "渭滨区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS132",
     "pinyin_id": null,
@@ -64,7 +90,7 @@
   "essence": "金石研学核心点位",
   "last_updated": "2026-06-01T10:22:05.196Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "陕西省宝鸡市渭滨区石鼓山",
   "coords_updated_at": "2026-06-01T10:17:04.322Z",
   "duration_summary": {
@@ -113,5 +139,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:52.000Z"
+  "amap_updated_at": "2026-06-03T05:15:52.000Z",
+  "sxzk_address": "渭滨区"
 }

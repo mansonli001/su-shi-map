@@ -1,0 +1,46 @@
+{
+  "place_id": "P028",
+  "ancient_name": "磁州",
+  "modern_name": "河北磁县",
+  "city": "河北磁县市",
+  "processed_at": "2026-06-07T23:25:27.388788",
+  "main_coords": {
+    "name": "磁州官署",
+    "lat": 36.37507,
+    "lng": 114.373965,
+    "modern_address": "磁县",
+    "coordinate_source": "amap_poi_original",
+    "reason": "磁州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "磁州官署",
+      "ancient_name": "磁州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在磁州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 36.37507,
+      "lng": 114.373965,
+      "modern_address": "磁县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P028",
+    "ancient_name": "磁州",
+    "city": "河北磁县市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "磁州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:34.423712"
+}

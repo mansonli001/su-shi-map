@@ -6,7 +6,7 @@
   "related_routes": [
     "R05"
   ],
-  "background": "汉中盆地核心，秦岭古栈道聚集地，南北文化交融重地。",
+  "background": "兴元即今陕西汉中，汉中盆地核心。秦岭栈道聚集地、汉水源头，是南北文化交融的重地，也是蜀道的关键枢纽。",
   "extended_story": "行经汉中古栈道，\n览秦巴山川、怀古三国旧事，\n思绪渐向朝政民生靠拢。",
   "essence": "秦岭栈道人文核心点位",
   "tags": [
@@ -74,7 +74,58 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:20.000Z",
-  "lat": 33.07,
-  "lng": 107.02,
-  "_latlng_source": "manual"
+  "lat": 33.066373,
+  "lng": 107.02319,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "汉台区",
+  "sub_places": [
+    {
+      "name": "兴元居所",
+      "ancient_name": "兴元居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在兴元的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.066373,
+      "lng": 107.02319,
+      "modern_address": "汉台区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p193-001",
+      "date": "1069年",
+      "title": "经兴元出蜀",
+      "description": "苏轼经兴元沿蜀道出蜀赴京",
+      "significance": "蜀道中转"
+    }
+  ],
+  "foods": [
+    {
+      "name": "汉中面皮",
+      "description": "兴元传统名吃，米皮配辣油，爽滑麻辣"
+    },
+    {
+      "name": "汉中菜豆腐",
+      "description": "兴元传统小吃，豆浆点豆腐配酸菜，清淡爽口"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "古汉台",
+      "description": "汉中刘邦发祥地，兴元府治所",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "兴元",
+      "type": "诗",
+      "note": "途经兴元所作",
+      "year_estimate": 1061
+    }
+  ]
 }

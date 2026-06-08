@@ -3,19 +3,27 @@
   "ancient_name": "洪州",
   "modern_name": "南昌",
   "type": "main",
-  "lat": 28.682,
-  "lng": 115.8579,
+  "lat": 28.682976,
+  "lng": 115.857972,
   "related_routes": [
     "R18"
   ],
   "summary": "",
-  "background": "赣北水陆枢纽，长江入赣南迁关键节点。",
+  "background": "洪州即今江西南昌，赣北水陆枢纽。苏轼北归途经此地，赣江入鄱阳湖、滕王阁临江，是归途中最壮阔的水路交汇。",
   "tags": [
     "main",
     "hub"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p064-001",
+      "date": "1094年",
+      "title": "经洪州南贬",
+      "description": "苏轼南贬途经洪州南昌",
+      "significance": "贬谪中转"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R18": {
@@ -30,10 +38,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "滕王阁",
+      "description": "洪州名楼，王勃'滕王阁序'传诵千古，苏轼或曾登临",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "南昌拌粉",
+      "description": "洪州传统早餐，米粉拌酱料花生，香辣爽口"
+    },
+    {
+      "name": "南昌瓦罐汤",
+      "description": "洪州传统名食，瓦罐煨汤，鲜香滋补"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "洪州官署",
+      "ancient_name": "洪州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在洪州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.682976,
+      "lng": 115.857972,
+      "modern_address": "红谷滩区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS100",
     "pinyin_id": null,
@@ -87,5 +125,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:48.000Z"
+  "amap_updated_at": "2026-06-03T05:14:48.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "红谷滩区"
 }

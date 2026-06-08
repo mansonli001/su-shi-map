@@ -3,23 +3,64 @@
   "ancient_name": "凤县",
   "modern_name": "陕西凤县",
   "type": "main",
-  "lat": 33.912,
-  "lng": 106.5238,
+  "lat": 33.910797,
+  "lng": 106.515841,
   "related_routes": [
     "R01"
   ],
   "summary": "",
-  "background": "",
+  "background": "凤县即今陕西凤县，秦岭西段驿道重镇。苏轼出蜀翻秦岭，凤县是出山后第一处歇脚地，嘉陵江支流绕城而过。",
   "tags": [],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p043-001",
+      "date": "1056年",
+      "title": "经凤县入秦岭",
+      "description": "苏轼随父经凤县入秦岭栈道，初历蜀道之险",
+      "significance": "初历蜀道"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "凤州",
+      "type": "诗",
+      "note": "途经凤州所作",
+      "year_estimate": 1061
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "凤州古城",
+      "description": "古凤州治所，入蜀要道",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "凤县花椒",
+      "description": "凤县名产，大红袍花椒麻香浓郁"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "凤县官署",
+      "ancient_name": "凤县官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在凤县的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.910797,
+      "lng": 106.515841,
+      "modern_address": "凤县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS131",
     "pinyin_id": null,
@@ -69,5 +110,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:34.000Z"
+  "amap_updated_at": "2026-06-03T05:14:34.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "凤县"
 }

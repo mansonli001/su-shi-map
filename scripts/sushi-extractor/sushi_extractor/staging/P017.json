@@ -1,0 +1,44 @@
+{
+  "place_id": "P017",
+  "ancient_name": "常州",
+  "modern_name": "江苏常州",
+  "city": "常州市",
+  "main_coords": {
+    "name": "孙氏馆",
+    "lat": 31.811313,
+    "lng": 119.974092,
+    "modern_address": "常州市天宁区前北岸",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼在常州租住孙氏馆，为最后居住地（终老处）"
+  },
+  "sub_places": [
+    {
+      "name": "孙氏馆",
+      "ancient_name": "孙氏馆",
+      "type": "residence",
+      "period": "1101年6月-7月",
+      "description": "苏轼在常州租住之所，在此病逝，享年六十五岁",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.811313,
+      "lng": 119.974092,
+      "modern_address": "常州市天宁区前北岸（藤花旧馆遗址）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "孙氏馆旧址在今常州前北岸，又称藤花旧馆"
+    }
+  ],
+  "report": {
+    "place_id": "P017",
+    "ancient_name": "常州",
+    "city": "常州市",
+    "total_sub_places": 1,
+    "residence_count": 1,
+    "main_coords_source": "孙氏馆（唯一居住地/终老处）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 1,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:14:36.632460"
+}

@@ -1,0 +1,58 @@
+{
+  "place_id": "P208",
+  "ancient_name": "颍州",
+  "modern_name": "安徽阜阳",
+  "city": "阜阳市",
+  "main_coords": {
+    "name": "颍州州衙",
+    "lat": 32.883322,
+    "lng": 115.806916,
+    "modern_address": "安徽省阜阳市颍州区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任颍州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "颍州州衙",
+      "ancient_name": "颍州州衙",
+      "type": "residence",
+      "period": "1091-1092年",
+      "description": "苏轼任颍州知州时的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "颍州西湖",
+      "ancient_name": "颍州西湖",
+      "type": "scenic",
+      "period": "1091-1092年",
+      "description": "欧阳修退隐颍州常游西湖，苏轼疏浚颍州西湖筑堤",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P208",
+    "ancient_name": "颍州",
+    "city": "阜阳市",
+    "total_sub_places": 2,
+    "residence_count": 1,
+    "scenic_count": 1,
+    "main_coords_source": "颍州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 2,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.226764"
+}

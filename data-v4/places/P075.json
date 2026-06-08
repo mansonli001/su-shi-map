@@ -9,7 +9,7 @@
     "R18"
   ],
   "summary": "苏轼贬惠州两年多，作《食荔枝》等诗",
-  "background": "惠州今广东惠州，苏轼于绍圣元年贬惠州安置两年多",
+  "background": "惠州合江楼，苏轼谪居惠州的住所。东江与西枝江交汇处，楼高江阔，是苏轼初到惠州时的临时居所。",
   "tags": [
     "惠州",
     "岭南",
@@ -119,14 +119,129 @@
       "distance": ""
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "梅菜扣肉",
+      "description": "惠州名菜，梅菜与五花肉层层相叠蒸制",
+      "origin_story": "惠州传统名菜",
+      "tag": "惠州必吃"
+    },
+    {
+      "name": "酿豆腐",
+      "description": "客家名菜，豆腐中酿入肉馅煎制",
+      "origin_story": "惠州客家传统美食",
+      "tag": "惠州特色"
+    },
+    {
+      "name": "荔枝",
+      "description": "岭南佳果，苏轼最爱",
+      "origin_story": "苏轼'日啖荔枝三百颗，不辞长作岭南人'",
+      "tag": "惠州必吃"
+    },
+    {
+      "name": "盐焗鸡",
+      "description": "客家名菜，盐焗鸡皮脆肉嫩",
+      "origin_story": "惠州客家传统美食",
+      "tag": "惠州特色"
+    }
+  ],
   "transport": {
     "train": "惠州站",
     "bus": "惠州汽车站",
     "car": "济广高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "合江楼",
+      "ancient_name": "合江楼",
+      "type": "residence",
+      "period": "1094年10月-1095年",
+      "description": "苏轼初到惠州寓居合江楼，东江和西江交汇处",
+      "works": [
+        "寓居合江楼"
+      ],
+      "importance": "primary",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "modern_address": "广东省惠州市惠城区合江楼",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "寓居合江楼",
+          "type": "诗",
+          "date": "绍圣元年（1094年）",
+          "note": "苏轼初到惠州寓居合江楼时所作"
+        }
+      ]
+    },
+    {
+      "name": "白鹤峰新居",
+      "ancient_name": "白鹤峰新居",
+      "type": "residence",
+      "period": "1095-1097年",
+      "description": "苏轼在惠州自建居所，打算终老于此",
+      "works": [
+        "白鹤峰新居欲成夜过西邻翟秀才"
+      ],
+      "importance": "secondary",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证",
+      "works_detail": [
+        {
+          "title": "白鹤峰新居欲成夜过西邻翟秀才",
+          "type": "诗",
+          "date": "绍圣三年（1096年）",
+          "note": "苏轼在惠州营建白鹤峰新居"
+        }
+      ]
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "惠州西湖",
+      "type": "scenic",
+      "period": "1094-1097年",
+      "description": "苏轼常游惠州西湖，修筑苏堤",
+      "works": [],
+      "importance": "primary",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用惠州合江楼中心坐标作为参考"
+    },
+    {
+      "name": "罗浮山",
+      "ancient_name": "罗浮山",
+      "type": "scenic",
+      "period": "1094-1097年",
+      "description": "苏轼游罗浮山，写下《食荔枝》",
+      "works": [
+        "食荔枝"
+      ],
+      "importance": "primary",
+      "lat": 23.086,
+      "lng": 114.4131,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "works_detail": [
+        {
+          "title": "食荔枝二首",
+          "type": "诗",
+          "date": "绍圣二年（1095年）",
+          "note": "日啖荔枝三百颗，不辞长作岭南人"
+        }
+      ],
+      "note": "精确位置待考证，使用惠州合江楼中心坐标作为参考"
+    }
+  ],
   "legacy": {
     "ss_id": "SS040",
     "pinyin_id": "huizhou",
@@ -185,5 +300,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:57.000Z"
+  "amap_updated_at": "2026-06-03T05:14:57.000Z",
+  "coordinate_source": "amap_geocode",
+  "sxzk_address": "广东省惠州市惠城区"
 }

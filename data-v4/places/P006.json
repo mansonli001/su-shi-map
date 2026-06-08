@@ -7,7 +7,7 @@
     "R04",
     "R18"
   ],
-  "background": "北宋核心漕运古道，京师南下江淮主干水道。",
+  "background": "汴河，隋唐大运河通济渠段，连接开封与江南。苏轼多次经汴河水路往返京师，'汴水流，泗水流'是这条水道的千年咏叹。",
   "extended_story": "护灵柩沿汴河南下，\n漕运舟行缓慢，满心悲戚。",
   "essence": "京师南行漕运起点",
   "tags": [
@@ -93,6 +93,34 @@
       "description": "苏轼在开封应进士试及第",
       "significance": "career",
       "id": "p006-evt-001"
+    }
+  ],
+  "lat": 34.807615,
+  "lng": 114.344842,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "大宋汴河",
+  "sub_places": [
+    {
+      "name": "汴河附近驿馆",
+      "ancient_name": "汴河附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在汴河的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.807615,
+      "lng": 114.344842,
+      "modern_address": "大宋汴河",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "汴河",
+      "type": "诗",
+      "note": "经汴河水路所作",
+      "year_estimate": 1071
     }
   ]
 }

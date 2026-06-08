@@ -3,14 +3,14 @@
   "ancient_name": "徐州",
   "modern_name": "江苏徐州",
   "type": "official",
-  "lat": 34.2614,
-  "lng": 117.1849,
+  "lat": 34.2616,
+  "lng": 117.1848,
   "related_routes": [
     "R08",
     "R09"
   ],
   "summary": "苏轼任徐州知州一年十个月，抗洪建黄楼，留下众多名篇",
-  "background": "徐州今江苏徐州，苏轼于熙宁十年任知州，期间率民抗洪，建黄楼，创作众多诗文",
+  "background": "徐州即今江苏徐州，苏轼熙宁十年任知州。黄河决口、率民抗洪，建黄楼、筑长堤，是苏轼从文人转为能吏的标志。",
   "tags": [
     "徐州",
     "彭城",
@@ -86,6 +86,21 @@
       "route_id": "R09",
       "note": "御史台狱中绝笔诗，「圣主如天万物春，小臣愚暗自亡身」",
       "poem_id": "S069"
+    },
+    {
+      "title": "书王定国所藏烟江叠嶂图",
+      "type": "诗",
+      "description": "山回路转不见君，雪上空留马行处。"
+    },
+    {
+      "title": "书晁说之考牧图后",
+      "type": "诗",
+      "description": "此生与君共千里，那更将身化为泪。"
+    },
+    {
+      "title": "送孔郎中赴陕郊",
+      "type": "诗",
+      "description": "大鼐东来几千里，吹散杨花春欲归。"
     }
   ],
   "route_events": {
@@ -168,7 +183,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.253638,
+      "lng": 117.251515,
+      "modern_address": "江苏省徐州市云龙区"
     },
     {
       "id": "xz-s002",
@@ -182,7 +200,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 34.237675,
+      "lng": 117.176845,
+      "modern_address": "江苏省徐州市云龙湖旅游景区"
     },
     {
       "id": "xz-s003",
@@ -199,14 +220,146 @@
       "distance": ""
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "地锅鸡",
+      "description": "徐州名菜，铁锅炖鸡贴饼子",
+      "origin_story": "徐州传统名菜",
+      "tag": "徐州必吃"
+    },
+    {
+      "name": "羊汤",
+      "description": "徐州特色，白汤羊肉鲜而不膻",
+      "origin_story": "徐州传统美食",
+      "tag": "徐州特色"
+    },
+    {
+      "name": "烙馍",
+      "description": "徐州传统面食，薄如纸韧如皮",
+      "origin_story": "徐州传统主食",
+      "tag": "徐州特色"
+    }
+  ],
   "transport": {
     "train": "徐州站/徐州东站",
     "bus": "徐州汽车站",
     "car": "京沪高速/连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "徐州州衙",
+      "ancient_name": "徐州州衙",
+      "type": "residence",
+      "period": "1076-1079年",
+      "description": "苏轼任徐州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "江苏省徐州市区（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "徐州州衙原址已无存，坐标为徐州市区参考位置"
+    },
+    {
+      "name": "黄楼",
+      "ancient_name": "黄楼",
+      "type": "scenic",
+      "period": "1077年",
+      "description": "苏轼率民抗洪后建黄楼，取'土实胜水'之意，重阳节大宴宾客庆祝落成",
+      "works": [
+        "黄楼赋"
+      ],
+      "importance": "primary",
+      "lat": 34.253638,
+      "lng": 117.251515,
+      "modern_address": "江苏省徐州市云龙区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "黄楼赋",
+          "type": "赋",
+          "date": "元丰元年（1078年）",
+          "note": "苏轼在徐州抗洪后建黄楼，作黄楼赋"
+        }
+      ]
+    },
+    {
+      "name": "云龙山",
+      "ancient_name": "云龙山",
+      "type": "scenic",
+      "period": "1077-1079年",
+      "description": "苏轼常游云龙山，为张天骥作《放鹤亭记》",
+      "works": [
+        "放鹤亭记"
+      ],
+      "importance": "primary",
+      "lat": 34.237675,
+      "lng": 117.176845,
+      "modern_address": "江苏省徐州市云龙湖旅游景区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "放鹤亭记",
+          "type": "文",
+          "date": "元丰元年（1078年）",
+          "note": "苏轼为云龙山人张天骥所作"
+        }
+      ]
+    },
+    {
+      "name": "放鹤亭",
+      "ancient_name": "放鹤亭",
+      "type": "scenic",
+      "period": "1078年",
+      "description": "云龙山人张天骥养鹤处，苏轼作《放鹤亭记》",
+      "works": [
+        "放鹤亭记"
+      ],
+      "importance": "secondary",
+      "lat": 34.246666,
+      "lng": 117.184577,
+      "modern_address": "江苏省徐州市云龙山",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "放鹤亭记",
+          "type": "文",
+          "date": "元丰元年（1078年）",
+          "note": "苏轼为云龙山人张天骥所作"
+        }
+      ]
+    },
+    {
+      "name": "燕子楼",
+      "ancient_name": "燕子楼",
+      "type": "scenic",
+      "period": "1078年",
+      "description": "苏轼夜宿燕子楼，梦入此楼，作《永遇乐·彭城夜宿燕子楼》",
+      "works": [
+        "永遇乐·彭城夜宿燕子楼"
+      ],
+      "importance": "secondary",
+      "lat": 34.2614,
+      "lng": 117.1849,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用徐州中心坐标作为参考",
+      "works_detail": [
+        {
+          "title": "永遇乐·彭城夜宿燕子楼",
+          "type": "词",
+          "date": "元丰元年（1078年）",
+          "note": "明月如霜，好风如水，清景无限"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS021",
     "pinyin_id": "xuzhou",
@@ -270,5 +423,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:22.000Z"
+  "amap_updated_at": "2026-06-03T05:16:22.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省徐州市区"
 }

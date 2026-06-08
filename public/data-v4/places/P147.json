@@ -9,7 +9,7 @@
     "R00"
   ],
   "summary": "苏轼出生地，在此生活约32年直至进京科举",
-  "background": "眉山是苏轼的出生地和故乡，纱縠行是苏家老宅所在地",
+  "background": "三苏祠，眉山苏氏故居。苏洵、苏轼、苏辙三父子在此成长，'一门三父子'的文坛佳话始于这座院落。",
   "tags": [
     "出生地",
     "故乡",
@@ -48,7 +48,13 @@
       "significance": "回乡守孝"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "次韵子由种杉竹",
+      "type": "诗",
+      "description": "苏轼与弟苏辙唱和，忆三苏祠旧事"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -106,17 +112,90 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "通惠街13号"
+    },
+    {
+      "name": "三苏祠博物馆",
+      "description": "三苏故居改建的博物馆，藏有大量三苏文物",
+      "type": "博物馆"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "东坡肘子",
+      "description": "眉山名菜",
+      "origin_story": "传为苏家菜谱流传",
+      "tag": "眉山必吃"
+    }
+  ],
   "transport": {
     "train": "眉山站 / 眉山东站",
     "bus": "眉山客运中心",
     "car": "成乐高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "三苏祠州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在三苏祠的居所",
+      "importance": "primary",
+      "ancient_name": "三苏祠州衙",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用三苏祠中心坐标作为参考"
+    },
+    {
+      "name": "三苏祠",
+      "ancient_name": "三苏祠",
+      "type": "shrine",
+      "period": "",
+      "description": "三苏父子故居及祠堂，全国重点文物保护单位",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "纱縠行南段72号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "纱縠行",
+      "ancient_name": "纱縠行",
+      "type": "historic_street",
+      "period": "",
+      "description": "宋代苏家老宅所在地，丝绸布匹交易市场",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.042551,
+      "lng": 103.828961,
+      "modern_address": "通惠街13号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "。他在母亲和妻子坟前种下松树",
+      "ancient_name": "。他在母亲和妻子坟前种下松树",
+      "type": "residence",
+      "period": "1066-1068",
+      "description": "从丁忧归乡中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.040704,
+      "lng": 103.830863,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS001",
     "pinyin_id": "meishan",
@@ -125,7 +204,7 @@
     "v3_lat": 30.0818,
     "v3_lng": 103.7667
   },
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "original",
   "amap_address": "四川省眉山市东坡区三苏祠",
   "coords_updated_at": "2026-06-01T10:17:04.322Z",
   "duration_summary": {
@@ -169,5 +248,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:48.000Z"
+  "amap_updated_at": "2026-06-03T05:15:48.000Z",
+  "sxzk_address": "纱縠行南段72号"
 }

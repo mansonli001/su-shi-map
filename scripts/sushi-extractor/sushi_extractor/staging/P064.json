@@ -1,0 +1,46 @@
+{
+  "place_id": "P064",
+  "ancient_name": "洪州",
+  "modern_name": "南昌",
+  "city": "南昌市",
+  "processed_at": "2026-06-07T23:25:28.354756",
+  "main_coords": {
+    "name": "洪州官署",
+    "lat": 28.682976,
+    "lng": 115.857972,
+    "modern_address": "红谷滩区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "洪州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "洪州官署",
+      "ancient_name": "洪州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在洪州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 28.682976,
+      "lng": 115.857972,
+      "modern_address": "红谷滩区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P064",
+    "ancient_name": "洪州",
+    "city": "南昌市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "洪州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:36.450897"
+}

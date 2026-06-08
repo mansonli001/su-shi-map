@@ -6,7 +6,7 @@
   "related_routes": [
     "R17"
   ],
-  "background": "河北平原千年官驿连绵相接，古道平直、阡陌无垠，\n古驿荒亭、老柳长堤散落原野，北地风貌苍莽寂寥，\n与江南烟雨驿道、江淮水乡古道截然不同。",
+  "background": "河北平原古驿，华北平原上的千年驿道。苏轼北上途经河北平原，麦浪如海、古驿苍凉，中原大地的辽阔尽在眼前。",
   "extended_story": "漫步河北古驿长道，极目平野无边、古驿孤峙，\n荒亭残路映岁月沧桑，北地独有的空旷苍凉扑面而来，\n触景生身世漂泊、时局飘摇之叹，化作北地纪行诗文底色。",
   "essence": "塑造苏轼晚年北地苍凉诗风的核心古道景观",
   "tags": [
@@ -42,32 +42,55 @@
       "S4"
     ]
   },
-  "modern_visit": {
-    "amap_poi_id": "B0FFKW7DJ1",
-    "amap_name": "小张物流",
-    "address": "三真驿道内",
-    "location": "117.229216,39.058514",
-    "cityname": "天津市",
-    "adname": "河西区",
-    "type": "生活服务;物流速递;物流速递",
-    "typecode": "070500",
-    "tel": [],
-    "rating": null,
-    "cost": null,
-    "open_time": null,
-    "photos": [
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/9dc44272bd59dd2ca9492327fa0ef0b1"
-      },
-      {
-        "title": [],
-        "url": "http://store.is.autonavi.com/showpic/861ac13fdea0ac91ff694c23f7eee224"
-      }
-    ],
-    "recommendation": "",
-    "best_time_to_visit": "",
-    "transportation": ""
-  },
-  "amap_updated_at": "2026-06-03T05:14:45.000Z"
+  "modern_visit": {},
+  "amap_updated_at": "2026-06-03T05:14:45.000Z",
+  "lat": 39.058514,
+  "lng": 117.229216,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "三真驿道内",
+  "sub_places": [
+    {
+      "name": "河北平原古驿",
+      "ancient_name": "河北平原古驿",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经河北平原古驿",
+      "works": [],
+      "importance": "primary",
+      "lat": 39.058514,
+      "lng": 117.229216,
+      "modern_address": "三真驿道内",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p060-001",
+      "date": "1093年",
+      "title": "经河北平原赴定州",
+      "description": "苏轼经河北平原古驿赴定州",
+      "significance": "北国行旅"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "雪浪石",
+      "type": "诗",
+      "description": "太行西来万马屯，势与岱岳争雄尊。"
+    },
+    {
+      "title": "雪浪斋铭",
+      "type": "文",
+      "description": "定州西北，有石如雪。万里长城在其下，至今人马不得过。"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "赵州桥",
+      "description": "世界最古老石拱桥，苏轼经河北或知此桥",
+      "type": "古迹"
+    }
+  ]
 }

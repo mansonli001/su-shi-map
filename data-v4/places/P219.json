@@ -3,8 +3,8 @@
   "ancient_name": "长安",
   "modern_name": "西安",
   "type": "main",
-  "lat": 34.3416,
-  "lng": 108.9398,
+  "lat": 34.256727,
+  "lng": 108.940681,
   "related_routes": [
     "R01",
     "R03",
@@ -12,7 +12,7 @@
     "R05"
   ],
   "summary": "北宋西北重镇，三苏出蜀途经长安",
-  "background": "长安是汉唐古都，北宋时称京兆府，是西北重镇",
+  "background": "长安即今西安，汉唐古都。北宋称京兆府，苏轼赴凤翔途经此地，城郭宏伟、渭水东流，是西北第一重镇。",
   "tags": [
     "长安",
     "古都",
@@ -49,7 +49,13 @@
       "id": "p219-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "和子由渑池怀旧",
+      "type": "诗",
+      "description": "苏轼经长安忆渑池旧事，'人生到处知何似'"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -141,17 +147,73 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 34.256727,
+      "lng": 108.940681,
+      "modern_address": "碑林区"
+    },
+    {
+      "name": "西安城墙",
+      "description": "唐长安城遗址，苏轼经此入关中",
+      "type": "古迹"
+    },
+    {
+      "name": "大雁塔",
+      "description": "唐代名塔，苏轼途经长安或曾登临",
+      "type": "古迹"
+    },
+    {
+      "name": "曲江池",
+      "description": "唐代名园，苏轼游长安或访此迹",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "长安羊肉泡馍",
+      "description": "长安传统名食，掰馍泡羊汤，浓香暖胃"
+    },
+    {
+      "name": "长安肉夹馍",
+      "description": "长安名小吃，白吉馍夹腊汁肉，酥香满口"
+    }
+  ],
   "transport": {
     "train": "西安站 / 西安北站",
     "bus": "西安城南客运站",
     "car": "京昆高速 / 连霍高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "袁州官署",
+      "ancient_name": "袁州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在长安的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.256727,
+      "lng": 108.940681,
+      "modern_address": "碑林区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西安碑林",
+      "ancient_name": "西安碑林",
+      "type": "museum",
+      "period": "",
+      "description": "全国最大石质书库，有苏轼书法碑刻",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.256727,
+      "lng": 108.940681,
+      "modern_address": "碑林区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS009",
     "pinyin_id": "changan",
@@ -208,5 +270,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:48.000Z"
+  "amap_updated_at": "2026-06-03T05:16:48.000Z",
+  "coordinate_source": "amap_poi",
+  "sxzk_address": "碑林区"
 }

@@ -3,15 +3,15 @@
   "ancient_name": "密州",
   "modern_name": "诸城",
   "type": "official",
-  "lat": 36.009273,
-  "lng": 119.412992,
+  "lat": 35.9965,
+  "lng": 119.4085,
   "related_routes": [
     "R07",
     "R08",
     "R12"
   ],
   "summary": "苏轼任密州知州两年，期间创作《水调歌头》《江城子》等名篇",
-  "background": "密州今山东诸城，苏轼于熙宁七年任知州，在此两年期间创作大量诗文",
+  "background": "密州即今山东诸城，苏轼熙宁七年任知州。常山狩猎、超然台赋词，'明月几时有'与'老夫聊发少年狂'皆作于此，是豪放词派的诞生地。",
   "tags": [
     "密州",
     "诸城",
@@ -103,6 +103,16 @@
       "fullText": "敝裘羸马古河滨，野阔天低糁玉尘。\n自笑餐毡典属国，来看换酒谪仙人。\n宦游到处身如寄，农事何时手自亲。\n剩作新诗与君和，莫因风雨废鸣晨。",
       "excerpt": "敝裘羸马古河滨，野阔天低糁玉尘。",
       "poem_id": "S050"
+    },
+    {
+      "title": "陈桥驿",
+      "type": "诗",
+      "description": "却笑纷纷青史事，不如杯酒自谈天。"
+    },
+    {
+      "title": "宿州次韵刘泾",
+      "type": "诗",
+      "description": "我欲归休瑟渐希，舞雩何日著春衣。"
     }
   ],
   "route_events": {
@@ -198,7 +208,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市超然台"
     },
     {
       "id": "mz-s002",
@@ -227,16 +240,114 @@
       "url": "",
       "rating": "",
       "distance": ""
+    },
+    {
+      "name": "密州常山",
+      "description": "苏轼常猎之地，'江城子·密州出猎'即咏此",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "德州扒鸡",
+      "description": "山东名吃，骨酥肉烂香味浓郁",
+      "origin_story": "山东传统名吃",
+      "tag": "山东必吃"
+    },
+    {
+      "name": "保店驴肉",
+      "description": "山东名吃，驴肉鲜嫩醇香",
+      "origin_story": "山东传统美食",
+      "tag": "山东特色"
+    },
+    {
+      "name": "诸城烧肉",
+      "description": "密州传统名菜，猪肉先煮后熏烤，皮酥肉嫩"
+    },
+    {
+      "name": "诸城辣丝",
+      "description": "密州小菜，萝卜丝拌辣油，爽脆开胃"
+    }
+  ],
   "transport": {
     "train": "诸城站",
     "bus": "诸城汽车站",
     "car": "青兰高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "密州州衙",
+      "ancient_name": "密州州衙",
+      "type": "residence",
+      "period": "1074-1076年",
+      "description": "苏轼任密州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市（原址已无存）",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified",
+      "note": "密州州衙原址已无存，坐标为诸城市区参考位置"
+    },
+    {
+      "name": "超然台",
+      "ancient_name": "超然台",
+      "type": "scenic",
+      "period": "1075-1076年",
+      "description": "苏轼在州署后园筑台，取'超然物外'之意，写下《水调歌头·明月几时有》《超然台记》",
+      "works": [
+        "水调歌头·明月几时有",
+        "超然台记"
+      ],
+      "importance": "primary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "山东省潍坊市诸城市超然台",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "works_detail": [
+        {
+          "title": "水调歌头·明月几时有",
+          "type": "词",
+          "date": "熙宁九年中秋（1076年）",
+          "note": "明月几时有，把酒问青天。但愿人长久，千里共婵娟。"
+        },
+        {
+          "title": "超然台记",
+          "type": "文",
+          "date": "熙宁八年（1075年）",
+          "note": "苏轼修葺超然台后所作"
+        }
+      ]
+    },
+    {
+      "name": "常山",
+      "ancient_name": "常山",
+      "type": "scenic",
+      "period": "1075-1076年",
+      "description": "苏轼常山祭雨、出猎，写下《江城子·密州出猎》",
+      "works": [
+        "江城子·密州出猎"
+      ],
+      "importance": "secondary",
+      "lat": 35.998708,
+      "lng": 119.410242,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证，使用密州中心坐标作为参考",
+      "works_detail": [
+        {
+          "title": "江城子·密州出猎",
+          "type": "词",
+          "date": "熙宁八年（1075年）",
+          "note": "老夫聊发少年狂，左牵黄，右擎苍。会挽雕弓如满月，西北望，射天狼。"
+        }
+      ]
+    }
+  ],
   "legacy": {
     "ss_id": "SS019",
     "pinyin_id": "mizhou",
@@ -253,7 +364,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.236Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "山东省潍坊市诸城市",
   "coords_updated_at": "2026-06-01T10:17:04.320Z",
   "duration_summary": {
@@ -274,13 +385,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B02180I0FK",
-    "amap_name": "诸城市",
-    "address": "诸城市",
-    "location": "119.412992,36.009273",
-    "cityname": "潍坊市",
+    "amap_name": "超然台",
+    "address": "超然台路",
+    "location": "119.4085,35.9965",
+    "cityname": "诸城市",
     "adname": "诸城市",
-    "type": "地名地址信息;普通地名;区县级地名",
-    "typecode": "190105",
+    "type": "风景名胜;风景名胜;古迹",
+    "typecode": "110201",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -303,5 +414,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:26.000Z"
+  "amap_updated_at": "2026-06-03T05:15:26.000Z",
+  "sxzk_address": "山东省潍坊市诸城市"
 }

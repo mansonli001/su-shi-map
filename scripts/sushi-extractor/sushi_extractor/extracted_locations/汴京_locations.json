@@ -1,0 +1,42 @@
+[
+  {
+    "location_id": "P916",
+    "location_name": "汴京",
+    "modern_name": "汴京苏轼相关景点",
+    "modern_address": "河南省汴京",
+    "province": "河南省",
+    "city": "汴京",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1072,
+    "visit_period": "元祐时期",
+    "stay_duration": "",
+    "su_works": [
+      "石門文字禪‧跋三學士帖"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "开封灌汤包",
+      "桶子鸡",
+      "鲤鱼焙面"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "游历地"
+    ],
+    "nearby_sites": [
+      "北海",
+      "南海",
+      "中山"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

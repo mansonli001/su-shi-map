@@ -3,13 +3,13 @@
   "ancient_name": "剑门关古驿",
   "modern_name": "四川剑阁剑门关古驿",
   "type": "sight",
-  "lat": 32.2857,
-  "lng": 105.5247,
+  "lat": 32.1485,
+  "lng": 105.8949,
   "related_routes": [
     "R01"
   ],
   "summary": "蜀道第一关，三苏出蜀必经之地",
-  "background": "剑门关是蜀道第一关，自古兵家必争之地，三苏出蜀必过剑门",
+  "background": "西湖疏浚工程，苏轼组织民工挖淤筑堤。西湖重焕清波、苏堤横卧碧波，是最伟大的水利工程遗产。",
   "tags": [
     "蜀道",
     "剑门"
@@ -59,17 +59,56 @@
       "photos": [],
       "url": "",
       "rating": "AAAAA",
-      "distance": ""
+      "distance": "",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "剑门豆腐宴",
+      "description": "剑门关名菜",
+      "origin_story": "剑门关传统美食",
+      "tag": "剑门必吃"
+    }
+  ],
   "transport": {
     "train": "剑门关站",
     "bus": "剑阁汽车站",
     "car": "京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "冀州官署",
+      "ancient_name": "冀州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在剑门关古驿的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "剑门关",
+      "ancient_name": "剑门关",
+      "type": "pass",
+      "period": "",
+      "description": "蜀道第一关，自古兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS122",
     "pinyin_id": "jianmen",
@@ -90,13 +129,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B0FFF4NWIQ",
-    "amap_name": "剑门关景区",
-    "address": "108国道东侧",
-    "location": "105.573841,32.220796",
+    "amap_name": "剑门关古道",
+    "address": "剑门关镇",
+    "location": "105.8949,32.1485",
     "cityname": "广元市",
     "adname": "剑阁县",
-    "type": "风景名胜;风景名胜;国家级景点",
-    "typecode": "110202",
+    "type": "风景名胜;风景名胜;古道",
+    "typecode": "110201",
     "tel": "0839-6750978",
     "rating": null,
     "cost": null,
@@ -119,5 +158,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:01.000Z"
+  "amap_updated_at": "2026-06-03T05:15:01.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "四川省广元市剑阁县"
 }

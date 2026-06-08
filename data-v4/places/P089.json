@@ -3,14 +3,14 @@
   "ancient_name": "金陵",
   "modern_name": "南京",
   "type": "main",
-  "lat": 32.0603,
-  "lng": 118.7969,
+  "lat": 32.06,
+  "lng": 118.797,
   "related_routes": [
     "R11",
     "R19"
   ],
   "summary": "苏轼拜访王安石于金陵",
-  "background": "金陵即今南京，苏轼元丰七年量移汝州途中拜访退隐的王安石",
+  "background": "金陵即今南京，六朝古都。苏轼量移汝州途经此地，拜访退隐钟山的王安石，两位政敌相逢一笑，是北宋最动人的和解。",
   "tags": [
     "金陵",
     "江宁",
@@ -33,6 +33,13 @@
       "title": "拜访王安石",
       "description": "苏轼在金陵拜访退隐的王安石",
       "significance": "王苏会面"
+    },
+    {
+      "id": "p089-003",
+      "date": "1085年",
+      "title": "登州五日上盐税书",
+      "description": "苏轼到任登州仅五日即被召还，期间上书请改盐税",
+      "significance": "五日为民请命"
     }
   ],
   "global_works": [
@@ -113,7 +120,10 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "江苏省南京市玄武区"
     },
     {
       "id": "jl-s002",
@@ -127,17 +137,89 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市"
+    },
+    {
+      "name": "秦淮河",
+      "description": "金陵母亲河，苏轼途经金陵或泛舟秦淮",
+      "type": "景区"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "南京盐水鸭",
+      "description": "南京名菜，皮白肉嫩",
+      "origin_story": "金陵传统名菜",
+      "tag": "金陵必吃"
+    },
+    {
+      "name": "鸭血粉丝汤",
+      "description": "南京传统小吃",
+      "origin_story": "金陵传统美食",
+      "tag": "金陵特色"
+    },
+    {
+      "name": "金陵盐水鸭",
+      "description": "南京传统名菜，鸭肉鲜嫩皮白肉粉"
+    },
+    {
+      "name": "秦淮小吃",
+      "description": "金陵传统点心，鸭血粉丝汤、小笼包、糖芋苗"
+    }
+  ],
   "transport": {
     "train": "南京站 / 南京南站",
     "bus": "南京汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "江宁府",
+      "ancient_name": "江宁府",
+      "type": "residence",
+      "period": "1084年",
+      "description": "苏轼途经金陵时停留江宁府，拜访王安石",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.040647,
+      "lng": 118.796783,
+      "modern_address": "江苏省南京市秦淮区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "钟山",
+      "ancient_name": "钟山",
+      "type": "scenic",
+      "period": "1084年",
+      "description": "钟山即紫金山，苏轼拜访退隐的王安石",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "江苏省南京市玄武区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "清凉寺",
+      "ancient_name": "清凉寺",
+      "type": "scenic",
+      "period": "1084年",
+      "description": "苏轼曾游清凉寺",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS031",
     "pinyin_id": "jinling",
@@ -171,13 +253,13 @@
   },
   "modern_visit": {
     "amap_poi_id": "B00190YYGY",
-    "amap_name": "南京市",
-    "address": "玄武区",
-    "location": "118.796624,32.059344",
+    "amap_name": "南京夫子庙-秦淮风光带",
+    "address": "贡院街",
+    "location": "118.797,32.06",
     "cityname": "南京市",
-    "adname": "玄武区",
-    "type": "地名地址信息;普通地名;地市级地名",
-    "typecode": "190104",
+    "adname": "秦淮区",
+    "type": "风景名胜;风景名胜;5A景区",
+    "typecode": "110202",
     "tel": [],
     "rating": null,
     "cost": null,
@@ -200,5 +282,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:06.000Z"
+  "amap_updated_at": "2026-06-03T05:15:06.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "江苏省南京市秦淮区"
 }

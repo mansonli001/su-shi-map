@@ -6,7 +6,7 @@
   "related_routes": [
     "R10"
   ],
-  "background": "黄州周边山水古邑，溪泉密布、山林秀润、泉石清幽，\n多古泉、幽涧、茂林，风物清丽雅致，兼具江南山水之秀与江汉山野之静，\n是近郊游赏、寻泉觅幽的绝佳去处。",
+  "background": "蕲水（今浠水），黄州附近县城。苏轼谪居黄州时游蕲水，'蕲水清泉'是黄州岁月的慰藉。",
   "extended_story": "苏轼漫游蕲水，穿行溪涧山林、寻访古泉幽胜，\n看清泉石上流、林木山间秀，远离人世纷扰、静享山水清宁；\n在清幽泉石之间沉淀心绪，洗净官场尘俗与牢狱阴影，\n让身心融入自然，养成冲淡平和、与世无争的心境。",
   "essence": "黄州周边以泉林清幽见长、滋养苏轼淡泊心性的山水古邑",
   "tags": [
@@ -77,5 +77,91 @@
   "amap_updated_at": "2026-06-03T05:15:39.000Z",
   "lat": 30.452212,
   "lng": 115.265155,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "浠水县",
+  "sub_places": [
+    {
+      "name": "蕲水居所",
+      "ancient_name": "蕲水居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在蕲水的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.452212,
+      "lng": 115.265155,
+      "modern_address": "浠水县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p135-001",
+      "date": "1082年",
+      "title": "游蕲水兰溪",
+      "description": "苏轼游蕲水兰溪，观溪水清流竹影",
+      "significance": "黄州近游"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "游蕲水清泉寺",
+      "type": "诗",
+      "description": "苏轼游蕲水清泉寺，'山下兰芽短浸溪'"
+    },
+    {
+      "title": "西江月·明月别枝惊鹊",
+      "type": "词",
+      "description": "明月别枝惊鹊，清风半夜鸣蝉。"
+    },
+    {
+      "title": "行香子·述怀",
+      "type": "词",
+      "description": "对一张琴，一壶酒，一溪云。"
+    },
+    {
+      "title": "行香子·秋与",
+      "type": "词",
+      "description": "但一回醉，一回病，一回慵。"
+    },
+    {
+      "title": "水龙吟·次韵章质夫杨花词",
+      "type": "词",
+      "description": "似花还似非花，也无人惜从教坠。"
+    },
+    {
+      "title": "洞仙歌·冰肌玉骨",
+      "type": "词",
+      "description": "冰肌玉骨，自清凉无汗。"
+    },
+    {
+      "title": "如梦令·春思",
+      "type": "词",
+      "description": "莫忘小桥流水。"
+    },
+    {
+      "title": "浣溪沙·旋抹红妆看使君",
+      "type": "词",
+      "description": "旋抹红妆看使君，三三五五棘篱门。"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "浠水文庙",
+      "description": "蕲水古文庙，黄州周边古迹",
+      "type": "古迹"
+    },
+    {
+      "name": "清泉寺",
+      "description": "蕲水名刹，苏轼游此作'山下兰芽短浸溪'",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "蕲春酸米粉",
+      "description": "蕲春传统名吃，酸爽开胃"
+    }
+  ]
 }

@@ -1,0 +1,38 @@
+[
+  {
+    "location_id": "P159",
+    "location_name": "颍州-扬州",
+    "modern_name": "颍州-扬州苏轼相关景点",
+    "modern_address": "颍州-扬州",
+    "province": "安徽省",
+    "city": "颍州-扬州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1059,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "渭南文集‧跋坡谷帖",
+      "重請戒長老住石塔疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西湖"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

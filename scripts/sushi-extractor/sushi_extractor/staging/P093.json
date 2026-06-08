@@ -1,0 +1,47 @@
+{
+  "place_id": "P093",
+  "ancient_name": "夔门三峡",
+  "modern_name": "长江三峡（瞿塘峡）",
+  "city": "长江三峡（瞿塘峡）市",
+  "processed_at": "2026-06-07T23:25:28.551883",
+  "main_coords": {
+    "name": "夔门三峡附近驿馆",
+    "lat": 31.061206,
+    "lng": 109.915597,
+    "modern_address": "龙门街道龙门街道长江三峡",
+    "coordinate_source": "amap_poi_original",
+    "reason": "夔门三峡附近驿馆为推断的居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "夔门三峡附近驿馆",
+      "ancient_name": "夔门三峡附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在夔门三峡的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.061206,
+      "lng": 109.915597,
+      "modern_address": "龙门街道龙门街道长江三峡",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P093",
+    "ancient_name": "夔门三峡",
+    "city": "长江三峡（瞿塘峡）市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "夔门三峡附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:38.160377"
+}

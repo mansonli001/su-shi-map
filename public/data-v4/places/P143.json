@@ -3,13 +3,13 @@
   "ancient_name": "仁和运河",
   "modern_name": "浙江杭州仁和运河",
   "type": "around",
-  "lat": 30.4,
-  "lng": 120.1551,
+  "lat": 30.302955,
+  "lng": 120.141908,
   "related_routes": [
     "R14"
   ],
   "summary": "",
-  "background": "杭州城内关键通航运河，连通西湖与城河水系，关乎城郭民生漕运。",
+  "background": "仁和运河，杭州城北运河段。苏轼疏浚西湖、修筑运河，'苏堤春晓'的水利工程惠及千年。",
   "tags": [
     "official",
     "transit"
@@ -33,6 +33,13 @@
       "description": "苏轼第二次任杭州知州",
       "significance": "route14",
       "id": "p143-evt-001"
+    },
+    {
+      "id": "p143-002",
+      "date": "1089年",
+      "title": "疏浚运河",
+      "description": "苏轼再知杭州疏浚仁和运河",
+      "significance": "治水"
     }
   ],
   "global_works": [],
@@ -56,7 +63,22 @@
   "memorial_sites": [],
   "foods": [],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "仁和运河附近驿馆",
+      "ancient_name": "仁和运河附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在仁和运河的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.302955,
+      "lng": 120.141908,
+      "modern_address": "环城北路226号武林门码头",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": null,
@@ -113,5 +135,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:45.000Z"
+  "amap_updated_at": "2026-06-03T05:15:45.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "环城北路226号武林门码头"
 }

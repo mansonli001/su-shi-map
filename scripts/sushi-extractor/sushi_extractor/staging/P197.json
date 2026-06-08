@@ -1,0 +1,46 @@
+{
+  "place_id": "P197",
+  "ancient_name": "许州",
+  "modern_name": "河南许昌",
+  "city": "河南许昌市",
+  "processed_at": "2026-06-07T23:25:29.286796",
+  "main_coords": {
+    "name": "许州官署",
+    "lat": 34.03732,
+    "lng": 113.852004,
+    "modern_address": "魏都区",
+    "coordinate_source": "amap_poi_original",
+    "reason": "许州官署为居住地（使用原始坐标）"
+  },
+  "sub_places": [
+    {
+      "name": "许州官署",
+      "ancient_name": "许州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在许州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.03732,
+      "lng": 113.852004,
+      "modern_address": "魏都区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P197",
+    "ancient_name": "许州",
+    "city": "河南许昌市",
+    "total_sub_places": 0,
+    "verified_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "许州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:29:46.740321"
+}

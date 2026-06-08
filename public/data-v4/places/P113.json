@@ -3,8 +3,8 @@
   "ancient_name": "洛阳",
   "modern_name": "河南洛阳",
   "type": "main",
-  "lat": 34.6197,
-  "lng": 112.454,
+  "lat": 34.619702,
+  "lng": 112.453895,
   "related_routes": [
     "R01",
     "R03",
@@ -12,14 +12,35 @@
     "R05"
   ],
   "summary": "",
-  "background": "北宋西京，龙门山水与中原文脉荟萃。",
+  "background": "洛阳，九朝古都。苏轼途经洛阳，牡丹甲天下、龙门石窟壮观，伊洛河畔的千年帝都气象。",
   "tags": [
     "main",
     "visit"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p113-001",
+      "date": "1056年",
+      "title": "首次途经洛阳",
+      "description": "苏轼首次进京途经洛阳，观古都气象",
+      "significance": "初识中原文化"
+    },
+    {
+      "id": "p113-002",
+      "date": "1061年",
+      "title": "二次途经洛阳",
+      "description": "苏轼赴凤翔任途经洛阳",
+      "significance": "再经古都"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "洛阳次韵",
+      "type": "诗",
+      "description": "苏轼途经洛阳所作"
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年途经游览",
@@ -71,10 +92,50 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "洛阳博物馆",
+      "description": "九朝古都文物荟萃",
+      "type": "博物馆"
+    },
+    {
+      "name": "龙门石窟",
+      "description": "世界文化遗产，苏轼途经洛阳或曾游览",
+      "type": "景区"
+    },
+    {
+      "name": "白马寺",
+      "description": "中国第一古刹，苏轼或曾到访",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "洛阳水席",
+      "description": "洛阳传统名宴，24道汤菜，始于唐代，苏轼途经洛阳或赴此宴"
+    },
+    {
+      "name": "洛阳牡丹饼",
+      "description": "洛阳名点，以牡丹花瓣入馅，酥香清雅"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "洛阳居所",
+      "ancient_name": "洛阳居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在洛阳的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.619702,
+      "lng": 112.453895,
+      "modern_address": "洛龙区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS113",
     "pinyin_id": null,
@@ -131,5 +192,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:23.000Z"
+  "amap_updated_at": "2026-06-03T05:15:23.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "洛龙区"
 }

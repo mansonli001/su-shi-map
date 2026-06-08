@@ -3,19 +3,27 @@
   "ancient_name": "勉县",
   "modern_name": "陕西勉县",
   "type": "main",
-  "lat": 33.153,
-  "lng": 106.6789,
+  "lat": 33.153636,
+  "lng": 106.673217,
   "related_routes": [
     "R01"
   ],
   "summary": "",
-  "background": "汉中三国古地，武侯遗迹密布，自古怀古胜地。",
+  "background": "勉县即今陕西勉县，汉中三国古地。武侯墓、定军山皆在此地，苏轼途经勉县，古柏森森、武侯遗风犹存，是蜀道上最厚重的历史怀古之地。",
   "tags": [
     "main",
     "visit"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p122-001",
+      "date": "1056年",
+      "title": "经勉县入栈道",
+      "description": "苏轼经勉县入金牛道栈道，穿越秦岭",
+      "significance": "入栈道起点"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "R01": {
@@ -32,10 +40,36 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "武侯墓",
+      "description": "诸葛亮墓，苏轼途经或曾凭吊",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "勉县热米皮",
+      "description": "勉县传统早餐，米皮蒸制切条，配辣油豆芽"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "勉县官署",
+      "ancient_name": "勉县官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在勉县的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.153636,
+      "lng": 106.673217,
+      "modern_address": "勉县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS130",
     "pinyin_id": null,
@@ -92,5 +126,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:28.000Z"
+  "amap_updated_at": "2026-06-03T05:15:28.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "勉县"
 }

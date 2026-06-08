@@ -1,0 +1,61 @@
+{
+  "place_id": "P080",
+  "ancient_name": "剑门关",
+  "modern_name": "四川剑阁剑门关",
+  "city": "四川剑阁剑门关市",
+  "processed_at": "2026-06-07T23:22:32.653666",
+  "main_coords": {
+    "name": "济州官署",
+    "lat": 32.288681,
+    "lng": 105.524699,
+    "modern_address": "四川省广元市剑阁县",
+    "coordinate_source": "amap_geocode",
+    "reason": "济州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "济州官署",
+      "ancient_name": "济州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在剑门关的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "剑门关",
+      "ancient_name": "剑门关",
+      "type": "关隘",
+      "period": "",
+      "description": "蜀道第一关，自古兵家必争之地",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.288681,
+      "lng": 105.524699,
+      "modern_address": "四川省广元市剑阁县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P080",
+    "ancient_name": "剑门关",
+    "city": "四川剑阁剑门关市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "剑门关居所",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.475676"
+}

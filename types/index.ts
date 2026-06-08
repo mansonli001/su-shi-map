@@ -6,10 +6,12 @@
 /** 地点类型 - v3 旧分类（保留兼容） */
 export type PlaceType = 'birth' | 'office' | 'exile' | 'tour' | 'friend' | 'burial';
 
-/** 地点类型 - v4 设计稿 8 类（marker SVG 选择用） */
+/** 地点类型 - v4 设计稿 10 类（marker SVG 选择用） */
 export type DesignPlaceType =
-  | 'main'      // 主线行进
-  | 'visit'     // 沿途游览（含 around / sight）
+  | 'main'      // 主线行进（途经点）
+  | 'sight'     // 途经景观（驻足观景）
+  | 'around'    // 周边寻访（近处亭阁）
+  | 'visit'     // 沿途游览（通用游览）
   | 'stay'      // 普通驻留
   | 'study'     // 游学地
   | 'birth'     // 出生地

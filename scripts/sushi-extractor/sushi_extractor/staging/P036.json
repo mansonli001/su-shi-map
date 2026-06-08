@@ -1,0 +1,61 @@
+{
+  "place_id": "P036",
+  "ancient_name": "登州",
+  "modern_name": "蓬莱",
+  "city": "蓬莱区",
+  "main_coords": {
+    "name": "登州州衙",
+    "lat": 37.795697,
+    "lng": 120.829141,
+    "modern_address": "山东省烟台市蓬莱区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任登州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "登州州衙",
+      "ancient_name": "登州州衙",
+      "type": "residence",
+      "period": "1085年10月",
+      "description": "苏轼任登州知州仅五日即被召还",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "modern_address": "山东省烟台市蓬莱区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "蓬莱阁",
+      "ancient_name": "蓬莱阁",
+      "type": "scenic",
+      "period": "1085年10月",
+      "description": "苏轼在登州游蓬莱阁，作《海市诗》",
+      "works": [
+        "海市诗"
+      ],
+      "importance": "secondary",
+      "lat": 37.795697,
+      "lng": 120.829141,
+      "modern_address": "山东省烟台市蓬莱区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P036",
+    "ancient_name": "登州",
+    "city": "蓬莱区",
+    "total_sub_places": 2,
+    "residence_count": 1,
+    "scenic_count": 1,
+    "main_coords_source": "登州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "note": "苏轼在登州仅5日，但留下《乞罢登州榷盐状》等重要奏疏",
+    "verified_count": 2,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.340569"
+}

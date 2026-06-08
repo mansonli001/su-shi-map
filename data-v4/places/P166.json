@@ -73,5 +73,48 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:01.000Z"
+  "amap_updated_at": "2026-06-03T05:16:01.000Z",
+  "lat": 37.833961,
+  "lng": 114.166392,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "胡家滩村",
+  "sub_places": [
+    {
+      "name": "太行山东麓附近驿馆",
+      "ancient_name": "太行山东麓附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在太行山东麓的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 37.833961,
+      "lng": 114.166392,
+      "modern_address": "胡家滩村",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p166-001",
+      "date": "1093年",
+      "title": "经太行山东麓",
+      "description": "苏轼外放定州途经太行山东麓",
+      "significance": "太行东麓"
+    }
+  ],
+  "foods": [
+    {
+      "name": "河北驴肉火烧",
+      "description": "太行山区传统名吃，外酥里嫩"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "太行",
+      "type": "诗",
+      "note": "途经太行山所作",
+      "year_estimate": 1077
+    }
+  ]
 }

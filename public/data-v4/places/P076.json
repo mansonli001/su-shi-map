@@ -9,7 +9,7 @@
     "R19"
   ],
   "summary": "",
-  "background": "赣江中下游文脉古邑。",
+  "background": "赣江中游古城，庐陵文化重镇。苏轼南行及北归均途经此地，赣水穿城、白鹭洲头，是赣南驿道上的文化驿站。",
   "tags": [
     "main"
   ],
@@ -29,10 +29,42 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "白鹭洲书院",
+      "description": "吉安古书院，苏轼南贬经此或曾到访",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "吉安炒粉",
+      "description": "吉安传统小吃",
+      "origin_story": "吉安传统美食",
+      "tag": "吉安特色"
+    },
+    {
+      "name": "吉安红米",
+      "description": "吉安特产红米，色泽红润，煮粥软糯"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "吉州官署",
+      "ancient_name": "吉州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在吉州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 27.091243,
+      "lng": 114.96681,
+      "modern_address": "吉州区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS101",
     "pinyin_id": null,
@@ -45,7 +77,7 @@
   "essence": "赣江北上途经点",
   "last_updated": "2026-06-01T10:22:05.266Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "amap_poi_original",
   "amap_address": "江西省吉安市",
   "coords_updated_at": "2026-06-01T10:17:04.316Z",
   "duration_summary": {
@@ -89,5 +121,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:57.000Z"
+  "amap_updated_at": "2026-06-03T05:14:57.000Z",
+  "sxzk_address": "吉州区"
 }

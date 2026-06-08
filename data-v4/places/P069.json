@@ -6,7 +6,7 @@
   "related_routes": [
     "R16"
   ],
-  "background": "江淮主干水系，颍州东下入扬必经黄金水道。",
+  "background": "淮河，中国南北分界线。苏轼多次渡淮河，'橘生淮南则为橘'的地理分界，南北风物在此交替。",
   "extended_story": "自颍州沿淮河泛舟东行，\n看长川平缓、岸野清旷，行旅悠然自得。",
   "essence": "颍扬迁任核心水运通道",
   "tags": [
@@ -60,5 +60,42 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:52.000Z"
+  "amap_updated_at": "2026-06-03T05:14:52.000Z",
+  "lat": 32.577177,
+  "lng": 115.892242,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "阜南县",
+  "sub_places": [
+    {
+      "name": "淮河附近驿馆",
+      "ancient_name": "淮河附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在淮河的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.577177,
+      "lng": 115.892242,
+      "modern_address": "阜南县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p069-001",
+      "date": "1091年",
+      "title": "经淮河南岸赴颍州",
+      "description": "苏轼经淮河南岸驿道赴颍州",
+      "significance": "南北分界"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "淮河",
+      "type": "诗",
+      "note": "渡淮河所作",
+      "year_estimate": 1071
+    }
+  ]
 }

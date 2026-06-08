@@ -3,13 +3,13 @@
   "ancient_name": "常州终老故居",
   "modern_name": "江苏常州孙氏馆",
   "type": "around",
-  "lat": 31.811313,
-  "lng": 119.974092,
+  "lat": 31.7744,
+  "lng": 119.974,
   "related_routes": [
     "R19"
   ],
   "summary": "苏轼北归卒于常州",
-  "background": "常州今江苏常州，苏轼建中靖国元年卒于此",
+  "background": "常州孙氏馆，苏轼北归后的居所兼终老之地。病榻之上仍与友人论诗，'我平生未尝为恶，死必不坠'是最后的旷达。",
   "tags": [
     "常州",
     "毗陵",
@@ -44,6 +44,13 @@
       "description": "苏轼在宜兴买田，计划定居",
       "significance": "route10",
       "id": "p018-002"
+    },
+    {
+      "id": "p018-003",
+      "date": "1101年7月",
+      "title": "终老孙氏馆",
+      "description": "苏轼在常州孙氏馆病逝，'问汝平生功业，黄州惠州儋州'",
+      "significance": "绝笔"
     }
   ],
   "global_works": [],
@@ -106,14 +113,36 @@
       "distance": ""
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "常州大麻糕",
+      "description": "常州传统糕点",
+      "origin_story": "常州地方传统美食",
+      "tag": "常州必吃"
+    }
+  ],
   "transport": {
     "train": "常州站/常州北站",
     "bus": "常州汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "孙氏馆",
+      "ancient_name": "孙氏馆",
+      "type": "residence",
+      "period": "1101年",
+      "description": "苏轼北归途中病逝于常州孙氏馆",
+      "works": [],
+      "importance": "primary",
+      "lat": 31.771947,
+      "lng": 119.974375,
+      "modern_address": "江苏省常州市天宁区前后北岸",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS052",
     "pinyin_id": "changzhou",
@@ -126,7 +155,7 @@
   "essence": "苏轼人生最终归宿、一生行旅收官圣地",
   "last_updated": "2026-06-01T10:22:05.268Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "manual_corrected",
   "amap_address": "江苏省常州市",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {
@@ -157,5 +186,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:11.000Z"
+  "amap_updated_at": "2026-06-03T05:14:11.000Z",
+  "sxzk_address": "江苏省常州市天宁区前后北岸"
 }

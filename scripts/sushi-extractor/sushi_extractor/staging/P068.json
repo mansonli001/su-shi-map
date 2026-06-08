@@ -1,0 +1,60 @@
+{
+  "place_id": "P068",
+  "ancient_name": "华州",
+  "modern_name": "陕西华州",
+  "city": "陕西华州市",
+  "processed_at": "2026-06-07T23:22:32.307943",
+  "main_coords": {
+    "name": "建安官署",
+    "lat": 34.566552,
+    "lng": 110.092286,
+    "modern_address": "陕西省渭南市华阴市",
+    "coordinate_source": "amap_geocode",
+    "reason": "建安官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "建安官署",
+      "ancient_name": "建安官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在华州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.566552,
+      "lng": 110.092286,
+      "modern_address": "陕西省渭南市华阴市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "华山",
+      "ancient_name": "华山",
+      "type": "名山",
+      "period": "",
+      "description": "五岳之一，以险著称",
+      "works": [],
+      "importance": "secondary",
+      "lat": 34.566552,
+      "lng": 110.092286,
+      "modern_address": "陕西省渭南市华阴市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P068",
+    "ancient_name": "华州",
+    "city": "陕西华州市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "华州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:21.245729"
+}

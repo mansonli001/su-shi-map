@@ -1,17 +1,31 @@
-/* ========== Home Landing v1.0（设计稿 v3.html ① 首页） ========== */
+/* ========== Home Landing v1.0 布局还原 ==========
+ * 布局/大小/位置：严格按 v1 快照
+ * 配色：映射到当前 ip-* 变量体系（暖米白底 + 墨黑按钮 + Noto Serif SC）
+ * 关键映射：
+ *   v1 黑底 #1A1008/#2A1810 → 当前深色区 var(--ip-inverse-surface) #32302f
+ *   v1 金色 var(--gold) #FAC775 → 当前强调色 var(--ip-secondary) #7b5800 / var(--ip-secondary-container) #fdc34d
+ *   v1 米白 var(--paper) → var(--ip-surface) #fef8f6
+ *   v1 次米白 var(--paper2) → var(--ip-surface-container-low) #f8f2f0
+ *   v1 墨黑 var(--ink) → var(--ip-on-surface) #1d1b1a
+ *   v1 次文字 var(--tx2) → var(--ip-on-surface-variant) #4e453f
+ *   v1 淡文字 var(--tx3) → var(--ip-outline) #80756e
+ *   v1 边框 var(--bdr)/var(--bdr-l) → var(--ip-outline-variant) #d1c4bc
+ *   v1 卡片 var(--card) → var(--ip-surface-container-lowest) #ffffff
+ */
+
 .ho-root {
   width: 100%;
   min-height: 100vh;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: var(--font-sans);
+  background: var(--ip-surface);
+  color: var(--ip-on-surface);
+  font-family: 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif;
 }
 
-/* Hero */
+/* ===== Hero ===== */
 .ho-hero {
   min-height: 100vh;
   background: linear-gradient(180deg, #1A1008 0%, #2A1810 100%);
-  color: var(--paper);
+  color: var(--ip-surface);
   padding: 80px 24px 60px;
   text-align: center;
   display: flex;
@@ -23,33 +37,40 @@
 .ho-en {
   font-size: 11px;
   letter-spacing: 0.4em;
-  color: var(--gold);
+  color: var(--ip-secondary-container);
   opacity: 0.6;
   margin-bottom: 0.8rem;
 }
 .ho-brand {
-  /* 字体/字号/字距/渐变填充全部交给 .logo-brand-lg 处理 */
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(42px, 8vw, 64px);
+  font-weight: 700;
+  letter-spacing: 0.18em;
   margin: 0 0 1rem;
+  background: linear-gradient(135deg, var(--ip-secondary-container) 0%, var(--ip-secondary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .ho-tag {
   font-size: 14px;
-  color: var(--gold-m);
+  color: var(--ip-secondary-container);
   letter-spacing: 0.18em;
   margin-bottom: 2.5rem;
 }
 .ho-trace {
   margin: 0 auto 2rem;
   display: block;
+  --ho-accent: var(--ip-secondary-container);
 }
 .ho-body {
   font-size: clamp(13px, 2vw, 16px);
-  color: var(--paper);
+  color: var(--ip-surface);
   opacity: 0.92;
   line-height: 2.0;
   margin: 0 auto 1.5rem;
   max-width: 720px;
   letter-spacing: 0.05em;
-  /* 让内部 .ho-body-line 各自独立成行 */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,15 +79,13 @@
 }
 .ho-body-line {
   display: block;
-  white-space: nowrap;        /* 关键：禁止句中自动换行 */
+  white-space: nowrap;
   letter-spacing: 0.06em;
 }
-/* 段落间气口（前两行 / 后三行之间） */
 .ho-body-gap {
   display: block;
   height: 0.7rem;
 }
-/* 窄屏 fallback：如果一行真的超出屏幕，允许换行（避免溢出） */
 @media (max-width: 380px) {
   .ho-body-line {
     white-space: normal;
@@ -75,8 +94,9 @@
   }
 }
 .ho-em {
+  font-family: 'Noto Serif SC', serif;
   font-size: 13px;
-  color: var(--gold);
+  color: var(--ip-secondary-container);
   letter-spacing: 0.25em;
   margin-bottom: 2rem;
   font-style: italic;
@@ -89,12 +109,12 @@
   flex-wrap: wrap;
 }
 .ho-btn-p {
-  background: var(--gold);
-  color: var(--ink);
+  background: var(--ip-secondary-container);
+  color: var(--ip-on-surface);
   border: none;
   padding: 12px 28px;
   font-size: 14px;
-  font-family: var(--font-serif);
+  font-family: 'Noto Serif SC', serif;
   letter-spacing: 0.15em;
   cursor: pointer;
   border-radius: 2px;
@@ -103,16 +123,17 @@
   display: inline-block;
 }
 .ho-btn-p:hover {
-  background: var(--gold-d);
+  background: var(--ip-secondary);
+  color: var(--ip-surface);
   transform: translateY(-1px);
 }
 .ho-btn-s {
   background: transparent;
-  color: var(--gold);
-  border: 1px solid var(--gold);
+  color: var(--ip-secondary-container);
+  border: 1px solid var(--ip-secondary-container);
   padding: 12px 28px;
   font-size: 14px;
-  font-family: var(--font-serif);
+  font-family: 'Noto Serif SC', serif;
   letter-spacing: 0.15em;
   cursor: pointer;
   border-radius: 2px;
@@ -121,7 +142,7 @@
   display: inline-block;
 }
 .ho-btn-s:hover {
-  background: rgba(250, 199, 117, 0.1);
+  background: rgba(253, 195, 77, 0.1);
 }
 .ho-scroll {
   position: absolute;
@@ -129,7 +150,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 11px;
-  color: var(--gold);
+  color: var(--ip-secondary-container);
   opacity: 0.5;
   letter-spacing: 0.2em;
   animation: hoBounce 2s ease-in-out infinite;
@@ -139,40 +160,41 @@
   50%      { transform: translateX(-50%) translateY(8px); }
 }
 
-/* Sections */
+/* ===== Sections ===== */
 .ho-sec {
   padding: 72px 24px 60px;
   text-align: center;
 }
-.ho-sec--cream { background: var(--paper); }
-.ho-sec--ivory { background: var(--paper2); }
+.ho-sec--cream { background: var(--ip-surface); }
+.ho-sec--ivory { background: var(--ip-surface-container-low); }
 .ho-sec-lbl {
   font-size: 10px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   letter-spacing: 0.35em;
   margin-bottom: 0.6rem;
 }
 .ho-sec-title {
+  font-family: 'Noto Serif SC', serif;
   font-size: 26px;
-  font-weight: 600;
-  color: var(--ink);
+  font-weight: 700;
+  color: var(--ip-on-surface);
   letter-spacing: 0.08em;
   margin: 0 0 0.6rem;
 }
 .ho-sec-sub {
   font-size: 13px;
-  color: var(--tx2);
+  color: var(--ip-on-surface-variant);
   margin-bottom: 1.5rem;
   letter-spacing: 0.05em;
 }
 .ho-gold-bar {
   width: 40px;
   height: 2px;
-  background: var(--gold-m);
+  background: var(--ip-secondary);
   margin: 0 auto 2rem;
 }
 
-/* 一生轨迹 timeline */
+/* ===== 一生轨迹 timeline ===== */
 .ho-tl {
   max-width: 920px;
   margin: 1.5rem auto 2.5rem;
@@ -193,26 +215,26 @@
 }
 .ho-tl-sname {
   font-size: 14px;
-  color: var(--ink);
+  color: var(--ip-on-surface);
   font-weight: 600;
   letter-spacing: 0.08em;
 }
 .ho-tl-ssub {
   font-size: 11px;
-  color: var(--tx2);
+  color: var(--ip-on-surface-variant);
   margin-top: 0.2rem;
   letter-spacing: 0.05em;
 }
 .ho-tl-track {
   height: 2px;
-  background: var(--bdr);
+  background: var(--ip-outline-variant);
   margin: 0 8px 0;
   position: relative;
 }
 .ho-tl-fill {
   position: absolute;
   height: 100%;
-  background: var(--gold-m);
+  background: var(--ip-secondary);
   width: 100%;
   animation: hoDraw 2.5s ease-out forwards;
   transform-origin: left;
@@ -231,10 +253,10 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: var(--gold-m);
-  border: 2px solid var(--paper);
+  background: var(--ip-secondary);
+  border: 2px solid var(--ip-surface);
   margin: 0 auto;
-  box-shadow: 0 0 0 1px var(--gold-m);
+  box-shadow: 0 0 0 1px var(--ip-secondary);
 }
 .ho-tl-years {
   display: grid;
@@ -243,10 +265,10 @@
 }
 .ho-tl-yr {
   font-size: 11px;
-  color: var(--tx2);
+  color: var(--ip-outline);
   text-align: center;
   letter-spacing: 0.05em;
-  font-family: 'Courier New', monospace;
+  font-family: 'JetBrains Mono', 'SF Mono', monospace;
 }
 
 /* Stats 4 数字 */
@@ -261,18 +283,18 @@
 .ho-stat-n {
   font-size: 30px;
   font-weight: 600;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   letter-spacing: 0.05em;
-  font-family: var(--font-serif);
+  font-family: 'Noto Serif SC', serif;
 }
 .ho-stat-l {
   font-size: 12px;
-  color: var(--tx2);
+  color: var(--ip-on-surface-variant);
   margin-top: 0.2rem;
   letter-spacing: 0.05em;
 }
 
-/* Featured Places 卡片 */
+/* ===== Featured Places 卡片 ===== */
 .ho-pg-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -282,8 +304,8 @@
   text-align: left;
 }
 .ho-pgcard {
-  background: var(--card);
-  border: 0.5px solid var(--bdr-l);
+  background: var(--ip-surface-container-lowest);
+  border: 0.5px solid rgba(209, 196, 188, 0.4);
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(26, 16, 8, 0.04);
@@ -305,28 +327,28 @@
 .ho-pname {
   font-size: 22px;
   font-weight: 600;
-  color: var(--ink);
+  color: var(--ip-on-surface);
   letter-spacing: 0.1em;
   margin-bottom: 0.2rem;
 }
 .ho-pyear {
   font-size: 11px;
-  color: var(--tx3);
+  color: var(--ip-outline);
   letter-spacing: 0.05em;
   margin-bottom: 0.8rem;
-  font-family: 'Courier New', monospace;
+  font-family: 'JetBrains Mono', 'SF Mono', monospace;
 }
 .ho-pdesc {
   font-size: 13px;
-  color: var(--tx2);
+  color: var(--ip-on-surface-variant);
   line-height: 1.7;
   margin-bottom: 0.9rem;
 }
 .ho-pl {
   font-size: 14px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   font-style: italic;
-  border-left: 2px solid var(--gold);
+  border-left: 2px solid var(--ip-secondary-container);
   padding-left: 0.7rem;
   letter-spacing: 0.05em;
   margin-bottom: 0.75rem;
@@ -335,54 +357,55 @@
 .ho-plink {
   background: none;
   border: none;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   font-size: 12px;
   cursor: pointer;
-  font-family: var(--font-serif);
+  font-family: 'Noto Serif SC', serif;
   letter-spacing: 0.1em;
   padding: 0;
   text-decoration: none;
   display: inline-block;
 }
-.ho-plink:hover { color: var(--gold-d); }
+.ho-plink:hover { color: var(--ip-on-primary-container); }
 
-/* Quote */
+/* ===== Quote ===== */
 .ho-qt {
   text-align: center;
   padding: 64px 24px;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--ip-inverse-surface);
+  color: var(--ip-surface);
 }
 .ho-qt-bar {
   width: 60px;
   height: 1px;
-  background: var(--gold);
+  background: var(--ip-secondary-container);
   margin: 0 auto;
   opacity: 0.7;
 }
 .ho-qt-main {
+  font-family: 'Noto Serif SC', serif;
   font-size: clamp(28px, 5vw, 38px);
-  color: var(--gold);
+  color: var(--ip-secondary-container);
   letter-spacing: 0.18em;
   margin: 1.5rem 0 0.6rem;
-  font-weight: 500;
+  font-weight: 700;
 }
 .ho-qt-src {
   font-size: 12px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   opacity: 0.85;
   letter-spacing: 0.1em;
   margin-bottom: 1.2rem;
 }
 .ho-qt-note {
   font-size: 13px;
-  color: var(--paper);
+  color: var(--ip-inverse-on-surface);
   opacity: 0.75;
   line-height: 2;
   letter-spacing: 0.05em;
 }
 
-/* Coming Soon */
+/* ===== Coming Soon ===== */
 .ho-ft-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -391,8 +414,8 @@
   margin: 1.5rem auto 0;
 }
 .ho-ft-card {
-  background: var(--card);
-  border: 0.5px solid var(--bdr-l);
+  background: var(--ip-surface-container-lowest);
+  border: 0.5px solid rgba(209, 196, 188, 0.4);
   border-radius: 4px;
   padding: 1.2rem 1rem;
   text-align: center;
@@ -400,22 +423,23 @@
 }
 .ho-ft-card:hover { transform: translateY(-2px); }
 .ho-ft-name {
+  font-family: 'Noto Serif SC', serif;
   font-size: 22px;
-  font-weight: 600;
-  color: var(--ink);
+  font-weight: 700;
+  color: var(--ip-on-surface);
   letter-spacing: 0.15em;
   margin-bottom: 0.3rem;
 }
 .ho-ft-yrs {
   font-size: 11px;
-  color: var(--tx3);
-  font-family: 'Courier New', monospace;
+  color: var(--ip-outline);
+  font-family: 'JetBrains Mono', 'SF Mono', monospace;
   margin-bottom: 0.8rem;
 }
 .ho-tag-live {
   display: inline-block;
-  background: var(--gold);
-  color: var(--ink);
+  background: var(--ip-secondary-container);
+  color: var(--ip-on-surface);
   font-size: 10px;
   padding: 3px 10px;
   border-radius: 10px;
@@ -423,15 +447,15 @@
 }
 .ho-tag-soon {
   display: inline-block;
-  background: var(--bdr-l);
-  color: var(--tx3);
+  background: var(--ip-outline-variant);
+  color: var(--ip-outline);
   font-size: 10px;
   padding: 3px 10px;
   border-radius: 10px;
   letter-spacing: 0.1em;
 }
 
-/* About */
+/* ===== About ===== */
 .ho-ab-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -442,59 +466,143 @@
 }
 .ho-ab-poet {
   font-size: 11px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   letter-spacing: 0.25em;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
 }
 .ho-ab-t {
+  font-family: 'Noto Serif SC', serif;
   font-size: 16px;
   font-weight: 600;
-  color: var(--ink);
+  color: var(--ip-on-surface);
   margin-bottom: 0.5rem;
   letter-spacing: 0.05em;
 }
 .ho-ab-p {
   font-size: 13px;
-  color: var(--tx2);
+  color: var(--ip-on-surface-variant);
   line-height: 1.85;
   letter-spacing: 0.03em;
 }
 
-/* Footer */
+/* ===== Footer ===== */
 .ho-footer {
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--ip-inverse-surface);
+  color: var(--ip-surface);
   padding: 48px 24px 32px;
   text-align: center;
 }
 .ho-hf-brand {
-  /* logo-brand-md 接管字体/渐变，这里仅控制布局 */
+  font-family: 'Noto Serif SC', serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  background: linear-gradient(135deg, var(--ip-secondary-container) 0%, var(--ip-secondary) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   margin-bottom: 0.4rem;
 }
 .ho-hf-en {
   font-size: 10px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   letter-spacing: 0.4em;
   margin-bottom: 1rem;
 }
 .ho-hf-note {
   font-size: 12px;
-  color: var(--paper);
+  color: var(--ip-inverse-on-surface);
   opacity: 0.6;
   letter-spacing: 0.15em;
   margin-bottom: 1.5rem;
 }
 .ho-hf-copy {
   font-size: 10px;
-  color: var(--gold-m);
+  color: var(--ip-secondary);
   opacity: 0.55;
   letter-spacing: 0.1em;
 }
 
-/* 移动端：4 数字改 2x2，timeline 字号缩，COMING SOON 强制 2 列，CTA 按钮换行等宽 */
+/* ===== Final CTA ===== */
+.ho-cta {
+  background: linear-gradient(180deg, #1A1008 0%, #2A1810 100%);
+  color: var(--ip-surface);
+  padding: 72px 24px 80px;
+  text-align: center;
+}
+.ho-cta-bar {
+  width: 60px; height: 1px;
+  background: var(--ip-secondary-container);
+  opacity: 0.7;
+  margin: 0 auto 1.6rem;
+}
+.ho-cta-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 700;
+  color: var(--ip-secondary-container);
+  letter-spacing: 0.18em;
+  margin: 0 0 1rem;
+}
+.ho-cta-sub {
+  font-size: 12px;
+  color: var(--ip-secondary);
+  letter-spacing: 0.18em;
+  margin-bottom: 2.2rem;
+  opacity: 0.85;
+}
+.ho-cta-btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== 路线浏览入口卡 ===== */
+.ho-routes-entry {
+  max-width: 720px;
+  margin: 2.4rem auto 0;
+  padding: 0 8px;
+}
+.ho-routes-card {
+  display: block;
+  background: linear-gradient(135deg, var(--ip-inverse-surface) 0%, #2A1810 100%);
+  color: var(--ip-secondary-container);
+  padding: 18px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  border: 0.5px solid rgba(253,195,77,0.25);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.ho-routes-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(26,16,8,0.16);
+}
+.ho-routes-en {
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  color: var(--ip-secondary);
+  margin-bottom: 0.4rem;
+}
+.ho-routes-title {
+  font-family: 'Noto Serif SC', serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--ip-secondary-container);
+  margin-bottom: 0.4rem;
+}
+.ho-routes-sub {
+  font-size: 11px;
+  color: var(--ip-secondary);
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+/* ===== 移动端适配 ===== */
 @media (max-width: 640px) {
-  /* Section 整体收紧（紧凑化，减少手机滚动距离） */
   .ho-sec { padding: 44px 18px 36px; }
   .ho-sec-title { font-size: 22px; }
   .ho-sec-sub   { font-size: 12px; margin-bottom: 1rem; }
@@ -505,7 +613,6 @@
   .ho-tl-sname { font-size: 12px; }
   .ho-tl-ssub  { font-size: 10px; }
 
-  /* 代表性足迹（v6.1）：移动端强制 2x2 网格，卡片更紧凑 */
   .ho-pg-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.7rem;
@@ -519,7 +626,6 @@
   .ho-pl     { font-size: 11.5px; padding-left: 0.5rem; margin-bottom: 0.55rem; line-height: 1.5; }
   .ho-plink  { font-size: 11px; }
 
-  /* 问题 3：COMING SOON 4 卡片移动端 2x2 + 紧凑 */
   .ho-ft-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 0.6rem;
@@ -531,13 +637,12 @@
   .ho-ft-yrs  { font-size: 9.5px; margin-bottom: 0.45rem; }
   .ho-tag-live, .ho-tag-soon { font-size: 9px; padding: 2px 7px; }
 
-  /* ABOUT 移动端紧凑 */
   .ho-ab-grid { gap: 1.2rem; margin-top: 1rem; }
   .ho-ab-poet { font-size: 10px; margin-bottom: 0.3rem; }
   .ho-ab-t    { font-size: 14px; margin-bottom: 0.4rem; }
   .ho-ab-p    { font-size: 12px; line-height: 1.7; }
 
-  /* 问题 4：Final CTA 三按钮换行等宽对齐（Hero 两按钮保持并排） */
+  /* Final CTA 三按钮换行等宽 */
   .ho-cta-btns {
     flex-direction: column;
     align-items: stretch;
@@ -553,7 +658,7 @@
     padding: 14px 24px;
   }
 
-  /* Hero 两按钮（开始探索 + 了解一生）保持并排，但收紧字距/padding 适配窄屏 */
+  /* Hero 两按钮保持并排 */
   .ho-btns {
     gap: 0.7rem;
     justify-content: center;
@@ -565,288 +670,6 @@
     letter-spacing: 0.12em;
   }
 
-  /* Quote / Final CTA 紧凑 */
   .ho-qt   { padding: 44px 18px; }
   .ho-cta  { padding: 50px 18px 64px; }
-}
-
-/* ========== Final CTA ========== */
-.ho-cta {
-  background: linear-gradient(180deg, #1A1008 0%, #2A1810 100%);
-  color: var(--paper);
-  padding: 72px 24px 80px;
-  text-align: center;
-}
-.ho-cta-bar {
-  width: 60px; height: 1px;
-  background: var(--gold);
-  opacity: 0.7;
-  margin: 0 auto 1.6rem;
-}
-.ho-cta-title {
-  font-family: var(--font-serif);
-  font-size: clamp(26px, 5vw, 38px);
-  font-weight: 600;
-  color: var(--gold);
-  letter-spacing: 0.18em;
-  margin: 0 0 1rem;
-}
-.ho-cta-sub {
-  font-size: 12px;
-  color: var(--gold-m);
-  letter-spacing: 0.18em;
-  margin-bottom: 2.2rem;
-  opacity: 0.85;
-}
-.ho-cta-btns {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* ========== 路线浏览入口卡 ========== */
-.ho-routes-entry {
-  max-width: 720px;
-  margin: 2.4rem auto 0;
-  padding: 0 8px;
-}
-.ho-routes-card {
-  display: block;
-  background: linear-gradient(135deg, var(--ink) 0%, #2A1810 100%);
-  color: var(--gold);
-  padding: 18px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  text-align: center;
-  border: 0.5px solid rgba(250,199,117,0.25);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.ho-routes-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(26,16,8,0.16);
-}
-.ho-routes-en {
-  font-size: 9px;
-  letter-spacing: 0.35em;
-  color: var(--gold-m);
-  margin-bottom: 0.4rem;
-}
-.ho-routes-title {
-  font-size: 17px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  color: var(--gold);
-  margin-bottom: 0.4rem;
-}
-.ho-routes-sub {
-  font-size: 11px;
-  color: var(--gold-m);
-  letter-spacing: 0.04em;
-  opacity: 0.85;
-}
-
-/* ========== 诗词浏览入口卡 ========== */
-.ho-poems-entry {
-  max-width: 720px;
-  margin: 1rem auto 0;
-  padding: 0 8px;
-}
-.ho-poems-card {
-  display: block;
-  background: var(--card);
-  color: var(--tx);
-  padding: 16px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  text-align: center;
-  border: 0.5px solid var(--bdr);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.ho-poems-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(26,16,8,0.08);
-}
-.ho-poems-en {
-  font-size: 9px;
-  letter-spacing: 0.35em;
-  color: var(--gold);
-  margin-bottom: 0.4rem;
-}
-.ho-poems-title {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  color: var(--ink);
-  margin-bottom: 0.4rem;
-}
-.ho-poems-sub {
-  font-size: 11px;
-  color: var(--tx2);
-  letter-spacing: 0.04em;
-}
-
-/* ============================================================
- * v1.1 stitch 视觉装饰层（2026-06-05）
- * 仅在 .ho-root--stitch 下生效，老代码 0 影响
- * 借鉴 stitch 设计稿：朱砂印章 + 玻璃质感 + 金边戳记 + 纸张微纹
- * ============================================================ */
-
-/* —— S1. 全页微纸纹（parchment overlay，opacity 0.045） —— */
-.ho-root--stitch {
-  position: relative;
-}
-.ho-root--stitch::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.045;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.45  0 0 0 0 0.32  0 0 0 0 0.22  0 0 0 0.6 0'/></filter><rect width='220' height='220' filter='url(%23n)'/></svg>");
-  background-size: 220px 220px;
-  mix-blend-mode: multiply;
-}
-.ho-root--stitch > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* —— S2. Hero 右上角朱砂印章（4cm 戳记感） —— */
-.ho-root--stitch .ho-hero {
-  position: relative;
-}
-.ho-root--stitch .ho-hero::after {
-  content: '行吟';
-  position: absolute;
-  top: 28px;
-  right: 22px;
-  width: 56px;
-  height: 56px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-wenkai, 'LXGW WenKai', serif);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  color: rgba(254, 248, 246, 0.92);
-  background: var(--stitch-cinnabar, #ba1a1a);
-  border-radius: 6px;
-  box-shadow:
-    0 0 0 1.5px rgba(254, 248, 246, 0.4) inset,
-    0 0 0 2.5px rgba(186, 26, 26, 0.85) inset,
-    0 6px 18px rgba(186, 26, 26, 0.28);
-  transform: rotate(-8deg);
-  opacity: 0.88;
-  pointer-events: none;
-}
-@media (max-width: 640px) {
-  .ho-root--stitch .ho-hero::after {
-    top: 18px;
-    right: 14px;
-    width: 44px;
-    height: 44px;
-    font-size: 11px;
-  }
-}
-
-/* —— S3. 代表足迹 4 卡：金边顶 + 微玻璃感 —— */
-.ho-root--stitch .ho-pgcard {
-  position: relative;
-  background: rgba(254, 248, 246, 0.55);
-  -webkit-backdrop-filter: blur(6px) saturate(120%);
-  backdrop-filter: blur(6px) saturate(120%);
-  border-color: rgba(128, 117, 110, 0.16);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-}
-.ho-root--stitch .ho-pgcard::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 14px;
-  right: 14px;
-  height: 1.5px;
-  background: linear-gradient(90deg,
-    rgba(253, 195, 77, 0) 0%,
-    rgba(253, 195, 77, 0.85) 35%,
-    rgba(253, 195, 77, 0.85) 65%,
-    rgba(253, 195, 77, 0) 100%);
-  border-radius: 1px;
-  pointer-events: none;
-}
-.ho-root--stitch .ho-pgcard:hover {
-  transform: translateY(-3px);
-  border-color: rgba(186, 26, 26, 0.28);
-  box-shadow:
-    0 10px 32px rgba(29, 27, 26, 0.10),
-    0 0 0 0.5px rgba(253, 195, 77, 0.25);
-}
-
-/* —— S4. 主 CTA 按钮：印章感深色 + 朱砂高光 —— */
-.ho-root--stitch .ho-btn-p {
-  position: relative;
-  box-shadow:
-    0 0 0 1px rgba(253, 195, 77, 0.22) inset,
-    0 4px 14px rgba(26, 16, 8, 0.22);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-.ho-root--stitch .ho-btn-p:hover {
-  transform: translateY(-1px);
-  box-shadow:
-    0 0 0 1px rgba(253, 195, 77, 0.45) inset,
-    0 6px 18px rgba(186, 26, 26, 0.22),
-    0 4px 14px rgba(26, 16, 8, 0.28);
-}
-
-/* —— S5. 引言「此心安处是吾乡」加左侧朱砂装饰条 —— */
-.ho-root--stitch .ho-qt {
-  position: relative;
-}
-.ho-root--stitch .ho-qt::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 1px;
-  height: 60%;
-  background: linear-gradient(180deg,
-    rgba(186, 26, 26, 0) 0%,
-    rgba(186, 26, 26, 0.18) 30%,
-    rgba(186, 26, 26, 0.32) 50%,
-    rgba(186, 26, 26, 0.18) 70%,
-    rgba(186, 26, 26, 0) 100%);
-  pointer-events: none;
-}
-
-/* —— S6. section 英文小标 (.ho-sec-lbl / .ho-en) 加微暗金渐变 —— */
-.ho-root--stitch .ho-sec-lbl,
-.ho-root--stitch .ho-en {
-  background: linear-gradient(90deg,
-    var(--stitch-bronze-dark, #7b5800) 0%,
-    var(--stitch-bronze, #fdc34d) 50%,
-    var(--stitch-bronze-dark, #7b5800) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-}
-
-/* —— S7. Final CTA 按钮组玻璃质感 —— */
-.ho-root--stitch .ho-cta-btn-p,
-.ho-root--stitch .ho-cta-btn-s {
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
-}
-.ho-root--stitch .ho-cta-btn-p:hover,
-.ho-root--stitch .ho-cta-btn-s:hover {
-  transform: translateY(-1px);
-}
-
-/* —— S8. 一生轨迹时间轴节点：黄州/南贬等关键阶段微朱砂高光 —— */
-.ho-root--stitch .ho-tl-stage[data-stage='黄州东坡'] .ho-tl-dot,
-.ho-root--stitch .ho-tl-stage[data-stage='惠儋·南贬'] .ho-tl-dot {
-  box-shadow: 0 0 0 2px rgba(186, 26, 26, 0.28), 0 0 12px rgba(186, 26, 26, 0.35);
 }

@@ -3,20 +3,34 @@
   "ancient_name": "襄阳",
   "modern_name": "湖北襄阳",
   "type": "main",
-  "lat": 32.0086,
-  "lng": 112.1265,
+  "lat": 32.010161,
+  "lng": 112.121743,
   "related_routes": [
     "R03"
   ],
   "summary": "",
-  "background": "荆襄古郡，三国文化核心地，\n古隆中为千古人文名胜。",
+  "background": "襄阳即今湖北襄阳，荆襄古郡。汉水穿城、古隆中在望，是三国文化核心地，也是南北交通的枢纽。",
   "tags": [
     "main",
     "visit"
   ],
   "periods": [],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p187-001",
+      "date": "1061年",
+      "title": "经襄阳入关中道",
+      "description": "苏轼经襄阳沿汉水北上入关中",
+      "significance": "南北通衢"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "襄阳怀古",
+      "type": "诗",
+      "description": "苏轼经襄阳岘山怀古之作"
+    }
+  ],
   "route_events": {
     "R03": {
       "duration": "1060年 北上途经游览",
@@ -32,10 +46,40 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "襄阳古城",
+      "description": "汉水中游重镇，三国古战场",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "襄阳牛肉面",
+      "description": "襄阳传统早餐，碱面配牛肉牛杂，麻辣鲜香"
+    },
+    {
+      "name": "襄阳黄酒",
+      "description": "襄阳传统米酒，微甜爽口"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "襄阳居所",
+      "ancient_name": "襄阳居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在襄阳的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.010161,
+      "lng": 112.121743,
+      "modern_address": "襄城区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS138",
     "pinyin_id": null,
@@ -92,5 +136,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:15.000Z"
+  "amap_updated_at": "2026-06-03T05:16:15.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "襄城区"
 }

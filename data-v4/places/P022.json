@@ -3,13 +3,13 @@
   "ancient_name": "成都青羊宫",
   "modern_name": "四川成都青羊宫",
   "type": "around",
-  "lat": 30.6664,
-  "lng": 104.0466,
+  "lat": 30.669,
+  "lng": 104.062,
   "related_routes": [
     "R00"
   ],
   "summary": "三苏出蜀途经成都，拜访亲友",
-  "background": "成都是四川首府，三苏从眉州出蜀必经过成都",
+  "background": "成都青羊宫，蜀中道教名观。苏轼游成都时常访青羊宫，道家的清静无为与蜀地的闲适生活相融。",
   "tags": [
     "游历地",
     "途经"
@@ -36,6 +36,13 @@
       "description": "苏轼赴京途中停留成都",
       "significance": "route01",
       "id": "p022-002"
+    },
+    {
+      "id": "p022-003",
+      "date": "1055年",
+      "title": "游青羊宫",
+      "description": "苏轼游成都青羊宫，观道家胜景",
+      "significance": "道教文化"
     }
   ],
   "global_works": [],
@@ -73,17 +80,63 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组"
+    },
+    {
+      "name": "青羊宫",
+      "description": "成都最古老道观，苏轼或曾到访",
+      "type": "古迹"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "青羊宫素斋",
+      "description": "青羊宫道观素斋，清雅素净，苏轼游青羊宫或品尝"
+    },
+    {
+      "name": "成都龙抄手",
+      "description": "成都名小吃，皮薄馅嫩，汤鲜味美"
+    }
+  ],
   "transport": {
     "train": "成都站 / 成都东站",
     "bus": "成都新南门汽车站",
     "car": "成渝高速 / 京昆高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "赤壁矶",
+      "ancient_name": "赤壁矶",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在成都青羊宫的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "三苏纪念馆",
+      "ancient_name": "三苏纪念馆",
+      "type": "museum",
+      "period": "",
+      "description": "展示三苏生平",
+      "works": [],
+      "importance": "secondary",
+      "lat": 30.3594,
+      "lng": 104.024638,
+      "modern_address": "煎茶镇沿溪村3组",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS004",
     "pinyin_id": "chengdu",
@@ -133,5 +186,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:13.000Z"
+  "amap_updated_at": "2026-06-03T05:14:13.000Z",
+  "coordinate_source": "manual_corrected",
+  "sxzk_address": "煎茶镇沿溪村3组"
 }

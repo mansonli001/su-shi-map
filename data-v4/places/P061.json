@@ -6,7 +6,7 @@
   "related_routes": [
     "R16"
   ],
-  "background": "淮河下游巨浸，古驿渡口林立，为淮东水陆要冲。",
+  "background": "洪泽湖，淮河下游大湖。苏轼途经洪泽湖，烟波浩渺、水天一色，'洪泽'之名源于其壮阔无际。",
   "extended_story": "途经洪泽湖古渡驻足，观湖烟苍茫、古渡清幽，\n凭栏怀古、心境淡远。",
   "essence": "淮东行旅标志性湖渡节点",
   "tags": [
@@ -73,5 +73,42 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:46.000Z"
+  "amap_updated_at": "2026-06-03T05:14:46.000Z",
+  "lat": 33.266292,
+  "lng": 118.718857,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "洪泽区",
+  "sub_places": [
+    {
+      "name": "洪泽湖附近驿馆",
+      "ancient_name": "洪泽湖附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在洪泽湖的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.266292,
+      "lng": 118.718857,
+      "modern_address": "洪泽区",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p061-001",
+      "date": "1091年",
+      "title": "经洪泽湖赴颍州",
+      "description": "苏轼赴颍州任途经洪泽湖",
+      "significance": "赴任途经"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "洪泽",
+      "type": "诗",
+      "note": "经洪泽湖所作",
+      "year_estimate": 1084
+    }
+  ]
 }

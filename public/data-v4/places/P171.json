@@ -3,15 +3,15 @@
   "ancient_name": "潼关",
   "modern_name": "陕西潼关",
   "type": "main",
-  "lat": 34.5418,
-  "lng": 110.2391,
+  "lat": 34.544294,
+  "lng": 110.246105,
   "related_routes": [
     "R01",
     "R03",
     "R04"
   ],
   "summary": "",
-  "background": "黄河渭水交汇要塞，天下险关、渡口重镇。",
+  "background": "潼关即今陕西潼关，黄河渭水交汇要塞。天下险关、渡口重镇，苏轼进京经此渡河，黄河浊浪、关城巍峨，是关中与中原的分界。",
   "tags": [
     "main",
     "visit"
@@ -24,8 +24,29 @@
       "narrative": "苏轼父子从渑池继续东行，途经郑州。这是苏轼第一次踏足中原大地，心中既兴奋又紧张。在郑州驿站，他遇到一位从开封回来的四川同乡，得知『开封城比成都大十倍』，既兴奋又惶恐。"
     }
   ],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "p171-001",
+      "date": "1056年",
+      "title": "首次出潼关",
+      "description": "苏轼首次经潼关出关中，入中原赴京",
+      "significance": "出关中门户"
+    },
+    {
+      "id": "p171-002",
+      "date": "1061年",
+      "title": "再经潼关",
+      "description": "苏轼赴凤翔任经潼关入关中",
+      "significance": "入关中"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "潼关次韵",
+      "type": "诗",
+      "description": "苏轼经潼关所作"
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年观黄河天险",
@@ -65,10 +86,41 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "潼关古城遗址",
+      "description": "关中门户，苏轼多次出入",
+      "type": "古迹"
+    },
+    {
+      "name": "潼关古城",
+      "description": "关中门户，苏轼进京出蜀必经",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "潼关肉夹馍",
+      "description": "潼关名吃，千层酥馍夹腊汁肉，酥脆鲜香"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "潼关居所",
+      "ancient_name": "潼关居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在潼关的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.544294,
+      "lng": 110.246105,
+      "modern_address": "潼关县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS011",
     "pinyin_id": null,
@@ -125,5 +177,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:04.000Z"
+  "amap_updated_at": "2026-06-03T05:16:04.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "潼关县"
 }

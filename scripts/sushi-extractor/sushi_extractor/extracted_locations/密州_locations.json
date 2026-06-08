@@ -1,0 +1,48 @@
+[
+  {
+    "location_id": "P036",
+    "location_name": "密州",
+    "modern_name": "密州苏轼相关景点",
+    "modern_address": "密州行政區域地圖。",
+    "province": "山东省",
+    "city": "密州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1057,
+    "visit_period": "知州时期",
+    "stay_duration": "",
+    "su_works": [
+      "六客詩序",
+      "太倉稊米集‧富川同僚記序",
+      "山谷外集‧薄薄酒二章并序",
+      "送錢藻州詩序",
+      "密州請皋長老疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "德州扒鸡",
+      "保店驴肉"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "为官地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "西湖",
+      "南山",
+      "北海",
+      "山山",
+      "泉亭"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

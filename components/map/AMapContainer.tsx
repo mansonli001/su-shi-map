@@ -186,10 +186,9 @@ export default function AMapContainer() {
     logger.debug('路线缓存构建完成（v3 兜底）:', routePoints.length, '点');
   }, [places]);
 
-  // ── Effect 4: 绘制路线 v6（设计稿 §2.2 规范） ──────
-  // overview          : 3px / 各路线专属色 / opacity 0.80 / dashed
-  // selected single   : 5px / 专属色      / opacity 1.00 / dashed + 方向箭头
-  // unselected single : 2px / #E0E0E0    / opacity 0.50 / dashed
+  // ── Effect 4: 绘制路线 v7（手绘情感路线 · 设计稿 §2.3 规范） ──────
+  // 颜色逻辑：绿（少年）→ 蓝（仕途）→ 珊瑚（黄州）→ 琥珀（元祐）→ 深红（南贬）→ 灰（归途）
+  // 贬谪路线加粗加深，水路密点线区分，总览也手绘化
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !(window as any).AMap || !isMapReady) return;
@@ -210,7 +209,36 @@ export default function AMapContainer() {
     const AMapLocal = (window as any).AMap;
     const allRouteIds = ROUTE19_IDS.filter((id) => id !== 'overview');
 
-    // ─── 总览模式：3px / 专属色 / 0.80 ──────────────
+    // 路线风格配置：按 stage_id 决定粗细和风格
+    // 贬谪路线（S3黄州、S5南贬）加粗加深，情感最重
+    const EXILE_ROUTES = new Set(['R10', 'R11', 'R18']);
+    const RETURN_ROUTE = 'R19'; // 归途
+
+    function getRouteStyle(routeId: string, isOverview: boolean) {
+      const isExile = EXILE_ROUTES.has(routeId);
+      const isReturn = routeId === RETURN_ROUTE;
+
+      if (isOverview) {
+        return {
+          strokeWeight: isExile ? 3.5 : 2,
+          strokeOpacity: isExile ? 0.85 : 0.72,
+          strokeDasharray: isReturn ? [3, 4] : [7, 5],  // 归途用密点线
+          showDir: true,
+          handDrawnStyle: isExile ? 'heavy' : 'light' as 'heavy' | 'light',
+        };
+      } else {
+        // 单路线模式
+        return {
+          strokeWeight: isExile ? 4 : 3,
+          strokeOpacity: isExile ? 0.95 : 0.88,
+          strokeDasharray: isReturn ? [3, 4] : [9, 6],  // 归途用密点线
+          showDir: true,
+          handDrawnStyle: isExile ? 'heavy' : 'medium' as 'heavy' | 'medium',
+        };
+      }
+    }
+
+    // ─── 总览模式：手绘化 + 情感粗细 + 方向箭头 ──────────────
     if (currentRoute === 'overview' || currentRoute === null) {
       allRouteIds.forEach((routeId: string) => {
         const config = ROUTE19_CONFIG[routeId];
@@ -218,18 +246,23 @@ export default function AMapContainer() {
         const points = getRoute19Points(routeId);
         if (points.length < 2) return;
 
-        const path = points.map((p) => [p.lng, p.lat] as [number, number]);
+        const style = getRouteStyle(routeId, true);
+
+        // 手绘化路径
+        const pathPoints = points.map((p) => ({ lng: p.lng, lat: p.lat }));
+        const path = makeHandDrawnPath(pathPoints, style.handDrawnStyle);
 
         const polyline = new AMapLocal.Polyline({
           path,
           strokeColor: config.mainColor || '#888',
-          strokeOpacity: 0.72,
-          strokeWeight: 2,
+          strokeOpacity: style.strokeOpacity,
+          strokeWeight: style.strokeWeight,
           strokeStyle: 'dashed',
-          strokeDasharray: [7, 5],
+          strokeDasharray: style.strokeDasharray,
+          showDir: style.showDir,
           lineJoin: 'round',
           lineCap: 'round',
-          zIndex: 50,
+          zIndex: EXILE_ROUTES.has(routeId) ? 60 : 50,
         });
         polyline.setMap(map);
 
@@ -245,23 +278,26 @@ export default function AMapContainer() {
       return;
     }
 
-    // ─── 单路线模式：只画选中那条，其他完全不画 ────────
+    // ─── 单路线模式：手绘平滑 + 情感粗细 + 方向箭头 ────────
     const config = ROUTE19_CONFIG[currentRoute as string];
     const points = getRoute19Points(currentRoute as string);
     if (!config) return;
     if (points.length < 2) return;
 
-    // 选中：手绘平滑 + 5px + 100% + 方向箭头
+    const style = getRouteStyle(currentRoute as string, false);
+
+    // 手绘化路径
     const pathPoints = points.map((p) => ({ lng: p.lng, lat: p.lat }));
-    const path = makeHandDrawnPath(pathPoints, 'medium');
+    const path = makeHandDrawnPath(pathPoints, style.handDrawnStyle);
+
     const polyline = new AMapLocal.Polyline({
       path,
       strokeColor: config.mainColor || '#BA7517',
-      strokeOpacity: 0.88,
-      strokeWeight: 3,
+      strokeOpacity: style.strokeOpacity,
+      strokeWeight: style.strokeWeight,
       strokeStyle: 'dashed',
-      strokeDasharray: [9, 6],
-      showDir: true,
+      strokeDasharray: style.strokeDasharray,
+      showDir: style.showDir,
       lineJoin: 'round',
       lineCap: 'round',
       zIndex: 200,
@@ -270,7 +306,7 @@ export default function AMapContainer() {
     routeOverlaysRef.current[currentRoute as string] = { polyline };
 
     map.setFitView([polyline], false, [80, 80, 80, 80], 12);
-    logger.debug('单路线绘制完成（仅选中）:', currentRoute, points.length, '→', path.length);
+    logger.debug('单路线绘制完成（手绘情感路线）:', currentRoute, points.length, '→', path.length);
   }, [currentRoute, isMapReady, places]);
 
   // ── Effect 5: zoom 动态缩放 marker（用 --su-scale 不覆盖 hover/selected） ──
@@ -309,8 +345,8 @@ export default function AMapContainer() {
     };
   }, [isMapReady, places]);
 
-  // ── Effect 6: Stage / Route 过滤标记 ──────────────
-  // 单路线模式：只显示该路线 marker，其他完全隐藏（不再走弱化）
+  // ── Effect 6: Stage / Route 过滤标记（带淡入淡出动画） ──────────────
+  // 单路线模式：只显示该路线 marker，其他淡出隐藏
   // currentStage 过滤仍生效
   useEffect(() => {
     if (!markersRef.current || !markersRef.current.length) return;
@@ -322,24 +358,45 @@ export default function AMapContainer() {
 
     markersRef.current.forEach((m: any) => {
       const place: PlaceCore = m.getExtData();
+      const el = m.getContent?.();
+
       // 阶段过滤
       if (currentStage && place.stage !== currentStage) {
-        m.setMap(null);
+        if (el instanceof HTMLElement) {
+          el.style.transition = 'opacity 0.3s ease-out';
+          el.style.opacity = '0';
+          setTimeout(() => m.setMap(null), 300);
+        } else {
+          m.setMap(null);
+        }
         return;
       }
-      // 单路线过滤：非该路线点位 → 完全隐藏
-      // 用 relatedRoutes 数组判断（一个 place 可能挂多条路线）
+      // 单路线过滤：非该路线点位 → 淡出隐藏
       if (isSingleRoute) {
         const rels = (place as any).relatedRoutes as string[] | undefined;
         const onRoute =
           (rels && rels.includes(currentRoute as string)) ||
           place.routeId === currentRoute;
         if (!onRoute) {
-          m.setMap(null);
+          if (el instanceof HTMLElement) {
+            el.style.transition = 'opacity 0.3s ease-out';
+            el.style.opacity = '0';
+            setTimeout(() => m.setMap(null), 300);
+          } else {
+            m.setMap(null);
+          }
           return;
         }
       }
+      // 显示：先设map再淡入
       m.setMap(map);
+      if (el instanceof HTMLElement) {
+        el.style.transition = 'opacity 0.3s ease-out';
+        el.style.opacity = '0';
+        requestAnimationFrame(() => {
+          el.style.opacity = '1';
+        });
+      }
     });
   }, [currentStage, currentRoute, isMapReady]);
 

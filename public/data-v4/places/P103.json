@@ -3,13 +3,13 @@
   "ancient_name": "灵隐寺",
   "modern_name": "浙江杭州灵隐寺",
   "type": "around",
-  "lat": 30.244,
-  "lng": 120.0982,
+  "lat": 30.240826,
+  "lng": 120.101406,
   "related_routes": [
     "R06"
   ],
   "summary": "",
-  "background": "",
+  "background": "灵隐寺，杭州名刹。苏轼通判杭州时常游灵隐，'灵隐前唐后晋间'的千年古刹，飞来峰下、冷泉亭畔。",
   "tags": [],
   "periods": [
     {
@@ -39,13 +39,45 @@
       "id": "p103-evt-002"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "题灵隐寺",
+      "type": "诗",
+      "description": "苏轼游杭州灵隐寺所作"
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "灵隐寺",
+      "description": "杭州名刹，苏轼常游之地",
+      "type": "寺院"
+    }
+  ],
+  "foods": [
+    {
+      "name": "灵隐素面",
+      "description": "灵隐寺素斋名点，清鲜素雅"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "灵隐寺附近驿馆",
+      "ancient_name": "灵隐寺附近驿馆",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在灵隐寺的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 30.240826,
+      "lng": 120.101406,
+      "modern_address": "法云弄1号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS015",
     "pinyin_id": null,
@@ -95,5 +127,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:16.000Z"
+  "amap_updated_at": "2026-06-03T05:15:16.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "法云弄1号"
 }

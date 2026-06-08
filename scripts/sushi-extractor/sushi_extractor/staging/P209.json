@@ -1,0 +1,61 @@
+{
+  "place_id": "P209",
+  "ancient_name": "颍州西湖",
+  "modern_name": "安徽阜阳颍州西湖",
+  "city": "安徽阜阳颍州西湖市",
+  "processed_at": "2026-06-07T23:22:38.094537",
+  "main_coords": {
+    "name": "宣州官署",
+    "lat": 32.883322,
+    "lng": 115.806916,
+    "modern_address": "安徽省阜阳市颍州区",
+    "coordinate_source": "amap_geocode",
+    "reason": "宣州官署为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "宣州官署",
+      "ancient_name": "宣州官署",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在颍州西湖的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "西湖",
+      "ancient_name": "西湖",
+      "type": "湖泊",
+      "period": "",
+      "description": "欧阳修退隐颍州，常游西湖",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.883322,
+      "lng": 115.806916,
+      "modern_address": "安徽省阜阳市颍州区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P209",
+    "ancient_name": "颍州西湖",
+    "city": "安徽阜阳颍州西湖市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "颍州西湖附近驿馆",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0",
+    "data_quality_note": "居住地为推断，需进一步验证"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:24.396721"
+}

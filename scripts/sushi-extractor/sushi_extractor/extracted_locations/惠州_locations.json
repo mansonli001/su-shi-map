@@ -1,0 +1,49 @@
+[
+  {
+    "location_id": "P433",
+    "location_name": "惠州",
+    "modern_name": "惠州苏轼相关景点",
+    "modern_address": "惠州行政區域圖 。",
+    "province": "广东省",
+    "city": "惠州",
+    "district": "",
+    "coord_quality": "precise",
+    "visit_year": 1074,
+    "visit_period": "贬谪时期",
+    "stay_duration": "",
+    "su_works": [
+      "蘭亭序",
+      "跋沈智甫所藏東坡帖",
+      "晚香堂蘇帖",
+      "晚香堂書帖",
+      "和陶詠二疏",
+      "惠州薦朝雲疏"
+    ],
+    "su_quote": "",
+    "author_note": "",
+    "current_status": "有遗址可参观",
+    "has_memorial": true,
+    "has_photo_in_book": true,
+    "photo_count": 0,
+    "photo_captions": [],
+    "local_foods": [
+      "梅菜扣肉",
+      "酿豆腐",
+      "盐焗鸡",
+      "东江菜"
+    ],
+    "su_foods": [],
+    "cultural_tags": [
+      "谪居地",
+      "创作地"
+    ],
+    "nearby_sites": [
+      "江山",
+      "湖亭",
+      "山寺"
+    ],
+    "source": "李常生《苏轼行踪考》",
+    "visited_by_author": 2018,
+    "data_quality": "A"
+  }
+]

@@ -9,7 +9,7 @@
     "R19"
   ],
   "summary": "苏轼拜访王安石于金陵",
-  "background": "金陵即今南京，苏轼元丰七年量移汝州途中拜访退隐的王安石",
+  "background": "金陵钟山半山园，王安石退隐居所。苏轼专程拜访，两位昔日的政坛对手在山中对饮论诗，是北宋文人最旷达的相逢。",
   "tags": [
     "金陵",
     "江宁",
@@ -105,17 +105,101 @@
       "photos": [],
       "url": "",
       "rating": "",
-      "distance": ""
+      "distance": "",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市"
     }
   ],
-  "foods": [],
+  "foods": [
+    {
+      "name": "南京盐水鸭",
+      "description": "南京名菜",
+      "origin_story": "金陵传统名菜",
+      "tag": "金陵必吃"
+    }
+  ],
   "transport": {
     "train": "南京站 / 南京南站",
     "bus": "南京汽车站",
     "car": "沪宁高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "金陵钟山州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在金陵钟山的居所",
+      "importance": "primary",
+      "ancient_name": "金陵钟山州衙",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "原址不可考，使用金陵钟山中心坐标作为参考"
+    },
+    {
+      "name": "金陵/江宁",
+      "ancient_name": "金陵/江宁",
+      "type": "scenic",
+      "period": "元丰七年（1084年）",
+      "description": "创作《泊船瓜洲》处",
+      "works": [
+        "泊船瓜洲"
+      ],
+      "importance": "secondary",
+      "lat": 31.903949,
+      "lng": 118.899789,
+      "modern_address": "弘景大道99号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "钟山",
+      "ancient_name": "钟山",
+      "type": "mountain",
+      "period": "",
+      "description": "钟山即紫金山",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "玄武区",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "清凉寺",
+      "ancient_name": "清凉寺",
+      "type": "temple",
+      "period": "",
+      "description": "苏轼曾游清凉寺",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.059344,
+      "lng": 118.796624,
+      "modern_address": "江苏省南京市",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "谪",
+      "ancient_name": "谪",
+      "type": "office",
+      "period": "1084",
+      "description": "从金陵访王安石·冰释前嫌中提取",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.076954,
+      "lng": 118.848444,
+      "modern_address": "",
+      "coordinate_source": "inferred_from_parent",
+      "verification_status": "historical",
+      "note": "精确位置待考证"
+    }
+  ],
   "legacy": {
     "ss_id": "SS031",
     "pinyin_id": "jinling",
@@ -128,7 +212,7 @@
   "essence": "人生收官怀古第一名山",
   "last_updated": "2026-06-01T10:22:05.268Z",
   "schema_version": "v4.1",
-  "coordinate_source": "amap_corrected",
+  "coordinate_source": "original",
   "amap_address": "江苏省南京市玄武区钟山",
   "coords_updated_at": "2026-06-01T10:17:04.317Z",
   "duration_summary": {
@@ -177,5 +261,6 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:08.000Z"
+  "amap_updated_at": "2026-06-03T05:15:08.000Z",
+  "sxzk_address": "石象路7号"
 }

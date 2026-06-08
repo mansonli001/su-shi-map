@@ -6,7 +6,7 @@
   "related_routes": [
     "R17"
   ],
-  "background": "春秋战国中山国故都，两汉藩王封邑，\n古迹遗存遍布，文脉厚重、古意绵长，\n是河北平原最具王侯底蕴的人文古址。",
+  "background": "镇江金山寺，临江而立的千年古刹。苏轼南下杭州途经镇江，登金山望长江，江天一色、梵音入耳。",
   "extended_story": "闲暇寻访中山故都遗迹，凭吊古国兴衰、藩王往事，\n观残垣古址、感岁月湮没，\n借古史映照当下朝堂翻覆、自身外放飘零，\n怀古而不伤、沉郁而不悲，尽显中年通透。",
   "essence": "北地王侯文脉核心地标、苏轼咏史创作重地",
   "tags": [
@@ -257,9 +257,76 @@
       "description": "苏轼在定州整顿军纪",
       "significance": "route17",
       "id": "p039-026"
+    },
+    {
+      "id": "p039-027",
+      "date": "1093年",
+      "title": "知定州整军纪",
+      "description": "苏轼知定州整顿军纪、修缮营房",
+      "significance": "治军"
     }
   ],
-  "lat": 38.516746,
-  "lng": 114.990321,
-  "_latlng_source": "geocode"
+  "lat": 38.513739,
+  "lng": 115.004721,
+  "coordinate_source": "amap_poi",
+  "sxzk_address": "河北省保定市定州市南城区兴华东路",
+  "sub_places": [
+    {
+      "name": "定州州衙",
+      "ancient_name": "定州州衙",
+      "type": "residence",
+      "period": "1093-1094年",
+      "description": "苏轼任定州知州时的居所和办公地",
+      "works": [],
+      "importance": "primary",
+      "lat": 38.513739,
+      "lng": 115.004721,
+      "modern_address": "河北省保定市定州市南城区兴华东路（定州署）",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "中山故都",
+      "ancient_name": "中山故都",
+      "type": "scenic",
+      "period": "1093-1094年",
+      "description": "苏轼寻访中山故都遗迹，凭吊古国兴衰",
+      "works": [],
+      "importance": "secondary",
+      "lat": 38.513739,
+      "lng": 115.004721,
+      "modern_address": "河北省保定市定州市",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified",
+      "note": "中山故都遗址在定州市区附近"
+    }
+  ],
+  "foods": [
+    {
+      "name": "定州焖子",
+      "description": "定州传统名吃，淀粉肉冻切片拌蒜汁",
+      "origin_story": "定州地方传统美食",
+      "tag": "定州必吃"
+    },
+    {
+      "name": "驴肉火烧",
+      "description": "河北名吃，酥脆火烧夹卤驴肉",
+      "origin_story": "河北传统美食",
+      "tag": "定州特色"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "定州开元寺塔",
+      "description": "中国最高砖塔，苏轼知定州时曾登临",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "定州中山怀古",
+      "type": "诗",
+      "description": ""
+    }
+  ]
 }

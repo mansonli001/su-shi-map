@@ -1,0 +1,60 @@
+{
+  "place_id": "P159",
+  "ancient_name": "泗州",
+  "modern_name": "江苏盱眙",
+  "city": "江苏盱眙市",
+  "processed_at": "2026-06-07T23:22:36.777492",
+  "main_coords": {
+    "name": "太平州衙",
+    "lat": 33.011905,
+    "lng": 118.544545,
+    "modern_address": "江苏省淮安市盱眙县",
+    "coordinate_source": "amap_geocode",
+    "reason": "太平州衙为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "太平州衙",
+      "ancient_name": "太平州衙",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在泗州的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "modern_address": "江苏省淮安市盱眙县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "泗州城遗址",
+      "ancient_name": "泗州城遗址",
+      "type": "遗址",
+      "period": "",
+      "description": "淹没于洪泽湖下的千年古城",
+      "works": [],
+      "importance": "secondary",
+      "lat": 33.011905,
+      "lng": 118.544545,
+      "modern_address": "江苏省淮安市盱眙县",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P159",
+    "ancient_name": "泗州",
+    "city": "江苏盱眙市",
+    "total_sub_places": 1,
+    "verified_count": 2,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "no_coords_count": 0,
+    "main_coords_source": "泗州官署",
+    "rejected_details": [],
+    "methodology": "sxzk-gps-methodology v1.0"
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:24:23.700343"
+}

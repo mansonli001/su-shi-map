@@ -3,13 +3,13 @@
   "ancient_name": "青神",
   "modern_name": "四川青神",
   "type": "main",
-  "lat": 29.8323,
-  "lng": 103.8475,
+  "lat": 29.831302,
+  "lng": 103.846596,
   "related_routes": [
     "R00"
   ],
   "summary": "",
-  "background": "",
+  "background": "青神，苏轼夫人王弗的故乡。苏轼少年时游青神，中岩寺读书、与王弗结缘，'十年生死两茫茫'的深情源于此。",
   "tags": [],
   "periods": [
     {
@@ -27,13 +27,49 @@
       "id": "p138-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "江城子·密州出猎",
+      "type": "词",
+      "description": "苏轼忆青神岳家往事，'老夫聊发少年狂'"
+    }
+  ],
   "route_events": {},
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "中岩寺",
+      "description": "苏轼与王弗结缘之地，'唤鱼池'传为佳话",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "青神竹编",
+      "description": "青神传统工艺，竹编精细，苏轼妻王弗家乡"
+    },
+    {
+      "name": "青神江团鱼",
+      "description": "青神岷江名鱼，肉质细嫩，苏轼少年或品此味"
+    }
+  ],
   "transport": {},
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "青神居所",
+      "ancient_name": "青神居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在青神的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.831302,
+      "lng": 103.846596,
+      "modern_address": "青神县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": "SS003",
     "pinyin_id": null,
@@ -83,5 +119,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:42.000Z"
+  "amap_updated_at": "2026-06-03T05:15:42.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "青神县"
 }

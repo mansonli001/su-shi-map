@@ -3,20 +3,28 @@
   "ancient_name": "南雄",
   "modern_name": "广东南雄",
   "type": "main",
-  "lat": 25.117,
-  "lng": 114.3115,
+  "lat": 25.117653,
+  "lng": 114.31184,
   "related_routes": [
     "R18"
   ],
   "summary": "苏轼贬惠州途经南雄州",
-  "background": "南雄州今广东南雄，苏轼贬惠州时途经此地",
+  "background": "南雄州即今广东南雄，梅岭南麓门户。苏轼贬惠州翻梅岭后经此，珠玑古巷、驿道青石，是入粤的第一座城。",
   "tags": [
     "南雄",
     "梅关",
     "main"
   ],
   "periods": [],
-  "global_events": [],
+  "global_events": [
+    {
+      "id": "p126-001",
+      "date": "1094年",
+      "title": "翻梅关经南雄入粤",
+      "description": "苏轼南贬翻越梅关古道经南雄入岭南",
+      "significance": "入粤门户"
+    }
+  ],
   "global_works": [],
   "route_events": {
     "route18": [
@@ -40,15 +48,45 @@
     }
   },
   "route_works": {},
-  "memorial_sites": [],
-  "foods": [],
+  "memorial_sites": [
+    {
+      "name": "梅关古道",
+      "description": "中原入岭南要道，全国重点文保",
+      "type": "古迹"
+    }
+  ],
+  "foods": [
+    {
+      "name": "南雄酸笋鸭",
+      "description": "南雄传统名菜，酸笋配鸭肉，酸辣鲜香"
+    },
+    {
+      "name": "南雄板鸭",
+      "description": "南雄名产，腊制板鸭，肉质紧实"
+    }
+  ],
   "transport": {
     "train": "",
     "bus": "南雄汽车站",
     "car": "赣韶高速",
     "airport": ""
   },
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "南雄居所",
+      "ancient_name": "南雄居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在南雄的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 25.117653,
+      "lng": 114.31184,
+      "modern_address": "南雄市",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "legacy": {
     "ss_id": null,
     "pinyin_id": "nanxiongzhou",
@@ -102,5 +140,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:15:32.000Z"
+  "amap_updated_at": "2026-06-03T05:15:32.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "南雄市"
 }

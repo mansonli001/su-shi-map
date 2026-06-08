@@ -3,15 +3,15 @@
   "ancient_name": "太学",
   "modern_name": "河南开封太学旧址",
   "type": "around",
-  "lat": 34.798083,
-  "lng": 114.314278,
+  "lat": 34.789726,
+  "lng": 114.3465,
   "related_routes": [
     "R15"
   ],
   "tags": [
     "坐标推断"
   ],
-  "background": "杭州任满还朝任翰林学士承旨。",
+  "background": "北宋最高学府，为朝廷培养人才之所。苏轼元祐年间还朝，曾以翰林学士身份参与太学事务，太学学风与党争交织，是元祐政坛的缩影。",
   "route_events": {},
   "global_events": [
     {
@@ -22,12 +22,38 @@
       "id": "p167-evt-001"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "太学试",
+      "type": "诗",
+      "description": "苏轼在太学相关所作"
+    }
+  ],
   "route_works": {},
   "memorial_sites": [],
-  "foods": [],
+  "foods": [
+    {
+      "name": "开封花生糕",
+      "description": "开封传统点心，酥脆香甜"
+    }
+  ],
   "transport": [],
-  "sub_places": [],
+  "sub_places": [
+    {
+      "name": "太学居所",
+      "ancient_name": "太学居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在太学的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 34.789726,
+      "lng": 114.3465,
+      "modern_address": "州桥街道延庆街7号",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
   "periods": [],
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
@@ -62,5 +88,7 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:16:01.000Z"
+  "amap_updated_at": "2026-06-03T05:16:01.000Z",
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "州桥街道延庆街7号"
 }

@@ -1,0 +1,74 @@
+{
+  "place_id": "P198",
+  "ancient_name": "扬州",
+  "modern_name": "江苏扬州",
+  "city": "扬州市",
+  "main_coords": {
+    "name": "扬州州衙",
+    "lat": 32.396737,
+    "lng": 119.412918,
+    "modern_address": "江苏省扬州市广陵区",
+    "coordinate_source": "amap_geocode",
+    "reason": "苏轼任扬州知州，居州衙，为第一个居住地"
+  },
+  "sub_places": [
+    {
+      "name": "扬州州衙",
+      "ancient_name": "扬州州衙",
+      "type": "residence",
+      "period": "1092年",
+      "description": "苏轼任扬州知州时的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 32.396737,
+      "lng": 119.412918,
+      "modern_address": "江苏省扬州市广陵区",
+      "coordinate_source": "amap_geocode",
+      "verification_status": "verified"
+    },
+    {
+      "name": "平山堂",
+      "ancient_name": "平山堂",
+      "type": "scenic",
+      "period": "1092年",
+      "description": "欧阳修所建，苏轼常来此凭吊恩师",
+      "works": [
+        "西江月·平山堂"
+      ],
+      "importance": "secondary",
+      "lat": 32.419789,
+      "lng": 119.412486,
+      "modern_address": "扬州市蜀冈中峰平山堂东路8号大明寺内",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    },
+    {
+      "name": "瘦西湖",
+      "ancient_name": "瘦西湖",
+      "type": "scenic",
+      "period": "1092年",
+      "description": "扬州著名的湖泊风景区",
+      "works": [],
+      "importance": "secondary",
+      "lat": 32.409631,
+      "lng": 119.420197,
+      "modern_address": "扬州市大虹桥路28号",
+      "coordinate_source": "amap_poi",
+      "verification_status": "verified"
+    }
+  ],
+  "report": {
+    "place_id": "P198",
+    "ancient_name": "扬州",
+    "city": "扬州市",
+    "total_sub_places": 3,
+    "residence_count": 1,
+    "scenic_count": 2,
+    "main_coords_source": "扬州州衙（第一个居住地）",
+    "methodology": "sxzk-gps-methodology v1.0",
+    "verified_count": 3,
+    "rejected_count": 0
+  },
+  "status": "committed",
+  "committed_at": "2026-06-07T23:20:49.113396"
+}

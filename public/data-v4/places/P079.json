@@ -6,7 +6,7 @@
   "related_routes": [
     "R02"
   ],
-  "background": "岷江沿岸古县，水路驿站林立，\n为嘉州至戎州必经中转河段。",
+  "background": "冷泉亭，灵隐寺旁。苏轼常在此品茶论禅，泉水清冽、亭影临水，是西湖山水与禅意交融之处。",
   "extended_story": "顺岷江缓缓行经犍为，两岸平芜江村，\n蜀地水乡风物尽收眼底，沉淀清淡诗风。",
   "essence": "岷江沿岸水路中转古邑",
   "tags": [
@@ -80,9 +80,60 @@
       "description": "苏轼赴京途中停留犍为",
       "significance": "route01",
       "id": "p079-evt-001"
+    },
+    {
+      "id": "p079-002",
+      "date": "1059年",
+      "title": "经犍为出蜀",
+      "description": "苏轼出蜀顺岷江经犍为",
+      "significance": "出蜀途经"
     }
   ],
   "lat": 29.208118,
   "lng": 103.949231,
-  "_latlng_source": "geocode"
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "犍为县",
+  "sub_places": [
+    {
+      "name": "犍为居所",
+      "ancient_name": "犍为居所",
+      "type": "residence",
+      "period": "",
+      "description": "苏轼在犍为的居所",
+      "works": [],
+      "importance": "primary",
+      "lat": 29.208118,
+      "lng": 103.949231,
+      "modern_address": "犍为县",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified"
+    }
+  ],
+  "foods": [
+    {
+      "name": "吉水米粉",
+      "description": "吉水传统小吃",
+      "origin_story": "吉水传统美食",
+      "tag": "吉水特色"
+    },
+    {
+      "name": "犍为薄饼",
+      "description": "犍为传统小吃，薄饼裹萝卜丝，蘸甜醋食用"
+    }
+  ],
+  "memorial_sites": [
+    {
+      "name": "犍为文庙",
+      "description": "四川保存最完好的文庙之一",
+      "type": "古迹"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "犍为",
+      "type": "诗",
+      "note": "途经犍为所作",
+      "year_estimate": 1086
+    }
+  ]
 }

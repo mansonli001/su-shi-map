@@ -6,7 +6,7 @@
   "related_routes": [
     "R19"
   ],
-  "background": "南海北部湾海岸，海疆辽阔、岸线绵长，\n海天一色、滩涂苍茫，迥异内河水路的浩瀚海景。",
+  "background": "巫峡云雨，长江三峡中段最幽深之处。苏轼舟行巫峡，两岸绝壁、云雾缭绕，楚辞神女之韵弥漫江面。",
   "extended_story": "缓步沿海岸而行，观南海苍茫无际，\n海风涤荡三年海岛孤寂，\n暮年心境随海疆辽阔愈发淡然开阔。",
   "essence": "归途独有的滨海苍茫水景",
   "tags": [
@@ -64,5 +64,77 @@
     "best_time_to_visit": "",
     "transportation": ""
   },
-  "amap_updated_at": "2026-06-03T05:14:01.000Z"
+  "amap_updated_at": "2026-06-03T05:14:01.000Z",
+  "lat": 21.487557,
+  "lng": 109.127051,
+  "coordinate_source": "amap_poi_original",
+  "sxzk_address": "东街街道东街街道茶亭路27号海滨公园内",
+  "sub_places": [
+    {
+      "name": "北部湾海岸",
+      "ancient_name": "北部湾海岸",
+      "type": "transit",
+      "period": "",
+      "description": "苏轼途经北部湾海岸",
+      "works": [],
+      "importance": "primary",
+      "lat": 21.487557,
+      "lng": 109.127051,
+      "modern_address": "东街街道东街街道茶亭路27号海滨公园内",
+      "coordinate_source": "amap_poi_original",
+      "verification_status": "verified",
+      "note": "途经点，非停留地"
+    }
+  ],
+  "global_events": [
+    {
+      "id": "p004-001",
+      "date": "1100年",
+      "title": "经北部湾海岸北归",
+      "description": "苏轼北归途经北部湾海岸",
+      "significance": "天涯海角"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "六月二十日夜渡海",
+      "type": "诗",
+      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+    },
+    {
+      "title": "澄迈驿通潮阁二首",
+      "type": "诗",
+      "description": "杳杳天低鹘没处，青山一发是中原。"
+    },
+    {
+      "title": "移廉州",
+      "type": "诗",
+      "description": "朝辞白鹤峰，暮及苍梧岑。"
+    },
+    {
+      "title": "渡海",
+      "type": "诗",
+      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+    },
+    {
+      "title": "别海南黎民表",
+      "type": "诗",
+      "description": "我本海南民，寄生西蜀州。"
+    },
+    {
+      "title": "别儋州",
+      "type": "诗",
+      "description": "我本儋耳民，寄生西蜀州。"
+    },
+    {
+      "title": "别子由三首",
+      "type": "诗",
+      "description": "醉饱高眠真事业，此生有味在三余。"
+    },
+    {
+      "title": "海南日记",
+      "type": "诗",
+      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+    }
+  ]
 }
