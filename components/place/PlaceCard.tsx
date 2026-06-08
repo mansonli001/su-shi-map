@@ -238,30 +238,36 @@ export default function PlaceCard({ place }: PlaceCardProps) {
             onClick={closeCard}
           />
 
-          {/* 半屏卡片 — BUG-NAV-002 v2 真修复：固定高度 + flex 让浏览器自己算可滚动空间
-              v1 失效根因：
-                外层 maxHeight 按全屏算（≈92vh），但 collapsed 状态 translateY=38% 把卡片往下推 35vh，
-                实际可见只剩 ≈57vh；内层滚动容器仍按全屏 maxHeight 渲染 → 浏览器判定"未溢出"→ 滑不动。
-              v2 改造：
-                1) 外层固定 height:92dvh（不是 maxHeight）+ flex flex-col，translateY 不再影响 layout；
-                2) 内层用 flex-1 min-h-0 overflow-y-auto，浏览器自动 = 92dvh - 拖拽手柄；
-                3) 100dvh 解决 iOS Safari 地址栏弹收时高度跳变；
-                4) .sheet-scroll = -webkit-overflow-scrolling:touch + overscroll-behavior:contain 防穿透。 */}
+          {/* 半屏卡片 — BUG-NAV-002 v3 真·真修复：collapsed/expanded 用 height 切换，不用 transform
+              v2 失效根因（用户 6/8 18:26 反馈）：
+                v2 用 translateY(38%) 让抽屉缩起来，但外层 height 仍 = 92dvh。
+                结果：内层 overflow-y-auto 按 92dvh 算溢出，但概览页内容（≈600px）< 92dvh →
+                浏览器判定"未溢出"→ 滚不动；而推下去的 38% 又被 BottomNav 遮住 → 看不全。
+                DetailView 能滚是因为内容 > 92dvh 触发原生溢出，掩盖了 collapsed 态的 bug。
+              v3 改造：
+                1) 抛弃 translateY，改用 animate height 让顶部上推/下拉；
+                2) bottom:0 固定 → 高度变化 = 自然吸底动画，spring 平滑过渡；
+                3) collapsed = 62dvh / expanded = 92dvh，滚动容器等于实际可见区；
+                4) 内层 flex-1 min-h-0 overflow-y-auto，无论哪态内容超出立即可滚；
+                5) 拖拽手柄保留，向下拖 >100px 关闭，点击仍切换 expanded。 */}
           <motion.div
-            initial={{ y: '100%' }}
-            animate={{ y: expanded ? '8%' : '38%' }}
-            exit={{ y: '100%' }}
+            initial={{ height: 0 }}
+            animate={{
+              height: expanded
+                ? 'calc(92dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))'
+                : 'calc(62dvh - env(safe-area-inset-bottom, 0px))',
+            }}
+            exit={{ height: 0 }}
             transition={{ type: 'spring', damping: 30, stiffness: 280 }}
             drag="y"
             dragConstraints={{ top: 0, bottom: 0 }}
+            dragElastic={{ top: 0, bottom: 0.3 }}
             onDragEnd={handleDragEnd}
-            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto flex flex-col"
+            className="fixed left-0 right-0 bottom-0 z-50 md:max-w-2xl md:mx-auto flex flex-col overflow-hidden"
             style={{
               background: 'var(--card)',
               borderRadius: '18px 18px 0 0',
               boxShadow: '0 -10px 40px rgba(26,16,8,0.18)',
-              // 固定高度（不是 maxHeight）：dvh 适配移动端动态视口，扣掉顶部安全区 + 底部安全区
-              height: 'calc(92dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
               maxHeight: 'calc(100dvh - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px))',
             }}
           >

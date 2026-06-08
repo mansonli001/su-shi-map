@@ -4,6 +4,33 @@
 
 ---
 
+### 64. BUG-NAV-002 v3 — 抽屉概览页无法滚动（v2 失效彻底修复）
+
+**用户反馈**（18:26 黄州截图）：点击地点后抽屉弹出，内容超出可见区被 BottomNav 遮挡，但**页内无法滚动**。部分详情页能滚，部分不能。
+
+**根因**（v2 没修干净）：
+- v2 用 `translateY(38%)` 让 collapsed 抽屉缩起来，但外层 `height` 仍 = `92dvh` 不变
+- 内层 `overflow-y-auto` 按 92dvh 算溢出 → 概览页内容（≈600px）< 92dvh → 浏览器判定"未溢出"→ **滚不动**
+- 而被 translateY 推下去的 38% 又被 BottomNav 遮住 → **看不全**
+- DetailView 之所以能滚，是因为详情内容 > 92dvh 触发原生溢出，掩盖了 collapsed 态的 bug
+- 概览页（黄州/惠州/儋州等内容少的客居地）首当其冲翻车
+
+**v3 方案**：抛弃 `translateY`，改用 `height` 直接切换抽屉高度
+- collapsed = `62dvh`（吸底，顶部上推 38%）
+- expanded = `92dvh`（吸底，顶部上推 8%）
+- `bottom:0` 固定 + `animate height` 让 spring 平滑过渡
+- 内层 `flex-1 min-h-0 overflow-y-auto` 自动 = 当前 height - 拖拽手柄
+- 内容超出立即可滚，不超出不滚 — **滚动容器永远等于实际可见区**
+
+**代码**：`components/place/PlaceCard.tsx` line 241-275，外层 `motion.div` 的 `animate` 从 `{ y }` 改为 `{ height }`，加 `overflow-hidden` 防 collapsed 时内容溢出抽屉边框，加 `dragElastic={{ top:0, bottom:0.3 }}` 限制只能向下拖。
+
+**健康检查**：
+- TypeScript ✅ 0 error
+- read_lints ✅ 0 error
+- 改动仅 1 文件 / +20 / -16 行
+
+---
+
 ### 63. v1.4 上线归档 — 6/8 当日工作整体推送
 
 **触发**：6/7 v9.3.6 之后到 6/8 当日累积了 500+ 文件本地变更（首页重写 + 数据修复 + 路线视觉 v7），用户要求扫一遍、修 bug、检测、推上线。
