@@ -18,13 +18,13 @@ import {
 } from '@/lib/achievements';
 import { useSuShiStore } from '@/lib/store';
 
-// 分类配置
+// 分类配置 — 用中文符号替代 emoji
 const CATEGORIES = [
-  { id: 'grow', name: '成长阶梯', emoji: '📈' },
-  { id: 'banish', name: '贬谪专题', emoji: '🌙' },
-  { id: 'jiangnan', name: '江南专题', emoji: '🌸' },
-  { id: 'poem', name: '诗词珍藏', emoji: '📜' },
-  { id: 'secret', name: '隐秘彩蛋', emoji: '🎁' },
+  { id: 'grow', name: '成长阶梯', symbol: '拾' },
+  { id: 'banish', name: '贬谪专题', symbol: '谪' },
+  { id: 'jiangnan', name: '江南专题', symbol: '舟' },
+  { id: 'poem', name: '诗词珍藏', symbol: '诗' },
+  { id: 'secret', name: '隐秘彩蛋', symbol: '隐' },
 ];
 
 // 品级标签样式
@@ -126,44 +126,6 @@ export default function AchievementWall() {
 
   return (
     <>
-      <style jsx global>{`
-        /* 成就卡片翻转动画 */
-        @keyframes ac-flip {
-          0% { transform: rotateY(0); }
-          50% { transform: rotateY(180deg); }
-          100% { transform: rotateY(0); }
-        }
-        .ac-flipping {
-          animation: ac-flip 600ms ease-in-out;
-        }
-
-        /* 银级 Toast 滑入 */
-        @keyframes toast-slide-in {
-          from { transform: translateY(-100%); opacity: 0; }
-          to { transform: translateY(0); opacity: 1; }
-        }
-        @keyframes toast-slide-out {
-          from { transform: translateY(0); opacity: 1; }
-          to { transform: translateY(-100%); opacity: 0; }
-        }
-        .toast-in { animation: toast-slide-in 300ms ease-out forwards; }
-        .toast-out { animation: toast-slide-out 300ms ease-in forwards; }
-
-        /* 金级全屏揭幕 */
-        @keyframes reveal-fade-in {
-          from { opacity: 0; }
-          to { opacity: 0.85; }
-        }
-        @keyframes reveal-card-pop {
-          from { transform: scale(0.6); opacity: 0; }
-          to { transform: scale(1); opacity: 1; }
-        }
-        @keyframes char-fade-in {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-      `}</style>
-
       {/* 银级 Toast */}
       {lastUnlockedAchievement && lastUnlockedAchievement.tier === 'silver' && (
         <SilverToast achievement={lastUnlockedAchievement} />
@@ -174,6 +136,7 @@ export default function AchievementWall() {
         <GoldReveal achievement={lastUnlockedAchievement} />
       )}
 
+      <div className="bg-[#f0ece4] rounded-2xl p-4">
       {CATEGORIES.map((category) => {
         const categoryAchievements = achievementsByCategory[category.id];
         if (!categoryAchievements || categoryAchievements.length === 0) return null;
@@ -183,7 +146,9 @@ export default function AchievementWall() {
         return (
           <div key={category.id} className="mb-8">
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-lg">{category.emoji}</span>
+              <span className="w-6 h-6 rounded bg-[#e8e0d4] flex items-center justify-center text-[11px] font-medium text-[#7a7060] font-wenkai shrink-0">
+                {category.symbol}
+              </span>
               <h2 className="text-sm font-medium font-wenkai text-[#9a9080] tracking-wider">
                 {category.name}
               </h2>
@@ -236,7 +201,7 @@ export default function AchievementWall() {
                     {/* 隐藏成就：问号背景 */}
                     {isHiddenAndLocked && (
                       <div className="absolute inset-0 bg-[#f0ece4] flex items-center justify-center">
-                        <span className="text-5xl opacity-30">❓</span>
+                        <span className="text-4xl font-wenkai opacity-20 text-[#7a7060]">隐</span>
                       </div>
                     )}
 
@@ -327,6 +292,8 @@ export default function AchievementWall() {
           </div>
         );
       })}
+
+      </div>
 
       {/* 分享卡片 Modal */}
       {showShareModal && selectedAchievement && (
@@ -461,8 +428,8 @@ function ShareModal({
   const today = new Date();
   const dateStr = `${today.getFullYear()}年${today.getMonth() + 1}月${today.getDate()}日`;
 
-  // 诗句分行
-  const poemLines = achievement.poem.split(/[，。]/).filter(Boolean);
+  // 诗句分行 — 按标点自然断句
+  const poemLines = achievement.poem.split(/[，。！？；]/).filter(Boolean);
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
@@ -524,11 +491,11 @@ function ShareModal({
                 style={{
                   width: 64, height: 64, borderRadius: '50%', border: '2px solid #2a6e3a',
                   backgroundImage: `url(${imagePath})`, backgroundSize: 'cover', backgroundPosition: 'center top',
-                  flexShrink: 0,
+                  flexShrink: 0, backgroundColor: '#f0f8f2',
                 }}
               />
               <div>
-                <div style={{ fontSize: 20, fontWeight: 500, color: '#1a1612', letterSpacing: '0.06em', marginBottom: 4 }}>{achievement.name}</div>
+                <div style={{ fontSize: 20, fontWeight: 500, color: '#1a1612', letterSpacing: '0.06em', marginBottom: 4, fontFamily: "'STSong','SimSun','Noto Serif SC',serif" }}>{achievement.name}</div>
                 <div style={{ fontSize: 12, color: '#8a8070' }}>{achievement.desc}</div>
               </div>
             </div>
@@ -573,7 +540,11 @@ function ShareModal({
                 <div style={{ fontSize: 10, color: '#c0b8a8', lineHeight: 1.7 }}>{dateStr}</div>
                 <div style={{ fontSize: 9, color: '#d0c8b8' }}>su-shi.starfluxes.com</div>
               </div>
-              <div style={{ width: 40, height: 40, background: '#f4f0ea', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 8, color: '#aaa' }}>QR</div>
+              <div style={{ width: 40, height: 40, background: '#f4f0ea', borderRadius: 4, display: 'grid', gridTemplateColumns: 'repeat(5, 6px)', gridTemplateRows: 'repeat(5, 6px)', gap: 1, padding: 4 }}>
+                {[1,1,1,0,1, 1,0,1,1,0, 1,1,0,1,1, 0,1,1,0,1, 1,0,1,1,0].map((v, i) => (
+                  <div key={i} style={{ width: 6, height: 6, borderRadius: 1, background: v ? '#2a2018' : 'transparent' }} />
+                ))}
+              </div>
             </div>
           </div>
         </div>
