@@ -2,6 +2,71 @@
 
 ---
 
+### 86. 今日审计修复 v1.0 — 路径穿越防护 + 隐藏成就解锁修复 + 视觉/清理
+
+**审计范围**：今日 8 次提交（813dea5..f046d91）— 含 v5 抽屉修复、数据全面修复、SEO/PWA、成就系统改造、4 轮成就 hot-fix。
+
+**发现 4 个真问题（按优先级）**：
+
+#### P0 安全｜路径穿越 (CWE-22)
+
+`app/poems/[id]/layout.tsx`、`app/routes/[id]/layout.tsx` 在 `generateMetadata` 中直接将 URL 动态段 `id` 拼到 `path.join(POEMS_DIR, ${id}.json)`，未做任何字符校验。`fs.readFileSync(JSON.parse)` 可被构造的 `id`（如 `..%2F..%2Fxxx`）越界读取项目内任意 JSON 文件（虽 Next.js 路由层会对 `/` 做归一化，但 `../` 仍可能透传到 build/运行时 metadata 阶段，必须在应用层兜底）。
+
+**修复**（双层防御）：
+1. 白名单 `^[A-Za-z0-9_-]{1,32}$`：拒绝 `..`、`/`、`\`、NUL、控制字符
+2. `path.resolve` 后边界检查：解析后的绝对路径必须以 `path.resolve(BASE_DIR) + path.sep` 开头，否则 return null
+
+符合本仓 RULE 3：基础目录固定、路径 API 拼接、归一化、前缀边界检查。
+
+#### P0 功能｜隐藏成就永远无法解锁
+
+`lib/achievements.ts:595` 的隐藏成就早期 `continue`：
+```ts
+if (ach.isHidden && !unlocked.includes(ach.id)) {
+  progress[ach.id] = { current: 0, target: 1 };
+  continue; // ← 在 case 解锁判定前就跳过
+}
+```
+导致 `secret-001`（雨夜读苏）、`secret-003`（节气同游）的 `case` 永远不会执行 → 永不会被 `push` 到 `unlocked`。`secret-002`（生辰同游）虽然「暂不实现」case 体不解锁，但流程也被屏蔽。
+
+**修复**：删除该早期 `continue`，让所有隐藏成就的 case 正常执行解锁判定。UI 端 `isHiddenAndLocked = ach.isHidden && !isUnlocked` 已负责掩码（隐字背景 + 隐藏进度条数字 + 灰度插画），所以删除早返回是安全的——progress 真实值进 store 不会泄漏到 UI 上。
+
+仅保留合成成就（synthesis）的早返回，并在注释中说明合成成就也可能被标记 hidden 时的处理顺序。
+
+#### P1 视觉｜合成成就贬谪三地行者图片不存在
+
+提交 `f046d91` 把 `banish-004` 的 `icon` 从空字符串改为 `'贬谪三地行者'`，并在 `ACHIEVEMENT_IMAGES` 加映射 `'/achievements/贬谪三地行者.jpg'`。但 `public/achievements/` 实际无此文件 → 浏览器请求 404、显示 broken image。
+
+**修复**：从映射中移除该项 + 添加注释说明，让 UI 自然走 `!imagePath` 兜底分支（显示成就名首字「贬」，与新增的兜底逻辑配合）。待补充真实 PNG 后再加回映射。
+
+#### P2 清理｜PWAInstallBanner 冗余分支
+
+```ts
+if (!visible && !dismissed) return null;  // 第 1 行
+if (!visible) return null;                // 第 2 行（已覆盖第 1 行所有 case）
+```
+逻辑上第 1 行被第 2 行完全覆盖：当 `!visible` 时第 2 行直接 null，无论 `dismissed` 是啥；唯一保留渲染的是 `visible=true` 的所有情况（包括 `dismissed=true` 期间的退出动画）。
+
+**修复**：删除冗余第 1 行 + 加注释说明保留退出动画的语义。
+
+**改动文件**：
+- `app/poems/[id]/layout.tsx`：白名单 + 边界检查
+- `app/routes/[id]/layout.tsx`：白名单 + 边界检查
+- `lib/achievements.ts`：删除隐藏成就早 `continue`、移除不存在的图片映射
+- `components/PWAInstallBanner.tsx`：清理冗余 return
+
+**健康检查**：
+- TypeScript ✅ 0 error
+- read_lints ✅ 0 error
+- HTTP 探活 ✅ /、/explore、/profile、/poems/W001、/poems/..%2Fbad、/routes/R01 全部 200（含路径穿越输入返回 200 + 安全 fallback "诗词未找到"）
+
+**未变更**（已审计但属历史代码或可接受）：
+- `framer-overlay z-40` < `BottomNav z-1000` — 非今日新增，PlaceCard 抽屉已抬到导航之上视觉无瑕疵
+- `PWAInstallBanner` 的 ⬆️ 表情 — 是 iOS Safari 操作指引文案，不属本次"中文符号化"范围
+- `SilverToast/GoldReveal/ShareModal` 对 `imagePath=undefined` 直接传 `url(undefined)` — 浏览器请求失败但只显示底色，不致崩溃；待补合成成就插画后自动恢复
+
+---
+
 ### 85. 成就系统前端改造 — 亮色高级质感 + 解锁动效 + 分享卡片
 
 **改造内容**：

@@ -592,13 +592,7 @@ export function evaluateAchievements(
     let current = 0;
     let target = 1;
 
-    // 隐藏成就：未解锁时返回模糊状态
-    if (ach.isHidden && !unlocked.includes(ach.id)) {
-      progress[ach.id] = { current: 0, target: 1 };
-      continue;
-    }
-
-    // 合成成就：检查子成就是否全部解锁
+    // 合成成就：检查子成就是否全部解锁（必须先于隐藏判断，因为合成成就也可能被标隐藏）
     if (ach.isSynthesis && ach.synthesisFrom) {
       const allChildrenUnlocked = ach.synthesisFrom.every(childId => unlocked.includes(childId));
       if (allChildrenUnlocked) {
@@ -859,7 +853,8 @@ export const ACHIEVEMENT_IMAGES: Record<string, string> = {
   '雨夜读苏': '/achievements/雨夜读苏.jpg',
   '生辰同游': '/achievements/生辰同游.jpg',
   '节气同游': '/achievements/节气同游.jpg',
-  '贬谪三地行者': '/achievements/贬谪三地行者.jpg',
+  // 注：'贬谪三地行者' 暂无对应插画文件，走 UI 兜底（成就名首字渲染）；
+  //     待补充 public/achievements/贬谪三地行者.jpg 后再加入此映射。
 };
 
 /**

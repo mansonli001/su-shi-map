@@ -45,7 +45,7 @@ export default function PWAInstallBanner() {
     setTimeout(() => setVisible(false), 300); // 等动画完成
   };
 
-  if (!visible && !dismissed) return null;
+  // 渲染条件：visible=true 才渲染。dismissed=true 且 visible=true 时仍渲染以播放退出动画。
   if (!visible) return null;
 
   return (
