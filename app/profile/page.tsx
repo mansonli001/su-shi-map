@@ -12,7 +12,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSuShiStore } from '@/lib/store';
 import AchievementWall from '@/components/AchievementWall';
-import AchievementToast from '@/components/AchievementToast';
 import SharePoster from '@/components/SharePoster';
 import { achievements } from '@/lib/achievements';
 
@@ -72,9 +71,6 @@ export default function ProfilePage() {
       }}
       className="font-wenkai"
     >
-      {/* 成就解锁Toast */}
-      <AchievementToast />
-
       {/* ===== 顶部：身份区（米白 hairline 卡）v9.3.5 改为横排：左 logo + 右文字 ===== */}
       <div
         style={{

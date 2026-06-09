@@ -2,6 +2,49 @@
 
 ---
 
+### 85. 成就系统前端改造 — 亮色高级质感 + 解锁动效 + 分享卡片
+
+**改造内容**：
+
+1. **成就墙卡片四种状态**（CSS class 控制）：
+   - `unlocked`：白底 #fff + 绿色边框 #d4e8d8 + 彩色插画 + 左上角绿色勾标 + 满格进度条 #2a6e3a
+   - `near`（≥80%）：暖黄底 #fdf5e6 + 橙色边框 #e8c060 + 灰度插画 + 橙色进度条 #c8820a + "差一步!"
+   - `inprogress`（>0%）：米灰底 #f4f0ea + 普通边框 + 灰度插画 + 灰色进度条 #b8b0a0
+   - `locked`（0%）：浅米底 #f0ece4 + 普通边框 + 灰度插画 + 空进度条 #ccc8c0
+
+2. **插画 PNG 显示**：
+   - 使用 `background-image` + `background-size: cover` 自适应填满卡片
+   - 未解锁：`filter: grayscale(1) brightness(0.5) contrast(0.8)`
+   - 已解锁：`filter: none`
+   - 渐变遮罩层确保底部文字可读（unlocked 白色渐变 / near 暖黄渐变 / 其他 米色渐变）
+
+3. **三级解锁动效**：
+   - 铜级：CSS 3D flip（rotateY 0→180→0，600ms）
+   - 银级：顶部 Toast 滑入通知条（72px 高，2.2s 后滑出消失）
+   - 金级：全屏揭幕（遮罩淡入 + 卡片弹性弹出 + 诗句逐字淡入 50ms/字）
+
+4. **分享卡片生成**（html2canvas）：
+   - 隐藏 DOM 节点 375×667px，scale:2 输出 750×1334px
+   - 结构：黑色头部 + 徽章圆圈 + 诗句 + 三格统计 + 地点标签 + 日期/网址
+   - 点击已解锁卡片 → Modal 预览 → 保存图片下载
+
+5. **品级标签**：铜/银/金 右上角标签，对应不同颜色样式
+
+**新增/修改文件**：
+- `lib/achievements.ts`：新增 `ACHIEVEMENT_IMAGES` 映射表 + `getAchievementStatus()` + `AchievementStatus` 类型
+- `components/AchievementWall.tsx`：完全重写，含 SilverToast / GoldReveal / ShareModal 子组件
+- `app/globals.css`：新增 `.tier-cu` / `.tier-ag` / `.tier-gold` 品级标签样式
+- `app/profile/page.tsx`：移除旧 AchievementToast（功能已集成到新组件）
+- 依赖：新增 `html2canvas`
+
+**Bug 修复**：
+- 移除未使用的 `getUID` 导入
+- 修复分享卡片 DOM `className="fixed"` 与 `style={{ position: 'absolute' }}` 冲突
+- 修复 html2canvas 截图时机：双重 rAF 确保渲染完成
+- 修复 near 状态遮罩颜色：使用暖黄渐变而非灰色渐变
+
+---
+
 ### 84. 时间线事件去重 + 作品poem_id全覆盖
 
 **问题1**：常州(P017)、定州(P039)、黄州(P072)等地点时间线存在语义重复事件

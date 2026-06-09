@@ -1,6 +1,7 @@
 /**
- * 成就系统核心模块 v2.0
+ * 成就系统核心模块 v3.0
  * 25枚成就，五大板块分类
+ * v3: 新增 ACHIEVEMENT_IMAGES 映射 + getAchievementStatus 函数
  */
 
 import { PlaceCore } from '@/types';
@@ -830,4 +831,57 @@ export function getAchievementProgress(
   const p = progress[id];
   if (!p || p.target === 0) return 0;
   return Math.min((p.current / p.target) * 100, 100);
+}
+
+/**
+ * 成就图片路径映射表
+ * 文件名对应 public/achievements/ 目录下的 JPG 文件
+ */
+export const ACHIEVEMENT_IMAGES: Record<string, string> = {
+  '初踏苏途': '/achievements/初踏苏途.jpg',
+  '眉山故人': '/achievements/眉山故人.jpg',
+  '宦途起步': '/achievements/宦途起步.jpg',
+  '行路起步': '/achievements/行路起步.jpg',
+  '一城漫游': '/achievements/一城漫游.jpg',
+  '宦游四方': '/achievements/宦游四方.jpg',
+  '半生起落': '/achievements/半生起落.jpg',
+  '七日同游': '/achievements/七日同游.jpg',
+  '月月同游': '/achievements/月月同游.jpg',
+  '半生行遍': '/achievements/半生行遍.jpg',
+  '鎏金终极': '/achievements/鎏金终极.jpg',
+  '黄州客居': '/achievements/黄州客居.jpg',
+  '岭南逐客': '/achievements/岭南逐客.jpg',
+  '天涯儋州': '/achievements/天涯儋州.jpg',
+  '西湖闲客': '/achievements/西湖闲客.jpg',
+  '江南行舟': '/achievements/江南行舟.jpg',
+  '美食墨客': '/achievements/美食墨客.jpg',
+  '中秋望月': '/achievements/中秋望月.jpg',
+  '赤壁诗魂': '/achievements/赤壁诗魂.jpg',
+  '风雨定风波': '/achievements/风雨定风波.jpg',
+  '千首拾珍': '/achievements/千首拾珍.jpg',
+  '雨夜读苏': '/achievements/雨夜读苏.jpg',
+  '生辰同游': '/achievements/生辰同游.jpg',
+  '节气同游': '/achievements/节气同游.jpg',
+};
+
+/**
+ * 成就卡片状态类型
+ */
+export type AchievementStatus = 'unlocked' | 'near' | 'inprogress' | 'locked';
+
+/**
+ * 根据进度计算成就状态
+ * progress = 已完成条件数 / 总条件数
+ * progress === 1     → unlocked
+ * progress >= 0.8    → near
+ * progress > 0       → inprogress
+ * progress === 0     → locked
+ */
+export function getAchievementStatus(current: number, target: number): AchievementStatus {
+  if (target === 0) return 'locked';
+  const progress = current / target;
+  if (progress >= 1) return 'unlocked';
+  if (progress >= 0.8) return 'near';
+  if (progress > 0) return 'inprogress';
+  return 'locked';
 }
