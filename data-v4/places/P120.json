@@ -276,7 +276,14 @@
     "source": "水调歌头·明月几时有",
     "from": "global_works.excerpt"
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "超然台",
+    "address": "诸城市",
+    "location": "119.41,35.99",
+    "cityname": "诸城市",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:15:27.000Z",
   "coordinate_source": "original",
   "sxzk_address": "超然台路58号"

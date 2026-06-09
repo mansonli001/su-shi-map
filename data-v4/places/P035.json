@@ -32,18 +32,11 @@
   ],
   "global_events": [
     {
-      "id": "dz2-001",
+      "id": "p035-001",
       "date": "绍圣四年（1097年）",
       "title": "贬谪儋州",
       "description": "苏轼再贬儋州",
       "significance": "再贬岭南"
-    },
-    {
-      "id": "dz2-002",
-      "date": "元符三年（1100年）",
-      "title": "赦还北归",
-      "description": "苏轼遇赦北归",
-      "significance": "北归"
     },
     {
       "place": "儋州",
@@ -52,6 +45,13 @@
       "description": "苏轼在儋州建载酒堂",
       "significance": "route19",
       "id": "p035-003"
+    },
+    {
+      "id": "p035-003",
+      "date": "元符三年（1100年）",
+      "title": "赦还北归",
+      "description": "苏轼遇赦北归",
+      "significance": "北归"
     }
   ],
   "global_works": [

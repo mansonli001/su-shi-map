@@ -59,37 +59,44 @@
     {
       "title": "纵笔三首",
       "type": "诗",
-      "description": "报道先生春睡美，道人轻打五更钟。"
+      "description": "报道先生春睡美，道人轻打五更钟。",
+      "poem_id": "S150"
     },
     {
       "title": "和陶诗全集",
       "type": "诗",
-      "description": "同是天涯沦落人，相逢何必曾相识。"
+      "description": "同是天涯沦落人，相逢何必曾相识。",
+      "poem_id": "S151"
     },
     {
       "title": "和陶答庞参军三首",
       "type": "诗",
-      "description": "功名不足慕，还我疏散性。"
+      "description": "功名不足慕，还我疏散性。",
+      "poem_id": "S152"
     },
     {
       "title": "和陶读山海经",
       "type": "诗",
-      "description": "神山既无根，潜穴不可究。"
+      "description": "神山既无根，潜穴不可究。",
+      "poem_id": "S153"
     },
     {
       "title": "次韵子由三首",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S154"
     },
     {
       "title": "次韵范纯父涵星砚",
       "type": "诗",
-      "description": "涵星砚来，字字珠玑。"
+      "description": "涵星砚来，字字珠玑。",
+      "poem_id": "S155"
     },
     {
       "title": "桄榔庵记（铭）",
       "type": "文",
-      "description": "桄榔为柱，直而不污。我作此庵，居之宴如。"
+      "description": "桄榔为柱，直而不污。我作此庵，居之宴如。",
+      "poem_id": "W014"
     }
   ],
   "modern_visit": {

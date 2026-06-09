@@ -28,19 +28,19 @@
   ],
   "global_events": [
     {
-      "id": "hz2-001",
-      "date": "元丰二年（1079年）三月",
-      "title": "任湖州知州",
-      "description": "苏轼任湖州知州",
-      "significance": "湖州仕途"
-    },
-    {
       "place": "湖州",
       "date": "元丰二年（1079年）",
       "title": "湖州被捕",
       "description": "苏轼在湖州任上被捕，引发乌台诗案",
       "significance": "political",
       "id": "p065-002"
+    },
+    {
+      "id": "p065-002",
+      "date": "元丰二年（1079年）三月",
+      "title": "任湖州知州",
+      "description": "苏轼任湖州知州",
+      "significance": "湖州仕途"
     }
   ],
   "global_works": [
@@ -54,37 +54,32 @@
     {
       "title": "次韵黄鲁直见赠",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S051"
     },
     {
       "title": "中秋月",
       "type": "诗",
-      "description": "此生此夜不长好，明月明年何处看。"
+      "description": "此生此夜不长好，明月明年何处看。",
+      "poem_id": "S055"
     },
     {
       "title": "超然台记",
       "type": "文",
-      "description": "我公厌富贵，常苦勋业寻。"
-    },
-    {
-      "title": "江城子·密州出猎",
-      "type": "词",
-      "description": "会挽雕弓如满月，西北望，射天狼。"
+      "description": "我公厌富贵，常苦勋业寻。",
+      "poem_id": "W005"
     },
     {
       "title": "江城子·乙卯正月二十日夜记梦",
       "type": "词",
-      "description": "十年生死两茫茫，不思量，自难忘。"
-    },
-    {
-      "title": "江城子·十年生死两茫茫",
-      "type": "词",
-      "description": "十年生死两茫茫，不思量，自难忘。"
+      "description": "十年生死两茫茫，不思量，自难忘。",
+      "poem_id": "C004"
     },
     {
       "title": "蝶恋花·花褪残红青杏小",
       "type": "词",
-      "description": "天涯何处无芳草。"
+      "description": "天涯何处无芳草。",
+      "poem_id": "C007"
     }
   ],
   "route_events": {

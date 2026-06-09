@@ -17,10 +17,10 @@
   "periods": [],
   "global_events": [
     {
-      "id": "ha-001",
+      "id": "p056-001",
       "date": "熙宁七年（1074年）",
-      "title": "过海州",
-      "description": "苏轼北行途经海州",
+      "title": "过海州赴密州",
+      "description": "苏轼北行途经海州，赴密州任知州",
       "significance": "途经海州"
     },
     {
@@ -35,42 +35,38 @@
     {
       "title": "次韵章质夫杨花词",
       "type": "词",
-      "description": "似花还似非花，也无人惜从教坠。"
+      "description": "似花还似非花，也无人惜从教坠。",
+      "poem_id": "C008"
     },
     {
       "title": "水龙吟·似花还似非花",
       "type": "词",
-      "description": "细看来，不是杨花，点点是离人泪。"
+      "description": "细看来，不是杨花，点点是离人泪。",
+      "poem_id": "C009"
     },
     {
       "title": "蝶恋花·记得画屏初会遇",
       "type": "词",
-      "description": "燕子双飞来又去，纱窗几度春光暮。"
+      "description": "燕子双飞来又去，纱窗几度春光暮。",
+      "poem_id": "C010"
     },
     {
       "title": "减字木兰花·双龙对起",
       "type": "词",
-      "description": "双龙对起，白甲苍髯烟雨里。"
-    },
-    {
-      "title": "水调歌头·明月几时有",
-      "type": "词",
-      "description": "但愿人长久，千里共婵娟。"
+      "description": "双龙对起，白甲苍髯烟雨里。",
+      "poem_id": "C011"
     },
     {
       "title": "阳关曲·中秋月",
       "type": "词",
-      "description": "此生此夜不长好，明月明年何处看。"
-    },
-    {
-      "title": "水调歌头·丙辰中秋",
-      "type": "词",
-      "description": "明月几时有，把酒问青天。"
+      "description": "此生此夜不长好，明月明年何处看。",
+      "poem_id": "C014"
     },
     {
       "title": "阳关曲·答李公择",
       "type": "词",
-      "description": "济南春好雪初晴，才到龙山马足轻。"
+      "description": "济南春好雪初晴，才到龙山马足轻。",
+      "poem_id": "C016"
     }
   ],
   "route_events": {

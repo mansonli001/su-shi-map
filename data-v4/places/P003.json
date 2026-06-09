@@ -47,42 +47,50 @@
     {
       "title": "南歌子·寓意",
       "type": "词",
-      "description": "总是人间好时节。"
+      "description": "总是人间好时节。",
+      "poem_id": "C026"
     },
     {
       "title": "南歌子·感旧",
       "type": "词",
-      "description": "十年春色旧池台，风景依稀似去年。"
+      "description": "十年春色旧池台，风景依稀似去年。",
+      "poem_id": "C027"
     },
     {
       "title": "南歌子·别润守许仲涂",
       "type": "词",
-      "description": "酒阑人散月侵廊。"
+      "description": "酒阑人散月侵廊。",
+      "poem_id": "C028"
     },
     {
       "title": "如梦令·水垢何曾相受",
       "type": "词",
-      "description": "居士本来无垢。"
+      "description": "居士本来无垢。",
+      "poem_id": "C029"
     },
     {
       "title": "如梦令·自净方能净彼",
       "type": "词",
-      "description": "自净方能净彼。"
+      "description": "自净方能净彼。",
+      "poem_id": "C030"
     },
     {
       "title": "阮郎归·初夏",
       "type": "词",
-      "description": "微雨过，小荷翻，榴花开欲然。"
+      "description": "微雨过，小荷翻，榴花开欲然。",
+      "poem_id": "C031"
     },
     {
       "title": "阮郎归·梅雨细",
       "type": "词",
-      "description": "梅雨细，晓风微。"
+      "description": "梅雨细，晓风微。",
+      "poem_id": "C032"
     },
     {
       "title": "黄楼赋",
       "type": "赋",
-      "description": "我在黄楼上，欲作黄楼诗。"
+      "description": "我在黄楼上，欲作黄楼诗。",
+      "poem_id": "F001"
     }
   ],
   "route_events": {

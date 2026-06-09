@@ -29,7 +29,14 @@
       "significance": "量移驻地"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "汝州谢上表",
+      "type": "文",
+      "note": "量移汝州作谢上表",
+      "year": 1084
+    }
+  ],
   "route_events": {
     "R18": {
       "duration": "1094年中原途经中转",

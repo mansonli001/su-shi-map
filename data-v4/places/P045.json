@@ -42,17 +42,20 @@
     {
       "title": "薄薄酒二首",
       "type": "诗",
-      "description": "薄薄酒，胜茶汤。"
+      "description": "薄薄酒，胜茶汤。",
+      "poem_id": "S010"
     },
     {
       "title": "凤翔八观",
       "type": "文",
-      "description": "冬十二月岁辛丑，我初从政见鲁叟。"
+      "description": "冬十二月岁辛丑，我初从政见鲁叟。",
+      "poem_id": "W001"
     },
     {
       "title": "石鼓文跋",
       "type": "文",
-      "description": "物之显晦，各有有时，不可强也。"
+      "description": "物之显晦，各有有时，不可强也。",
+      "poem_id": "W002"
     }
   ],
   "route_events": {

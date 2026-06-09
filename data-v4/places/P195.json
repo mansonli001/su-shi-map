@@ -90,17 +90,39 @@
     {
       "title": "书王定国所藏烟江叠嶂图",
       "type": "诗",
-      "description": "山回路转不见君，雪上空留马行处。"
+      "description": "山回路转不见君，雪上空留马行处。",
+      "poem_id": "S056"
     },
     {
       "title": "书晁说之考牧图后",
       "type": "诗",
-      "description": "此生与君共千里，那更将身化为泪。"
+      "description": "此生与君共千里，那更将身化为泪。",
+      "poem_id": "S057"
     },
     {
       "title": "送孔郎中赴陕郊",
       "type": "诗",
-      "description": "大鼐东来几千里，吹散杨花春欲归。"
+      "description": "大鼐东来几千里，吹散杨花春欲归。",
+      "poem_id": "S058"
+    },
+    {
+      "title": "永遇乐·明月如霜",
+      "type": "词",
+      "poem_id": "C044"
+    },
+    {
+      "title": "浣溪沙·簌簌衣巾落枣花",
+      "type": "词",
+      "poem_id": "C040"
+    },
+    {
+      "title": "浣溪沙·软草平莎过雨新",
+      "type": "词",
+      "poem_id": "C053"
+    },
+    {
+      "title": "登云龙山",
+      "type": "诗"
     }
   ],
   "route_events": {

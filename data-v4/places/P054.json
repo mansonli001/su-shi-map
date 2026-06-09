@@ -26,22 +26,29 @@
   ],
   "global_events": [
     {
+      "id": "p054-002",
+      "date": "1094年",
+      "title": "经广州赴惠州",
+      "description": "苏轼南贬经广州，游白云山蒲涧寺",
+      "significance": "贬谪途经"
+    },
+    {
       "place": "广州",
       "date": "元符三年（1100年）",
       "title": "途经广州",
       "description": "苏轼北归途经广州",
       "significance": "route20",
       "id": "p054-001"
-    },
-    {
-      "id": "p054-002",
-      "date": "1094年",
-      "title": "经广州赴惠州",
-      "description": "苏轼南贬经广州，游白云山蒲涧寺",
-      "significance": "贬谪途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "广州蒲涧寺",
+      "type": "诗",
+      "note": "惠州期间游广州蒲涧寺",
+      "year": 1095
+    }
+  ],
   "route_events": {
     "route18": [
       {

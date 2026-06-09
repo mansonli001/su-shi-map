@@ -113,37 +113,44 @@
     {
       "title": "西江月·明月别枝惊鹊",
       "type": "词",
-      "description": "明月别枝惊鹊，清风半夜鸣蝉。"
+      "description": "明月别枝惊鹊，清风半夜鸣蝉。",
+      "poem_id": "C045"
     },
     {
       "title": "行香子·述怀",
       "type": "词",
-      "description": "对一张琴，一壶酒，一溪云。"
+      "description": "对一张琴，一壶酒，一溪云。",
+      "poem_id": "C046"
     },
     {
       "title": "行香子·秋与",
       "type": "词",
-      "description": "但一回醉，一回病，一回慵。"
+      "description": "但一回醉，一回病，一回慵。",
+      "poem_id": "C047"
     },
     {
       "title": "水龙吟·次韵章质夫杨花词",
       "type": "词",
-      "description": "似花还似非花，也无人惜从教坠。"
+      "description": "似花还似非花，也无人惜从教坠。",
+      "poem_id": "C048"
     },
     {
       "title": "洞仙歌·冰肌玉骨",
       "type": "词",
-      "description": "冰肌玉骨，自清凉无汗。"
+      "description": "冰肌玉骨，自清凉无汗。",
+      "poem_id": "C049"
     },
     {
       "title": "如梦令·春思",
       "type": "词",
-      "description": "莫忘小桥流水。"
+      "description": "莫忘小桥流水。",
+      "poem_id": "C050"
     },
     {
       "title": "浣溪沙·旋抹红妆看使君",
       "type": "词",
-      "description": "旋抹红妆看使君，三三五五棘篱门。"
+      "description": "旋抹红妆看使君，三三五五棘篱门。",
+      "poem_id": "C051"
     }
   ],
   "memorial_sites": [

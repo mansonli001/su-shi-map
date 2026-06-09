@@ -24,7 +24,14 @@
       "significance": "蜀道文化"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "梓潼",
+      "type": "诗",
+      "note": "出蜀途经梓潼",
+      "year": 1056
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年途经古蜀道",

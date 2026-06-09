@@ -14,6 +14,16 @@
     "landscape",
     "mood_relief"
   ],
+  "global_events": [
+    {
+      "id": "pyh-g001",
+      "date": "元丰七年（1084年）",
+      "title": "泛舟鄱阳湖",
+      "description": "苏轼离黄州赴汝州，泛舟穿行鄱阳湖，心胸随湖域辽阔彻底打开",
+      "significance": "涤荡贬谪沉郁，开阔胸襟格局"
+    }
+  ],
+  "global_works": [],
   "route_events": {
     "R11": {
       "duration": "1084年泛舟穿行观览",

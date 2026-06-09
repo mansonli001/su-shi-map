@@ -29,9 +29,10 @@
   ],
   "global_works": [
     {
-      "title": "江城子·密州出猎",
-      "type": "词",
-      "description": "苏轼忆青神岳家往事，'老夫聊发少年狂'"
+      "title": "青神中岩寺",
+      "type": "诗",
+      "note": "少年游学青神中岩",
+      "year": 1050
     }
   ],
   "route_events": {},

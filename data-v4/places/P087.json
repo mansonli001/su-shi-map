@@ -20,7 +20,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "江州重别薛六柳八二员外",
+      "type": "诗",
+      "note": "离黄州途经江州",
+      "year": 1084
+    }
+  ],
   "route_events": {
     "route18": [
       {

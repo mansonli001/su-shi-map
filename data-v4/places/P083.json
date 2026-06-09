@@ -146,7 +146,14 @@
       "S2"
     ]
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "荆州古城",
+    "address": "荆州市荆州区",
+    "location": "112.18,30.35",
+    "cityname": "荆州市荆州区",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:15:03.000Z",
   "coordinate_source": "amap_geocode",
   "sxzk_address": "湖北省荆州市荆州区"

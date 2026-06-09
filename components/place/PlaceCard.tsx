@@ -64,6 +64,12 @@ interface V4PlaceFull extends PlaceCore {
   modern_name?: string;
   tags?: string[];
   _auto_generated?: boolean;
+  modern_visit?: {
+    location?: string;
+    amap_name?: string;
+    address?: string;
+    [key: string]: any;
+  };
 }
 
 const TYPE_LABEL: Record<string, string> = {
@@ -588,7 +594,21 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                     </button>
                     <button
                       onClick={() => {
-                        const url = `https://uri.amap.com/marker?position=${place.lng},${place.lat}&name=${encodeURIComponent(ancient)}`;
+                        // 优先使用detail中的POI坐标（更接近现代可导航位置），fallback到place坐标
+                        const mv = detail?.modern_visit || (place as any).modern_visit;
+                        let navLat = place.lat;
+                        let navLng = place.lng;
+                        let navName = ancient;
+                        if (mv && typeof mv === 'object') {
+                          const loc = mv.location;
+                          if (typeof loc === 'string' && loc.includes(',')) {
+                            const [lngStr, latStr] = loc.split(',');
+                            navLng = parseFloat(lngStr) || navLng;
+                            navLat = parseFloat(latStr) || navLat;
+                          }
+                          if (mv.amap_name) navName = mv.amap_name;
+                        }
+                        const url = `https://uri.amap.com/marker?position=${navLng},${navLat}&name=${encodeURIComponent(navName)}`;
                         window.open(url, '_blank');
                       }}
                       className="font-wenkai py-3 rounded-lg text-[12px] text-gold-light"

@@ -37,42 +37,50 @@
     {
       "title": "赠杭州僧道潜",
       "type": "诗",
-      "description": "道人胸中水镜清，万象起灭无逃形。"
+      "description": "道人胸中水镜清，万象起灭无逃形。",
+      "poem_id": "S030"
     },
     {
       "title": "次韵道潜见赠",
       "type": "诗",
-      "description": "羡君飘荡一虚舟，来往江湖不系留。"
+      "description": "羡君飘荡一虚舟，来往江湖不系留。",
+      "poem_id": "S031"
     },
     {
       "title": "次韵僧潜见赠",
       "type": "诗",
-      "description": "道人胸中水镜清。"
+      "description": "道人胸中水镜清。",
+      "poem_id": "S032"
     },
     {
       "title": "次韵参寥师见赠",
       "type": "诗",
-      "description": "羡君飘荡一虚舟。"
+      "description": "羡君飘荡一虚舟。",
+      "poem_id": "S033"
     },
     {
       "title": "次韵林子中蒜山小诗",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S034"
     },
     {
       "title": "次韵刘贡父李公择见寄二首",
       "type": "诗",
-      "description": "白发相望两寂寞，故人相见尚青眸。"
+      "description": "白发相望两寂寞，故人相见尚青眸。",
+      "poem_id": "S035"
     },
     {
       "title": "饮湖上初晴后雨二首",
       "type": "诗",
-      "description": "朝曦迎客艳重冈，晚雨留人入醉乡。"
+      "description": "朝曦迎客艳重冈，晚雨留人入醉乡。",
+      "poem_id": "S036"
     },
     {
       "title": "新城道中二首",
       "type": "诗",
-      "description": "东风知我欲山行，吹断檐间积雨声。"
+      "description": "东风知我欲山行，吹断檐间积雨声。",
+      "poem_id": "S037"
     }
   ],
   "route_events": {

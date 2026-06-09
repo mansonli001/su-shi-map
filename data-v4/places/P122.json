@@ -24,7 +24,14 @@
       "significance": "入栈道起点"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过勉县",
+      "type": "诗",
+      "note": "出蜀途经勉县",
+      "year": 1056
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年途经怀古",

@@ -123,22 +123,20 @@
     {
       "title": "记承天寺夜游",
       "type": "文",
-      "description": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。"
-    },
-    {
-      "title": "蝶恋花·春景",
-      "type": "词",
-      "description": "枝上柳绵吹又少，天涯何处无芳草！"
+      "description": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。",
+      "poem_id": "W009"
     },
     {
       "title": "满庭芳·三十三年",
       "type": "词",
-      "description": "三十三年，今谁存者？算只君与长江。"
+      "description": "三十三年，今谁存者？算只君与长江。",
+      "poem_id": "C034"
     },
     {
       "title": "西江月·世事一场大梦",
       "type": "词",
-      "description": "世事一场大梦，人生几度秋凉？"
+      "description": "世事一场大梦，人生几度秋凉？",
+      "poem_id": "C035"
     }
   ],
   "route_events": {

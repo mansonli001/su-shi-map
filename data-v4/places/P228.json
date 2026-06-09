@@ -35,6 +35,13 @@
       "id": "p228-evt-001"
     },
     {
+      "date": "绍圣四年（1097年）",
+      "title": "居中和镇",
+      "description": "苏轼居儋州中和镇",
+      "significance": "route19",
+      "id": "p228-evt-004"
+    },
+    {
       "date": "元符元年（1098年）",
       "title": "建载酒堂",
       "description": "苏轼在儋州建载酒堂讲学",
@@ -47,13 +54,6 @@
       "description": "苏轼获赦，准备北归",
       "significance": "route20",
       "id": "p228-evt-003"
-    },
-    {
-      "date": "绍圣四年（1097年）",
-      "title": "居中和镇",
-      "description": "苏轼居儋州中和镇",
-      "significance": "route19",
-      "id": "p228-evt-004"
     }
   ],
   "global_works": [

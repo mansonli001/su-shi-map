@@ -24,7 +24,8 @@
     {
       "title": "初发嘉州",
       "type": "诗",
-      "description": "苏轼出蜀经乐山大佛所作"
+      "description": "苏轼出蜀经乐山大佛所作",
+      "poem_id": "S002"
     }
   ],
   "route_works": {},

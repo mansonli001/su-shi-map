@@ -26,27 +26,32 @@
     {
       "title": "刑赏忠厚之至论",
       "type": "策",
-      "description": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。..."
+      "description": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。...",
+      "poem_id": "Z001"
     },
     {
       "title": "上神宗皇帝书",
       "type": "策",
-      "description": "守法者，治之本也；持正者，义之门也。..."
+      "description": "守法者，治之本也；持正者，义之门也。...",
+      "poem_id": "Z002"
     },
     {
       "title": "杭州乞度牒开西湖状",
       "type": "策",
-      "description": "西湖有不可废者五。..."
+      "description": "西湖有不可废者五。...",
+      "poem_id": "Z003"
     },
     {
       "title": "到惠州谢表",
       "type": "策",
-      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。..."
+      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。...",
+      "poem_id": "Z004"
     },
     {
       "title": "钱塘勤上人诗集叙",
       "type": "诗",
-      "description": "勤上人学诗如学佛，要在妙悟自心。..."
+      "description": "勤上人学诗如学佛，要在妙悟自心。...",
+      "poem_id": "S001"
     }
   ],
   "route_works": {},
@@ -321,5 +326,13 @@
   "_auto_generated": true,
   "_source": "b9-fill-missing-detail",
   "coordinate_source": "original",
-  "sxzk_address": ""
+  "sxzk_address": "",
+  "modern_visit": {
+    "amap_name": "三峡",
+    "address": "宜昌市",
+    "location": "111.28,30.69",
+    "cityname": "宜昌市",
+    "type": "风景名胜",
+    "typecode": "110200"
+  }
 }

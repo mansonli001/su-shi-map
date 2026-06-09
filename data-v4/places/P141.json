@@ -19,7 +19,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "琼州",
+      "type": "诗",
+      "note": "渡海赴儋州经琼州",
+      "year": 1097
+    }
+  ],
   "route_events": {
     "route19": [
       {

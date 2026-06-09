@@ -23,13 +23,6 @@
   "periods": [],
   "global_events": [
     {
-      "id": "cz-001",
-      "date": "熙宁四年（1071年）七月",
-      "title": "过陈州见张方平",
-      "description": "苏轼过陈州，拜访张方平",
-      "significance": "途经陈州"
-    },
-    {
       "place": "陈州",
       "date": "熙宁三年（1070年）",
       "title": "访张方平",
@@ -43,9 +36,29 @@
       "title": "过陈州访苏辙",
       "description": "苏轼赴杭州途中过陈州访弟苏辙",
       "significance": "兄弟情深"
+    },
+    {
+      "id": "p020-003",
+      "date": "熙宁四年（1071年）七月",
+      "title": "过陈州见张方平",
+      "description": "苏轼过陈州，拜访张方平",
+      "significance": "途经陈州"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "戏子由",
+      "type": "诗",
+      "note": "与苏辙在陈州相聚时作",
+      "year": 1071
+    },
+    {
+      "title": "颍州初别子由",
+      "type": "诗",
+      "note": "离陈州赴颍州时别弟",
+      "year": 1071
+    }
+  ],
   "route_events": {
     "route05": [
       {

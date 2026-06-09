@@ -16,7 +16,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过沂州",
+      "type": "诗",
+      "note": "赴徐州途经沂州",
+      "year": 1077
+    }
+  ],
   "route_events": {
     "route07": [
       {

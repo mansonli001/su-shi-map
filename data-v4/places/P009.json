@@ -49,37 +49,44 @@
     {
       "title": "行香子·过七里濑",
       "type": "词",
-      "description": "但远山长，云山乱，晓山青。"
+      "description": "但远山长，云山乱，晓山青。",
+      "poem_id": "C084"
     },
     {
       "title": "如梦令·有寄",
       "type": "词",
-      "description": "为向东坡传语，人在玉堂深处。"
+      "description": "为向东坡传语，人在玉堂深处。",
+      "poem_id": "C085"
     },
     {
       "title": "沁园春·孤馆灯青",
       "type": "词",
-      "description": "用舍由时，行藏在我，袖手何妨闲处看。"
+      "description": "用舍由时，行藏在我，袖手何妨闲处看。",
+      "poem_id": "C086"
     },
     {
       "title": "西江月·坐客见和",
       "type": "词",
-      "description": "归来仍是布衣身，富贵于予何有。"
+      "description": "归来仍是布衣身，富贵于予何有。",
+      "poem_id": "C087"
     },
     {
       "title": "行香子·清夜无尘",
       "type": "词",
-      "description": "几时归去，作个闲人。"
+      "description": "几时归去，作个闲人。",
+      "poem_id": "C088"
     },
     {
       "title": "洞仙歌·江南腊尽",
       "type": "词",
-      "description": "细腰肢自有入格风流。"
+      "description": "细腰肢自有入格风流。",
+      "poem_id": "C089"
     },
     {
       "title": "西江月·夜行黄沙道中",
       "type": "词",
-      "description": "稻花香里说丰年，听取蛙声一片。"
+      "description": "稻花香里说丰年，听取蛙声一片。",
+      "poem_id": "C090"
     }
   ],
   "route_events": {

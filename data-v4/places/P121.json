@@ -127,5 +127,13 @@
       "description": "绵州名楼，苏轼出蜀途经或曾登临",
       "type": "古迹"
     }
+  ],
+  "global_works": [
+    {
+      "title": "绵州",
+      "type": "诗",
+      "note": "出蜀途经绵州",
+      "year": 1056
+    }
   ]
 }

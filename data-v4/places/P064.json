@@ -24,7 +24,14 @@
       "significance": "贬谪中转"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过洪州",
+      "type": "诗",
+      "note": "离黄州赴汝州途经洪州",
+      "year": 1084
+    }
+  ],
   "route_events": {
     "R18": {
       "duration": "1094年江南中转重镇",

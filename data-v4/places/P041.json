@@ -25,13 +25,6 @@
   ],
   "global_events": [
     {
-      "date": "元祐四年（1089年）",
-      "title": "杭州知州",
-      "description": "苏轼第二次任杭州知州",
-      "significance": "route14",
-      "id": "p041-evt-001"
-    },
-    {
       "date": "熙宁四年（1071年）",
       "title": "游飞来峰",
       "description": "苏轼游览飞来峰，作《游灵隐寺戏赠开轩李居士》",
@@ -39,28 +32,31 @@
       "id": "p041-evt-002"
     },
     {
-      "id": "p041-003",
-      "date": "1072年",
-      "title": "游飞来峰",
-      "description": "苏轼游飞来峰作'不畏浮云遮望眼，自缘身在最高层'",
-      "significance": "名句出处"
+      "date": "元祐四年（1089年）",
+      "title": "杭州知州",
+      "description": "苏轼第二次任杭州知州",
+      "significance": "route14",
+      "id": "p041-evt-001"
     }
   ],
   "global_works": [
     {
       "title": "祭欧阳文忠公文",
       "type": "文",
-      "description": "民有父母，国有蓍龟，斯文有传，学者有师。"
+      "description": "民有父母，国有蓍龟，斯文有传，学者有师。",
+      "poem_id": "W003"
     },
     {
       "title": "范文正公文集序",
       "type": "文",
-      "description": "韩、范、富、欧阳，此四人者，人杰也。"
+      "description": "韩、范、富、欧阳，此四人者，人杰也。",
+      "poem_id": "W004"
     },
     {
       "title": "点绛唇·红杏飘香",
       "type": "词",
-      "description": "红杏飘香，柳含烟翠拖轻缕。"
+      "description": "红杏飘香，柳含烟翠拖轻缕。",
+      "poem_id": "C001"
     }
   ],
   "route_events": {},

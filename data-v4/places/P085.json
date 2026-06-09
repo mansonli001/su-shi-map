@@ -3,8 +3,8 @@
   "ancient_name": "江南运河",
   "modern_name": "江南运河（苏州段）",
   "type": "sight",
-  "lat": 31.30,
-  "lng": 120.60,
+  "lat": 31.3,
+  "lng": 120.6,
   "related_routes": [
     "R14"
   ],
@@ -24,27 +24,32 @@
     {
       "title": "临江仙·惠州改过",
       "type": "词",
-      "description": "惠州改过已前非，身世悠悠何可期。"
+      "description": "惠州改过已前非，身世悠悠何可期。",
+      "poem_id": "C106"
     },
     {
       "title": "如梦令·题淮山楼",
       "type": "词",
-      "description": "楼上清风生，消得几番吟。"
+      "description": "楼上清风生，消得几番吟。",
+      "poem_id": "C107"
     },
     {
       "title": "谒金门·今夜雨",
       "type": "词",
-      "description": "今夜雨，打窗稿磗有谁闻。"
+      "description": "今夜雨，打窗稿磗有谁闻。",
+      "poem_id": "C108"
     },
     {
       "title": "减字木兰花·凭窗摸翠",
       "type": "词",
-      "description": "凭窗摸翠，风定池莲自在香。"
+      "description": "凭窗摸翠，风定池莲自在香。",
+      "poem_id": "C109"
     },
     {
       "title": "王进叔所藏画跋尾·赵昌四季芍药",
       "type": "文",
-      "description": "江左风流王谢家，尽携书画到天涯。"
+      "description": "江左风流王谢家，尽携书画到天涯。",
+      "poem_id": "T001"
     }
   ],
   "route_works": {},
@@ -60,8 +65,8 @@
       "description": "苏轼途经江南运河",
       "works": [],
       "importance": "primary",
-      "lat": 31.30,
-      "lng": 120.60,
+      "lat": 31.3,
+      "lng": 120.6,
       "modern_address": "江苏省苏州市姑苏区江南运河",
       "coordinate_source": "manual_corrected",
       "verification_status": "verified",

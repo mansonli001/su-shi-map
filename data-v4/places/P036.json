@@ -3,8 +3,8 @@
   "ancient_name": "登州",
   "modern_name": "蓬莱",
   "type": "official",
-  "lat": 37.4316,
-  "lng": 120.7606,
+  "lat": 37.824795,
+  "lng": 120.752923,
   "related_routes": [
     "R12",
     "R13"
@@ -30,11 +30,11 @@
   ],
   "global_events": [
     {
-      "id": "dz-001",
+      "id": "p036-001",
       "date": "元丰八年（1085年）",
-      "title": "任登州知州",
-      "description": "苏轼任登州知州",
-      "significance": "登州仕途"
+      "title": "任登州知州仅五日",
+      "description": "苏轼到登州任知州，仅五日即被召回",
+      "significance": "任登州知州"
     },
     {
       "id": "p036-006",
@@ -109,12 +109,14 @@
     {
       "title": "齐鲁古道怀古系列",
       "type": "诗",
-      "description": "我来千载下，吊古增悲捣。"
+      "description": "我来千载下，吊古增悲捣。",
+      "poem_id": "S113"
     },
     {
       "title": "惠崇春江晚景二首",
       "type": "诗",
-      "description": "竹外桃花三两枝，春江水暖鸭先知。"
+      "description": "竹外桃花三两枝，春江水暖鸭先知。",
+      "poem_id": "S114"
     }
   ],
   "route_events": {
@@ -253,7 +255,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.238Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "corrected_from_poi",
   "amap_address": "山东省烟台市蓬莱区",
   "coords_updated_at": "2026-06-01T10:17:04.313Z",
   "duration_summary": {

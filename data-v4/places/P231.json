@@ -36,37 +36,44 @@
     {
       "title": "减字木兰花·春月",
       "type": "词",
-      "description": "春庭月午，摇荡香醪光欲舞。"
+      "description": "春庭月午，摇荡香醪光欲舞。",
+      "poem_id": "C091"
     },
     {
       "title": "虞美人·有美堂赠周嘉",
       "type": "词",
-      "description": "使君能得几回来，便使尊前醉倒且徘徊。"
+      "description": "使君能得几回来，便使尊前醉倒且徘徊。",
+      "poem_id": "C092"
     },
     {
       "title": "虞美人·波声拍枕长河晓",
       "type": "词",
-      "description": "清风徐来，水光潋滟，山色空蒙雨亦奇。"
+      "description": "清风徐来，水光潋滟，山色空蒙雨亦奇。",
+      "poem_id": "C093"
     },
     {
       "title": "蝶恋花·昨夜秋风来万里",
       "type": "词",
-      "description": "心似双丝网，中有千千结。"
+      "description": "心似双丝网，中有千千结。",
+      "poem_id": "C094"
     },
     {
       "title": "南乡子·用韵和赵文",
       "type": "词",
-      "description": "往事回头已隔年，故人相见尚青眸。"
+      "description": "往事回头已隔年，故人相见尚青眸。",
+      "poem_id": "C095"
     },
     {
       "title": "醉落魄·轻云微月",
       "type": "词",
-      "description": "轻云微月，淡烟流水声幽绝。"
+      "description": "轻云微月，淡烟流水声幽绝。",
+      "poem_id": "C096"
     },
     {
       "title": "水龙吟·次韵林楙于商于驿和季良韵",
       "type": "词",
-      "description": "古来成败虚无尽，傍早方知我不疑。"
+      "description": "古来成败虚无尽，傍早方知我不疑。",
+      "poem_id": "C097"
     }
   ],
   "route_works": {},

@@ -3,8 +3,8 @@
   "ancient_name": "廉州白石镇",
   "modern_name": "广西合浦白石镇",
   "type": "around",
-  "lat": 21.662,
-  "lng": 109.198,
+  "lat": 21.7012,
+  "lng": 109.665029,
   "related_routes": [
     "R19"
   ],
@@ -165,7 +165,7 @@
   "essence": "北部湾滨海人文古镇",
   "last_updated": "2026-06-01T10:22:05.268Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "corrected_from_poi",
   "amap_address": "广西壮族自治区北海市合浦县",
   "coords_updated_at": "2026-06-01T10:17:04.318Z",
   "duration_summary": {

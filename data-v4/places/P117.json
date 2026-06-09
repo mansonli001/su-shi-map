@@ -34,20 +34,6 @@
   ],
   "global_events": [
     {
-      "id": "ms-001",
-      "date": "景祐三年（1037年）十二月十九日",
-      "title": "苏轼出生",
-      "description": "苏轼生于眉山县纱縠行私第",
-      "significance": "北宋文学巨匠诞生"
-    },
-    {
-      "id": "ms-004",
-      "date": "治平三年（1066年）四月",
-      "title": "护送父丧归蜀",
-      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
-      "significance": "回乡守孝"
-    },
-    {
       "place": "眉山",
       "date": "景祐四年（1037年）",
       "title": "苏辙出生",
@@ -56,19 +42,34 @@
       "id": "p117-003"
     },
     {
+      "id": "p117-002",
+      "date": "景祐三年（1037年）十二月十九日",
+      "title": "苏轼出生",
+      "description": "苏轼生于眉山县纱縠行私第",
+      "significance": "北宋文学巨匠诞生"
+    },
+    {
       "place": "眉山",
       "date": "庆历七年（1047年）",
       "title": "苏序去世",
       "description": "苏轼祖父苏序去世",
       "significance": "family",
       "id": "p117-004"
+    },
+    {
+      "id": "p117-004",
+      "date": "治平三年（1066年）四月",
+      "title": "护送父丧归蜀",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
+      "significance": "回乡守孝"
     }
   ],
   "global_works": [
     {
       "title": "初发嘉州",
       "type": "诗",
-      "description": "苏轼出蜀时写玻璃江景"
+      "description": "苏轼出蜀时写玻璃江景",
+      "poem_id": "S002"
     }
   ],
   "route_events": {

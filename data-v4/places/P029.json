@@ -24,42 +24,50 @@
     {
       "title": "寓居定慧院",
       "type": "诗",
-      "description": "独立高楼明月夜，起来独自绕阶行。"
+      "description": "独立高楼明月夜，起来独自绕阶行。",
+      "poem_id": "S079"
     },
     {
       "title": "海棠",
       "type": "诗",
-      "description": "只恐夜深花睡去，故烧高烛照红妆。"
+      "description": "只恐夜深花睡去，故烧高烛照红妆。",
+      "poem_id": "S080"
     },
     {
       "title": "春宵",
       "type": "诗",
-      "description": "春宵一刻值千金，花有清香月有阴。"
+      "description": "春宵一刻值千金，花有清香月有阴。",
+      "poem_id": "S083"
     },
     {
       "title": "过江州岸回望庐山",
       "type": "诗",
-      "description": "不知眼界窄于此，青山当户难再得。"
+      "description": "不知眼界窄于此，青山当户难再得。",
+      "poem_id": "S084"
     },
     {
       "title": "书王定国所藏王晋卿画",
       "type": "诗",
-      "description": "此身非我有，动辄怀归田。"
+      "description": "此身非我有，动辄怀归田。",
+      "poem_id": "S085"
     },
     {
       "title": "书李世南所画秋景二首",
       "type": "诗",
-      "description": "扁舟一棹归何处，家在江南黄叶村。"
+      "description": "扁舟一棹归何处，家在江南黄叶村。",
+      "poem_id": "S169"
     },
     {
       "title": "和秦太虚梅花",
       "type": "诗",
-      "description": "东风吹暖不胜花，十日雪消残雪消。"
+      "description": "东风吹暖不胜花，十日雪消残雪消。",
+      "poem_id": "S087"
     },
     {
       "title": "次韵秦太虚见戏",
       "type": "诗",
-      "description": "青春不觉老来侵，白发从他绕鬓深。"
+      "description": "青春不觉老来侵，白发从他绕鬓深。",
+      "poem_id": "S173"
     }
   ],
   "route_works": {},

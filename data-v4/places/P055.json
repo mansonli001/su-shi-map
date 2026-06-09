@@ -23,10 +23,10 @@
   "periods": [],
   "global_events": [
     {
-      "id": "ha-001",
+      "id": "p055-001",
       "date": "熙宁七年（1074年）",
-      "title": "过海州",
-      "description": "苏轼北行途经海州",
+      "title": "过海州赴密州",
+      "description": "苏轼北行途经海州，赴密州任知州",
       "significance": "途经海州"
     },
     {
@@ -37,7 +37,14 @@
       "significance": "赴任途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "海州观海",
+      "type": "诗",
+      "note": "赴密州途经海州观海",
+      "year": 1074
+    }
+  ],
   "route_events": {
     "route06": [
       {

@@ -52,37 +52,38 @@
     {
       "title": "山村五绝",
       "type": "诗",
-      "description": "竹篱茅屋趁溪斜，春入山村处处花。"
+      "description": "竹篱茅屋趁溪斜，春入山村处处花。",
+      "poem_id": "S045"
     },
     {
       "title": "次韵杨公济奉议梅花十首",
       "type": "诗",
-      "description": "玉骨那愁瘴雾，冰姿自有仙风。"
+      "description": "玉骨那愁瘴雾，冰姿自有仙风。",
+      "poem_id": "S046"
     },
     {
       "title": "送文与可出守陵州",
       "type": "诗",
-      "description": "壁上墨君不解语，见之尚可消百忧。"
-    },
-    {
-      "title": "次韵杨公济奉议梅花十首之二",
-      "type": "诗",
-      "description": "玉骨那愁瘴雾，冰姿自有仙风。"
+      "description": "壁上墨君不解语，见之尚可消百忧。",
+      "poem_id": "S047"
     },
     {
       "title": "次韵仲殊雪中游西湖",
       "type": "诗",
-      "description": "西湖雪后，风景依稀。"
+      "description": "西湖雪后，风景依稀。",
+      "poem_id": "S049"
     },
     {
       "title": "陪欧阳公燕西湖",
       "type": "诗",
-      "description": "谓公方壮须似雪，谓公已老光浮颊。"
+      "description": "谓公方壮须似雪，谓公已老光浮颊。",
+      "poem_id": "S123"
     },
     {
       "title": "有美堂暴雨",
       "type": "诗",
-      "description": "游人脚底一声雷，满座顽云拨不开。"
+      "description": "游人脚底一声雷，满座顽云拨不开。",
+      "poem_id": "S124"
     }
   ],
   "route_events": {

@@ -83,174 +83,6 @@
       "id": "p039-025"
     },
     {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
       "place": "定州",
       "date": "元祐八年（1093年）",
       "title": "整顿军纪",
@@ -326,7 +158,12 @@
     {
       "title": "定州中山怀古",
       "type": "诗",
-      "description": ""
+      "description": "",
+      "poem_id": "S131"
+    },
+    {
+      "title": "定州谢到任表",
+      "type": "文"
     }
   ]
 }

@@ -95,42 +95,50 @@
     {
       "title": "答陈述古二首",
       "type": "诗",
-      "description": "能使人间风浪静，一时天下颂清平。"
+      "description": "能使人间风浪静，一时天下颂清平。",
+      "poem_id": "S172"
     },
     {
       "title": "次韵秦太虚见戏",
       "type": "诗",
-      "description": "青春不觉老来侵，白发从他绕鬓深。"
+      "description": "青春不觉老来侵，白发从他绕鬓深。",
+      "poem_id": "S173"
     },
     {
       "title": "次韵陈述古",
       "type": "诗",
-      "description": "年来诗券压还醉，检点尤惊老更宜。"
+      "description": "年来诗券压还醉，检点尤惊老更宜。",
+      "poem_id": "S174"
     },
     {
       "title": "自用前韵",
       "type": "诗",
-      "description": "平生到处自知游，晚节都行的小低头。"
+      "description": "平生到处自知游，晚节都行的小低头。",
+      "poem_id": "S175"
     },
     {
       "title": "金山题像",
       "type": "诗",
-      "description": "心似已灰之木，身如不系之舟。"
+      "description": "心似已灰之木，身如不系之舟。",
+      "poem_id": "S176"
     },
     {
       "title": "次韵法芝举旧诗",
       "type": "诗",
-      "description": "春来何处归，春去何所之。"
+      "description": "春来何处归，春去何所之。",
+      "poem_id": "S177"
     },
     {
       "title": "次韵林子中王彦祖",
       "type": "诗",
-      "description": "我本世间飘荡客，此心安处是吾乡。"
+      "description": "我本世间飘荡客，此心安处是吾乡。",
+      "poem_id": "S178"
     },
     {
       "title": "次韵林子中见寄",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S179"
     }
   ]
 }

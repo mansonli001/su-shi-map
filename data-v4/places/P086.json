@@ -60,8 +60,8 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-08T00:00:00.000Z",
-  "lat": 31.30,
-  "lng": 120.60,
+  "lat": 31.3,
+  "lng": 120.6,
   "coordinate_source": "manual_corrected",
   "sxzk_address": "江苏省苏州市姑苏区江南运河",
   "sub_places": [
@@ -73,8 +73,8 @@
       "description": "苏轼途经江南运河全线",
       "works": [],
       "importance": "primary",
-      "lat": 31.30,
-      "lng": 120.60,
+      "lat": 31.3,
+      "lng": 120.6,
       "modern_address": "江苏省苏州市姑苏区江南运河",
       "coordinate_source": "manual_corrected",
       "verification_status": "verified",

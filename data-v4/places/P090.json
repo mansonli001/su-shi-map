@@ -36,55 +36,34 @@
   ],
   "global_works": [
     {
-      "id": "jl-w001",
-      "title": "泊船瓜洲",
-      "content": "京口瓜洲一水间，钟山只隔数重山。春风又绿江南岸，明月何时照我还。",
-      "excerpt": "春风又绿江南岸，明月何时照我还。",
-      "type": "诗",
-      "date": "元丰七年（1084年）",
-      "location": "金陵/江宁",
-      "background": "泊船瓜洲",
-      "poem_id": "S109"
-    },
-    {
-      "title": "题西林壁",
-      "type": "诗",
-      "description": "不识庐山真面目，只缘身在此山中。"
-    },
-    {
       "title": "庐山诸寺题咏诗",
       "type": "诗",
-      "description": "山行不用借藤梯，瀑布声中到麻溪。"
+      "description": "山行不用借藤梯，瀑布声中到麻溪。",
+      "poem_id": "S099"
     },
     {
       "title": "金陵怀古杂咏",
       "type": "诗",
-      "description": "千古兴亡一梦中，江山满目泪无穷。"
-    },
-    {
-      "title": "题西林壁二首",
-      "type": "诗",
-      "description": "不识庐山真面目，只缘身在此山中。"
+      "description": "千古兴亡一梦中，江山满目泪无穷。",
+      "poem_id": "S100"
     },
     {
       "title": "庐山二胜",
       "type": "诗",
-      "description": "乱石散霜雪，古寺伴青松。"
-    },
-    {
-      "title": "开先漱玉亭",
-      "type": "诗",
-      "description": "乱石散霜雪，古寺伴青松。"
+      "description": "乱石散霜雪，古寺伴青松。",
+      "poem_id": "S104"
     },
     {
       "title": "栖贤三峡桥",
       "type": "诗",
-      "description": "吾闻三峡桥，天下称奇绝。"
+      "description": "吾闻三峡桥，天下称奇绝。",
+      "poem_id": "S106"
     },
     {
       "title": "初入庐山",
       "type": "诗",
-      "description": "要识庐山面，他年是故人。"
+      "description": "要识庐山面，他年是故人。",
+      "poem_id": "S108"
     }
   ],
   "route_events": {

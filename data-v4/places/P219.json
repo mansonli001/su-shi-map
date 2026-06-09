@@ -53,7 +53,8 @@
     {
       "title": "和子由渑池怀旧",
       "type": "诗",
-      "description": "苏轼经长安忆渑池旧事，'人生到处知何似'"
+      "description": "苏轼经长安忆渑池旧事，'人生到处知何似'",
+      "poem_id": "S013"
     }
   ],
   "route_events": {

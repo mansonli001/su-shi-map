@@ -20,18 +20,18 @@
   ],
   "global_events": [
     {
+      "id": "p030-004",
+      "date": "1055年",
+      "title": "游大慈寺观壁画",
+      "description": "苏轼游成都大慈寺观赏壁画，留下题咏",
+      "significance": "艺术鉴赏"
+    },
+    {
       "date": "嘉祐元年（1056年）",
       "title": "途经成都",
       "description": "苏轼赴京途中停留成都，拜访张方平",
       "significance": "route01",
       "id": "p030-evt-001"
-    },
-    {
-      "date": "治平三年（1066年）",
-      "title": "扶柩过成都",
-      "description": "苏轼兄弟扶父柩回乡途经成都",
-      "significance": "route03",
-      "id": "p030-evt-002"
     },
     {
       "date": "嘉祐元年（1056年）",
@@ -41,11 +41,11 @@
       "id": "p030-evt-003"
     },
     {
-      "id": "p030-004",
-      "date": "1055年",
-      "title": "游大慈寺观壁画",
-      "description": "苏轼游成都大慈寺观赏壁画，留下题咏",
-      "significance": "艺术鉴赏"
+      "date": "治平三年（1066年）",
+      "title": "扶柩过成都",
+      "description": "苏轼兄弟扶父柩回乡途经成都",
+      "significance": "route03",
+      "id": "p030-evt-002"
     }
   ],
   "global_works": [

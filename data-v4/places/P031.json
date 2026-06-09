@@ -19,7 +19,14 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过大庾岭",
+      "type": "诗",
+      "note": "贬惠州过大庾岭时作",
+      "year": 1094
+    }
+  ],
   "route_events": {
     "route18": [
       {
