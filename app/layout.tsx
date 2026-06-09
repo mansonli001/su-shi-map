@@ -7,6 +7,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import AMapScript from '@/components/AMapScript';
 import BottomNav from '@/components/BottomNav';
+import { Analytics } from '@vercel/analytics/next';
 
 const SITE_URL = 'https://su-shi.starfluxes.com';
 
@@ -122,6 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         {/* 全局底部导航：所有页面共用，无例外（除特例全屏弹窗） */}
         <BottomNav />
+        <Analytics />
       </body>
     </html>
   );
