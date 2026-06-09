@@ -232,7 +232,7 @@ export const achievements: Achievement[] = [
     id: 'banish-004',
     name: '贬谪三地行者',
     emoji: '行',
-    icon: '', // 合成成就，暂空，使用emoji显示
+    icon: '贬谪三地行者',
     color: '#C82333',
     glow: 'rgba(200, 35, 51, 0.4)',
     desc: '集齐黄州、惠州、儋州全部成就自动解锁',
@@ -591,8 +591,6 @@ export function evaluateAchievements(
   for (const ach of achievements) {
     let current = 0;
     let target = 1;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    let isUnlocked = false;
 
     // 隐藏成就：未解锁时返回模糊状态
     if (ach.isHidden && !unlocked.includes(ach.id)) {
@@ -604,7 +602,6 @@ export function evaluateAchievements(
     if (ach.isSynthesis && ach.synthesisFrom) {
       const allChildrenUnlocked = ach.synthesisFrom.every(childId => unlocked.includes(childId));
       if (allChildrenUnlocked) {
-        isUnlocked = true;
         unlocked.push(ach.id);
       }
       progress[ach.id] = { current: allChildrenUnlocked ? 1 : 0, target: 1 };
@@ -616,130 +613,130 @@ export function evaluateAchievements(
       case 'grow-001': // 初踏苏途：累计打卡 >= 3
         current = totalChecked;
         target = 3;
-        if (totalChecked >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        if (totalChecked >= 3) { unlocked.push(ach.id); }
         break;
 
       case 'grow-002': // 眉山故人：眉山全点位打卡
         current = specialPlaces.meishan.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.meishan.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       case 'grow-003': // 宦途起步：凤翔全点位打卡
         current = specialPlaces.fengxiang.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.fengxiang.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       case 'grow-004': // 行路起步：覆盖 >= 3 个不同省份
         current = provinceCount;
         target = 3;
-        if (provinceCount >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        if (provinceCount >= 3) { unlocked.push(ach.id); }
         break;
 
       case 'grow-005': // 一城漫游：同一城市内打卡 >= 5 个点位
         current = maxCityCheckins;
         target = 5;
-        if (maxCityCheckins >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        if (maxCityCheckins >= 5) { unlocked.push(ach.id); }
         break;
 
       case 'grow-006': // 宦游四方：打卡 >= 20 且覆盖 >= 5 省
         current = provinceCount; // 以省份数为进度
         target = 5;
-        if (totalChecked >= 20 && provinceCount >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        if (totalChecked >= 20 && provinceCount >= 5) { unlocked.push(ach.id); }
         break;
 
       case 'grow-007': // 半生起落：打卡 >= 50 且包含汴京
         current = totalChecked;
         target = 50;
-        if (totalChecked >= 50 && hasBianjing) { isUnlocked = true; unlocked.push(ach.id); }
+        if (totalChecked >= 50 && hasBianjing) { unlocked.push(ach.id); }
         break;
 
       case 'grow-008': // 七日同游：连续7天打卡
         current = consecutiveDays;
         target = 7;
-        if (consecutiveDays >= 7) { isUnlocked = true; unlocked.push(ach.id); }
+        if (consecutiveDays >= 7) { unlocked.push(ach.id); }
         break;
 
       case 'grow-009': // 月月同游：连续30天打卡
         current = consecutiveDays;
         target = 30;
-        if (consecutiveDays >= 30) { isUnlocked = true; unlocked.push(ach.id); }
+        if (consecutiveDays >= 30) { unlocked.push(ach.id); }
         break;
 
       case 'grow-010': // 半生行遍：累计打卡 >= 80
         current = totalChecked;
         target = 80;
-        if (totalChecked >= 80) { isUnlocked = true; unlocked.push(ach.id); }
+        if (totalChecked >= 80) { unlocked.push(ach.id); }
         break;
 
       case 'grow-011': // 集大成者：累计打卡 >= 120
         current = totalChecked;
         target = 120;
-        if (totalChecked >= 120) { isUnlocked = true; unlocked.push(ach.id); }
+        if (totalChecked >= 120) { unlocked.push(ach.id); }
         break;
 
       // ===== 贬谪专题 =====
       case 'banish-001': // 黄州客居
         current = specialPlaces.huangzhou.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.huangzhou.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       case 'banish-002': // 岭南逐客
         current = specialPlaces.huizhou.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.huizhou.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       case 'banish-003': // 天涯儋州
         current = specialPlaces.danzhou.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.danzhou.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       // ===== 江南专题 =====
       case 'jiangnan-001': // 西湖闲客：杭州西湖全系列
         current = specialPlaces.jiangnan.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.jiangnan.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       case 'jiangnan-002': // 江南行舟：杭州+湖州+扬州
         current = specialPlaces.jiangnan.filter(id => checkedIds.has(id)).length;
         target = Math.max(specialPlaces.jiangnan.length, 1);
-        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        if (current >= target) { unlocked.push(ach.id); }
         break;
 
       // ===== 诗词珍藏 =====
       case 'poem-001': // 美食墨客
         current = favoritePoemIds.size;
         target = 8;
-        if (favoritePoemIds.size >= 8) { isUnlocked = true; unlocked.push(ach.id); }
+        if (favoritePoemIds.size >= 8) { unlocked.push(ach.id); }
         break;
 
       case 'poem-002': // 中秋望月
         current = favoritePoemIds.size;
         target = 3;
-        if (favoritePoemIds.size >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        if (favoritePoemIds.size >= 3) { unlocked.push(ach.id); }
         break;
 
       case 'poem-003': // 赤壁诗魂
         current = favoritePoemIds.size;
         target = 3;
-        if (favoritePoemIds.size >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        if (favoritePoemIds.size >= 3) { unlocked.push(ach.id); }
         break;
 
       case 'poem-004': // 风雨定风波
         current = favoritePoemIds.size;
         target = 5;
-        if (favoritePoemIds.size >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        if (favoritePoemIds.size >= 5) { unlocked.push(ach.id); }
         break;
 
       case 'poem-005': // 千首拾珍
         current = favoritePoemIds.size;
         target = 100;
-        if (favoritePoemIds.size >= 100) { isUnlocked = true; unlocked.push(ach.id); }
+        if (favoritePoemIds.size >= 100) { unlocked.push(ach.id); }
         break;
 
       // ===== 隐秘彩蛋 =====
@@ -748,7 +745,7 @@ export function evaluateAchievements(
           const hasRainyNight = checkinDates.some(d => isRainyNight(d));
           current = hasRainyNight ? 1 : 0;
           target = 1;
-          if (hasRainyNight) { isUnlocked = true; unlocked.push(ach.id); }
+          if (hasRainyNight) { unlocked.push(ach.id); }
         }
         break;
 
@@ -762,7 +759,7 @@ export function evaluateAchievements(
           const hasSolarTerm = checkinDates.some(d => isSolarTermDay(d));
           current = hasSolarTerm ? 1 : 0;
           target = 1;
-          if (hasSolarTerm) { isUnlocked = true; unlocked.push(ach.id); }
+          if (hasSolarTerm) { unlocked.push(ach.id); }
         }
         break;
 
@@ -771,7 +768,7 @@ export function evaluateAchievements(
         if (ach.minPlaces) {
           current = totalChecked;
           target = ach.minPlaces;
-          if (totalChecked >= ach.minPlaces) { isUnlocked = true; unlocked.push(ach.id); }
+          if (totalChecked >= ach.minPlaces) { unlocked.push(ach.id); }
         }
         break;
     }
@@ -862,6 +859,7 @@ export const ACHIEVEMENT_IMAGES: Record<string, string> = {
   '雨夜读苏': '/achievements/雨夜读苏.jpg',
   '生辰同游': '/achievements/生辰同游.jpg',
   '节气同游': '/achievements/节气同游.jpg',
+  '贬谪三地行者': '/achievements/贬谪三地行者.jpg',
 };
 
 /**

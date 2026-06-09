@@ -201,6 +201,15 @@ export default function AchievementWall() {
                       />
                     )}
 
+                    {/* 无插画兜底：显示成就名首字 */}
+                    {!imagePath && !isHiddenAndLocked && (
+                      <div className="absolute inset-0 bg-[#f4f0ea] flex items-center justify-center">
+                        <span className={`font-wenkai text-[#c8c0b0] ${isSingle ? 'text-6xl' : 'text-5xl'}`}>
+                          {ach.name[0]}
+                        </span>
+                      </div>
+                    )}
+
                     {/* 隐藏成就：问号背景 */}
                     {isHiddenAndLocked && (
                       <div className="absolute inset-0 bg-[#f0ece4] flex items-center justify-center">
