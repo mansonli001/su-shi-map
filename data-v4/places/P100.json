@@ -50,7 +50,8 @@
     {
       "title": "廉州留别",
       "type": "诗",
-      "description": "苏轼北归经廉州留别之作"
+      "description": "苏轼北归经廉州留别之作",
+      "poem_id": "S272"
     }
   ],
   "route_events": {

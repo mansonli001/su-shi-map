@@ -24,7 +24,15 @@
       "significance": "殷墟故地"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过相州",
+      "type": "诗",
+      "note": "赴京途经相州",
+      "year": 1056,
+      "poem_id": "S324"
+    }
+  ],
   "route_events": {
     "R17": {
       "duration": "1094年河北古驿首站",

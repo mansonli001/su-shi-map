@@ -107,12 +107,19 @@
     {
       "title": "陈桥驿",
       "type": "诗",
-      "description": "却笑纷纷青史事，不如杯酒自谈天。"
+      "description": "却笑纷纷青史事，不如杯酒自谈天。",
+      "poem_id": "S053"
     },
     {
       "title": "宿州次韵刘泾",
       "type": "诗",
-      "description": "我欲归休瑟渐希，舞雩何日著春衣。"
+      "description": "我欲归休瑟渐希，舞雩何日著春衣。",
+      "poem_id": "S054"
+    },
+    {
+      "title": "江城子·乙卯正月二十日夜记梦",
+      "type": "词",
+      "poem_id": "C004"
     }
   ],
   "route_events": {

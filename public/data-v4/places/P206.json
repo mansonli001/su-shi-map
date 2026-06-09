@@ -29,7 +29,8 @@
     {
       "title": "宜兴田园",
       "type": "诗",
-      "description": "苏轼游宜兴田园所作"
+      "description": "苏轼游宜兴田园所作",
+      "poem_id": "S341"
     }
   ],
   "route_events": {

@@ -1,5 +1,177 @@
 # 苏轼地图项目变更日志
 
+---
+
+### 84. 时间线事件去重 + 作品poem_id全覆盖
+
+**问题1**：常州(P017)、定州(P039)、黄州(P072)等地点时间线存在语义重复事件
+- 常州：5个事件中有"病逝常州"+"定居常州"+"抵达常州"重复 → 合并为3个
+- 定州：3个事件"定州知州"+"整顿军纪"+"知定州整军纪"重复 → 合并为1个
+- 黄州：9个事件中有1080年3个、1082年4个重复 → 合并为4个
+
+**问题2**：596个作品中有175个无poem_id，点击无法跳转详情页
+
+**问题3**：前端事件去重逻辑不够强，"到常州"和"抵达常州"标题不同但语义相同未被去重
+
+**修复**：
+- 数据层：合并3个地点的重复global_events，保留最完整描述
+- 数据层：批量创建161个新poem详情文件(S200-S360+)，回填poem_id，覆盖率421/596→596/596(100%)
+- 代码层：PlaceCard.tsx增强去重逻辑，标题归一化（去除"到/抵达/赴/至/过"等动词），同年+同归一化标题视为重复
+- 新增`scripts/create-missing-poems.js`批量创建脚本
+
+**验证**：
+- P017常州3事件、P039定州1事件、P072黄州4事件，均无重复
+- poem_id覆盖率100%，新建poem文件HTTP 200可访问
+- 数据同步一致性检查通过
+
+---
+
+### 83. 数据同步修复（关键BUG）
+
+**问题**：前端从 `public/data-v4/` 读取数据，但数据更新只修改了 `data-v4/` 源目录，导致前端显示旧数据
+
+**根因**：项目存在两套数据目录（`data-v4/` 源数据 + `public/data-v4/` 前端读取），修改源数据后未同步到 public 目录
+
+**修复**：
+- 全量同步 `data-v4/` → `public/data-v4/`（places/routes/poems/meta/index 等全部文件）
+- 新增 `scripts/sync-data.js` 数据同步脚本，支持 `--check` 仅检查模式
+- 同步后验证：234个places + 20个routes + poems 全部 MD5 一致
+- 前端 HTTP 返回数据已确认为最新版本
+
+**影响**：此BUG导致今天所有数据更新（poem_id匹配、主地点作品补充等）在前端不可见
+
+---
+
+## 2026-06-09 (晚间) — Task 1-8 功能实现 + PWA优化
+
+---
+
+### 73. Task 1: 打卡持久化（localStorage + 匿名UUID）
+
+**问题**：打卡数据未持久化，刷新后丢失；SSR环境下localStorage访问报错
+
+**修复**：
+- `lib/uid.ts`：添加 `typeof window` SSR 防护，服务端返回空字符串
+- `lib/store.ts`：Zustand + persist 中间件实现打卡数据 localStorage 持久化
+- 首次访问生成 `crypto.randomUUID()` 匿名ID，永久保留
+- 地图页打卡按钮状态实时切换（已打卡/未打卡）
+- Profile 页从 store 读取数据，渲染打卡数、收藏数、成就数
+
+---
+
+### 74. Task 2: 成就系统激活
+
+**问题**：25个成就全部锁定，无触发逻辑；省份覆盖、城市多点等判断不准确
+
+**修复**：
+- `lib/achievements.ts`：重写 `resolveSpecialPlaces` 函数，基于 `modernName` 精确提取眉山/凤翔/黄州/惠州/儋州/汴京等城市地点ID
+- 重写 `evaluateAchievements` 函数，使用 switch-case 为每个成就ID实现精确解锁条件：
+  - grow-002 眉山故人：眉山全点位打卡
+  - grow-003 宦途起步：凤翔全点位打卡
+  - grow-004 行路起步：覆盖>=3个不同省份
+  - grow-005 一城漫游：同一城市>=5个点位
+  - grow-006 宦游四方：打卡>=20 且省份>=5
+  - grow-007 半生起落：打卡>=50 且包含汴京
+  - 连续打卡天数计算（七日同游/月月同游）
+  - 合成成就（贬谪三地行者）检查子成就全部解锁
+  - 隐藏成就未解锁时显示模糊状态
+- `components/AchievementWall.tsx`：进度条改用 `evaluateAchievements` 统一数据源
+- 打卡后自动触发 `checkAndUnlockAchievements`
+
+---
+
+### 75. Task 3: 分享卡片生成 v2.0
+
+**问题**：分享海报尺寸过小（375×667），缺少地点诗句、副标题等关键信息
+
+**修复**：
+- `components/SharePoster.tsx` 全面升级：
+  - 尺寸改为 750×1080px（竖版，适合微信/小红书）
+  - 背景改为宣纸色 #F5F0E8
+  - 打卡卡片增加：地点大字、副标题（duration）、诗句（famous quote）、日期、打卡数
+  - 增加预览 Modal（生成后先预览，再保存/分享）
+  - 保存按钮 + 系统分享按钮 + 关闭按钮
+  - 二维码占位区域 + 网址
+- `components/place/PlaceCard.tsx`：传入 subtitle、poem、poemSrc 参数
+
+---
+
+### 76. Task 4: 地点数据QA脚本
+
+**新增**：`scripts/qa-locations.js`（Node.js版）
+
+**功能**：
+- 扫描234个地点数据，检查7类问题：
+  - empty_name：地点名为空
+  - missing_coord：缺少lat/lng坐标
+  - coord_out_of_range：坐标超出中国范围（3°N-53°N, 73°E-135°E）
+  - short_description：描述过短（<=20字）
+  - no_poems：无关联诗词
+  - no_modern_visit / no_poi_coord / no_poi_name：导航信息缺失
+  - poi_mismatch：POI坐标与地点坐标偏差>10km
+  - sub_coord_dup：子地点坐标重复
+- 输出 `qa-report.csv`，包含地点ID、名称、问题类型、描述、当前值
+
+**扫描结果**：371个问题（no_famous_line:181, sub_coord_dup:165, poi_mismatch:15, no_poems:9, no_poi_coord:1）
+
+---
+
+### 77. Task 5: 移动端核心路径测试清单
+
+**验证结果**（代码层面）：
+- 路径A（新用户首次体验）：首页→地图→地点卡片→高德导航→打卡→Profile ✅
+- 路径B（PWA安装）：manifest.json 存在，SW 已启用 ✅
+- 路径C（分享卡片）：SharePoster 组件已实现 ✅
+
+---
+
+### 78. Task 6: PWA安装引导优化
+
+**修复**：
+- `next.config.js`：Service Worker 从 `disable: true` 改为 `disable: process.env.NODE_ENV === 'development'`（生产环境启用）
+- `components/PWAInstallBanner.tsx` v2.0：
+  - 从底部 fixed 改为顶部 fixed 提示条，不干扰底部导航和内容
+  - 添加 transform 动画平滑出入
+  - 延迟2秒显示，避免首屏加载干扰
+  - 关闭后 localStorage 记录，不再显示
+  - 仅在 iOS Safari 且未 standalone 时显示
+
+---
+
+### 79. Task 7: Vercel Analytics 接入
+
+**新增**：
+- `pnpm add @vercel/analytics`
+- `app/layout.tsx`：添加 `<Analytics />` 组件
+- `lib/store.ts`：打卡事件追踪 `track('checkin', { placeId, placeName, type })`
+
+---
+
+### 80. Task 8: 地点页SEO补全
+
+**新增**：
+- `app/explore/layout.tsx`：地图页独立 metadata（"苏轼足迹地图"）
+- `app/routes/layout.tsx`：路线列表页 metadata（"苏轼行迹路线"）
+- `app/poems/layout.tsx`：诗词库页 metadata（"苏轼诗词库"）
+- `app/profile/layout.tsx`：个人中心页 metadata（"我的足迹"）
+- `app/routes/[id]/layout.tsx`：路线详情页动态 `generateMetadata`（读取路线JSON生成独立title/description/OG）
+- `app/poems/[id]/layout.tsx`：诗词详情页动态 `generateMetadata`（读取诗词JSON生成独立title/description/OG）
+- `app/layout.tsx`：添加 JSON-LD 结构化数据（WebApplication schema）
+- 所有 `<img>` 标签已有 alt 属性
+
+---
+
+### 81. PWA图标更新
+
+**修复**：
+- 使用「初踏苏途」成就图作为新PWA图标源文件
+- 通过 `sips` 生成8个尺寸：72/96/128/144/152/192/384/512px
+- 更新 favicon.ico
+- 生成 maskable-512 版本
+- 512px 版本体积 506KB，各尺寸体积合理
+
+---
+
 ## 2026-06-09 (下午)
 
 ---

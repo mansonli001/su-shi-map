@@ -17,18 +17,18 @@
   "periods": [],
   "global_events": [
     {
-      "date": "嘉祐年间",
-      "title": "巡行宝鸡",
-      "description": "苏轼任凤翔签判时巡行宝鸡",
-      "significance": "route02",
-      "id": "p019-evt-001"
-    },
-    {
       "id": "p019-002",
       "date": "1061年",
       "title": "经陈仓赴凤翔",
       "description": "苏轼赴凤翔签判任途经陈仓",
       "significance": "赴任途经"
+    },
+    {
+      "date": "嘉祐年间",
+      "title": "巡行宝鸡",
+      "description": "苏轼任凤翔签判时巡行宝鸡",
+      "significance": "route02",
+      "id": "p019-evt-001"
     }
   ],
   "global_works": [
@@ -36,7 +36,8 @@
       "title": "陈仓",
       "type": "诗",
       "note": "途经陈仓所作",
-      "year_estimate": 1061
+      "year_estimate": 1061,
+      "poem_id": "S211"
     }
   ],
   "route_events": {

@@ -24,42 +24,50 @@
     {
       "title": "南堂五首",
       "type": "诗",
-      "description": "南堂独每日多幽事，漫速抽簪白昼长。"
+      "description": "南堂独每日多幽事，漫速抽簪白昼长。",
+      "poem_id": "S089"
     },
     {
       "title": "琴操",
       "type": "诗",
-      "description": "归去来兮归去来，故乡无此好山色。"
+      "description": "归去来兮归去来，故乡无此好山色。",
+      "poem_id": "S090"
     },
     {
       "title": "琴诗",
       "type": "诗",
-      "description": "若言琴上有琴声，放在匣中何不鸣？"
+      "description": "若言琴上有琴声，放在匣中何不鸣？",
+      "poem_id": "S092"
     },
     {
       "title": "次韵孔毅父集古人句见赠五首",
       "type": "诗",
-      "description": "集古人句，字字珠玑。"
+      "description": "集古人句，字字珠玑。",
+      "poem_id": "S093"
     },
     {
       "title": "次韵米黻二王书跋尾二首",
       "type": "诗",
-      "description": "二王书跋，字字珠玑。"
+      "description": "二王书跋，字字珠玑。",
+      "poem_id": "S094"
     },
     {
       "title": "次韵王定国南迁回见寄",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S095"
     },
     {
       "title": "答秦太虚",
       "type": "诗",
-      "description": "扁舟又截平湖去，社燕归来细雨中。"
+      "description": "扁舟又截平湖去，社燕归来细雨中。",
+      "poem_id": "S096"
     },
     {
       "title": "答李康年",
       "type": "诗",
-      "description": "江空不可视，日暮坐洞萧。"
+      "description": "江空不可视，日暮坐洞萧。",
+      "poem_id": "S097"
     }
   ],
   "route_works": {},

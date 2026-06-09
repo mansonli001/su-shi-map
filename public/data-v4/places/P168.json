@@ -80,42 +80,50 @@
     {
       "title": "次韵钱越州",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S122"
     },
     {
       "title": "迩英阁经筵讲义",
       "type": "文",
-      "description": "《春秋》之义，莫大于正名分。"
+      "description": "《春秋》之义，莫大于正名分。",
+      "poem_id": "W011"
     },
     {
       "title": "翰林院制诰序跋",
       "type": "文",
-      "description": "三代以前，文章与治化同出而异名者也。"
+      "description": "三代以前，文章与治化同出而异名者也。",
+      "poem_id": "W012"
     },
     {
       "title": "西江月·平山堂",
       "type": "词",
-      "description": "三过平山堂上，半生弹指声中。"
+      "description": "三过平山堂上，半生弹指声中。",
+      "poem_id": "C079"
     },
     {
       "title": "南歌子·山与歌眉敛",
       "type": "词",
-      "description": "山与歌眉敛，波同醉眼流。"
+      "description": "山与歌眉敛，波同醉眼流。",
+      "poem_id": "C080"
     },
     {
       "title": "南乡子·霜降水痕收",
       "type": "词",
-      "description": "万事到头都是梦，休休，明日黄花蝶也愁。"
+      "description": "万事到头都是梦，休休，明日黄花蝶也愁。",
+      "poem_id": "C081"
     },
     {
       "title": "少年游·去年相送",
       "type": "词",
-      "description": "去年相送，余杭门外，飞雪似杨花。"
+      "description": "去年相送，余杭门外，飞雪似杨花。",
+      "poem_id": "C082"
     },
     {
       "title": "清平乐·春归何处",
       "type": "词",
-      "description": "春归何处，寂寞无行路。"
+      "description": "春归何处，寂寞无行路。",
+      "poem_id": "C083"
     }
   ],
   "foods": [

@@ -24,42 +24,38 @@
     {
       "title": "泗州僧伽塔",
       "type": "诗",
-      "description": "我昔南行舟系汴，逆风三日沙吹面。"
+      "description": "我昔南行舟系汴，逆风三日沙吹面。",
+      "poem_id": "S101"
     },
     {
       "title": "赴颍州过金陵呈王胜之",
       "type": "诗",
-      "description": "使君德量如天宽，十年兵革常苦寒。"
+      "description": "使君德量如天宽，十年兵革常苦寒。",
+      "poem_id": "S129"
     },
     {
       "title": "临江仙·送钱穆父",
       "type": "词",
-      "description": "细马远驮双侍女，青巾玉带红靴。"
+      "description": "细马远驮双侍女，青巾玉带红靴。",
+      "poem_id": "C110"
     },
     {
       "title": "蝶恋花·雨后春容清更丽",
       "type": "词",
-      "description": "雨后春容清更丽，别后重逢，已恨经年意。"
+      "description": "雨后春容清更丽，别后重逢，已恨经年意。",
+      "poem_id": "C111"
     },
     {
       "title": "木兰花令·用前韵赠周嘉",
       "type": "词",
-      "description": "春光不管人去后，桃花依旧笑春风。"
+      "description": "春光不管人去后，桃花依旧笑春风。",
+      "poem_id": "C112"
     },
     {
       "title": "南乡子·用韵和秦少游",
       "type": "词",
-      "description": "天高清远横波际，远山眉样有心知。"
-    },
-    {
-      "title": "临江仙·昨夜扁舟京口",
-      "type": "词",
-      "description": "细马远驮双侍女，青巾玉带红靴。"
-    },
-    {
-      "title": "临江仙·夜到扬州",
-      "type": "词",
-      "description": "细马远驮双侍女，青巾玉带红靴。"
+      "description": "天高清远横波际，远山眉样有心知。",
+      "poem_id": "C113"
     }
   ],
   "route_works": {},

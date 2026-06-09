@@ -31,7 +31,8 @@
     {
       "title": "过寿州",
       "type": "诗",
-      "description": "苏轼经寿州所作"
+      "description": "苏轼经寿州所作",
+      "poem_id": "S304"
     }
   ],
   "route_events": {

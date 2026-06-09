@@ -30,7 +30,8 @@
       "title": "过陕州",
       "type": "诗",
       "note": "赴京途经陕州",
-      "year": 1056
+      "year": 1056,
+      "poem_id": "S301"
     }
   ],
   "route_events": {

@@ -34,7 +34,15 @@
       "significance": "师生情谊"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "高邮陈直躬处士画雁",
+      "type": "诗",
+      "note": "在高邮观陈直躬画雁",
+      "year": 1079,
+      "poem_id": "S232"
+    }
+  ],
   "route_events": {
     "R04": {
       "duration": "1066年运河途经",

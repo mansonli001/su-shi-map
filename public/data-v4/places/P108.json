@@ -27,10 +27,10 @@
   ],
   "global_events": [
     {
-      "id": "ls-001",
+      "id": "p108-001",
       "date": "元丰七年（1084年）五月",
       "title": "游庐山",
-      "description": "苏轼游庐山，作诗多首",
+      "description": "苏轼量移汝州途中游庐山",
       "significance": "庐山之游"
     }
   ],
@@ -71,17 +71,14 @@
     {
       "title": "次韵道潜见寄",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S107"
     },
     {
       "title": "泊船瓜洲",
       "type": "诗",
-      "description": "春风又绿江南岸，明月何时照我还。"
-    },
-    {
-      "title": "石钟山记",
-      "type": "文",
-      "description": "事不目见耳闻，而臆断其有无，可乎？"
+      "description": "春风又绿江南岸，明月何时照我还。",
+      "poem_id": "S109"
     }
   ],
   "route_events": {

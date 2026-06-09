@@ -5,7 +5,7 @@
 
 const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
-  disable: true, // 临时禁用 PWA
+  disable: process.env.NODE_ENV === 'development', // 仅开发环境禁用
   register: true,
   skipWaiting: true,
   runtimeCaching: [

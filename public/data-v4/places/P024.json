@@ -120,22 +120,26 @@
     {
       "title": "东栏梨花",
       "type": "诗",
-      "description": "惆怅东栏一株雪，人生看得几清明。"
+      "description": "惆怅东栏一株雪，人生看得几清明。",
+      "poem_id": "S075"
     },
     {
       "title": "正月二十日往岐亭",
       "type": "诗",
-      "description": "我本山中一野夫，年来三十仍迂痴。"
+      "description": "我本山中一野夫，年来三十仍迂痴。",
+      "poem_id": "S076"
     },
     {
       "title": "岐亭五首",
       "type": "诗",
-      "description": "古来流水一杯酒，我量未足濡吾口。"
+      "description": "古来流水一杯酒，我量未足濡吾口。",
+      "poem_id": "S077"
     },
     {
       "title": "洗儿",
       "type": "诗",
-      "description": "人皆养子望聪明，我被聪明误一生。"
+      "description": "人皆养子望聪明，我被聪明误一生。",
+      "poem_id": "S078"
     }
   ],
   "route_events": {

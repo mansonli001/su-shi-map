@@ -50,13 +50,15 @@
       "title": "戏子由",
       "type": "诗",
       "note": "与苏辙在陈州相聚时作",
-      "year": 1071
+      "year": 1071,
+      "poem_id": "S212"
     },
     {
       "title": "颍州初别子由",
       "type": "诗",
       "note": "离陈州赴颍州时别弟",
-      "year": 1071
+      "year": 1071,
+      "poem_id": "S213"
     }
   ],
   "route_events": {

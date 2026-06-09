@@ -42,7 +42,8 @@
     {
       "title": "泗水亭怀古",
       "type": "诗",
-      "description": "苏轼游徐州泗水亭怀刘邦之作"
+      "description": "苏轼游徐州泗水亭怀刘邦之作",
+      "poem_id": "S305"
     }
   ],
   "route_events": {

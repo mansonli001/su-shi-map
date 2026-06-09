@@ -65,19 +65,19 @@
   "amap_updated_at": "2026-06-03T05:14:49.000Z",
   "global_events": [
     {
+      "id": "p066-002",
+      "date": "1072年",
+      "title": "游西塞山",
+      "description": "苏轼知湖州时游西塞山，张志和渔歌子故地",
+      "significance": "诗词故地"
+    },
+    {
       "place": "湖州",
       "date": "元丰二年（1079年）",
       "title": "湖州被捕",
       "description": "苏轼在湖州任上被捕，引发乌台诗案",
       "significance": "political",
       "id": "p066-001"
-    },
-    {
-      "id": "p066-002",
-      "date": "1072年",
-      "title": "游西塞山",
-      "description": "苏轼知湖州时游西塞山，张志和渔歌子故地",
-      "significance": "诗词故地"
     }
   ],
   "sxzk_address": "黄石大道654号",
@@ -115,7 +115,8 @@
       "title": "西塞山",
       "type": "诗",
       "note": "游西塞山所作",
-      "year_estimate": 1079
+      "year_estimate": 1079,
+      "poem_id": "S245"
     }
   ]
 }

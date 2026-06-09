@@ -20,21 +20,29 @@
   "periods": [],
   "global_events": [
     {
-      "id": "haz-001",
-      "date": "治平元年（1064年）",
-      "title": "第三次入京过华州",
-      "description": "苏轼第三次入京，途经华州，登游华山",
-      "significance": "route03途经"
-    },
-    {
       "id": "p068-002",
       "date": "1061年",
       "title": "经华州入关中",
       "description": "苏轼赴凤翔途经华州",
       "significance": "赴任途经"
+    },
+    {
+      "id": "p068-002",
+      "date": "治平元年（1064年）",
+      "title": "第三次入京过华州",
+      "description": "苏轼第三次入京，途经华州，登游华山",
+      "significance": "route03途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过华州",
+      "type": "诗",
+      "note": "赴京途经华州",
+      "year": 1056,
+      "poem_id": "S247"
+    }
+  ],
   "route_events": {
     "R01": {
       "duration": "1056年东出关中途经",

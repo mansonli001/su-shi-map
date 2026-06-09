@@ -24,42 +24,44 @@
     {
       "title": "浣溪沙·徐门石潭谢雨",
       "type": "词",
-      "description": "簌簌衣巾落枣花。"
-    },
-    {
-      "title": "浣溪沙·徐州石潭谢雨",
-      "type": "词",
-      "description": "照日深红暖见鱼，连村绿暗晚藏乌。"
+      "description": "簌簌衣巾落枣花。",
+      "poem_id": "C018"
     },
     {
       "title": "浣溪沙·人间有味是清欢",
       "type": "词",
-      "description": "人间有味是清欢。"
+      "description": "人间有味是清欢。",
+      "poem_id": "C020"
     },
     {
       "title": "浣溪沙·风压轻云贴水飞",
       "type": "词",
-      "description": "沙上不闻鸿雁信，竹间时有鹧鸪啼。"
+      "description": "沙上不闻鸿雁信，竹间时有鹧鸪啼。",
+      "poem_id": "C021"
     },
     {
       "title": "浣溪沙·覆块青青麦未苏",
       "type": "词",
-      "description": "雨后春容清更丽。"
+      "description": "雨后春容清更丽。",
+      "poem_id": "C022"
     },
     {
       "title": "点绛唇·醉漾轻舟",
       "type": "词",
-      "description": "烟水茫茫，回首斜阳暮。"
+      "description": "烟水茫茫，回首斜阳暮。",
+      "poem_id": "C023"
     },
     {
       "title": "减字木兰花·双囊倩女",
       "type": "词",
-      "description": "风流太守，为爱青山能驻客。"
+      "description": "风流太守，为爱青山能驻客。",
+      "poem_id": "C024"
     },
     {
       "title": "减字木兰花·晓来风细",
       "type": "词",
-      "description": "却将旧恨，付与新诗。"
+      "description": "却将旧恨，付与新诗。",
+      "poem_id": "C025"
     }
   ],
   "route_works": {},

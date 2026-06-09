@@ -63,7 +63,8 @@
       "type": "文",
       "date": "嘉祐元年（1056年）十一月",
       "location": "汴京兴国寺浴室院",
-      "background": "在兴国寺浴室院观六祖画像作"
+      "background": "在兴国寺浴室院观六祖画像作",
+      "poem_id": "W203"
     },
     {
       "title": "刑赏忠厚之至论",
@@ -106,23 +107,28 @@
     },
     {
       "title": "策略",
-      "type": "策"
+      "type": "策",
+      "poem_id": "W204"
     },
     {
       "title": "思治论",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W205"
     },
     {
       "title": "进策",
-      "type": "策"
+      "type": "策",
+      "poem_id": "W206"
     },
     {
       "title": "留侯论",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W207"
     },
     {
       "title": "贾谊论",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W208"
     }
   ],
   "route_events": {

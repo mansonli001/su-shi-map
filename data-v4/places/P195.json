@@ -122,7 +122,8 @@
     },
     {
       "title": "登云龙山",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S333"
     }
   ],
   "route_events": {

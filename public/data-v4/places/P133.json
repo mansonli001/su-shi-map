@@ -56,37 +56,38 @@
     {
       "title": "次韵曹辅寄壑源试焙新芽",
       "type": "诗",
-      "description": "从来佳茗似佳人。"
+      "description": "从来佳茗似佳人。",
+      "poem_id": "S115"
     },
     {
       "title": "书鄢陵王主簿所画折枝",
       "type": "诗",
-      "description": "论画以形似，见与儿童邻。"
-    },
-    {
-      "title": "书王主簿所画折枝",
-      "type": "诗",
-      "description": "瘦竹如佳人，幽花如秀士。"
+      "description": "论画以形似，见与儿童邻。",
+      "poem_id": "S116"
     },
     {
       "title": "次韵黄鲁直画马试院中作",
       "type": "诗",
-      "description": "画马试院，字字珠玑。"
+      "description": "画马试院，字字珠玑。",
+      "poem_id": "S118"
     },
     {
       "title": "次韵黄鲁直见赠古风二首",
       "type": "诗",
-      "description": "见赠古风，字字珠玑。"
+      "description": "见赠古风，字字珠玑。",
+      "poem_id": "S119"
     },
     {
       "title": "次韵秦少游章孟君见赠",
       "type": "诗",
-      "description": "秦少游才，风流才子。"
+      "description": "秦少游才，风流才子。",
+      "poem_id": "S120"
     },
     {
       "title": "次韵陈海州书怀",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S121"
     }
   ],
   "modern_visit": {

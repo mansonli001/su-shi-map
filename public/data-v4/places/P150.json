@@ -42,37 +42,44 @@
     {
       "title": "浣溪沙·麻叶层层苘叶光",
       "type": "词",
-      "description": "谁家煮茧一村香？隔篱娇语络丝娘。"
+      "description": "谁家煮茧一村香？隔篱娇语络丝娘。",
+      "poem_id": "C052"
     },
     {
       "title": "浣溪沙·软草平莎过雨新",
       "type": "词",
-      "description": "日暖桑麻光似泼，风来蒿艾气如薰。"
+      "description": "日暖桑麻光似泼，风来蒿艾气如薰。",
+      "poem_id": "C053"
     },
     {
       "title": "南歌子·晚春",
       "type": "词",
-      "description": "日薄花房绽，风和麦浪轻。"
+      "description": "日薄花房绽，风和麦浪轻。",
+      "poem_id": "C054"
     },
     {
       "title": "定风波·常羡人间琢玉郎",
       "type": "词",
-      "description": "此心安处是吾乡。"
+      "description": "此心安处是吾乡。",
+      "poem_id": "C055"
     },
     {
       "title": "哨遍·为米折腰",
       "type": "词",
-      "description": "而浮生若梦，为欢几何。"
+      "description": "而浮生若梦，为欢几何。",
+      "poem_id": "C056"
     },
     {
       "title": "念奴娇·大江东去",
       "type": "词",
-      "description": "大江东去，浪淘尽，千古风流人物。"
+      "description": "大江东去，浪淘尽，千古风流人物。",
+      "poem_id": "C057"
     },
     {
       "title": "定风波·一蓑烟雨任平生",
       "type": "词",
-      "description": "一蓑烟雨任平生。"
+      "description": "一蓑烟雨任平生。",
+      "poem_id": "C058"
     }
   ],
   "source": [

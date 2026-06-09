@@ -41,7 +41,15 @@
       "significance": "赴任途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "淮上早发",
+      "type": "诗",
+      "note": "南下途经淮安时作",
+      "year": 1071,
+      "poem_id": "S215"
+    }
+  ],
   "route_events": {
     "route07": [
       {

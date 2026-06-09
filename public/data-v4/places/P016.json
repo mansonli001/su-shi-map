@@ -34,9 +34,9 @@
   ],
   "last_updated": "2026-06-01T10:22:05.216Z",
   "schema_version": "v4.1",
-  "lng": 118.502,
-  "lat": 28.903,
-  "coordinate_source": "amap_poi_original",
+  "lng": 119.405251,
+  "lat": 35.894203,
+  "coordinate_source": "corrected_from_poi",
   "amap_address": "山东省潍坊市诸城市常山",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {
@@ -125,7 +125,8 @@
       "title": "常山",
       "type": "诗",
       "note": "知密州时常游常山",
-      "year_estimate": 1076
+      "year_estimate": 1076,
+      "poem_id": "S210"
     }
   ]
 }

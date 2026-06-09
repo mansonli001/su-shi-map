@@ -34,20 +34,6 @@
   ],
   "global_events": [
     {
-      "id": "ms-001",
-      "date": "景祐三年（1037年）十二月十九日",
-      "title": "苏轼出生",
-      "description": "苏轼生于眉山县纱縠行私第",
-      "significance": "北宋文学巨匠诞生"
-    },
-    {
-      "id": "ms-004",
-      "date": "治平三年（1066年）四月",
-      "title": "护送父丧归蜀",
-      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
-      "significance": "回乡守孝"
-    },
-    {
       "place": "眉山",
       "date": "景祐四年（1037年）",
       "title": "苏辙出生",
@@ -56,24 +42,40 @@
       "id": "p118-003"
     },
     {
+      "id": "p118-002",
+      "date": "景祐三年（1037年）十二月十九日",
+      "title": "苏轼出生",
+      "description": "苏轼生于眉山县纱縠行私第",
+      "significance": "北宋文学巨匠诞生"
+    },
+    {
       "place": "眉山",
       "date": "庆历七年（1047年）",
       "title": "苏序去世",
       "description": "苏轼祖父苏序去世",
       "significance": "family",
       "id": "p118-004"
+    },
+    {
+      "id": "p118-004",
+      "date": "治平三年（1066年）四月",
+      "title": "护送父丧归蜀",
+      "description": "苏洵在汴京去世，苏轼兄弟护送灵柩归眉安葬",
+      "significance": "回乡守孝"
     }
   ],
   "global_works": [
     {
       "title": "江城子·乙卯正月二十日夜记梦",
       "type": "词",
-      "description": "苏轼悼亡妻王弗之作，'十年生死两茫茫'传诵千古"
+      "description": "苏轼悼亡妻王弗之作，'十年生死两茫茫'传诵千古",
+      "poem_id": "C004"
     },
     {
       "title": "送蜀僧去尘",
       "type": "诗",
-      "description": "苏轼忆眉山故里之作"
+      "description": "苏轼忆眉山故里之作",
+      "poem_id": "S282"
     }
   ],
   "route_events": {

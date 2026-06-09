@@ -36,7 +36,8 @@
     {
       "title": "过戎州",
       "type": "诗",
-      "description": "苏轼经戎州所作"
+      "description": "苏轼经戎州所作",
+      "poem_id": "S298"
     }
   ],
   "route_events": {

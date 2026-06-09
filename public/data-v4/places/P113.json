@@ -38,7 +38,8 @@
     {
       "title": "洛阳次韵",
       "type": "诗",
-      "description": "苏轼途经洛阳所作"
+      "description": "苏轼途经洛阳所作",
+      "poem_id": "S279"
     }
   ],
   "route_events": {

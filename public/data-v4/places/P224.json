@@ -90,12 +90,14 @@
     {
       "title": "次韵王晋卿奉诏押高丽宴射",
       "type": "诗",
-      "description": "奉诏押宴，字字珠玑。"
+      "description": "奉诏押宴，字字珠玑。",
+      "poem_id": "S180"
     },
     {
       "title": "伏波将军庙碑",
       "type": "文",
-      "description": "伏波将军之神，予能无感乎？"
+      "description": "伏波将军之神，予能无感乎？",
+      "poem_id": "W018"
     }
   ]
 }

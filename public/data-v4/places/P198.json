@@ -77,32 +77,32 @@
     {
       "title": "杭州乞度牒开西湖状",
       "type": "策",
-      "description": "西湖有不可废者五。"
+      "description": "西湖有不可废者五。",
+      "poem_id": "Z003"
     },
     {
       "title": "钱塘勤上人诗集叙",
       "type": "诗",
-      "description": "勤上人学诗如学佛，要在妙悟自心。"
+      "description": "勤上人学诗如学佛，要在妙悟自心。",
+      "poem_id": "S001"
     },
     {
       "title": "次韵刘景文",
       "type": "诗",
-      "description": "絮飞春减不成年，老境同乘下濑船。"
+      "description": "絮飞春减不成年，老境同乘下濑船。",
+      "poem_id": "S125"
     },
     {
       "title": "苏堤纪事诗作",
       "type": "诗",
-      "description": "我在钱塘拓湖渌，泥深芍药铜驼麓。"
-    },
-    {
-      "title": "赠刘景文",
-      "type": "诗",
-      "description": "一年好景君须记，最是橙黄橘绿时。"
+      "description": "我在钱塘拓湖渌，泥深芍药铜驼麓。",
+      "poem_id": "S126"
     },
     {
       "title": "与莫同年雨中饮湖上",
       "type": "诗",
-      "description": "到处相逢是偶然，梦中相对各华颠。"
+      "description": "到处相逢是偶然，梦中相对各华颠。",
+      "poem_id": "S128"
     }
   ],
   "route_events": {

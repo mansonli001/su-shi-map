@@ -39,7 +39,8 @@
     {
       "title": "次韵苏州王太守",
       "type": "诗",
-      "description": "苏轼经苏州所作"
+      "description": "苏轼经苏州所作",
+      "poem_id": "S307"
     }
   ],
   "route_events": {

@@ -46,7 +46,8 @@
     {
       "title": "平山堂次韵",
       "type": "诗",
-      "description": "苏轼游扬州平山堂怀欧阳修之作"
+      "description": "苏轼游扬州平山堂怀欧阳修之作",
+      "poem_id": "S335"
     }
   ],
   "route_events": {

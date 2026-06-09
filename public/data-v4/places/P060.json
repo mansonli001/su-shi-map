@@ -42,7 +42,14 @@
       "S4"
     ]
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "河北平原古驿道",
+    "address": "河北省",
+    "location": "114.48,38.03",
+    "cityname": "河北省",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:14:45.000Z",
   "lat": 39.058514,
   "lng": 117.229216,
@@ -78,12 +85,14 @@
     {
       "title": "雪浪石",
       "type": "诗",
-      "description": "太行西来万马屯，势与岱岳争雄尊。"
+      "description": "太行西来万马屯，势与岱岳争雄尊。",
+      "poem_id": "S082"
     },
     {
       "title": "雪浪斋铭",
       "type": "文",
-      "description": "定州西北，有石如雪。万里长城在其下，至今人马不得过。"
+      "description": "定州西北，有石如雪。万里长城在其下，至今人马不得过。",
+      "poem_id": "W013"
     }
   ],
   "memorial_sites": [

@@ -24,42 +24,38 @@
     {
       "title": "次韵惠循二守相见",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S141"
     },
     {
       "title": "荔枝叹",
       "type": "诗",
-      "description": "宫中美人一破颜，惊尘溅血流千载。"
+      "description": "宫中美人一破颜，惊尘溅血流千载。",
+      "poem_id": "S142"
     },
     {
       "title": "赠王子直秀才",
       "type": "诗",
-      "description": "万里云山一破裘，杖端闲挂百钱游。"
+      "description": "万里云山一破裘，杖端闲挂百钱游。",
+      "poem_id": "S144"
     },
     {
       "title": "再用前韵",
       "type": "诗",
-      "description": "两年逐客沾恩地，万里归心欲暮天。"
-    },
-    {
-      "title": "白鹤峰再用前韵",
-      "type": "诗",
-      "description": "三晋云山殊阻修，半生投老得归休。"
+      "description": "两年逐客沾恩地，万里归心欲暮天。",
+      "poem_id": "S145"
     },
     {
       "title": "白鹤峰三用前韵",
       "type": "诗",
-      "description": "父老纷纷送往事，我心犹念当路穷。"
+      "description": "父老纷纷送往事，我心犹念当路穷。",
+      "poem_id": "S147"
     },
     {
       "title": "和陶时运四首",
       "type": "诗",
-      "description": "我卜我居，居非一朝。"
-    },
-    {
-      "title": "白鹤峰四用前韵",
-      "type": "诗",
-      "description": "投荒忘归不计年，此生出处俱可怜。"
+      "description": "我卜我居，居非一朝。",
+      "poem_id": "S148"
     }
   ],
   "route_events": {

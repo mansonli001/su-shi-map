@@ -35,7 +35,8 @@
     {
       "title": "巫山",
       "type": "诗",
-      "description": "苏轼过巫山巫峡所作"
+      "description": "苏轼过巫山巫峡所作",
+      "poem_id": "S317"
     }
   ],
   "route_events": {

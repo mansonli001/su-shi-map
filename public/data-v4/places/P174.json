@@ -41,7 +41,14 @@
       "S2"
     ]
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "尉氏",
+    "address": "开封市尉氏县",
+    "location": "114.18,34.41",
+    "cityname": "开封市尉氏县",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:16:06.000Z",
   "lat": 34.429908,
   "lng": 114.282227,
@@ -90,7 +97,8 @@
       "title": "尉氏",
       "type": "诗",
       "note": "途经尉氏所作",
-      "year_estimate": 1071
+      "year_estimate": 1071,
+      "poem_id": "S316"
     }
   ]
 }

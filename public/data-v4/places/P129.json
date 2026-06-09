@@ -55,7 +55,14 @@
       "poem_id": "Z001"
     }
   ],
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "彭山",
+    "address": "眉山市彭山区",
+    "location": "103.87,30.19",
+    "cityname": "眉山市彭山区",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:15:34.000Z",
   "lat": 30.214667,
   "lng": 103.846019,

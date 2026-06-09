@@ -42,7 +42,8 @@
     {
       "title": "过南都",
       "type": "诗",
-      "description": "苏轼贬谪途中经南都所作"
+      "description": "苏轼贬谪途中经南都所作",
+      "poem_id": "S285"
     }
   ],
   "route_events": {

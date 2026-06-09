@@ -44,7 +44,8 @@
     {
       "title": "潼关次韵",
       "type": "诗",
-      "description": "苏轼经潼关所作"
+      "description": "苏轼经潼关所作",
+      "poem_id": "S313"
     }
   ],
   "route_events": {

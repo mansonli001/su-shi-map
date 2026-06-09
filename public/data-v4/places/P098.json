@@ -24,8 +24,30 @@
       "narrative": "苏轼从惠州再贬儋州，途经雷州（今雷州半岛）。在雷州，他遇到一位老朋友，两人抱头痛哭。苏轼写下『雷州何处是，海外此中去』的诗句。"
     }
   ],
-  "global_events": [],
-  "global_works": [],
+  "global_events": [
+    {
+      "id": "leiz-g001",
+      "date": "绍圣四年（1097年）",
+      "title": "贬儋州途经雷州",
+      "description": "苏轼从惠州再贬儋州，途经雷州，在伏波庙祈祷渡海平安",
+      "significance": "贬谪途中的精神寄托"
+    },
+    {
+      "id": "leiz-g002",
+      "date": "元符三年（1100年）",
+      "title": "北归再经雷州伏波庙",
+      "description": "苏轼北归，再经伏波庙还愿感恩",
+      "significance": "归途怀古，荣辱皆空"
+    }
+  ],
+  "global_works": [
+    {
+      "title": "伏波将军庙碑",
+      "type": "文",
+      "note": "北归时拜谒伏波庙所作",
+      "poem_id": "W018"
+    }
+  ],
   "route_events": {
     "route19": [
       {

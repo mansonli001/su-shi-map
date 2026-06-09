@@ -99,42 +99,38 @@
     {
       "title": "六月二十日夜渡海",
       "type": "诗",
-      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+      "description": "九死南荒吾不恨，兹游奇绝冠平生。",
+      "poem_id": "S156"
     },
     {
       "title": "澄迈驿通潮阁二首",
       "type": "诗",
-      "description": "杳杳天低鹘没处，青山一发是中原。"
+      "description": "杳杳天低鹘没处，青山一发是中原。",
+      "poem_id": "S157"
     },
     {
       "title": "移廉州",
       "type": "诗",
-      "description": "朝辞白鹤峰，暮及苍梧岑。"
-    },
-    {
-      "title": "渡海",
-      "type": "诗",
-      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+      "description": "朝辞白鹤峰，暮及苍梧岑。",
+      "poem_id": "S158"
     },
     {
       "title": "别海南黎民表",
       "type": "诗",
-      "description": "我本海南民，寄生西蜀州。"
+      "description": "我本海南民，寄生西蜀州。",
+      "poem_id": "S160"
     },
     {
       "title": "别儋州",
       "type": "诗",
-      "description": "我本儋耳民，寄生西蜀州。"
+      "description": "我本儋耳民，寄生西蜀州。",
+      "poem_id": "S161"
     },
     {
       "title": "别子由三首",
       "type": "诗",
-      "description": "醉饱高眠真事业，此生有味在三余。"
-    },
-    {
-      "title": "海南日记",
-      "type": "诗",
-      "description": "九死南荒吾不恨，兹游奇绝冠平生。"
+      "description": "醉饱高眠真事业，此生有味在三余。",
+      "poem_id": "S162"
     }
   ]
 }

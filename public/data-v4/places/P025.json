@@ -19,7 +19,15 @@
   ],
   "periods": [],
   "global_events": [],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "滁州谢上表",
+      "type": "文",
+      "note": "途经滁州时作",
+      "year": 1071,
+      "poem_id": "W214"
+    }
+  ],
   "route_events": {
     "route17": [
       {

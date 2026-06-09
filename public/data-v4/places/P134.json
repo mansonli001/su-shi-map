@@ -91,42 +91,50 @@
     {
       "title": "方山子传",
       "type": "文",
-      "description": "苏轼为岐亭陈季常作传，'方山子'之名传诵千古"
+      "description": "苏轼为岐亭陈季常作传，'方山子'之名传诵千古",
+      "poem_id": "W291"
     },
     {
       "title": "定风波·莫听穿林打叶声",
       "type": "词",
-      "description": "回首向来萧瑟处，归去，也无风雨也无晴。"
+      "description": "回首向来萧瑟处，归去，也无风雨也无晴。",
+      "poem_id": "C037"
     },
     {
       "title": "浣溪沙·游蕲水清泉寺",
       "type": "词",
-      "description": "谁道人生无再少？门前流水尚能西！"
+      "description": "谁道人生无再少？门前流水尚能西！",
+      "poem_id": "C038"
     },
     {
       "title": "浣溪沙·簌簌衣巾落枣花",
       "type": "词",
-      "description": "簌簌衣巾落枣花，村南村北响缲车。"
+      "description": "簌簌衣巾落枣花，村南村北响缲车。",
+      "poem_id": "C040"
     },
     {
       "title": "鹧鸪天·林断山明竹隐墙",
       "type": "词",
-      "description": "殷勤昨夜三更雨，又得浮生一日凉。"
+      "description": "殷勤昨夜三更雨，又得浮生一日凉。",
+      "poem_id": "C041"
     },
     {
       "title": "醉翁操·琅然",
       "type": "词",
-      "description": "醉翁啸咏，声和流泉。"
+      "description": "醉翁啸咏，声和流泉。",
+      "poem_id": "C042"
     },
     {
       "title": "满庭芳·蜗角虚名",
       "type": "词",
-      "description": "蜗角虚名，蝇头微利，算来着甚干忙。"
+      "description": "蜗角虚名，蝇头微利，算来着甚干忙。",
+      "poem_id": "C043"
     },
     {
       "title": "永遇乐·明月如霜",
       "type": "词",
-      "description": "明月如霜，好风如水，清景无限。"
+      "description": "明月如霜，好风如水，清景无限。",
+      "poem_id": "C044"
     }
   ],
   "memorial_sites": [

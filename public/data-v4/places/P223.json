@@ -104,42 +104,44 @@
     {
       "title": "水调歌头·落日绣帘卷",
       "type": "词",
-      "description": "一点浩然气，千里快哉风。"
+      "description": "一点浩然气，千里快哉风。",
+      "poem_id": "C066"
     },
     {
       "title": "鹧鸪天·翻空白鸟时时见",
       "type": "词",
-      "description": "翻空白鸟时时见，照水红蕖细细香。"
+      "description": "翻空白鸟时时见，照水红蕖细细香。",
+      "poem_id": "C068"
     },
     {
       "title": "西江月·照野弥弥浅浪",
       "type": "词",
-      "description": "可惜一溪风月，莫教踏碎琼瑶。"
+      "description": "可惜一溪风月，莫教踏碎琼瑶。",
+      "poem_id": "C069"
     },
     {
       "title": "西江月·春夜蕲水中",
       "type": "词",
-      "description": "解鞍欹枕绿杨桥，杜宇一声春晓。"
+      "description": "解鞍欹枕绿杨桥，杜宇一声春晓。",
+      "poem_id": "C070"
     },
     {
       "title": "南歌子·带酒冲山雨",
       "type": "词",
-      "description": "梦里栩然蝴蝶一身轻。"
-    },
-    {
-      "title": "南歌子·雨暗初疑夜",
-      "type": "词",
-      "description": "梦里栩然蝴蝶一身轻。"
+      "description": "梦里栩然蝴蝶一身轻。",
+      "poem_id": "C071"
     },
     {
       "title": "南歌子·日出西山雨",
       "type": "词",
-      "description": "乱山深处过清明。"
+      "description": "乱山深处过清明。",
+      "poem_id": "C073"
     },
     {
       "title": "满庭芳·归去来兮",
       "type": "词",
-      "description": "悟已往之不谏，知来者之可追。"
+      "description": "悟已往之不谏，知来者之可追。",
+      "poem_id": "C076"
     }
   ]
 }

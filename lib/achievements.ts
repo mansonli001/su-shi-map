@@ -422,33 +422,99 @@ export const solarTerms: Record<string, { month: number; day: number }> = {
 };
 
 /**
- * 解析特殊成就所需的地点ID列表
+ * 中国省级行政区前缀列表（用于 modernName 匹配）
  */
-export function resolveSpecialPlaces(allPlaces: PlaceCore[]): Record<string, string[]> {
-  const result: Record<string, string[]> = {
-    banish: [],    // 黄州、惠州、儋州
-    jiangnan: [], // 杭州系列
+const PROVINCE_PREFIXES = [
+  '四川','陕西','河南','江苏','浙江','湖北','湖南','江西','安徽',
+  '山东','河北','广东','海南','福建','甘肃','北京','天津','上海',
+  '重庆','广西','云南','贵州','辽宁','山西','宁夏','西藏','内蒙古','新疆','青海','吉林','黑龙江',
+];
+
+/**
+ * 从 modernName 提取省份前缀
+ */
+function extractProvince(modernName: string): string {
+  for (const prov of PROVINCE_PREFIXES) {
+    if (modernName.startsWith(prov)) return prov;
+  }
+  return '';
+}
+
+/**
+ * 从 modernName 提取城市名（省份后2-3字）
+ */
+function extractCity(modernName: string): string {
+  const prov = extractProvince(modernName);
+  if (!prov) return modernName;
+  const rest = modernName.slice(prov.length);
+  // 取前2-3字作为城市名
+  return rest.slice(0, Math.min(3, rest.length));
+}
+
+/**
+ * 解析特殊成就所需的地点ID列表
+ * v2: 基于 modernName 精确匹配省份/城市
+ */
+export function resolveSpecialPlaces(allPlaces: PlaceCore[]): {
+  meishan: string[];    // 眉山相关
+  fengxiang: string[];  // 凤翔相关
+  huangzhou: string[];  // 黄州相关
+  huizhou: string[];    // 惠州相关
+  danzhou: string[];    // 儋州/海南相关
+  jiangnan: string[];   // 杭州/西湖/江南系列
+  bianjing: string[];   // 汴京/开封
+  banish: string[];     // 黄州+惠州+儋州 合集
+} {
+  const result = {
+    meishan: [] as string[],
+    fengxiang: [] as string[],
+    huangzhou: [] as string[],
+    huizhou: [] as string[],
+    danzhou: [] as string[],
+    jiangnan: [] as string[],
+    bianjing: [] as string[],
+    banish: [] as string[],
   };
 
   for (const place of allPlaces) {
-    const name = place.songName?.toLowerCase() || '';
-    const modernName = place.modernName?.toLowerCase() || '';
-    const tag = place.tag?.toLowerCase() || '';
-    const routeId = place.routeId || '';
+    const name = place.songName || '';
+    const modernName = place.modernName || '';
 
-    // 贬谪三地：黄州、惠州、儋州
-    if (name.includes('黄州') || modernName.includes('黄州') ||
-        name.includes('惠州') || modernName.includes('惠州') ||
-        name.includes('儋州') || modernName.includes('儋州') ||
-        tag.includes('黄州') || tag.includes('惠州') || tag.includes('儋州')) {
+    // 眉山
+    if (modernName.includes('眉山') || name.includes('眉山')) {
+      result.meishan.push(place.id);
+    }
+    // 凤翔
+    if (modernName.includes('凤翔') || name.includes('凤翔')) {
+      result.fengxiang.push(place.id);
+    }
+    // 黄州
+    if (modernName.includes('黄州') || name.includes('黄州')) {
+      result.huangzhou.push(place.id);
       result.banish.push(place.id);
     }
-
-    // 西湖苏堤：杭州系列
-    if (name.includes('杭州') || modernName.includes('杭州') ||
-        name.includes('西湖') || modernName.includes('西湖') ||
-        name.includes('苏堤') || tag.includes('杭州') || tag.includes('西湖')) {
+    // 惠州
+    if (modernName.includes('惠州') || name.includes('惠州')) {
+      result.huizhou.push(place.id);
+      result.banish.push(place.id);
+    }
+    // 儋州/海南
+    if (modernName.includes('儋州') || name.includes('儋州') ||
+        modernName.includes('海南') || name.includes('海南')) {
+      result.danzhou.push(place.id);
+      result.banish.push(place.id);
+    }
+    // 杭州/西湖/江南
+    if (modernName.includes('杭州') || name.includes('杭州') ||
+        modernName.includes('西湖') || name.includes('西湖') ||
+        modernName.includes('苏堤') || name.includes('苏堤') ||
+        modernName.includes('湖州') || name.includes('湖州') ||
+        modernName.includes('扬州') || name.includes('扬州')) {
       result.jiangnan.push(place.id);
+    }
+    // 汴京/开封
+    if (modernName.includes('开封') || name.includes('汴京') || name.includes('汴梁')) {
+      result.bianjing.push(place.id);
     }
   }
 
@@ -480,7 +546,8 @@ export function isRainyNight(date: Date): boolean {
 }
 
 /**
- * 评估成就解锁状态
+ * 评估成就解锁状态 v2
+ * 修复：省份覆盖、城市多点、特定地点成就的精确判断
  */
 export function evaluateAchievements(
   checkedIds: Set<string>,
@@ -496,19 +563,38 @@ export function evaluateAchievements(
 
   const specialPlaces = resolveSpecialPlaces(allPlaces);
   const totalChecked = checkedIds.size;
-  const totalPlaces = allPlaces.length;
 
-  // 检查连续打卡天数
-  const checkinDays = new Set(checkinDates.map(d => d.toDateString()));
+  // 计算覆盖的省份数
+  const checkedProvinces = new Set<string>();
+  // 计算同城市打卡数
+  const cityCheckinCount: Record<string, number> = {};
+
+  for (const place of allPlaces) {
+    if (!checkedIds.has(place.id)) continue;
+    const prov = extractProvince(place.modernName || '');
+    if (prov) checkedProvinces.add(prov);
+
+    const city = extractCity(place.modernName || '');
+    if (city) cityCheckinCount[city] = (cityCheckinCount[city] || 0) + 1;
+  }
+
+  const provinceCount = checkedProvinces.size;
+  const maxCityCheckins = Math.max(0, ...Object.values(cityCheckinCount));
+
+  // 计算连续打卡天数
   const consecutiveDays = calculateConsecutiveDays(checkinDates);
+
+  // 检查是否包含汴京点位
+  const hasBianjing = specialPlaces.bianjing.some(id => checkedIds.has(id));
 
   for (const ach of achievements) {
     let current = 0;
-    let target = ach.minPlaces || 0;
+    let target = 1;
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     let isUnlocked = false;
 
     // 隐藏成就：未解锁时返回模糊状态
-    if (ach.isHidden && !isUnlocked) {
+    if (ach.isHidden && !unlocked.includes(ach.id)) {
       progress[ach.id] = { current: 0, target: 1 };
       continue;
     }
@@ -524,79 +610,169 @@ export function evaluateAchievements(
       continue;
     }
 
-    // 贬谪成就
-    if (ach.category === 'banish' && !ach.isSynthesis) {
-      const banishIds = specialPlaces.banish;
-      current = banishIds.filter(id => checkedIds.has(id)).length;
-      target = Math.max(banishIds.length, 3);
-      if (current >= target) {
-        isUnlocked = true;
-        unlocked.push(ach.id);
-      }
-    }
-    // 江南成就
-    else if (ach.category === 'jiangnan') {
-      const jiangnanIds = specialPlaces.jiangnan;
-      current = jiangnanIds.filter(id => checkedIds.has(id)).length;
-      target = Math.max(jiangnanIds.length, 5);
-      if (current >= target) {
-        isUnlocked = true;
-        unlocked.push(ach.id);
-      }
-    }
-    // 连续打卡成就
-    else if (ach.id === 'grow-008') {
-      current = consecutiveDays;
-      target = 7;
-      if (consecutiveDays >= 7) {
-        isUnlocked = true;
-        unlocked.push(ach.id);
-      }
-    }
-    else if (ach.id === 'grow-009') {
-      current = consecutiveDays;
-      target = 30;
-      if (consecutiveDays >= 30) {
-        isUnlocked = true;
-        unlocked.push(ach.id);
-      }
-    }
-    // 隐藏彩蛋成就
-    else if (ach.category === 'secret') {
-      if (ach.id === 'secret-001') {
-        // 雨夜读苏：检查是否有20:00-24:00的打卡
-        const hasRainyNight = checkinDates.some(d => isRainyNight(d));
-        if (hasRainyNight) {
-          isUnlocked = true;
-          unlocked.push(ach.id);
+    switch (ach.id) {
+      // ===== 成长阶梯 =====
+      case 'grow-001': // 初踏苏途：累计打卡 >= 3
+        current = totalChecked;
+        target = 3;
+        if (totalChecked >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-002': // 眉山故人：眉山全点位打卡
+        current = specialPlaces.meishan.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.meishan.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-003': // 宦途起步：凤翔全点位打卡
+        current = specialPlaces.fengxiang.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.fengxiang.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-004': // 行路起步：覆盖 >= 3 个不同省份
+        current = provinceCount;
+        target = 3;
+        if (provinceCount >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-005': // 一城漫游：同一城市内打卡 >= 5 个点位
+        current = maxCityCheckins;
+        target = 5;
+        if (maxCityCheckins >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-006': // 宦游四方：打卡 >= 20 且覆盖 >= 5 省
+        current = provinceCount; // 以省份数为进度
+        target = 5;
+        if (totalChecked >= 20 && provinceCount >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-007': // 半生起落：打卡 >= 50 且包含汴京
+        current = totalChecked;
+        target = 50;
+        if (totalChecked >= 50 && hasBianjing) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-008': // 七日同游：连续7天打卡
+        current = consecutiveDays;
+        target = 7;
+        if (consecutiveDays >= 7) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-009': // 月月同游：连续30天打卡
+        current = consecutiveDays;
+        target = 30;
+        if (consecutiveDays >= 30) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-010': // 半生行遍：累计打卡 >= 80
+        current = totalChecked;
+        target = 80;
+        if (totalChecked >= 80) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'grow-011': // 集大成者：累计打卡 >= 120
+        current = totalChecked;
+        target = 120;
+        if (totalChecked >= 120) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      // ===== 贬谪专题 =====
+      case 'banish-001': // 黄州客居
+        current = specialPlaces.huangzhou.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.huangzhou.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'banish-002': // 岭南逐客
+        current = specialPlaces.huizhou.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.huizhou.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'banish-003': // 天涯儋州
+        current = specialPlaces.danzhou.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.danzhou.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      // ===== 江南专题 =====
+      case 'jiangnan-001': // 西湖闲客：杭州西湖全系列
+        current = specialPlaces.jiangnan.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.jiangnan.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'jiangnan-002': // 江南行舟：杭州+湖州+扬州
+        current = specialPlaces.jiangnan.filter(id => checkedIds.has(id)).length;
+        target = Math.max(specialPlaces.jiangnan.length, 1);
+        if (current >= target) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      // ===== 诗词珍藏 =====
+      case 'poem-001': // 美食墨客
+        current = favoritePoemIds.size;
+        target = 8;
+        if (favoritePoemIds.size >= 8) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'poem-002': // 中秋望月
+        current = favoritePoemIds.size;
+        target = 3;
+        if (favoritePoemIds.size >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'poem-003': // 赤壁诗魂
+        current = favoritePoemIds.size;
+        target = 3;
+        if (favoritePoemIds.size >= 3) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'poem-004': // 风雨定风波
+        current = favoritePoemIds.size;
+        target = 5;
+        if (favoritePoemIds.size >= 5) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      case 'poem-005': // 千首拾珍
+        current = favoritePoemIds.size;
+        target = 100;
+        if (favoritePoemIds.size >= 100) { isUnlocked = true; unlocked.push(ach.id); }
+        break;
+
+      // ===== 隐秘彩蛋 =====
+      case 'secret-001': // 雨夜读苏
+        {
+          const hasRainyNight = checkinDates.some(d => isRainyNight(d));
+          current = hasRainyNight ? 1 : 0;
+          target = 1;
+          if (hasRainyNight) { isUnlocked = true; unlocked.push(ach.id); }
         }
-        current = hasRainyNight ? 1 : 0;
-        target = 1;
-      }
-      else if (ach.id === 'secret-002') {
-        // 生辰同游：需要用户生日数据（暂不实现）
+        break;
+
+      case 'secret-002': // 生辰同游（暂不实现）
         current = 0;
         target = 1;
-      }
-      else if (ach.id === 'secret-003') {
-        // 节气同游：检查是否有节气日的打卡
-        const hasSolarTerm = checkinDates.some(d => isSolarTermDay(d));
-        if (hasSolarTerm) {
-          isUnlocked = true;
-          unlocked.push(ach.id);
+        break;
+
+      case 'secret-003': // 节气同游
+        {
+          const hasSolarTerm = checkinDates.some(d => isSolarTermDay(d));
+          current = hasSolarTerm ? 1 : 0;
+          target = 1;
+          if (hasSolarTerm) { isUnlocked = true; unlocked.push(ach.id); }
         }
-        current = hasSolarTerm ? 1 : 0;
-        target = 1;
-      }
-    }
-    // 数量型成就
-    else if (ach.minPlaces) {
-      current = totalChecked;
-      target = ach.minPlaces;
-      if (totalChecked >= ach.minPlaces) {
-        isUnlocked = true;
-        unlocked.push(ach.id);
-      }
+        break;
+
+      default:
+        // 兜底：minPlaces 数量型
+        if (ach.minPlaces) {
+          current = totalChecked;
+          target = ach.minPlaces;
+          if (totalChecked >= ach.minPlaces) { isUnlocked = true; unlocked.push(ach.id); }
+        }
+        break;
     }
 
     progress[ach.id] = { current, target };

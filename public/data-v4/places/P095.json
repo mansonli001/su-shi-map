@@ -29,7 +29,8 @@
     {
       "title": "过莱州",
       "type": "诗",
-      "description": "苏轼还朝途经莱州所作"
+      "description": "苏轼还朝途经莱州所作",
+      "poem_id": "S269"
     }
   ],
   "route_events": {

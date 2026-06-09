@@ -107,12 +107,19 @@
     {
       "title": "白鹤峰",
       "type": "诗",
-      "description": "白鹤峰头望故乡，白云深处是归航。"
+      "description": "白鹤峰头望故乡，白云深处是归航。",
+      "poem_id": "S133"
     },
     {
       "title": "白鹤新居",
       "type": "诗",
-      "description": "白鹤峰前景物殊，我来仍值夏初交。"
+      "description": "白鹤峰前景物殊，我来仍值夏初交。",
+      "poem_id": "S134"
+    },
+    {
+      "title": "定州谢到任表",
+      "type": "文",
+      "poem_id": "W229"
     }
   ],
   "route_events": {

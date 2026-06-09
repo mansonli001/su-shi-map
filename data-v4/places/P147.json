@@ -52,7 +52,8 @@
     {
       "title": "次韵子由种杉竹",
       "type": "诗",
-      "description": "苏轼与弟苏辙唱和，忆三苏祠旧事"
+      "description": "苏轼与弟苏辙唱和，忆三苏祠旧事",
+      "poem_id": "S300"
     }
   ],
   "route_events": {

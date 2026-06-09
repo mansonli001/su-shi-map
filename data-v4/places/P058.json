@@ -163,23 +163,28 @@
     },
     {
       "title": "湖上夜归",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S237"
     },
     {
       "title": "孤山二首",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S238"
     },
     {
       "title": "次韵子由柳湖感物",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S239"
     },
     {
       "title": "送郑户曹",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S240"
     },
     {
       "title": "次韵曹辅寄壑源试焙新茶",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S241"
     }
   ],
   "route_events": {

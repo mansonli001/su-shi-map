@@ -47,9 +47,23 @@
       "S4"
     ]
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "丹崖山",
+    "address": "四川省",
+    "location": "105.06,30.28",
+    "cityname": "四川省",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:14:28.000Z",
   "global_events": [
+    {
+      "id": "p033-003",
+      "date": "1080年",
+      "title": "游丹崖山",
+      "description": "苏轼在黄州期间游丹崖山",
+      "significance": "贬谪游览"
+    },
     {
       "date": "元丰八年（1085年）",
       "title": "登蓬莱阁",
@@ -63,13 +77,6 @@
       "description": "苏轼登丹崖山",
       "significance": "route11",
       "id": "p033-evt-002"
-    },
-    {
-      "id": "p033-003",
-      "date": "1080年",
-      "title": "游丹崖山",
-      "description": "苏轼在黄州期间游丹崖山",
-      "significance": "贬谪游览"
     }
   ],
   "sxzk_address": "山东省烟台市蓬莱区丹崖山",
@@ -107,7 +114,8 @@
       "title": "丹崖山",
       "type": "诗",
       "note": "知登州游丹崖山所作",
-      "year_estimate": 1085
+      "year_estimate": 1085,
+      "poem_id": "S219"
     }
   ]
 }

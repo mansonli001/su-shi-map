@@ -26,7 +26,8 @@
     {
       "title": "太学试",
       "type": "诗",
-      "description": "苏轼在太学相关所作"
+      "description": "苏轼在太学相关所作",
+      "poem_id": "S311"
     }
   ],
   "route_works": {},

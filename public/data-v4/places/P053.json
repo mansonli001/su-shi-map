@@ -18,21 +18,22 @@
   "periods": [],
   "global_events": [
     {
-      "id": "gzh-001",
+      "id": "p053-001",
       "date": "元丰三年（1080年）",
       "title": "过光州赴黄州",
       "description": "苏轼被贬黄州，途经光州",
       "significance": "途经光州"
-    },
-    {
-      "id": "p053-002",
-      "date": "1080年",
-      "title": "贬谪经光州",
-      "description": "苏轼贬谪黄州途经光州",
-      "significance": "贬谪途经"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过光州",
+      "type": "诗",
+      "note": "赴黄州贬所途经光州",
+      "year": 1080,
+      "poem_id": "S233"
+    }
+  ],
   "route_events": {
     "R10": {
       "duration": "1080年大别山边缘古道途经",

@@ -569,7 +569,10 @@ export default function PlaceCard({ place }: PlaceCardProps) {
                         <div className="mt-3">
                           <SharePoster 
                             type="checkin" 
-                            placeName={ancient || place.songName || '未知地点'} 
+                            placeName={ancient || place.songName || '未知地点'}
+                            subtitle={duration || undefined}
+                            poem={famous?.quote || undefined}
+                            poemSrc={famous?.from || undefined}
                           />
                         </div>
                       </div>
@@ -666,16 +669,27 @@ function DetailView(props: {
     }
   }
   
-  // 合并事件并去重（根据标题和年份判断重复）
+  // 合并事件并去重（根据年份+标题判断重复）
   // 修复 v6.1: 用 Map 把 O(n²) 降到 O(n)，避免事件数大时卡顿
-  const _eventKey = (ev: any): string => {
-    const y = typeof ev.year === 'number'
+  // 修复 v6.2: 增强去重——同一年份区间内，标题语义相近的事件也去重
+  const _extractYear = (ev: any): number => {
+    return typeof ev.year === 'number'
       ? ev.year
-      : parseInt(String(ev.year || ev.year_estimate || ev.date || 0).match(/\d+/)?.[0] || '0', 10);
-    const t = (ev.title || ev.event || '').trim();
+      : parseInt(String(ev.year || ev.year_estimate || ev.date || 0).match(/\d{4}/)?.[0] || '0', 10);
+  };
+  const _normalizeTitle = (t: string): string => {
+    return t
+      .replace(/[《》「」『』]/g, '')
+      .replace(/作|写|题|游|到|抵达|前往|赴|至|过/g, '')
+      .trim();
+  };
+  const _eventKey = (ev: any): string => {
+    const y = _extractYear(ev);
+    const t = _normalizeTitle((ev.title || ev.event || '').trim());
     return `${y}|${t}`;
   };
   const _seen = new Map<string, any>();
+  // global_events 优先（更精炼），route_events 仅补充
   for (const ev of [...events, ...flatRouteEvents]) {
     const k = _eventKey(ev);
     if (!_seen.has(k)) _seen.set(k, ev);

@@ -31,7 +31,8 @@
     {
       "title": "相国寺题壁",
       "type": "诗",
-      "description": "苏轼经汴京大相国寺所作"
+      "description": "苏轼经汴京大相国寺所作",
+      "poem_id": "S323"
     }
   ],
   "route_works": {},

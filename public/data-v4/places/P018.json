@@ -31,19 +31,19 @@
   ],
   "global_events": [
     {
-      "id": "changz-001",
-      "date": "建中靖国元年（1101年）七月二十八日",
-      "title": "卒于常州",
-      "description": "苏轼卒于常州",
-      "significance": "卒于常州"
-    },
-    {
       "place": "常州",
       "date": "元丰七年（1084年）",
       "title": "买田宜兴",
       "description": "苏轼在宜兴买田，计划定居",
       "significance": "route10",
       "id": "p018-002"
+    },
+    {
+      "id": "p018-002",
+      "date": "建中靖国元年（1101年）七月二十八日",
+      "title": "卒于常州",
+      "description": "苏轼卒于常州",
+      "significance": "卒于常州"
     },
     {
       "id": "p018-003",

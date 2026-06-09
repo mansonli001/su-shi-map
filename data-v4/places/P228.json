@@ -60,7 +60,8 @@
     {
       "title": "中和古镇题壁",
       "type": "诗",
-      "description": "苏轼贬儋州经中和古镇所作"
+      "description": "苏轼贬儋州经中和古镇所作",
+      "poem_id": "S354"
     }
   ],
   "route_events": {

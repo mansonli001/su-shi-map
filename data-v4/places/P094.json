@@ -36,7 +36,8 @@
     {
       "title": "白帝庙",
       "type": "诗",
-      "description": "苏轼经夔州白帝城所作"
+      "description": "苏轼经夔州白帝城所作",
+      "poem_id": "S268"
     }
   ],
   "route_events": {

@@ -16,42 +16,44 @@
     {
       "title": "自题金山画像",
       "type": "诗",
-      "description": "问汝平生功业，黄州惠州儋州。"
+      "description": "问汝平生功业，黄州惠州儋州。",
+      "poem_id": "S164"
     },
     {
       "title": "过金山寺",
       "type": "诗",
-      "description": "枕中云气千峰近，床底松声万壑纷。"
+      "description": "枕中云气千峰近，床底松声万壑纷。",
+      "poem_id": "S165"
     },
     {
       "title": "题金山寺",
       "type": "诗",
-      "description": "不知天上宫阙，今夕是何年。"
-    },
-    {
-      "title": "题金山寺二首",
-      "type": "诗",
-      "description": "龙从天监下楼台，涌地潮声入海回。"
+      "description": "不知天上宫阙，今夕是何年。",
+      "poem_id": "S166"
     },
     {
       "title": "书晁补之所藏与可画竹一首",
       "type": "诗",
-      "description": "开户满堆案，谁人与裁量。"
+      "description": "开户满堆案，谁人与裁量。",
+      "poem_id": "S168"
     },
     {
       "title": "书李世南所画秋景二首",
       "type": "诗",
-      "description": "扁舟一棹归何处，家在江南黄叶村。"
+      "description": "扁舟一棹归何处，家在江南黄叶村。",
+      "poem_id": "S169"
     },
     {
       "title": "答王巩",
       "type": "诗",
-      "description": "平生不解杯中物，老去犹思海外归。"
+      "description": "平生不解杯中物，老去犹思海外归。",
+      "poem_id": "S170"
     },
     {
       "title": "再过常山和见怀",
       "type": "诗",
-      "description": "三十年前路，孤灯此夜心。"
+      "description": "三十年前路，孤灯此夜心。",
+      "poem_id": "S171"
     }
   ],
   "route_works": {},

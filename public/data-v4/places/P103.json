@@ -25,25 +25,26 @@
   ],
   "global_events": [
     {
-      "date": "元祐四年（1089年）",
-      "title": "杭州知州",
-      "description": "苏轼第二次任杭州知州",
-      "significance": "route14",
-      "id": "p103-evt-001"
-    },
-    {
       "date": "熙宁四年（1071年）",
       "title": "游灵隐寺",
       "description": "苏轼游览灵隐寺，作《灵隐前一首赠唐林夫》",
       "significance": "route04",
       "id": "p103-evt-002"
+    },
+    {
+      "date": "元祐四年（1089年）",
+      "title": "杭州知州",
+      "description": "苏轼第二次任杭州知州",
+      "significance": "route14",
+      "id": "p103-evt-001"
     }
   ],
   "global_works": [
     {
       "title": "题灵隐寺",
       "type": "诗",
-      "description": "苏轼游杭州灵隐寺所作"
+      "description": "苏轼游杭州灵隐寺所作",
+      "poem_id": "S275"
     }
   ],
   "route_events": {},

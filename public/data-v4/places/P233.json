@@ -106,7 +106,8 @@
     {
       "title": "屈原塔",
       "type": "诗",
-      "description": "苏轼经秭归屈原故里所作"
+      "description": "苏轼经秭归屈原故里所作",
+      "poem_id": "S359"
     }
   ],
   "memorial_sites": [

@@ -39,7 +39,8 @@
       "title": "剑门",
       "type": "诗",
       "note": "出蜀途经剑门关",
-      "year": 1059
+      "year": 1059,
+      "poem_id": "S262"
     }
   ],
   "route_events": {

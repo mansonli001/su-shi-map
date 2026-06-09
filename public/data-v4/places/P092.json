@@ -39,7 +39,8 @@
     {
       "title": "荆州十首",
       "type": "诗",
-      "description": "苏轼经荆州所作组诗"
+      "description": "苏轼经荆州所作组诗",
+      "poem_id": "S265"
     }
   ],
   "route_events": {

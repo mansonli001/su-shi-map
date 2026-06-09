@@ -45,7 +45,8 @@
     {
       "title": "扬州竹西寺",
       "type": "诗",
-      "description": "苏轼扶柩途经扬州所作"
+      "description": "苏轼扶柩途经扬州所作",
+      "poem_id": "S336"
     }
   ],
   "route_events": {

@@ -76,25 +76,10 @@
   "amap_updated_at": "2026-06-03T05:14:32.000Z",
   "global_events": [
     {
+      "id": "p039-025",
       "date": "元祐八年（1093年）",
-      "title": "定州知州",
-      "description": "苏轼任定州知州",
-      "significance": "route17",
-      "id": "p039-025"
-    },
-    {
-      "place": "定州",
-      "date": "元祐八年（1093年）",
-      "title": "整顿军纪",
-      "description": "苏轼在定州整顿军纪",
-      "significance": "route17",
-      "id": "p039-026"
-    },
-    {
-      "id": "p039-027",
-      "date": "1093年",
       "title": "知定州整军纪",
-      "description": "苏轼知定州整顿军纪、修缮营房",
+      "description": "苏轼任定州知州，整顿军纪、修缮营房，是苏轼仕途最后一任地方长官。",
       "significance": "治军"
     }
   ],
@@ -163,7 +148,8 @@
     },
     {
       "title": "定州谢到任表",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W229"
     }
   ]
 }

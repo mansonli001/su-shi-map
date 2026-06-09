@@ -38,7 +38,8 @@
     {
       "title": "中岩寺题诗",
       "type": "诗",
-      "description": "苏轼少年游学中岩寺时题诗"
+      "description": "苏轼少年游学中岩寺时题诗",
+      "poem_id": "S355"
     }
   ],
   "route_events": {},

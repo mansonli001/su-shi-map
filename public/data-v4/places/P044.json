@@ -69,27 +69,26 @@
     {
       "title": "和子由踏青",
       "type": "诗",
-      "description": "人闲正好路旁饮，麦寒未许桃争春。"
+      "description": "人闲正好路旁饮，麦寒未许桃争春。",
+      "poem_id": "S003"
     },
     {
       "title": "和子由寒食",
       "type": "诗",
-      "description": "花开花落各有时，此花不比他花短。"
+      "description": "花开花落各有时，此花不比他花短。",
+      "poem_id": "S006"
     },
     {
       "title": "次韵子由除日元日省宿",
       "type": "诗",
-      "description": "努力尽今夕，少年犹可夸。"
-    },
-    {
-      "title": "守岁",
-      "type": "诗",
-      "description": "努力尽今夕，少年犹可夸。"
+      "description": "努力尽今夕，少年犹可夸。",
+      "poem_id": "S007"
     },
     {
       "title": "次韵子由除日见寄",
       "type": "诗",
-      "description": "薄薄酒，胜茶汤；粗粗布，胜无裳。"
+      "description": "薄薄酒，胜茶汤；粗粗布，胜无裳。",
+      "poem_id": "S009"
     }
   ],
   "route_events": {

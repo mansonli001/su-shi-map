@@ -25,7 +25,15 @@
       "significance": "入中原门户"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "过陕州",
+      "type": "诗",
+      "note": "赴京途经陕州",
+      "year": 1056,
+      "poem_id": "S301"
+    }
+  ],
   "route_events": {
     "R03": {
       "duration": "1061年 崤山古道行经",

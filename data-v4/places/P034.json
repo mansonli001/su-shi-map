@@ -67,7 +67,8 @@
       "type": "文",
       "date": "元符三年（1100年）",
       "location": "儋州",
-      "background": "在儋州所作"
+      "background": "在儋州所作",
+      "poem_id": "W220"
     },
     {
       "id": "W063",
@@ -150,27 +151,33 @@
     },
     {
       "title": "儋耳山",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S221"
     },
     {
       "title": "儋耳夜书",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S222"
     },
     {
       "title": "被酒独行遍至子云威徽先觉四黎之舍",
-      "type": "诗"
+      "type": "诗",
+      "poem_id": "S223"
     },
     {
       "title": "试笔自书",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W224"
     },
     {
       "title": "书上元夜游",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W225"
     },
     {
       "title": "与程秀才书",
-      "type": "文"
+      "type": "文",
+      "poem_id": "W226"
     }
   ],
   "route_events": {

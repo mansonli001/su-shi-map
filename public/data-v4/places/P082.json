@@ -24,42 +24,50 @@
     {
       "title": "青玉案·和贺方回韵送伯固归吴中",
       "type": "词",
-      "description": "三年枕上吴中路，遣黄耳，随君去。"
+      "description": "三年枕上吴中路，遣黄耳，随君去。",
+      "poem_id": "C098"
     },
     {
       "title": "八声甘州·寄参寥子",
       "type": "词",
-      "description": "有情风万里卷潮来，无情送潮归。"
+      "description": "有情风万里卷潮来，无情送潮归。",
+      "poem_id": "C099"
     },
     {
       "title": "木兰花令·次欧公西湖韵",
       "type": "词",
-      "description": "与余同是识翁人，惟有西湖波底月。"
+      "description": "与余同是识翁人，惟有西湖波底月。",
+      "poem_id": "C100"
     },
     {
       "title": "浣溪沙·细雨斜风作晓寒",
       "type": "词",
-      "description": "人间有味是清欢。"
+      "description": "人间有味是清欢。",
+      "poem_id": "C101"
     },
     {
       "title": "减字木兰花·送赵令",
       "type": "词",
-      "description": "岁月如梭。白首相看拟奈何。"
+      "description": "岁月如梭。白首相看拟奈何。",
+      "poem_id": "C102"
     },
     {
       "title": "六幺令·天中节",
       "type": "词",
-      "description": "汨罗江渚，湘累已逝，惟有万千断肠句。"
+      "description": "汨罗江渚，湘累已逝，惟有万千断肠句。",
+      "poem_id": "C103"
     },
     {
       "title": "南歌子·游赏",
       "type": "词",
-      "description": "山与歌眉敛，波同醉眼流。"
+      "description": "山与歌眉敛，波同醉眼流。",
+      "poem_id": "C104"
     },
     {
       "title": "菩萨蛮·画檐初挂弯弯月",
       "type": "词",
-      "description": "画檐初挂弯弯月，孤光未满先离别。"
+      "description": "画檐初挂弯弯月，孤光未满先离别。",
+      "poem_id": "C105"
     }
   ],
   "route_works": {},

@@ -30,7 +30,8 @@
     {
       "title": "江陵观棋",
       "type": "诗",
-      "description": "苏轼经江陵观人下棋之作"
+      "description": "苏轼经江陵观人下棋之作",
+      "poem_id": "S264"
     }
   ],
   "route_events": {

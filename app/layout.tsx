@@ -4,9 +4,11 @@
  * AMap Script 通过客户端组件 <AMapScript /> 加载
  */
 import type { Metadata, Viewport } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 import './globals.css';
 import AMapScript from '@/components/AMapScript';
 import BottomNav from '@/components/BottomNav';
+import PWAInstallBanner from '@/components/PWAInstallBanner';
 
 const SITE_URL = 'https://su-shi.starfluxes.com';
 
@@ -113,6 +115,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
           rel="stylesheet"
         />
+
+        {/* JSON-LD 结构化数据 */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebApplication',
+              name: '行吟山河',
+              description: '苏轼一生234处足迹、20条主题路线的交互式数字地图',
+              url: SITE_URL,
+              applicationCategory: 'EducationalApplication',
+              operatingSystem: 'Web',
+              offers: {
+                '@type': 'Offer',
+                price: '0',
+                priceCurrency: 'CNY',
+              },
+              author: {
+                '@type': 'Person',
+                name: '苏轼',
+                description: '北宋文学家、书法家、画家',
+              },
+            }),
+          }}
+        />
       </head>
       <body className="antialiased overflow-x-hidden min-h-screen flex flex-col">
         <AMapScript />
@@ -122,6 +150,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         {/* 全局底部导航：所有页面共用，无例外（除特例全屏弹窗） */}
         <BottomNav />
+        {/* iOS PWA 安装引导 */}
+        <PWAInstallBanner />
+        {/* Vercel Analytics */}
+        <Analytics />
       </body>
     </html>
   );

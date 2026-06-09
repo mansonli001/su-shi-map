@@ -30,7 +30,15 @@
       "significance": "中原中继"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "许州西湖",
+      "type": "诗",
+      "note": "途经许州游西湖",
+      "year": 1071,
+      "poem_id": "S334"
+    }
+  ],
   "route_events": {
     "R03": {
       "duration": "1060年 途经驻留",

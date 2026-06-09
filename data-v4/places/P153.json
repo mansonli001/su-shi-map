@@ -29,7 +29,8 @@
     {
       "title": "韶州月华寺",
       "type": "诗",
-      "description": "苏轼北归经韶州所作"
+      "description": "苏轼北归经韶州所作",
+      "poem_id": "S303"
     }
   ],
   "route_events": {

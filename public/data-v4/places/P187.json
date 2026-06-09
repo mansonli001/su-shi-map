@@ -28,7 +28,8 @@
     {
       "title": "襄阳怀古",
       "type": "诗",
-      "description": "苏轼经襄阳岘山怀古之作"
+      "description": "苏轼经襄阳岘山怀古之作",
+      "poem_id": "S326"
     }
   ],
   "route_events": {

@@ -74,42 +74,54 @@
     {
       "title": "到惠州谢表",
       "type": "策",
-      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。"
-    },
-    {
-      "title": "食荔枝二首",
-      "type": "诗",
-      "description": "日啖荔枝三百颗，不辞长作岭南人。"
+      "description": "仿佛曾游岂梦中，欣然鸡犬识新丰。",
+      "poem_id": "Z004"
     },
     {
       "title": "惠州一绝",
       "type": "诗",
-      "description": "日啖荔枝三百颗，不辞长作岭南人。"
+      "description": "日啖荔枝三百颗，不辞长作岭南人。",
+      "poem_id": "S136"
     },
     {
       "title": "试茶",
       "type": "诗",
-      "description": "从来佳茗似佳人。"
+      "description": "从来佳茗似佳人。",
+      "poem_id": "S137"
     },
     {
       "title": "和陶归园田居六首",
       "type": "诗",
-      "description": "环州多白水，际海皆青山。"
+      "description": "环州多白水，际海皆青山。",
+      "poem_id": "S138"
     },
     {
       "title": "和陶饮酒二十首",
       "type": "诗",
-      "description": "人生如朝露，日夜消枯萎。"
+      "description": "人生如朝露，日夜消枯萎。",
+      "poem_id": "S139"
     },
     {
       "title": "次韵定慧钦长老见寄八首",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S140"
     },
     {
       "title": "惠州一绝·梅花二首",
       "type": "诗",
-      "description": "春来幽谷水潺潺，的皪梅花草棘间。"
+      "description": "春来幽谷水潺潺，的皪梅花草棘间。",
+      "poem_id": "S143"
+    },
+    {
+      "title": "荔枝叹",
+      "type": "诗",
+      "poem_id": "S142"
+    },
+    {
+      "title": "记游松风亭",
+      "type": "文",
+      "poem_id": "W258"
     }
   ],
   "route_events": {

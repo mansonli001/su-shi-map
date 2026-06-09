@@ -28,7 +28,8 @@
     {
       "title": "过泸州",
       "type": "诗",
-      "description": "苏轼经泸州所作"
+      "description": "苏轼经泸州所作",
+      "poem_id": "S278"
     }
   ],
   "route_events": {

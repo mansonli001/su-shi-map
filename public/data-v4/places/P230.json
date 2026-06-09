@@ -34,7 +34,8 @@
     {
       "title": "过忠州",
       "type": "诗",
-      "description": "苏轼经忠州所作"
+      "description": "苏轼经忠州所作",
+      "poem_id": "S356"
     }
   ],
   "route_events": {

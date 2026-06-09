@@ -24,7 +24,8 @@
     {
       "title": "入峡",
       "type": "诗",
-      "description": "苏轼入夔门三峡所作"
+      "description": "苏轼入夔门三峡所作",
+      "poem_id": "S236"
     }
   ],
   "route_works": {},

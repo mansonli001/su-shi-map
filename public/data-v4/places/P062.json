@@ -108,27 +108,32 @@
     {
       "title": "平山堂怀古",
       "type": "诗",
-      "description": "平山栏槛倚晴空，山色有无中。"
+      "description": "平山栏槛倚晴空，山色有无中。",
+      "poem_id": "S130"
     },
     {
       "title": "浣溪沙·颍州春月",
       "type": "词",
-      "description": "风卷珠帘自上钩。"
+      "description": "风卷珠帘自上钩。",
+      "poem_id": "C116"
     },
     {
       "title": "减字木兰花·颍州西湖",
       "type": "词",
-      "description": "郑庄好客。"
+      "description": "郑庄好客。",
+      "poem_id": "C117"
     },
     {
       "title": "西江月·重九",
       "type": "词",
-      "description": "世事一场大梦，人生几度秋凉。"
+      "description": "世事一场大梦，人生几度秋凉。",
+      "poem_id": "C118"
     },
     {
       "title": "定风波·雨洗娟娟嫩叶光",
       "type": "词",
-      "description": "雨洗娟娟嫩叶光，风吹细细龙脑香。"
+      "description": "雨洗娟娟嫩叶光，风吹细细龙脑香。",
+      "poem_id": "C119"
     }
   ]
 }

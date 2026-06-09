@@ -42,7 +42,8 @@
     {
       "title": "颍州颍水",
       "type": "诗",
-      "description": "苏轼知颍州时咏颍水之作"
+      "description": "苏轼知颍州时咏颍水之作",
+      "poem_id": "S344"
     }
   ],
   "route_events": {

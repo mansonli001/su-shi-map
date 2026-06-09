@@ -51,7 +51,8 @@
     {
       "title": "白石镇题诗",
       "type": "诗",
-      "description": "苏轼北归经廉州白石镇所作"
+      "description": "苏轼北归经廉州白石镇所作",
+      "poem_id": "S273"
     }
   ],
   "route_events": {

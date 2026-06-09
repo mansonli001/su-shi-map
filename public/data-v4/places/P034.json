@@ -36,18 +36,11 @@
   ],
   "global_events": [
     {
-      "id": "dz2-001",
+      "id": "p034-001",
       "date": "绍圣四年（1097年）",
       "title": "贬谪儋州",
       "description": "苏轼再贬儋州",
       "significance": "再贬岭南"
-    },
-    {
-      "id": "dz2-002",
-      "date": "元符三年（1100年）",
-      "title": "赦还北归",
-      "description": "苏轼遇赦北归",
-      "significance": "北归"
     },
     {
       "place": "儋州",
@@ -56,20 +49,16 @@
       "description": "苏轼在儋州建载酒堂",
       "significance": "route19",
       "id": "p034-003"
+    },
+    {
+      "id": "p034-003",
+      "date": "元符三年（1100年）",
+      "title": "赦还北归",
+      "description": "苏轼遇赦北归",
+      "significance": "北归"
     }
   ],
   "global_works": [
-    {
-      "id": "dz2-w001",
-      "title": "海南日记",
-      "content": "九死南荒吾不恨，兹游奇绝冠平生。",
-      "excerpt": "九死南荒吾不恨，兹游奇绝冠平生。",
-      "type": "诗",
-      "date": "元符三年（1100年）",
-      "location": "儋州",
-      "background": "苏轼离海南诗",
-      "poem_id": "S163"
-    },
     {
       "id": "dz2-w002",
       "title": "答谢民师书",
@@ -78,7 +67,8 @@
       "type": "文",
       "date": "元符三年（1100年）",
       "location": "儋州",
-      "background": "在儋州所作"
+      "background": "在儋州所作",
+      "poem_id": "W220"
     },
     {
       "id": "W063",
@@ -153,6 +143,41 @@
       "route_id": "R18",
       "note": "1098-1100 儋州 120 余首，晚年思想文学最高成就",
       "poem_id": "S151"
+    },
+    {
+      "title": "别海南黎民表",
+      "type": "诗",
+      "poem_id": "S160"
+    },
+    {
+      "title": "儋耳山",
+      "type": "诗",
+      "poem_id": "S221"
+    },
+    {
+      "title": "儋耳夜书",
+      "type": "诗",
+      "poem_id": "S222"
+    },
+    {
+      "title": "被酒独行遍至子云威徽先觉四黎之舍",
+      "type": "诗",
+      "poem_id": "S223"
+    },
+    {
+      "title": "试笔自书",
+      "type": "文",
+      "poem_id": "W224"
+    },
+    {
+      "title": "书上元夜游",
+      "type": "文",
+      "poem_id": "W225"
+    },
+    {
+      "title": "与程秀才书",
+      "type": "文",
+      "poem_id": "W226"
     }
   ],
   "route_events": {

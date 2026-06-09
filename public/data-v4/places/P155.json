@@ -96,18 +96,18 @@
   "amap_updated_at": "2026-06-03T05:15:53.000Z",
   "global_events": [
     {
-      "date": "元祐四年（1089年）",
-      "title": "疏浚西湖",
-      "description": "苏轼疏浚西湖，筑苏堤，建三潭印月",
-      "significance": "local",
-      "id": "p155-evt-001"
-    },
-    {
       "date": "元丰七年（1084年）",
       "title": "夜探石钟山",
       "description": "苏轼夜探石钟山，作《石钟山记》",
       "significance": "route10",
       "id": "p155-evt-002"
+    },
+    {
+      "date": "元祐四年（1089年）",
+      "title": "疏浚西湖",
+      "description": "苏轼疏浚西湖，筑苏堤，建三潭印月",
+      "significance": "local",
+      "id": "p155-evt-001"
     }
   ],
   "sub_places": [

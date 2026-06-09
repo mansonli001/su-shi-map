@@ -116,5 +116,14 @@
       "description": "凤阳明皇陵，朱元璋父母陵墓",
       "type": "古迹"
     }
+  ],
+  "global_works": [
+    {
+      "title": "濠州七绝",
+      "type": "诗",
+      "note": "途经濠州游庄子遗迹",
+      "year": 1071,
+      "poem_id": "S242"
+    }
   ]
 }

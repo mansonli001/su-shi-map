@@ -5,7 +5,7 @@
  */
 
 import { useState, useMemo } from 'react';
-import { achievements, getAchievement, type Achievement } from '@/lib/achievements';
+import { achievements, evaluateAchievements, type Achievement } from '@/lib/achievements';
 import { achievementIcons } from '@/lib/icons';
 import { generateAchievementCard } from '@/lib/achievement-card';
 import { getUID } from '@/lib/uid';
@@ -59,36 +59,19 @@ export default function AchievementWall() {
     setCardDataUrl('');
   };
 
+  // 使用 evaluateAchievements 统一计算进度
+  const achievementProgress = useMemo(() => {
+    const checkedIds = new Set(checkinPlaces.map(c => c.placeId));
+    const favoritePoemIds = new Set(favoritePoems.map(p => p.poemId));
+    const checkinDates = checkinPlaces.map(c => new Date(c.checkinAt));
+    const { progress } = evaluateAchievements(checkedIds, places, favoritePoemIds, checkinDates);
+    return progress;
+  }, [checkinPlaces, places, favoritePoems]);
+
   const getProgress = (ach: Achievement): number => {
-    const checkedCount = checkinPlaces.length;
-
-    // 贬谪三地合成成就
-    if (ach.isSynthesis && ach.synthesisFrom) {
-      const unlockedCount = ach.synthesisFrom.filter(id => 
-        unlockedAchievements.includes(id)
-      ).length;
-      return Math.min((unlockedCount / ach.synthesisFrom.length) * 100, 100);
-    }
-
-    // 特定地点成就
-    if (ach.requiredPlaces && ach.requiredPlaces.length > 0) {
-      const checked = ach.requiredPlaces.filter(placeId => 
-        checkinPlaces.some((c) => c.placeId === placeId)
-      ).length;
-      return Math.min((checked / ach.requiredPlaces.length) * 100, 100);
-    }
-
-    // 诗词收藏成就
-    if (ach.id.startsWith('poem-')) {
-      return Math.min((favoritePoems.length / (ach.minPlaces || 1)) * 100, 100);
-    }
-
-    // 打卡数量成就
-    if (ach.minPlaces) {
-      return Math.min((checkedCount / ach.minPlaces) * 100, 100);
-    }
-
-    return 0;
+    const p = achievementProgress[ach.id];
+    if (!p || p.target === 0) return 0;
+    return Math.min((p.current / p.target) * 100, 100);
   };
 
   // 获取品级样式

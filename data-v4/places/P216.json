@@ -30,7 +30,8 @@
     {
       "title": "过郓州",
       "type": "诗",
-      "description": "苏轼还朝途经郓州所作"
+      "description": "苏轼还朝途经郓州所作",
+      "poem_id": "S348"
     }
   ],
   "route_events": {

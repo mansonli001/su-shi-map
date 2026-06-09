@@ -24,22 +24,26 @@
     {
       "title": "和陶归去来兮辞",
       "type": "文",
-      "description": "悟已往之不谏，知来者之可追。"
+      "description": "悟已往之不谏，知来者之可追。",
+      "poem_id": "W015"
     },
     {
       "title": "载酒堂记",
       "type": "文",
-      "description": "以此知其心之未尝忘于天下也。"
+      "description": "以此知其心之未尝忘于天下也。",
+      "poem_id": "W016"
     },
     {
       "title": "在儋耳书",
       "type": "文",
-      "description": "先生好人，吾侪小人亦好人，此天下之理也。"
+      "description": "先生好人，吾侪小人亦好人，此天下之理也。",
+      "poem_id": "W017"
     },
     {
       "title": "定风波·南海归赠王定国侍人寓娘",
       "type": "词",
-      "description": "此心安处是吾乡。"
+      "description": "此心安处是吾乡。",
+      "poem_id": "C120"
     }
   ],
   "route_events": {

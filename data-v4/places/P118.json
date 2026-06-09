@@ -74,7 +74,8 @@
     {
       "title": "送蜀僧去尘",
       "type": "诗",
-      "description": "苏轼忆眉山故里之作"
+      "description": "苏轼忆眉山故里之作",
+      "poem_id": "S282"
     }
   ],
   "route_events": {

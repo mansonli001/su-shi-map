@@ -172,6 +172,11 @@ export const useSuShiStore = create<SuShiStore>()(
         });
         // 打卡后检查成就解锁
         get().checkAndUnlockAchievements();
+        // Vercel Analytics 自定义事件
+        try {
+          const { track } = require('@vercel/analytics');
+          track('checkin', { placeId: checkin.placeId, placeName: checkin.placeName, type: checkin.checkinType });
+        } catch { /* SSR 或未安装时忽略 */ }
       },
       removeCheckin: (placeId) =>
         set((state) => ({

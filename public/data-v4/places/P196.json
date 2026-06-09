@@ -28,18 +28,18 @@
   ],
   "global_events": [
     {
-      "id": "xz-001",
-      "date": "熙宁十年（1077年）四月二十一日",
-      "title": "任徐州知州",
-      "description": "苏轼到徐州任知州",
-      "significance": "徐州仕途"
-    },
-    {
       "id": "p196-003",
       "date": "1077年",
       "title": "抗洪筑黄楼",
       "description": "苏轼率民抗洪保城，筑黄楼以纪念",
       "significance": "抗洪功绩"
+    },
+    {
+      "id": "p196-002",
+      "date": "熙宁十年（1077年）四月二十一日",
+      "title": "任徐州知州",
+      "description": "苏轼到徐州任知州",
+      "significance": "徐州仕途"
     }
   ],
   "global_works": [
@@ -78,27 +78,32 @@
     {
       "title": "九日黄楼",
       "type": "诗",
-      "description": "水声激怒山云乱，万壑松声卷怒涛。"
+      "description": "水声激怒山云乱，万壑松声卷怒涛。",
+      "poem_id": "S059"
     },
     {
       "title": "百步洪",
       "type": "诗",
-      "description": "长洪斗落生跳波，轻舟南下如投梭。"
+      "description": "长洪斗落生跳波，轻舟南下如投梭。",
+      "poem_id": "S060"
     },
     {
       "title": "次韵刘贡父见和",
       "type": "诗",
-      "description": "故人年少已峥嵘，他日声名公并声。"
+      "description": "故人年少已峥嵘，他日声名公并声。",
+      "poem_id": "S061"
     },
     {
       "title": "次韵刘贡父西省见寄",
       "type": "诗",
-      "description": "惆怅南朝事，清狂似旧时。"
+      "description": "惆怅南朝事，清狂似旧时。",
+      "poem_id": "S062"
     },
     {
       "title": "石苍舒醉墨堂",
       "type": "诗",
-      "description": "人生识字忧患始，姓名粗记可以休。"
+      "description": "人生识字忧患始，姓名粗记可以休。",
+      "poem_id": "S063"
     }
   ],
   "route_events": {

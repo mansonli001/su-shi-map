@@ -3,8 +3,8 @@
   "ancient_name": "剑门关",
   "modern_name": "四川剑阁剑门关",
   "type": "main",
-  "lat": 32.1485,
-  "lng": 105.8949,
+  "lat": 32.220796,
+  "lng": 105.573841,
   "related_routes": [
     "R01",
     "R05"
@@ -20,21 +20,29 @@
   "periods": [],
   "global_events": [
     {
-      "id": "jm-001",
-      "date": "嘉祐元年（1056年）三月",
-      "title": "第一次过剑门关",
-      "description": "三苏出蜀途经剑门关，这是蜀道第一关",
-      "significance": "蜀道第一关"
-    },
-    {
       "id": "p080-002",
       "date": "1056年",
       "title": "过剑门关出蜀",
       "description": "苏轼首次出蜀过剑门关，'剑阁峥嵘而崔嵬'",
       "significance": "蜀道天险"
+    },
+    {
+      "id": "p080-002",
+      "date": "嘉祐元年（1056年）三月",
+      "title": "第一次过剑门关",
+      "description": "三苏出蜀途经剑门关，这是蜀道第一关",
+      "significance": "蜀道第一关"
     }
   ],
-  "global_works": [],
+  "global_works": [
+    {
+      "title": "剑门",
+      "type": "诗",
+      "note": "出蜀途经剑门关",
+      "year": 1059,
+      "poem_id": "S262"
+    }
+  ],
   "route_events": {
     "route01": [
       {
@@ -215,6 +223,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:15:00.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "corrected_from_poi",
   "sxzk_address": "四川省广元市剑阁县"
 }

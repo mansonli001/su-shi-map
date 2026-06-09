@@ -28,7 +28,8 @@
       "title": "宁强",
       "type": "诗",
       "note": "途经宁强所作",
-      "year_estimate": 1061
+      "year_estimate": 1061,
+      "poem_id": "S288"
     }
   ],
   "route_events": {
@@ -101,7 +102,14 @@
       "S2"
     ]
   },
-  "modern_visit": {},
+  "modern_visit": {
+    "amap_name": "宁强",
+    "address": "汉中市宁强县",
+    "location": "106.26,32.83",
+    "cityname": "汉中市宁强县",
+    "type": "风景名胜",
+    "typecode": "110200"
+  },
   "amap_updated_at": "2026-06-03T05:15:33.000Z",
   "coordinate_source": "amap_poi_original",
   "sxzk_address": "宁强县"

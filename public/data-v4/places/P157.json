@@ -24,42 +24,44 @@
     {
       "title": "书韩魏公诗后",
       "type": "诗",
-      "description": "苍生望霖雨，劲骨横高旌。"
+      "description": "苍生望霖雨，劲骨横高旌。",
+      "poem_id": "S064"
     },
     {
       "title": "花影",
       "type": "诗",
-      "description": "重重叠叠上瑶台，几度呼童扫不开。"
-    },
-    {
-      "title": "花影二首",
-      "type": "诗",
-      "description": "重重叠叠上瑶台，几度呼童扫不开。"
+      "description": "重重叠叠上瑶台，几度呼童扫不开。",
+      "poem_id": "S065"
     },
     {
       "title": "次韵王定国得颖叔书",
       "type": "诗",
-      "description": "此心安处，便是吾乡。"
+      "description": "此心安处，便是吾乡。",
+      "poem_id": "S067"
     },
     {
       "title": "次韵王巩六首",
       "type": "诗",
-      "description": "王巩才子，风流太守。"
+      "description": "王巩才子，风流太守。",
+      "poem_id": "S068"
     },
     {
       "title": "济南龙洞山记",
       "type": "文",
-      "description": "登山之路，皆石壁削立，无阶而升。"
+      "description": "登山之路，皆石壁削立，无阶而升。",
+      "poem_id": "W006"
     },
     {
       "title": "放鹤亭记",
       "type": "文",
-      "description": "清远闲放，超然于尘埃之外。"
+      "description": "清远闲放，超然于尘埃之外。",
+      "poem_id": "W007"
     },
     {
       "title": "永遇乐·彭城夜宿燕子楼",
       "type": "词",
-      "description": "燕子楼空，佳人何在，空锁楼中燕。"
+      "description": "燕子楼空，佳人何在，空锁楼中燕。",
+      "poem_id": "C017"
     }
   ],
   "route_works": {},

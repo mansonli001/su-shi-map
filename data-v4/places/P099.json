@@ -31,7 +31,8 @@
     {
       "title": "过利州",
       "type": "诗",
-      "description": "苏轼经利州所作"
+      "description": "苏轼经利州所作",
+      "poem_id": "S271"
     }
   ],
   "route_events": {

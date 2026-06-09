@@ -28,7 +28,8 @@
     {
       "title": "益州官署怀古",
       "type": "诗",
-      "description": "苏轼忆益州官署旧事"
+      "description": "苏轼忆益州官署旧事",
+      "poem_id": "S342"
     }
   ],
   "route_events": {
