@@ -157,7 +157,9 @@ export default function AchievementWall() {
               </span>
             </div>
 
-            <div className="grid grid-cols-2 gap-2.5">
+            <div className={`grid gap-2.5 ${
+              categoryAchievements.length === 1 ? 'grid-cols-1' : 'grid-cols-2'
+            }`}>
               {categoryAchievements.map((ach) => {
                 const isUnlocked = unlockedAchievements.includes(ach.id);
                 const p = achievementProgress[ach.id];
@@ -169,6 +171,7 @@ export default function AchievementWall() {
                 const isFlipping = flippingId === ach.id;
                 const tierStyle = TIER_STYLES[ach.tier] || TIER_STYLES.bronze;
                 const imagePath = ACHIEVEMENT_IMAGES[ach.icon];
+                const isSingle = categoryAchievements.length === 1;
 
                 return (
                   <div
@@ -183,7 +186,7 @@ export default function AchievementWall() {
                       ${status === 'inprogress' ? 'bg-[#f4f0ea] border border-[#ddd8ce]' : ''}
                       ${status === 'locked' ? 'bg-[#f0ece4] border border-[#ddd8ce]' : ''}
                     `}
-                    style={{ aspectRatio: '0.78' }}
+                    style={{ aspectRatio: isSingle ? '1.2' : '0.78' }}
                   >
                     {/* 插画背景层 */}
                     {imagePath && !isHiddenAndLocked && (
@@ -219,57 +222,61 @@ export default function AchievementWall() {
 
                     {/* 右上角等级标签 */}
                     <span
-                      className={`absolute top-2 right-2 z-10 text-[9px] px-1.5 py-0.5 rounded font-medium tracking-wider border ${tierStyle.className}`}
+                      className={`absolute top-2 right-2 z-10 rounded font-medium tracking-wider border ${tierStyle.className} ${
+                        isSingle ? 'text-[11px] px-2 py-1' : 'text-[9px] px-1.5 py-0.5'
+                      }`}
                     >
                       {tierStyle.label}
                     </span>
 
                     {/* 左上角已解锁勾标 */}
                     {status === 'unlocked' && (
-                      <div className="absolute top-2 left-2 z-10 w-5 h-5 rounded-full bg-[#2a6e3a] flex items-center justify-center">
+                      <div className={`absolute top-2 left-2 z-10 rounded-full bg-[#2a6e3a] flex items-center justify-center ${
+                        isSingle ? 'w-6 h-6' : 'w-5 h-5'
+                      }`}>
                         <div
-                          className="w-2.5 h-2.5 border-r-2 border-b-2 border-white"
+                          className={`border-r-2 border-b-2 border-white ${
+                            isSingle ? 'w-3 h-3' : 'w-2.5 h-2.5'
+                          }`}
                           style={{ transform: 'rotate(45deg) translate(-1px,-1px)' }}
                         />
                       </div>
                     )}
 
                     {/* 底部信息层 */}
-                    <div className="absolute inset-x-0 bottom-0 z-10 p-2.5 pb-2.5">
+                    <div className={`absolute inset-x-0 bottom-0 z-10 ${isSingle ? 'p-4' : 'p-2.5'}`}>
                       {/* 成就名 */}
                       <p
-                        className={`text-[13px] font-medium mb-0.5 truncate font-wenkai ${
-                          status === 'unlocked' ? 'text-[#1a1612]' : 'text-[#7a7060]'
-                        }`}
+                        className={`font-medium mb-0.5 truncate font-wenkai ${
+                          isSingle ? 'text-[16px]' : 'text-[13px]'
+                        } ${status === 'unlocked' ? 'text-[#1a1612]' : 'text-[#7a7060]'}`}
                       >
-                        {isHiddenAndLocked ? '???' : ach.name}
+                        {ach.name}
                       </p>
 
                       {/* 解锁条件 */}
                       <p
-                        className={`text-[10px] mb-1.5 truncate ${
-                          status === 'unlocked' ? 'text-[#8a6a40]' : 'text-[#aaa098]'
-                        }`}
+                        className={`mb-1.5 truncate ${
+                          isSingle ? 'text-[12px]' : 'text-[10px]'
+                        } ${status === 'unlocked' ? 'text-[#8a6a40]' : 'text-[#aaa098]'}`}
                       >
                         {status === 'unlocked'
                           ? `${current}处足迹 · 已解锁`
-                          : isHiddenAndLocked
-                            ? '达成条件未知...'
-                            : ach.desc}
+                          : ach.desc}
                       </p>
 
                       {/* 进度行 */}
                       {status !== 'unlocked' && !isHiddenAndLocked && (
                         <div className="flex justify-between items-center mb-1">
                           <span
-                            className={`text-[9px] font-medium ${
-                              status === 'near' ? 'text-[#b07820]' : 'text-[#aaa098]'
-                            }`}
+                            className={`font-medium ${
+                              isSingle ? 'text-[11px]' : 'text-[9px]'
+                            } ${status === 'near' ? 'text-[#b07820]' : 'text-[#aaa098]'}`}
                           >
                             {current} / {target}
                           </span>
                           {status === 'near' && (
-                            <span className="text-[9px] text-[#b07820] font-medium">差一步!</span>
+                            <span className={`text-[#b07820] font-medium ${isSingle ? 'text-[11px]' : 'text-[9px]'}`}>差一步!</span>
                           )}
                         </div>
                       )}
