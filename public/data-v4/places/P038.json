@@ -29,13 +29,6 @@
   ],
   "global_events": [
     {
-      "id": "dingzhou-001",
-      "date": "元祐八年（1093年）",
-      "title": "知定州",
-      "description": "苏轼知定州",
-      "significance": "知定州"
-    },
-    {
       "place": "定州",
       "date": "元祐八年（1093年）",
       "title": "整顿军纪",
@@ -47,7 +40,7 @@
   "global_works": [
     {
       "title": "定州中山怀古",
-      "type": "shi",
+      "type": "诗",
       "note": "北地咏史代表作",
       "source_route": "R17",
       "poem_id": "S131"

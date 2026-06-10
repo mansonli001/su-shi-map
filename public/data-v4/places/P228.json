@@ -3,8 +3,8 @@
   "ancient_name": "中和古镇",
   "modern_name": "海南儋州中和古镇",
   "type": "around",
-  "lat": 19.5215,
-  "lng": 109.4768,
+  "lat": 19.743857,
+  "lng": 109.349583,
   "related_routes": [
     "R18"
   ],
@@ -223,6 +223,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:57.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "中和镇"
 }

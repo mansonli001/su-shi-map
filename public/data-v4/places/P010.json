@@ -3,13 +3,13 @@
   "ancient_name": "汴京太学",
   "modern_name": "河南开封太学旧址",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.8012,
+  "lng": 114.3521,
   "related_routes": [
     "R01"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "褒城即今陕西汉中褒城，褒斜道南端出口。苏轼出蜀经此，褒水清澈、栈道遗迹犹存，是蜀道文明的重要节点。",
+  "background": "汴京太学，北宋最高学府，天下学子仰慕之地。苏轼曾为太学考官，品评文章、选拔人才。其弟苏辙亦曾任太学教授，兄弟二人在汴京文教体系中皆有建树，太学是北宋文人入仕的重要阶梯。",
   "tags": [
     "都城",
     "科举",
@@ -261,7 +261,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.248Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.308Z",
   "duration_summary": {

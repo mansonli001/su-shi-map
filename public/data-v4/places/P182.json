@@ -27,15 +27,7 @@
       "description": "苏轼任杭州知州时，巡行至临安（今浙江临安），访天目山。"
     }
   ],
-  "global_events": [
-    {
-      "id": "hz-001",
-      "date": "熙宁四年（1071年）十一月二十八日",
-      "title": "任杭州通判",
-      "description": "苏轼到杭州任通判，寓居凤凰山",
-      "significance": "杭州仕途"
-    }
-  ],
+  "global_events": [],
   "global_works": [
     {
       "id": "hz-w001",

@@ -30,6 +30,7 @@ export interface V4PlaceIdx {
   lng: number;
   importance?: number;
   tags?: string[];
+  summary?: string;
   related_routes: string[];
   has_detail?: boolean;
 }
@@ -164,6 +165,7 @@ export function v4PlaceToPlaceCore(p: V4PlaceIdx, stageMap?: Map<string, string>
     routeId: r0 || undefined,
     routeOrder: undefined, // 路线 order 在 routes/{Rid}.json 里
     relatedRoutes: p.related_routes || [],
+    summary: p.summary || "",
     tag:
       (p.tags || [])[0] ||
       (p.layer === "main" ? "主线" : p.layer === "water" ? "水路" : p.layer === "surrounding" ? "周边" : "途经"),

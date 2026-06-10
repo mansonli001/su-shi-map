@@ -3,13 +3,13 @@
   "ancient_name": "洪泽湖沿岸",
   "modern_name": "江苏洪泽湖沿岸",
   "type": "sight",
-  "lat": 33.288749,
-  "lng": 118.840109,
+  "lat": 33.2887,
+  "lng": 118.87,
   "related_routes": [
     "R15"
   ],
   "tags": [],
-  "background": "淮河下游巨泽，烟波浩渺、芦苇无边。苏轼自杭州还朝，经洪泽湖北上，湖面风急浪高、渔帆点点，是江淮水系最壮阔的水路。",
+  "background": "洪泽湖沿岸，淮河下游大湖。苏轼赴任途中舟行洪泽湖，水天一色、芦苇摇曳。宋代洪泽湖尚未如今日之大，然淮水汇聚、运河穿湖，已是南北漕运的关键水域，苏轼舟行此湖屡有风涛之险。",
   "route_events": {},
   "global_events": [
     {
@@ -114,6 +114,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:14:47.000Z",
-  "coordinate_source": "amap_poi_original",
+  "coordinate_source": "manual_fix",
   "sxzk_address": "南环路33号"
 }

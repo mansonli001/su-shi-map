@@ -3,13 +3,13 @@
   "ancient_name": "汴京御史台监狱",
   "modern_name": "河南开封御史台监狱",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.7935,
+  "lng": 114.3462,
   "related_routes": [
     "R09"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "汴京御史台监狱，即'乌台'。元丰二年（1079年），苏轼因诗获罪被囚于此百余日，'乌台诗案'由此得名，是苏轼人生的重大转折。",
+  "background": "汴京御史台监狱，乌台诗案中苏轼被关押于此百余日。元丰二年（1079）八月十八日入狱，生死一线间写下'与君世世为兄弟，更结来生未了因'绝命诗寄苏辙。一百三十日牢狱之灾是人生最黑暗的岁月，也是'苏东坡'诞生的前夜——出狱后黄州贬谪，千古名篇喷薄而出。",
   "tags": [
     "都城",
     "科举",
@@ -48,7 +48,7 @@
     },
     {
       "title": "狱中寄子由二首",
-      "type": "poem",
+      "type": "诗",
       "note": "御史台狱中绝笔诗",
       "source_route": "R09",
       "poem_id": "S069"
@@ -260,7 +260,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.224Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.309Z",
   "duration_summary": {

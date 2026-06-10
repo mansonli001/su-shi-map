@@ -3,8 +3,8 @@
   "ancient_name": "镇江金山寺",
   "modern_name": "江苏镇江金山寺",
   "type": "sight",
-  "lat": 32.2192,
-  "lng": 119.4145,
+  "lat": 32.2236,
+  "lng": 119.3925,
   "related_routes": [
     "R06"
   ],
@@ -265,6 +265,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:56.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "sxzk_address": "长江路与金山路交叉口北160米"
 }

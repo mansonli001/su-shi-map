@@ -3,13 +3,13 @@
   "ancient_name": "淮河南岸古驿",
   "modern_name": "淮河南岸驿道",
   "type": "sight",
-  "lat": 32.577177,
-  "lng": 115.892242,
+  "lat": 32.627,
+  "lng": 115.892,
   "related_routes": [
     "R10"
   ],
   "tags": [],
-  "background": "淮河南岸千年古驿道，古驿连绵、阡陌纵横。苏轼贬谪南下经此，沿途河湖错落、村落烟树，长亭古道随处可见，尽览淮上田园风物，是中原入江汉的必经之路。",
+  "background": "淮河南岸古驿，淮河渡口南岸驿站。苏轼一生多次渡淮，南北往返皆经此。淮水是中国南北的天然分界，'橘生淮南则为橘，生于淮北则为枳'，渡淮即是跨越地理与文化的分界线，苏轼诗中屡有渡淮之感。",
   "route_events": {},
   "global_events": [
     {
@@ -113,6 +113,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:14:53.000Z",
-  "coordinate_source": "amap_poi_original",
+  "coordinate_source": "manual_fix",
   "sxzk_address": "阜南县"
 }

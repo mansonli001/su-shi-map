@@ -20,7 +20,7 @@
     "R17"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "荆州即今湖北江陵，长江中游重镇。苏轼顺江出蜀至此舍舟登陆，江汉平原沃野千里、城郭巍峨，是水路出蜀的终点。",
+  "background": "汴京，北宋都城开封，天下政治文化中心。苏轼自嘉祐元年（1056）首次进京至绍圣元年（1094）最后一次离京，近四十年间十二次出入汴京。科举高中、入仕为官、乌台入狱、元祐入阁，人生大起大落皆在此城。汴京是苏轼仕途的起点与终点，也是其文学声名远播天下的舞台。",
   "tags": [
     "都城",
     "科举",
@@ -68,28 +68,28 @@
     },
     {
       "title": "刑赏忠厚之至论",
-      "type": "wen",
+      "type": "文",
       "note": "汴京应试成名作",
       "source_route": "R01",
       "poem_id": "Z001"
     },
     {
       "title": "上神宗皇帝书（前期酝酿）",
-      "type": "wen",
+      "type": "文",
       "note": "入朝议政奠基之作",
       "source_route": "R05",
       "poem_id": "Z002"
     },
     {
       "title": "狱中寄子由二首",
-      "type": "poem",
+      "type": "诗",
       "note": "御史台狱中绝笔诗",
       "source_route": "R09",
       "poem_id": "S069"
     },
     {
       "title": "翰林院制诰序跋",
-      "type": "gaowen",
+      "type": "文",
       "note": "元祐朝堂台阁雅文集成",
       "source_route": "R13",
       "poem_id": "W012"
@@ -481,7 +481,7 @@
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.307Z",
   "duration_summary": {
-    "first_year": 1056,
+    "first_year": 1092,
     "last_year": 1094,
     "span_years": 38,
     "duration_label": "1056-1094 · 38年",

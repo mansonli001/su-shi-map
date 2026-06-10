@@ -30,7 +30,7 @@
   "global_works": [
     {
       "title": "别子由三首",
-      "type": "poem",
+      "type": "诗",
       "note": "",
       "source_route": "R18",
       "poem_id": "S162"
@@ -135,7 +135,7 @@
   "last_updated": "2026-06-01T10:22:05.266Z",
   "schema_version": "v4.1",
   "duration_summary": {
-    "first_year": 1094,
+    "first_year": 1100,
     "last_year": 1101,
     "span_years": 7,
     "duration_label": "1094-1101 · 7年",

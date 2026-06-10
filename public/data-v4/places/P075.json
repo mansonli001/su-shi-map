@@ -30,13 +30,6 @@
   ],
   "global_events": [
     {
-      "id": "hzh-001",
-      "date": "绍圣元年（1094年）十月二日",
-      "title": "到惠州贬所",
-      "description": "苏轼到惠州贬所",
-      "significance": "到惠州"
-    },
-    {
       "place": "惠州",
       "date": "绍圣二年（1095年）",
       "title": "白鹤峰新居",

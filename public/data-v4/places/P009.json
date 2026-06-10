@@ -3,13 +3,13 @@
   "ancient_name": "汴京翰林院",
   "modern_name": "河南开封翰林院旧址",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.7993,
+  "lng": 114.3476,
   "related_routes": [
     "R13"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "大散关即今陕西宝鸡西南，秦岭西段险隘。苏轼父子出蜀翻越秦岭经此，关城险峻、陈仓古道蜿蜒，是蜀道天险的北端出口。",
+  "background": "汴京翰林院，北宋文臣最高学府与制诰起草之所。苏轼元祐元年（1086）至元祐四年（1089）间入翰林为学士知制诰，草拟诏令、参预机要，文名满天下。翰林院三年是苏轼仕途最辉煌的岁月，亦是其与新旧两党反复周旋的政治漩涡中心。",
   "tags": [
     "都城",
     "科举",
@@ -286,7 +286,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.240Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.308Z",
   "duration_summary": {

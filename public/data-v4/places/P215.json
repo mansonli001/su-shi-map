@@ -6,7 +6,7 @@
   "related_routes": [
     "R09"
   ],
-  "background": "运河全线，贯通南北的水上官道。苏轼一生多次乘运河船往返南北，粮船穿梭、两岸市镇相连，是宋代官员调任的核心航道。",
+  "background": "运河全线风光，贯通南北的京杭大运河。苏轼一生多次乘运河船往返南北，赴京赶考、外放赴任、贬谪远行皆沿运河。粮船穿梭、两岸市镇相连，运河是连接汴京与杭州的千年水路，亦是苏轼南北奔波人生的水上长卷。",
   "extended_story": "赴任时泛舟赏运河两岸风物，闲适悠然；\n押解北上时同一条运河，心境却悲戚惶恐、物是人非。",
   "essence": "本路线全程依托核心水系",
   "tags": [
@@ -75,9 +75,9 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:44.000Z",
-  "lat": 30.302955,
-  "lng": 120.141908,
-  "coordinate_source": "amap_poi_original",
+  "lat": 32.397728,
+  "lng": 119.453129,
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "环城北路226号武林门码头",
   "sub_places": [
     {

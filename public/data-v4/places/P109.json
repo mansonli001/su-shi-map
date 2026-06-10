@@ -3,13 +3,13 @@
   "ancient_name": "庐山全山",
   "modern_name": "江西庐山",
   "type": "sight",
-  "lat": 29.563,
-  "lng": 115.9868,
+  "lat": 29.448225,
+  "lng": 116.045118,
   "related_routes": [
     "R11"
   ],
   "summary": "苏轼游庐山，留下'不识庐山真面目'千古名句",
-  "background": "英德即今广东英德，北江中游。苏轼南贬途经此地，南山摩崖石刻、北江碧水，是岭南文化驿站。",
+  "background": "庐山全山，匡庐七百里，五老峰、含鄱口、三叠泉遍布。苏轼游庐山数日，遍历东林寺、西林寺、栖贤谷、开先寺等胜迹。'横看成岭侧成峰，远近高低各不同'，庐山全山的千变万化启悟了苏轼观物之理，是山水哲学的悟道之地。",
   "tags": [
     "庐山",
     "山",
@@ -26,15 +26,7 @@
       "description": "元丰七年（1084年）四月，苏轼离开黄州，赴汝州任上。\n\n途中特意绕道，游历庐山。\n\n在庐山，他写下《题西林壁》：'横看成岭侧成峰，远近高低各不同。不识庐山真面目，只缘身在此山中。'——成为中国哲理诗的巅峰之作。"
     }
   ],
-  "global_events": [
-    {
-      "id": "p109-001",
-      "date": "元丰七年（1084年）五月",
-      "title": "游庐山",
-      "description": "苏轼量移汝州途中游庐山",
-      "significance": "庐山之游"
-    }
-  ],
+  "global_events": [],
   "global_works": [
     {
       "id": "ls-w001",
@@ -256,6 +248,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:15:20.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "牯岭镇河西路48号"
 }

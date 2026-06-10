@@ -3,8 +3,8 @@
   "ancient_name": "载酒堂",
   "modern_name": "海南儋州载酒堂",
   "type": "around",
-  "lat": 19.5215,
-  "lng": 109.4768,
+  "lat": 19.520948,
+  "lng": 109.580812,
   "related_routes": [
     "R18"
   ],
@@ -220,6 +220,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:46.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "儋州市中和镇东坡书院内"
 }

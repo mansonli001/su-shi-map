@@ -3,13 +3,13 @@
   "ancient_name": "崤山二陵",
   "modern_name": "河南三门峡崤山二陵",
   "type": "sight",
-  "lat": 34.773196,
-  "lng": 111.200482,
+  "lat": 34.771943,
+  "lng": 111.76525,
   "related_routes": [
     "R01"
   ],
   "tags": [],
-  "background": "崤山古道险隘，东西交通必经之地。二陵为夏后皋与周文王之墓，古道穿行其间，山势陡峭、道路狭窄。苏轼父子出蜀赴京途经此段，行路艰险，是中原古道最险峻的一段。",
+  "background": "崤山二陵，崤山古道险隘，夏后皋与周文王之墓所在。苏轼赴京经此，山势陡峭、古道穿行其间。崤山是东西交通的千年险关，秦晋崤之战即发生于此，二陵古墓是先秦文明的幽远遗存。",
   "route_events": {},
   "global_events": [
     {
@@ -74,6 +74,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:16.000Z",
-  "coordinate_source": "amap_poi_original",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "湖滨区"
 }

@@ -3,13 +3,13 @@
   "ancient_name": "常州终老故居",
   "modern_name": "江苏常州孙氏馆",
   "type": "around",
-  "lat": 31.7744,
-  "lng": 119.974,
+  "lat": 31.811313,
+  "lng": 119.974092,
   "related_routes": [
     "R19"
   ],
   "summary": "苏轼北归卒于常州",
-  "background": "常州孙氏馆，苏轼北归后的居所兼终老之地。病榻之上仍与友人论诗，'我平生未尝为恶，死必不坠'是最后的旷达。",
+  "background": "常州终老故居，即常州孙氏馆。苏轼建中靖国元年（1101）六月抵常州，七月二十八日病逝于此。临终前对守在床前的钱世雄说'吾生不恶，死必不坠'，端坐而逝。孙氏馆是东坡人生最后的居所，亦是后世常州东坡纪念的圣地。",
   "tags": [
     "常州",
     "毗陵",
@@ -37,13 +37,6 @@
       "description": "苏轼在宜兴买田，计划定居",
       "significance": "route10",
       "id": "p018-002"
-    },
-    {
-      "id": "p018-002",
-      "date": "建中靖国元年（1101年）七月二十八日",
-      "title": "卒于常州",
-      "description": "苏轼卒于常州",
-      "significance": "卒于常州"
     },
     {
       "id": "p018-003",
@@ -155,7 +148,7 @@
   "essence": "苏轼人生最终归宿、一生行旅收官圣地",
   "last_updated": "2026-06-01T10:22:05.268Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "amap_geocode_fixed",
   "amap_address": "江苏省常州市",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {

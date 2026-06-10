@@ -69,14 +69,21 @@ export const achievementIconsHD: Record<string, string> = {
 
 /**
  * 获取UI图标
+ * 支持新旧图标名映射（图像替换后的别名兼容）
  */
+const ICON_ALIASES: Record<string, string> = {
+  '集大成者': '鎏金终极',
+  '一蓑烟雨': '生辰同游',
+  '此心安处': '节气同游',
+};
+
 export const getIconByName = (name: string): string | undefined => {
-  return achievementIcons[name];
+  return achievementIcons[name] || achievementIcons[ICON_ALIASES[name]];
 };
 
 /**
  * 获取高清海报图标
  */
 export const getIconByNameHD = (name: string): string | undefined => {
-  return achievementIconsHD[name];
+  return achievementIconsHD[name] || achievementIconsHD[ICON_ALIASES[name]];
 };

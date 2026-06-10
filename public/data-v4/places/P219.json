@@ -34,13 +34,6 @@
   ],
   "global_events": [
     {
-      "id": "ca-001",
-      "date": "嘉祐元年（1056年）",
-      "title": "第一次到长安",
-      "description": "三苏出蜀途经长安，这是北宋西北重镇",
-      "significance": "途经长安"
-    },
-    {
       "place": "长安",
       "date": "嘉祐元年（1056年）",
       "title": "首次入长安",
@@ -231,7 +224,7 @@
   "last_updated": "2026-06-01T10:22:05.204Z",
   "schema_version": "v4.1",
   "duration_summary": {
-    "first_year": 1056,
+    "first_year": 1068,
     "last_year": 1069,
     "span_years": 13,
     "duration_label": "1056-1069 · 13年",

@@ -18,15 +18,7 @@
     "hub"
   ],
   "periods": [],
-  "global_events": [
-    {
-      "id": "lz2-001",
-      "date": "嘉祐元年（1056年）三月",
-      "title": "第一次过利州",
-      "description": "三苏出蜀途经利州（昭化），是蜀道重要节点",
-      "significance": "蜀道节点"
-    }
-  ],
+  "global_events": [],
   "global_works": [
     {
       "title": "过利州",

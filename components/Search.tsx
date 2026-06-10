@@ -1,39 +1,30 @@
 /**
- * Search v4.0
+ * Search v5.0
  * fuse.js 本地模糊搜索，AnimatePresence 弹出层
+ * 统一使用 v4 数据，从 store 取 places，不再二次 fetch
  */
 
 'use client';
 
-import { useState, useMemo, useRef, useEffect } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Fuse from 'fuse.js';
 import { useSuShiStore } from '@/lib/store';
-import { PlaceIndex } from '@/types';
+import { PlaceCore } from '@/types';
 
 export default function Search() {
-  const { isSearchOpen, closeSearch, setSelectedPlace } = useSuShiStore();
+  const { isSearchOpen, closeSearch, setSelectedPlace, places } = useSuShiStore();
   const [query, setQuery] = useState('');
-  const [places, setPlaces] = useState<PlaceIndex[]>([]);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // 加载地点索引数据
-  useEffect(() => {
-    if (!isSearchOpen) return;
-    fetch('/data/places-index.json')
-      .then(res => res.json())
-      .then(data => setPlaces(data))
-      .catch(err => console.error('加载搜索索引失败', err));
-  }, [isSearchOpen]);
-
-  // fuse.js 搜索
+  // fuse.js 搜索 — 使用 v4 字段映射
   const results = useMemo(() => {
     if (!query.trim() || places.length === 0) return [];
     const fuse = new Fuse(places, {
       keys: [
-        { name: 'songName', weight: 0.4 },
-        { name: 'modernName', weight: 0.4 },
-        { name: 'summary', weight: 0.2 },
+        { name: 'songName', weight: 0.4 },      // v4 ancient_name
+        { name: 'modernName', weight: 0.4 },     // v4 modern_name
+        { name: 'summary', weight: 0.2 },        // v4 background（取前50字，由 v4-adapter 映射）
       ],
       threshold: 0.4,
       includeScore: true,
@@ -41,17 +32,9 @@ export default function Search() {
     return fuse.search(query).slice(0, 10);
   }, [query, places]);
 
-  // 选中地点
-  const handleSelect = (place: PlaceIndex) => {
-    // 获取完整 PlaceCore 并选中
-    fetch(`/data/places-core.json`)
-      .then(res => res.json())
-      .then((cores: PlaceIndex[]) => {
-        const core = cores.find(p => p.id === place.id);
-        if (core) {
-          setSelectedPlace(core as unknown as Parameters<typeof setSelectedPlace>[0]);
-        }
-      });
+  // 选中地点 — 直接从 store 的 places 数组查找，不再二次 fetch
+  const handleSelect = (place: PlaceCore) => {
+    setSelectedPlace(place);
     setQuery('');
     closeSearch();
   };

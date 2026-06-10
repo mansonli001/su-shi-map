@@ -3,8 +3,8 @@
   "ancient_name": "沂州",
   "modern_name": "山东临沂",
   "type": "main",
-  "lat": 35.103771,
-  "lng": 118.356464,
+  "lat": 35.088,
+  "lng": 118.327,
   "related_routes": [
     "R08"
   ],
@@ -148,6 +148,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:31.000Z",
-  "coordinate_source": "amap_geocode",
+  "coordinate_source": "manual_fix",
   "sxzk_address": "山东省临沂市"
 }

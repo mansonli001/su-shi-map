@@ -177,7 +177,7 @@ export const achievements: Achievement[] = [
     id: 'grow-011',
     name: '集大成者',
     emoji: '鼎',
-    icon: '鎏金终极',
+    icon: '集大成者',
     color: '#C9973A',
     glow: 'rgba(201, 151, 58, 0.4)',
     desc: '120个全量足迹全部打卡完毕',
@@ -364,7 +364,7 @@ export const achievements: Achievement[] = [
     id: 'secret-002',
     name: '生辰同游',
     emoji: '桃',
-    icon: '生辰同游',
+    icon: '一蓑烟雨',
     color: '#6B4A8C',
     glow: 'rgba(107, 74, 140, 0.4)',
     desc: '用户注册生日当天，任意点位打卡',
@@ -379,7 +379,7 @@ export const achievements: Achievement[] = [
     id: 'secret-003',
     name: '节气同游',
     emoji: '雪',
-    icon: '节气同游',
+    icon: '此心安处',
     color: '#6B4A8C',
     glow: 'rgba(107, 74, 140, 0.4)',
     desc: '二十四节气任意一个节气自然日完成打卡',
@@ -839,10 +839,11 @@ export const ACHIEVEMENT_IMAGES: Record<string, string> = {
   '七日同游': '/achievements/七日同游.jpg',
   '月月同游': '/achievements/月月同游.jpg',
   '半生行遍': '/achievements/半生行遍.jpg',
-  '鎏金终极': '/achievements/鎏金终极.jpg',
+  '集大成者': '/achievements/集大成者.jpg',
   '黄州客居': '/achievements/黄州客居.jpg',
   '岭南逐客': '/achievements/岭南逐客.jpg',
   '天涯儋州': '/achievements/天涯儋州.jpg',
+  '贬谪三地行者': '/achievements/贬谪三地行者.jpg',
   '西湖闲客': '/achievements/西湖闲客.jpg',
   '江南行舟': '/achievements/江南行舟.jpg',
   '美食墨客': '/achievements/美食墨客.jpg',
@@ -851,10 +852,8 @@ export const ACHIEVEMENT_IMAGES: Record<string, string> = {
   '风雨定风波': '/achievements/风雨定风波.jpg',
   '千首拾珍': '/achievements/千首拾珍.jpg',
   '雨夜读苏': '/achievements/雨夜读苏.jpg',
-  '生辰同游': '/achievements/生辰同游.jpg',
-  '节气同游': '/achievements/节气同游.jpg',
-  // 注：'贬谪三地行者' 暂无对应插画文件，走 UI 兜底（成就名首字渲染）；
-  //     待补充 public/achievements/贬谪三地行者.jpg 后再加入此映射。
+  '一蓑烟雨': '/achievements/一蓑烟雨.jpg',
+  '此心安处': '/achievements/此心安处.jpg',
 };
 
 /**

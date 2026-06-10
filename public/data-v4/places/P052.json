@@ -3,8 +3,8 @@
   "ancient_name": "瓜州古渡",
   "modern_name": "江苏扬州瓜洲镇",
   "type": "sight",
-  "lat": 32.2082,
-  "lng": 119.4278,
+  "lat": 32.254619,
+  "lng": 119.384787,
   "related_routes": [
     "R04"
   ],
@@ -180,7 +180,7 @@
     "v3_lat": 32.39,
     "v3_lng": 119.41
   },
-  "coordinate_source": "original",
+  "coordinate_source": "amap_geocode_fixed",
   "amap_address": "江苏省扬州市邗江区瓜洲镇",
   "coords_updated_at": "2026-06-01T10:17:04.314Z",
   "duration_summary": {

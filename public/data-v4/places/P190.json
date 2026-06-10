@@ -3,8 +3,8 @@
   "ancient_name": "崤山古道",
   "modern_name": "河南三门峡崤山古道",
   "type": "sight",
-  "lat": 34.773196,
-  "lng": 111.200482,
+  "lat": 34.568731,
+  "lng": 111.645754,
   "related_routes": [
     "R03"
   ],
@@ -85,6 +85,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:17.000Z",
-  "coordinate_source": "amap_poi_original",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "湖滨区"
 }

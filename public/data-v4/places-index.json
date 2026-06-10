@@ -22,7 +22,7 @@
       "birth": 2,
       "study": 1
     },
-    "detail_count": 148,
+    "detail_count": 90,
     "detail_updated_at": "2026-06-01T04:12:29.574Z",
     "coords_amap_merged_at": "2026-06-01T10:17:04.329Z",
     "coords_amap_corrected_count": 86
@@ -40,7 +40,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "白鹤峰，惠州城东江畔高地。苏轼绍圣元年（1094）贬居惠州，于白鹤峰顶购地筑屋，取'白鹤新居'为名。",
       "related_routes": [
         "R18"
       ],
@@ -52,7 +52,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "广东省惠州市",
@@ -70,7 +70,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "白州，岭南西部古城，今广西博白。苏轼元符三年（1100）北归途中经此",
       "related_routes": [
         "R19"
       ],
@@ -98,7 +98,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "百步洪，徐州东南泗水险滩，巨石横亘、水势奔涌。苏轼元丰元年（1078）知徐州时与友泛舟观洪，",
       "related_routes": [
         "R08"
       ],
@@ -110,7 +110,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省徐州市云龙区百步洪",
@@ -128,7 +128,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "北部湾海岸，岭南南海之滨，天涯海角的苍茫之地。苏轼绍圣四年（1097）自惠州再贬儋州，",
       "related_routes": [
         "R19"
       ],
@@ -156,7 +156,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "北江，岭南珠江支流，自南雄南下经韶关至清远，是岭南南北水路命脉。苏轼绍圣元年（1094）南贬惠州，",
       "related_routes": [
         "R18"
       ],
@@ -184,7 +184,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "汴河，中原漕运命脉，自开封东下通淮入江。苏轼一生多次乘汴河船往返南北，赴京赶考、外放离京皆沿此路。",
       "related_routes": [
         "R04",
         "R18"
@@ -202,7 +202,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -218,7 +218,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴河漕运古道，贯通中原的千年水道。苏轼自嘉祐元年（1056）首次进京至绍圣元年（1094）最后一次离",
       "related_routes": [
         "R04"
       ],
@@ -230,7 +230,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -249,7 +249,7 @@
         "核心节点",
         "跨12路线"
       ],
-      "summary": "",
+      "summary": "汴京，北宋都城开封，天下政治文化中心。苏轼自嘉祐元年（1056）首次进京至绍圣元年（1094）最后一",
       "related_routes": [
         "R01",
         "R03",
@@ -349,13 +349,13 @@
       "modern_name": "河南开封翰林院旧址",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.7993,
+      "lng": 114.3476,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京翰林院，北宋文臣最高学府与制诰起草之所。",
       "related_routes": [
         "R13"
       ],
@@ -379,13 +379,13 @@
       "modern_name": "河南开封太学旧址",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.8012,
+      "lng": 114.3521,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京太学，北宋最高学府，天下学子仰慕之地。苏轼曾为太学考官，品评文章、选拔人才。",
       "related_routes": [
         "R01"
       ],
@@ -397,7 +397,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -409,13 +409,13 @@
       "modern_name": "河南开封文德殿旧址",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.7965,
+      "lng": 114.3538,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京文德殿，皇宫正殿，朝会议政之所。苏轼元祐年间多次在此面圣奏对，论新法得失、辩党争是非，",
       "related_routes": [
         "R15"
       ],
@@ -427,7 +427,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -439,13 +439,13 @@
       "modern_name": "河南开封御史台旧址",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.7948,
+      "lng": 114.3489,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京御史台，朝廷监察百官之署。苏轼元丰二年（1079）因乌台诗案被押至御史台受审，",
       "related_routes": [
         "R04"
       ],
@@ -457,7 +457,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -469,13 +469,13 @@
       "modern_name": "河南开封御史台监狱",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.7935,
+      "lng": 114.3462,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京御史台监狱，乌台诗案中苏轼被关押于此百余日。元丰二年（1079）八月十八日入狱，",
       "related_routes": [
         "R09"
       ],
@@ -499,13 +499,13 @@
       "modern_name": "河南开封政事堂旧址",
       "type": "around",
       "layer": "around",
-      "lat": 34.7972,
-      "lng": 114.3496,
-      "coordinate_source": "amap_corrected",
+      "lat": 34.7985,
+      "lng": 114.3555,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京政事堂，宰相议事之所，朝廷决策核心。苏轼虽未入相，",
       "related_routes": [
         "R05"
       ],
@@ -517,7 +517,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -535,7 +535,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "曹州，山东西南古城，济水之南。苏轼赴京东任职途中经此，平原沃野、古道漫漫。曹州牡丹甲天下，",
       "related_routes": [
         "R13"
       ],
@@ -563,7 +563,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "常山，密州城南名山。苏轼熙宁七年（1074）至熙宁九年（1076）知密州，多次率众常山祈雨，",
       "related_routes": [
         "R07"
       ],
@@ -596,7 +596,7 @@
         "核心节点",
         "跨6路线"
       ],
-      "summary": "",
+      "summary": "常州，江南运河重镇，苏轼一生多次途经常州。熙宁四年（1071）赴杭州通判任首次过常，",
       "related_routes": [
         "R06",
         "R07",
@@ -655,13 +655,13 @@
       "modern_name": "江苏常州孙氏馆",
       "type": "around",
       "layer": "around",
-      "lat": 31.7744,
-      "lng": 119.974,
-      "coordinate_source": "amap_corrected",
+      "lat": 31.811313,
+      "lng": 119.974092,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "常州终老故居，即常州孙氏馆。苏轼建中靖国元年（1101）六月抵常州，七月二十八日病逝于此。",
       "related_routes": [
         "R19"
       ],
@@ -691,7 +691,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "陈仓，关中西部古城，今陕西宝鸡。苏轼嘉祐六年（1061）赴凤翔签判任",
       "related_routes": [
         "R01"
       ],
@@ -724,7 +724,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "陈州，中原古城，今河南淮阳。苏轼熙宁三年（1070）赴杭州通判任途经",
       "related_routes": [
         "R06",
         "R10",
@@ -754,7 +754,7 @@
         }
       ],
       "occurrences": 4,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省周口市淮阳区",
@@ -775,7 +775,7 @@
         "核心节点",
         "跨3路线"
       ],
-      "summary": "",
+      "summary": "成都，蜀中首府，天府之国。苏轼青年时多次往来成都，嘉祐元年（1056）随父苏洵拜谒益州长官张方平，",
       "related_routes": [
         "R00",
         "R01",
@@ -804,7 +804,7 @@
         }
       ],
       "occurrences": 4,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "四川省成都市",
@@ -824,7 +824,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "青羊宫，成都西南千年道观，老子化蜀传说之地。苏轼少年游成都时到访",
       "related_routes": [
         "R00"
       ],
@@ -836,7 +836,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -852,7 +852,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "澄迈，海南岛北部古县，琼州海峡南岸。苏轼绍圣四年（1097）贬儋州时",
       "related_routes": [
         "R18",
         "R19"
@@ -886,7 +886,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "赤壁摩崖石刻，黄州赤壁临江崖壁历代题刻。苏轼两游赤壁后，文人墨客慕名而来，",
       "related_routes": [
         "R10"
       ],
@@ -914,7 +914,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "滁州，江淮之间古城，欧阳修知滁旧地。苏轼熙宁四年（1071）赴杭州通判任途经滁州，",
       "related_routes": [
         "R06"
       ],
@@ -926,7 +926,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "安徽省滁州市",
@@ -944,7 +944,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "滁州琅琊山，欧阳修《醉翁亭记》所咏之名山。苏轼过滁州登琅琊，追怀恩师，醉翁亭、酿泉仍在，而欧公已逝。",
       "related_routes": [
         "R06"
       ],
@@ -956,7 +956,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "安徽省滁州市琅琊区琅琊山",
@@ -977,7 +977,7 @@
         "核心节点",
         "跨7路线"
       ],
-      "summary": "",
+      "summary": "楚州，淮河南岸重镇，运河与淮水交汇之处。苏轼多次南北往返经此渡淮，运河穿城而过、漕船穿梭，",
       "related_routes": [
         "R07",
         "R08",
@@ -1025,7 +1025,7 @@
         }
       ],
       "occurrences": 7,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省淮安市",
@@ -1043,7 +1043,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "磁州，河北古城，太行山东麓。苏轼赴定州任途中经此，滏口陉险要、磁州窑名天下，是中原通往河北的关隘。",
       "related_routes": [
         "R17"
       ],
@@ -1055,7 +1055,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1071,7 +1071,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "大别山边缘古道，鄂豫皖交界山间驿道。苏轼元丰三年（1080）赴黄州贬所途中翻越大别山余脉，",
       "related_routes": [
         "R10"
       ],
@@ -1083,7 +1083,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -1099,7 +1099,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "大慈寺，成都名刹，'震旦第一丛林'。苏轼游成都时曾访大慈寺，观壁画题诗，留下文墨印记。",
       "related_routes": [
         "R00"
       ],
@@ -1111,7 +1111,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1127,7 +1127,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "大庾岭，五岭之首，赣粤分界天险。苏轼绍圣元年（1094）南贬翻越大庾岭，作'一念失垢污，",
       "related_routes": [
         "R18"
       ],
@@ -1139,7 +1139,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1155,7 +1155,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "大庾岭梅关，岭上关隘，古称'岭南第一关'。苏轼南贬过梅关，梅关南北气候判然不同，关北尚是中原风物，",
       "related_routes": [
         "R18"
       ],
@@ -1167,7 +1167,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江西省赣州市大余县梅关",
@@ -1185,7 +1185,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "丹崖山，登州（今蓬莱）海边名山。苏轼知登州时游丹崖山，海天一色、仙气缥缈，'蓬莱胜景'名不虚传。",
       "related_routes": [
         "R12"
       ],
@@ -1215,7 +1215,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "儋州即今海南儋州，苏轼最后一个贬谪地。三年讲学授徒、载酒堂中论文，开海南文教之先，",
       "related_routes": [
         "R18",
         "R19"
@@ -1249,7 +1249,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "儋州桄榔庵，苏轼谪居儋州的住所。竹篱茅舍、椰林环绕，虽居荒僻却著述不辍，",
       "related_routes": [
         "R18"
       ],
@@ -1277,7 +1277,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "登州即今山东蓬莱，苏轼元丰八年到任仅五日即被召还。蓬莱阁临海、海市蜃楼奇观，",
       "related_routes": [
         "R12",
         "R13"
@@ -1313,7 +1313,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "邓州，南阳盆地古城，范仲淹知邓旧地。苏轼途经邓州，追念范仲淹知邓时建花洲书院、作《岳阳楼记》之遗泽。",
       "related_routes": [
         "R03"
       ],
@@ -1341,7 +1341,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "定州即今河北定州，北宋边防重镇。苏轼元祐八年知定州，整饬军纪、修城练兵，北望契丹、风沙漫天，",
       "related_routes": [
         "R17",
         "R18"
@@ -1375,7 +1375,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "定州中山故都，河北边防重镇，战国中山国故地。苏轼元祐八年（1093）",
       "related_routes": [
         "R17"
       ],
@@ -1403,7 +1403,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "渡琼州海峡，苏轼从雷州半岛渡海赴儋州。碧波万顷、海天一线，'九死南荒吾不恨'的旷达始于这片海域。",
       "related_routes": [
         "R18"
       ],
@@ -1415,7 +1415,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1431,7 +1431,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "灵隐寺前石灰岩孤峰，传自天竺飞来，故名。峰上遍布五代至宋元石窟造像，苏轼任杭州通判时常游灵隐一带，",
       "related_routes": [
         "R06"
       ],
@@ -1459,7 +1459,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "凤凰山，杭州城南名山。苏轼再知杭州时常游此地，山势如凤、古木参天，俯瞰西湖与钱塘江。",
       "related_routes": [
         "R06"
       ],
@@ -1471,7 +1471,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1487,7 +1487,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "凤县即今陕西凤县，秦岭西段驿道重镇。苏轼出蜀翻秦岭，凤县是出山后第一处歇脚地，嘉陵江支流绕城而过。",
       "related_routes": [
         "R01"
       ],
@@ -1504,7 +1504,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1520,7 +1520,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "凤翔（今属宝鸡），关中西府重镇。苏轼初仕任凤翔签判，'和子由渑池怀旧'即作于赴凤翔途中，",
       "related_routes": [
         "R03",
         "R04"
@@ -1556,7 +1556,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "凤翔东湖，关中名湖。苏轼任凤翔签判时疏浚东湖、建亭植柳，'东湖'之名由此远扬，是苏轼最早的政绩之一。",
       "related_routes": [
         "R03"
       ],
@@ -1568,7 +1568,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -1584,7 +1584,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "扶风，关中腹地，周原故土。苏轼赴凤翔途经扶风，法门寺佛指舍利在此供奉，关中平原沃野千里。",
       "related_routes": [
         "R01"
       ],
@@ -1596,7 +1596,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省宝鸡市扶风县",
@@ -1614,7 +1614,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "赣江古道，苏轼北归时顺赣江南下。两岸青山、江流清碧，与南贬时的凄凉截然不同，归途的赣江是喜悦的。",
       "related_routes": [
         "R19"
       ],
@@ -1642,7 +1642,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "高邮，淮左名都，运河重镇。苏轼途经高邮，秦观故里在此，'高邮鸭蛋'闻名天下，运河两岸烟柳如画。",
       "related_routes": [
         "R04",
         "R09"
@@ -1660,7 +1660,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1676,7 +1676,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "姑苏寒山寺，'月落乌啼霜满天'之地。苏轼游苏州时访寒山寺，枫桥夜泊的诗意千年未改。",
       "related_routes": [
         "R06"
       ],
@@ -1688,7 +1688,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省苏州市姑苏区寒山寺",
@@ -1706,7 +1706,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "孤山，杭州西湖中唯一天然岛屿。林逋梅妻鹤子之地，苏轼通判杭州时常游孤山，梅影疏淡、湖光清冽。",
       "related_routes": [
         "R06"
       ],
@@ -1718,7 +1718,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1734,7 +1734,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "瓜州渡，长江古渡口，扬州与镇江之间。苏轼多次经瓜州渡往返南北，'京口瓜洲一水间'写尽渡口风光。",
       "related_routes": [
         "R04",
         "R06"
@@ -1752,7 +1752,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1762,15 +1762,15 @@
       "modern_name": "江苏扬州瓜洲镇",
       "type": "sight",
       "layer": "sight",
-      "lat": 32.2082,
-      "lng": 119.4278,
-      "coordinate_source": "amap_corrected",
+      "lat": 32.254619,
+      "lng": 119.384787,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": false,
       "importance": 3,
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "瓜州古渡，运河与长江交汇处。苏轼途经瓜州，大江东去、运河北上，南北交通的咽喉要道。",
       "related_routes": [
         "R04"
       ],
@@ -1782,7 +1782,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {},
       "amap_address": "江苏省扬州市邗江区瓜洲镇",
@@ -1800,7 +1800,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "光州（今潢川），淮河南岸古城。苏轼途经光州，淮水为界、南北分野，中原与荆楚在此交汇。",
       "related_routes": [
         "R10"
       ],
@@ -1812,7 +1812,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1828,7 +1828,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "广州岭南首府，苏轼北归时再次途经。此番非贬谪路过，而是赦还归途，珠江帆影依旧、心境已大不同。",
       "related_routes": [
         "R18"
       ],
@@ -1845,7 +1845,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1861,7 +1861,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "海州（今连云港），东海之滨。苏轼途经海州，花果山云雾缭绕，黄海波涛壮阔。",
       "related_routes": [
         "R07",
         "R08",
@@ -1885,7 +1885,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -1901,7 +1901,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "海州花果山古址，传说中水帘洞所在地。苏轼途经海州，或闻花果山传说，云雾茶香飘山间。",
       "related_routes": [
         "R07"
       ],
@@ -1913,7 +1913,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省连云港市",
@@ -1931,7 +1931,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汉中栈道，蜀道南段褒斜道栈道遗迹。苏轼父子嘉祐元年（1056）出蜀经此，",
       "related_routes": [
         "R05"
       ],
@@ -1943,7 +1943,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -1962,7 +1962,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "杭州，东南第一州，西湖山水甲天下。苏轼两度仕杭：熙宁四年（1071）至七年（1074）任通判，",
       "related_routes": [
         "R06",
         "R07",
@@ -2010,7 +2010,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "濠州（今凤阳），淮河中游古城。苏轼途经濠州，庄子'濠梁之辩'在此发生，淮水悠悠、古风犹存。",
       "related_routes": [
         "R09"
       ],
@@ -2040,7 +2040,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "河北平原古驿，华北平原上的千年驿道。苏轼北上途经河北平原，麦浪如海、古驿苍凉，",
       "related_routes": [
         "R17"
       ],
@@ -2052,7 +2052,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -2068,7 +2068,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "洪泽湖，淮河下游大湖。苏轼途经洪泽湖，烟波浩渺、水天一色，'洪泽'之名源于其壮阔无际。",
       "related_routes": [
         "R16"
       ],
@@ -2096,7 +2096,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "洪泽湖古渡口，淮河水运要津。苏轼经洪泽湖渡口，南船北马在此交汇，运河与淮河的枢纽。",
       "related_routes": [
         "R16"
       ],
@@ -2118,13 +2118,13 @@
       "modern_name": "江苏洪泽湖沿岸",
       "type": "sight",
       "layer": "sight",
-      "lat": 33.288749,
-      "lng": 118.840109,
-      "coordinate_source": "core_curated",
+      "lat": 33.2887,
+      "lng": 118.87,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "洪泽湖沿岸，淮河下游大湖。苏轼赴任途中舟行洪泽湖，水天一色、芦苇摇曳。宋代洪泽湖尚未如今日之大，",
       "related_routes": [
         "R15"
       ],
@@ -2136,7 +2136,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -2152,7 +2152,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "洪州即今江西南昌，赣北水陆枢纽。苏轼北归途经此地，赣江入鄱阳湖、滕王阁临江，",
       "related_routes": [
         "R18"
       ],
@@ -2180,7 +2180,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "湖州，太湖南岸古城。苏轼元丰二年（1079）四月知湖州，到任仅三月即因乌台诗案被捕入京。",
       "related_routes": [
         "R07",
         "R09"
@@ -2203,7 +2203,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "浙江省湖州市",
@@ -2221,7 +2221,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "湖州西塞山，'西塞山前白鹭飞'之地。苏轼游湖州时常访西塞山，桃花流水、鳜鱼肥美，江南渔隐的典范。",
       "related_routes": [
         "R09"
       ],
@@ -2253,7 +2253,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "华山远眺，西岳华山雄踞关中，五峰如掌、壁立千仞。苏轼嘉祐六年（1061）赴凤翔签判任途中远望华山，",
       "related_routes": [
         "R03"
       ],
@@ -2265,7 +2265,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": false,
       "legacy": {},
       "amap_address": "陕西省渭南市华阴市华山",
@@ -2286,7 +2286,7 @@
         "核心节点",
         "跨3路线"
       ],
-      "summary": "",
+      "summary": "华州（今华县），关中东部重镇。苏轼途经华州，西岳华山在望，关中平原在此收束入秦岭。",
       "related_routes": [
         "R01",
         "R03",
@@ -2315,7 +2315,7 @@
         }
       ],
       "occurrences": 4,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省渭南市华州区",
@@ -2335,7 +2335,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "淮河，中国南北分界线。苏轼多次渡淮河，'橘生淮南则为橘'的地理分界，南北风物在此交替。",
       "related_routes": [
         "R16"
       ],
@@ -2357,13 +2357,13 @@
       "modern_name": "淮河南岸驿道",
       "type": "sight",
       "layer": "sight",
-      "lat": 32.577177,
-      "lng": 115.892242,
-      "coordinate_source": "core_curated",
+      "lat": 32.627,
+      "lng": 115.892,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "淮河南岸古驿，淮河渡口南岸驿站。苏轼一生多次渡淮，南北往返皆经此。淮水是中国南北的天然分界，",
       "related_routes": [
         "R10"
       ],
@@ -2375,7 +2375,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -2391,7 +2391,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "淮水，中原南北分界之河，古称淮河。苏轼一生多次渡淮，南船北马在此分途。淮水亦是宋代漕运要道，",
       "related_routes": [
         "R04"
       ],
@@ -2419,7 +2419,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "黄州（今湖北黄冈），苏轼因乌台诗案被贬至此。谪居五年间，他躬耕东坡、自号东坡居士，",
       "related_routes": [
         "R10",
         "R11"
@@ -2455,7 +2455,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "黄州东坡雪堂，苏轼贬居黄州时在城东荒地垦辟筑室。元丰四年（1081）苏轼于东坡得废地数十亩，",
       "related_routes": [
         "R10"
       ],
@@ -2487,7 +2487,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "惠州，岭南东江畔古城。苏轼绍圣元年（1094）贬居惠州近三年",
       "related_routes": [
         "R18"
       ],
@@ -2499,7 +2499,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -2517,7 +2517,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "惠州合江楼，苏轼谪居惠州的住所。东江与西枝江交汇处，楼高江阔，是苏轼初到惠州时的临时居所。",
       "related_routes": [
         "R18"
       ],
@@ -2529,7 +2529,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -2545,7 +2545,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "吉州，赣江中游古城，今江西吉安。苏轼元符三年（1100）北归途中经此，白鹭洲头、赣水北流。",
       "related_routes": [
         "R19"
       ],
@@ -2557,7 +2557,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江西省吉安市",
@@ -2575,7 +2575,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "济南，泉城名都。苏轼途经济南，趵突泉喷涌、大明湖如镜，'四面荷花三面柳'的泉城风韵。",
       "related_routes": [
         "R13"
       ],
@@ -2603,7 +2603,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "嘉州（今乐山），岷江、青衣江、大渡河三江汇流之地。苏轼出蜀途经嘉州，远眺乐山大佛，",
       "related_routes": [
         "R02",
         "R04"
@@ -2621,7 +2621,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -2637,7 +2637,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "犍为，岷江中游古城，嘉州上游要冲。苏轼出蜀水路经此，江流平缓、两岸翠竹连绵。犍为自古为岷江航道重镇，",
       "related_routes": [
         "R02"
       ],
@@ -2665,7 +2665,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "剑门关，蜀道天险。'剑阁峥嵘而崔嵬'，苏轼出蜀经剑门关，一夫当关万夫莫开的雄关气势。",
       "related_routes": [
         "R01",
         "R05"
@@ -2688,7 +2688,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -2704,7 +2704,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "剑门关古驿，蜀道天险剑门关下驿站。苏轼父子嘉祐元年（1056）出蜀经此，",
       "related_routes": [
         "R01"
       ],
@@ -2716,7 +2716,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -2732,7 +2732,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "江淮之间水网密布，河汊纵横、舟楫如织。苏轼再知杭州，经江淮水乡驿道南下，沿途水田荷塘、小桥人家，",
       "related_routes": [
         "R14"
       ],
@@ -2744,7 +2744,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -2760,7 +2760,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "江陵（今荆州），楚地故都。苏轼途经江陵，长江在此折向东流，荆楚文化的千年积淀。",
       "related_routes": [
         "R02"
       ],
@@ -2772,7 +2772,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -2788,7 +2788,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "江陵荆州古城，楚文化核心。苏轼途经荆州古城，城墙巍峨、护城河深，三国故事在此流传。",
       "related_routes": [
         "R02"
       ],
@@ -2800,7 +2800,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "湖北省荆州市荆州区荆州古城(公交站)",
@@ -2818,7 +2818,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "江南运河，连接杭州与镇江的大运河段。苏轼多次经运河往返，'烟笼寒水月笼沙'的江南水道。",
       "related_routes": [
         "R14"
       ],
@@ -2840,13 +2840,13 @@
       "modern_name": "江南运河",
       "type": "sight",
       "layer": "sight",
-      "lat": 31.3,
-      "lng": 120.6,
-      "coordinate_source": "core_curated",
+      "lat": 31.25,
+      "lng": 120.55,
+      "coordinate_source": "manual_fix_round2",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "江南运河全线，纵贯江南的水上通途。苏轼沿运河往来苏杭，两岸烟柳、河上画舫，江南繁华尽在运河之上。",
       "related_routes": [
         "R15"
       ],
@@ -2874,7 +2874,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "江州即今江西九江，长江与鄱阳湖交汇处。苏轼北归途经此地，庐山云雾、浔阳江头，",
       "related_routes": [
         "R11",
         "R19"
@@ -2910,7 +2910,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "胶东半岛古道，山东半岛沿海驿道。苏轼知密州时或沿此道东行，黄海之滨、齐鲁遗风。",
       "related_routes": [
         "R12"
       ],
@@ -2938,7 +2938,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "金陵即今南京，六朝古都。苏轼量移汝州途经此地，拜访退隐钟山的王安石，两位政敌相逢一笑，",
       "related_routes": [
         "R11",
         "R19"
@@ -2972,7 +2972,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "金陵秦淮，六朝古都南京，秦淮河畔。苏轼元丰七年（1084）量移途中经金陵，王安石退居半山园在此，",
       "related_routes": [
         "R11"
       ],
@@ -3000,7 +3000,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "金陵钟山半山园，王安石退隐居所。苏轼专程拜访，两位昔日的政坛对手在山中对饮论诗，",
       "related_routes": [
         "R19"
       ],
@@ -3024,13 +3024,13 @@
       "modern_name": "湖北荆州",
       "type": "main",
       "layer": "main",
-      "lat": 30.353,
-      "lng": 112.238,
-      "coordinate_source": "core_curated",
+      "lat": 30.336282,
+      "lng": 112.24143,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "荆州，楚地重镇，三国名城。苏轼途经荆州，'大意失荆州'的典故在此，长江中游的战略要地。",
       "related_routes": [
         "R02",
         "R03"
@@ -3048,7 +3048,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3064,7 +3064,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "夔门三峡，长江三峡入口，瞿塘峡两岸绝壁对峙。苏轼嘉祐四年（1059）",
       "related_routes": [
         "R02"
       ],
@@ -3076,7 +3076,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -3092,7 +3092,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "夔州，三峡东口古城奉节，古称鱼复。苏轼嘉祐四年（1059）随父出蜀水路经此，",
       "related_routes": [
         "R02",
         "R04"
@@ -3110,7 +3110,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "重庆市奉节县",
@@ -3128,7 +3128,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "莱州，山东半岛北部古城，渤海之滨。苏轼赴京东途中经此，莱州湾畔海风咸腥。莱州自古为东海名郡，",
       "related_routes": [
         "R13"
       ],
@@ -3140,7 +3140,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3156,7 +3156,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "乐山大佛，嘉州岷江畔弥勒巨佛，唐开元年间始建。苏轼嘉祐四年（1059）出蜀水路舟经嘉州，",
       "related_routes": [
         "R02"
       ],
@@ -3168,7 +3168,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -3184,7 +3184,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "雷州，岭南古郡。苏轼南贬途经雷州，与弟弟苏辙在此相会，兄弟情深、岭南风物异于中原。",
       "related_routes": [
         "R18",
         "R19"
@@ -3202,7 +3202,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3218,7 +3218,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "雷州伏波庙，苏轼北归再经此庙。来时祈祷渡海平安，归时还愿感恩，是贬途与归途的精神交汇点。",
       "related_routes": [
         "R19"
       ],
@@ -3230,7 +3230,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3246,7 +3246,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "利州（今广元），蜀道北端重镇。苏轼入蜀经利州，嘉陵江畔、剑门在望，入蜀的门户。",
       "related_routes": [
         "R01",
         "R05"
@@ -3269,7 +3269,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3285,7 +3285,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "廉州即今广西合浦，苏轼北归途经此地。合浦珠还、南海风清，是离开海南后重返大陆的第一站。",
       "related_routes": [
         "R19"
       ],
@@ -3297,7 +3297,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "广西壮族自治区北海市合浦县",
@@ -3315,7 +3315,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "廉州白石镇，苏轼北归途经的沿海小镇。白沙滩涂、渔火点点，是归途中重拾人间温暖的第一缕烟火。",
       "related_routes": [
         "R19"
       ],
@@ -3327,7 +3327,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "广西壮族自治区北海市合浦县",
@@ -3345,7 +3345,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "临沂，沂蒙山区重镇。苏轼途经沂州，琅琊山色、沂水长流，王羲之故里的文脉悠长。",
       "related_routes": [
         "R08"
       ],
@@ -3373,7 +3373,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "灵隐寺，杭州名刹。苏轼通判杭州时常游灵隐，'灵隐前唐后晋间'的千年古刹，飞来峰下、冷泉亭畔。",
       "related_routes": [
         "R06"
       ],
@@ -3385,7 +3385,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3401,7 +3401,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "灵隐天竺，杭州西湖西北名山古刹。苏轼仕杭时常游灵隐、天竺，飞来峰下、冷泉亭畔，",
       "related_routes": [
         "R14"
       ],
@@ -3413,7 +3413,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "浙江省杭州市西湖区灵隐街道天竺(网商银行)",
@@ -3431,7 +3431,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "岭南西江水路，广东西江百里画廊。苏轼绍圣元年（1094）南贬舟行西江，碧水蜿蜒、两岸喀斯特峰林叠翠。",
       "related_routes": [
         "R19"
       ],
@@ -3459,7 +3459,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "六井遗迹，杭州西湖边苏轼疏浚的六口古井。苏轼元祐四年（1089）再知杭州时，见六井淤塞、民饮苦咸，",
       "related_routes": [
         "R06"
       ],
@@ -3471,7 +3471,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3487,7 +3487,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "卢山，密州城南名山，苏轼知密州时常登此山。熙宁八年（1075）苏轼于卢山建超然台，",
       "related_routes": [
         "R07"
       ],
@@ -3515,7 +3515,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "庐山，天下名山，鄱阳湖畔，七百里峰峦叠嶂。苏轼元丰七年（1084）量移途中畅游庐山，",
       "related_routes": [
         "R11"
       ],
@@ -3527,7 +3527,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3537,15 +3537,15 @@
       "modern_name": "江西庐山",
       "type": "sight",
       "layer": "sight",
-      "lat": 29.563,
-      "lng": 115.9868,
-      "coordinate_source": "inferred",
+      "lat": 29.448225,
+      "lng": 116.045118,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": false,
       "importance": 3,
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "庐山全山，匡庐七百里，五老峰、含鄱口、三叠泉遍布。苏轼游庐山数日，",
       "related_routes": [
         "R11"
       ],
@@ -3557,7 +3557,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -3573,7 +3573,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "庐州，合肥古城，江淮之间重镇。苏轼赴任途中经此，逍遥津畔、淝水古战场。庐州是淮南转运枢纽，",
       "related_routes": [
         "R06"
       ],
@@ -3601,7 +3601,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "泸州，沱江与长江交汇处。苏轼途经泸州，酒香四溢、江风习习，'泸州老窖'的酿造传统可追溯至宋代。",
       "related_routes": [
         "R02",
         "R04"
@@ -3619,7 +3619,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3630,12 +3630,12 @@
       "type": "sight",
       "layer": "main",
       "lat": 23.283,
-      "lng": 114.0,
+      "lng": 114,
       "coordinate_source": "amap_corrected",
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "罗浮山岭南第一名山，道教第七洞天。苏轼谪居惠州时常游罗浮，冲虚古观、洗药池畔，",
       "related_routes": [
         "R18"
       ],
@@ -3652,7 +3652,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "广东省惠州市博罗县罗浮山",
@@ -3673,7 +3673,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "洛阳，九朝古都。苏轼途经洛阳，牡丹甲天下、龙门石窟壮观，伊洛河畔的千年帝都气象。",
       "related_routes": [
         "R01",
         "R03",
@@ -3708,7 +3708,7 @@
         }
       ],
       "occurrences": 5,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -3724,7 +3724,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "洛阳龙门，伊水两岸佛教石窟群。苏轼进京途经洛阳，或曾驻足龙门，观伊阙山势与石窟造像。",
       "related_routes": [
         "R01"
       ],
@@ -3736,7 +3736,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省洛阳市洛龙区龙门村石窟街道",
@@ -3756,7 +3756,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "蟆颐山蟆颐观，眉山道观。苏轼少年时常游蟆颐观，道家的清净与眉山的秀美相融，是苏辙诗中常提之地。",
       "related_routes": [
         "R00"
       ],
@@ -3768,7 +3768,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {},
       "amap_address": "四川省眉山市东坡区蟆颐山",
@@ -3789,7 +3789,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "眉山，蜀中西蜀古城，三苏故里。景祐三年（1037）十二月十九日，苏轼诞生于眉山纱縠行苏宅。",
       "related_routes": [
         "R01",
         "R02",
@@ -3824,7 +3824,7 @@
         }
       ],
       "occurrences": 5,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "四川省眉山市",
@@ -3842,7 +3842,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "眉山玻璃江，苏轼故乡的江水。玻璃江清澈如镜，苏轼少年时沿江读书，'吾家蜀江上'的乡愁源于此水。",
       "related_routes": [
         "R00"
       ],
@@ -3854,7 +3854,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "四川省眉山市",
@@ -3874,7 +3874,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "眉山故居，纱縠行苏宅，苏轼出生之地。苏轼幼年随父苏洵启蒙读书，与弟弟苏辙朝夕相伴，",
       "related_routes": [
         "R00"
       ],
@@ -3886,7 +3886,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {},
       "amap_address": "四川省眉山市",
@@ -3904,7 +3904,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "密州即今山东诸城，苏轼熙宁七年任知州。常山狩猎、超然台赋词，",
       "related_routes": [
         "R07",
         "R08",
@@ -3948,7 +3948,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "密州超然台，苏轼修筑并命名的高台。登台远眺、对月赋词，'明月几时有，把酒问青天'即在此台上所作，",
       "related_routes": [
         "R07"
       ],
@@ -3976,7 +3976,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "绵州即今四川绵阳，川北古驿重镇。由川西平原过渡至川北丘陵的官道节点，涪江绕城、丘陵起伏，",
       "related_routes": [
         "R01",
         "R05"
@@ -3999,7 +3999,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -4015,7 +4015,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "勉县即今陕西勉县，汉中三国古地。武侯墓、定军山皆在此地，苏轼途经勉县，古柏森森、武侯遗风犹存，",
       "related_routes": [
         "R01"
       ],
@@ -4048,7 +4048,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "渑池，苏轼与弟苏辙唱和之地。'人生到处知何似，应似飞鸿踏雪泥'，渑池古寺、墙壁旧题，",
       "related_routes": [
         "R01"
       ],
@@ -4081,7 +4081,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "渑池僧舍，苏轼与弟苏辙唱和之地。兄弟二人曾宿渑池僧舍，壁上旧题犹在，'人生到处知何似，",
       "related_routes": [
         "R01"
       ],
@@ -4109,7 +4109,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "南都即今河南商丘，宋代应天府。苏轼元丰八年在此接诰命起知登州，归德古城、应天书院，",
       "related_routes": [
         "R10"
       ],
@@ -4137,7 +4137,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "南雄州即今广东南雄，梅岭南麓门户。苏轼贬惠州翻梅岭后经此，珠玑古巷、驿道青石，是入粤的第一座城。",
       "related_routes": [
         "R18"
       ],
@@ -4149,7 +4149,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4165,7 +4165,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "南浔古驿，太湖南岸运河古镇，江浙水路要冲。苏轼赴任途中经此，运河古道穿镇而过、水乡人家依河而居。",
       "related_routes": [
         "R09"
       ],
@@ -4177,7 +4177,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "浙江省湖州市南浔区",
@@ -4195,7 +4195,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "宁强即今陕西宁强，秦岭东段山地古驿道。由川入陕的艰险路段，山高谷深、栈道蜿蜒，",
       "related_routes": [
         "R01"
       ],
@@ -4228,7 +4228,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "彭山，岷江中游古城。苏轼途经彭山，彭祖山长寿文化源远流长，岷江水润泽蜀地。",
       "related_routes": [
         "R00",
         "R01"
@@ -4267,7 +4267,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "彭山江口，岷江与府河交汇处。苏轼途经江口，两江汇流、商贾云集，水运要津。",
       "related_routes": [
         "R00"
       ],
@@ -4291,13 +4291,13 @@
       "modern_name": "山东蓬莱阁",
       "type": "around",
       "layer": "around",
-      "lat": 37.824795,
-      "lng": 120.752923,
-      "coordinate_source": "core_curated",
+      "lat": 37.819201,
+      "lng": 120.760462,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "蓬莱阁，丹崖山巅千年仙阁，临海凌空。苏轼元丰八年（1085）知登州仅五日即被召还，",
       "related_routes": [
         "R12"
       ],
@@ -4309,7 +4309,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -4325,7 +4325,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "鄱阳湖，江南第一大淡水湖，衔长江、连庐山。苏轼元丰七年（1084）量移途中舟行鄱阳湖，",
       "related_routes": [
         "R11"
       ],
@@ -4337,7 +4337,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -4353,7 +4353,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "齐鲁古道，山东千年官道，自莱青州至郓曹。苏轼熙宁七年（1074）赴密州任经此，",
       "related_routes": [
         "R13"
       ],
@@ -4365,7 +4365,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -4381,7 +4381,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "岐亭，黄州附近小镇。苏轼谪居黄州时常访岐亭，与陈慥（方山子）交游，'方山子传'即记此间情谊。",
       "related_routes": [
         "R10"
       ],
@@ -4411,7 +4411,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "蕲水（今浠水），黄州附近县城。苏轼谪居黄州时游蕲水，'蕲水清泉'是黄州岁月的慰藉。",
       "related_routes": [
         "R10"
       ],
@@ -4439,7 +4439,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "虔州（今赣州），赣江上游重镇。苏轼北归途经虔州，赣江十八滩险峻，'七里濑'的江景壮丽。",
       "related_routes": [
         "R18",
         "R19"
@@ -4457,7 +4457,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4473,7 +4473,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "秦岭古驿，秦岭山中驿站，川陕交通的歇脚点。苏轼多次翻越秦岭，",
       "related_routes": [
         "R05"
       ],
@@ -4485,7 +4485,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -4501,7 +4501,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "青神，苏轼夫人王弗的故乡。苏轼少年时游青神，中岩寺读书、与王弗结缘，'十年生死两茫茫'的深情源于此。",
       "related_routes": [
         "R00"
       ],
@@ -4513,7 +4513,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4529,7 +4529,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "青神平羌江，青神境内岷江支流。苏轼少年往来眉山青神，常沿平羌江道而行，江水清缓、两岸翠竹连绵。",
       "related_routes": [
         "R00"
       ],
@@ -4557,7 +4557,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "青州即今山东青州，齐鲁历史重镇。千年古道枢纽、儒家文脉浸染深厚，苏轼自密州赴徐州途经此地，",
       "related_routes": [
         "R13"
       ],
@@ -4587,7 +4587,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "琼州即今海南海口，苏轼渡海后在此短暂停留。天涯海角、椰风海韵，是苏轼踏上海南岛的第一站。",
       "related_routes": [
         "R18",
         "R19"
@@ -4605,7 +4605,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4615,13 +4615,13 @@
       "modern_name": "琼州海峡",
       "type": "sight",
       "layer": "sight",
-      "lat": 20.05,
-      "lng": 110.2,
-      "coordinate_source": "core_curated",
+      "lat": 20.02,
+      "lng": 110.15,
+      "coordinate_source": "manual_fix_round2",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "琼州海峡，分隔海南与大陆的天堑。苏轼渡海时风急浪高、舟楫颠簸，一水之隔却是天涯与故土的分界。",
       "related_routes": [
         "R18"
       ],
@@ -4633,7 +4633,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4649,7 +4649,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "仁和运河，杭州城北运河段。苏轼疏浚西湖、修筑运河，'苏堤春晓'的水利工程惠及千年。",
       "related_routes": [
         "R14"
       ],
@@ -4661,7 +4661,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4677,7 +4677,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "戎州即今四川宜宾，岷江入长江交汇门户。锁江楼为地标名胜，两江合流、水势壮阔，是川南水路交通核心枢纽，",
       "related_routes": [
         "R02",
         "R04"
@@ -4713,7 +4713,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汝州即今河南汝州，中原古州。苏轼量移汝州途经此地，汝水清澈、温泉氤氲，是黄州谪居后重返中原的第一站。",
       "related_routes": [
         "R18"
       ],
@@ -4725,7 +4725,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4744,7 +4744,7 @@
         "核心节点",
         "跨5路线"
       ],
-      "summary": "",
+      "summary": "润州即今江苏镇江，长江南岸渡口。苏轼北归途经此地，金山寺钟声、北固山雄峙，是归途接近终点的标志。",
       "related_routes": [
         "R06",
         "R09",
@@ -4780,7 +4780,7 @@
         }
       ],
       "occurrences": 5,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4796,7 +4796,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "三苏祠，眉山苏氏故居。苏洵、苏轼、苏辙三父子在此成长，'一门三父子'的文坛佳话始于这座院落。",
       "related_routes": [
         "R00"
       ],
@@ -4808,7 +4808,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "四川省眉山市东坡区三苏祠",
@@ -4826,7 +4826,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "三潭印月，西湖中小瀛洲，苏轼疏浚西湖后所立三石塔。元祐五年（1090）苏轼主持疏浚西湖，",
       "related_routes": [
         "R14"
       ],
@@ -4838,7 +4838,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "浙江省杭州市",
@@ -4847,7 +4847,7 @@
     {
       "id": "P149",
       "ancient_name": "三峡全程",
-      "modern_name": "",
+      "modern_name": "长江三峡",
       "type": "sight",
       "layer": "sight",
       "lat": 32.009,
@@ -4858,7 +4858,7 @@
       "tags": [
         "坐标待考"
       ],
-      "summary": "",
+      "summary": "苏轼扶父柩归蜀，再走三峡水路。与出蜀时的意气风发不同，此番满载哀伤，舟行峡江、两岸猿声，更添悲凉。",
       "related_routes": [
         "R04"
       ],
@@ -4870,7 +4870,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": false,
       "legacy": {}
     },
@@ -4886,7 +4886,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "沙湖，黄州城外湖泊。苏轼游沙湖遇雨，'莫听穿林打叶声，何妨吟啸且徐行'，《定风波》由此诞生。",
       "related_routes": [
         "R10"
       ],
@@ -4914,7 +4914,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "陕州即今河南三门峡，崤山古道核心地段。函谷关所在、黄河渡口，苏轼进京途经此地，",
       "related_routes": [
         "R01",
         "R03",
@@ -4954,7 +4954,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "陕州硖石，崤山古道险隘，两山夹峙、石壁如削。苏轼赴京途中经此，硖石是中原通往关中的咽喉。",
       "related_routes": [
         "R01"
       ],
@@ -4966,7 +4966,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -4982,7 +4982,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "韶州即今广东韶关，苏轼北归再经此地。丹霞依旧、北江奔流，来时凄凉、归时欣慰，同一片山水两种心境。",
       "related_routes": [
         "R19"
       ],
@@ -4994,7 +4994,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -5010,7 +5010,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "石鼓山，宝鸡先秦石鼓出土地。苏轼赴凤翔途经此地，渭水之滨、石鼓文古拙，是金石文化的圣地，",
       "related_routes": [
         "R03"
       ],
@@ -5040,7 +5040,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "石钟山，鄱阳湖入长江处。苏轼夜泊石钟山下，探究山石发声之理，作《石钟山记》，",
       "related_routes": [
         "R11"
       ],
@@ -5057,7 +5057,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "江西省九江市湖口县石钟山",
@@ -5075,7 +5075,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "寿州，淮河南岸古城，八公山下、淝水之滨。苏轼熙宁四年（1071）赴杭州通判任途经寿州，",
       "related_routes": [
         "R06",
         "R14"
@@ -5093,7 +5093,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "安徽省淮南市寿县",
@@ -5111,7 +5111,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "泗水流经鲁中南的古道，孔子'逝者如斯夫'即发于此。苏轼自密州赴徐州，沿泗水古道南行，",
       "related_routes": [
         "R08"
       ],
@@ -5123,7 +5123,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5139,7 +5139,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "泗水亭，沛县古亭。刘邦发迹之地，苏轼途经泗水，'大风起兮云飞扬'的汉风犹存。",
       "related_routes": [
         "R08"
       ],
@@ -5151,7 +5151,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -5170,7 +5170,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "泗州即今江苏盱眙，洪泽湖畔古城。汴河入淮处，南北水陆要冲，苏轼扶柩归蜀及多次往返途经此地，",
       "related_routes": [
         "R08",
         "R09",
@@ -5218,7 +5218,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "淮河以北的沿海驿道，盐碱滩涂、芦苇丛生。苏轼自宜兴北上赴登州，经苏北沿海驿道，",
       "related_routes": [
         "R12"
       ],
@@ -5230,7 +5230,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5249,7 +5249,7 @@
         "核心节点",
         "跨5路线"
       ],
-      "summary": "",
+      "summary": "苏州，江南水乡名都。苏轼游苏州，虎丘塔影、寒山钟声，'姑苏城外寒山寺'的诗意绵长。",
       "related_routes": [
         "R06",
         "R07",
@@ -5285,7 +5285,7 @@
         }
       ],
       "occurrences": 5,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -5301,7 +5301,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "宿州，皖北古城。苏轼途经宿州，汴河水畔、中原通衢，皇藏峪的传说在此流传。",
       "related_routes": [
         "R08",
         "R09"
@@ -5319,7 +5319,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "安徽省宿州市",
@@ -5337,7 +5337,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "太白山，秦岭主峰，海拔三千余米。苏轼赴凤翔途经太白山麓，雪峰巍峨、云海翻涌，是关中第一名山，",
       "related_routes": [
         "R03"
       ],
@@ -5349,7 +5349,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省宝鸡市太白县太白山",
@@ -5369,7 +5369,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "太湖西岸古村落依湖而建、街巷古朴、水系环绕、民风淳厚，\n保留宋代江南水乡聚落原生格局，",
       "related_routes": [
         "R11"
       ],
@@ -5381,7 +5381,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": false,
       "legacy": {}
     },
@@ -5399,7 +5399,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "太湖沿岸，江南第一大湖。连通杭、湖、苏、锡、常运河水系，苏轼两度在杭，太湖烟波、渔帆点点，",
       "related_routes": [
         "R07"
       ],
@@ -5411,7 +5411,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": false,
       "legacy": {}
     },
@@ -5427,7 +5427,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "太行山东麓屏障定州，群峰连绵、山势雄峻，\n北倚边关、南瞰平原，山骨苍劲、气势沉雄，",
       "related_routes": [
         "R17"
       ],
@@ -5439,7 +5439,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5457,7 +5457,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "北宋最高学府，为朝廷培养人才之所。苏轼元祐年间还朝，曾以翰林学士身份参与太学事务，",
       "related_routes": [
         "R15"
       ],
@@ -5469,7 +5469,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": false,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -5487,7 +5487,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "泰山余脉，鲁中山地层峦连绵。苏轼赴京东途中远望泰山余脉，峰峦沉厚、山势雄浑。泰山为五岳之首，",
       "related_routes": [
         "R13"
       ],
@@ -5515,7 +5515,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "唐州即今河南唐河，豫南古州。地处中原官道支线要道，桐柏山北麓、唐河绕城，苏轼赴京或外放途经此地。",
       "related_routes": [
         "R03"
       ],
@@ -5545,7 +5545,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "藤州即今广西藤县，苏轼北归再经此地。来时与弟苏辙相遇，归时形单影只，西江落日依旧、兄弟天各一方。",
       "related_routes": [
         "R18",
         "R19"
@@ -5563,7 +5563,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -5582,7 +5582,7 @@
         "核心节点",
         "跨3路线"
       ],
-      "summary": "",
+      "summary": "潼关即今陕西潼关，黄河渭水交汇要塞。天下险关、渡口重镇，苏轼进京经此渡河，黄河浊浪、关城巍峨，",
       "related_routes": [
         "R01",
         "R03",
@@ -5627,7 +5627,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "潼关渡口，关中与中原的咽喉要冲，黄河渡口。苏轼父子嘉祐元年（1056）出蜀进京经此渡河，",
       "related_routes": [
         "R01"
       ],
@@ -5639,7 +5639,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省渭南市潼关县潼关渡口",
@@ -5657,7 +5657,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "潍水古战场，楚汉相争关键战役之地。韩信潍水破龙且，苏轼知密州时常游潍水两岸，",
       "related_routes": [
         "R07"
       ],
@@ -5669,7 +5669,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "山东省潍坊市诸城市",
@@ -5687,7 +5687,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "尉氏即今河南尉氏，汴京南郊门户。苏轼进京途经此地，驿道通畅、柳荫夹道，是入京前最后的官道驿站，",
       "related_routes": [
         "R03"
       ],
@@ -5699,7 +5699,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5715,7 +5715,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "巫山神女峰，三峡标志性名胜。苏轼舟行巫峡，神女峰云雾缭绕、楚辞遗韵弥漫，",
       "related_routes": [
         "R02"
       ],
@@ -5743,7 +5743,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "巫山神女峰，巫峡十二峰之最，峰顶石柱如少女亭亭玉立。苏轼嘉祐四年（1059）舟行巫峡，",
       "related_routes": [
         "R02"
       ],
@@ -5773,7 +5773,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "无锡即今江苏无锡，太湖北岸运河驿道节点。苏轼赴杭州途经此地，惠山泉清冽、太湖烟波，",
       "related_routes": [
         "R07",
         "R09"
@@ -5791,7 +5791,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5807,7 +5807,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "梧州即今广西梧州，苏轼北归再经此地。两江合流依旧，归途的西江水路不再凄凉，而是北归的欢欣。",
       "related_routes": [
         "R18",
         "R19"
@@ -5825,7 +5825,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -5841,7 +5841,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "五丈原，三国诸葛亮北伐病逝之地。苏轼赴凤翔途经此地，渭水北岸、秋风萧瑟，是千古忠臣最悲壮的落幕处，",
       "related_routes": [
         "R03"
       ],
@@ -5853,7 +5853,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省宝鸡市岐山县五丈原镇",
@@ -5873,7 +5873,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "武昌樊山，黄州对岸西山。苏轼谪居黄州时常渡江登临，樊山苍翠、古寺清幽，俯瞰大江东去。",
       "related_routes": [
         "R10"
       ],
@@ -5885,7 +5885,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -5903,7 +5903,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "西湖全域，杭州山水精华所在。苏轼两度在杭，疏浚西湖、筑苏堤、建三塔，'欲把西湖比西子，",
       "related_routes": [
         "R06"
       ],
@@ -5935,7 +5935,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "西湖苏堤，苏轼再知杭州时疏浚西湖所筑长堤。六桥烟柳、桃红柳绿，'苏堤春晓'成西湖十景之首，",
       "related_routes": [
         "R14"
       ],
@@ -5965,7 +5965,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "西江山水，岭南西江两岸喀斯特峰林倒映江面。苏轼绍圣元年（1094）贬谪岭南舟行西江，",
       "related_routes": [
         "R18"
       ],
@@ -5977,7 +5977,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -5993,7 +5993,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京名刹，始建于北齐，为京城最繁华的寺庙集市。苏轼守孝期满还朝，常游相国寺，寺中商贾云集、百戏杂陈，",
       "related_routes": [
         "R05"
       ],
@@ -6005,7 +6005,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -6021,7 +6021,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "相州即今河南安阳，殷商故地。苏轼途经此地，洹水穿城、殷墟古远，是中原最厚重的历史名城。",
       "related_routes": [
         "R17"
       ],
@@ -6033,7 +6033,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省安阳市",
@@ -6051,7 +6051,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "襄城即今河南襄城，中原官道要冲。苏轼进京途经此地，驿道通畅、汝水绕城，是通往京畿的必经中转。",
       "related_routes": [
         "R03"
       ],
@@ -6081,7 +6081,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "襄阳即今湖北襄阳，荆襄古郡。汉水穿城、古隆中在望，是三国文化核心地，也是南北交通的枢纽。",
       "related_routes": [
         "R03"
       ],
@@ -6093,7 +6093,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6109,7 +6109,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "襄阳古隆中，襄阳城西名山，诸葛亮隐居之地。苏轼途经襄阳登隆中，追念卧龙遗风。刘备三顾茅庐处，",
       "related_routes": [
         "R03"
       ],
@@ -6121,7 +6121,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "湖北省襄阳市襄城区古隆中(东1门)",
@@ -6133,13 +6133,13 @@
       "modern_name": "河南三门峡崤山二陵",
       "type": "sight",
       "layer": "sight",
-      "lat": 34.773196,
-      "lng": 111.200482,
-      "coordinate_source": "core_curated",
+      "lat": 34.771943,
+      "lng": 111.76525,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "崤山二陵，崤山古道险隘，夏后皋与周文王之墓所在。苏轼赴京经此，山势陡峭、古道穿行其间。",
       "related_routes": [
         "R01"
       ],
@@ -6151,7 +6151,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -6161,13 +6161,13 @@
       "modern_name": "河南三门峡崤山古道",
       "type": "sight",
       "layer": "sight",
-      "lat": 34.773196,
-      "lng": 111.200482,
-      "coordinate_source": "core_curated",
+      "lat": 34.568731,
+      "lng": 111.645754,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "崤山古道连接关中与中原，山势险峻、道路崎岖。苏轼二次进京再经此道，",
       "related_routes": [
         "R03"
       ],
@@ -6179,7 +6179,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -6195,7 +6195,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "邢州即今河北邢台，冀南古州。苏轼外放定州途经此地，太行山东麓、滏阳河畔，是河北平原南部门户。",
       "related_routes": [
         "R17"
       ],
@@ -6207,7 +6207,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "河北省邢台市",
@@ -6225,7 +6225,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "兴廉村净行院，北部湾海岸古寺。苏轼北归途经此地，海风椰影、梵音清幽，是归途中最宁静的歇脚处。",
       "related_routes": [
         "R19"
       ],
@@ -6253,7 +6253,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "兴元即今陕西汉中，汉中盆地核心。秦岭栈道聚集地、汉水源头，是南北文化交融的重地，也是蜀道的关键枢纽。",
       "related_routes": [
         "R05"
       ],
@@ -6281,7 +6281,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "徐闻递角场，苏轼北归由此渡海离琼。来时天风海雨、归时风平浪静，同一片海峡，渡的是截然不同的人生境遇。",
       "related_routes": [
         "R18",
         "R19"
@@ -6299,7 +6299,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "广东省湛江市徐闻县",
@@ -6317,7 +6317,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "徐州即今江苏徐州，苏轼熙宁十年任知州。黄河决口、率民抗洪，建黄楼、筑长堤，",
       "related_routes": [
         "R08",
         "R09"
@@ -6353,7 +6353,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "徐州黄楼，徐州城东门楼，苏轼抗洪后所建。熙宁十年（1077）黄河决口淹没徐州，苏轼率军民抗洪保城，",
       "related_routes": [
         "R08"
       ],
@@ -6365,7 +6365,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -6381,7 +6381,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "许州即今河南许昌，中原重镇。汉末故都、曹魏旧都，官道四通八达，苏轼赴京途经此地。",
       "related_routes": [
         "R03"
       ],
@@ -6393,7 +6393,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6412,7 +6412,7 @@
         "核心节点",
         "跨8路线"
       ],
-      "summary": "",
+      "summary": "扬州，淮左名都。苏轼途经扬州，瘦西湖如画、二十四桥月明，'天下三分明月夜，二分无赖是扬州'。",
       "related_routes": [
         "R04",
         "R06",
@@ -6471,7 +6471,7 @@
         }
       ],
       "occurrences": 9,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6489,7 +6489,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "扬州平山堂，扬州大明寺旁，欧阳修知扬州时所建。苏轼元丰七年（1084）过扬州登平山堂，",
       "related_routes": [
         "R16"
       ],
@@ -6501,7 +6501,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {},
       "amap_address": "江苏省扬州市",
@@ -6521,7 +6521,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "扬州瘦西湖旧址，扬州城西水道。苏轼途经扬州时或曾游此，水道蜿蜒、垂柳依依。",
       "related_routes": [
         "R04"
       ],
@@ -6533,7 +6533,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": false,
       "legacy": {}
     },
@@ -6549,7 +6549,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "叶县即今河南叶县，中原古县。昆阳古战场所在地，刘秀以少胜多之地，驿道通畅，苏轼赴京途经此地，",
       "related_routes": [
         "R03"
       ],
@@ -6561,7 +6561,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省平顶山市叶县",
@@ -6579,7 +6579,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "鲁中南群山，蒙山巍峨、沂水蜿蜒。苏轼任密州知州时常游沂蒙山区，狩猎于山野之间，",
       "related_routes": [
         "R08"
       ],
@@ -6591,7 +6591,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -6601,13 +6601,13 @@
       "modern_name": "山东临沂",
       "type": "main",
       "layer": "main",
-      "lat": 35.103771,
-      "lng": 118.356464,
-      "coordinate_source": "core_curated",
+      "lat": 35.088,
+      "lng": 118.327,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "沂州（今临沂），沂蒙山区。苏轼途经沂州，琅琊山色秀美，王羲之故里的文脉绵延。",
       "related_routes": [
         "R08"
       ],
@@ -6619,7 +6619,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6635,7 +6635,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "宜宾锁江楼，岷江入长江交汇处，锁江楼扼守江面。苏轼嘉祐四年（1059）出蜀水路经此，",
       "related_routes": [
         "R02"
       ],
@@ -6665,7 +6665,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "宜兴即今江苏宜兴，太湖西岸山水胜地。苏轼曾在此置田产，溪山环抱、村落连片，是苏轼最向往的归隐之地。",
       "related_routes": [
         "R11",
         "R12"
@@ -6683,7 +6683,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省无锡市宜兴市",
@@ -6701,7 +6701,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "宜兴田园，太湖西岸滨湖平野。苏轼元丰七年（1084）量移途中至宜兴，'买田阳羡吾将老，",
       "related_routes": [
         "R11"
       ],
@@ -6725,13 +6725,13 @@
       "modern_name": "拜谒张方平",
       "type": "around",
       "layer": "around",
-      "lat": 30.6598,
-      "lng": 104.0633,
-      "coordinate_source": "core_curated",
+      "lat": 30.6628,
+      "lng": 104.0653,
+      "coordinate_source": "manual_fix_round2",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "益州官署，成都府治所。苏轼少年时或随父入益州官署，蜀地政风的清正与繁华深植其心。",
       "related_routes": [
         "R00"
       ],
@@ -6743,7 +6743,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6759,7 +6759,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "颍州即今安徽阜阳，欧阳修晚年退隐于此。苏轼南下任杭州通判时绕道拜访，颍水清流、西湖荷香。",
       "related_routes": [
         "R06",
         "R14",
@@ -6783,7 +6783,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6799,7 +6799,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "颍州西湖，欧阳修退隐时常游之地。苏轼绕道拜访恩师，湖上荷风、亭台掩映，是两代文宗的精神传承。",
       "related_routes": [
         "R06",
         "R16"
@@ -6817,7 +6817,7 @@
         }
       ],
       "occurrences": 2,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6833,7 +6833,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "颍州颍水，颍州境内河流，颍水清且浅。苏轼元祐六年（1091）知颍州，常泛舟颍水，水清岸绿、荷香四溢。",
       "related_routes": [
         "R16"
       ],
@@ -6845,7 +6845,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -6861,7 +6861,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "渝州即今重庆，长江上游水陆大都会。嘉陵江与长江交汇处，山城雄峙、两江环抱，是川东出江第一门户。",
       "related_routes": [
         "R02",
         "R04"
@@ -6895,7 +6895,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "郁林即今广西玉林，苏轼北归再经此地。水陆转换枢纽，归途的驿道不再漫长，每一步都靠近故土。",
       "related_routes": [
         "R19"
       ],
@@ -6925,7 +6925,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "云龙山，徐州名山。苏轼知徐州时常游云龙山，'放鹤亭记'即记此山，山人张天骥隐居于此。",
       "related_routes": [
         "R08"
       ],
@@ -6937,7 +6937,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "江苏省徐州市泉山区云龙山",
@@ -6955,7 +6955,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "筠州即今江西高安，苏轼访友之地。元丰七年量移汝州途中经过此地，与好友苏辙门生相聚，",
       "related_routes": [
         "R11"
       ],
@@ -6979,13 +6979,13 @@
       "modern_name": "京杭大运河",
       "type": "sight",
       "layer": "sight",
-      "lat": 30.302955,
-      "lng": 120.141908,
-      "coordinate_source": "core_curated",
+      "lat": 32.397728,
+      "lng": 119.453129,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "运河全线风光，贯通南北的京杭大运河。苏轼一生多次乘运河船往返南北，",
       "related_routes": [
         "R09"
       ],
@@ -6997,7 +6997,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -7013,7 +7013,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "郓州（今东平），山东西部古城。苏轼途经郓州，梁山泊水波浩渺，水浒故事的原型之地。",
       "related_routes": [
         "R13"
       ],
@@ -7025,7 +7025,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -7035,13 +7035,13 @@
       "modern_name": "海南儋州载酒堂",
       "type": "around",
       "layer": "around",
-      "lat": 19.5215,
-      "lng": 109.4768,
-      "coordinate_source": "core_curated",
+      "lat": 19.520948,
+      "lng": 109.580812,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "载酒堂，儋州苏轼居所。苏轼谪居儋州时讲学之所，'载酒问字'传为佳话，海南文教由此开化。",
       "related_routes": [
         "R18"
       ],
@@ -7053,7 +7053,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -7069,7 +7069,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "河北南部漳河渡口，是中原通往河北的必经之地。苏轼外放定州途经此渡，河水湍急、北风凛冽，渡口荒凉，",
       "related_routes": [
         "R17"
       ],
@@ -7081,7 +7081,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -7100,7 +7100,7 @@
         "核心节点",
         "跨4路线"
       ],
-      "summary": "",
+      "summary": "长安即今西安，汉唐古都。北宋称京兆府，苏轼赴凤翔途经此地，城郭宏伟、渭水东流，是西北第一重镇。",
       "related_routes": [
         "R01",
         "R03",
@@ -7135,7 +7135,7 @@
         }
       ],
       "occurrences": 5,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -7151,7 +7151,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "长安曲江，唐代皇家园林旧址。苏轼途经长安或曾游此地，曲江池畔、雁塔晨钟，是盛唐遗韵最浓之处。",
       "related_routes": [
         "R01"
       ],
@@ -7163,7 +7163,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {},
       "amap_address": "陕西省西安市雁塔区曲江街道",
@@ -7183,7 +7183,7 @@
       "tags": [
         "坐标推断"
       ],
-      "summary": "",
+      "summary": "长岛渡口，蓬莱近海通往长岛群岛古渡口。苏轼元丰八年（1085）知登州时远眺海中岛屿，",
       "related_routes": [
         "R12"
       ],
@@ -7213,7 +7213,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "长江万里，苏轼一生多次往返的大动脉。出蜀、归丧、南贬、北归，长江见证了苏轼人生的每一次重大转折。",
       "related_routes": [
         "R04",
         "R18"
@@ -7247,7 +7247,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "长江南岸渡口，大江南岸的千年渡口。苏轼沿长江行旅，南岸渡口连接南北，'大江东去'的豪情与离愁。",
       "related_routes": [
         "R10"
       ],
@@ -7275,7 +7275,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "长江下游全线，江面开阔、沿岸名都相连。苏轼一生多次往返此段航道，出蜀、南贬、北归，",
       "related_routes": [
         "R19"
       ],
@@ -7287,7 +7287,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -7303,7 +7303,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "长江沿岸渡口，出三峡后长江中游渡口。苏轼舟行过荆楚，沿江渡口星罗棋布，江面渐宽、水流趋缓。",
       "related_routes": [
         "R02"
       ],
@@ -7315,7 +7315,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {}
     },
@@ -7331,7 +7331,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "真定即今河北正定，河北军政重镇。苏轼外放定州途经此地，滹沱河绕城、隆兴寺古刹庄严，是北通边关的咽喉。",
       "related_routes": [
         "R17"
       ],
@@ -7353,13 +7353,13 @@
       "modern_name": "江苏镇江金山寺",
       "type": "sight",
       "layer": "sight",
-      "lat": 32.2192,
-      "lng": 119.4145,
-      "coordinate_source": "core_curated",
+      "lat": 32.2236,
+      "lng": 119.3925,
+      "coordinate_source": "manual_fix",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "镇江金山寺，临江千年古刹。苏轼途经镇江常登金山，江天一色、梵音入耳，白蛇传说的发源地。",
       "related_routes": [
         "R06"
       ],
@@ -7371,7 +7371,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -7381,13 +7381,13 @@
       "modern_name": "海南儋州中和古镇",
       "type": "around",
       "layer": "around",
-      "lat": 19.5215,
-      "lng": 109.4768,
-      "coordinate_source": "core_curated",
+      "lat": 19.743857,
+      "lng": 109.349583,
+      "coordinate_source": "amap_geocode_fixed",
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "中和古镇，儋州古城。苏轼谪居儋州时居于此，'九死南荒吾不恨'的旷达在此生根，海南文化的起点。",
       "related_routes": [
         "R18"
       ],
@@ -7399,7 +7399,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     },
@@ -7415,7 +7415,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "青神城南名刹，依山临江，有上中下三岩。苏轼少年时在此读书，寺中至今存'唤鱼池'石刻，传为苏轼手书。",
       "related_routes": [
         "R00"
       ],
@@ -7445,7 +7445,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "忠州即今重庆忠县，长江三峡西入口沿江古郡。苏轼出蜀或归蜀途经此地，石宝寨孤峰、江流湍急，",
       "related_routes": [
         "R02"
       ],
@@ -7473,7 +7473,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "汴京宫中讲学之所，翰林学士侍读之处。苏轼元祐元年还朝入阁，于资善堂为哲宗讲读经史，",
       "related_routes": [
         "R13"
       ],
@@ -7485,7 +7485,7 @@
         }
       ],
       "occurrences": 1,
-      "has_detail": false,
+      "has_detail": true,
       "verified": true,
       "legacy": {},
       "amap_address": "河南省开封市",
@@ -7503,7 +7503,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "淄州即今山东淄博，鲁中古邑。临淄齐国故都、淄水穿城，苏轼赴任途经此地，齐文化遗存丰厚、山水平野相间。",
       "related_routes": [
         "R13"
       ],
@@ -7533,7 +7533,7 @@
       "trustworthy": true,
       "importance": 3,
       "tags": [],
-      "summary": "",
+      "summary": "秭归即今湖北秭归，三峡东出口古县。屈原故里，江行情怀浓郁，苏轼舟出三峡经此，人文底蕴深厚。",
       "related_routes": [
         "R02"
       ],
@@ -7561,7 +7561,7 @@
       "trustworthy": true,
       "importance": 2,
       "tags": [],
-      "summary": "",
+      "summary": "梓潼即今四川梓潼，金牛古蜀道核心路段。七曲山大庙、古柏森森，是宋代官方驿道必经之地。",
       "related_routes": [
         "R01",
         "R05"
@@ -7584,7 +7584,7 @@
         }
       ],
       "occurrences": 3,
-      "has_detail": true,
+      "has_detail": false,
       "verified": true,
       "legacy": {}
     }

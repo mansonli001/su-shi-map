@@ -3,8 +3,8 @@
   "ancient_name": "益州官署",
   "modern_name": "拜谒张方平",
   "type": "around",
-  "lat": 30.6598,
-  "lng": 104.0633,
+  "lat": 30.6628,
+  "lng": 104.0653,
   "related_routes": [
     "R00"
   ],
@@ -166,6 +166,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:16:36.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix_round2",
   "sxzk_address": "四川省成都市青羊区"
 }

@@ -60,9 +60,9 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-08T00:00:00.000Z",
-  "lat": 31.3,
-  "lng": 120.6,
-  "coordinate_source": "manual_corrected",
+  "lat": 31.25,
+  "lng": 120.55,
+  "coordinate_source": "manual_fix_round2",
   "sxzk_address": "江苏省苏州市姑苏区江南运河",
   "sub_places": [
     {

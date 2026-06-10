@@ -58,7 +58,7 @@
   "global_works": [
     {
       "title": "平山堂怀古",
-      "type": "shi",
+      "type": "诗",
       "note": "追怀欧阳修师承代表作",
       "source_route": "R16",
       "poem_id": "S130"
@@ -338,7 +338,7 @@
   "last_updated": "2026-06-01T10:22:05.252Z",
   "schema_version": "v4.1",
   "duration_summary": {
-    "first_year": 1065,
+    "first_year": 1100,
     "last_year": 1094,
     "span_years": 29,
     "duration_label": "1065-1094 · 29年",

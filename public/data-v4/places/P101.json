@@ -34,17 +34,9 @@
     {
       "id": "lianz-001",
       "date": "元符三年（1100年）",
-      "title": "知廉州",
-      "description": "苏轼北归，授知廉州",
+      "title": "移廉州安置",
+      "description": "苏轼北归，授知廉州，移廉州安置",
       "significance": "知廉州"
-    },
-    {
-      "place": "廉州",
-      "date": "元符三年（1100年）",
-      "title": "廉州安置",
-      "description": "苏轼移廉州安置",
-      "significance": "route20",
-      "id": "p101-002"
     }
   ],
   "global_works": [

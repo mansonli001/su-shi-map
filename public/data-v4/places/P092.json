@@ -3,8 +3,8 @@
   "ancient_name": "荆州",
   "modern_name": "湖北荆州",
   "type": "main",
-  "lat": 30.353,
-  "lng": 112.238,
+  "lat": 30.336282,
+  "lng": 112.24143,
   "related_routes": [
     "R02",
     "R03"
@@ -190,6 +190,6 @@
     "transportation": ""
   },
   "amap_updated_at": "2026-06-03T05:15:08.000Z",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "amap_geocode_fixed",
   "sxzk_address": "东环路118号"
 }

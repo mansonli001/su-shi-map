@@ -3,13 +3,13 @@
   "ancient_name": "汴京御史台",
   "modern_name": "河南开封御史台旧址",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.7948,
+  "lng": 114.3489,
   "related_routes": [
     "R04"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "凤翔即今陕西凤翔，关中西部重镇。苏轼初仕任凤翔签判，东湖泛舟、喜雨亭记，是苏轼从政生涯的起点。",
+  "background": "汴京御史台，朝廷监察百官之署。苏轼元丰二年（1079）因乌台诗案被押至御史台受审，李定、舒亶等人罗织罪名，欲置之死地。'乌台'二字自此与苏轼命运紧密相连，御史台成为北宋文字狱最著名的审判地。",
   "tags": [
     "都城",
     "科举",
@@ -244,7 +244,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.202Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.309Z",
   "duration_summary": {

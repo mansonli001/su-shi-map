@@ -28,13 +28,6 @@
   ],
   "global_events": [
     {
-      "id": "jl-001",
-      "date": "元丰七年（1084年）",
-      "title": "拜访王安石",
-      "description": "苏轼在金陵拜访退隐的王安石",
-      "significance": "王苏会面"
-    },
-    {
       "id": "p089-003",
       "date": "1085年",
       "title": "登州五日上盐税书",

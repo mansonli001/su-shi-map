@@ -3,13 +3,13 @@
   "ancient_name": "汴京文德殿",
   "modern_name": "河南开封文德殿旧址",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.7965,
+  "lng": 114.3538,
   "related_routes": [
     "R15"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "郿县即今陕西眉县，秦岭北麓渭水之滨。苏轼赴凤翔经此，太白山雪峰在望、渭河平原沃野千里。",
+  "background": "汴京文德殿，皇宫正殿，朝会议政之所。苏轼元祐年间多次在此面圣奏对，论新法得失、辩党争是非，是政治风暴的中心。文德殿见证了苏轼从翰林学士到屡遭弹劾的仕途转折。",
   "tags": [
     "都城",
     "科举",
@@ -243,7 +243,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.248Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.309Z",
   "duration_summary": {

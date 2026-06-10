@@ -10,7 +10,7 @@
 import { useState, useCallback } from 'react';
 import { useSuShiStore } from '@/lib/store';
 import { achievements } from '@/lib/achievements';
-import { achievementIconsHD } from '@/lib/icons';
+import { achievementIconsHD, getIconByNameHD } from '@/lib/icons';
 import {
   generateShareImage,
   saveImageToAlbum,
@@ -178,8 +178,8 @@ export default function SharePoster({
             textAlign: 'center',
           }}>
             <div style={{ width: 120, height: 120, margin: '0 auto 24px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              {achievement.icon && achievementIconsHD[achievement.icon] ? (
-                <img src={achievementIconsHD[achievement.icon]} alt={achievement.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              {achievement.icon && getIconByNameHD(achievement.icon) ? (
+                <img src={getIconByNameHD(achievement.icon)} alt={achievement.name} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
               ) : (
                 <span style={{ fontSize: 80, color: achievement.color }}>{achievement.emoji}</span>
               )}
@@ -318,8 +318,8 @@ export default function SharePoster({
                 background: ach.color + '20', border: `1px solid ${ach.color}40`,
                 padding: 8,
               }}>
-                {ach.icon && achievementIconsHD[ach.icon] ? (
-                  <img src={achievementIconsHD[ach.icon]} alt={ach.name} style={{ width: 40, height: 40, objectFit: 'contain' }} />
+                {ach.icon && getIconByNameHD(ach.icon) ? (
+                  <img src={getIconByNameHD(ach.icon)} alt={ach.name} style={{ width: 40, height: 40, objectFit: 'contain' }} />
                 ) : (
                   <span style={{ fontSize: 32 }}>{ach.emoji}</span>
                 )}

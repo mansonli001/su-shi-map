@@ -3,13 +3,13 @@
   "ancient_name": "汴京政事堂",
   "modern_name": "河南开封政事堂旧址",
   "type": "around",
-  "lat": 34.7972,
-  "lng": 114.3496,
+  "lat": 34.7985,
+  "lng": 114.3555,
   "related_routes": [
     "R05"
   ],
   "summary": "北宋都城，三苏在此科举及第，名动京师",
-  "background": "潼关即今陕西潼关，关中与中原的咽喉。黄河渡口、山河形胜，苏轼进京经此渡河，东望中原天地宽。",
+  "background": "汴京政事堂，宰相议事之所，朝廷决策核心。苏轼虽未入相，但元祐间以翰林学士、礼部尚书身份多次在此与执政辩论朝政，力主调和新旧两党、宽免役法。政事堂的党争角力，最终促使苏轼再次自请外放。",
   "tags": [
     "都城",
     "科举",
@@ -243,7 +243,7 @@
   ],
   "last_updated": "2026-06-01T10:22:05.205Z",
   "schema_version": "v4.1",
-  "coordinate_source": "manual_corrected",
+  "coordinate_source": "manual_fix",
   "amap_address": "河南省开封市",
   "coords_updated_at": "2026-06-01T10:17:04.310Z",
   "duration_summary": {
