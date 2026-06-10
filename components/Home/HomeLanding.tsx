@@ -1,5 +1,10 @@
 /**
- * 行吟山河 · 首页 Landing v1.0 布局还原
+ * 行吟山河 · 首页 Landing v1.1（2026-06-10 性能优化）
+ * - v1.0：'use client' 客户端组件
+ * - v1.1：改为纯 Server Component（无任何 hooks/state/事件）
+ *         → 零客户端 JS bundle、HTML 直出、首屏极速
+ *         → 配合 next/link 自动 prefetch，跳 explore/poems/profile 也会更快
+ *
  * 布局/大小/位置：按 v1 快照（ho-* class）
  * 配色/字体/链接：按当前 ip-* 体系（暖米白底 + 墨黑按钮 + Noto Serif SC）
  *
@@ -9,8 +14,6 @@
  *   - 3000+ 首诗词（chinese-poetry 苏轼总作品 3186）
  *   - 14 个省份（精确算自 places.modern_name）
  */
-
-'use client';
 
 import Link from 'next/link';
 

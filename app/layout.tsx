@@ -101,12 +101,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* 微信分享 og 图（待补真实分享图后取消注释） */}
         {/* <meta property="og:image" content="/og-share-1200x630.jpg" /> */}
 
-        {/* 字体预连接 */}
+        {/* 字体预连接（dns-prefetch + preconnect 双保险，加速首字节） */}
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
 
-        {/* Ink & Path 设计系统字体（Noto Serif SC + Source Sans 3 + Material Symbols） */}
+        {/* Ink & Path 设计系统字体
+            v9.4 性能优化（2026-06-10）：保持标准 stylesheet 加载，
+            display=swap 已让浏览器先用 fallback 字体渲染（FOUT），
+            自定义字体到货后无缝替换 → 首屏不被字体阻塞 */}
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
           rel="stylesheet"

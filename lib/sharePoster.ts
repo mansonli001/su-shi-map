@@ -1,9 +1,11 @@
 /**
  * 分享海报生成工具函数
  * 支持生成国风分享海报、保存到相册、系统原生分享
+ *
+ * v1.1（2026-06-10 性能优化）：
+ *   把 html2canvas 改成动态 import，避免被静态打包进 /profile 首屏 bundle。
+ *   profile 页面进入时不再加载 ~200KB 的 html2canvas，只有真正点击「分享」时才按需加载。
  */
-
-import html2canvas from 'html2canvas';
 
 /**
  * 将DOM节点转为高清图片
@@ -18,6 +20,8 @@ export const generateShareImage = async (domId: string): Promise<string | null> 
   }
 
   try {
+    // 动态加载 html2canvas，避免阻塞首屏
+    const { default: html2canvas } = await import('html2canvas');
     const canvas = await html2canvas(dom, {
       scale: 2, // 高清画质
       useCORS: true, // 解决图片跨域

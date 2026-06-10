@@ -2,6 +2,103 @@
 
 ---
 
+### 88. 全站性能优化 — 首页 SSG + v4 数据三层缓存修复
+
+**日期**：2026-06-10
+
+#### 背景
+
+用户反馈线上从首页（`/`）到底栏 4 个子页面（`/explore`、`/poems`、`/profile`、`/routes`）的切换体验较慢，首屏加载偏长。审计发现 4 处性能瓶颈：
+
+#### 一、致命：v4 数据 fetch 全量绕过缓存
+
+**位置**：`lib/v4-adapter.ts:191-194`
+
+**问题**：所有 `/data-v4/*.json` 的 fetch URL 都被加了 `?t=${Date.now()}` 时间戳，导致：
+- 浏览器 HTTP 缓存：每次请求 URL 不同 → 100% 失效
+- Service Worker（next-pwa）：URL 不匹配规则 → 100% 失效
+- Vercel CDN edge cache：URL 不同 → 100% 失效
+
+**影响范围**：进入 `/explore` 时会并发拉 `places-index.json`(196KB) + `routes-index.json` + 20 条 `routes/Rxx.json`(176KB) ≈ **22 个请求**，每次都全量回源。
+
+**修复**：移除时间戳。改用标准 fetch + `next.config.js` 强缓存头 + SW StaleWhileRevalidate，做到二次访问基本秒开，数据更新通过 SW 后台 revalidate 平滑推到客户端。
+
+#### 二、PWA runtimeCaching 仍在匹配老的 v3 路径
+
+**位置**：`next.config.js`
+
+**问题**：runtimeCaching 规则匹配 `/data/places-core.json` 这种 v3 路径，而项目已切换到 `/data-v4/*` → 实际线上所有 v4 数据都没被 SW 缓存。
+
+**修复**：重写 runtimeCaching 规则：
+- 索引文件（`places-index` / `routes-index` / `poems-index` / `stages-index` / `map-config` / `foods-*`）→ StaleWhileRevalidate（30 天）
+- 单点详情（`places/{P001}.json` / `routes/{R01}.json` / `poems/{S001}.json`）→ CacheFirst（30 天）
+- Google Fonts CSS 加 SWR 缓存
+- Google Fonts 字体文件加 CacheFirst（1 年）
+
+**新增 Cache-Control 头**：
+- `/data-v4/{*-index,map-config,foods-*}.json`：`public, max-age=300, s-maxage=86400, stale-while-revalidate=604800`
+- `/data-v4/{places,routes,poems}/*.json`：`public, max-age=86400, s-maxage=2592000, stale-while-revalidate=2592000`
+- `/{achievements,brand,icons}/*`：`public, max-age=604800, s-maxage=2592000, immutable`
+
+#### 三、首页 HomeLanding 误用 'use client'
+
+**位置**：`components/Home/HomeLanding.tsx`
+
+**问题**：组件完全是静态内容（无 hooks / 无 state / 无事件回调），但被标了 `'use client'` → 整个组件都被打包到客户端 bundle。
+
+**修复**：移除 `'use client'`，改为纯 Server Component → HTML 直出 + 零客户端 JS。
+
+**收益**：
+
+| 路由 | 修复前 First Load JS | 修复后 |
+|---|---|---|
+| `/`（首页） | ~5KB（client bundle） | **175 B**（纯 HTML） |
+
+#### 四、html2canvas 阻塞 /profile 首屏
+
+**位置**：`lib/sharePoster.ts`
+
+**问题**：`html2canvas` (~200KB) 通过 `import html2canvas from 'html2canvas'` 静态引入，被打到 `/profile` 的 First Load JS 中，但用户进 profile 90% 是看成就墙，不会立即点分享。
+
+**修复**：改为 `await import('html2canvas')` 动态加载，仅在用户真正点击「分享」时按需拉取。
+
+**收益**：
+
+| 路由 | 修复前 | 修复后 |
+|---|---|---|
+| `/profile` | 1.18 MB | **1.14 MB** |
+| `/explore` | 1.25 MB | **1.21 MB** |
+
+#### 五、字体加载策略微调
+
+**位置**：`app/layout.tsx`
+
+- 增加 `dns-prefetch` 配合原有 `preconnect`，对低端网络多一层加速保险
+- 移除冗余的 `cdn.jsdelivr.net` preconnect（项目实际未使用 jsdelivr）
+- 保持 `display=swap`（FOUT 软异步策略，首屏不被字体阻塞）
+
+#### 验证
+
+- ✅ `pnpm build` 全量构建通过
+- ✅ TypeScript 类型检查通过
+- ✅ 11 个静态页面全部成功 prerendered
+- ✅ Service Worker 重新生成
+- ✅ 全部修改文件 lint 干净（v4-adapter / next.config / HomeLanding / sharePoster / layout）
+
+#### 预期线上收益
+
+1. **首页（/）首屏**：从客户端水合 → 直接 HTML 直出，TTI 大幅下降
+2. **底栏 4 页二次访问**：从全量回源 → SW + 浏览器双层缓存命中，基本秒开
+3. **跨页跳转**：next/link 自动 prefetch JS 配合 SW 的 data-v4 缓存，从首页跳 explore/poems/routes 等几乎无网络等待
+4. **CDN 命中率**：`s-maxage` 配置后 Vercel edge 命中率显著提升，回源带宽下降
+
+#### 风险与回滚
+
+- **数据更新延迟**：SW CacheFirst 30 天 → 用户首次访问后内容更新只能在下次部署后通过 SW 升级（skipWaiting=true）拉新。这是预期行为，不影响功能。
+- **回滚方式**：`git revert HEAD` 即可，所有改动集中在 5 个文件，无数据/schema 变更。
+
+---
+
 ### 87. 数据质量修复 — 事迹去重 + 诗词内容填充
 
 **日期**：2026-06-10

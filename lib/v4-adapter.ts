@@ -188,8 +188,15 @@ export function clearV4AdapterCache() {
   _cache = {};
 }
 
+/**
+ * v4 数据 fetch（性能优化 v1.2.1，2026-06-10）
+ * - 移除 `?t=${Date.now()}` cache-buster：之前会让浏览器/PWA/CDN 三层缓存全失效，
+ *   导致每次进 explore/profile 都要重拉 21+ 个 JSON（200KB+），首屏严重卡顿。
+ * - 新策略：依赖 next.config.js 的 Cache-Control 头 + service worker StaleWhileRevalidate
+ *   首次正常拉，后续秒开；数据更新通过 Vercel 部署后的 SW 后台 revalidate 自动推到客户端。
+ */
 async function fetchJSON<T>(url: string): Promise<T> {
-  const res = await fetch(`${url}?t=${Date.now()}`);
+  const res = await fetch(url);
   if (!res.ok) throw new Error(`fetch ${url} failed: HTTP ${res.status}`);
   return (await res.json()) as T;
 }
