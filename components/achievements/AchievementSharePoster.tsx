@@ -3,6 +3,7 @@
  * 基于 Stitch 设计稿 stitch_designs/share/screen.png
  * 5列网格25格 + 苏轼印章 + 诗词大字 + QR码
  * 供 html2canvas 截图生成分享图片
+ * 布局：正常文档流，无 absolute 定位避免遮挡
  */
 
 'use client';
@@ -104,7 +105,7 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
     return (
       <div
         ref={ref}
-        className="ach-parchment-bg ach-double-border font-wenkai relative overflow-hidden"
+        className="ach-parchment-bg ach-double-border font-wenkai relative overflow-hidden flex flex-col"
         style={{
           width: 750,
           height: 1080,
@@ -113,7 +114,7 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
         }}
       >
         {/* ── 1. 顶部标题区 ── */}
-        <div className="text-center pt-12 pb-6">
+        <div className="text-center pt-12 pb-6 shrink-0">
           <h1 className="text-5xl font-bold tracking-tight" style={{ color: '#765538' }}>
             行吟山河
           </h1>
@@ -125,7 +126,7 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
         </div>
 
         {/* ── 2. 数据栏 ── */}
-        <div className="flex items-center justify-center py-4 mx-8"
+        <div className="flex items-center justify-center py-4 mx-8 shrink-0"
           style={{ borderTop: '1px solid rgba(211,196,185,0.4)', borderBottom: '1px solid rgba(211,196,185,0.4)' }}
         >
           <div className="flex-1 text-center">
@@ -145,7 +146,7 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
         </div>
 
         {/* ── 3. 成就格子 5×5 ── */}
-        <div className="grid grid-cols-5 gap-2.5 mx-8 mt-6">
+        <div className="grid grid-cols-5 gap-2.5 mx-8 mt-6 shrink-0">
           {achievements.map((ach) => (
             <div
               key={ach.id}
@@ -172,8 +173,8 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
         </div>
 
         {/* ── 4. 苏轼印章 + 诗词大字 ── */}
-        <div className="mx-8 mt-8 flex items-start justify-between">
-          <div className="flex-1 text-center">
+        <div className="mx-8 mt-8 flex items-start justify-between shrink-0">
+          <div className="flex-1 text-center pr-4">
             {topAchievement && topAchievement.poem.length > 0 && (
               <>
                 <p className="text-3xl font-bold leading-[1.8]" style={{ color: '#765538' }}>
@@ -191,7 +192,7 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
             )}
           </div>
           {/* 苏轼印章 */}
-          <div className="shrink-0 ml-6 w-16 h-16 flex items-center justify-center border-2"
+          <div className="shrink-0 w-16 h-16 flex items-center justify-center border-2"
             style={{
               borderColor: '#ba1a1a',
               color: '#ba1a1a',
@@ -207,28 +208,30 @@ const AchievementSharePoster = forwardRef<HTMLDivElement, AchievementSharePoster
           </div>
         </div>
 
-        {/* ── 5. 底部 ── */}
-        <div className="absolute bottom-0 left-0 right-0 px-8 py-6 flex items-end justify-between"
+        {/* ── 5. 底部 — 正常文档流，不再 absolute ── */}
+        <div className="mt-auto px-8 py-6 flex items-center justify-between shrink-0"
           style={{ background: 'rgba(236,224,217,0.4)', borderTop: '1px solid rgba(211,196,185,0.3)' }}
         >
-          <div className="flex flex-col gap-1">
-            <div className="flex items-center gap-4">
-              <div>
-                <p className="text-[10px] tracking-widest uppercase" style={{ color: '#81756b' }}>记录时间</p>
-                <p className="text-sm font-medium" style={{ color: '#4f453d' }}>{chineseDate}</p>
-              </div>
-              <div className="h-8 w-px" style={{ background: 'rgba(211,196,185,0.4)' }} />
-              <div>
-                <p className="text-[10px] tracking-widest uppercase" style={{ color: '#81756b' }}>访问典藉</p>
-                <a className="text-sm font-bold hover:underline" style={{ color: '#7f5539' }}
-                  href="https://su-shi.starfluxes.com"
-                >
-                  su-shi.starfluxes.com
-                </a>
-              </div>
+          {/* 左侧：记录时间 + 访问典藉 */}
+          <div className="flex items-center gap-4">
+            <div>
+              <p className="text-[10px] tracking-widest uppercase" style={{ color: '#81756b' }}>记录时间</p>
+              <p className="text-sm font-medium" style={{ color: '#4f453d' }}>{chineseDate}</p>
+            </div>
+            <div className="h-8 w-px" style={{ background: 'rgba(211,196,185,0.4)' }} />
+            <div>
+              <p className="text-[10px] tracking-widest uppercase" style={{ color: '#81756b' }}>访问典藉</p>
+              <a className="text-sm font-bold hover:underline" style={{ color: '#7f5539' }}
+                href="https://su-shi.starfluxes.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                su-shi.starfluxes.com
+              </a>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-1">
+          {/* 右侧：QR码 */}
+          <div className="flex flex-col items-center gap-1 shrink-0">
             <div className="p-2 bg-white border shadow-sm" style={{ borderColor: '#d3c4b9' }}>
               <div ref={qrcodeRef} />
             </div>
