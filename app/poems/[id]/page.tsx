@@ -213,14 +213,13 @@ export default function PoemDetailPage() {
             <span key={idx}>
               {idx > 0 && <span className="pd-poem-break" />}
               {paragraph.split('').map((char, cIdx, arr) => {
-                // 在句号、逗号等标点后换行（中文标点后）
-                const isPunctuation = /[，。！？；、]/.test(char);
+                // 仅在句号、问号、叹号后换行（两句一组），逗号不换行
+                const isSentenceEnd = /[。！？]/.test(char);
                 const nextChar = arr[cIdx + 1];
-                // 标点后且后面还有内容时加 <br/>
                 return (
                   <span key={cIdx}>
                     {char}
-                    {isPunctuation && nextChar && <br />}
+                    {isSentenceEnd && nextChar && <br />}
                   </span>
                 );
               })}
