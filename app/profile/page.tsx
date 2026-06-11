@@ -12,7 +12,6 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useSuShiStore } from '@/lib/store';
 import AchievementWall from '@/components/AchievementWall';
-import SharePoster from '@/components/SharePoster';
 import { achievements } from '@/lib/achievements';
 
 // ink-path tokens
@@ -370,12 +369,9 @@ export default function ProfilePage() {
               <h2 style={{ fontSize: '15px', fontWeight: 600, color: INK.ink, letterSpacing: '0.06em' }}>
                 成就墙
               </h2>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                <span style={{ fontSize: '12px', color: INK.inkLite }}>
-                  {stats.achievements} / {achievements.length} 已解锁
-                </span>
-                <SharePoster type="collection" />
-              </div>
+              <span style={{ fontSize: '12px', color: INK.inkLite }}>
+                {stats.achievements} / {achievements.length} 已解锁
+              </span>
             </div>
             <AchievementWall />
           </div>

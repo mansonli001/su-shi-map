@@ -52,6 +52,20 @@ export default function AchievementWall() {
   const [flippingId, setFlippingId] = useState<string | null>(null);
   const posterRef = useRef<HTMLDivElement>(null);
 
+  // 海报缩放：根据视口宽度动态计算 --poster-scale
+  useEffect(() => {
+    if (!showSharePoster) return;
+    const updateScale = () => {
+      const vw = window.innerWidth;
+      // 海报固定 750px 宽，小屏缩放
+      const scale = Math.min(1, (vw - 24) / 750); // 24px = p-3 两侧
+      document.documentElement.style.setProperty('--poster-scale', String(scale));
+    };
+    updateScale();
+    window.addEventListener('resize', updateScale);
+    return () => window.removeEventListener('resize', updateScale);
+  }, [showSharePoster]);
+
   // 计算所有成就进度
   const achievementProgress = useMemo(() => {
     const checkedIds = new Set(checkinPlaces.map(c => c.placeId));
@@ -341,30 +355,38 @@ export default function AchievementWall() {
         />
       )}
 
-      {/* 成就合集海报弹窗 */}
+      {/* 成就合集海报弹窗 — 响应式 */}
       {showSharePoster && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 z-50 flex flex-col items-center justify-end sm:justify-center p-3 sm:p-4">
           <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={() => setShowSharePoster(false)} />
-          <div className="relative z-10 flex flex-col items-center gap-4 max-h-[90vh] overflow-auto">
-            <AchievementSharePoster
-              ref={posterRef}
-              achievements={achievements.map(ach => ({
-                id: ach.id,
-                name: ach.name,
-                tier: ach.tier,
-                imageUrl: ACHIEVEMENT_IMAGES[ach.icon] || '/achievements/default.jpg',
-                poem: ach.poem.split(/[，。！？；]/).filter(Boolean),
-                poemSource: ach.poemSrc,
-                unlocked: unlockedAchievements.includes(ach.id),
-              }))}
-              userStats={{
-                checkinCount: checkinPlaces.length,
-                achievementCount: unlockedAchievements.length,
-                totalAchievements: achievements.length,
-                progressPercent: places.length > 0 ? Math.round((checkinPlaces.length / places.length) * 100) : 0,
-              }}
-            />
-            <div className="flex gap-3">
+          {/* 海报容器 — 缩放适配小屏 */}
+          <div className="relative z-10 flex flex-col items-center w-full max-w-[750px] max-h-[85dvh] sm:max-h-[90dvh]">
+            <div className="overflow-auto overscroll-contain flex-1 w-full flex justify-center"
+              style={{ scrollbarWidth: 'thin' }}
+            >
+              <div style={{ transform: 'scale(var(--poster-scale, 1))', transformOrigin: 'top center' }}>
+                <AchievementSharePoster
+                  ref={posterRef}
+                  achievements={achievements.map(ach => ({
+                    id: ach.id,
+                    name: ach.name,
+                    tier: ach.tier,
+                    imageUrl: ACHIEVEMENT_IMAGES[ach.icon] || '/achievements/default.jpg',
+                    poem: ach.poem.split(/[，。！？；]/).filter(Boolean),
+                    poemSource: ach.poemSrc,
+                    unlocked: unlockedAchievements.includes(ach.id),
+                  }))}
+                  userStats={{
+                    checkinCount: checkinPlaces.length,
+                    achievementCount: unlockedAchievements.length,
+                    totalAchievements: achievements.length,
+                    progressPercent: places.length > 0 ? Math.round((checkinPlaces.length / places.length) * 100) : 0,
+                  }}
+                />
+              </div>
+            </div>
+            {/* 操作按钮 — 固定底部 */}
+            <div className="shrink-0 flex gap-3 py-4 z-20">
               <button
                 onClick={() => setShowSharePoster(false)}
                 className="px-6 py-2.5 rounded-lg text-sm font-wenkai transition-colors"
