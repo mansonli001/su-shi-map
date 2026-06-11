@@ -2,6 +2,30 @@
 
 ---
 
+### 90. Bug 修复 + Logo 全量替换
+
+**日期**：2026-06-11
+
+#### Bug 修复
+
+1. **成就数据丢失**：profile 页面直接进入时 `places` 数据为空（仅 explore 页加载），导致 `checkAndUnlockAchievements` 无法执行。修复：profile 页新增 `loadV4PlaceCores()` 自动加载 places 数据。
+2. **地图加载**：地图依赖高德 JSAPI 2.0，需 `NEXT_PUBLIC_AMAP_KEY` 环境变量（已配置在 .env.local）。地图为客户端动态加载，SSR 无法验证，需浏览器端测试。
+3. **点击弹窗**：成就卡片仅 unlocked 状态可点击弹窗，locked 状态无响应为设计意图。places 数据加载后成就可正常计算解锁。
+
+#### Logo 全量替换
+
+- 新 logo 来源：`/Users/mansonlee/Downloads/0611/新logo.jpg`（1496×1262 JPEG）
+- 替换文件清单：
+  - `public/brand/logo.png`（512×512）— profile 页头像
+  - `public/brand/logo-nav.png`（40×40）— 导航栏
+  - `public/brand/logo-paper.png`（256×256）— 宣纸风格
+  - `public/favicon-32.png` + `public/favicon-16.png` — 浏览器标签图标
+  - `public/icons/pwa-*.png`（72~512 共 9 个尺寸）— PWA 图标
+- `app/layout.tsx`：favicon 引用从 `.ico` 改为 `.png` 格式
+- 所有引用路径不变（`/brand/logo.png`、`/brand/logo-nav.png`），无需修改组件代码
+
+---
+
 ### 89. 成就系统 UI 改造 — 文人手稿风格弹窗 + 合集海报
 
 **日期**：2026-06-11

@@ -13,6 +13,7 @@ import Link from 'next/link';
 import { useSuShiStore } from '@/lib/store';
 import AchievementWall from '@/components/AchievementWall';
 import { achievements } from '@/lib/achievements';
+import { loadV4PlaceCores } from '@/lib/v4-adapter';
 
 // ink-path tokens
 const INK = {
@@ -39,8 +40,17 @@ const SU_SHI_GLOBAL = {
 };
 
 export default function ProfilePage() {
-  const { favoritePoems, checkinPlaces, userNotes, places, unlockedAchievements, checkAndUnlockAchievements } = useSuShiStore();
+  const { favoritePoems, checkinPlaces, userNotes, places, unlockedAchievements, checkAndUnlockAchievements, setPlaces } = useSuShiStore();
   const [activeTab, setActiveTab] = useState<'achievements' | 'favorites' | 'notes'>('achievements');
+
+  // 确保 places 数据已加载（直接进 profile 时 places 可能为空）
+  useEffect(() => {
+    if (places.length === 0) {
+      loadV4PlaceCores().then(cores => {
+        setPlaces(cores);
+      }).catch(() => {});
+    }
+  }, [places.length, setPlaces]);
 
   // 初始化时检查成就
   useEffect(() => {
