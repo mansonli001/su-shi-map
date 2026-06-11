@@ -2,6 +2,85 @@
 
 ---
 
+### 96. 前端加载体验优化 + 今日变更审查与数据一致性修复
+
+**日期**：2026-06-11
+
+#### 背景
+
+对当日 8 次提交（db46abe..9c5bc10：成就系统 UI 改造、Logo 替换、诗词详情页 v2.0、25首样例导入 + popularity_rank + 深度读补全）逐项与 CHANGELOG（#89~#95）对比审查，重点排查**前端加载体验（资源加载 + 渲染性能）**，并修复发现的潜在问题与 bug。
+
+---
+
+#### 一、资源加载优化
+
+**1.1【重大】next-pwa 缓存配置从未生效 — 修复**
+
+- **问题**：`next.config.js` 把 `runtimeCaching` / `skipWaiting` 放在**顶层**，但项目用的是 `@ducanh2912/next-pwa` v10，其正确 API 是 `workboxOptions.runtimeCaching`（顶层 `runtimeCaching` 是旧版 shadowwalker/next-pwa 的写法）。结果自定义规则被**静默忽略**，SW 退回默认 `NetworkFirst`（static-data-assets / cross-origin）。
+- **影响**：#88（v4.1）精心设计的 data-v4 索引 `StaleWhileRevalidate` + 单点详情 `CacheFirst` + 字体长缓存策略**从未真正激活**，线上一直走 NetworkFirst（每次等网络再回退缓存，二次访问并不秒开）。
+- **修复**：`runtimeCaching` / `skipWaiting` 移入 `workboxOptions`，并设 `extendDefaultRuntimeCaching: true`（自定义规则排在默认规则之前，workbox 首个匹配生效）。重建后已确认 SW 内含 `su-shi-data-v4-index` / `su-shi-data-v4-detail` / `amap-tiles` / `google-fonts-css` / `jsdelivr-fonts-css` 等自定义 cacheName。
+
+**1.2 字体加载：CSS @import → <link>（消除串行瀑布）**
+
+- **问题**：`globals.css` 顶部用 CSS `@import` 加载 Noto Sans SC（Google）与霞鹜文楷 webfont（jsdelivr）。`@import` 会让浏览器「下载并解析 globals.css → 再发现 @import → 再去下载字体 CSS → 再下载字体文件」形成串行请求瀑布，拖慢首屏可用字体到货。
+- **修复**：
+  - 移除 globals.css 的两条远程 `@import`，改由 `layout.tsx` 的 `<link rel="stylesheet">` 加载（与 globals.css 并行下载）。
+  - 将 Noto Sans SC 合并进现有 Google Fonts 请求（`Noto+Sans+SC` + `Noto+Serif+SC` + `Source+Sans+3` 单条请求），减少一次 round-trip。
+  - 补回 `cdn.jsdelivr.net` 的 `dns-prefetch` + `preconnect`（#88 误判「项目未使用 jsdelivr」而删除，但 globals.css 实际仍从 jsdelivr 加载霞鹜文楷）。
+
+**1.3 移除死代码字体 LXGW WenKai Mono TC**
+
+- **问题**：#89 在 `layout.tsx` 全局新增 `LXGW WenKai Mono TC` 字体样式表，但**无任何元素引用它**——成就组件实际使用 `font-wenkai` class（= `LXGW WenKai` 普通版，来自 jsdelivr）。该字体表在每个页面都发起一次渲染阻塞请求且下载无人使用的 TC 字体。
+- **修复**：移除该 `<link>`。
+
+#### 二、渲染性能优化
+
+**诗词详情页正文：逐字渲染 → 逐句渲染**
+
+- **问题**：`app/poems/[id]/page.tsx` v2.0 的正文区把**每一个汉字**渲染成独立 `<span>`（为实现句末换行）。长赋如《赤壁赋》(F004) 数百字 → 数百个 DOM 节点，详情页首屏渲染负担重。
+- **修复**：改为按句末标点（。！？）正则切句、按「句」渲染，DOM 节点从 O(字数) 降到 O(句数)。
+- **等价性验证**：对全部 1803 个真实诗词段落跑新旧逻辑对比，**文本内容与换行位置 0 差异**——视觉效果完全不变，仅 DOM 更轻。
+
+#### 三、数据一致性修复（审查中发现的潜在 bug）
+
+审查发现 `data-v4/`（SSR 源）与 `public/data-v4/`（前端 fetch）存在双向、按字段交叉的脱节，根因是上一会话用不同脚本写到不同位置后**未运行 `sync-data.js` 同步**：
+
+| 问题 | 现象 | 修复 |
+|------|------|------|
+| public 索引陈旧 | 列表页 `/poems` 显示旧标题/年份（如「惠州一绝·梅花二首」、纵笔三首 1097） | 从 public 文件回填 title/type/year（36 处修正） |
+| popularity_rank 缺失 | #95 声称 public 索引含 rank，实际 0 条（前端 fetch 的副本未同步） | 从源索引补齐，490 条全覆盖（C012=1…Top30） |
+| 源文件陈旧 | `app/poems/[id]/layout.tsx` 服务端读**源**文件生成 SEO/OG，标题陈旧（与页面内容不符） | public 文件 → 源文件同步（已验证 public 为干净超集，零数据丢失），490 文件 |
+| C114 coreVerse | 索引有两种取值 | 保留 final-validation 选定值「旧官何物与新官。只有湖山公案。」 |
+
+- 修复后：源索引 == public 索引、poems 源/public 文件 0 不一致、索引 title/year 与文件 0 不一致。
+- SEO 验证：`/poems/S143` 标题已从「惠州一绝·梅花二首」修正为「梅花二首」。
+
+#### 四、验证
+
+- `pnpm build`：编译通过、类型检查通过、11 个静态页生成成功，无错误。
+- 路由冒烟（生产服务器）：`/`、`/poems`、`/poems/F004`、`/poems/S143`、`/profile` 全部 HTTP 200。
+- SW 重建：自定义 runtimeCaching 规则已落入 `public/sw.js`。
+- 渲染等价性：1803 段落新旧逻辑零差异。
+- 数据完整性：源索引 == public 索引、poems sync 0 残留。
+
+#### 五、改动文件
+
+| 文件 | 操作 |
+|------|------|
+| `next.config.js` | next-pwa API 修复（workboxOptions + extendDefaultRuntimeCaching）+ jsdelivr 规则 |
+| `app/layout.tsx` | 字体 <link> 改造、合并 Noto Sans SC、移除 Mono TC 死链、补回 jsdelivr 预连接 |
+| `app/globals.css` | 移除两条远程 @import |
+| `app/poems/[id]/page.tsx` | 正文逐字渲染 → 逐句渲染 |
+| `data-v4/poems/*.json`（490） | 用 public 内容回填源文件（修 SEO 陈旧） |
+| `data-v4/poems-index.json` / `public/data-v4/poems-index.json` | 修正 title/year + 补 popularity_rank，两处一致 |
+| `public/sw.js` / `public/workbox-*.js` | 构建重新生成 |
+
+#### 六、已知遗留（与今日提交无关，待单独跟进）
+
+- `data-v4/places/*` 与 `public/data-v4/places/*` 仍有约 164 处 source/public 脱节（含 places-index）。属更早历史 desync，不在本次诗词/成就改动范围，未触碰，待后续用 `sync-data.js` 专项核对后处理。
+
+---
+
 ### 95. 25首预写样例导入 + popularity_rank排序 + 深度读补全
 
 **日期**：2026-06-11

@@ -209,22 +209,23 @@ export default function PoemDetailPage() {
       {/* ── 诗词正文区 ── */}
       <section className="pd-poem-area">
         <p className="pd-poem-main">
-          {poem.paragraphs?.map((paragraph, idx) => (
-            <span key={idx}>
-              {idx > 0 && <span className="pd-poem-break" />}
-              {paragraph.split('').map((char, cIdx, arr) => {
-                // 仅在句号、问号、叹号后换行（两句一组），逗号不换行
-                const isSentenceEnd = /[。！？]/.test(char);
-                const nextChar = arr[cIdx + 1];
-                return (
-                  <span key={cIdx}>
-                    {char}
-                    {isSentenceEnd && nextChar && <br />}
+          {poem.paragraphs?.map((paragraph, idx) => {
+            // 按句末标点（。！？）切句，每句末尾换行；逗号不换行。
+            // 性能：按「句」渲染而非按「字」渲染，长赋（数百字）的 DOM 节点
+            // 从 O(字数) 降到 O(句数)，详情页首屏渲染更轻。
+            const sentences = paragraph.match(/[^。！？]*[。！？]|[^。！？]+$/g) || [paragraph];
+            return (
+              <span key={idx}>
+                {idx > 0 && <span className="pd-poem-break" />}
+                {sentences.map((sentence, sIdx) => (
+                  <span key={sIdx}>
+                    {sentence}
+                    {sIdx < sentences.length - 1 && <br />}
                   </span>
-                );
-              })}
-            </span>
-          ))}
+                ))}
+              </span>
+            );
+          })}
         </p>
         {poem.formNote && (
           <p className="pd-poem-note">{poem.formNote}</p>

@@ -102,27 +102,36 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* 微信分享 og 图（待补真实分享图后取消注释） */}
         {/* <meta property="og:image" content="/og-share-1200x630.jpg" /> */}
 
-        {/* 字体预连接（dns-prefetch + preconnect 双保险，加速首字节） */}
+        {/* 字体预连接（dns-prefetch + preconnect 双保险，加速首字节）
+            v9.5（2026-06-11）：补回 cdn.jsdelivr.net 预连接 —— 项目实际通过
+            jsdelivr 加载霞鹜文楷 webfont（LXGW WenKai），#88 误判「未使用」而删除，
+            此处恢复，避免该字体多一次 DNS/TLS 握手延迟。 */}
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="anonymous" />
 
         {/* Ink & Path 设计系统字体
-            v9.4 性能优化（2026-06-10）：保持标准 stylesheet 加载，
-            display=swap 已让浏览器先用 fallback 字体渲染（FOUT），
-            自定义字体到货后无缝替换 → 首屏不被字体阻塞 */}
+            v9.5 性能优化（2026-06-11）：
+            - 将原 globals.css 里以 @import 加载的 Noto Sans SC（UI 主力字体）合并进
+              这一条 Google Fonts 请求，消除 @import 串行瀑布，首屏字体更早到货。
+            - 移除无任何元素引用的 LXGW WenKai Mono TC 死链接（成就组件实际使用
+              font-wenkai = LXGW WenKai 普通版，并非 Mono TC），减少一条阻塞样式表。
+            - 保持 display=swap（FOUT 软异步，首屏不被字体阻塞）。 */}
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
           rel="stylesheet"
         />
-        {/* 成就系统 — 文人手稿风格专用字体（LXGW WenKai Mono TC） */}
+        {/* 霞鹜文楷 LXGW WenKai（诗意锚点：Hero 大标题/品牌名/诗句/成就卡）
+            原由 globals.css @import 加载，改为 <link> 与 globals.css 并行下载 */}
         <link
-          href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&display=swap"
+          href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css"
           rel="stylesheet"
         />
 

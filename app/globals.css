@@ -3,13 +3,17 @@
  * 设计稿对齐：霞鹜文楷 + 墨黑+金 + 米白
  */
 
-/* ========== 字体方案 v6.0「双字体职能分工」 ==========
+/* ========== 字体方案 v6.1「双字体职能分工」 ==========
  * 主力：Noto Sans SC（思源黑体）—— UI/导航/卡片/列表/正文（贴近地图字体）
  * 诗意锚点：LXGW WenKai（霞鹜文楷）—— Hero 大标题/品牌名/诗句
  * 数字：系统等宽字体
+ *
+ * v6.1 性能优化（2026-06-11）：
+ *   远程字体（Noto Sans SC / LXGW WenKai）改由 layout.tsx 的 <link> 加载，
+ *   不再用 CSS @import。@import 会让浏览器「下载并解析 globals.css → 再发现
+ *   @import → 再去下载字体 CSS」形成串行请求瀑布；改 <link> 后与 globals.css
+ *   并行下载，首屏可用字体更早到货。
  */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css');
 
 /* ========== Home Landing 专属样式（独立文件） ========== */
 @import './home.css';
