@@ -2,6 +2,49 @@
 
 ---
 
+### 91. 诗词详情页改版 v2.0
+
+**日期**：2026-06-11
+
+#### Bug 修复
+
+1. **页面 500 错误**：`.next` 缓存损坏导致 `Cannot find module vendor-chunks/@vercel+analytics`，清除缓存重启解决
+2. **正文多余逗号/空格**：旧渲染逻辑按句号 `split('。')` 拆分再拼接，导致标点后空格错乱。改为逐字渲染 + 标点后 `<br/>` 换行
+
+#### 页面结构重构
+
+旧结构：诗题 → 正文 → 创作背景卡片 → 核心名句卡片
+新结构：顶部信息栏（地点·年份 + 词题 + 作者·年龄）→ 诗词正文区 → 分隔线"深度读" → 解读区（现场→人话→这个人）→ 金句卡片
+
+#### 排版规范（按样例精确还原）
+
+- 诗词正文：18px serif / line-height 2.2 / letter-spacing 0.08em / 上下阕 14px 空行
+- 解读正文：14px sans-serif / line-height 1.9 / 段间距 10px / 节间距 20px
+- 引文块：2px 金色左边框 #EF9F27 / 14px serif / line-height 1.8
+- 标签色：11px #BA7517 / letter-spacing 0.06em
+- 金句卡片：#FAEEDA 背景 / 0.5px #EF9F27 边框 / 8px 圆角
+- 暗色模式：金句卡片 #412402 背景 / #854F0B 边框 / 文字色调亮
+
+#### 数据结构扩展
+
+Poem 类型新增字段：`age`、`situation`、`formNote`、`reading`（scene/lines/person）、`gold_quote`、`gold_quote_note`
+向下兼容：reading 为空时隐藏解读区，保留旧 background 卡片；gold_quote 为空时回退到 famousQuotes
+
+#### 标杆诗词数据
+
+- C004 江城子·乙卯正月二十日夜记梦：完整 reading + gold_quote 数据
+- C012 水调歌头·明月几时有：完整 reading + gold_quote 数据
+
+#### 修改文件
+
+- `app/poems/[id]/page.tsx`：全面重构（v2.0）
+- `public/data-v4/poems/C004.json`：新增 reading/gold_quote 数据
+- `public/data-v4/poems/C012.json`：新增 reading/gold_quote 数据
+- `data-v4/poems/C004.json`：同步 SSR 数据源
+- `data-v4/poems/C012.json`：同步 SSR 数据源
+
+---
+
 ### 90. Bug 修复 + Logo 全量替换
 
 **日期**：2026-06-11
