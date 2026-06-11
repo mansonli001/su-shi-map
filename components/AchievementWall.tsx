@@ -1,8 +1,8 @@
 /**
- * 成就墙组件 v3.0 — 亮色高级质感
+ * 成就墙组件 v4.0 — 文人手稿风格
  * 四种状态：unlocked / near / inprogress / locked
  * 插画 PNG 作为 background-image + 渐变遮罩
- * 解锁动效 + 分享卡片生成
+ * 解锁动效 + AchievementModal 弹窗 + AchievementSharePoster 海报
  */
 
 'use client';
@@ -17,6 +17,8 @@ import {
   type AchievementStatus,
 } from '@/lib/achievements';
 import { useSuShiStore } from '@/lib/store';
+import AchievementModal from '@/components/achievements/AchievementModal';
+import AchievementSharePoster from '@/components/achievements/AchievementSharePoster';
 
 // 分类配置 — 用中文符号替代 emoji
 const CATEGORIES = [
@@ -45,10 +47,10 @@ const PROGRESS_COLORS: Record<AchievementStatus, string> = {
 export default function AchievementWall() {
   const { unlockedAchievements, checkinPlaces, places, favoritePoems, lastUnlockedAchievement, setLastUnlockedAchievement } = useSuShiStore();
   const [selectedAchievement, setSelectedAchievement] = useState<Achievement | null>(null);
-  const [showShareModal, setShowShareModal] = useState(false);
-  const [shareImageUrl, setShareImageUrl] = useState<string>('');
+  const [showAchievementModal, setShowAchievementModal] = useState(false);
+  const [showSharePoster, setShowSharePoster] = useState(false);
   const [flippingId, setFlippingId] = useState<string | null>(null);
-  const shareCardRef = useRef<HTMLDivElement>(null);
+  const posterRef = useRef<HTMLDivElement>(null);
 
   // 计算所有成就进度
   const achievementProgress = useMemo(() => {
@@ -81,41 +83,30 @@ export default function AchievementWall() {
     return () => clearTimeout(timer);
   }, [lastUnlockedAchievement, setLastUnlockedAchievement]);
 
-  // 生成分享海报
-  const handleGenerateShare = useCallback(async (ach: Achievement) => {
+  // 打开成就卡弹窗
+  const handleGenerateShare = useCallback((ach: Achievement) => {
     setSelectedAchievement(ach);
-    setShowShareModal(true);
-    setShareImageUrl('');
-
-    // 等待 DOM 渲染后截图（双重 rAF 确保渲染完成）
-    requestAnimationFrame(() => {
-      requestAnimationFrame(async () => {
-        const node = shareCardRef.current;
-        if (!node) return;
-        try {
-          const html2canvas = (await import('html2canvas')).default;
-          const canvas = await html2canvas(node, {
-            scale: 2,
-            useCORS: true,
-            backgroundColor: '#ffffff',
-          });
-          setShareImageUrl(canvas.toDataURL('image/png'));
-        } catch (err) {
-          console.error('生成分享图失败:', err);
-        }
-      });
-    });
+    setShowAchievementModal(true);
   }, []);
 
-  const handleDownload = useCallback(() => {
-    if (!shareImageUrl) return;
-    const a = document.createElement('a');
-    a.href = shareImageUrl;
-    a.download = `行吟山河成就_${selectedAchievement?.name || ''}.png`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-  }, [shareImageUrl, selectedAchievement]);
+  // 保存分享海报
+  const handleSavePoster = useCallback(async () => {
+    if (!posterRef.current) return;
+    try {
+      const html2canvas = (await import('html2canvas')).default;
+      const canvas = await html2canvas(posterRef.current, {
+        scale: 2,
+        useCORS: true,
+        backgroundColor: '#fff8f5',
+      });
+      const link = document.createElement('a');
+      link.download = '行吟山河-成就合集.png';
+      link.href = canvas.toDataURL();
+      link.click();
+    } catch (err) {
+      console.error('生成分享海报失败:', err);
+    }
+  }, []);
 
   const handleCardClick = (ach: Achievement, status: AchievementStatus) => {
     if (ach.isHidden && status === 'locked') return;
@@ -137,6 +128,22 @@ export default function AchievementWall() {
       )}
 
       <div className="bg-[#f0ece4] rounded-2xl p-4">
+      {/* 分享海报入口 */}
+      <div className="flex justify-end mb-4">
+        <button
+          onClick={() => setShowSharePoster(true)}
+          className="flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-wenkai transition-colors"
+          style={{ background: 'linear-gradient(135deg, #75593a 0%, #b08968 100%)', color: '#ffffff' }}
+        >
+          <span className="material-symbols-outlined text-base"
+            style={{ fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}
+          >
+            photo_library
+          </span>
+          生成分享海报
+        </button>
+      </div>
+
       {CATEGORIES.map((category) => {
         const categoryAchievements = achievementsByCategory[category.id];
         if (!categoryAchievements || categoryAchievements.length === 0) return null;
@@ -311,18 +318,70 @@ export default function AchievementWall() {
 
       </div>
 
-      {/* 分享卡片 Modal */}
-      {showShareModal && selectedAchievement && (
-        <ShareModal
-          achievement={selectedAchievement}
-          imageUrl={shareImageUrl}
-          shareCardRef={shareCardRef}
-          checkinPlaces={checkinPlaces}
-          unlockedCount={unlockedAchievements.length}
-          totalPlaces={places.length}
-          onClose={() => { setShowShareModal(false); setShareImageUrl(''); setSelectedAchievement(null); }}
-          onDownload={handleDownload}
+      {/* 成就卡弹窗 — 文人手稿风格 */}
+      {showAchievementModal && selectedAchievement && (
+        <AchievementModal
+          achievement={{
+            id: selectedAchievement.id,
+            name: selectedAchievement.name,
+            description: selectedAchievement.desc,
+            tier: selectedAchievement.tier,
+            imageUrl: ACHIEVEMENT_IMAGES[selectedAchievement.icon] || '/achievements/default.jpg',
+            poem: selectedAchievement.poem.split(/[，。！？；]/).filter(Boolean),
+            poemSource: selectedAchievement.poemSrc,
+          }}
+          userStats={{
+            checkinCount: checkinPlaces.length,
+            achievementCount: unlockedAchievements.length,
+            totalAchievements: achievements.length,
+            progressPercent: places.length > 0 ? Math.round((checkinPlaces.length / places.length) * 100) : 0,
+          }}
+          onClose={() => { setShowAchievementModal(false); setSelectedAchievement(null); }}
+          onShare={() => { setShowAchievementModal(false); setShowSharePoster(true); }}
         />
+      )}
+
+      {/* 成就合集海报弹窗 */}
+      {showSharePoster && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={() => setShowSharePoster(false)} />
+          <div className="relative z-10 flex flex-col items-center gap-4 max-h-[90vh] overflow-auto">
+            <AchievementSharePoster
+              ref={posterRef}
+              achievements={achievements.map(ach => ({
+                id: ach.id,
+                name: ach.name,
+                tier: ach.tier,
+                imageUrl: ACHIEVEMENT_IMAGES[ach.icon] || '/achievements/default.jpg',
+                poem: ach.poem.split(/[，。！？；]/).filter(Boolean),
+                poemSource: ach.poemSrc,
+                unlocked: unlockedAchievements.includes(ach.id),
+              }))}
+              userStats={{
+                checkinCount: checkinPlaces.length,
+                achievementCount: unlockedAchievements.length,
+                totalAchievements: achievements.length,
+                progressPercent: places.length > 0 ? Math.round((checkinPlaces.length / places.length) * 100) : 0,
+              }}
+            />
+            <div className="flex gap-3">
+              <button
+                onClick={() => setShowSharePoster(false)}
+                className="px-6 py-2.5 rounded-lg text-sm font-wenkai transition-colors"
+                style={{ background: 'rgba(255,255,255,0.15)', color: '#fff', border: '1px solid rgba(255,255,255,0.2)' }}
+              >
+                关闭
+              </button>
+              <button
+                onClick={handleSavePoster}
+                className="px-6 py-2.5 rounded-lg text-sm font-wenkai transition-colors"
+                style={{ background: 'linear-gradient(135deg, #75593a 0%, #b08968 100%)', color: '#ffffff' }}
+              >
+                保存图片
+              </button>
+            </div>
+          </div>
+        </div>
       )}
     </>
   );
@@ -415,156 +474,4 @@ function GoldReveal({ achievement }: { achievement: Achievement }) {
   );
 }
 
-// ===== 分享卡片 Modal =====
-interface ShareModalProps {
-  achievement: Achievement;
-  imageUrl: string;
-  shareCardRef: React.RefObject<HTMLDivElement>;
-  checkinPlaces: { placeId: string; placeName: string }[];
-  unlockedCount: number;
-  totalPlaces: number;
-  onClose: () => void;
-  onDownload: () => void;
-}
 
-function ShareModal({
-  achievement,
-  imageUrl,
-  shareCardRef,
-  checkinPlaces,
-  unlockedCount,
-  totalPlaces,
-  onClose,
-  onDownload,
-}: ShareModalProps) {
-  const tierLabel = achievement.tier === 'gold' ? '金级成就解锁' : achievement.tier === 'silver' ? '银级成就解锁' : '铜级成就解锁';
-  const imagePath = ACHIEVEMENT_IMAGES[achievement.icon];
-  const progressPct = totalPlaces > 0 ? ((checkinPlaces.length / totalPlaces) * 100).toFixed(1) : '0';
-  const placeNames = checkinPlaces.slice(0, 5).map(c => c.placeName);
-  const today = new Date();
-  const dateStr = `${today.getFullYear()}年${today.getMonth() + 1}月${today.getDate()}日`;
-
-  // 诗句分行 — 按标点自然断句
-  const poemLines = achievement.poem.split(/[，。！？；]/).filter(Boolean);
-
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
-      <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" onClick={onClose} />
-
-      <div className="relative bg-stone-900 rounded-2xl shadow-2xl max-w-md w-full overflow-hidden">
-        {/* 头部 */}
-        <div className="flex items-center justify-between p-4 border-b border-stone-700">
-          <h2 className="text-lg font-semibold text-white font-wenkai">{achievement.name}</h2>
-          <button onClick={onClose} className="text-stone-400 hover:text-white p-2">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-
-        {/* 预览图 */}
-        <div className="p-4 bg-stone-800/50 flex justify-center">
-          {imageUrl ? (
-            <img src={imageUrl} alt={achievement.name} className="max-w-full max-h-[60vh] object-contain rounded-lg shadow-lg" />
-          ) : (
-            <div className="text-stone-400 text-sm py-8">生成中...</div>
-          )}
-        </div>
-
-        {/* 底部操作 */}
-        <div className="p-4 border-t border-stone-700 flex gap-3">
-          <button onClick={onClose} className="flex-1 px-4 py-2.5 bg-stone-700 hover:bg-stone-600 text-white rounded-lg transition-colors text-sm">
-            关闭
-          </button>
-          <button
-            onClick={onDownload}
-            disabled={!imageUrl}
-            className="flex-1 px-4 py-2.5 bg-[#2a6e3a] hover:bg-[#2a6e3a]/90 text-white font-semibold rounded-lg transition-colors disabled:opacity-50 text-sm"
-          >
-            保存图片
-          </button>
-        </div>
-      </div>
-
-      {/* 隐藏的分享卡片 DOM（供 html2canvas 截图） */}
-      <div
-        ref={shareCardRef}
-        id="share-card-node"
-        style={{ position: 'absolute', left: -9999, top: 0, width: 375, height: 667 }}
-      >
-        <div style={{ width: 375, height: 667, background: '#fff', borderRadius: 14, border: '1px solid #e8e0d4', overflow: 'hidden', fontFamily: "'STSong','SimSun','Noto Serif SC',serif" }}>
-          {/* 黑色头部 */}
-          <div style={{ background: '#1a1612', padding: '16px 18px 14px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <span style={{ fontSize: 13, fontWeight: 500, color: '#c8a060', letterSpacing: '0.12em' }}>行 吟 山 河</span>
-            <span style={{ fontSize: 10, color: '#8a6a40', letterSpacing: '0.05em', border: '1px solid #3a2e18', padding: '2px 7px', borderRadius: 3 }}>{tierLabel}</span>
-          </div>
-
-          {/* 主体 */}
-          <div style={{ padding: '20px 18px' }}>
-            {/* 徽章 + 名称 */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 18 }}>
-              <div
-                style={{
-                  width: 64, height: 64, borderRadius: '50%', border: '2px solid #2a6e3a',
-                  backgroundImage: `url(${imagePath})`, backgroundSize: 'cover', backgroundPosition: 'center top',
-                  flexShrink: 0, backgroundColor: '#f0f8f2',
-                }}
-              />
-              <div>
-                <div style={{ fontSize: 20, fontWeight: 500, color: '#1a1612', letterSpacing: '0.06em', marginBottom: 4, fontFamily: "'STSong','SimSun','Noto Serif SC',serif" }}>{achievement.name}</div>
-                <div style={{ fontSize: 12, color: '#8a8070' }}>{achievement.desc}</div>
-              </div>
-            </div>
-
-            {/* 分割线 */}
-            <div style={{ height: 1, background: '#f0ece4', marginBottom: 16 }} />
-
-            {/* 诗句 */}
-            <div style={{ textAlign: 'center', padding: '0 8px', marginBottom: 18 }}>
-              {poemLines.map((line, i) => (
-                <div key={i} style={{ fontSize: 16, color: '#2a2018', lineHeight: 2.2, letterSpacing: '0.15em' }}>{line}</div>
-              ))}
-              <div style={{ fontSize: 11, color: '#b0a890', marginTop: 4, letterSpacing: '0.06em' }}>{achievement.poemSrc}</div>
-            </div>
-
-            {/* 统计 */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', border: '1px solid #eee8de', borderRadius: 8, overflow: 'hidden', marginBottom: 14 }}>
-              <div style={{ padding: '10px 0', textAlign: 'center', borderRight: '1px solid #eee8de' }}>
-                <div style={{ fontSize: 18, fontWeight: 500, color: '#1a1612' }}>{checkinPlaces.length}</div>
-                <div style={{ fontSize: 9, color: '#b0a890', marginTop: 2, letterSpacing: '0.04em' }}>打卡地点</div>
-              </div>
-              <div style={{ padding: '10px 0', textAlign: 'center', borderRight: '1px solid #eee8de' }}>
-                <div style={{ fontSize: 18, fontWeight: 500, color: '#1a1612' }}>{unlockedCount}</div>
-                <div style={{ fontSize: 9, color: '#b0a890', marginTop: 2, letterSpacing: '0.04em' }}>解锁成就</div>
-              </div>
-              <div style={{ padding: '10px 0', textAlign: 'center' }}>
-                <div style={{ fontSize: 18, fontWeight: 500, color: '#1a1612' }}>{progressPct}%</div>
-                <div style={{ fontSize: 9, color: '#b0a890', marginTop: 2, letterSpacing: '0.04em' }}>苏途进度</div>
-              </div>
-            </div>
-
-            {/* 地点标签 */}
-            <div style={{ display: 'flex', gap: 5, flexWrap: 'wrap', marginBottom: 14 }}>
-              {placeNames.map(name => (
-                <span key={name} style={{ background: '#f4f0ea', border: '1px solid #e8e0d4', borderRadius: 3, padding: '3px 8px', fontSize: 10, color: '#6a6050' }}>{name}</span>
-              ))}
-            </div>
-
-            {/* 底部 */}
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
-              <div>
-                <div style={{ fontSize: 10, color: '#c0b8a8', lineHeight: 1.7 }}>{dateStr}</div>
-                <div style={{ fontSize: 9, color: '#d0c8b8' }}>su-shi.starfluxes.com</div>
-              </div>
-              <div style={{ width: 40, height: 40, background: '#f4f0ea', borderRadius: 4, display: 'grid', gridTemplateColumns: 'repeat(5, 6px)', gridTemplateRows: 'repeat(5, 6px)', gap: 1, padding: 4 }}>
-                {[1,1,1,0,1, 1,0,1,1,0, 1,1,0,1,1, 0,1,1,0,1, 1,0,1,1,0].map((v, i) => (
-                  <div key={i} style={{ width: 6, height: 6, borderRadius: 1, background: v ? '#2a2018' : 'transparent' }} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}

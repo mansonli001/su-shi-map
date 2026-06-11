@@ -119,6 +119,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
           rel="stylesheet"
         />
+        {/* 成就系统 — 文人手稿风格专用字体（LXGW WenKai Mono TC） */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&display=swap"
+          rel="stylesheet"
+        />
 
         {/* JSON-LD 结构化数据 */}
         <script

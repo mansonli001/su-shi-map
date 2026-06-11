@@ -2,6 +2,81 @@
 
 ---
 
+### 89. 成就系统 UI 改造 — 文人手稿风格弹窗 + 合集海报
+
+**日期**：2026-06-11
+
+#### 背景
+
+Stitch 提供完整设计稿（单卡弹窗 HTML + 分享海报截图），风格为「文人手稿」，字体 LXGW WenKai Mono TC，配色羊皮纸系（#fff8f5 背景，#765538 主色，#b08968 金褐描边）。将设计稿适配为项目真实组件，接入动态数据。
+
+#### 一、单卡弹窗 AchievementModal
+
+**新增文件**：`components/achievements/AchievementModal.tsx`
+
+- 羊皮纸底纹（ach-parchment-bg）+ 双线描边（ach-double-border）+ 点阵分隔线（ach-lattice-divider）+ 金级徽章渐变（ach-gold-badge），完整迁移设计稿样式
+- 动态数据接入：achievement.name / description / poem / tier / unlockedAt
+- tier 映射：bronze→铜级成就、silver→银级成就、gold→金级成就、special→特别成就
+- 图片区：`<img src={achievement.imageUrl} />` 读取 /public/achievements/ 下的图片，object-fit: cover
+- QR码：通过 CDN 动态加载 qrcodejs（非 npm 安装），colorDark #765538，colorLight #ffffff
+- 底部信息：左侧大标题改为 achievement.name，副标题改为 description，入卷时间格式化为 YYYY.MM.DD
+- 保留装饰性「詩」水印、悬停缩放交互、整体视觉层次
+
+#### 二、合集海报 AchievementSharePoster
+
+**新增文件**：`components/achievements/AchievementSharePoster.tsx`
+
+- 5列×5行网格，25格总计：已解锁显示 badge SVG + 金褐描边，未解锁灰色背景 + Material Symbols lock 图标
+- 顶部：超大「行吟山河」标题 + 「我的成就合集」居中横线装饰
+- 数据栏：足迹地 / 已达成(X/25) / 完成度(%)，三格横排竖分隔线
+- 苏轼印章：红色方形印章样式，内写「苏轼」二字，居右
+- 诗词大字：最高级已解锁成就的 poem[0]，大字居中，下方注明出处
+- 底部：左侧「记录时间」+ 中文大写日期（二〇二六年六月十一日）+ 「访问典藉」+ 网址，右侧 QR码
+- forwardRef 供 html2canvas 截图，固定尺寸 750×1080
+- 保存逻辑：html2canvas scale:2，backgroundColor #fff8f5，下载文件名「行吟山河-成就合集.png」
+
+#### 三、替换现有成就墙入口
+
+**修改文件**：`components/AchievementWall.tsx`（v3.0 → v4.0）
+
+- 点击已解锁成就 → 弹出 AchievementModal（替代旧 ShareModal）
+- 成就墙顶部新增「生成分享海报」按钮 → 弹出 AchievementSharePoster + 「保存图片」按钮
+- AchievementModal 的 onShare 回调跳转到合集海报
+- 旧 ShareModal 组件（含隐藏 DOM 截图节点）已完整移除
+- 数据桥接：从 lib/achievements 的 Achievement 类型映射到新组件 props（poem 按标点分行、imageUrl 取 ACHIEVEMENT_IMAGES 映射）
+
+#### 四、全局样式与字体
+
+**修改文件**：`app/globals.css`
+
+- 新增 4 个自定义 class：ach-parchment-bg（羊皮纸底纹 + natural-paper 纹理叠层）、ach-double-border（1px #d3c4b9 外框 + 2px #b08968 ::after 内框）、ach-lattice-divider（8px 点阵分隔线）、ach-gold-badge（135deg 金褐渐变 + 阴影）
+
+**修改文件**：`app/layout.tsx`
+
+- 新增 LXGW WenKai Mono TC Google Fonts 链接（wght 300;400;700），与已有 LXGW WenKai（普通版）并存，不重复引入
+
+#### 性能审计
+
+| 检查项 | 结果 |
+|--------|------|
+| html2canvas 引入方式 | ✅ 动态 `await import()`，不进 First Load JS |
+| qrcodejs 引入方式 | ✅ CDN 运行时加载，无 npm 依赖 |
+| /profile First Load JS | ✅ 1.14 MB（与 #88 优化后一致，无增长） |
+| 新组件 'use client' | ✅ 通过 AchievementWall 间接引入，不额外增加客户端边界 |
+| 字体加载 | ✅ display=swap，FOUT 软异步，不阻塞首屏 |
+
+#### 改动文件清单
+
+| 文件 | 操作 |
+|------|------|
+| `components/achievements/AchievementModal.tsx` | 新增 |
+| `components/achievements/AchievementSharePoster.tsx` | 新增 |
+| `components/AchievementWall.tsx` | 重写（v3→v4，移除旧 ShareModal） |
+| `app/globals.css` | 新增 4 个 ach-* 自定义 class |
+| `app/layout.tsx` | 新增 LXGW WenKai Mono TC 字体链接 |
+
+---
+
 ### 88. 全站性能优化 — 首页 SSG + v4 数据三层缓存修复
 
 **日期**：2026-06-10

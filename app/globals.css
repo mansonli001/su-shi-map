@@ -555,7 +555,56 @@ html { background: var(--ink); }
 }
 
 /* ========================================================================
- * 15. v1.1 stitch 页面级装饰 — profile + explore（2026-06-05）
+ * 15. 成就系统 — 文人手稿风格（Stitch 设计稿适配）
+ * ====================================================================== */
+
+/* 羊皮纸底纹 */
+.ach-parchment-bg {
+  background-color: #fff8f5;
+  background-image:
+    radial-gradient(circle at 2px 2px, rgba(176, 137, 104, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+  position: relative;
+}
+.ach-parchment-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* 双线描边 */
+.ach-double-border {
+  border: 1px solid #d3c4b9;
+  padding: 4px;
+  position: relative;
+}
+.ach-double-border::after {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  border: 2px solid #b08968;
+  pointer-events: none;
+}
+
+/* 点阵分隔线 */
+.ach-lattice-divider {
+  height: 12px;
+  background-image: radial-gradient(#b08968 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.4;
+}
+
+/* 等级徽章渐变 */
+.ach-gold-badge {
+  background: linear-gradient(135deg, #75593a 0%, #b08968 100%);
+  box-shadow: 0 4px 12px rgba(117, 89, 58, 0.3);
+}
+
+/* ========================================================================
+ * 16. v1.1 stitch 页面级装饰 — profile + explore（2026-06-05）
  *     scope 在专属 className 下，老代码 0 影响
  * ====================================================================== */
 

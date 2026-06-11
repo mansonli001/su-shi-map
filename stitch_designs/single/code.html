@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>行吟山河 - 西湖留连</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:wght@300;400;700&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Font Override for LXGW WenKai */
+        body, .font-body-md, .font-body-lg, .font-headline-lg, .font-display-lg, .font-title-md, .font-label-sm {
+            font-family: 'LXGW WenKai Mono TC', cursive, serif !important;
+        }
+        
+        /* Digital Parchment Texture */
+        .parchment-bg {
+            background-color: #fff8f5;
+            background-image: 
+                radial-gradient(circle at 2px 2px, rgba(176, 137, 104, 0.05) 1px, transparent 0);
+            background-size: 24px 24px;
+            position: relative;
+        }
+        
+        .parchment-bg::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url('https://www.transparenttextures.com/patterns/natural-paper.png');
+            opacity: 0.3;
+            pointer-events: none;
+        }
+
+        /* Double-ruled border for Card */
+        .double-border {
+            border: 1px solid #d3c4b9;
+            padding: 4px;
+            position: relative;
+        }
+        .double-border::after {
+            content: "";
+            position: absolute;
+            inset: 2px;
+            border: 2px solid #b08968;
+            pointer-events: none;
+        }
+
+        .lattice-divider {
+            height: 12px;
+            background-image: radial-gradient(#b08968 1px, transparent 1px);
+            background-size: 8px 8px;
+            opacity: 0.4;
+        }
+
+        .gold-badge {
+            background: linear-gradient(135deg, #75593a 0%, #b08968 100%);
+            box-shadow: 0 4px 12px rgba(117, 89, 58, 0.3);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #d3c4b9; border-radius: 2px; }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-error": "#ffffff",
+                    "surface": "#fff8f5",
+                    "error": "#ba1a1a",
+                    "error-container": "#ffdad6",
+                    "surface-tint": "#79573a",
+                    "secondary-fixed": "#ffdcc7",
+                    "outline-variant": "#d3c4b9",
+                    "on-background": "#201b16",
+                    "primary-fixed-dim": "#eabe9a",
+                    "secondary-container": "#fec6a3",
+                    "outline": "#81756b",
+                    "secondary": "#7f5539",
+                    "surface-container-low": "#fef1ea",
+                    "on-secondary": "#ffffff",
+                    "surface-dim": "#e3d8d1",
+                    "surface-bright": "#fff8f5",
+                    "on-primary-fixed-variant": "#5f4025",
+                    "on-secondary-container": "#795035",
+                    "surface-container-high": "#f2e6df",
+                    "primary-fixed": "#ffdcc1",
+                    "on-error-container": "#93000a",
+                    "on-tertiary-fixed": "#2b1701",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary-fixed": "#301401",
+                    "surface-variant": "#ece0d9",
+                    "tertiary": "#75593a",
+                    "tertiary-fixed-dim": "#e5c099",
+                    "on-surface-variant": "#4f453d",
+                    "inverse-primary": "#eabe9a",
+                    "primary-container": "#916d4e",
+                    "primary": "#765538",
+                    "surface-container": "#f8ece4",
+                    "on-surface": "#201b16",
+                    "surface-container-highest": "#ece0d9",
+                    "surface-container-lowest": "#ffffff",
+                    "on-primary-fixed": "#2d1601",
+                    "inverse-surface": "#362f2a",
+                    "on-primary": "#ffffff",
+                    "inverse-on-surface": "#fbeee7",
+                    "on-tertiary-container": "#3b250a",
+                    "on-tertiary-fixed-variant": "#5c4224",
+                    "background": "#fff8f5",
+                    "tertiary-container": "#ac8b68",
+                    "on-secondary-fixed-variant": "#643e24",
+                    "secondary-fixed-dim": "#f2bb98",
+                    "tertiary-fixed": "#ffddbb",
+                    "on-primary-container": "#fffbff"
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-surface-dim font-body-md text-on-surface flex items-center justify-center p-4 overflow-x-hidden min-h-screen">
+<!-- Achievement Popup Container -->
+<main class="w-full max-w-[400px] parchment-bg double-border shadow-2xl relative overflow-hidden flex flex-col items-center">
+<!-- Top App Bar -->
+<header class="w-full flex justify-between items-center px-6 py-4 sticky top-0 bg-surface/40 backdrop-blur-md z-20">
+<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-70 transition-opacity">close</span>
+<h1 class="text-[24px] text-primary tracking-tight font-bold">行吟山河</h1>
+<span class="material-symbols-outlined text-primary cursor-pointer hover:opacity-70 transition-opacity">share</span>
+</header>
+<!-- Artwork Section -->
+<section class="w-full h-[380px] px-6 pt-2 relative">
+<div class="w-full h-full relative group">
+<div class="absolute -inset-2 bg-secondary/5 blur-xl"></div>
+<div class="w-full h-full overflow-hidden rounded-sm border-[1px] border-outline-variant shadow-lg relative">
+<img alt="西湖留连" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKAaIYVI4IsgI9hRWCjEP1Hf487hnlAK_w8g0H75b3O4WuNNN7rCekOSEkxcBfqqbqAsTaOmM_UqN-cWcKRtC3GA0C1d0y2ffjSO5zw8NLlJEyMw0yQcMYd0DXutXiqPHeWbxNZYJt4_2bAI6RbanissDokZJAF_UMWtffZnAuvOn5KVlXO6YpjrbnDUrJ2nNItboGIGLpQivU-etMjh2OeXPvHrIGlWMldyoqHAl_H-tjTtG1RTrtBejTWAx9O56Q6wbC-7_9rA"/>
+<div class="absolute inset-0 pointer-events-none ring-1 ring-inset ring-white/10"></div>
+</div>
+<!-- Level Badge -->
+<div class="absolute -bottom-3 left-1/2 -translate-x-1/2 gold-badge text-on-tertiary px-6 py-1.5 text-[12px] tracking-[0.2em] border border-primary/30 z-10 flex items-center gap-2 whitespace-nowrap">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+                    金级成就
+                </div>
+</div>
+</section>
+<!-- Achievement Content -->
+<section class="w-full px-8 mt-10 text-center flex-grow">
+<h2 class="text-[36px] text-primary mb-3 leading-tight font-bold">西湖留连</h2>
+<div class="lattice-divider w-1/2 mx-auto mb-6"></div>
+<!-- Poetry Block -->
+<div class="text-on-surface-variant text-[20px] leading-[1.8] mb-6">
+<p>柔波弄晨晖，</p>
+<p>灵性寄山岚。</p>
+</div>
+<div class="lattice-divider w-1/2 mx-auto"></div>
+</section>
+<!-- Stats Grid -->
+<section class="w-full px-8 py-8">
+<div class="grid grid-cols-3 divide-x divide-outline-variant/30 border-y border-outline-variant/30 py-4">
+<div class="flex flex-col items-center">
+<span class="text-[12px] text-outline uppercase tracking-wider mb-1">打卡足迹</span>
+<span class="text-[20px] text-secondary font-bold">32</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="text-[12px] text-outline uppercase tracking-wider mb-1">解锁成就</span>
+<span class="text-[20px] text-secondary font-bold">18/30</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="text-[12px] text-outline uppercase tracking-wider mb-1">苏途进度</span>
+<span class="text-[20px] text-secondary font-bold">60%</span>
+</div>
+</div>
+</section>
+<!-- Footer / QR Section -->
+<footer class="w-full bg-surface-container-high/40 py-8 px-8 flex items-center justify-between border-t border-outline-variant/30">
+<div class="flex flex-col gap-1">
+<p class="text-[18px] text-primary leading-tight font-bold">旷世名士</p>
+<p class="text-[13px] text-on-surface-variant/80">南宋之冠</p>
+<div class="mt-4 pt-4 border-t border-outline-variant/20">
+<p class="text-[10px] text-outline tracking-widest uppercase">入卷时间 2024.11.02</p>
+<a class="text-[11px] text-secondary hover:underline font-bold mt-1 block" href="https://su-shi.starfluxes.com">su-shi.starfluxes.com</a>
+</div>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="p-2 bg-white border border-outline-variant shadow-sm" id="qrcode-container">
+<div id="qrcode"></div>
+</div>
+<span class="text-[11px] text-outline-variant font-bold tracking-tighter">扫码同游</span>
+</div>
+</footer>
+<!-- Decorative elements -->
+<div class="absolute bottom-40 -left-10 opacity-5 pointer-events-none transform -rotate-12">
+<span class="text-[120px] text-primary select-none">詩</span>
+</div>
+</main>
+<script>
+        window.onload = function() {
+            // Initialize QR Code
+            new QRCode(document.getElementById("qrcode"), {
+                text: "https://su-shi.starfluxes.com",
+                width: 64,
+                height: 64,
+                colorDark : "#765538",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.H
+            });
+            
+            // Interaction: Dynamic scale on press
+            const card = document.querySelector('main');
+            card.addEventListener('mousedown', () => {
+                card.style.transform = 'scale(0.99)';
+                card.style.transition = 'transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
+            });
+            card.addEventListener('mouseup', () => {
+                card.style.transform = 'scale(1)';
+            });
+        };
+    </script>
+</body></html>
