@@ -4,7 +4,12 @@
   "author": "苏轼",
   "type": "诗",
   "location": "利州",
-  "paragraphs": [],
-  "background": "苏轼经利州所作",
-  "famousQuotes": []
+  "paragraphs": [
+    "过益昌，轼辙晤鲜于侁，时侁漕利路。"
+  ],
+  "background": "苏轼出蜀途经利州（今四川广元），与鲜于侁相晤。鲜于侁时任利路转运使，与苏轼交好。利州为蜀道重镇，嘉陵江畔。",
+  "famousQuotes": [],
+  "year": 1056,
+  "route_id": "R01",
+  "popularity_rank": 999
 }

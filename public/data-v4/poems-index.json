@@ -1,2438 +1,8 @@
 {
-  "schema_version": "v4.1",
-  "generated_at": "2026-06-03T12:57:33.122972",
-  "total": 329,
-  "has_full_text": 321,
+  "total": 490,
+  "has_full_text": 490,
   "pending_full_text": 0,
   "poems": [
-    {
-      "id": "Z001",
-      "title": "刑赏忠厚之至论",
-      "type": "策",
-      "year": 1057,
-      "route_id": "R01",
-      "related_route_ids": [
-        "R01"
-      ],
-      "has_full_text": true,
-      "coreVerse": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。"
-    },
-    {
-      "id": "Z002",
-      "title": "上神宗皇帝书",
-      "type": "策",
-      "year": 1069,
-      "route_id": "R05",
-      "related_route_ids": [
-        "R05"
-      ],
-      "has_full_text": true,
-      "coreVerse": "守法者，治之本也；持正者，义之门也。"
-    },
-    {
-      "id": "Z003",
-      "title": "杭州乞度牒开西湖状",
-      "type": "策",
-      "year": 1090,
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "西湖有不可废者五。"
-    },
-    {
-      "id": "Z004",
-      "title": "到惠州谢表",
-      "type": "策",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "仿佛曾游岂梦中，欣然鸡犬识新丰。"
-    },
-    {
-      "id": "S001",
-      "title": "钱塘勤上人诗集叙",
-      "type": "诗",
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "勤上人学诗如学佛，要在妙悟自心。"
-    },
-    {
-      "id": "S002",
-      "title": "初发嘉州",
-      "type": "诗",
-      "year": 1059,
-      "route_id": "R02",
-      "related_route_ids": [
-        "R02"
-      ],
-      "has_full_text": true,
-      "coreVerse": "朝发鼓阗阗，西风猎画旃。"
-    },
-    {
-      "id": "S003",
-      "title": "和子由踏青",
-      "type": "诗",
-      "year": 1061,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人闲正好路旁饮，麦寒未许桃争春。"
-    },
-    {
-      "id": "S004",
-      "title": "留别廉守",
-      "type": "诗",
-      "year": 1061,
-      "route_id": "R04",
-      "related_route_ids": [
-        "R04"
-      ],
-      "has_full_text": true,
-      "coreVerse": "小饼如嚼月，中有酥与饴。"
-    },
-    {
-      "id": "S005",
-      "title": "次韵子由以诗致贺",
-      "type": "诗",
-      "year": 1061,
-      "route_id": "R04",
-      "related_route_ids": [
-        "R04"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我生本是蓬莱客，偶向人间游一遭。"
-    },
-    {
-      "id": "S006",
-      "title": "和子由寒食",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "花开花落各有时，此花不比他花短。"
-    },
-    {
-      "id": "S007",
-      "title": "次韵子由除日元日省宿",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "努力尽今夕，少年犹可夸。"
-    },
-    {
-      "id": "S008",
-      "title": "守岁",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "努力尽今夕，少年犹可夸。"
-    },
-    {
-      "id": "S009",
-      "title": "次韵子由除日见寄",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "薄薄酒，胜茶汤；粗粗布，胜无裳。"
-    },
-    {
-      "id": "S010",
-      "title": "薄薄酒二首",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "薄薄酒，胜茶汤。"
-    },
-    {
-      "id": "S011",
-      "title": "留题仙游潭中兴寺",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1062,
-      "route_id": "R03",
-      "location": "凤翔",
-      "coreVerse": "",
-      "hasFull": true
-    },
-    {
-      "id": "S012",
-      "title": "江淮行旅杂咏",
-      "type": "诗",
-      "year": 1066,
-      "route_id": "R04",
-      "related_route_ids": [
-        "R04"
-      ],
-      "has_full_text": true,
-      "coreVerse": "北风吹雪花，日暮车马道。"
-    },
-    {
-      "id": "S013",
-      "title": "和子由渑池怀旧",
-      "type": "诗",
-      "year": 1066,
-      "route_id": "R04",
-      "related_route_ids": [
-        "R04"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人生到处知何似，应似飞鸿踏雪泥。"
-    },
-    {
-      "id": "S014",
-      "title": "游金山寺",
-      "type": "诗",
-      "year": 1071,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我家江水初发源，宦游直送江入海。"
-    },
-    {
-      "id": "S015",
-      "title": "赠别",
-      "type": "诗",
-      "year": 1071,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "青鸟衔来双鲤鱼，自缄红泪开锦书。"
-    },
-    {
-      "id": "S016",
-      "title": "次韵代留别",
-      "type": "诗",
-      "year": 1071,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "他年一醉若为欢，预恐飘零不能归。"
-    },
-    {
-      "id": "S017",
-      "title": "六月二十七日望湖楼醉书五首",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
-    },
-    {
-      "id": "S018",
-      "title": "望海楼晚景",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "海上涛头一线红，楼台紫翠出云中。"
-    },
-    {
-      "id": "S019",
-      "title": "书双竹湛师房",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "落日官河带浅沙，禅房深竹护年华。"
-    },
-    {
-      "id": "S020",
-      "title": "夜泛西湖",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "月明三十里，空山闻鹧鸪。"
-    },
-    {
-      "id": "S021",
-      "title": "饮湖上初晴后雨二首",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "水光潋滟晴方好，山色空蒙雨亦奇。"
-    },
-    {
-      "id": "S022",
-      "title": "六月二十七日望湖楼醉书五首",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
-    },
-    {
-      "id": "S023",
-      "title": "望湖楼醉书",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
-    },
-    {
-      "id": "S024",
-      "title": "次韵子由送赵㞦",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "若见故人问消息，为言春色在湖边。"
-    },
-    {
-      "id": "S025",
-      "title": "吉祥寺赏牡丹",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人老簪花不自羞，花应羞上老人头。"
-    },
-    {
-      "id": "S026",
-      "title": "吉祥寺僧求阁名",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "尚有清欢那可负，此生端合老烟波。"
-    },
-    {
-      "id": "S027",
-      "title": "冬至日独游吉祥寺",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "何人更似苏夫子，不是花时肯独来。"
-    },
-    {
-      "id": "S028",
-      "title": "吉祥寺题壁",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "寂寞吉祥寺，风流老东坡。"
-    },
-    {
-      "id": "S029",
-      "title": "雨中游天竺灵感观音院",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "蚕欲老，麦半黄，前山后山雨浪浪。"
-    },
-    {
-      "id": "S030",
-      "title": "赠杭州僧道潜",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "道人胸中水镜清，万象起灭无逃形。"
-    },
-    {
-      "id": "S031",
-      "title": "次韵道潜见赠",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "羡君飘荡一虚舟，来往江湖不系留。"
-    },
-    {
-      "id": "S032",
-      "title": "次韵僧潜见赠",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "道人胸中水镜清。"
-    },
-    {
-      "id": "S033",
-      "title": "次韵参寥师见赠",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "羡君飘荡一虚舟。"
-    },
-    {
-      "id": "S034",
-      "title": "次韵林子中蒜山小诗",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S035",
-      "title": "次韵刘贡父李公择见寄二首",
-      "type": "诗",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "白发相望两寂寞，故人相见尚青眸。"
-    },
-    {
-      "id": "S036",
-      "title": "饮湖上初晴后雨二首",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "朝曦迎客艳重冈，晚雨留人入醉乡。"
-    },
-    {
-      "id": "S037",
-      "title": "新城道中二首",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东风知我欲山行，吹断檐间积雨声。"
-    },
-    {
-      "id": "S038",
-      "title": "饮湖上初晴后雨二首（其二）",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "欲把西湖比西子，淡妆浓抹总相宜。"
-    },
-    {
-      "id": "S039",
-      "title": "法惠寺横翠阁",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此生飘荡何时定，一缕游丝不可缰。"
-    },
-    {
-      "id": "S040",
-      "title": "梵天寺见僧守诜小饮漫成",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "一盂春饭淡茶苦，半夜秋灯韦杜红。"
-    },
-    {
-      "id": "S041",
-      "title": "东园",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东园春风花乱飞，满园红紫已成蹊。"
-    },
-    {
-      "id": "S042",
-      "title": "书李世南所画秋景",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
-    },
-    {
-      "id": "S043",
-      "title": "于潜僧绿筠轩",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "可使食无肉，不可居无竹。"
-    },
-    {
-      "id": "S044",
-      "title": "新城道中",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东风知我欲山行，吹断檐间积雨声。"
-    },
-    {
-      "id": "S045",
-      "title": "山村五绝",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "竹篱茅屋趁溪斜，春入山村处处花。"
-    },
-    {
-      "id": "S046",
-      "title": "次韵杨公济奉议梅花十首",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "玉骨那愁瘴雾，冰姿自有仙风。"
-    },
-    {
-      "id": "S047",
-      "title": "送文与可出守陵州",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "壁上墨君不解语，见之尚可消百忧。"
-    },
-    {
-      "id": "S048",
-      "title": "次韵杨公济奉议梅花十首之二",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "玉骨那愁瘴雾，冰姿自有仙风。"
-    },
-    {
-      "id": "S049",
-      "title": "次韵仲殊雪中游西湖",
-      "type": "诗",
-      "year": 1073,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "西湖雪后，风景依稀。"
-    },
-    {
-      "id": "S050",
-      "title": "至济南李公择以诗相迎次其韵二首",
-      "type": "诗",
-      "year": 1074,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "敝裘羸马古河滨，野阔天低糁玉尘。"
-    },
-    {
-      "id": "S051",
-      "title": "次韵黄鲁直见赠",
-      "type": "诗",
-      "year": 1076,
-      "route_id": "R07",
-      "related_route_ids": [
-        "R07"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S052",
-      "title": "澶濮道中见子由",
-      "type": "诗",
-      "year": 1077,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "乱山横翠幛，落月淡孤灯。"
-    },
-    {
-      "id": "S053",
-      "title": "陈桥驿",
-      "type": "诗",
-      "year": 1077,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "却笑纷纷青史事，不如杯酒自谈天。"
-    },
-    {
-      "id": "S054",
-      "title": "宿州次韵刘泾",
-      "type": "诗",
-      "year": 1077,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我欲归休瑟渐希，舞雩何日著春衣。"
-    },
-    {
-      "id": "S055",
-      "title": "中秋月",
-      "type": "诗",
-      "year": 1077,
-      "route_id": "R07",
-      "related_route_ids": [
-        "R07"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此生此夜不长好，明月明年何处看。"
-    },
-    {
-      "id": "S056",
-      "title": "书王定国所藏烟江叠嶂图",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "山回路转不见君，雪上空留马行处。"
-    },
-    {
-      "id": "S057",
-      "title": "书晁说之考牧图后",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此生与君共千里，那更将身化为泪。"
-    },
-    {
-      "id": "S058",
-      "title": "送孔郎中赴陕郊",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "大鼐东来几千里，吹散杨花春欲归。"
-    },
-    {
-      "id": "S059",
-      "title": "九日黄楼",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "水声激怒山云乱，万壑松声卷怒涛。"
-    },
-    {
-      "id": "S060",
-      "title": "百步洪",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "长洪斗落生跳波，轻舟南下如投梭。"
-    },
-    {
-      "id": "S061",
-      "title": "次韵刘贡父见和",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "故人年少已峥嵘，他日声名公并声。"
-    },
-    {
-      "id": "S062",
-      "title": "次韵刘贡父西省见寄",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "惆怅南朝事，清狂似旧时。"
-    },
-    {
-      "id": "S063",
-      "title": "石苍舒醉墨堂",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人生识字忧患始，姓名粗记可以休。"
-    },
-    {
-      "id": "S064",
-      "title": "书韩魏公诗后",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "苍生望霖雨，劲骨横高旌。"
-    },
-    {
-      "id": "S065",
-      "title": "花影",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "重重叠叠上瑶台，几度呼童扫不开。"
-    },
-    {
-      "id": "S066",
-      "title": "花影二首",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "重重叠叠上瑶台，几度呼童扫不开。"
-    },
-    {
-      "id": "S067",
-      "title": "次韵王定国得颖叔书",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S068",
-      "title": "次韵王巩六首",
-      "type": "诗",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "王巩才子，风流太守。"
-    },
-    {
-      "id": "S069",
-      "title": "狱中寄子由二首",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "与君世世为兄弟，更结来生未了因。"
-    },
-    {
-      "id": "S070",
-      "title": "予以事系御史台狱二首",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "魂飞汤火命如鸡。"
-    },
-    {
-      "id": "S071",
-      "title": "予以事系御史台狱三首",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "与君今世为兄弟，更结来生未了因。"
-    },
-    {
-      "id": "S072",
-      "title": "予以事系御史台狱四首",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "平生不解杨朱泣，到此谁怜老莱衣。"
-    },
-    {
-      "id": "S073",
-      "title": "答晁以道索书",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "欲问维摩病，还依李翰林。"
-    },
-    {
-      "id": "S074",
-      "title": "月夜与客饮酒杏花下",
-      "type": "诗",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "杏花飞帘散余春，明月入户寻幽人。"
-    },
-    {
-      "id": "S075",
-      "title": "东栏梨花",
-      "type": "诗",
-      "year": 1080,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "惆怅东栏一株雪，人生看得几清明。"
-    },
-    {
-      "id": "S076",
-      "title": "正月二十日往岐亭",
-      "type": "诗",
-      "year": 1080,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我本山中一野夫，年来三十仍迂痴。"
-    },
-    {
-      "id": "S077",
-      "title": "岐亭五首",
-      "type": "诗",
-      "year": 1080,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "古来流水一杯酒，我量未足濡吾口。"
-    },
-    {
-      "id": "S078",
-      "title": "洗儿",
-      "type": "诗",
-      "year": 1080,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人皆养子望聪明，我被聪明误一生。"
-    },
-    {
-      "id": "S079",
-      "title": "寓居定慧院",
-      "type": "诗",
-      "year": 1080,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "独立高楼明月夜，起来独自绕阶行。"
-    },
-    {
-      "id": "S080",
-      "title": "海棠",
-      "type": "诗",
-      "year": 1081,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "只恐夜深花睡去，故烧高烛照红妆。"
-    },
-    {
-      "id": "S081",
-      "title": "东坡",
-      "type": "诗",
-      "year": 1081,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "雨洗东坡月色清，市人行尽野人行。"
-    },
-    {
-      "id": "S082",
-      "title": "雪浪石",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R17",
-      "related_route_ids": [
-        "R17"
-      ],
-      "has_full_text": true,
-      "coreVerse": "太行西来万马屯，势与岱岳争雄尊。"
-    },
-    {
-      "id": "S083",
-      "title": "春宵",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "春宵一刻值千金，花有清香月有阴。"
-    },
-    {
-      "id": "S084",
-      "title": "过江州岸回望庐山",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "不知眼界窄于此，青山当户难再得。"
-    },
-    {
-      "id": "S085",
-      "title": "书王定国所藏王晋卿画",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此身非我有，动辄怀归田。"
-    },
-    {
-      "id": "S086",
-      "title": "书李世南所画秋景二首",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
-    },
-    {
-      "id": "S087",
-      "title": "和秦太虚梅花",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东风吹暖不胜花，十日雪消残雪消。"
-    },
-    {
-      "id": "S088",
-      "title": "次韵秦太虚见戏",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "青春不觉老来侵，白发从他绕鬓深。"
-    },
-    {
-      "id": "S089",
-      "title": "南堂五首",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "南堂独每日多幽事，漫速抽簪白昼长。"
-    },
-    {
-      "id": "S090",
-      "title": "琴操",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "归去来兮归去来，故乡无此好山色。"
-    },
-    {
-      "id": "S091",
-      "title": "雨晴后步至赤壁",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "雨意既濡晴亦佳，水光浮到坐边拿。"
-    },
-    {
-      "id": "S092",
-      "title": "琴诗",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "若言琴上有琴声，放在匣中何不鸣？"
-    },
-    {
-      "id": "S093",
-      "title": "次韵孔毅父集古人句见赠五首",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "集古人句，字字珠玑。"
-    },
-    {
-      "id": "S094",
-      "title": "次韵米黻二王书跋尾二首",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "二王书跋，字字珠玑。"
-    },
-    {
-      "id": "S095",
-      "title": "次韵王定国南迁回见寄",
-      "type": "诗",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S096",
-      "title": "答秦太虚",
-      "type": "诗",
-      "year": 1083,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "扁舟又截平湖去，社燕归来细雨中。"
-    },
-    {
-      "id": "S097",
-      "title": "答李康年",
-      "type": "诗",
-      "year": 1083,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "江空不可视，日暮坐洞萧。"
-    },
-    {
-      "id": "S098",
-      "title": "题西林壁",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "不识庐山真面目，只缘身在此山中。"
-    },
-    {
-      "id": "S099",
-      "title": "庐山诸寺题咏诗",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "山行不用借藤梯，瀑布声中到麻溪。"
-    },
-    {
-      "id": "S100",
-      "title": "金陵怀古杂咏",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "千古兴亡一梦中，江山满目泪无穷。"
-    },
-    {
-      "id": "S101",
-      "title": "泗州僧伽塔",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R15",
-      "related_route_ids": [
-        "R15"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我昔南行舟系汴，逆风三日沙吹面。"
-    },
-    {
-      "id": "S102",
-      "title": "题西林壁",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "不识庐山真面目，只缘身在此山中。"
-    },
-    {
-      "id": "S103",
-      "title": "题西林壁二首",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "不识庐山真面目，只缘身在此山中。"
-    },
-    {
-      "id": "S104",
-      "title": "庐山二胜",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "乱石散霜雪，古寺伴青松。"
-    },
-    {
-      "id": "S105",
-      "title": "开先漱玉亭",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "乱石散霜雪，古寺伴青松。"
-    },
-    {
-      "id": "S106",
-      "title": "栖贤三峡桥",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "吾闻三峡桥，天下称奇绝。"
-    },
-    {
-      "id": "S107",
-      "title": "次韵道潜见寄",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S108",
-      "title": "初入庐山",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "location": "庐山",
-      "coreVerse": "要识庐山面，他年是故人。",
-      "hasFull": true
-    },
-    {
-      "id": "S109",
-      "title": "泊船瓜洲",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1084,
-      "route_id": "R11",
-      "location": "瓜洲",
-      "coreVerse": "春风又绿江南岸，明月何时照我还。",
-      "hasFull": true
-    },
-    {
-      "id": "S110",
-      "title": "海市诗并序",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R12",
-      "related_route_ids": [
-        "R12"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东方云海空复空，群仙出没空明中。"
-    },
-    {
-      "id": "S111",
-      "title": "蓬莱阁记所见",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R12",
-      "related_route_ids": [
-        "R12"
-      ],
-      "has_full_text": true,
-      "coreVerse": "蓬莱海上峰，玉立色不改。"
-    },
-    {
-      "id": "S112",
-      "title": "望海",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R12",
-      "related_route_ids": [
-        "R12"
-      ],
-      "has_full_text": true,
-      "coreVerse": "东海浪滔滔，西风卷晴雪。"
-    },
-    {
-      "id": "S113",
-      "title": "齐鲁古道怀古系列",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我来千载下，吊古增悲捣。"
-    },
-    {
-      "id": "S114",
-      "title": "惠崇春江晚景二首",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "竹外桃花三两枝，春江水暖鸭先知。"
-    },
-    {
-      "id": "S115",
-      "title": "次韵曹辅寄壑源试焙新芽",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "从来佳茗似佳人。"
-    },
-    {
-      "id": "S116",
-      "title": "书鄢陵王主簿所画折枝",
-      "type": "诗",
-      "year": 1085,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "论画以形似，见与儿童邻。"
-    },
-    {
-      "id": "S117",
-      "title": "书王主簿所画折枝",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "瘦竹如佳人，幽花如秀士。"
-    },
-    {
-      "id": "S118",
-      "title": "次韵黄鲁直画马试院中作",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "画马试院，字字珠玑。"
-    },
-    {
-      "id": "S119",
-      "title": "次韵黄鲁直见赠古风二首",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "见赠古风，字字珠玑。"
-    },
-    {
-      "id": "S120",
-      "title": "次韵秦少游章孟君见赠",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "秦少游才，风流才子。"
-    },
-    {
-      "id": "S121",
-      "title": "次韵陈海州书怀",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S122",
-      "title": "次韵钱越州",
-      "type": "诗",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S123",
-      "title": "陪欧阳公燕西湖",
-      "type": "诗",
-      "year": 1089,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "谓公方壮须似雪，谓公已老光浮颊。"
-    },
-    {
-      "id": "S124",
-      "title": "有美堂暴雨",
-      "type": "诗",
-      "year": 1089,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "游人脚底一声雷，满座顽云拨不开。"
-    },
-    {
-      "id": "S125",
-      "title": "次韵刘景文",
-      "type": "诗",
-      "year": 1090,
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "絮飞春减不成年，老境同乘下濑船。"
-    },
-    {
-      "id": "S126",
-      "title": "苏堤纪事诗作",
-      "type": "诗",
-      "year": 1090,
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我在钱塘拓湖渌，泥深芍药铜驼麓。"
-    },
-    {
-      "id": "S127",
-      "title": "赠刘景文",
-      "type": "诗",
-      "year": 1090,
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "一年好景君须记，最是橙黄橘绿时。"
-    },
-    {
-      "id": "S128",
-      "title": "与莫同年雨中饮湖上",
-      "type": "诗",
-      "year": 1091,
-      "route_id": "R14",
-      "related_route_ids": [
-        "R14"
-      ],
-      "has_full_text": true,
-      "coreVerse": "到处相逢是偶然，梦中相对各华颠。"
-    },
-    {
-      "id": "S129",
-      "title": "赴颍州过金陵呈王胜之",
-      "type": "诗",
-      "year": 1091,
-      "route_id": "R15",
-      "related_route_ids": [
-        "R15"
-      ],
-      "has_full_text": true,
-      "coreVerse": "使君德量如天宽，十年兵革常苦寒。"
-    },
-    {
-      "id": "S130",
-      "title": "平山堂怀古",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1092,
-      "route_id": "R16",
-      "location": "扬州",
-      "coreVerse": "平山栏槛倚晴空，山色有无中。",
-      "hasFull": true
-    },
-    {
-      "id": "S131",
-      "title": "定州中山怀古",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1093,
-      "route_id": "R17",
-      "location": "定州",
-      "coreVerse": "",
-      "hasFull": true
-    },
-    {
-      "id": "S132",
-      "title": "食荔枝",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
-    },
-    {
-      "id": "S133",
-      "title": "白鹤峰",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "白鹤峰头望故乡，白云深处是归航。"
-    },
-    {
-      "id": "S134",
-      "title": "白鹤新居",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "白鹤峰前景物殊，我来仍值夏初交。"
-    },
-    {
-      "id": "S135",
-      "title": "食荔枝二首",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
-    },
-    {
-      "id": "S136",
-      "title": "惠州一绝",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
-    },
-    {
-      "id": "S137",
-      "title": "试茶",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "从来佳茗似佳人。"
-    },
-    {
-      "id": "S138",
-      "title": "和陶归园田居六首",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "环州多白水，际海皆青山。"
-    },
-    {
-      "id": "S139",
-      "title": "和陶饮酒二十首",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "人生如朝露，日夜消枯萎。"
-    },
-    {
-      "id": "S140",
-      "title": "次韵定慧钦长老见寄八首",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S141",
-      "title": "次韵惠循二守相见",
-      "type": "诗",
-      "year": 1094,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S142",
-      "title": "荔枝叹",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "宫中美人一破颜，惊尘溅血流千载。"
-    },
-    {
-      "id": "S143",
-      "title": "惠州一绝·梅花二首",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "春来幽谷水潺潺，的皪梅花草棘间。"
-    },
-    {
-      "id": "S144",
-      "title": "赠王子直秀才",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "万里云山一破裘，杖端闲挂百钱游。"
-    },
-    {
-      "id": "S145",
-      "title": "再用前韵",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "两年逐客沾恩地，万里归心欲暮天。"
-    },
-    {
-      "id": "S146",
-      "title": "白鹤峰再用前韵",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "三晋云山殊阻修，半生投老得归休。"
-    },
-    {
-      "id": "S147",
-      "title": "白鹤峰三用前韵",
-      "type": "诗",
-      "year": 1095,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "父老纷纷送往事，我心犹念当路穷。"
-    },
-    {
-      "id": "S148",
-      "title": "和陶时运四首",
-      "type": "诗",
-      "year": 1096,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我卜我居，居非一朝。"
-    },
-    {
-      "id": "S149",
-      "title": "白鹤峰四用前韵",
-      "type": "诗",
-      "year": 1096,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "投荒忘归不计年，此生出处俱可怜。"
-    },
-    {
-      "id": "S150",
-      "title": "纵笔三首",
-      "type": "诗",
-      "year": 1097,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "报道先生春睡美，道人轻打五更钟。"
-    },
-    {
-      "id": "S151",
-      "title": "和陶诗全集",
-      "type": "诗",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "同是天涯沦落人，相逢何必曾相识。"
-    },
-    {
-      "id": "S152",
-      "title": "和陶答庞参军三首",
-      "type": "诗",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "功名不足慕，还我疏散性。"
-    },
-    {
-      "id": "S153",
-      "title": "和陶读山海经",
-      "type": "诗",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "神山既无根，潜穴不可究。"
-    },
-    {
-      "id": "S154",
-      "title": "次韵子由三首",
-      "type": "诗",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S155",
-      "title": "次韵范纯父涵星砚",
-      "type": "诗",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "涵星砚来，字字珠玑。"
-    },
-    {
-      "id": "S156",
-      "title": "六月二十日夜渡海",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "九死南荒吾不恨，兹游奇绝冠平生。"
-    },
-    {
-      "id": "S157",
-      "title": "澄迈驿通潮阁二首",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "杳杳天低鹘没处，青山一发是中原。"
-    },
-    {
-      "id": "S158",
-      "title": "移廉州",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "朝辞白鹤峰，暮及苍梧岑。"
-    },
-    {
-      "id": "S159",
-      "title": "渡海",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "九死南荒吾不恨，兹游奇绝冠平生。"
-    },
-    {
-      "id": "S160",
-      "title": "别海南黎民表",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我本海南民，寄生西蜀州。"
-    },
-    {
-      "id": "S161",
-      "title": "别儋州",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我本儋耳民，寄生西蜀州。"
-    },
-    {
-      "id": "S162",
-      "title": "别子由三首",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "location": "藤州",
-      "coreVerse": "醉饱高眠真事业，此生有味在三余。",
-      "hasFull": true
-    },
-    {
-      "id": "S163",
-      "title": "海南日记",
-      "author": "苏轼",
-      "type": "诗",
-      "year": 1100,
-      "route_id": "R19",
-      "location": "儋州",
-      "coreVerse": "九死南荒吾不恨，兹游奇绝冠平生。",
-      "hasFull": true
-    },
-    {
-      "id": "S164",
-      "title": "自题金山画像",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "问汝平生功业，黄州惠州儋州。"
-    },
-    {
-      "id": "S165",
-      "title": "过金山寺",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "枕中云气千峰近，床底松声万壑纷。"
-    },
-    {
-      "id": "S166",
-      "title": "题金山寺",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "不知天上宫阙，今夕是何年。"
-    },
-    {
-      "id": "S167",
-      "title": "题金山寺二首",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "龙从天监下楼台，涌地潮声入海回。"
-    },
-    {
-      "id": "S168",
-      "title": "书晁补之所藏与可画竹一首",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "开户满堆案，谁人与裁量。"
-    },
-    {
-      "id": "S169",
-      "title": "书李世南所画秋景二首",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
-    },
-    {
-      "id": "S170",
-      "title": "答王巩",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "平生不解杯中物，老去犹思海外归。"
-    },
-    {
-      "id": "S171",
-      "title": "再过常山和见怀",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "三十年前路，孤灯此夜心。"
-    },
-    {
-      "id": "S172",
-      "title": "答陈述古二首",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "能使人间风浪静，一时天下颂清平。"
-    },
-    {
-      "id": "S173",
-      "title": "次韵秦太虚见戏",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "青春不觉老来侵，白发从他绕鬓深。"
-    },
-    {
-      "id": "S174",
-      "title": "次韵陈述古",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "年来诗券压还醉，检点尤惊老更宜。"
-    },
-    {
-      "id": "S175",
-      "title": "自用前韵",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "平生到处自知游，晚节都行的小低头。"
-    },
-    {
-      "id": "S176",
-      "title": "金山题像",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "心似已灰之木，身如不系之舟。"
-    },
-    {
-      "id": "S177",
-      "title": "次韵法芝举旧诗",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "春来何处归，春去何所之。"
-    },
-    {
-      "id": "S178",
-      "title": "次韵林子中王彦祖",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我本世间飘荡客，此心安处是吾乡。"
-    },
-    {
-      "id": "S179",
-      "title": "次韵林子中见寄",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "此心安处，便是吾乡。"
-    },
-    {
-      "id": "S180",
-      "title": "次韵王晋卿奉诏押高丽宴射",
-      "type": "诗",
-      "year": 1101,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "奉诏押宴，字字珠玑。"
-    },
-    {
-      "id": "S181",
-      "title": "挽父诗文、江淮行旅杂咏",
-      "type": "诗",
-      "year": 1066,
-      "route_id": "R04",
-      "related_route_ids": [
-        "R04"
-      ],
-      "has_full_text": true,
-      "coreVerse": "情真意切，格调沉郁哀婉"
-    },
-    {
-      "id": "W001",
-      "title": "凤翔八观",
-      "type": "文",
-      "year": 1062,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "冬十二月岁辛丑，我初从政见鲁叟。"
-    },
-    {
-      "id": "W002",
-      "title": "石鼓文跋",
-      "type": "文",
-      "year": 1063,
-      "route_id": "R03",
-      "related_route_ids": [
-        "R03"
-      ],
-      "has_full_text": true,
-      "coreVerse": "物之显晦，各有有时，不可强也。"
-    },
-    {
-      "id": "W003",
-      "title": "祭欧阳文忠公文",
-      "type": "文",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "民有父母，国有蓍龟，斯文有传，学者有师。"
-    },
-    {
-      "id": "W004",
-      "title": "范文正公文集序",
-      "type": "文",
-      "year": 1072,
-      "route_id": "R06",
-      "related_route_ids": [
-        "R06"
-      ],
-      "has_full_text": true,
-      "coreVerse": "韩、范、富、欧阳，此四人者，人杰也。"
-    },
-    {
-      "id": "W005",
-      "title": "超然台记",
-      "type": "文",
-      "year": 1075,
-      "route_id": "R07",
-      "related_route_ids": [
-        "R07"
-      ],
-      "has_full_text": true,
-      "coreVerse": "我公厌富贵，常苦勋业寻。"
-    },
-    {
-      "id": "W006",
-      "title": "济南龙洞山记",
-      "type": "文",
-      "year": 1077,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "登山之路，皆石壁削立，无阶而升。"
-    },
-    {
-      "id": "W007",
-      "title": "放鹤亭记",
-      "type": "文",
-      "year": 1078,
-      "route_id": "R08",
-      "related_route_ids": [
-        "R08"
-      ],
-      "has_full_text": true,
-      "coreVerse": "清远闲放，超然于尘埃之外。"
-    },
-    {
-      "id": "W008",
-      "title": "湖州谢上表",
-      "type": "文",
-      "year": 1079,
-      "route_id": "R09",
-      "related_route_ids": [
-        "R09"
-      ],
-      "has_full_text": true,
-      "coreVerse": "陛下知其愚不适时，难以追陪新进。"
-    },
-    {
-      "id": "W009",
-      "title": "记承天寺夜游",
-      "type": "文",
-      "year": 1083,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "coreVerse": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。"
-    },
-    {
-      "id": "W010",
-      "title": "石钟山记",
-      "type": "文",
-      "year": 1084,
-      "route_id": "R11",
-      "related_route_ids": [
-        "R11"
-      ],
-      "has_full_text": true,
-      "coreVerse": "事不目见耳闻，而臆断其有无，可乎？"
-    },
-    {
-      "id": "W011",
-      "title": "迩英阁经筵讲义",
-      "type": "文",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "《春秋》之义，莫大于正名分。"
-    },
-    {
-      "id": "W012",
-      "title": "翰林院制诰序跋",
-      "type": "文",
-      "year": 1086,
-      "route_id": "R13",
-      "related_route_ids": [
-        "R13"
-      ],
-      "has_full_text": true,
-      "coreVerse": "三代以前，文章与治化同出而异名者也。"
-    },
-    {
-      "id": "W013",
-      "title": "雪浪斋铭",
-      "type": "文",
-      "year": 1094,
-      "route_id": "R17",
-      "related_route_ids": [
-        "R17"
-      ],
-      "has_full_text": true,
-      "coreVerse": "定州西北，有石如雪。万里长城在其下，至今人马不得过。"
-    },
-    {
-      "id": "W014",
-      "title": "桄榔庵记（铭）",
-      "type": "文",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "桄榔为柱，直而不污。我作此庵，居之宴如。"
-    },
-    {
-      "id": "W015",
-      "title": "和陶归去来兮辞",
-      "type": "文",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "悟已往之不谏，知来者之可追。"
-    },
-    {
-      "id": "W016",
-      "title": "载酒堂记",
-      "type": "文",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "以此知其心之未尝忘于天下也。"
-    },
-    {
-      "id": "W017",
-      "title": "在儋耳书",
-      "type": "文",
-      "year": 1098,
-      "route_id": "R18",
-      "related_route_ids": [
-        "R18"
-      ],
-      "has_full_text": true,
-      "coreVerse": "先生好人，吾侪小人亦好人，此天下之理也。"
-    },
-    {
-      "id": "W018",
-      "title": "伏波将军庙碑",
-      "type": "文",
-      "year": 1100,
-      "route_id": "R19",
-      "related_route_ids": [
-        "R19"
-      ],
-      "has_full_text": true,
-      "coreVerse": "伏波将军之神，予能无感乎？"
-    },
     {
       "id": "C001",
       "title": "点绛唇·红杏飘香",
@@ -2443,6 +13,7 @@
         "R06"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "红杏飘香，柳含烟翠拖轻缕。"
     },
     {
@@ -2455,7 +26,8 @@
         "R07"
       ],
       "has_full_text": true,
-      "coreVerse": "会挽雕弓如满月，西北望，射天狼。"
+      "popularity_rank": 4,
+      "coreVerse": "老夫聊发少年狂，左牵黄，右擎苍。"
     },
     {
       "id": "C003",
@@ -2467,6 +39,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 17,
       "coreVerse": "十年生死两茫茫，不思量，自难忘。"
     },
     {
@@ -2479,6 +52,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "十年生死两茫茫，不思量，自难忘。"
     },
     {
@@ -2491,6 +65,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "老夫聊发少年狂，左牵黄，右擎苍。"
     },
     {
@@ -2503,6 +78,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 30,
       "coreVerse": "十年生死两茫茫，不思量，自难忘。"
     },
     {
@@ -2515,6 +91,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "天涯何处无芳草。"
     },
     {
@@ -2527,6 +104,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 16,
       "coreVerse": "似花还似非花，也无人惜从教坠。"
     },
     {
@@ -2539,6 +117,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "细看来，不是杨花，点点是离人泪。"
     },
     {
@@ -2551,6 +130,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "燕子双飞来又去，纱窗几度春光暮。"
     },
     {
@@ -2563,6 +143,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "双龙对起，白甲苍髯烟雨里。"
     },
     {
@@ -2575,7 +156,8 @@
         "R07"
       ],
       "has_full_text": true,
-      "coreVerse": "但愿人长久，千里共婵娟。"
+      "popularity_rank": 1,
+      "coreVerse": "明月几时有？把酒问青天。"
     },
     {
       "id": "C013",
@@ -2587,6 +169,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "明月几时有？把酒问青天。"
     },
     {
@@ -2599,7 +182,8 @@
         "R07"
       ],
       "has_full_text": true,
-      "coreVerse": "此生此夜不长好，明月明年何处看。"
+      "popularity_rank": 29,
+      "coreVerse": "暮云收尽溢清寒，银汉无声转玉盘。"
     },
     {
       "id": "C015",
@@ -2611,6 +195,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "明月几时有，把酒问青天。"
     },
     {
@@ -2623,6 +208,7 @@
         "R07"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "济南春好雪初晴，才到龙山马足轻。"
     },
     {
@@ -2635,6 +221,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "燕子楼空，佳人何在，空锁楼中燕。"
     },
     {
@@ -2647,6 +234,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "簌簌衣巾落枣花。"
     },
     {
@@ -2659,6 +247,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "照日深红暖见鱼，连村绿暗晚藏乌。"
     },
     {
@@ -2671,6 +260,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "人间有味是清欢。"
     },
     {
@@ -2683,6 +273,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "沙上不闻鸿雁信，竹间时有鹧鸪啼。"
     },
     {
@@ -2695,6 +286,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "雨后春容清更丽。"
     },
     {
@@ -2707,6 +299,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "烟水茫茫，回首斜阳暮。"
     },
     {
@@ -2719,6 +312,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "风流太守，为爱青山能驻客。"
     },
     {
@@ -2731,6 +325,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "却将旧恨，付与新诗。"
     },
     {
@@ -2743,6 +338,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "总是人间好时节。"
     },
     {
@@ -2755,6 +351,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "十年春色旧池台，风景依稀似去年。"
     },
     {
@@ -2767,6 +364,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "酒阑人散月侵廊。"
     },
     {
@@ -2779,6 +377,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "居士本来无垢。"
     },
     {
@@ -2791,6 +390,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "自净方能净彼。"
     },
     {
@@ -2803,6 +403,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "微雨过，小荷翻，榴花开欲然。"
     },
     {
@@ -2815,6 +416,7 @@
         "R08"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "梅雨细，晓风微。"
     },
     {
@@ -2827,6 +429,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 12,
       "coreVerse": "枝上柳绵吹又少，天涯何处无芳草！"
     },
     {
@@ -2839,6 +442,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 27,
       "coreVerse": "三十三年，今谁存者？算只君与长江。"
     },
     {
@@ -2851,6 +455,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 26,
       "coreVerse": "世事一场大梦，人生几度秋凉？"
     },
     {
@@ -2863,6 +468,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 2,
       "coreVerse": "大江东去，浪淘尽，千古风流人物。"
     },
     {
@@ -2875,6 +481,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 3,
       "coreVerse": "回首向来萧瑟处，归去，也无风雨也无晴。"
     },
     {
@@ -2887,6 +494,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 15,
       "coreVerse": "谁道人生无再少？门前流水尚能西！"
     },
     {
@@ -2899,7 +507,8 @@
         "R10"
       ],
       "has_full_text": true,
-      "coreVerse": "小舟从此逝，江海寄余生。"
+      "popularity_rank": 24,
+      "coreVerse": "长恨此身非我有，何时忘却营营？"
     },
     {
       "id": "C040",
@@ -2911,6 +520,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 11,
       "coreVerse": "簌簌衣巾落枣花，村南村北响缲车。"
     },
     {
@@ -2923,7 +533,8 @@
         "R10"
       ],
       "has_full_text": true,
-      "coreVerse": "殷勤昨夜三更雨，又得浮生一日凉。"
+      "popularity_rank": 999,
+      "coreVerse": "林断山明竹隐墙，乱蝉衰草小池塘。"
     },
     {
       "id": "C042",
@@ -2935,6 +546,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "醉翁啸咏，声和流泉。"
     },
     {
@@ -2947,6 +559,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "蜗角虚名，蝇头微利，算来着甚干忙。"
     },
     {
@@ -2959,6 +572,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "明月如霜，好风如水，清景无限。"
     },
     {
@@ -2971,6 +585,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "明月别枝惊鹊，清风半夜鸣蝉。"
     },
     {
@@ -2983,7 +598,8 @@
         "R10"
       ],
       "has_full_text": true,
-      "coreVerse": "对一张琴，一壶酒，一溪云。"
+      "popularity_rank": 20,
+      "coreVerse": "叹隙中驹，石中火，梦中身。"
     },
     {
       "id": "C047",
@@ -2995,6 +611,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "但一回醉，一回病，一回慵。"
     },
     {
@@ -3007,6 +624,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "似花还似非花，也无人惜从教坠。"
     },
     {
@@ -3019,6 +637,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "冰肌玉骨，自清凉无汗。"
     },
     {
@@ -3031,6 +650,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "莫忘小桥流水。"
     },
     {
@@ -3043,6 +663,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "旋抹红妆看使君，三三五五棘篱门。"
     },
     {
@@ -3055,6 +676,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "谁家煮茧一村香？隔篱娇语络丝娘。"
     },
     {
@@ -3067,6 +689,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "日暖桑麻光似泼，风来蒿艾气如薰。"
     },
     {
@@ -3079,6 +702,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "日薄花房绽，风和麦浪轻。"
     },
     {
@@ -3091,6 +715,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "此心安处是吾乡。"
     },
     {
@@ -3103,6 +728,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "而浮生若梦，为欢几何。"
     },
     {
@@ -3115,6 +741,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "大江东去，浪淘尽，千古风流人物。"
     },
     {
@@ -3127,6 +754,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "一蓑烟雨任平生。"
     },
     {
@@ -3139,6 +767,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "拣尽寒枝不肯栖，寂寞沙洲冷。"
     },
     {
@@ -3151,6 +780,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "小舟从此逝，江海寄余生。"
     },
     {
@@ -3163,6 +793,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "谁道人生无再少，门前流水尚能西。"
     },
     {
@@ -3175,6 +806,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "世事一场大梦，人生几度秋凉。"
     },
     {
@@ -3187,6 +819,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "人生如逆旅，我亦是行人。"
     },
     {
@@ -3199,6 +832,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "君是南山遗爱守，我为剑外思归客。"
     },
     {
@@ -3211,6 +845,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "忧喜相寻，风雨过、一江春绿。"
     },
     {
@@ -3223,6 +858,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "一点浩然气，千里快哉风。"
     },
     {
@@ -3235,6 +871,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "一点浩然气，千里快哉风。"
     },
     {
@@ -3247,6 +884,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "翻空白鸟时时见，照水红蕖细细香。"
     },
     {
@@ -3259,6 +897,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "可惜一溪风月，莫教踏碎琼瑶。"
     },
     {
@@ -3271,6 +910,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "解鞍欹枕绿杨桥，杜宇一声春晓。"
     },
     {
@@ -3283,6 +923,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "梦里栩然蝴蝶一身轻。"
     },
     {
@@ -3295,6 +936,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "梦里栩然蝴蝶一身轻。"
     },
     {
@@ -3307,6 +949,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "乱山深处过清明。"
     },
     {
@@ -3319,6 +962,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 18,
       "coreVerse": "拣尽寒枝不肯栖，寂寞沙洲冷。"
     },
     {
@@ -3331,7 +975,8 @@
         "R10"
       ],
       "has_full_text": true,
-      "coreVerse": "风卷珠帘自上钩。"
+      "popularity_rank": 999,
+      "coreVerse": "软草平莎过雨新，轻沙走马路无尘。"
     },
     {
       "id": "C076",
@@ -3343,6 +988,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "悟已往之不谏，知来者之可追。"
     },
     {
@@ -3355,6 +1001,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "一点浩然气，千里快哉风。"
     },
     {
@@ -3367,6 +1014,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "向来枉费推移力，此日中流自在行。"
     },
     {
@@ -3379,6 +1027,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "三过平山堂上，半生弹指声中。"
     },
     {
@@ -3391,6 +1040,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "山与歌眉敛，波同醉眼流。"
     },
     {
@@ -3403,6 +1053,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "万事到头都是梦，休休，明日黄花蝶也愁。"
     },
     {
@@ -3415,6 +1066,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "去年相送，余杭门外，飞雪似杨花。"
     },
     {
@@ -3427,6 +1079,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "春归何处，寂寞无行路。"
     },
     {
@@ -3439,6 +1092,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "但远山长，云山乱，晓山青。"
     },
     {
@@ -3451,6 +1105,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "为向东坡传语，人在玉堂深处。"
     },
     {
@@ -3463,6 +1118,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "用舍由时，行藏在我，袖手何妨闲处看。"
     },
     {
@@ -3475,6 +1131,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "归来仍是布衣身，富贵于予何有。"
     },
     {
@@ -3487,6 +1144,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "几时归去，作个闲人。"
     },
     {
@@ -3499,6 +1157,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "细腰肢自有入格风流。"
     },
     {
@@ -3511,6 +1170,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "稻花香里说丰年，听取蛙声一片。"
     },
     {
@@ -3523,6 +1183,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "春庭月午，摇荡香醪光欲舞。"
     },
     {
@@ -3535,6 +1196,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "使君能得几回来，便使尊前醉倒且徘徊。"
     },
     {
@@ -3547,6 +1209,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "清风徐来，水光潋滟，山色空蒙雨亦奇。"
     },
     {
@@ -3559,6 +1222,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "心似双丝网，中有千千结。"
     },
     {
@@ -3571,6 +1235,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "往事回头已隔年，故人相见尚青眸。"
     },
     {
@@ -3583,6 +1248,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "轻云微月，淡烟流水声幽绝。"
     },
     {
@@ -3595,6 +1261,7 @@
         "R13"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "古来成败虚无尽，傍早方知我不疑。"
     },
     {
@@ -3607,6 +1274,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "三年枕上吴中路，遣黄耳，随君去。"
     },
     {
@@ -3619,6 +1287,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "有情风万里卷潮来，无情送潮归。"
     },
     {
@@ -3631,7 +1300,8 @@
         "R14"
       ],
       "has_full_text": true,
-      "coreVerse": "与余同是识翁人，惟有西湖波底月。"
+      "popularity_rank": 999,
+      "coreVerse": "佳人犹唱醉翁词，四十三年如电抹。"
     },
     {
       "id": "C101",
@@ -3643,6 +1313,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "人间有味是清欢。"
     },
     {
@@ -3655,6 +1326,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "岁月如梭。白首相看拟奈何。"
     },
     {
@@ -3667,7 +1339,8 @@
         "R14"
       ],
       "has_full_text": true,
-      "coreVerse": "汨罗江渚，湘累已逝，惟有万千断肠句。"
+      "popularity_rank": 999,
+      "coreVerse": "门前艾蒲青翠，天淡纸鸢舞。"
     },
     {
       "id": "C104",
@@ -3679,6 +1352,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "山与歌眉敛，波同醉眼流。"
     },
     {
@@ -3691,6 +1365,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "画檐初挂弯弯月，孤光未满先离别。"
     },
     {
@@ -3703,6 +1378,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "惠州改过已前非，身世悠悠何可期。"
     },
     {
@@ -3715,6 +1391,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "楼上清风生，消得几番吟。"
     },
     {
@@ -3727,6 +1404,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "今夜雨，打窗稿磗有谁闻。"
     },
     {
@@ -3739,6 +1417,7 @@
         "R14"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "凭窗摸翠，风定池莲自在香。"
     },
     {
@@ -3751,7 +1430,8 @@
         "R15"
       ],
       "has_full_text": true,
-      "coreVerse": "细马远驮双侍女，青巾玉带红靴。"
+      "popularity_rank": 999,
+      "coreVerse": "人生如逆旅，我亦是行人。"
     },
     {
       "id": "C111",
@@ -3763,6 +1443,7 @@
         "R15"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "雨后春容清更丽，别后重逢，已恨经年意。"
     },
     {
@@ -3775,6 +1456,7 @@
         "R15"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "春光不管人去后，桃花依旧笑春风。"
     },
     {
@@ -3787,19 +1469,21 @@
         "R15"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "天高清远横波际，远山眉样有心知。"
     },
     {
       "id": "C114",
-      "title": "临江仙·昨夜扁舟京口",
+      "title": "西江月·送别",
       "type": "词",
-      "year": 1092,
-      "route_id": "R15",
+      "year": 1091,
+      "route_id": "R14",
       "related_route_ids": [
-        "R15"
+        "R14"
       ],
       "has_full_text": true,
-      "coreVerse": "细马远驮双侍女，青巾玉带红靴。"
+      "popularity_rank": 999,
+      "coreVerse": "昨夜扁舟京口，今朝马首长安。"
     },
     {
       "id": "C115",
@@ -3811,7 +1495,8 @@
         "R15"
       ],
       "has_full_text": true,
-      "coreVerse": "细马远驮双侍女，青巾玉带红靴。"
+      "popularity_rank": 999,
+      "coreVerse": "夜到扬州席上作。尊前谈笑人依旧。"
     },
     {
       "id": "C116",
@@ -3823,7 +1508,8 @@
         "R16"
       ],
       "has_full_text": true,
-      "coreVerse": "风卷珠帘自上钩。"
+      "popularity_rank": 999,
+      "coreVerse": "二月和风到碧城，万条千缕绿相迎。"
     },
     {
       "id": "C117",
@@ -3835,7 +1521,8 @@
         "R16"
       ],
       "has_full_text": true,
-      "coreVerse": "郑庄好客。"
+      "popularity_rank": 999,
+      "coreVerse": "晓来风细。不会鹊声来报喜。"
     },
     {
       "id": "C118",
@@ -3847,6 +1534,7 @@
         "R16"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "世事一场大梦，人生几度秋凉。"
     },
     {
@@ -3859,6 +1547,7 @@
         "R16"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "雨洗娟娟嫩叶光，风吹细细龙脑香。"
     },
     {
@@ -3871,7 +1560,19 @@
         "R18"
       ],
       "has_full_text": true,
-      "coreVerse": "此心安处是吾乡。"
+      "popularity_rank": 999,
+      "coreVerse": "万里归来颜愈少，微笑，笑时犹带岭梅香。"
+    },
+    {
+      "id": "C340",
+      "title": "菩萨蛮·买田阳羡吾将老",
+      "type": "词",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
     },
     {
       "id": "F001",
@@ -3883,7 +1584,8 @@
         "R08"
       ],
       "has_full_text": true,
-      "coreVerse": "我在黄楼上，欲作黄楼诗。"
+      "popularity_rank": 999,
+      "coreVerse": "夫水，柔物也，而可以刚；可以载舟，亦可以覆舟。"
     },
     {
       "id": "F002",
@@ -3895,6 +1597,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "寄蜉蝣于天地，渺沧海之一粟。"
     },
     {
@@ -3907,6 +1610,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 999,
       "coreVerse": "山高月小，水落石出。"
     },
     {
@@ -3919,6 +1623,7 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 7,
       "coreVerse": "寄蜉蝣于天地，渺沧海之一粟。"
     },
     {
@@ -3931,7 +1636,3912 @@
         "R10"
       ],
       "has_full_text": true,
+      "popularity_rank": 8,
       "coreVerse": "山高月小，水落石出。"
+    },
+    {
+      "id": "S001",
+      "title": "钱塘勤上人诗集叙",
+      "type": "诗",
+      "year": 1090,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "勤上人学诗如学佛，要在妙悟自心。"
+    },
+    {
+      "id": "S002",
+      "title": "初发嘉州",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "R02",
+      "related_route_ids": [
+        "R02"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "故乡飘已远，往意浩无边。"
+    },
+    {
+      "id": "S003",
+      "title": "和子由踏青",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "人闲正好路旁饮，麦寒未许桃争春。"
+    },
+    {
+      "id": "S004",
+      "title": "留别廉守",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "小饼如嚼月，中有酥与饴。"
+    },
+    {
+      "id": "S005",
+      "title": "次韵子由以诗致贺",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我生本是蓬莱客，偶向人间游一遭。"
+    },
+    {
+      "id": "S006",
+      "title": "和子由寒食",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "花开花落各有时，此花不比他花短。"
+    },
+    {
+      "id": "S007",
+      "title": "次韵子由除日元日省宿",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "努力尽今夕，少年犹可夸。"
+    },
+    {
+      "id": "S008",
+      "title": "守岁",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "努力尽今夕，少年犹可夸。"
+    },
+    {
+      "id": "S009",
+      "title": "次韵子由除日见寄",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "薄薄酒，胜茶汤；粗粗布，胜无裳。"
+    },
+    {
+      "id": "S010",
+      "title": "薄薄酒二首",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "薄薄酒，胜茶汤。"
+    },
+    {
+      "id": "S011",
+      "title": "留题仙游潭中兴寺",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S012",
+      "title": "江淮行旅杂咏",
+      "type": "诗",
+      "year": 1066,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "北风吹雪花，日暮车马道。"
+    },
+    {
+      "id": "S013",
+      "title": "和子由渑池怀旧",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 10,
+      "coreVerse": "人生到处知何似，应似飞鸿踏雪泥。"
+    },
+    {
+      "id": "S014",
+      "title": "游金山寺",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 28,
+      "coreVerse": "我家江水初发源，宦游直送江入海。"
+    },
+    {
+      "id": "S015",
+      "title": "赠别",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "青鸟衔来双鲤鱼，自缄红泪开锦书。"
+    },
+    {
+      "id": "S016",
+      "title": "次韵代留别",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "他年一醉若为欢，预恐飘零不能归。"
+    },
+    {
+      "id": "S017",
+      "title": "六月二十七日望湖楼醉书五首",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 13,
+      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "id": "S018",
+      "title": "望海楼晚景",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "海上涛头一线红，楼台紫翠出云中。"
+    },
+    {
+      "id": "S019",
+      "title": "书双竹湛师房",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "落日官河带浅沙，禅房深竹护年华。"
+    },
+    {
+      "id": "S020",
+      "title": "夜泛西湖",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "月明三十里，空山闻鹧鸪。"
+    },
+    {
+      "id": "S021",
+      "title": "饮湖上初晴后雨二首",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 6,
+      "coreVerse": "水光潋滟晴方好，山色空蒙雨亦奇。"
+    },
+    {
+      "id": "S022",
+      "title": "六月二十七日望湖楼醉书五首",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "id": "S023",
+      "title": "望湖楼醉书",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "黑云翻墨未遮山，白雨跳珠乱入船。"
+    },
+    {
+      "id": "S024",
+      "title": "次韵子由送赵㞦",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "若见故人问消息，为言春色在湖边。"
+    },
+    {
+      "id": "S025",
+      "title": "吉祥寺赏牡丹",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "人老簪花不自羞，花应羞上老人头。"
+    },
+    {
+      "id": "S026",
+      "title": "吉祥寺僧求阁名",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "尚有清欢那可负，此生端合老烟波。"
+    },
+    {
+      "id": "S027",
+      "title": "冬至日独游吉祥寺",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "何人更似苏夫子，不是花时肯独来。"
+    },
+    {
+      "id": "S028",
+      "title": "吉祥寺题壁",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "寂寞吉祥寺，风流老东坡。"
+    },
+    {
+      "id": "S029",
+      "title": "雨中游天竺灵感观音院",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "蚕欲老，麦半黄，前山后山雨浪浪。"
+    },
+    {
+      "id": "S030",
+      "title": "赠杭州僧道潜",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "道人胸中水镜清，万象起灭无逃形。"
+    },
+    {
+      "id": "S031",
+      "title": "次韵道潜见赠",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "羡君飘荡一虚舟，来往江湖不系留。"
+    },
+    {
+      "id": "S032",
+      "title": "次韵僧潜见赠",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "道人胸中水镜清。"
+    },
+    {
+      "id": "S033",
+      "title": "次韵参寥师见赠",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "羡君飘荡一虚舟。"
+    },
+    {
+      "id": "S034",
+      "title": "次韵林子中蒜山小诗",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S035",
+      "title": "次韵刘贡父李公择见寄二首",
+      "type": "诗",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "白发相望两寂寞，故人相见尚青眸。"
+    },
+    {
+      "id": "S036",
+      "title": "饮湖上初晴后雨二首",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "水光潋滟晴方好，山色空蒙雨亦奇。"
+    },
+    {
+      "id": "S037",
+      "title": "新城道中二首",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东风知我欲山行，吹断檐间积雨声。"
+    },
+    {
+      "id": "S038",
+      "title": "饮湖上初晴后雨二首（其二）",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "水光潋滟晴方好，山色空蒙雨亦奇。"
+    },
+    {
+      "id": "S039",
+      "title": "法惠寺横翠阁",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此生飘荡何时定，一缕游丝不可缰。"
+    },
+    {
+      "id": "S040",
+      "title": "梵天寺见僧守诜小饮漫成",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "一盂春饭淡茶苦，半夜秋灯韦杜红。"
+    },
+    {
+      "id": "S041",
+      "title": "东园",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东园春风花乱飞，满园红紫已成蹊。"
+    },
+    {
+      "id": "S042",
+      "title": "书李世南所画秋景",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "id": "S043",
+      "title": "于潜僧绿筠轩",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "可使食无肉，不可居无竹。"
+    },
+    {
+      "id": "S044",
+      "title": "新城道中",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东风知我欲山行，吹断檐间积雨声。"
+    },
+    {
+      "id": "S045",
+      "title": "山村五绝",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "竹篱茅屋趁溪斜，春入山村处处花。"
+    },
+    {
+      "id": "S046",
+      "title": "次韵杨公济奉议梅花十首",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "玉骨那愁瘴雾，冰姿自有仙风。"
+    },
+    {
+      "id": "S047",
+      "title": "送文与可出守陵州",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "壁上墨君不解语，见之尚可消百忧。"
+    },
+    {
+      "id": "S048",
+      "title": "次韵杨公济奉议梅花十首之二",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "玉骨那愁瘴雾，冰姿自有仙风。"
+    },
+    {
+      "id": "S049",
+      "title": "次韵仲殊雪中游西湖",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "西湖雪后，风景依稀。"
+    },
+    {
+      "id": "S050",
+      "title": "至济南李公择以诗相迎次其韵二首",
+      "type": "诗",
+      "year": 1074,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "敝裘羸马古河滨，野阔天低糁玉尘。"
+    },
+    {
+      "id": "S051",
+      "title": "次韵黄鲁直见赠",
+      "type": "诗",
+      "year": 1076,
+      "route_id": "R07",
+      "related_route_ids": [
+        "R07"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S052",
+      "title": "澶濮道中见子由",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "乱山横翠幛，落月淡孤灯。"
+    },
+    {
+      "id": "S053",
+      "title": "陈桥驿",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "却笑纷纷青史事，不如杯酒自谈天。"
+    },
+    {
+      "id": "S054",
+      "title": "宿州次韵刘泾",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我欲归休瑟渐希，舞雩何日著春衣。"
+    },
+    {
+      "id": "S055",
+      "title": "中秋月",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "R07",
+      "related_route_ids": [
+        "R07"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此生此夜不长好，明月明年何处看。"
+    },
+    {
+      "id": "S056",
+      "title": "书王定国所藏烟江叠嶂图",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "山回路转不见君，雪上空留马行处。"
+    },
+    {
+      "id": "S057",
+      "title": "书晁说之考牧图后",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此生与君共千里，那更将身化为泪。"
+    },
+    {
+      "id": "S058",
+      "title": "送孔郎中赴陕郊",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "大鼐东来几千里，吹散杨花春欲归。"
+    },
+    {
+      "id": "S059",
+      "title": "九日黄楼",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "水声激怒山云乱，万壑松声卷怒涛。"
+    },
+    {
+      "id": "S060",
+      "title": "百步洪",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "长洪斗落生跳波，轻舟南下如投梭。"
+    },
+    {
+      "id": "S061",
+      "title": "次韵刘贡父见和",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "故人年少已峥嵘，他日声名公并声。"
+    },
+    {
+      "id": "S062",
+      "title": "次韵刘贡父西省见寄",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "惆怅南朝事，清狂似旧时。"
+    },
+    {
+      "id": "S063",
+      "title": "石苍舒醉墨堂",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "人生识字忧患始，姓名粗记可以休。"
+    },
+    {
+      "id": "S064",
+      "title": "书韩魏公诗后",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "苍生望霖雨，劲骨横高旌。"
+    },
+    {
+      "id": "S065",
+      "title": "花影",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "重重叠叠上瑶台，几度呼童扫不开。"
+    },
+    {
+      "id": "S066",
+      "title": "花影二首",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "重重叠叠上瑶台，几度呼童扫不开。"
+    },
+    {
+      "id": "S067",
+      "title": "次韵王定国得颖叔书",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S068",
+      "title": "次韵王巩六首",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "王巩才子，风流太守。"
+    },
+    {
+      "id": "S069",
+      "title": "狱中寄子由二首",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "与君世世为兄弟，更结来生未了因。"
+    },
+    {
+      "id": "S070",
+      "title": "予以事系御史台狱二首",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "魂飞汤火命如鸡。"
+    },
+    {
+      "id": "S071",
+      "title": "予以事系御史台狱三首",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "与君今世为兄弟，更结来生未了因。"
+    },
+    {
+      "id": "S072",
+      "title": "予以事系御史台狱四首",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "平生不解杨朱泣，到此谁怜老莱衣。"
+    },
+    {
+      "id": "S073",
+      "title": "答晁以道索书",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "欲问维摩病，还依李翰林。"
+    },
+    {
+      "id": "S074",
+      "title": "月夜与客饮酒杏花下",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "杏花飞帘散余春，明月入户寻幽人。"
+    },
+    {
+      "id": "S075",
+      "title": "东栏梨花",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "惆怅东栏一株雪，人生看得几清明。"
+    },
+    {
+      "id": "S076",
+      "title": "正月二十日往岐亭",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我本山中一野夫，年来三十仍迂痴。"
+    },
+    {
+      "id": "S077",
+      "title": "岐亭五首",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "古来流水一杯酒，我量未足濡吾口。"
+    },
+    {
+      "id": "S078",
+      "title": "洗儿",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 25,
+      "coreVerse": "人皆养子望聪明，我被聪明误一生。"
+    },
+    {
+      "id": "S079",
+      "title": "寓居定慧院",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "独立高楼明月夜，起来独自绕阶行。"
+    },
+    {
+      "id": "S080",
+      "title": "海棠",
+      "type": "诗",
+      "year": 1081,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 19,
+      "coreVerse": "只恐夜深花睡去，故烧高烛照红妆。"
+    },
+    {
+      "id": "S081",
+      "title": "东坡",
+      "type": "诗",
+      "year": 1081,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "雨洗东坡月色清，市人行尽野人行。"
+    },
+    {
+      "id": "S082",
+      "title": "雪浪石",
+      "type": "文",
+      "year": 1082,
+      "route_id": "R17",
+      "related_route_ids": [
+        "R17"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "太行西来万马屯，势与岱岳争雄尊。"
+    },
+    {
+      "id": "S083",
+      "title": "春宵",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "春宵一刻值千金，花有清香月有阴。"
+    },
+    {
+      "id": "S084",
+      "title": "过江州岸回望庐山",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "不知眼界窄于此，青山当户难再得。"
+    },
+    {
+      "id": "S085",
+      "title": "书王定国所藏王晋卿画",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此身非我有，动辄怀归田。"
+    },
+    {
+      "id": "S086",
+      "title": "书李世南所画秋景二首",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "id": "S087",
+      "title": "和秦太虚梅花",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东风吹暖不胜花，十日雪消残雪消。"
+    },
+    {
+      "id": "S088",
+      "title": "次韵秦太虚见戏",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "青春不觉老来侵，白发从他绕鬓深。"
+    },
+    {
+      "id": "S089",
+      "title": "南堂五首",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "南堂独每日多幽事，漫速抽簪白昼长。"
+    },
+    {
+      "id": "S090",
+      "title": "琴操",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "归去来兮归去来，故乡无此好山色。"
+    },
+    {
+      "id": "S091",
+      "title": "雨晴后步至赤壁",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "雨意既濡晴亦佳，水光浮到坐边拿。"
+    },
+    {
+      "id": "S092",
+      "title": "琴诗",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "若言琴上有琴声，放在匣中何不鸣？"
+    },
+    {
+      "id": "S093",
+      "title": "次韵孔毅父集古人句见赠五首",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "集古人句，字字珠玑。"
+    },
+    {
+      "id": "S094",
+      "title": "次韵米黻二王书跋尾二首",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "二王书跋，字字珠玑。"
+    },
+    {
+      "id": "S095",
+      "title": "次韵王定国南迁回见寄",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S096",
+      "title": "答秦太虚",
+      "type": "诗",
+      "year": 1083,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "扁舟又截平湖去，社燕归来细雨中。"
+    },
+    {
+      "id": "S097",
+      "title": "答李康年",
+      "type": "诗",
+      "year": 1083,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "江空不可视，日暮坐洞萧。"
+    },
+    {
+      "id": "S098",
+      "title": "题西林壁",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 5,
+      "coreVerse": "不识庐山真面目，只缘身在此山中。"
+    },
+    {
+      "id": "S099",
+      "title": "庐山诸寺题咏诗",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "山行不用借藤梯，瀑布声中到麻溪。"
+    },
+    {
+      "id": "S100",
+      "title": "金陵怀古杂咏",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "千古兴亡一梦中，江山满目泪无穷。"
+    },
+    {
+      "id": "S101",
+      "title": "泗州僧伽塔",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R15",
+      "related_route_ids": [
+        "R15"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我昔南行舟系汴，逆风三日沙吹面。"
+    },
+    {
+      "id": "S102",
+      "title": "题西林壁",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "横看成岭侧成峰，远近高低各不同。"
+    },
+    {
+      "id": "S103",
+      "title": "题西林壁二首",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "不识庐山真面目，只缘身在此山中。"
+    },
+    {
+      "id": "S104",
+      "title": "庐山二胜",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "乱石散霜雪，古寺伴青松。"
+    },
+    {
+      "id": "S105",
+      "title": "开先漱玉亭",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "乱石散霜雪，古寺伴青松。"
+    },
+    {
+      "id": "S106",
+      "title": "栖贤三峡桥",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "吾闻三峡桥，天下称奇绝。"
+    },
+    {
+      "id": "S107",
+      "title": "次韵道潜见寄",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S108",
+      "title": "初入庐山",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "要识庐山面，他年是故人。"
+    },
+    {
+      "id": "S109",
+      "title": "泊船瓜洲",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "春风又绿江南岸，明月何时照我还。"
+    },
+    {
+      "id": "S110",
+      "title": "海市诗并序",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R12",
+      "related_route_ids": [
+        "R12"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东方云海空复空，群仙出没空明中。"
+    },
+    {
+      "id": "S111",
+      "title": "蓬莱阁记所见",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R12",
+      "related_route_ids": [
+        "R12"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东方云海空复空，群仙出没空明中。"
+    },
+    {
+      "id": "S112",
+      "title": "望海",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R12",
+      "related_route_ids": [
+        "R12"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东海浪滔滔，西风卷晴雪。"
+    },
+    {
+      "id": "S113",
+      "title": "齐鲁古道怀古系列",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我来千载下，吊古增悲捣。"
+    },
+    {
+      "id": "S114",
+      "title": "惠崇春江晚景二首",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 14,
+      "coreVerse": "竹外桃花三两枝，春江水暖鸭先知。"
+    },
+    {
+      "id": "S115",
+      "title": "次韵曹辅寄壑源试焙新芽",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "从来佳茗似佳人。"
+    },
+    {
+      "id": "S116",
+      "title": "书鄢陵王主簿所画折枝",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "论画以形似，见与儿童邻。"
+    },
+    {
+      "id": "S117",
+      "title": "书王主簿所画折枝",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "瘦竹如佳人，幽花如秀士。"
+    },
+    {
+      "id": "S118",
+      "title": "次韵黄鲁直画马试院中作",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "画马试院，字字珠玑。"
+    },
+    {
+      "id": "S119",
+      "title": "次韵黄鲁直见赠古风二首",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "见赠古风，字字珠玑。"
+    },
+    {
+      "id": "S120",
+      "title": "次韵秦少游章孟君见赠",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "秦少游才，风流才子。"
+    },
+    {
+      "id": "S121",
+      "title": "次韵陈海州书怀",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S122",
+      "title": "次韵钱越州",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S123",
+      "title": "陪欧阳公燕西湖",
+      "type": "诗",
+      "year": 1089,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "谓公方壮须似雪，谓公已老光浮颊。"
+    },
+    {
+      "id": "S124",
+      "title": "有美堂暴雨",
+      "type": "诗",
+      "year": 1089,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "天外黑风吹海立，浙东飞雨过江来。"
+    },
+    {
+      "id": "S125",
+      "title": "次韵刘景文",
+      "type": "诗",
+      "year": 1090,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "一年好景君须记，最是橙黄橘绿时。"
+    },
+    {
+      "id": "S126",
+      "title": "苏堤纪事诗作",
+      "type": "诗",
+      "year": 1090,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我在钱塘拓湖渌，泥深芍药铜驼麓。"
+    },
+    {
+      "id": "S127",
+      "title": "赠刘景文",
+      "type": "诗",
+      "year": 1090,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "荷尽已无擎雨盖，菊残犹有傲霜枝。"
+    },
+    {
+      "id": "S128",
+      "title": "与莫同年雨中饮湖上",
+      "type": "诗",
+      "year": 1091,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "到处相逢是偶然，梦中相对各华颠。"
+    },
+    {
+      "id": "S129",
+      "title": "赴颍州过金陵呈王胜之",
+      "type": "诗",
+      "year": 1091,
+      "route_id": "R15",
+      "related_route_ids": [
+        "R15"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "使君德量如天宽，十年兵革常苦寒。"
+    },
+    {
+      "id": "S130",
+      "title": "平山堂怀古",
+      "type": "诗",
+      "year": 1092,
+      "route_id": "R16",
+      "related_route_ids": [
+        "R16"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "平山栏槛倚晴空，山色有无中。"
+    },
+    {
+      "id": "S131",
+      "title": "定州中山怀古",
+      "type": "诗",
+      "year": 1093,
+      "route_id": "R17",
+      "related_route_ids": [
+        "R17"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S132",
+      "title": "食荔枝",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
+    },
+    {
+      "id": "S133",
+      "title": "白鹤峰",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "白鹤峰头望故乡，白云深处是归航。"
+    },
+    {
+      "id": "S134",
+      "title": "白鹤新居",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "白鹤峰前景物殊，我来仍值夏初交。"
+    },
+    {
+      "id": "S135",
+      "title": "食荔枝二首",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
+    },
+    {
+      "id": "S136",
+      "title": "惠州一绝",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "日啖荔枝三百颗，不辞长作岭南人。"
+    },
+    {
+      "id": "S137",
+      "title": "试茶",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "从来佳茗似佳人。"
+    },
+    {
+      "id": "S138",
+      "title": "和陶归园田居六首",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "环州多白水，际海皆青山。"
+    },
+    {
+      "id": "S139",
+      "title": "和陶饮酒二十首",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "人生如朝露，日夜消枯萎。"
+    },
+    {
+      "id": "S140",
+      "title": "次韵定慧钦长老见寄八首",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S141",
+      "title": "次韵惠循二守相见",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S142",
+      "title": "荔枝叹",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 21,
+      "coreVerse": "宫中美人一破颜，惊尘溅血流千载。"
+    },
+    {
+      "id": "S143",
+      "title": "梅花二首",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "春来幽谷水潺潺，的皪梅花草棘间。"
+    },
+    {
+      "id": "S144",
+      "title": "赠王子直秀才",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "万里云山一破裘，杖端闲挂百钱游。"
+    },
+    {
+      "id": "S145",
+      "title": "再用前韵",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "两年逐客沾恩地，万里归心欲暮天。"
+    },
+    {
+      "id": "S146",
+      "title": "白鹤峰再用前韵",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "三晋云山殊阻修，半生投老得归休。"
+    },
+    {
+      "id": "S147",
+      "title": "白鹤峰三用前韵",
+      "type": "诗",
+      "year": 1095,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "父老纷纷送往事，我心犹念当路穷。"
+    },
+    {
+      "id": "S148",
+      "title": "和陶时运四首",
+      "type": "诗",
+      "year": 1096,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我卜我居，居非一朝。"
+    },
+    {
+      "id": "S149",
+      "title": "白鹤峰四用前韵",
+      "type": "诗",
+      "year": 1096,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "投荒忘归不计年，此生出处俱可怜。"
+    },
+    {
+      "id": "S150",
+      "title": "纵笔三首",
+      "type": "诗",
+      "year": 1099,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 22,
+      "coreVerse": "寂寂东坡一病翁，白须萧散满霜风。"
+    },
+    {
+      "id": "S151",
+      "title": "和陶诗全集",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "同是天涯沦落人，相逢何必曾相识。"
+    },
+    {
+      "id": "S152",
+      "title": "和陶答庞参军三首",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "功名不足慕，还我疏散性。"
+    },
+    {
+      "id": "S153",
+      "title": "和陶读山海经",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "神山既无根，潜穴不可究。"
+    },
+    {
+      "id": "S154",
+      "title": "次韵子由三首",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S155",
+      "title": "次韵范纯父涵星砚",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "涵星砚来，字字珠玑。"
+    },
+    {
+      "id": "S156",
+      "title": "六月二十日夜渡海",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "云散月明谁点缀？天容海色本澄清。"
+    },
+    {
+      "id": "S157",
+      "title": "澄迈驿通潮阁二首",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "杳杳天低鹘没处，青山一发是中原。"
+    },
+    {
+      "id": "S158",
+      "title": "移廉州",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "朝辞白鹤峰，暮及苍梧岑。"
+    },
+    {
+      "id": "S159",
+      "title": "渡海",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "九死南荒吾不恨，兹游奇绝冠平生。"
+    },
+    {
+      "id": "S160",
+      "title": "别海南黎民表",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我本海南民，寄生西蜀州。"
+    },
+    {
+      "id": "S161",
+      "title": "别儋州",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我本儋耳民，寄生西蜀州。"
+    },
+    {
+      "id": "S162",
+      "title": "别子由三首",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "醉饱高眠真事业，此生有味在三余。"
+    },
+    {
+      "id": "S163",
+      "title": "海南日记",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "九死南荒吾不恨，兹游奇绝冠平生。"
+    },
+    {
+      "id": "S164",
+      "title": "自题金山画像",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 23,
+      "coreVerse": "问汝平生功业，黄州惠州儋州。"
+    },
+    {
+      "id": "S165",
+      "title": "过金山寺",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我家江水初发源，宦游直送江入海。"
+    },
+    {
+      "id": "S166",
+      "title": "题金山寺",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "不知天上宫阙，今夕是何年。"
+    },
+    {
+      "id": "S167",
+      "title": "题金山寺二首",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "龙从天监下楼台，涌地潮声入海回。"
+    },
+    {
+      "id": "S168",
+      "title": "书晁补之所藏与可画竹一首",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "开户满堆案，谁人与裁量。"
+    },
+    {
+      "id": "S169",
+      "title": "书李世南所画秋景二首",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "扁舟一棹归何处，家在江南黄叶村。"
+    },
+    {
+      "id": "S170",
+      "title": "答王巩",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "平生不解杯中物，老去犹思海外归。"
+    },
+    {
+      "id": "S171",
+      "title": "再过常山和见怀",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "三十年前路，孤灯此夜心。"
+    },
+    {
+      "id": "S172",
+      "title": "答陈述古二首",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "能使人间风浪静，一时天下颂清平。"
+    },
+    {
+      "id": "S173",
+      "title": "次韵秦太虚见戏",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "青春不觉老来侵，白发从他绕鬓深。"
+    },
+    {
+      "id": "S174",
+      "title": "次韵陈述古",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "年来诗券压还醉，检点尤惊老更宜。"
+    },
+    {
+      "id": "S175",
+      "title": "自用前韵",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "平生到处自知游，晚节都行的小低头。"
+    },
+    {
+      "id": "S176",
+      "title": "金山题像",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "心似已灰之木，身如不系之舟。"
+    },
+    {
+      "id": "S177",
+      "title": "次韵法芝举旧诗",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "春来何处归，春去何所之。"
+    },
+    {
+      "id": "S178",
+      "title": "次韵林子中王彦祖",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "我本世间飘荡客，此心安处是吾乡。"
+    },
+    {
+      "id": "S179",
+      "title": "次韵林子中见寄",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此心安处，便是吾乡。"
+    },
+    {
+      "id": "S180",
+      "title": "次韵王晋卿奉诏押高丽宴射",
+      "type": "诗",
+      "year": 1101,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "奉诏押宴，字字珠玑。"
+    },
+    {
+      "id": "S181",
+      "title": "挽父诗文、江淮行旅杂咏",
+      "type": "诗",
+      "year": 1066,
+      "route_id": "R04",
+      "related_route_ids": [
+        "R04"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "情真意切，格调沉郁哀婉"
+    },
+    {
+      "id": "S200",
+      "title": "白州",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "孰云风土恶？白洲生绿珠。"
+    },
+    {
+      "id": "S201",
+      "title": "北江",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "天开清远峡，地转凝碧湾。"
+    },
+    {
+      "id": "S202",
+      "title": "汴河",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "无情汴水自东流，只载一船离恨向西州。"
+    },
+    {
+      "id": "S209",
+      "title": "曹州",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "生还各有青山兴，病起犹能小字题。"
+    },
+    {
+      "id": "S210",
+      "title": "常山",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S211",
+      "title": "陈仓",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "晓入陈仓县，犹余卖酒楼。"
+    },
+    {
+      "id": "S212",
+      "title": "戏子由",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S213",
+      "title": "颍州初别子由",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S215",
+      "title": "淮上早发",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S216",
+      "title": "磁州",
+      "type": "诗",
+      "year": 1087,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "归去，归去，江上一犁春雨。"
+    },
+    {
+      "id": "S217",
+      "title": "大慈寺",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "成都，西南大都会也，佛事最胜。"
+    },
+    {
+      "id": "S218",
+      "title": "过大庾岭",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S219",
+      "title": "丹崖山",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东方云海空复空，群仙出没空明中。"
+    },
+    {
+      "id": "S221",
+      "title": "儋耳山",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S222",
+      "title": "儋耳夜书",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S223",
+      "title": "被酒独行遍至子云威徽先觉四黎之舍",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S228",
+      "title": "邓州",
+      "type": "诗",
+      "year": 1060,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "渠成如神，民始不知。问谁为之？邦君赵侯。"
+    },
+    {
+      "id": "S230",
+      "title": "凤州",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "闻道磻溪石，犹存渭水头。"
+    },
+    {
+      "id": "S231",
+      "title": "扶风",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S232",
+      "title": "高邮陈直躬处士画雁",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "野雁見人時，未起意先改。"
+    },
+    {
+      "id": "S233",
+      "title": "过光州",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "些小白须何用染，几人得见星星点。"
+    },
+    {
+      "id": "S234",
+      "title": "广州蒲涧寺",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S235",
+      "title": "海州观海",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "鬰鬰蒼梧海上山，蓬萊方丈有無間。"
+    },
+    {
+      "id": "S236",
+      "title": "入峡",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S237",
+      "title": "湖上夜归",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S238",
+      "title": "孤山二咏",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "苍龙犹是种时孙"
+    },
+    {
+      "id": "S239",
+      "title": "次韵子由柳湖感物",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S240",
+      "title": "送郑户曹",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S241",
+      "title": "次韵曹辅寄壑源试焙新茶",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "从来佳茗似佳人"
+    },
+    {
+      "id": "S242",
+      "title": "濠州七绝",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "若信万殊归一理，子今知我我知鱼"
+    },
+    {
+      "id": "S243",
+      "title": "洪泽",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S244",
+      "title": "过洪州",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S245",
+      "title": "西塞山",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "西塞山前白鹭飞，桃花流水鳜鱼肥。"
+    },
+    {
+      "id": "S246",
+      "title": "华阴寄子由",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S247",
+      "title": "过华州",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S248",
+      "title": "淮河",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "长淮忽迷天远近，青山久与船低昂。"
+    },
+    {
+      "id": "S249",
+      "title": "淮水",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "好在长淮水，十年三往来。"
+    },
+    {
+      "id": "S250",
+      "title": "初到黄州",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S251",
+      "title": "东坡八首",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S252",
+      "title": "雪后书北台壁二首",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "但觉衾裯如泼水，不知庭院已堆盐"
+    },
+    {
+      "id": "S253",
+      "title": "正月二十日往岐亭郡人潘古郭三人送余于女王城东禅庄院",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "去年今日关山路，细雨梅花正断魂"
+    },
+    {
+      "id": "S254",
+      "title": "寒食雨二首",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S255",
+      "title": "洗儿戏作",
+      "type": "诗",
+      "year": 1080,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S256",
+      "title": "和子由苦寒见寄",
+      "type": "诗",
+      "year": 1081,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S259",
+      "title": "过吉州",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S260",
+      "title": "至济南李公择以诗相迎次韵",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "白发相望两故人，眼看时事几番新。"
+    },
+    {
+      "id": "S261",
+      "title": "犍为",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "树林幽翠满山谷，楼观突兀起江滨。"
+    },
+    {
+      "id": "S262",
+      "title": "剑门",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "蜀人从此送残山，独穿暗月朦胧里。"
+    },
+    {
+      "id": "S263",
+      "title": "剑门道中遇微雨",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此身合是诗人未？细雨骑驴入剑门"
+    },
+    {
+      "id": "S264",
+      "title": "江陵观棋",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S265",
+      "title": "荆州十首",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S266",
+      "title": "江州重别薛六柳八二员外",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "临风一长啸，白鸟没苍茫。"
+    },
+    {
+      "id": "S268",
+      "title": "白帝庙",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S269",
+      "title": "过莱州",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "海气接天白，山光入城薄。"
+    },
+    {
+      "id": "S270",
+      "title": "雷州八首",
+      "type": "诗",
+      "year": 1098,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "孰云风土恶？白洲生绿珠。"
+    },
+    {
+      "id": "S271",
+      "title": "过利州",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S272",
+      "title": "廉州留别",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "蛮荒非汝辱，幸免妃子污。"
+    },
+    {
+      "id": "S273",
+      "title": "白石镇题诗",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "荒凉海南北，佛舍如鸡栖。"
+    },
+    {
+      "id": "S274",
+      "title": "临沂道上",
+      "type": "诗",
+      "year": 1078,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "沂水东流无尽意，蒙山北望有余悲。"
+    },
+    {
+      "id": "S275",
+      "title": "题灵隐寺",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "最爱灵隐飞来孤"
+    },
+    {
+      "id": "S276",
+      "title": "次韵卢山五咏",
+      "type": "诗",
+      "year": 1081,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "山川有佳气，人物自风流。"
+    },
+    {
+      "id": "S277",
+      "title": "庐州",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S278",
+      "title": "过泸州",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "江阳酒熟花如锦"
+    },
+    {
+      "id": "S279",
+      "title": "洛阳次韵",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "洛阳古都会，千载帝王州。"
+    },
+    {
+      "id": "S280",
+      "title": "游龙门奉先寺",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "龙门石壁千佛影，伊水东流万古声。"
+    },
+    {
+      "id": "S281",
+      "title": "游蟆颐山",
+      "type": "诗",
+      "year": 1060,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "蟆颐山下路，江水绕城流。"
+    },
+    {
+      "id": "S282",
+      "title": "送蜀僧去尘",
+      "type": "诗",
+      "year": 1073,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "峨眉山月半轮秋，影入平羌江水流。"
+    },
+    {
+      "id": "S283",
+      "title": "绵州",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "及下鹿头坡，始见平沙田。"
+    },
+    {
+      "id": "S284",
+      "title": "过勉县",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "定军山下武侯墓，沔水东流汉将魂。"
+    },
+    {
+      "id": "S285",
+      "title": "过南都",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S286",
+      "title": "过岭寄子由",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "一片丹心天日下，数行清泪岭云南。"
+    },
+    {
+      "id": "S287",
+      "title": "南浔驿中",
+      "type": "诗",
+      "year": 1079,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "水乡秋色连天远，一枕清风到天明。"
+    },
+    {
+      "id": "S288",
+      "title": "宁强",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "三泉县外金牛道，宁强州前蜀道难。"
+    },
+    {
+      "id": "S289",
+      "title": "初发彭山",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "扁舟一叶东归去，两岸青山送客遥。"
+    },
+    {
+      "id": "S290",
+      "title": "蓬莱阁观海",
+      "type": "诗",
+      "year": 1085,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "东方云海空复空，群仙出没空明中。"
+    },
+    {
+      "id": "S292",
+      "title": "浣溪沙·游蕲水清泉寺",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "谁道人生无再少？门前流水尚能西"
+    },
+    {
+      "id": "S293",
+      "title": "秦岭",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "渐入西南风景变，道旁修竹水孱孱。"
+    },
+    {
+      "id": "S294",
+      "title": "青神中岩寺",
+      "type": "诗",
+      "year": 1054,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "青衫半作霜叶枯，遇民如儿吏如奴。"
+    },
+    {
+      "id": "S295",
+      "title": "平羌江",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "峨眉山月半轮秋，影入平羌江水流。"
+    },
+    {
+      "id": "S297",
+      "title": "琼州",
+      "type": "诗",
+      "year": 1097,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "四州环一岛，百洞蟠其中。"
+    },
+    {
+      "id": "S298",
+      "title": "过戎州",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S300",
+      "title": "次韵子由种杉竹",
+      "type": "诗",
+      "year": 1076,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S301",
+      "title": "过陕州",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "陕州城下黄河水，函谷关前古道尘。"
+    },
+    {
+      "id": "S302",
+      "title": "硖石",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "硖石险如削，黄河天上来。"
+    },
+    {
+      "id": "S303",
+      "title": "韶州月华寺",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S304",
+      "title": "过寿州",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "寿州已见白石塔，短棹未转黄茅冈。"
+    },
+    {
+      "id": "S305",
+      "title": "泗水亭怀古",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "回头顷刻失长桥，却到龟山未朝饭。"
+    },
+    {
+      "id": "S306",
+      "title": "发洪泽",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S307",
+      "title": "次韵苏州王太守",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "姑苏城外水如天，太守风流似谪仙。"
+    },
+    {
+      "id": "S308",
+      "title": "太白山",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S309",
+      "title": "太湖",
+      "type": "诗",
+      "year": 1074,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S310",
+      "title": "太行",
+      "type": "诗",
+      "year": 1093,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "土门口，突兀太行顶。"
+    },
+    {
+      "id": "S311",
+      "title": "太学试",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "不为空言传，要有实学在。"
+    },
+    {
+      "id": "S312",
+      "title": "唐州",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S313",
+      "title": "潼关次韵",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "潼关自古帝王州，华岳西来第一关。"
+    },
+    {
+      "id": "S314",
+      "title": "潼关",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "华岳三峰出，黄河一径来。"
+    },
+    {
+      "id": "S315",
+      "title": "潍水怀古",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "潍水古战场，韩信囊沙处。"
+    },
+    {
+      "id": "S316",
+      "title": "尉氏",
+      "type": "诗",
+      "year": 1061,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S317",
+      "title": "巫山",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S318",
+      "title": "惠山泉",
+      "type": "诗",
+      "year": 1074,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S319",
+      "title": "过梧州",
+      "type": "诗",
+      "year": 1097,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "九疑联绵属衡湘，苍梧独在天一方。"
+    },
+    {
+      "id": "S320",
+      "title": "五丈原",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S321",
+      "title": "武昌西山",
+      "type": "诗",
+      "year": 1082,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S322",
+      "title": "西江",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "西江水接海天遥，万里南迁客未消。"
+    },
+    {
+      "id": "S323",
+      "title": "相国寺题壁",
+      "type": "诗",
+      "year": 1070,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "相国寺内古槐阴，汴京繁华梦里寻。"
+    },
+    {
+      "id": "S324",
+      "title": "过相州",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "相州古邺城，铜雀台已倾。"
+    },
+    {
+      "id": "S325",
+      "title": "襄城",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "襄城古道边，秋色正萧然。"
+    },
+    {
+      "id": "S326",
+      "title": "襄阳怀古",
+      "type": "诗",
+      "year": 1060,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "襄阳逢汉水，偶似蜀江清。"
+    },
+    {
+      "id": "S327",
+      "title": "隆中",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S328",
+      "title": "崤陵",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "崤山二陵险，自古号天关。"
+    },
+    {
+      "id": "S329",
+      "title": "邢州",
+      "type": "诗",
+      "year": 1093,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "邢州古邢国，太行东麓城。"
+    },
+    {
+      "id": "S330",
+      "title": "净行院",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "芒鞋不踏利名場，一葉輕舟寄淼茫。"
+    },
+    {
+      "id": "S331",
+      "title": "兴元",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "兴元古梁州，汉水绕城流。"
+    },
+    {
+      "id": "S332",
+      "title": "递角场",
+      "type": "诗",
+      "year": 1097,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "南望琼州天际远，一帆风送过沧溟。"
+    },
+    {
+      "id": "S333",
+      "title": "登云龙山",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S334",
+      "title": "许州西湖",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S335",
+      "title": "平山堂次韵",
+      "type": "诗",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "高會日陪山簡醉，狂言屢發次公醒。"
+    },
+    {
+      "id": "S336",
+      "title": "扬州竹西寺",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "十年归梦寄西风，此去真为田舍翁。"
+    },
+    {
+      "id": "S337",
+      "title": "叶县",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "叶县古昆阳，光武破莽处。"
+    },
+    {
+      "id": "S338",
+      "title": "过沂州",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "沂州古琅琊，书圣旧居处。"
+    },
+    {
+      "id": "S339",
+      "title": "锁江楼",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "锁江楼上望长江，万里风涛一苇杭。"
+    },
+    {
+      "id": "S341",
+      "title": "宜兴田园",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "买田阳羡吾将老，从来只为溪山好。"
+    },
+    {
+      "id": "S342",
+      "title": "益州官署怀古",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "益，古大都会也。有江山之雄，有文物之盛。"
+    },
+    {
+      "id": "S343",
+      "title": "泛颍",
+      "type": "诗",
+      "year": 1091,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "散为百东坡，顷刻复在兹"
+    },
+    {
+      "id": "S344",
+      "title": "颍州颍水",
+      "type": "诗",
+      "year": 1091,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "颍水东流无歇时，故人相望渺天涯。"
+    },
+    {
+      "id": "S345",
+      "title": "渝州寄子由",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S346",
+      "title": "郁林",
+      "type": "诗",
+      "year": 1094,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "郁林古郡接南荒，万里投荒客未央。"
+    },
+    {
+      "id": "S347",
+      "title": "筠州",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S348",
+      "title": "过郓州",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "郓州古济州，梁山泊水西。"
+    },
+    {
+      "id": "S349",
+      "title": "漳河",
+      "type": "诗",
+      "year": 1071,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "漳河渡口水东流，铜雀台荒草树秋。"
+    },
+    {
+      "id": "S350",
+      "title": "曲江秋",
+      "type": "诗",
+      "year": 1062,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "曲江秋水净无波，慈恩塔下雁飞过。"
+    },
+    {
+      "id": "S351",
+      "title": "长江",
+      "type": "诗",
+      "year": 1084,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S352",
+      "title": "江上",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S353",
+      "title": "真定",
+      "type": "诗",
+      "year": 1093,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "真定古常山，赵将李牧关。"
+    },
+    {
+      "id": "S354",
+      "title": "中和古镇题壁",
+      "type": "诗",
+      "year": 1100,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "荒凉海南北，佛舍如鸡栖。"
+    },
+    {
+      "id": "S355",
+      "title": "中岩寺题诗",
+      "type": "诗",
+      "year": 1054,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "唤鱼池畔曾携手，千佛岩前独留题。"
+    },
+    {
+      "id": "S356",
+      "title": "过忠州",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "忠州古临江，巴峡水声长。"
+    },
+    {
+      "id": "S357",
+      "title": "资善堂讲读",
+      "type": "诗",
+      "year": 1086,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "圣贤之道在经史，不为空言务实知。"
+    },
+    {
+      "id": "S358",
+      "title": "淄州",
+      "type": "诗",
+      "year": 1077,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "牛山今在否，齐景昔沾裾。"
+    },
+    {
+      "id": "S359",
+      "title": "屈原塔",
+      "type": "诗",
+      "year": 1059,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "S360",
+      "title": "梓潼",
+      "type": "诗",
+      "year": 1056,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "梓潼大庙山，文昌帝君祠。"
     },
     {
       "id": "T001",
@@ -3943,7 +5553,504 @@
         "R14"
       ],
       "has_full_text": true,
-      "coreVerse": "江左风流王谢家，尽携书画到天涯。"
+      "popularity_rank": 999,
+      "coreVerse": "世之论画者，多谓画以形似为难，而不知写意之为难。"
+    },
+    {
+      "id": "W001",
+      "title": "凤翔八观",
+      "type": "文",
+      "year": 1062,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "凤翔八观，包括石鼓诅楚文王维吴道子画等八首。"
+    },
+    {
+      "id": "W002",
+      "title": "石鼓文跋",
+      "type": "文",
+      "year": 1063,
+      "route_id": "R03",
+      "related_route_ids": [
+        "R03"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "物之废兴，岂有常哉？"
+    },
+    {
+      "id": "W003",
+      "title": "祭欧阳文忠公文",
+      "type": "文",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "民有父母，国有蓍龟，斯文有传，学者有师。"
+    },
+    {
+      "id": "W004",
+      "title": "范文正公文集序",
+      "type": "文",
+      "year": 1072,
+      "route_id": "R06",
+      "related_route_ids": [
+        "R06"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "韩、范、富、欧阳，此四人者，人杰也。"
+    },
+    {
+      "id": "W005",
+      "title": "超然台记",
+      "type": "文",
+      "year": 1075,
+      "route_id": "R07",
+      "related_route_ids": [
+        "R07"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "凡物皆有可观。苟有可观，皆有可乐。"
+    },
+    {
+      "id": "W006",
+      "title": "济南龙洞山记",
+      "type": "文",
+      "year": 1077,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "登山之路，皆石壁削立，无阶而升。"
+    },
+    {
+      "id": "W007",
+      "title": "放鹤亭记",
+      "type": "文",
+      "year": 1078,
+      "route_id": "R08",
+      "related_route_ids": [
+        "R08"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "清远闲放，超然于尘埃之外。"
+    },
+    {
+      "id": "W008",
+      "title": "湖州谢上表",
+      "type": "文",
+      "year": 1079,
+      "route_id": "R09",
+      "related_route_ids": [
+        "R09"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "知其愚不适时，难以追陪新进；察其老不生事，或能牧养小民。"
+    },
+    {
+      "id": "W009",
+      "title": "记承天寺夜游",
+      "type": "文",
+      "year": 1083,
+      "route_id": "R10",
+      "related_route_ids": [
+        "R10"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 9,
+      "coreVerse": "庭下如积水空明，水中藻、荇交横，盖竹柏影也。"
+    },
+    {
+      "id": "W010",
+      "title": "石钟山记",
+      "type": "文",
+      "year": 1084,
+      "route_id": "R11",
+      "related_route_ids": [
+        "R11"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "事不目见耳闻，而臆断其有无，可乎？"
+    },
+    {
+      "id": "W011",
+      "title": "迩英阁经筵讲义",
+      "type": "文",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "《春秋》之义，莫大于正名分。"
+    },
+    {
+      "id": "W012",
+      "title": "翰林院制诰序跋",
+      "type": "文",
+      "year": 1086,
+      "route_id": "R13",
+      "related_route_ids": [
+        "R13"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "三代以前，文章与治化同出而异名者也。"
+    },
+    {
+      "id": "W013",
+      "title": "雪浪斋铭",
+      "type": "文",
+      "year": 1094,
+      "route_id": "R17",
+      "related_route_ids": [
+        "R17"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "定州西北，有石如雪。万里长城在其下，至今人马不得过。"
+    },
+    {
+      "id": "W014",
+      "title": "桄榔庵记（铭）",
+      "type": "文",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "桄榔为柱，直而不污。我作此庵，居之宴如。"
+    },
+    {
+      "id": "W015",
+      "title": "和陶归去来兮辞",
+      "type": "文",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "悟已往之不谏，知来者之可追。"
+    },
+    {
+      "id": "W016",
+      "title": "载酒堂记",
+      "type": "文",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "以此知其心之未尝忘于天下也。"
+    },
+    {
+      "id": "W017",
+      "title": "在儋耳书",
+      "type": "文",
+      "year": 1098,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "先生好人，吾侪小人亦好人，此天下之理也。"
+    },
+    {
+      "id": "W018",
+      "title": "伏波将军庙碑",
+      "type": "文",
+      "year": 1100,
+      "route_id": "R19",
+      "related_route_ids": [
+        "R19"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "伏波将军之神，予能无感乎？"
+    },
+    {
+      "id": "W203",
+      "title": "兴国寺浴室院六祖画赞",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "不去不来，何损何增"
+    },
+    {
+      "id": "W204",
+      "title": "策略一",
+      "type": "策",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "天下之民，知安而不知危，能逸而不能劳"
+    },
+    {
+      "id": "W205",
+      "title": "思治论",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "其始不立，其卒不成"
+    },
+    {
+      "id": "W206",
+      "title": "教战守策",
+      "type": "策",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "夫当今生民之患，果安在哉？在于知安而不知危，能逸而不能劳"
+    },
+    {
+      "id": "W207",
+      "title": "留侯论",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "天下有大勇者，卒然临之而不惊，无故加之而不怒"
+    },
+    {
+      "id": "W208",
+      "title": "贾谊论",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "非才之难，所以自用者实难"
+    },
+    {
+      "id": "W214",
+      "title": "登州谢上表",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "坐受六年之谪，甘如五鼎之珍"
+    },
+    {
+      "id": "W220",
+      "title": "答谢民师书",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "大略如行云流水，初无定质，但常行于所当行，常止于所不可不止"
+    },
+    {
+      "id": "W224",
+      "title": "试笔自书",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "W225",
+      "title": "书上元夜游",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "W226",
+      "title": "与程秀才书",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此间食无肉，病无药，居无室，出无友，冬无炭，夏无寒泉"
+    },
+    {
+      "id": "W227",
+      "title": "登州文庙",
+      "type": "文",
+      "year": 1085,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "登州文庙古，海邦教化先。"
+    },
+    {
+      "id": "W229",
+      "title": "定州谢到任表",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "兵民重寄，本御侮以折冲"
+    },
+    {
+      "id": "W257",
+      "title": "黄州上文潞公书",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "W258",
+      "title": "记游松风亭",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "此间有甚么歇不得处"
+    },
+    {
+      "id": "W267",
+      "title": "海上道人传",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": ""
+    },
+    {
+      "id": "W291",
+      "title": "方山子传",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "环堵萧然，而妻子奴婢皆有自得之意"
+    },
+    {
+      "id": "W296",
+      "title": "颍州谢到任表",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "知其愚不适时，难以追陪新进；察其老不生事，或能收养小民"
+    },
+    {
+      "id": "W299",
+      "title": "谢量移汝州表",
+      "type": "文",
+      "year": 0,
+      "route_id": "",
+      "related_route_ids": [],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "稍从内迁，示不终弃"
+    },
+    {
+      "id": "Z001",
+      "title": "刑赏忠厚之至论",
+      "type": "策",
+      "year": 1057,
+      "route_id": "R01",
+      "related_route_ids": [
+        "R01"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "罪疑惟轻，功疑惟重。与其杀不辜，宁失不经。"
+    },
+    {
+      "id": "Z002",
+      "title": "上神宗皇帝书",
+      "type": "策",
+      "year": 1069,
+      "route_id": "R05",
+      "related_route_ids": [
+        "R05"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "守法者，治之本也；持正者，义之门也。"
+    },
+    {
+      "id": "Z003",
+      "title": "杭州乞度牒开西湖状",
+      "type": "策",
+      "year": 1090,
+      "route_id": "R14",
+      "related_route_ids": [
+        "R14"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "西湖有不可废者五。"
+    },
+    {
+      "id": "Z004",
+      "title": "到惠州谢表",
+      "type": "文",
+      "year": 1094,
+      "route_id": "R18",
+      "related_route_ids": [
+        "R18"
+      ],
+      "has_full_text": true,
+      "popularity_rank": 999,
+      "coreVerse": "臣以狂妄，得罪天威，窜逐岭南，自分必死。"
     }
-  ]
+  ],
+  "generated_at": "2026-06-11T17:23:52.211363"
 }
