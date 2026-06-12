@@ -2,6 +2,34 @@
 
 ---
 
+### 100. /poems 数据去重：《后赤壁赋》重复条目清理（F003 / F005）
+
+**日期**：2026-06-12
+
+#### 问题现象
+
+`/poems` 页面「精选导读」显示《后赤壁赋》，黄州时期列表中又出现一次同名作品，视觉上为明显重复。
+
+#### 根因
+
+`public/data-v4/poems-index.json` 中存在两条《后赤壁赋》记录：
+
+- **F003**：`popularity_rank: 999`（占位高值），`reading.lines` 仅 2 条，无任何路线 / 地点引用，属孤立冗余条目。
+- **F005**：`popularity_rank: 9`（真实排名），`reading.lines` 3 条、`person` 描述更完整，且被 `routes/R10.json`、`meta/route-poems-mapping.json`、`places/P072.json` 三处活跃引用。
+
+#### 修复措施
+
+- 从 `poems-index.json` 移除 F003 索引条目（保留 F005）。
+- 删除 `public/data-v4/poems/F003.json` 详情文件。
+- `meta/` 下校验报告（`cross-validation-report.json` / `validation-report.json`）中的 F003 记录为历史快照产物，下次跑校验会自动重生成，不影响前端，未手动改动。
+
+#### 验证
+
+- `poems-index.json` JSON 解析通过，总条目 445，全文已无 `"F003"`。
+- F005 引用链完整（路线 / 地点 / 映射均指向 F005），删除 F003 无任何引用失效。
+
+---
+
 ### 99. /poems 裸样式根治：陈旧 SW 缓存致旧 hash CSS 404 + 样式迁移全局化 + PWA 工程治理 + 跨部署缓存自愈
 
 **日期**：2026-06-12

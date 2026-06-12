@@ -1287,19 +1287,6 @@
       "coreVerse": "寄蜉蝣于天地，渺沧海之一粟。"
     },
     {
-      "id": "F003",
-      "title": "后赤壁赋",
-      "type": "赋",
-      "year": 1082,
-      "route_id": "R10",
-      "related_route_ids": [
-        "R10"
-      ],
-      "has_full_text": true,
-      "popularity_rank": 999,
-      "coreVerse": "山高月小，水落石出。"
-    },
-    {
       "id": "F005",
       "title": "后赤壁赋",
       "type": "赋",
