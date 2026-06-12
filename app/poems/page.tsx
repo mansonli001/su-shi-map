@@ -387,3 +387,22 @@ function getTypeClass(type: string): string {
   };
   return typeClasses[type] || '';
 }
+
+function getTypeBadgeStyle(type: string): React.CSSProperties {
+  const base: React.CSSProperties = {
+    fontSize: 9,
+    padding: '2px 9px',
+    borderRadius: 7,
+    lineHeight: 1.2,
+    whiteSpace: 'nowrap',
+    flexShrink: 0,
+  };
+  const map: Record<string, React.CSSProperties> = {
+    '词': { background: '#FAEEDA', color: 'var(--tour)' },
+    '诗': { background: '#E1F5EE', color: '#04342C' },
+    '文': { background: '#F3E8FF', color: '#4C1D95' },
+    '赋': { background: '#FEF3C7', color: '#92400E' },
+    '策': { background: '#DBEAFE', color: '#1D4ED8' },
+  };
+  return { ...base, ...(map[type] || {}) };
+}

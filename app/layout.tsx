@@ -171,8 +171,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <BottomNav />
         {/* iOS PWA 安装引导 */}
         <PWAInstallBanner />
-        {/* Vercel Analytics */}
-        <Analytics />
+        {/* Vercel Analytics（仅 Vercel 线上环境注入，避免本地预览 _vercel/insights 脚本报错） */}
+        {process.env.VERCEL === '1' ? <Analytics /> : null}
       </body>
     </html>
   );
