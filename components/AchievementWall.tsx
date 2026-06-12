@@ -351,7 +351,7 @@ export default function AchievementWall() {
             progressPercent: places.length > 0 ? Math.round((checkinPlaces.length / places.length) * 100) : 0,
           }}
           onClose={() => { setShowAchievementModal(false); setSelectedAchievement(null); }}
-          onShare={() => { setShowAchievementModal(false); setShowSharePoster(true); }}
+          // 右上角按钮已改为「直接下载当前成就卡图片」，不再跳转到合集海报
         />
       )}
 

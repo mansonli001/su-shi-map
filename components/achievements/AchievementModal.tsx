@@ -7,7 +7,7 @@
 
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 /* ── 类型定义 ── */
 export interface AchievementModalProps {
@@ -28,7 +28,8 @@ export interface AchievementModalProps {
     progressPercent: number;
   };
   onClose: () => void;
-  onShare: () => void;
+  /** 可选：保留兼容旧调用，按钮已改为直接下载当前成就卡，不再触发跳转 */
+  onShare?: () => void;
 }
 
 /* ── tier 映射 ── */
@@ -68,9 +69,64 @@ export default function AchievementModal({
   achievement,
   userStats,
   onClose,
-  onShare,
 }: AchievementModalProps) {
   const qrcodeRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLElement>(null);
+  const [downloading, setDownloading] = useState(false);
+  const [toast, setToast] = useState<string | null>(null);
+
+  // 右上角按钮：直接把当前成就卡截成高清图片下载，无跳转
+  const handleDownload = async () => {
+    const card = cardRef.current;
+    if (!card || downloading) return;
+    setDownloading(true);
+
+    // 找到内部可滚动内容区，截图前临时展开，保证排版完整（不被滚动裁切）
+    const scrollArea = card.querySelector<HTMLElement>('[data-capture-scroll]');
+    const saved = {
+      cardMaxH: card.style.maxHeight,
+      cardOverflow: card.style.overflow,
+      areaOverflow: scrollArea?.style.overflow ?? '',
+    };
+
+    try {
+      // 临时移除高度限制 + 滚动，让卡片完整展开
+      card.style.maxHeight = 'none';
+      card.style.overflow = 'visible';
+      if (scrollArea) scrollArea.style.overflow = 'visible';
+      // 等一帧让布局刷新
+      await new Promise((r) => requestAnimationFrame(() => r(null)));
+
+      const html2canvas = (await import('html2canvas')).default;
+      const canvas = await html2canvas(card, {
+        scale: 3,            // 高清：3 倍像素密度
+        useCORS: true,       // 允许跨域图片入画
+        backgroundColor: '#fff8f5',
+        logging: false,
+        windowWidth: card.scrollWidth,
+        windowHeight: card.scrollHeight,
+        // 截图时忽略顶部操作按钮，保证排版干净
+        ignoreElements: (el) => el.getAttribute('data-skip-capture') === 'true',
+      });
+      const dataUrl = canvas.toDataURL('image/png');
+      const link = document.createElement('a');
+      const safeName = (achievement.name || '成就').replace(/[\\/:*?"<>|]/g, '');
+      link.download = `行吟山河-${safeName}.png`;
+      link.href = dataUrl;
+      link.click();
+      setToast('图片已保存到本地');
+    } catch (err) {
+      console.error('生成成就卡图片失败:', err);
+      setToast('生成失败，请重试');
+    } finally {
+      // 恢复原样式
+      card.style.maxHeight = saved.cardMaxH;
+      card.style.overflow = saved.cardOverflow;
+      if (scrollArea) scrollArea.style.overflow = saved.areaOverflow;
+      setDownloading(false);
+      setTimeout(() => setToast(null), 2000);
+    }
+  };
 
   // 初始化 QR 码
   useEffect(() => {
@@ -112,28 +168,33 @@ export default function AchievementModal({
 
       {/* 主卡片 — 响应式：max-h 90dvh，内容区滚动 */}
       <main
+        ref={cardRef}
         className="relative w-full max-w-[400px] max-h-[90dvh] ach-parchment-bg ach-double-border shadow-2xl overflow-hidden flex flex-col font-wenkai"
         style={{ animation: 'ach-modal-in 300ms cubic-bezier(0.34,1.56,0.64,1) forwards' }}
       >
-        {/* 顶部栏 — 固定 */}
-        <header className="shrink-0 w-full flex justify-between items-center px-6 py-4 z-20"
+        {/* 顶部栏 — 固定（截图时忽略，保证导出图片排版干净） */}
+        <header data-skip-capture="true" className="shrink-0 w-full flex justify-between items-center px-6 py-4 z-20"
           style={{ background: 'rgba(255,248,245,0.85)', backdropFilter: 'blur(12px)' }}
         >
-          <button onClick={onClose} className="material-symbols-outlined cursor-pointer hover:opacity-70 transition-opacity"
+          <button onClick={onClose} aria-label="关闭" className="material-symbols-outlined cursor-pointer hover:opacity-70 transition-opacity"
             style={{ color: '#765538', fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}
           >
             close
           </button>
           <h1 className="text-2xl font-bold tracking-tight" style={{ color: '#765538' }}>行吟山河</h1>
-          <button onClick={onShare} className="material-symbols-outlined cursor-pointer hover:opacity-70 transition-opacity"
+          <button
+            onClick={handleDownload}
+            disabled={downloading}
+            aria-label="保存成就卡图片"
+            className="material-symbols-outlined cursor-pointer hover:opacity-70 transition-opacity disabled:opacity-50"
             style={{ color: '#765538', fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}
           >
-            share
+            {downloading ? 'hourglass_empty' : 'download'}
           </button>
         </header>
 
         {/* 可滚动内容区 */}
-        <div className="flex-1 overflow-y-auto overscroll-contain">
+        <div data-capture-scroll className="flex-1 overflow-y-auto overscroll-contain">
           {/* 插画区 — 响应式高度 */}
           <section className="w-full px-6 pt-2 relative">
             <div className="w-full aspect-[4/3] sm:aspect-auto sm:h-[280px] md:h-[340px] relative group">
@@ -233,9 +294,20 @@ export default function AchievementModal({
         </div>
 
         {/* 装饰性「詩」水印 */}
-        <div className="absolute bottom-40 -left-10 opacity-5 pointer-events-none -rotate-12 select-none">
+        <div data-skip-capture="true" className="absolute bottom-40 -left-10 opacity-5 pointer-events-none -rotate-12 select-none">
           <span className="text-[120px]" style={{ color: '#765538' }}>詩</span>
         </div>
+
+        {/* 下载结果 Toast — 截图时忽略 */}
+        {toast && (
+          <div
+            data-skip-capture="true"
+            className="absolute left-1/2 bottom-6 -translate-x-1/2 z-30 px-4 py-2 rounded-lg text-sm font-wenkai shadow-lg whitespace-nowrap"
+            style={{ background: 'rgba(118,85,56,0.92)', color: '#fff' }}
+          >
+            {toast}
+          </div>
+        )}
       </main>
 
       {/* 内联关键样式 */}
