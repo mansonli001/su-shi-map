@@ -61,7 +61,7 @@
       "title": "中秋月",
       "type": "诗",
       "description": "此生此夜不长好，明月明年何处看。",
-      "poem_id": "S055"
+      "poem_id": "C014"
     },
     {
       "title": "超然台记",
@@ -79,7 +79,7 @@
       "title": "蝶恋花·花褪残红青杏小",
       "type": "词",
       "description": "天涯何处无芳草。",
-      "poem_id": "C007"
+      "poem_id": "C033"
     }
   ],
   "route_events": {

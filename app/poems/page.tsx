@@ -17,6 +17,7 @@ type PoemIndex = {
   route_id?: string;
   has_full_text: boolean;
   coreVerse?: string;
+  popularity_rank?: number;
 };
 
 type RouteIdx = {
@@ -67,13 +68,35 @@ export default function PoemsListPage() {
     return true;
   });
 
-  // 按路线分组
+  // 优先排序：指定诗词（popularity_rank < 900）置顶，按 rank 升序展示；
+  // 其余未指定诗词保持原排序（按路线分组，原顺序不变）置于其后。
+  const priorityPoems = filteredPoems
+    .filter((p) => (p.popularity_rank ?? 999) < 900)
+    .sort((a, b) => (a.popularity_rank ?? 999) - (b.popularity_rank ?? 999));
+  const restPoems = filteredPoems.filter((p) => (p.popularity_rank ?? 999) >= 900);
+
+  // 其余按路线分组（原排序不变）
   const groupedByRoute: Record<string, PoemIndex[]> = {};
-  filteredPoems.forEach((poem) => {
+  restPoems.forEach((poem) => {
     const key = poem.route_id || 'unassigned';
     if (!groupedByRoute[key]) groupedByRoute[key] = [];
     groupedByRoute[key].push(poem);
   });
+
+  // 诗词卡片渲染（精选区与路线区共用）
+  const renderCard = (poem: PoemIndex) => (
+    <div key={poem.id} className="poem-card">
+      <div className="poem-card-header">
+        <div className="poem-title">{poem.title}</div>
+        <span className={`poem-type ${getTypeClass(poem.type)}`}>{poem.type}</span>
+      </div>
+      <div className="poem-meta">{poem.year ? `${poem.year}年` : ''}</div>
+      {poem.coreVerse && <div className="poem-verse">{poem.coreVerse}</div>}
+      <Link href={`/poems/${poem.id}`} className="poem-action">
+        查看全文与赏析 →
+      </Link>
+    </div>
+  );
 
   if (loading) {
     return (
@@ -92,7 +115,7 @@ export default function PoemsListPage() {
         </button>
         <div className="poems-header-text">
           <div className="poems-title">苏轼诗词全集</div>
-          <div className="poems-count">共 {filteredPoems.length} 首 · 按创作时间</div>
+          <div className="poems-count">共 {filteredPoems.length} 首 · 精选优先</div>
         </div>
       </div>
 
@@ -111,6 +134,17 @@ export default function PoemsListPage() {
 
       {/* 诗词列表 */}
       <div className="poems-content">
+        {/* 精选导读：指定诗词置顶（编辑深度解读） */}
+        {priorityPoems.length > 0 && (
+          <div>
+            <div className="route-header route-header-featured">
+              ★ 精选导读 · 编辑深度解读（{priorityPoems.length}）
+            </div>
+            {priorityPoems.map(renderCard)}
+          </div>
+        )}
+
+        {/* 其余诗词：按路线分组，原排序不变 */}
         {Object.entries(groupedByRoute).map(([routeId, routePoems]) => {
           const route = routes.get(routeId);
           return (
@@ -120,38 +154,7 @@ export default function PoemsListPage() {
                   {route.name} · {route.start_year}—{route.end_year}年
                 </div>
               )}
-              {routePoems.map((poem) => (
-                <div key={poem.id} className="poem-card">
-                  <div className="poem-card-header">
-                    <div className="poem-title">{poem.title}</div>
-                    <span className={`poem-type ${getTypeClass(poem.type)}`}>
-                      {poem.type}
-                    </span>
-                  </div>
-                  <div className="poem-meta">
-                    {poem.year && `${poem.year}年`}
-                  </div>
-                  {poem.coreVerse && (
-                    <div className="poem-verse">
-                      {poem.coreVerse}
-                    </div>
-                  )}
-                  <Link href={`/poems/${poem.id}`} className="poem-action" style={{
-                    display: 'block',
-                    textAlign: 'right',
-                    fontSize: '10px',
-                    fontWeight: 500,
-                    color: '#BA7517',
-                    padding: '8px 0 2px',
-                    marginTop: '8px',
-                    textDecoration: 'none',
-                    letterSpacing: '0.04em',
-                    lineHeight: 1.5
-                  }}>
-                    查看全文与赏析 →
-                  </Link>
-                </div>
-              ))}
+              {routePoems.map(renderCard)}
             </div>
           );
         })}
@@ -268,6 +271,15 @@ export default function PoemsListPage() {
           color: var(--tx3);
           margin: 12px 0 8px;
           padding-left: 4px;
+        }
+
+        /* 精选导读标题 */
+        .route-header-featured {
+          font-size: 12px;
+          font-weight: 600;
+          color: var(--gold-m);
+          letter-spacing: 0.04em;
+          margin: 4px 0 10px;
         }
 
         /* 诗词卡片 */
