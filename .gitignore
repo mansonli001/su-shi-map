@@ -13,6 +13,14 @@
 /.next/
 /out/
 
+# PWA 构建产物（next-pwa / workbox 每次 build 自动生成，不入库以免与实际构建错位）
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
+public/swe-worker-*.js
+public/fallback-*
+
 # production
 /build
 

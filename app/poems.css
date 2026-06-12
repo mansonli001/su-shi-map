@@ -1,0 +1,204 @@
+/**
+ * /poems — 诗词列表页专属样式（独立文件）
+ *
+ * 由 app/globals.css 顶部 @import 引入，合入稳定的全局 CSS 产物，
+ * 不再随 page.tsx 的 styled-jsx 内容变动产生新的按页 CSS chunk hash。
+ * 这样可从源头降低「改 page → 换 CSS hash → 旧 SW 缓存失配 → 整页裸样式」的发生概率，
+ * 且 loading / empty 加载态也能稳定获得样式。
+ *
+ * 范式比照：app/home.css、app/routes.css、app/ink-path.css。
+ * 类名与 app/poems/page.tsx 的 className 完全一致，零改 DOM 结构。
+ * 所有 var(--*) 变量均定义于 globals.css :root。
+ */
+
+.poems-list {
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font-sans);
+}
+
+/* 顶部导航 */
+.poems-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1.1rem 1rem 0.7rem;
+  background: var(--card);
+}
+
+.poems-back-btn {
+  background: transparent;
+  border: none;
+  color: var(--tx2);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+.poems-header-text {
+  flex: 1;
+}
+
+.poems-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--tx);
+}
+
+.poems-count {
+  font-size: 11px;
+  color: var(--gold-m);
+  letter-spacing: 0.05em;
+  margin-top: 2px;
+}
+
+/* 筛选标签 */
+.poems-filters {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 0 1rem 0.7rem;
+  background: var(--card);
+  border-bottom: 0.5px solid var(--bdr);
+}
+
+.filter-chip {
+  font-family: var(--font-serif);
+  font-size: 11px;
+  padding: 5px 13px;
+  border: 0.5px solid var(--bdr);
+  border-radius: 14px;
+  color: var(--tx2);
+  background: transparent;
+  cursor: pointer;
+}
+
+.filter-chip.active {
+  background: var(--gold-m);
+  color: #FAEEDA;
+  border-color: var(--gold-m);
+}
+
+/* 内容区 */
+.poems-content {
+  padding: 0.5rem 1rem 1rem;
+  background: var(--sec);
+}
+
+/* 路线标题 */
+.route-header {
+  font-size: 10px;
+  color: var(--tx3);
+  margin: 12px 0 8px;
+  padding-left: 4px;
+}
+
+/* 精选导读标题 */
+.route-header-featured {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gold-m);
+  letter-spacing: 0.04em;
+  margin: 4px 0 10px;
+}
+
+/* 诗词卡片 */
+.poem-card {
+  background: var(--card);
+  border: 0.5px solid var(--bdr);
+  border-radius: 12px;
+  padding: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.poem-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 0.3rem;
+}
+
+.poem-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tx);
+}
+
+.poem-type {
+  font-size: 9px;
+  padding: 2px 9px;
+  border-radius: 7px;
+}
+
+.poem-type.词 {
+  background: #FAEEDA;
+  color: var(--tour);
+}
+
+.poem-type.诗 {
+  background: #E1F5EE;
+  color: #04342C;
+}
+
+.poem-type.文 {
+  background: #F3E8FF;
+  color: #4C1D95;
+}
+
+.poem-type.赋 {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.poem-type.策 {
+  background: #DBEAFE;
+  color: #1D4ED8;
+}
+
+.poem-meta {
+  font-size: 10px;
+  color: var(--tx3);
+  margin-bottom: 9px;
+}
+
+.poem-verse {
+  border-left: 2px solid var(--gold-d);
+  padding: 4px 10px;
+  font-size: 12px;
+  color: var(--tx);
+  line-height: 1.9;
+  background: var(--sec);
+}
+
+.poem-action,
+.poem-card .poem-action,
+.poem-action:link,
+.poem-action:visited {
+  display: block !important;
+  text-align: right !important;
+  font-size: 10px !important;
+  font-weight: 500 !important;
+  color: #BA7517 !important;
+  padding: 8px 0 2px !important;
+  margin-top: 8px !important;
+  text-decoration: none !important;
+  letter-spacing: 0.04em !important;
+  line-height: 1.5 !important;
+}
+
+.poems-empty {
+  text-align: center;
+  padding: 2rem;
+  color: var(--tx3);
+  font-size: 12px;
+}
+
+/* 加载态 */
+.poems-loading {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--tx3);
+  font-size: 13px;
+  font-family: var(--font-serif);
+}

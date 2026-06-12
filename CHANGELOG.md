@@ -2,7 +2,41 @@
 
 ---
 
+### 99. /poems 裸样式根治：陈旧 SW 缓存致旧 hash CSS 404 + 样式迁移全局化 + PWA 工程治理 + 跨部署缓存自愈
+
+**日期**：2026-06-12
+
+#### 真因（#98 后续深挖修正）
+
+#98 当时归因于「Vercel Analytics 脚本干扰 + scoped 样式依赖过强」，属表象。本轮只读排查确认真因：
+
+1. **当前线上代码与资源自洽**：线上 `/poems` HTML 引用的 CSS、线上 `/sw.js` precache 的 CSS、本地构建产物三者 hash 完全一致——线上构建本身没问题。
+2. **直接原因**：预览设备上残留的**陈旧 Service Worker** 命中了引用「已被 Vercel 清理的旧 hash CSS」的缓存，导致 CSS `404` → 整页裸样式（JS 仍执行，故 446 首数据照常渲染）。
+3. **系统性病根**：①`public/sw.js`、`public/workbox-*.js` 构建产物被错误纳入 git；②PWA 跨部署存在「旧 SW 返回引用已删除资源的 stale 页面」窗口；③`/poems` 关键布局耦合在按页 styled-jsx CSS chunk，一旦失效则整页崩样式；④`loading` 分支不含 `<style jsx>`，加载态本身无样式。
+
+#### 修复措施
+
+- **渲染健壮性根治**：新建 `app/poems.css`，将 `app/poems/page.tsx` 中 `<style jsx>` 全部 scoped 样式（含补回的 `.poems-loading` 加载态）原样迁移，由 `app/globals.css` `@import './poems.css'` 引入（比照 `home.css`/`routes.css`/`ink-path.css` 范式）。类名与 DOM 零改动。样式自此合入稳定全局 CSS 产物，不再随 page 改动产生新按页 chunk hash。
+- **清理 #98 内联兜底**：移除 `renderCard` 内联 `style` 与 `getTypeBadgeStyle()`（已被全局 CSS 更彻底覆盖），`poem-type` 仅保留 `className`。保留 `getTypeClass()`。
+- **PWA 工程治理**：`.gitignore` 排除 `public/sw.js`、`public/sw.js.map`、`public/workbox-*.js`、`public/swe-worker-*.js`、`public/fallback-*`；`git rm --cached public/sw.js public/workbox-7a81587a.js`（仅移出索引，保留本地文件供构建）。
+- **跨部署缓存自愈**：新建 `components/SWUpdateGuard.tsx`（`'use client'`），捕获阶段监听 `window 'error'`，命中 `/_next/static/` 的 `<link>`/`<script>` 加载失败时：更新所有 SW 注册 → 清理 static/precache/workbox 缓存 → 单次 `reload`。`sessionStorage` 去重防死循环，正常路径零开销。已在 `app/layout.tsx` 注入。
+
+#### 验证
+
+- `pnpm build` 通过。
+- `/poems` HTML 引用 CSS（`2523b2655fba9897` + `77e2083b43af001c`）与 `/sw.js` precache **完全一致**。
+- 全部关键样式类（`poems-header`/`filter-chip`/`route-header-featured`/`poem-type`/`poem-verse`/`poem-action`/`poems-loading` 等）均确认合入全局 CSS 产物 `2523b2655fba9897.css`，非按页 chunk。
+- `next dev` 打开 `/poems`（HTTP 200），顶部导航/筛选标签/精选导读/卡片/徽章/金句/行动链接渲染正常。
+
+#### 已中招设备即时止血
+
+部署后新设备由 `SWUpdateGuard` 自动自愈，无需手动操作。当前已裸样式的设备如需立即恢复：DevTools → Application → Service Workers → **Unregister** + **Clear storage** → 硬刷新（或浏览器关闭后重开）。
+
+---
+
 ### 98. 诗词列表渲染一致性修复（预览与线上差异）
+
+> ⚠️ **修正说明（见 #99）**：本条归因（Analytics 脚本干扰 / scoped 样式依赖过强）属表象，真因为「陈旧 SW 缓存致旧 hash CSS 404」。#98 的内联兜底已在 #99 中由全局 CSS 迁移方案取代并移除。Analytics 条件注入（仅 `VERCEL==='1'`）合理，予以保留。
 
 **日期**：2026-06-12
 

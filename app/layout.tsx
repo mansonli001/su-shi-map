@@ -9,6 +9,7 @@ import './globals.css';
 import AMapScript from '@/components/AMapScript';
 import BottomNav from '@/components/BottomNav';
 import PWAInstallBanner from '@/components/PWAInstallBanner';
+import SWUpdateGuard from '@/components/SWUpdateGuard';
 
 const SITE_URL = 'https://su-shi.starfluxes.com';
 
@@ -162,6 +163,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="antialiased overflow-x-hidden min-h-screen flex flex-col">
+        {/* 跨部署缓存自愈：静态资源 404 时自动更新 SW + 清缓存 + 单次刷新 */}
+        <SWUpdateGuard />
         <AMapScript />
         {/* 主内容区：预留底部安全边距，适配底部Tab高度+系统安全区 */}
         <main className="flex-1 pb-[calc(70px+env(safe-area-inset-bottom))]">

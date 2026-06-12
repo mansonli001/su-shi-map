@@ -24,6 +24,9 @@
 /* ========== Ink & Path 设计系统 v1.0（2026-06-05）========== */
 @import './ink-path.css';
 
+/* ========== /poems 诗词列表页 专属样式（独立文件，脱离按页 CSS chunk）========== */
+@import './poems.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
