@@ -196,7 +196,7 @@ export default function AchievementModal({
         {/* 可滚动内容区 */}
         <div data-capture-scroll className="flex-1 overflow-y-auto overscroll-contain">
           {/* 插画区 — 响应式高度 */}
-          <section className="w-full px-6 pt-2 relative">
+          <section className="w-full px-6 pt-4 relative">
             <div className="w-full aspect-[4/3] sm:aspect-auto sm:h-[280px] md:h-[340px] relative group">
               <div className="absolute -inset-2" style={{ background: 'rgba(127,85,57,0.05)', filter: 'blur(24px)' }} />
               <div className="w-full h-full overflow-hidden rounded-sm border shadow-lg relative"
@@ -212,28 +212,31 @@ export default function AchievementModal({
                   style={{ boxShadow: 'inset 0 0 0 1px rgba(255,255,255,0.1)' }}
                 />
               </div>
-              {/* 等级徽章 */}
-              <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 ach-gold-badge px-6 py-1.5 text-xs tracking-[0.2em] border z-10 flex items-center gap-2 whitespace-nowrap"
+            </div>
+            {/* 等级徽章 — 独立居中显示于画作下方，不遮挡画面 */}
+            <div className="flex justify-center mt-6">
+              <div className="ach-gold-badge px-6 py-2 text-xs border rounded-full flex items-center justify-center gap-2 whitespace-nowrap"
                 style={{ color: '#ffffff', borderColor: 'rgba(118,85,56,0.3)' }}
               >
-                <span className="material-symbols-outlined text-base"
+                <span className="material-symbols-outlined text-base leading-none"
                   style={{ fontVariationSettings: "'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}
                 >
                   workspace_premium
                 </span>
-                {tierLabel}
+                {/* tracking 末尾空白用左侧 paddingLeft 补偿，使图标+文字整体视觉居中 */}
+                <span className="leading-none" style={{ letterSpacing: '0.2em', paddingLeft: '0.2em' }}>{tierLabel}</span>
               </div>
             </div>
           </section>
 
           {/* 成就内容 */}
-          <section className="w-full px-8 mt-10 text-center">
-            <h2 className="text-2xl sm:text-[36px] font-bold mb-3 leading-tight" style={{ color: '#765538' }}>
+          <section className="w-full px-8 mt-6 text-center">
+            <h2 className="text-2xl sm:text-[36px] font-bold mb-4 leading-tight" style={{ color: '#765538' }}>
               {achievement.name}
             </h2>
             <div className="ach-lattice-divider w-1/2 mx-auto mb-6" />
             {/* 诗词块 */}
-            <div className="mb-6 text-lg sm:text-xl leading-[1.8]" style={{ color: '#4f453d' }}>
+            <div className="mb-6 text-lg sm:text-xl leading-[1.9]" style={{ color: '#4f453d' }}>
               {achievement.poem.map((line, i) => (
                 <p key={i}>{line}</p>
               ))}
@@ -262,19 +265,19 @@ export default function AchievementModal({
           </section>
 
           {/* 底部信息 + QR码 */}
-          <footer className="w-full py-6 px-8 flex items-center justify-between"
+          <footer className="w-full pt-6 pb-8 px-8 flex items-stretch justify-between gap-5"
             style={{ background: 'rgba(236,224,217,0.4)', borderTop: '1px solid rgba(211,196,185,0.3)' }}
           >
-            <div className="flex flex-col gap-1 min-w-0">
-              <p className="text-base sm:text-lg font-bold leading-tight truncate" style={{ color: '#765538' }}>{achievement.name}</p>
-              <p className="text-[13px] line-clamp-2" style={{ color: 'rgba(79,69,61,0.8)' }}>{achievement.description}</p>
-              <div className="mt-3 pt-3" style={{ borderTop: '1px solid rgba(211,196,185,0.2)' }}>
+            <div className="flex flex-col gap-1.5 min-w-0 flex-1">
+              <p className="text-base sm:text-lg font-bold leading-snug" style={{ color: '#765538' }}>{achievement.name}</p>
+              <p className="text-[13px] leading-relaxed" style={{ color: 'rgba(79,69,61,0.85)' }}>{achievement.description}</p>
+              <div className="mt-auto pt-3" style={{ borderTop: '1px solid rgba(211,196,185,0.2)' }}>
                 {dateStr && (
-                  <p className="text-[10px] tracking-widest uppercase" style={{ color: '#81756b' }}>
+                  <p className="text-[10px] tracking-widest uppercase mb-1" style={{ color: '#81756b' }}>
                     入卷时间 {dateStr}
                   </p>
                 )}
-                <a className="text-[11px] font-bold mt-1 block hover:underline"
+                <a className="text-[11px] font-bold block hover:underline break-all"
                   href="https://su-shi.starfluxes.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -284,11 +287,11 @@ export default function AchievementModal({
                 </a>
               </div>
             </div>
-            <div className="flex flex-col items-center gap-2 shrink-0 ml-4">
-              <div className="p-2 bg-white border shadow-sm" style={{ borderColor: '#d3c4b9' }}>
+            <div className="flex flex-col items-center justify-center gap-2 shrink-0">
+              <div className="p-2 bg-white border shadow-sm rounded-sm" style={{ borderColor: '#d3c4b9' }}>
                 <div ref={qrcodeRef} />
               </div>
-              <span className="text-[11px] font-bold tracking-tighter" style={{ color: '#d3c4b9' }}>扫码同游</span>
+              <span className="text-[11px] font-bold tracking-tight" style={{ color: '#a8968a' }}>扫码同游</span>
             </div>
           </footer>
         </div>
