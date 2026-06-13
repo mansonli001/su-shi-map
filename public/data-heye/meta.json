@@ -1,0 +1,15 @@
+{
+  "schema_version": "heye-v1.0",
+  "generated_at": "2026-06-13T10:52:50.000Z",
+  "data_source": "公众号「有生余年」· 贺野原创",
+  "disclaimer": "地点坐标经人工校验，excerpt 为原文原话引用，版权归原作者所有。",
+  "stats": {
+    "total_places": 298,
+    "province_count": 31,
+    "city_count": 221,
+    "snack_variety": 188,
+    "article_count": 141,
+    "trip_count": 7,
+    "featured_count": 248
+  }
+}

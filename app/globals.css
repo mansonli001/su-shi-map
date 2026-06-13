@@ -83,6 +83,14 @@
   --ink-light:   var(--paper);
   --ink-dark:    var(--ink);
   --ink-accent:  var(--exile);
+
+  /* === 贺野游中国 色板 === */
+  --he-primary:  #C4612A;     /* 暖橙主色 */
+  --he-accent:   #E8854A;     /* 强调橙 */
+  --he-bg:       #FBF7F4;     /* 暖白背景 */
+  --he-ink:      #1A0E08;     /* 深墨棕 */
+  --he-muted:    #8C6A58;     /* 柔和棕 */
+  --he-tag-bg:   #FDE8DC;     /* 标签底色 */
 }
 
 html, body, #__next {

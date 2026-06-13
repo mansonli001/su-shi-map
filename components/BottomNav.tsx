@@ -1,39 +1,53 @@
 /**
- * 底部 Tab 导航 v2.0「Ink & Path」（2026-06-05）
- * - 米白 frosted parchment 底（rgba 0.92 + blur 14px）
- * - active 状态：朱砂红圆点 dot 上浮 + 墨黑文字（不再金色）
- * - icon 切换为 Material Symbols Outlined（与 stitch 设计稿统一）
- * - 4 栏：首页 / 水墨地图 / 古诗集 / 名士录
- * - 完全对齐 references/stitch-pc/ink_path/DESIGN.md「Bottom Navigation」规范：
- *     "A frosted Warm Parchment bar with Deep Ink Black icons.
- *      The active state is indicated by a Cinnabar Red dot above the icon."
+ * 底部 Tab 导航 v3.0「Ink & Path + 贺野」
+ * - 双套导航：苏轼 4 栏 + 切换入口 / 贺野 4 栏 + 切换入口
+ * - 按 usePathname() 是否以 /he-ye 开头切换
+ * - 苏轼：首页 / 水墨地图 / 古诗集 / 名士录 / 贺野游中国→
+ * - 贺野：首页 / 足迹地图 / 文章流 / 旅人录 / ←苏轼行吟山河
+ * - 浮动切换方案：苏轼 / 不动，不设独立选择页
  */
 
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
-const NAV_ITEMS = [
+const SUSHI_NAV = [
   { path: '/',        label: '首页',     icon: 'home' },
   { path: '/explore', label: '水墨地图', icon: 'map' },
   { path: '/poems',   label: '古诗集',   icon: 'auto_stories' },
   { path: '/profile', label: '名士录',   icon: 'person' },
 ];
 
+const HEYE_NAV = [
+  { path: '/he-ye',           label: '首页',     icon: 'home' },
+  { path: '/he-ye/explore',   label: '足迹地图', icon: 'map' },
+  { path: '/he-ye/feed',      label: '文章流',   icon: 'article' },
+  { path: '/he-ye/profile',   label: '旅人录',   icon: 'person' },
+];
+
 export default function BottomNav() {
   const pathname = usePathname() || '/';
+  const isHeye = pathname.startsWith('/he-ye');
+
+  const navItems = isHeye ? HEYE_NAV : SUSHI_NAV;
 
   const isActive = (path: string) => {
-    // /places/* → 高亮「水墨地图」
-    if (path === '/explore' && pathname.startsWith('/places/')) return true;
-    if (path === '/') return pathname === '/';
+    if (!isHeye) {
+      // 苏轼导航逻辑（保持原样）
+      if (path === '/explore' && pathname.startsWith('/places/')) return true;
+      if (path === '/') return pathname === '/';
+      return pathname === path || pathname.startsWith(path + '/');
+    }
+    // 贺野导航逻辑
+    if (path === '/he-ye') return pathname === '/he-ye';
     return pathname === path || pathname.startsWith(path + '/');
   };
 
   return (
-    <nav className="ip-bottomnav" aria-label="底部导航">
-      {NAV_ITEMS.map((item) => {
+    <nav className={`ip-bottomnav ${isHeye ? 'heye-bottomnav' : ''}`} aria-label="底部导航">
+      {navItems.map((item) => {
         const active = isActive(item.path);
         return (
           <Link
@@ -55,6 +69,33 @@ export default function BottomNav() {
           </Link>
         );
       })}
+      {/* 行者切换入口 */}
+      <Link
+        href={isHeye ? '/' : '/he-ye'}
+        className="ip-bottomnav-link ip-bottomnav-switch"
+        aria-label={isHeye ? '切换到苏轼行吟山河' : '切换到贺野游中国'}
+      >
+        {isHeye ? (
+          <span
+            className="material-symbols-outlined ip-bottomnav-icon"
+            aria-hidden="true"
+          >
+            auto_stories
+          </span>
+        ) : (
+          <Image
+            src="/heye-logo.png"
+            alt="贺野"
+            width={22}
+            height={22}
+            className="ip-bottomnav-avatar"
+            style={{ borderRadius: '50%', objectFit: 'cover' }}
+          />
+        )}
+        <span className="ip-bottomnav-label">
+          {isHeye ? '行吟山河' : '贺野游中国'}
+        </span>
+      </Link>
     </nav>
   );
 }

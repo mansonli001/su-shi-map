@@ -1,0 +1,523 @@
+{
+  "_meta": {
+    "generated_at": "2026-06-13T10:52:50.000Z",
+    "schema_version": "heye-v1.0"
+  },
+  "provinces": {
+    "上海": {
+      "place_count": 1,
+      "city_count": 1,
+      "place_ids": [
+        "HY001"
+      ],
+      "density_tier": 1
+    },
+    "云南": {
+      "place_count": 16,
+      "city_count": 12,
+      "place_ids": [
+        "HY002",
+        "HY003",
+        "HY004",
+        "HY005",
+        "HY006",
+        "HY007",
+        "HY008",
+        "HY009",
+        "HY010",
+        "HY011",
+        "HY012",
+        "HY013",
+        "HY014",
+        "HY015",
+        "HY016",
+        "HY017"
+      ],
+      "density_tier": 3
+    },
+    "内蒙古": {
+      "place_count": 11,
+      "city_count": 7,
+      "place_ids": [
+        "HY018",
+        "HY019",
+        "HY020",
+        "HY021",
+        "HY022",
+        "HY023",
+        "HY024",
+        "HY025",
+        "HY026",
+        "HY027",
+        "HY028"
+      ],
+      "density_tier": 3
+    },
+    "北京": {
+      "place_count": 19,
+      "city_count": 3,
+      "place_ids": [
+        "HY029",
+        "HY030",
+        "HY031",
+        "HY032",
+        "HY033",
+        "HY034",
+        "HY035",
+        "HY036",
+        "HY037",
+        "HY038",
+        "HY039",
+        "HY040",
+        "HY041",
+        "HY042",
+        "HY043",
+        "HY044",
+        "HY045",
+        "HY046",
+        "HY047"
+      ],
+      "density_tier": 3
+    },
+    "吉林": {
+      "place_count": 6,
+      "city_count": 6,
+      "place_ids": [
+        "HY048",
+        "HY049",
+        "HY050",
+        "HY051",
+        "HY052",
+        "HY053"
+      ],
+      "density_tier": 3
+    },
+    "四川": {
+      "place_count": 5,
+      "city_count": 5,
+      "place_ids": [
+        "HY054",
+        "HY055",
+        "HY056",
+        "HY057",
+        "HY058"
+      ],
+      "density_tier": 2
+    },
+    "天津": {
+      "place_count": 1,
+      "city_count": 1,
+      "place_ids": [
+        "HY059"
+      ],
+      "density_tier": 1
+    },
+    "宁夏": {
+      "place_count": 1,
+      "city_count": 1,
+      "place_ids": [
+        "HY060"
+      ],
+      "density_tier": 1
+    },
+    "安徽": {
+      "place_count": 13,
+      "city_count": 12,
+      "place_ids": [
+        "HY061",
+        "HY062",
+        "HY063",
+        "HY064",
+        "HY065",
+        "HY066",
+        "HY067",
+        "HY068",
+        "HY069",
+        "HY070",
+        "HY071",
+        "HY072",
+        "HY073"
+      ],
+      "density_tier": 3
+    },
+    "山东": {
+      "place_count": 7,
+      "city_count": 6,
+      "place_ids": [
+        "HY074",
+        "HY075",
+        "HY076",
+        "HY077",
+        "HY078",
+        "HY079",
+        "HY080"
+      ],
+      "density_tier": 3
+    },
+    "山西": {
+      "place_count": 8,
+      "city_count": 7,
+      "place_ids": [
+        "HY081",
+        "HY082",
+        "HY083",
+        "HY084",
+        "HY085",
+        "HY086",
+        "HY087",
+        "HY088"
+      ],
+      "density_tier": 3
+    },
+    "广东": {
+      "place_count": 14,
+      "city_count": 12,
+      "place_ids": [
+        "HY089",
+        "HY090",
+        "HY091",
+        "HY092",
+        "HY093",
+        "HY094",
+        "HY095",
+        "HY096",
+        "HY097",
+        "HY098",
+        "HY099",
+        "HY100",
+        "HY101",
+        "HY102"
+      ],
+      "density_tier": 3
+    },
+    "广西": {
+      "place_count": 8,
+      "city_count": 7,
+      "place_ids": [
+        "HY103",
+        "HY104",
+        "HY105",
+        "HY106",
+        "HY107",
+        "HY108",
+        "HY109",
+        "HY110"
+      ],
+      "density_tier": 3
+    },
+    "新疆": {
+      "place_count": 21,
+      "city_count": 17,
+      "place_ids": [
+        "HY111",
+        "HY112",
+        "HY113",
+        "HY115",
+        "HY116",
+        "HY117",
+        "HY118",
+        "HY119",
+        "HY120",
+        "HY121",
+        "HY122",
+        "HY123",
+        "HY124",
+        "HY125",
+        "HY126",
+        "HY127",
+        "HY128",
+        "HY129",
+        "HY130",
+        "HY131",
+        "HY132"
+      ],
+      "density_tier": 3
+    },
+    "江苏": {
+      "place_count": 19,
+      "city_count": 11,
+      "place_ids": [
+        "HY133",
+        "HY134",
+        "HY135",
+        "HY136",
+        "HY137",
+        "HY138",
+        "HY139",
+        "HY140",
+        "HY141",
+        "HY142",
+        "HY143",
+        "HY144",
+        "HY145",
+        "HY146",
+        "HY147",
+        "HY148",
+        "HY149",
+        "HY150",
+        "HY151"
+      ],
+      "density_tier": 3
+    },
+    "江西": {
+      "place_count": 9,
+      "city_count": 7,
+      "place_ids": [
+        "HY152",
+        "HY153",
+        "HY154",
+        "HY155",
+        "HY156",
+        "HY157",
+        "HY158",
+        "HY159",
+        "HY160"
+      ],
+      "density_tier": 3
+    },
+    "河北": {
+      "place_count": 22,
+      "city_count": 16,
+      "place_ids": [
+        "HY161",
+        "HY162",
+        "HY163",
+        "HY164",
+        "HY165",
+        "HY166",
+        "HY167",
+        "HY168",
+        "HY169",
+        "HY170",
+        "HY171",
+        "HY172",
+        "HY173",
+        "HY174",
+        "HY175",
+        "HY176",
+        "HY177",
+        "HY178",
+        "HY179",
+        "HY180",
+        "HY181",
+        "HY182"
+      ],
+      "density_tier": 3
+    },
+    "河南": {
+      "place_count": 10,
+      "city_count": 8,
+      "place_ids": [
+        "HY183",
+        "HY184",
+        "HY185",
+        "HY186",
+        "HY187",
+        "HY188",
+        "HY189",
+        "HY190",
+        "HY191",
+        "HY193"
+      ],
+      "density_tier": 3
+    },
+    "浙江": {
+      "place_count": 16,
+      "city_count": 12,
+      "place_ids": [
+        "HY194",
+        "HY195",
+        "HY196",
+        "HY197",
+        "HY198",
+        "HY199",
+        "HY200",
+        "HY201",
+        "HY202",
+        "HY203",
+        "HY204",
+        "HY205",
+        "HY206",
+        "HY207",
+        "HY208",
+        "HY209"
+      ],
+      "density_tier": 3
+    },
+    "海南": {
+      "place_count": 15,
+      "city_count": 8,
+      "place_ids": [
+        "HY210",
+        "HY211",
+        "HY212",
+        "HY213",
+        "HY214",
+        "HY215",
+        "HY216",
+        "HY217",
+        "HY218",
+        "HY219",
+        "HY220",
+        "HY221",
+        "HY222",
+        "HY223",
+        "HY224"
+      ],
+      "density_tier": 3
+    },
+    "湖北": {
+      "place_count": 8,
+      "city_count": 7,
+      "place_ids": [
+        "HY225",
+        "HY226",
+        "HY227",
+        "HY228",
+        "HY229",
+        "HY230",
+        "HY231",
+        "HY232"
+      ],
+      "density_tier": 3
+    },
+    "湖南": {
+      "place_count": 6,
+      "city_count": 5,
+      "place_ids": [
+        "HY233",
+        "HY234",
+        "HY235",
+        "HY236",
+        "HY237",
+        "HY238"
+      ],
+      "density_tier": 3
+    },
+    "甘肃": {
+      "place_count": 5,
+      "city_count": 5,
+      "place_ids": [
+        "HY239",
+        "HY240",
+        "HY241",
+        "HY242",
+        "HY243"
+      ],
+      "density_tier": 2
+    },
+    "福建": {
+      "place_count": 11,
+      "city_count": 10,
+      "place_ids": [
+        "HY244",
+        "HY245",
+        "HY246",
+        "HY247",
+        "HY248",
+        "HY249",
+        "HY250",
+        "HY251",
+        "HY252",
+        "HY253",
+        "HY254"
+      ],
+      "density_tier": 3
+    },
+    "西藏": {
+      "place_count": 13,
+      "city_count": 9,
+      "place_ids": [
+        "HY255",
+        "HY256",
+        "HY257",
+        "HY258",
+        "HY259",
+        "HY260",
+        "HY261",
+        "HY262",
+        "HY263",
+        "HY264",
+        "HY265",
+        "HY266",
+        "HY267"
+      ],
+      "density_tier": 3
+    },
+    "贵州": {
+      "place_count": 4,
+      "city_count": 3,
+      "place_ids": [
+        "HY268",
+        "HY269",
+        "HY271",
+        "HY272"
+      ],
+      "density_tier": 2
+    },
+    "辽宁": {
+      "place_count": 9,
+      "city_count": 7,
+      "place_ids": [
+        "HY273",
+        "HY274",
+        "HY275",
+        "HY276",
+        "HY277",
+        "HY278",
+        "HY279",
+        "HY280",
+        "HY281"
+      ],
+      "density_tier": 3
+    },
+    "重庆": {
+      "place_count": 2,
+      "city_count": 2,
+      "place_ids": [
+        "HY282",
+        "HY283"
+      ],
+      "density_tier": 1
+    },
+    "陕西": {
+      "place_count": 4,
+      "city_count": 4,
+      "place_ids": [
+        "HY284",
+        "HY285",
+        "HY286",
+        "HY287"
+      ],
+      "density_tier": 2
+    },
+    "青海": {
+      "place_count": 5,
+      "city_count": 4,
+      "place_ids": [
+        "HY288",
+        "HY289",
+        "HY290",
+        "HY291",
+        "HY292"
+      ],
+      "density_tier": 2
+    },
+    "黑龙江": {
+      "place_count": 9,
+      "city_count": 6,
+      "place_ids": [
+        "HY293",
+        "HY294",
+        "HY295",
+        "HY296",
+        "HY297",
+        "HY298",
+        "HY299",
+        "HY300",
+        "HY301"
+      ],
+      "density_tier": 3
+    }
+  }
+}

@@ -90,7 +90,7 @@ export function loadAMap(): Promise<any> {
         window.AMapLoader.load({
           key: amapKey,
           version: '2.0',
-          plugins: ['AMap.Map', 'AMap.Marker', 'AMap.Polyline', 'AMap.PlaceSearch'],
+          plugins: ['AMap.Map', 'AMap.Marker', 'AMap.Polyline', 'AMap.PlaceSearch', 'AMap.DistrictSearch'],
           SecurityJsCode: securityJsCode,
         })
           .then((AMap: any) => {

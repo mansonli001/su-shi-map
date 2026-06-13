@@ -1,0 +1,212 @@
+{
+  "北京市": {
+    "min_lng": 115.4,
+    "max_lng": 117.5,
+    "min_lat": 39.4,
+    "max_lat": 41.1
+  },
+  "天津市": {
+    "min_lng": 116.7,
+    "max_lng": 118.1,
+    "min_lat": 38.6,
+    "max_lat": 40.3
+  },
+  "河北省": {
+    "min_lng": 113.5,
+    "max_lng": 119.9,
+    "min_lat": 36.1,
+    "max_lat": 42.6
+  },
+  "山西省": {
+    "min_lng": 110.2,
+    "max_lng": 114.6,
+    "min_lat": 34.6,
+    "max_lat": 40.7
+  },
+  "内蒙古自治区": {
+    "min_lng": 97.2,
+    "max_lng": 126.0,
+    "min_lat": 37.5,
+    "max_lat": 53.3
+  },
+  "辽宁省": {
+    "min_lng": 118.9,
+    "max_lng": 125.7,
+    "min_lat": 38.7,
+    "max_lat": 43.5
+  },
+  "吉林省": {
+    "min_lng": 121.7,
+    "max_lng": 131.3,
+    "min_lat": 40.9,
+    "max_lat": 46.3
+  },
+  "黑龙江省": {
+    "min_lng": 121.4,
+    "max_lng": 135.0,
+    "min_lat": 43.4,
+    "max_lat": 53.5
+  },
+  "上海市": {
+    "min_lng": 120.9,
+    "max_lng": 122.1,
+    "min_lat": 30.7,
+    "max_lat": 31.9
+  },
+  "江苏省": {
+    "min_lng": 116.4,
+    "max_lng": 122.0,
+    "min_lat": 30.8,
+    "max_lat": 35.1
+  },
+  "浙江省": {
+    "min_lng": 118.0,
+    "max_lng": 122.8,
+    "min_lat": 27.1,
+    "max_lat": 31.2
+  },
+  "安徽省": {
+    "min_lng": 114.9,
+    "max_lng": 119.6,
+    "min_lat": 29.4,
+    "max_lat": 34.7
+  },
+  "福建省": {
+    "min_lng": 115.9,
+    "max_lng": 120.4,
+    "min_lat": 23.6,
+    "max_lat": 28.3
+  },
+  "江西省": {
+    "min_lng": 113.6,
+    "max_lng": 118.5,
+    "min_lat": 24.5,
+    "max_lat": 30.1
+  },
+  "山东省": {
+    "min_lng": 114.8,
+    "max_lng": 122.7,
+    "min_lat": 34.4,
+    "max_lat": 38.4
+  },
+  "河南省": {
+    "min_lng": 110.4,
+    "max_lng": 116.6,
+    "min_lat": 31.4,
+    "max_lat": 36.4
+  },
+  "湖北省": {
+    "min_lng": 108.4,
+    "max_lng": 116.1,
+    "min_lat": 29.0,
+    "max_lat": 33.3
+  },
+  "湖南省": {
+    "min_lng": 108.9,
+    "max_lng": 114.2,
+    "min_lat": 24.7,
+    "max_lat": 30.1
+  },
+  "广东省": {
+    "min_lng": 109.7,
+    "max_lng": 117.1,
+    "min_lat": 20.3,
+    "max_lat": 25.5
+  },
+  "广西壮族自治区": {
+    "min_lng": 104.5,
+    "max_lng": 112.0,
+    "min_lat": 21.0,
+    "max_lat": 26.3
+  },
+  "海南省": {
+    "min_lng": 108.6,
+    "max_lng": 117.8,
+    "min_lat": 3.8,
+    "max_lat": 20.2
+  },
+  "重庆市": {
+    "min_lng": 105.3,
+    "max_lng": 110.2,
+    "min_lat": 28.2,
+    "max_lat": 32.2
+  },
+  "四川省": {
+    "min_lng": 97.4,
+    "max_lng": 108.5,
+    "min_lat": 26.1,
+    "max_lat": 34.3
+  },
+  "贵州省": {
+    "min_lng": 103.6,
+    "max_lng": 109.6,
+    "min_lat": 24.6,
+    "max_lat": 29.2
+  },
+  "云南省": {
+    "min_lng": 97.5,
+    "max_lng": 106.2,
+    "min_lat": 21.2,
+    "max_lat": 29.2
+  },
+  "西藏自治区": {
+    "min_lng": 78.5,
+    "max_lng": 99.1,
+    "min_lat": 26.9,
+    "max_lat": 36.5
+  },
+  "陕西省": {
+    "min_lng": 105.5,
+    "max_lng": 111.2,
+    "min_lat": 31.7,
+    "max_lat": 39.6
+  },
+  "甘肃省": {
+    "min_lng": 92.4,
+    "max_lng": 108.7,
+    "min_lat": 32.6,
+    "max_lat": 42.6
+  },
+  "青海省": {
+    "min_lng": 89.4,
+    "max_lng": 103.1,
+    "min_lat": 31.6,
+    "max_lat": 39.2
+  },
+  "宁夏回族自治区": {
+    "min_lng": 104.3,
+    "max_lng": 107.7,
+    "min_lat": 35.2,
+    "max_lat": 39.4
+  },
+  "新疆维吾尔自治区": {
+    "min_lng": 73.6,
+    "max_lng": 96.4,
+    "min_lat": 34.4,
+    "max_lat": 49.2
+  },
+  "台湾省": {
+    "min_lng": 119.4,
+    "max_lng": 124.6,
+    "min_lat": 21.9,
+    "max_lat": 25.9
+  },
+  "香港特别行政区": {
+    "min_lng": 113.8,
+    "max_lng": 114.4,
+    "min_lat": 22.2,
+    "max_lat": 22.6
+  },
+  "澳门特别行政区": {
+    "min_lng": 113.5,
+    "max_lng": 113.6,
+    "min_lat": 22.1,
+    "max_lat": 22.2
+  },
+  "": {
+    "min_lng": 108.2,
+    "max_lng": 122.8,
+    "min_lat": 3.4,
+    "max_lat": 24.6
+  }
+}

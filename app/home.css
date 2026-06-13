@@ -422,6 +422,26 @@
   transition: transform 0.2s;
 }
 .ho-ft-card:hover { transform: translateY(-2px); }
+.ho-ft-card--link {
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  color: inherit;
+}
+.ho-ft-name--logo {
+  position: relative;
+  display: inline;
+}
+.ho-ft-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border-radius: 50%;
+  position: absolute;
+  right: calc(100% + 0.4rem);
+  top: 50%;
+  transform: translateY(-50%);
+}
 .ho-ft-name {
   font-family: 'Noto Serif SC', serif;
   font-size: 22px;

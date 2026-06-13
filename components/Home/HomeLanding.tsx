@@ -235,7 +235,6 @@ export default function HomeLanding() {
           {[
             { n: '李白', y: '701 — 762' },
             { n: '杜甫', y: '712 — 770' },
-            { n: '白居易', y: '772 — 846' },
           ].map((f) => (
             <div key={f.n} className="ho-ft-card">
               <div className="ho-ft-name">{f.n}</div>
@@ -243,6 +242,11 @@ export default function HomeLanding() {
               <span className="ho-tag-soon">规划中</span>
             </div>
           ))}
+          <a href="/he-ye" className="ho-ft-card ho-ft-card--link">
+            <div className="ho-ft-name"><span className="ho-ft-name--logo"><img src="/heye-logo.png" alt="" className="ho-ft-logo" />贺野</span></div>
+            <div className="ho-ft-yrs">现在出发</div>
+            <span className="ho-tag-live">已上线</span>
+          </a>
         </div>
       </section>
 
