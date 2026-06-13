@@ -142,7 +142,11 @@ export default function ChinaMapMask({ litProvinces, onProvinceClick, className 
     <div className={`he-china-map-svg-wrapper ${className ?? ''}`}>
       <img
         src="/heye-map/china-map-lit.png"
-        alt="中国地图"
+        alt="贺野足迹 · 中国地图"
+        width={900}
+        height={720}
+        decoding="async"
+        loading="lazy"
         style={{
           display: 'block',
           width: '100%',

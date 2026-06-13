@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-06-13 旅人录渲染修复 + 设计优化
+
+### 渲染根因修复（P0）
+- **样式加载位置上移**：`heye-home.css` 原仅在 `app/he-ye/page.tsx` 引入，导致直接硬加载/刷新 `/he-ye/profile`、`/he-ye/feed`、`/he-ye/explore` 时缺失全站布局样式（页面"裸奔"）。改为在 `app/he-ye/layout.tsx` 统一引入，覆盖所有 `/he-ye/*` 子路由。
+- 移除 `app/he-ye/page.tsx` 中冗余的 CSS import。
+
+### 已知 bug 修复
+- **删除死代码 `components/map/ChinaMapSvg.tsx`**：今日地图已改 PNG，该旧 SVG 组件全项目零引用，且存在 `ProvinceFeature.shortName` 缺失的类型错误，阻断 `next build`。删除后构建恢复通过。
+- 清理 `profile/page.tsx`：移除残留 `console.log` 与失效的省份点击 prop（地图已为纯展示），更新过时注释。
+
+### profile 设计优化
+- 统计卡片：暖色渐变 + 描边 + hover 微浮起。
+- 足迹地图容器：移除与暖橙主题冲突的冷色蓝底（`#EAF4FA`），改暖色渐变。
+- 省份成就区：与统计/地图区左右对齐（移除多余 16px 缩进）。
+- 翻牌卡：正反面增加层次阴影，点亮态轻微浮起。
+- 打卡记录卡片：左侧暖橙强调条 + hover 反馈。
+
+### 性能
+- 地图 `<img>` 增加 `width/height`（防 CLS）+ `decoding="async"` + `loading="lazy"`。
+
+### 涉及文件
+- `app/he-ye/layout.tsx` / `app/he-ye/page.tsx` — CSS 加载位置调整
+- `app/he-ye/profile/page.tsx` — 清理与注释
+- `app/he-ye/heye-home.css` — profile 区域设计优化
+- `components/map/ChinaMapMask.tsx` — 地图图片性能属性
+- `components/map/ChinaMapSvg.tsx` — 删除（死代码）
+
+---
+
 ## 2026-06-13 旅人录页面重构
 
 ### 地图组件

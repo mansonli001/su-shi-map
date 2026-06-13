@@ -835,16 +835,29 @@
 }
 
 .he-profile-stat-card {
-  background: #fff;
-  border-radius: 10px;
-  padding: 1rem;
+  background: linear-gradient(165deg, #ffffff 0%, #FBF6F1 100%);
+  border: 1px solid rgba(196, 97, 42, 0.12);
+  border-radius: 14px;
+  padding: 1.1rem 0.75rem;
   text-align: center;
-  box-shadow: 0 1px 4px rgba(26, 14, 8, 0.06);
+  box-shadow: 0 2px 10px rgba(26, 14, 8, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.he-profile-stat-card:active {
+  transform: translateY(1px);
+}
+
+@media (hover: hover) {
+  .he-profile-stat-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(196, 97, 42, 0.14);
+  }
 }
 
 .he-profile-stat-n {
   font-family: var(--font-serif);
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: var(--he-primary);
   line-height: 1.2;
@@ -890,42 +903,19 @@
 }
 
 .he-china-map-body {
-  background: #f5f0eb;
-  border-radius: 8px;
-  padding: 0.5rem;
+  background: linear-gradient(180deg, #FBF6F1 0%, #F3EAE1 100%);
+  border-radius: 10px;
+  padding: 0.75rem;
   overflow: hidden;
   position: relative;
 }
 
-/* 纯SVG地图容器（替换原来的 he-china-map-img-wrapper） */
+/* PNG 地图容器（暖色主题，去除原冷色蓝底） */
 .he-china-map-svg-wrapper {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  background: #EAF4FA;
-}
-
-.he-china-map-svg-wrapper svg g {
-  cursor: pointer;
-}
-
-@media (hover: hover) {
-  .he-china-map-svg-wrapper svg g:hover path:first-child {
-    filter: brightness(1.08);
-  }
-}
-
-.he-china-svg {
-  display: block;
-  max-width: 100%;
-}
-
-.he-china-svg path {
-  transition: fill 0.4s ease, stroke 0.3s ease;
-}
-
-.he-china-svg g:hover path {
-  filter: brightness(1.1);
+  background: transparent;
 }
 
 .he-china-map-hint {
@@ -935,10 +925,9 @@
   margin-top: 0.5rem;
 }
 
-/* 省份成就区块 */
+/* 省份成就区块（与统计/地图区左右对齐，不额外缩进） */
 .he-province-section {
-  margin-top: 24px;
-  padding: 0 16px 32px;
+  margin-bottom: 2rem;
 }
 
 .he-province-section-title {
@@ -966,7 +955,6 @@
 .he-province-card {
   aspect-ratio: 1 / 1.15;
   perspective: 700px;
-  cursor: pointer;
 }
 
 .he-province-card-inner {
@@ -999,6 +987,7 @@
 
 .he-province-card-front {
   border: 0.5px solid #D4C8B8;
+  box-shadow: 0 1px 4px rgba(26, 14, 8, 0.05);
   z-index: 2;
 }
 
@@ -1006,6 +995,7 @@
   transform: rotateY(180deg);
   border-width: 1px;
   border-style: solid;
+  box-shadow: 0 4px 14px rgba(196, 97, 42, 0.28);
 }
 
 .he-province-card-name {
@@ -1132,9 +1122,18 @@
   align-items: center;
   padding: 0.75rem 1rem;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 10px;
+  border-left: 3px solid var(--he-primary);
   margin-bottom: 0.5rem;
-  box-shadow: 0 1px 2px rgba(26, 14, 8, 0.04);
+  box-shadow: 0 1px 3px rgba(26, 14, 8, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+@media (hover: hover) {
+  .he-checkin-item:hover {
+    transform: translateX(2px);
+    box-shadow: 0 3px 10px rgba(26, 14, 8, 0.08);
+  }
 }
 
 .he-checkin-item-name {

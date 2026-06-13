@@ -1,6 +1,6 @@
 /**
  * 贺野游中国 · 旅人录
- * 纯SVG冰箱贴地图 + 3D翻牌成就卡片 + 打卡记录 + 统计
+ * PNG 足迹地图（纯展示）+ 3D 翻牌省份成就卡 + 打卡记录 + 统计概览
  */
 'use client';
 
@@ -69,10 +69,6 @@ export default function HeyeProfilePage() {
     return new Set(locations.flatMap((l) => l.snacks));
   }, [locations]);
 
-  const handleProvinceClick = (name: string) => {
-    console.log('点击省份:', name, '打卡数:', provincePlaceCount[name] ?? 0);
-  };
-
   return (
     <div className="he-profile">
       {/* 顶栏 */}
@@ -97,7 +93,7 @@ export default function HeyeProfilePage() {
           </div>
         </div>
 
-        {/* 冰箱贴地图（纯SVG，不依赖PNG） */}
+        {/* 足迹地图（PNG 设计图，纯展示） */}
         <div className="he-china-map">
           <div className="he-china-map-header">
             <div className="he-china-map-title">足迹地图</div>
@@ -106,10 +102,7 @@ export default function HeyeProfilePage() {
             </div>
           </div>
           <div className="he-china-map-body">
-            <ChinaMapMask
-              litProvinces={litProvinces}
-              onProvinceClick={handleProvinceClick}
-            />
+            <ChinaMapMask litProvinces={litProvinces} />
           </div>
           <div className="he-china-map-hint">
             每省打卡 {LIT_THRESHOLD} 个地点即可点亮该省
@@ -128,7 +121,6 @@ export default function HeyeProfilePage() {
             litProvinces={litProvinces}
             checkinCounts={provincePlaceCount}
             threshold={LIT_THRESHOLD}
-            onCardClick={handleProvinceClick}
           />
         </div>
 

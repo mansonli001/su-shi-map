@@ -4,6 +4,9 @@
  * - 暖橙配色 body class
  */
 import type { Metadata } from 'next';
+// 贺野全站样式：在 layout 统一加载，确保 /he-ye/* 所有子路由（首页/旅人录/文章流/探索）
+// 在直接硬加载或刷新时都能拿到布局样式，而非仅依赖首页 page.tsx 的 import。
+import './heye-home.css';
 
 export const metadata: Metadata = {
   title: '贺野游中国',

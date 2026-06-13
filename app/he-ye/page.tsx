@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { getHeyeLocationsSSR } from '@/lib/heye-loader-server';
 import { Suspense } from 'react';
 import HeyeHomeClient from './HeyeHomeClient';
-import './heye-home.css';
+// 样式已在 app/he-ye/layout.tsx 统一加载，无需在此重复 import
 
 export default async function HeyeHome() {
   const locations = getHeyeLocationsSSR();
