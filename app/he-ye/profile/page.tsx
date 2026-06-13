@@ -6,9 +6,9 @@
 
 import { useEffect, useState, useMemo } from 'react';
 import { useHeyeStore } from '@/lib/heye-store';
-import { getHeyeLocations, getHeyeProvinceStats } from '@/lib/heye-loader';
+import { getHeyeLocations } from '@/lib/heye-loader';
 import dynamic from 'next/dynamic';
-import type { HeyeLocation, HeyeProvinceStatsMap } from '@/types/heye';
+import type { HeyeLocation } from '@/types/heye';
 
 const ChinaMapMask = dynamic(() => import('@/components/map/ChinaMapMask'), { ssr: false });
 
@@ -22,18 +22,37 @@ const LIT_THRESHOLD = 3;
 export default function HeyeProfilePage() {
   const { heyeCheckins } = useHeyeStore();
   const [locations, setLocations] = useState<HeyeLocation[]>([]);
-  const [provinceStats, setProvinceStats] = useState<HeyeProvinceStatsMap>({});
 
   useEffect(() => {
     getHeyeLocations().then(setLocations);
-    getHeyeProvinceStats().then(setProvinceStats);
   }, []);
 
-  // 每省打卡数量（直辖市合并到对应省）
+  // placeId -> location 映射，用于把打卡记录反查到省份
+  const locationById = useMemo(() => {
+    const map = new Map<string, HeyeLocation>();
+    for (const l of locations) map.set(l.id, l);
+    return map;
+  }, [locations]);
+
+  // 我实际打卡过的地点（按 placeId 去重，过滤掉查不到的脏数据）
+  const checkedLocations = useMemo(() => {
+    const seen = new Set<string>();
+    const result: HeyeLocation[] = [];
+    for (const c of heyeCheckins) {
+      if (seen.has(c.placeId)) continue;
+      seen.add(c.placeId);
+      const loc = locationById.get(c.placeId);
+      if (loc) result.push(loc);
+    }
+    return result;
+  }, [heyeCheckins, locationById]);
+
+  // 每省「实际打卡」数量（直辖市合并到对应省）
   const provincePlaceCount = useMemo(() => {
     const count: Record<string, number> = {};
-    for (const [province, stats] of Object.entries(provinceStats)) {
-      count[province] = stats.placeCount;
+    for (const loc of checkedLocations) {
+      if (!loc.province) continue;
+      count[loc.province] = (count[loc.province] ?? 0) + 1;
     }
     // 直辖市合并到对应省
     const MERGE_MAP: Record<string, string> = {
@@ -48,9 +67,9 @@ export default function HeyeProfilePage() {
       }
     }
     return count;
-  }, [provinceStats]);
+  }, [checkedLocations]);
 
-  // 已点亮的省份
+  // 已点亮的省份（实际打卡满阈值）
   const litProvinces = useMemo(() => {
     const set = new Set<string>();
     for (const [province, count] of Object.entries(provincePlaceCount)) {
@@ -61,13 +80,13 @@ export default function HeyeProfilePage() {
     return set;
   }, [provincePlaceCount]);
 
-  const totalPlaces = useMemo(() => {
-    return Object.values(provincePlaceCount).reduce((a, b) => a + b, 0);
-  }, [provincePlaceCount]);
+  // 实际打卡地点总数
+  const totalPlaces = checkedLocations.length;
 
+  // 实际打卡地点里尝过的小吃（去重）
   const checkedSnacks = useMemo(() => {
-    return new Set(locations.flatMap((l) => l.snacks));
-  }, [locations]);
+    return new Set(checkedLocations.flatMap((l) => l.snacks));
+  }, [checkedLocations]);
 
   return (
     <div className="he-profile">
